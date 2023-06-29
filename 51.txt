@@ -1,0 +1,2 @@
+proxies:
+404: Not Found
