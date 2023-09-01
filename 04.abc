@@ -1,0 +1,17 @@
+proxies:
+  - {name: 🇺🇸 美国_0831119, server: 45.199.138.196, port: 47158, type: vmess, uuid: fe5f69e7-e183-439b-950b-9661ef0651f2, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇺🇸 美国_0831123, server: 142.4.111.76, port: 42002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇺🇸 美国_0831154, server: 199.188.111.244, port: 46500, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇺🇸 美国_0831271, server: 198.200.33.5, port: 51041, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇺🇸 美国加州 2, server: 216.24.57.1, port: 443, type: vmess, uuid: a7ee85f4-2528-412e-994f-ce65f54754e4, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: a7ee85f4, headers: {Host: dd2.1808.cf}}}
+  - {name: 🇺🇸 美国弗吉尼亚州阿什本 CloudFlare节点, server: 173.245.49.236, port: 80, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /shirker, headers: {Host: ca.ilovescp.com}}}
+  - {name: 🇺🇸 美国弗吉尼亚州阿什本NV NEXT数据中心 16, server: 173.245.49.236, port: 80, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /shirker, headers: {Host: ca.ilovescp.com}}}
+  - {name: 🇻🇳 13|越南 04 | 1x VN, server: 2w8u2a04.mcfront.xyz, port: 31874, type: vmess, uuid: 6af0b758-2478-45cb-ad2f-a5b8a5250b5d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: vn04.lovemc.xyz}
+  - {name: 🇻🇳 9|🇻🇳越南04, server: 3v4n04.abzoones.xyz, port: 36874, type: vmess, uuid: d49526f6-031b-4970-ad2e-c68ae5ea07c5, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: vn04.abpilot.xyz}
+  - {name: 🇻🇳 _CN_中国->🇻🇳_VN_越南_24@1, server: 3v4n04.abzoones.xyz, port: 36874, type: vmess, uuid: 343d9a6c-1a83-4f0b-968c-270aafa44964, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: vn04.abpilot.xyz}
+  - {name: 🇻🇳 _VN_越南_8@6, server: vn2.microsoft-orgwly.vip, port: 10019, type: trojan, password: dfcf3cca-47d0-49aa-9143-42ad1873af77, skip-cert-verify: false}
+  - {name: 🇿🇦 github.com/freefq - 南非  4, server: 156.225.67.73, port: 59109, type: vmess, uuid: 21155efd-8e29-43d2-95bc-fe3190ecb1c6, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇿🇦 github.com/freefq - 南非  6, server: 156.225.67.47, port: 49414, type: vmess, uuid: 3ca912da-6ac2-418f-b9cf-45b6f694579b, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇿🇦 github.com/freefq - 南非豪登省约翰内斯堡Cloudinnovation数据中心 3, server: 156.249.18.24, port: 44265, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇿🇦 南非  13, server: 156.225.67.23, port: 43414, type: vmess, uuid: 375e70f0-5d46-476f-8d69-0fb35c5548a9, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇿🇦 南非 V2CROSS.COM, server: 156.225.67.47, port: 49414, type: vmess, uuid: 3ca912da-6ac2-418f-b9cf-45b6f694579b, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false}
