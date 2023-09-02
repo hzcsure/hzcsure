@@ -1,0 +1,13 @@
+proxies:
+  - {name: 🇿🇦 中转 🇿🇦 South Africa 16 @nodpai, server: yidong.liulangdiqiu.cyou, port: 10723, type: ss, cipher: chacha20-ietf-poly1305, password: 27de6fe2-606d-4683-aa22-c1a50a3949cb}
+  - {name: 🇿🇦 中转 🇿🇦 South Africa 17 @nodpai, server: jh.xianyuwangluo.cyou, port: 10723, type: ss, cipher: chacha20-ietf-poly1305, password: 27de6fe2-606d-4683-aa22-c1a50a3949cb}
+  - {name: 🇿🇦 中转 🇿🇦 South Africa 18 @nodpai, server: yidong.liulangdiqiu.cyou, port: 10723, type: ss, cipher: chacha20-ietf-poly1305, password: 27de6fe2-606d-4683-aa22-c1a50a3949cb}
+  - {name: 🇿🇦 中转 🇿🇦 South Africa 19 @nodpai, server: jh.xianyuwangluo.cyou, port: 10723, type: ss, cipher: chacha20-ietf-poly1305, password: 27de6fe2-606d-4683-aa22-c1a50a3949cb}
+  - {name: 🇿🇦 中转 🇿🇦 South Africa 20 @nodpai, server: yidong.liulangdiqiu.cyou, port: 10723, type: ss, cipher: chacha20-ietf-poly1305, password: 27de6fe2-606d-4683-aa22-c1a50a3949cb}
+  - {name: 🇿🇦 中转 🇿🇦 South Africa 21 @nodpai, server: yidong.liulangdiqiu.cyou, port: 10723, type: ss, cipher: chacha20-ietf-poly1305, password: 27de6fe2-606d-4683-aa22-c1a50a3949cb}
+  - {name: 🇿🇦 中转 🇿🇦 South Africa 22 @nodpai, server: jh.xianyuwangluo.cyou, port: 10723, type: ss, cipher: chacha20-ietf-poly1305, password: 27de6fe2-606d-4683-aa22-c1a50a3949cb}
+  - {name: 🇿🇦 中转 🇿🇦 South Africa 23 @nodpai, server: jh.xianyuwangluo.cyou, port: 10723, type: ss, cipher: chacha20-ietf-poly1305, password: 27de6fe2-606d-4683-aa22-c1a50a3949cb}
+  - {name: 🇿🇦 中转 🇿🇦 South Africa 24 @nodpai, server: jh.xianyuwangluo.cyou, port: 10723, type: ss, cipher: chacha20-ietf-poly1305, password: 27de6fe2-606d-4683-aa22-c1a50a3949cb}
+  - {name: 🇿🇦 中转 🇿🇦 South Africa 25 @nodpai, server: yidong.liulangdiqiu.cyou, port: 10723, type: ss, cipher: chacha20-ietf-poly1305, password: 27de6fe2-606d-4683-aa22-c1a50a3949cb}
+  - {name: 🇿🇦 中转 🇿🇦 South Africa 26 @nodpai, server: jh.xianyuwangluo.cyou, port: 10723, type: ss, cipher: chacha20-ietf-poly1305, password: 27de6fe2-606d-4683-aa22-c1a50a3949cb}
+  - {name: 🇿🇦 南非  1, server: 156.225.67.153, port: 47772, type: vmess, uuid: a7fa8f14-4fb6-4280-9005-d6bbe99c5da9, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false}
