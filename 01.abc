@@ -1,0 +1,20 @@
+  - {name: 🇺🇸 @Hope_Net-join-us-on-Telegram 2, server: 1496join.outline-vpn.cloud, port: 44945, type: vmess, uuid: 268a491b-764c-44d1-81a4-30de16130867, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇦🇺 Australia 05 @nodpai, server: 154.26.154.23, port: 55454, type: vmess, uuid: fd8023ea-8a91-3351-aace-905f3b4a3d6e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇭🇰 中转 🇭🇰 Hong Kong 135 @nodpai, server: 103.234.128.130, port: 50882, type: vmess, uuid: fd8023ea-8a91-3351-aace-905f3b4a3d6e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 白嫖-053, server: 152.69.197.60, port: 1069, type: vmess, uuid: ac8e26fe-8150-4b60-ae64-82fc77eba2cf, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 免费梯子https://t.me/mftizi 2, server: 137.175.58.138, port: 53999, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: Server-6, server: odelia.autos, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 1, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: odelia.autos}}}
+  - {name: 🇺🇸 @Hope_Net-join-us-on-Telegram 3, server: ci.outline-vpn.cloud, port: 43123, type: vmess, uuid: 2566d00f-218c-48f7-9a36-13d3d6f1a724, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇬🇧 United Kingdom 02 @nodpai, server: 1-gb.root.45gb-844d-54ed-rgf6-qq12-52dc-fbb4-9ls1-4rfd-3aad-x2s1-yhf3.work, port: 55878, type: vmess, uuid: fd8023ea-8a91-3351-aace-905f3b4a3d6e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: FR_speednode_0047, server: 52.47.63.150, port: 22222, type: trojan, password: telegram-id-privatevpns, sni: trj.rollingnext.co.uk, skip-cert-verify: false}
+  - {name: 🇭🇰 香港_0904162, server: 27.0.232.204, port: 443, type: trojan, password: 77891e6750, sni: hk1.connecton.surf, skip-cert-verify: false}
+  - {name: 白嫖-270, server: 74.119.195.57, port: 443, type: trojan, password: 62963aad-8e90-45b6-949e-33216b260ba6, sni: speed.cloudflare.com, skip-cert-verify: false}
+  - {name: 🇭🇰 中转 🇭🇰 Hong Kong 225 @nodpai, server: 103.234.128.130, port: 60301, type: vmess, uuid: fd8023ea-8a91-3351-aace-905f3b4a3d6e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: JP_speednode_0053, server: ry.ywcloud.cf, port: 443, type: trojan, password: 5eb2c89b-57e8-4fb8-9c22-66ba06479b1d, sni: ry.ywcloud.cf, skip-cert-verify: false}
+  - {name: 🇺🇸 _US_美国 2, server: 74.217.182.122, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /}}
+  - {name: 🇯🇵 Global-日本01-海外客户专用, server: 1-jp.root.45gb-844d-54ed-rgf6-qq12-52dc-fbb4-9ls1-4rfd-3aad-x2s1-yhf3.work, port: 53548, type: vmess, uuid: fd8023ea-8a91-3351-aace-905f3b4a3d6e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: CA_youtube@资源分享师_32, server: 23.227.38.81, port: 443, type: vmess, uuid: 6deddb7f-e557-42db-bfa0-cf40b36b27e2, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /dongtaiwang.com, headers: {Host: d.freeh1.xyz}}}
+  - {name: 白嫖-174, server: uk1.connecton.surf, port: 443, type: trojan, password: ee4657c907, skip-cert-verify: false}
+  - {name: 🇺🇸 美国_0904630, server: 45.33.42.77, port: 80, type: vmess, uuid: ad2114aa-c20b-4810-8f53-a451536b078f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /}}
+  - {name: 🇺🇸 美国_Telegram@kxswa 2, server: zfc.windowsupdate1.com, port: 443, type: vmess, uuid: 6abfe33a-1894-4f62-8879-83b71a35e5fd, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: us-1.acyun.tk}}}
+  - {name: AL_speednode_0001, server: 109.104.155.144, port: 443, type: trojan, password: f10d5c0ce1, skip-cert-verify: false}
