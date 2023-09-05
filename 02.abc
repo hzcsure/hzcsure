@@ -1,3 +1,4 @@
+proxies:
   - {name: "🇭🇰 香港_0903087\r\r", server: kaizen-hk-1.cmy-dns.com, port: 443, type: trojan, password: 7d6f16c7-d91e-3c05-aa5b-5f800ff93473cmynw, sni: paydiu.com, skip-cert-verify: false}
   - {name: 白嫖-551, server: tj1.dalazhi.eu.org, port: 443, type: trojan, password: d256e73b-8259-490a-aeb5-23f6a3636a1a, skip-cert-verify: false}
   - {name: 🇬🇧 _GB_英国, server: 172.99.190.12, port: 22324, type: vmess, uuid: 04621bae-ab36-11ec-b909-0242ac120002, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}

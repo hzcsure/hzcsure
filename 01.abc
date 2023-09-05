@@ -1,3 +1,4 @@
+proxies:
   - {name: 🇺🇸 @Hope_Net-join-us-on-Telegram 2, server: 1496join.outline-vpn.cloud, port: 44945, type: vmess, uuid: 268a491b-764c-44d1-81a4-30de16130867, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false}
   - {name: 🇦🇺 Australia 05 @nodpai, server: 154.26.154.23, port: 55454, type: vmess, uuid: fd8023ea-8a91-3351-aace-905f3b4a3d6e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
   - {name: 🇭🇰 中转 🇭🇰 Hong Kong 135 @nodpai, server: 103.234.128.130, port: 50882, type: vmess, uuid: fd8023ea-8a91-3351-aace-905f3b4a3d6e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
