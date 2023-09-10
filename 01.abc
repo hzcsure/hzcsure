@@ -1,5 +1,4 @@
 proxies:
-  - {name: 2022.06.08_🇺🇸US_2337, server: 38.114.114.67, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
   - {name: 2022.06.08_🇺🇸US_2338, server: 172.99.190.149, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
   - {name: 2022.06.08_🇺🇸US_2339, server: 38.107.226.49, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
   - {name: 2022.06.08_🇺🇸US_2340, server: 38.143.66.55, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
@@ -799,3 +798,4 @@ proxies:
   - {name: 2022.11.07_🇺🇸US_120, server: 137.184.164.233, port: 80, type: vmess, uuid: 5cee90e3-b915-4f1e-bb8d-efadad0c6feb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /vmess}}
   - {name: 2022.11.07_🇺🇸US_121, server: 170.187.185.37, port: 443, type: vmess, uuid: 927094d3-d678-4763-8591-e240d0bcae87, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /chat}}
   - {name: 2022.11.07_🇺🇸US_123, server: 47.243.36.34, port: 55986, type: vmess, uuid: 87ed289f-cae3-49b4-bbe3-23da298c0e81, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, servername: 47.243.36.34, network: http, http-opts: {method: GET, path: [/]}}
+  - {name: 2022.11.07_🏁ZZ_127, server: 103.172.116.6, port: 9032, type: ss, cipher: aes-256-cfb, password: UWZQeLRWnkqgkseq}
