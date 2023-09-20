@@ -11,4 +11,7 @@ session_string = os.environ.get("SESSION_STRING", "")
 
 client = TelegramClient(StringSession(session_string), api_id, api_hash)
 client.start()
-print(client.get_me().stringify())
+client.send_message('freenodeshare_bot', '/get')
+for message in client.get_messages('freenodeshare_bot', limit=3):
+    print(message.message)
+#print(client.get_me().stringify())
