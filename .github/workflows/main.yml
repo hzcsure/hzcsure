@@ -8,6 +8,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Hello world action
+        uses: actions/checkout@v2
       - shell: bash
         env: # Or as an environment variable
           super_secret: ${{ secrets.ARG_A }}
