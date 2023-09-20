@@ -7,8 +7,8 @@ jobs:
   build:
     runs-on: ubuntu-latest
     env:
-      ARG_A: ${{ secrets.ARG_A }}
-      ARG_B: ${{ secrets.ARG_B }}
+      ARG_A: AAAAAAAAAAA
+      ARG_B: BBBBBBBBBBB
     steps:
       - name: Checkout
         uses: actions/checkout@v2
