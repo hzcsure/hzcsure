@@ -11,7 +11,9 @@ jobs:
         with: # Set the secret as an input
           super_secret: ${{ secrets.ARG_A }}
         uses: actions/checkout@v2
-      - shell: bash
+      - name: run
         run: |
           echo $super_secret
           python3 -c "print('abc')"
+        env: # Or as an environment variable
+          super_secret: ${{ secrets.ARG_A }}
