@@ -8,10 +8,10 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Hello world action
+        with: # Set the secret as an input
+          super_secret: ${{ secrets.ARG_A }}
         uses: actions/checkout@v2
       - shell: bash
-        env: # Or as an environment variable
-          super_secret: ${{ secrets.ARG_A }}
         run: |
-          echo "$env:SUPER_SECRET"
+          echo $super_secret
           python3 -c "print('abc')"
