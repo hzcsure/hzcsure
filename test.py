@@ -12,7 +12,7 @@ send_to = os.environ.get("SEND_TO", "")
 send_ms = os.environ.get("SEND_MS", "")
 client = TelegramClient(StringSession(session_string), api_id, api_hash)
 client.start()
-client.send_message('freenodeshare_bot', send_ms)
+client.send_message('freenodeshare_bot', '/get')
 for message in client.get_messages('freenodeshare_bot', limit=3):
     print(message.message)
 #print(client.get_me().stringify())
