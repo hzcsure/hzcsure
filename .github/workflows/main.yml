@@ -9,7 +9,7 @@ jobs:
     steps:
       - name: Hello world action
         with: # Set the secret as an input
-          super_secret: ${{ TEST_EN.ARG_A }}
+          super_secret: ${{ secrets.ARG_A }}
         uses: actions/checkout@v2
       - shell: bash
         run: |
