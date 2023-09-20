@@ -13,3 +13,4 @@ jobs:
           super_secret: ${{ secrets.ARG_A }}
         run: |
           echo "$env:SUPER_SECRET"
+          python3 -c "print("ABC")"
