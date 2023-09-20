@@ -15,4 +15,4 @@ jobs:
           python3 -c "import os ; print('abc') ; print(os.environ.get('super_secret'))"
           
         env: # Or as an environment variable
-          super_secret: ${{ secrets.ARG_A }}
+          super_secret: CCCCCCCCC
