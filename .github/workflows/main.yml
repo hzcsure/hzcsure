@@ -1,0 +1,28 @@
+name: Test_telethon
+
+on: 
+  workflow_dispatch:
+env: # Or as an environment variable
+  API_HASH: ${{ secrets.API_HASH }}
+  API_ID: ${{ secrets.API_ID }}
+  SESSION_STRING: ${{ secrets.SESSION_STRING }}
+  SEND_TO: ${{ secrets.SEND_TO }}
+  SEND_MS: ${{ secrets.SEND_MS }}
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+      - name: Set up Python3
+        uses: actions/setup-python@v2
+        with:
+          python-version: '3.10'
+      - name: Install requirements
+        run: |
+          python3 -m pip install --upgrade pip
+          python3 -m pip install --upgrade telethon
+      - name: Run
+        run: python3 ./test.py
+        
+          
