@@ -21,6 +21,8 @@ jobs:
           python3 -m pip install --upgrade pip
           python3 -m pip install --upgrade telethon
       - name: Run
+        env: # Or as an environment variable
+          ARG_A: ${{ secrets.ARG_A }}
         run: python3 ./test.py
 
         
