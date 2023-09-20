@@ -5,3 +5,4 @@ from telethon import functions, types
 from telethon.sessions import StringSession
 
 print("hello telethon！！！")
+ print(ARG_A is {os.environ.get("ARG_A", "")}')
