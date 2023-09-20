@@ -12,6 +12,6 @@ jobs:
       - name: run
         run: |
           echo "$env:SUPER_SECRET"
-          python3 -c "import os ; print('abc') ; print(os.environ.get('super_secret');print('abc))"
+          python3 -c "import os ; print('abc') ; print(os.environ.get('super_secret');print('abc'))"
         env: # Or as an environment variable
           super_secret: CCCCCCCCC
