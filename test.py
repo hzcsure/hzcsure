@@ -13,6 +13,8 @@ send_ms = os.environ.get("SEND_MS", "")
 client = TelegramClient(StringSession(session_string), api_id, api_hash)
 client.start()
 client.send_message(send_to,send_ms)
-for message in client.get_messages(send_to, limit=3):
-    print(message.message)
+message = client.get_messages(send_to, limit=3)[2]
+print(message.message)
+with open('example.txt', 'w') as f:
+     f.write(message.message)
 #print(client.get_me().stringify())
