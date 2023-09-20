@@ -1,4 +1,4 @@
-name: catChecker
+name: Test_telethon
 
 on: 
   workflow_dispatch:
