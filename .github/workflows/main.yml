@@ -3,7 +3,7 @@ name: Test_telethon
 on: 
   workflow_dispatch:
 env: # Or as an environment variable
-  super_secret: CCCCCCCCC
+  super_secret: ${{ secrets.ARG_A }}
 jobs:
   build:
     runs-on: ubuntu-latest
