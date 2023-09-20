@@ -6,9 +6,6 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
-    env:
-      ARG_A: AAAAAAAAAAA
-      ARG_B: BBBBBBBBBBB
     steps:
       - name: Checkout
         uses: actions/checkout@v2
