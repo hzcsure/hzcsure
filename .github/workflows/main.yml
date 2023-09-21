@@ -17,11 +17,25 @@ jobs:
       - name: Install requirements
         run: |
           python3 -m pip install --upgrade telethon
-      - name: Run
+      - name: RuntestPy
         run: python3 test.py
       - name: Run
         run: |
           pwd
           ls -ltr
+      - name: Commit
+        env:
+          GIT_NAME: GitHub Actions[Bot]
+          GIT_EMAIL: 41898282+github-actions[bot]@users.noreply.github.com
+        run: |
+          git config --local user.name $GIT_NAME
+          git config --local user.email $GIT_EMAIL
+          git add example.txt
+          git commit -m "Github action update at `date '+%Y-%m-%d %H:%M:%S'`."
+      - name: Push
+        uses: ad-m/github-push-action@master
+        with:
+          github_token: ${{ secrets.PUSH_TOKEN }}
+          branch: master
         
           
