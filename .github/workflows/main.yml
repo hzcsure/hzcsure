@@ -33,9 +33,9 @@ jobs:
           git add example.txt
           git commit -m "Github action update at `date '+%Y-%m-%d %H:%M:%S'`."
       - name: Push
-        uses: ad-m/github-push-action@master
+        uses: ad-m/github-push-action@main
         with:
           github_token: ${{ secrets.PUSH_TOKEN }}
-          branch: master
+          branch: main
         
           
