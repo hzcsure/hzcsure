@@ -1,6 +1,8 @@
 name: Test_telethon
 
 on: 
+  schedule:
+    - cron: "0 * * * *"
   workflow_dispatch:
 env: # Or as an environment variable
   API_HASH: ${{ secrets.API_HASH }}
