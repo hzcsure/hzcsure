@@ -21,7 +21,7 @@ jobs:
         run: python3 test.py
       - name: Run
         run: |
-          pwd
+          date
           ls -ltr
       - name: Commit
         env:
