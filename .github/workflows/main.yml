@@ -3,7 +3,7 @@ name: Test_telethon
 on:
   workflow_dispatch:
   schedule:
-    - cron: '20 * * * *'
+    - cron: '31 13 * * *'
 env: # Or as an environment variable
   API_HASH: ${{ secrets.API_HASH }}
   API_ID: ${{ secrets.API_ID }}
