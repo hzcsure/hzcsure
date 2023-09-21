@@ -1,6 +1,9 @@
 name: Test_telethon
 
 on:
+  repository_dispatch:
+    types:
+      - letaction
   workflow_dispatch:
 env: # Or as an environment variable
   API_HASH: ${{ secrets.API_HASH }}
