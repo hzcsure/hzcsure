@@ -1,6 +1,9 @@
 name: Test_telethon
 
-on: 
+on:
+  repository_dispatch:
+    types:
+      - letaction
   workflow_dispatch:
 env: # Or as an environment variable
   API_HASH: ${{ secrets.API_HASH }}
@@ -13,16 +16,29 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
-        uses: actions/checkout@v2
-      - name: Set up Python3
-        uses: actions/setup-python@v2
-        with:
-          python-version: '3.10'
+        uses: actions/checkout@v3
       - name: Install requirements
         run: |
-          python3 -m pip install --upgrade pip
           python3 -m pip install --upgrade telethon
+      - name: RuntestPy
+        run: python3 test.py
       - name: Run
-        run: python3 ./test.py
+        run: |
+          date
+          ls -ltr
+      - name: Commit
+        env:
+          GIT_NAME: GitHub Actions[Bot]
+          GIT_EMAIL: 41898282+github-actions[bot]@users.noreply.github.com
+        run: |
+          git config --local user.name $GIT_NAME
+          git config --local user.email $GIT_EMAIL
+          git add example.txt
+          git commit -m "Github action update at `date '+%Y-%m-%d %H:%M:%S'`."
+      - name: Push
+        uses: ad-m/github-push-action@master
+        with:
+          github_token: ${{ secrets.PUSH_TOKEN }}
+          branch: main
         
           

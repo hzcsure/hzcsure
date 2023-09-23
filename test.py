@@ -4,6 +4,7 @@ import os
 from telethon import TelegramClient, events, sync
 from telethon import functions, types
 from telethon.sessions import StringSession
+import time
 
 api_id = os.environ.get("API_ID", "")
 api_hash = os.environ.get("API_HASH", "")
@@ -13,8 +14,14 @@ send_ms = os.environ.get("SEND_MS", "")
 client = TelegramClient(StringSession(session_string), api_id, api_hash)
 client.start()
 client.send_message(send_to,send_ms)
-message = client.get_messages(send_to, limit=3)[2]
+time.sleep(1)
+message = client.get_messages(send_to, limit=2)[1]
+time.sleep(0.5)
+message = client.get_messages(send_to, limit=2)[1]
+time.sleep(0.5)
+message = client.get_messages(send_to, limit=2)[1]
 print(message.message)
 with open('example.txt', 'w') as f:
      f.write(message.message)
+     f.close()
 #print(client.get_me().stringify())
