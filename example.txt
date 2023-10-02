@@ -1,1 +1,10 @@
-/get
+trojan://3f0e8ecd-f30f-4881-acf6-b5037b3c99a9@us.kunlun-ppg.com:10824?allowInsecure=1&sni=alibaba-node.cn#%E4%B8%AD%E8%BD%AC%E8%8A%82%E7%82%B9-4.33MB%2Fs
+trojan://3f0e8ecd-f30f-4881-acf6-b5037b3c99a9@other.kunlun-ppg.com:10848?allowInsecure=1&sni=alibaba-node.cn#%E4%B8%AD%E8%BD%AC%E8%8A%82%E7%82%B9-2.26MB%2Fs
+trojan://65b2cf63-a998-417f-88df-8e1c4ff27a98@bpus21.mybestjj.com:443?allowInsecure=1#%E7%BE%8E%E5%9B%BD-4.32MB%2Fs
+trojan://3f0e8ecd-f30f-4881-acf6-b5037b3c99a9@other.kunlun-ppg.com:10839?allowInsecure=1&sni=alibaba-node.cn#%E4%B8%AD%E8%BD%AC%E8%8A%82%E7%82%B9-2.95MB%2Fs
+trojan://A3A1371F-017B-4A5A-99F2-8F4AFF0798B1@cdn-downloads.000023.xyz:443?allowInsecure=1&sni=downloads.000023.xyz&ws=1&wspath=%2F3f5h8j4k6p0r2t4v6x9z1b3d5f6h8j#%E6%9C%AA%E7%9F%A5%E5%9B%BD%E5%AE%B6-2.43MB%2Fs
+trojan://3f0e8ecd-f30f-4881-acf6-b5037b3c99a9@other.kunlun-ppg.com:10844?allowInsecure=1&sni=alibaba-node.cn#%E4%B8%AD%E8%BD%AC%E8%8A%82%E7%82%B9-1.38MB%2Fs
+trojan://3f0e8ecd-f30f-4881-acf6-b5037b3c99a9@us.kunlun-ppg.com:10819?allowInsecure=1&sni=alibaba-node.cn#%E4%B8%AD%E8%BD%AC%E8%8A%82%E7%82%B9-4.03MB%2Fs
+trojan://1ea3f940-af51-4ace-9716-60c3a531f29d@other.kunlun-ppg.com:10843?allowInsecure=1&sni=alibaba-node.cn#%E4%B8%AD%E8%BD%AC%E8%8A%82%E7%82%B9-824.5KB%2Fs
+trojan://077cb5a0-1c04-43d2-88db-eb4b37d2f3b9@other.kunlun-ppg.com:10843?allowInsecure=1&sni=alibaba-node.cn#%E4%B8%AD%E8%BD%AC%E8%8A%82%E7%82%B9-759.7KB%2Fs
+trojan://3f0e8ecd-f30f-4881-acf6-b5037b3c99a9@other.kunlun-ppg.com:10837?allowInsecure=1&sni=alibaba-node.cn#%E4%B8%AD%E8%BD%AC%E8%8A%82%E7%82%B9-2.94MB%2Fs
