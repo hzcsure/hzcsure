@@ -1,10 +1,1 @@
-trojan://PJUKhmVpDDqtAvMHDvmMpoQYChiuwjgv@jfqcw-1076-tr-4.r-kcd-d.ddll.bond:29979?allowInsecure=1&sni=cdn.cjhh.lol#%E4%B8%AD%E8%BD%AC%E8%8A%82%E7%82%B9-2.01MB%2Fs
-trojan://telegram-id-directvpn@15.188.245.217:22222?allowInsecure=1#%E6%B3%95%E5%9B%BD-2.60MB%2Fs
-ss://YWVzLTI1Ni1jZmI6YW1hem9uc2tyMDU@43.202.33.89:443#%E9%9F%A9%E5%9B%BD-134.6KB%2Fs
-ss://YWVzLTI1Ni1jZmI6YW1hem9uc2tyMDU@43.200.6.140:443#%E9%9F%A9%E5%9B%BD-452.3KB%2Fs
-vmess://eyJ2IjoiMiIsInBzIjoi5pyq55+l5Zu95a62LTExNi4yS0IvcyIsImFkZCI6ImNmLnl4LmFsdWUubGluayIsInBvcnQiOiIyMDUyIiwidHlwZSI6Im5vbmUiLCJpZCI6ImZlNWVkZjA0LWMyYWYtNGFjNS04NGVlLTE2ZDQzMDI0ZGVjYiIsImFpZCI6IjAiLCJuZXQiOiJ3cyIsInBhdGgiOiIvIiwiaG9zdCI6Imx1Lnd4LmFsdWUubGluayIsInRscyI6IiJ9
-ss://YWVzLTI1Ni1jZmI6YW1hem9uc2tyMDU@18.142.181.176:443#%E6%96%B0%E5%8A%A0%E5%9D%A1-853.8KB%2Fs
-ss://YWVzLTI1Ni1nY206RHVFNkdwbGFhcA@24.199.103.101:35678#%E7%BE%8E%E5%9B%BD-1.66MB%2Fs
-trojan://telegram-id-privatevpns@18.156.132.67:22222?allowInsecure=1#%E5%BE%B7%E5%9B%BD-681.3KB%2Fs
-trojan://telegram-id-privatevpns@3.11.11.8:22222?allowInsecure=1#%E8%8B%B1%E5%9B%BD-981.4KB%2Fs
-vmess://eyJ2IjoiMiIsInBzIjoi5Y+w5rm+LTMuNTBNQi9zIiwiYWRkIjoiNDZjYWFkYi5mMi5nbGFkbnMuY29tIiwicG9ydCI6IjMzMzEiLCJ0eXBlIjoibm9uZSIsImlkIjoiNTdlMGNiNGQtZWFlNS00OGVjLTgwOTEtMTQ5ZGMyYjMwOWUwIiwiYWlkIjoiMCIsIm5ldCI6IndzIiwicGF0aCI6Ii9zLzQ2Y2FhZGIuZm0uYXBwbGUuY29tOjYwOTgwIiwiaG9zdCI6IjQ2Y2FhZGIuZjIuZ2xhZG5zLmNvbSIsInRscyI6InRscyJ9
+ss://bm9uZTpAYnVsaWFuZzAw@1.1.1.1:6666#%e8%8e%b7%e5%8f%96%e8%8a%82%e7%82%b9%e5%bc%82%e5%b8%b8%ef%bc%8c%e8%af%b7%e5%9c%a8%e4%b8%8b%e4%b8%aa%e6%97%b6%e6%ae%b5%e9%87%8d%e8%af%95
