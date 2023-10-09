@@ -1,1 +1,10 @@
-/get
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTp2d2FMTktBMlJXMmNPSktOQUhpYXcy@154.93.51.150:443#%E7%BE%8E%E5%9B%BD-746.8KB%2Fs
+trojan://e0ca72b2-eb7c-4498-b05e-28a3681bacbf@108.181.22.161:443?allowInsecure=1&sni=glc-us2.windowsupdatea.com#%E5%8A%A0%E6%8B%BF%E5%A4%A7-152.8KB%2Fs
+trojan://telegram-id-directvpn@3.12.205.207:22222?allowInsecure=1#%E7%BE%8E%E5%9B%BD-3.43MB%2Fs
+trojan://e0ca72b2-eb7c-4498-b05e-28a3681bacbf@141.193.68.81:443?allowInsecure=1&sni=glc-us3.windowsupdatea.com#%E7%BE%8E%E5%9B%BD-2.83MB%2Fs
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpCZjdRb1hlVE1OTVprMndOdEc5d3Qw@us03-tencent.shawbrothersstudio.com:55828#%E7%BE%8E%E5%9B%BD-1.05MB%2Fs
+trojan://e0ca72b2-eb7c-4498-b05e-28a3681bacbf@112.120.127.15:443?allowInsecure=1&sni=glc-hkt1.windowsupdatea.com#%E9%A6%99%E6%B8%AF-13.89MB%2Fs
+trojan://e0ca72b2-eb7c-4498-b05e-28a3681bacbf@89.163.220.99:443?allowInsecure=1&sni=glc-de1.windowsupdatea.com#%E5%BE%B7%E5%9B%BD-450.7KB%2Fs
+trojan://57a5a57b-8d70-40d0-9bb4-2fefe44762f2@212.192.15.145:49487?allowInsecure=1&sni=bphk3.mybestjj.com#%E4%BF%84%E7%BD%97%E6%96%AF%E8%81%94%E9%82%A6-2.13MB%2Fs
+trojan://57a5a57b-8d70-40d0-9bb4-2fefe44762f2@209.141.51.75:443?allowInsecure=1&sni=www.visa.cn#%E7%BE%8E%E5%9B%BD-4.62MB%2Fs
+ssr://MTUwLjEwNy40Ni4yMTo4MDgzOm9yaWdpbjphZXMtMjU2LWNmYjp0bHMxLjJfdGlja2V0X2F1dGg6YVVaeGJucFRjMk5PLz9ncm91cD1VMU5TVUhKdmRtbGtaWEkmcmVtYXJrcz02YWFaNXJpdkxURTFOeTR5UzBJdmN3Jm9iZnNwYXJhbT0mcHJvdG9wYXJhbT0
