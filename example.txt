@@ -1,4 +1,1 @@
-ss://YWVzLTEyOC1nY206ZzEyc1FpI3NzIyYx@183.232.170.32:30015/?plugin=v2ray-plugin%3Bmode%3Dwebsocket%3Bmux%3D4%3Bmux%3Dmux%3D4%3B%3B#%E4%B8%AD%E8%BD%AC%E8%8A%82%E7%82%B9-358.8KB%2Fs
-ss://YWVzLTEyOC1nY206YS13eW00b3ZZNFl3@47.243.182.168:443/?plugin=v2ray-plugin%3Bmode%3Dwebsocket%3Bmux%3D4%3Bmux%3Dmux%3D4%3B%3B#%E9%A6%99%E6%B8%AF-690.3KB%2Fs
-trojan://KYAawE5EGp@45.63.106.86:39277?allowInsecure=1#%E7%BE%8E%E5%9B%BD-1.24MB%2Fs
-trojan://vbmwVEzFLS@45.63.106.86:17831?allowInsecure=1#%E7%BE%8E%E5%9B%BD-130.7KB%2Fs
+ss://bm9uZTpAYnVsaWFuZzAw@1.1.1.1:6666#%e8%8e%b7%e5%8f%96%e8%8a%82%e7%82%b9%e5%bc%82%e5%b8%b8%ef%bc%8c%e8%af%b7%e5%9c%a8%e4%b8%8b%e4%b8%aa%e6%97%b6%e6%ae%b5%e9%87%8d%e8%af%95
