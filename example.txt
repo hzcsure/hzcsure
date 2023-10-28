@@ -1,1 +1,10 @@
-/get
+trojan://5ebd8b4a-c2a9-42fe-8724-56cbda8763ee@jp.kunlun-ppg.com:10812?allowInsecure=1&sni=alibaba-node.cn#%E4%B8%AD%E8%BD%AC%E8%8A%82%E7%82%B9-10.64MB%2Fs
+trojan://5ebd8b4a-c2a9-42fe-8724-56cbda8763ee@other.kunlun-ppg.com:10846?allowInsecure=1&sni=alibaba-node.cn#%E4%B8%AD%E8%BD%AC%E8%8A%82%E7%82%B9-2.69MB%2Fs
+trojan://5ebd8b4a-c2a9-42fe-8724-56cbda8763ee@sg.kunlun-ppg.com:10829?allowInsecure=1&sni=alibaba-node.cn#%E4%B8%AD%E8%BD%AC%E8%8A%82%E7%82%B9-8.46MB%2Fs
+trojan://5ebd8b4a-c2a9-42fe-8724-56cbda8763ee@sg.kunlun-ppg.com:10834?allowInsecure=1&sni=alibaba-node.cn#%E4%B8%AD%E8%BD%AC%E8%8A%82%E7%82%B9-10.08MB%2Fs
+trojan://5ebd8b4a-c2a9-42fe-8724-56cbda8763ee@other.kunlun-ppg.com:10835?allowInsecure=1&sni=alibaba-node.cn#%E4%B8%AD%E8%BD%AC%E8%8A%82%E7%82%B9-8.94MB%2Fs
+trojan://7cea4e6c-ccb7-48c0-a8ba-77826f836102@fschk.1234567890spcloud.com:20006?allowInsecure=1&sni=ceshii.1234567890spcloud.com#%E6%97%A5%E6%9C%AC-977.4KB%2Fs
+trojan://7cea4e6c-ccb7-48c0-a8ba-77826f836102@fschk.1234567890spcloud.com:20003?allowInsecure=1#%E6%97%A5%E6%9C%AC-3.49MB%2Fs
+trojan://7cea4e6c-ccb7-48c0-a8ba-77826f836102@fschk.1234567890spcloud.com:20002?allowInsecure=1&sni=ceshii.1234567890spcloud.com#%E6%97%A5%E6%9C%AC-3.75MB%2Fs
+trojan://4e9451c6-0678-4e37-acc9-8afcc39451c5@us1-reality.fp3kemyh-cm4s-2hak-2gb9-w3534umy2sq5.9d8f269f96b25232-759cbb36d6548597.kaufen:443?allowInsecure=1&sni=13-231-155-134.nhost.00cdn.com#%E5%B7%B4%E5%9F%BA%E6%96%AF%E5%9D%A6-4.81MB%2Fs
+trojan://M83a100a@183.213.200.208:28157?allowInsecure=1&sni=www.icloud.com#%E4%B8%AD%E8%BD%AC%E8%8A%82%E7%82%B9-6.34MB%2Fs
