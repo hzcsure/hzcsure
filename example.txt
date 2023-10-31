@@ -1,10 +1,2 @@
-trojan://b51e56e8-39e6-4938-a094-f1862c6c7202@hk.kunlun-ppg.com:10802?allowInsecure=1&sni=alibaba-node.cn#%E4%B8%AD%E8%BD%AC%E8%8A%82%E7%82%B9-3.55MB%2Fs
-trojan://b51e56e8-39e6-4938-a094-f1862c6c7202@hk.kunlun-ppg.com:10803?allowInsecure=1&sni=alibaba-node.cn#%E4%B8%AD%E8%BD%AC%E8%8A%82%E7%82%B9-15.08MB%2Fs
-trojan://b51e56e8-39e6-4938-a094-f1862c6c7202@hk.kunlun-ppg.com:10807?allowInsecure=1&sni=alibaba-node.cn#%E4%B8%AD%E8%BD%AC%E8%8A%82%E7%82%B9-245.4KB%2Fs
-trojan://b51e56e8-39e6-4938-a094-f1862c6c7202@us.kunlun-ppg.com:10820?allowInsecure=1&sni=alibaba-node.cn#%E4%B8%AD%E8%BD%AC%E8%8A%82%E7%82%B9-4.52MB%2Fs
-trojan://b51e56e8-39e6-4938-a094-f1862c6c7202@other.kunlun-ppg.com:10835?allowInsecure=1&sni=alibaba-node.cn#%E4%B8%AD%E8%BD%AC%E8%8A%82%E7%82%B9-5.11MB%2Fs
-trojan://b51e56e8-39e6-4938-a094-f1862c6c7202@sg.kunlun-ppg.com:10829?allowInsecure=1&sni=alibaba-node.cn#%E4%B8%AD%E8%BD%AC%E8%8A%82%E7%82%B9-4.91MB%2Fs
-trojan://76c27c91-0ebb-4526-9b1f-35945eba87cb@sg.kunlun-ppg.com:10828?allowInsecure=1&sni=alibaba-node.cn#%E4%B8%AD%E8%BD%AC%E8%8A%82%E7%82%B9-8.91MB%2Fs
-trojan://76c27c91-0ebb-4526-9b1f-35945eba87cb@other.kunlun-ppg.com:10835?allowInsecure=1&sni=alibaba-node.cn#%E4%B8%AD%E8%BD%AC%E8%8A%82%E7%82%B9-7.82MB%2Fs
-trojan://b51e56e8-39e6-4938-a094-f1862c6c7202@sg.kunlun-ppg.com:10827?allowInsecure=1&sni=alibaba-node.cn#%E4%B8%AD%E8%BD%AC%E8%8A%82%E7%82%B9-10.40MB%2Fs
-trojan://b51e56e8-39e6-4938-a094-f1862c6c7202@us.kunlun-ppg.com:10823?allowInsecure=1&sni=alibaba-node.cn#%E4%B8%AD%E8%BD%AC%E8%8A%82%E7%82%B9-2.19MB%2Fs
+节点更新时间：08:24:20
+每30分钟更新10个节点
