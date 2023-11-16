@@ -1,1 +1,5 @@
-/get
+ss://YWVzLTEyOC1nY206YS13eW00b3ZZNFl3@47.76.51.110:80/?plugin=obfs-local%3Bobfs%3Dhttp#%E7%BE%8E%E5%9B%BD-943.5KB%2Fs
+trojan://1cb996c8-e5bf-40d2-9a3c-149b3b721c5f@hk3.visaapp.top:49487?allowInsecure=1#%E9%A6%99%E6%B8%AF-2.57MB%2Fs
+trojan://fGahrYudYD@146.190.87.59:56674?allowInsecure=1#%E6%96%B0%E5%8A%A0%E5%9D%A1-2.47MB%2Fs
+trojan://1@146.190.108.227:1?allowInsecure=1&sni=m.zoom.us#%E6%96%B0%E5%8A%A0%E5%9D%A1-2.46MB%2Fs
+ssr://MTUwLjEwNy40Ni4yMTo4MDgzOm9yaWdpbjphZXMtMjU2LWNmYjp0bHMxLjJfdGlja2V0X2F1dGg6YVVaeGJucFRjMk5PLz9ncm91cD1VMU5TVUhKdmRtbGtaWEkmcmVtYXJrcz02YWFaNXJpdkxURTFOeTQzUzBJdmN3Jm9iZnNwYXJhbT0mcHJvdG9wYXJhbT0
