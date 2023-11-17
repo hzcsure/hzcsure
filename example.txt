@@ -1,5 +1,1 @@
-vmess://eyJ2IjoiMiIsInBzIjoi5Lit6L2s6IqC54K5LTIuODdNQi9zIiwiYWRkIjoiMTEyLjI5Ljk0LjIzIiwicG9ydCI6IjQ5MjIzIiwidHlwZSI6Im5vbmUiLCJpZCI6IjIxYTliZmYyLTcyZGUtNGU2Mi05M2ZmLThiMTU5ZjY2ZDg3NSIsImFpZCI6IjY0IiwibmV0IjoidGNwIiwicGF0aCI6Ii8iLCJob3N0IjoiIiwidGxzIjoiIn0=
-vmess://eyJ2IjoiMiIsInBzIjoi5Lit6L2s6IqC54K5LTk2My4wS0IvcyIsImFkZCI6IjE4My4yMzcuMjAuMTQ4IiwicG9ydCI6IjUwNzA3IiwidHlwZSI6Im5vbmUiLCJpZCI6IjQxODA0OGFmLWEyOTMtNGI5OS05YjBjLTk4Y2EzNTgwZGQyNCIsImFpZCI6IjY0IiwibmV0IjoidGNwIiwicGF0aCI6Ii8iLCJob3N0IjoiIiwidGxzIjoiIn0=
-ss://YWVzLTI1Ni1nY206ZDc1NzBlMjMxYzc4@fn300mtw015.flybirdline.xyz:443/?plugin=v2ray-plugin%3Bmode%3Dwebsocket%3Btls%3Bmux%3D4%3Bhost%3Dfn300mtw015.flybirdline.xyz%3Bpath%3D%2Fuanrmeers%3Bmux%3Dmux%3D4%3B%3B#%E5%8F%B0%E6%B9%BE-13.07MB%2Fs
-ss://YWVzLTEyOC1nY206ZzEyc1FpI3NzIyYx@139.227.182.207:10014/?plugin=v2ray-plugin%3Bmode%3Dwebsocket%3Bmux%3D4%3Bmux%3Dmux%3D4%3B%3B#%E4%B8%AD%E8%BD%AC%E8%8A%82%E7%82%B9-1.51MB%2Fs
-ss://YWVzLTI1Ni1jZmI6YW1hem9uc2tyMDU@43.201.149.200:443#%E9%9F%A9%E5%9B%BD-306.4KB%2Fs
+ss://bm9uZTpAYnVsaWFuZzAw@1.1.1.1:6666#%e8%8e%b7%e5%8f%96%e8%8a%82%e7%82%b9%e5%bc%82%e5%b8%b8%ef%bc%8c%e8%af%b7%e5%9c%a8%e4%b8%8b%e4%b8%aa%e6%97%b6%e6%ae%b5%e9%87%8d%e8%af%95
