@@ -15,7 +15,6 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - id: checkout
       - name: Checkout
         uses: actions/checkout@v3
       - name: Install requirements
@@ -28,7 +27,6 @@ jobs:
         run: |
           date
           ls -ltr
-          ttt=7
           if [ -f ./example.txt ]; then
              echo  "File exists"
              echo "random_number=1" >> $GITHUB_OUTPUT
@@ -37,19 +35,18 @@ jobs:
              echo "random_number=0" >> $GITHUB_OUTPUT
           fi
       - name: Commit
-          if:0 == 0
           id:commit
         env:
           GIT_NAME: GitHub Actions[Bot]
           GIT_EMAIL: 41898282+github-actions[bot]@users.noreply.github.com
         run: |
-          echo ${{ steps.generate_number.outputs.random_number }}
-          git config --local user.name $GIT_NAME
-          git config --local user.email $GIT_EMAIL
-          git add example.txt
-          git commit -m "Github action update at `date '+%Y-%m-%d %H:%M:%S'`."
+          if [ -f ./example.txt ]; then
+            git config --local user.name $GIT_NAME
+            git config --local user.email $GIT_EMAIL
+            git add example.txt
+            git commit -m "Github action update at `date '+%Y-%m-%d %H:%M:%S'`."
+          fi
       - name: Push
-          if:1 == 0
           id:push
         uses: ad-m/github-push-action@master
         with:
