@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 
 import os
+import re
 from telethon import TelegramClient, events, sync
 from telethon import functions, types
 from telethon.sessions import StringSession
@@ -24,7 +25,9 @@ message = client.get_messages(send_to, limit=2)[1]
 time.sleep(1)
 message = client.get_messages(send_to, limit=2)[1]
 print(message.message)
-with open('example.txt', 'w') as f:
+m = re.search("更新时间", message)
+if (not bool(m) ):
+  with open('example.txt', 'w') as f:
      f.write(message.message)
      f.close()
 #print(client.get_me().stringify())
