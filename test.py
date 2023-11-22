@@ -17,11 +17,11 @@ print("================================")
 client = TelegramClient(StringSession(session_string), api_id, api_hash)
 client.start()
 client.send_message(send_to,send_ms)
+time.sleep(2)
+message = client.get_messages(send_to, limit=2)[1]
 time.sleep(1)
 message = client.get_messages(send_to, limit=2)[1]
-time.sleep(0.5)
-message = client.get_messages(send_to, limit=2)[1]
-time.sleep(0.5)
+time.sleep(1)
 message = client.get_messages(send_to, limit=2)[1]
 print(message.message)
 with open('example.txt', 'w') as f:
