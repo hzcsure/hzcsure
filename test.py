@@ -25,7 +25,7 @@ message = client.get_messages(send_to, limit=2)[1]
 time.sleep(1)
 message = client.get_messages(send_to, limit=2)[1]
 print(message.message)
-m = re.search("更新时间", message)
+m = re.search("更新时间", message.message)
 if (not bool(m) ):
   with open('example.txt', 'w') as f:
      f.write(message.message)
