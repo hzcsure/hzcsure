@@ -15,6 +15,7 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
+      - id: checkout
       - name: Checkout
         uses: actions/checkout@v3
       - name: Install requirements
@@ -30,10 +31,10 @@ jobs:
           ttt=7
           if [ -f ./example.txt ]; then
              echo  "File exists"
-             echo "random_number=$(($ttt % 2))" >> $GITHUB_OUTPUT
+             echo "random_number=1" >> $GITHUB_OUTPUT
           else
              echo "File does not exist"
-             echo "random_number=$(($ttt % 2))" >> $GITHUB_OUTPUT
+             echo "random_number=0" >> $GITHUB_OUTPUT
           fi
       - name: Commit
           if:0 == 0
@@ -42,7 +43,7 @@ jobs:
           GIT_NAME: GitHub Actions[Bot]
           GIT_EMAIL: 41898282+github-actions[bot]@users.noreply.github.com
         run: |
-          echo steps.generate_number.outputs.random_number
+          echo ${{ steps.generate_number.outputs.random_number }}
           git config --local user.name $GIT_NAME
           git config --local user.email $GIT_EMAIL
           git add example.txt
