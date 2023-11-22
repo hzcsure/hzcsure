@@ -28,12 +28,13 @@ jobs:
         run: |
           date
           ls -ltr
+          ttt=7
           if [ -f ./example.txt ]; then
              echo  "File exists"
-             echo "random_number=$(($RANDOM % 2))" >> $GITHUB_OUTPUT
+             echo "random_number=$(($ttt % 2))" >> $GITHUB_OUTPUT
           else
              echo "File does not exist"
-             echo "random_number=$(($RANDOM % 2))" >> $GITHUB_OUTPUT
+             echo "random_number=$(($ttt % 2))" >> $GITHUB_OUTPUT
           fi
       - name: Commit
           if:0 == 0
