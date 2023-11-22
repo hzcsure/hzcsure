@@ -29,10 +29,10 @@ jobs:
           ls -ltr
           if [ -f ./example.txt ]; then
              echo  "File exists"
-             echo "example_flag=1" >> $GITHUB_OUTPUT
+             echo "random_number=$(($RANDOM % 2))" >> $GITHUB_OUTPUT
           else
              echo "File does not exist"
-             echo "example_flag=0" >> $GITHUB_OUTPUT
+             echo "random_number=$(($RANDOM % 2))" >> $GITHUB_OUTPUT
           fi
       - name: Commit
           if:0 == 0
@@ -41,13 +41,13 @@ jobs:
           GIT_NAME: GitHub Actions[Bot]
           GIT_EMAIL: 41898282+github-actions[bot]@users.noreply.github.com
         run: |
-          echo ${{ steps.test_py.outputs.example_flag }}
+          echo ${{ steps.generate_number.outputs.random_number }}
           git config --local user.name $GIT_NAME
           git config --local user.email $GIT_EMAIL
           git add example.txt
           git commit -m "Github action update at `date '+%Y-%m-%d %H:%M:%S'`."
       - name: Push
-          if:0 == 0
+          if:1 == 0
           id:push
         uses: ad-m/github-push-action@master
         with:
