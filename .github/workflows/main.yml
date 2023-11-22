@@ -35,6 +35,7 @@ jobs:
              echo "exampleFlag=0" >> $GITHUB_OUTPUT
           fi
       - name: Commit
+          if:${{ steps.test_py.outputs.exampleFlag }} == 0
           id:commit
         env:
           GIT_NAME: GitHub Actions[Bot]
@@ -45,6 +46,7 @@ jobs:
           git add example.txt
           git commit -m "Github action update at `date '+%Y-%m-%d %H:%M:%S'`."
       - name: Push
+          if:${{ steps.test_py.outputs.exampleFlag }} == 0
           id:push
         uses: ad-m/github-push-action@master
         with:
