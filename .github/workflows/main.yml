@@ -42,7 +42,7 @@ jobs:
           GIT_NAME: GitHub Actions[Bot]
           GIT_EMAIL: 41898282+github-actions[bot]@users.noreply.github.com
         run: |
-          echo ${{ steps.generate_number.outputs.random_number }}
+          echo steps.generate_number.outputs.random_number
           git config --local user.name $GIT_NAME
           git config --local user.email $GIT_EMAIL
           git add example.txt
