@@ -21,12 +21,21 @@ jobs:
         run: |
           python3 -m pip install --upgrade telethon
       - name: RuntestPy
+          id:test_py
         run: python3 test.py
       - name: Run
         run: |
           date
           ls -ltr
+          if [ -f ./example.txt ]; then
+             echo  "File exists"
+             echo "exampleFlag=1" >> $GITHUB_OUTPUT
+          else
+             echo "File does not exist"
+             echo "exampleFlag=0" >> $GITHUB_OUTPUT
+          fi
       - name: Commit
+          id:commit
         env:
           GIT_NAME: GitHub Actions[Bot]
           GIT_EMAIL: 41898282+github-actions[bot]@users.noreply.github.com
@@ -36,6 +45,7 @@ jobs:
           git add example.txt
           git commit -m "Github action update at `date '+%Y-%m-%d %H:%M:%S'`."
       - name: Push
+          id:push
         uses: ad-m/github-push-action@master
         with:
           github_token: ${{ secrets.PUSH_TOKEN }}
