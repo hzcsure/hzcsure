@@ -2,7 +2,8 @@ name: Test_telethon
 
 on:
   schedule:
-    - cron: '*/6 * * * *'
+    - cron: '2 * * * *'
+    - cron: '32 * * * *'
   repository_dispatch:
     types:
       - letaction
