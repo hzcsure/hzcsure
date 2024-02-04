@@ -1,8 +1,8 @@
+trojan://e9d238d6-7fe1-46a7-bcb1-f93eaf27a3d3@xijinping.19890604.day:10812?allowInsecure=1&sni=cloudflare.node-ssl.cdn-alibaba.com#%E4%B8%AD%E8%BD%AC%E8%8A%82%E7%82%B9-8.84MB%2Fs
+trojan://66998b17-9f01-49df-92ed-715976306716@gdct003.theyydsnode.top:26681?allowInsecure=1&sni=gdct003.jcnode.top#%E4%B8%AD%E8%BD%AC%E8%8A%82%E7%82%B9-1.36MB%2Fs
 trojan://66998b17-9f01-49df-92ed-715976306716@shcm002.theyydsnode.top:47557?allowInsecure=1&sni=tw02.ckcloud.info#%E4%B8%AD%E8%BD%AC%E8%8A%82%E7%82%B9-14.03MB%2Fs
-ss://YWVzLTEyOC1nY206YS13eW00b3ZZNFl3@1.65.139.54:443/?plugin=v2ray-plugin%3Bmode%3Dwebsocket%3Bmux%3D4%3Bmux%3Dmux%3D4%3B%3B#%E9%A6%99%E6%B8%AF-1.60MB%2Fs
-trojan://66998b17-9f01-49df-92ed-715976306716@gdct003.theyydsnode.top:51031?allowInsecure=1&sni=sg01.ckcloud.info#%E4%B8%AD%E8%BD%AC%E8%8A%82%E7%82%B9-939.6KB%2Fs
-vmess://eyJ2IjoiMiIsInBzIjoi5pyq55+l5Zu95a62LTQ2My4xS0IvcyIsImFkZCI6Ind3dy5kYXJrcm9vbS5sb2wiLCJwb3J0IjoiODA4MCIsInR5cGUiOiJub25lIiwiaWQiOiIyMjgyNmI0NC01YzFhLTRiNGItZGJhYS04M2EyZThiZDk1ZjAiLCJhaWQiOiIwIiwibmV0Ijoid3MiLCJwYXRoIjoiLyIsImhvc3QiOiJ3d3cuZGFya3Jvb20ubG9sIiwidGxzIjoiIn0=
-trojan://e9d238d6-7fe1-46a7-bcb1-f93eaf27a3d3@xibaozi.19890604.day:10848?allowInsecure=1&sni=cloudflare.node-ssl.cdn-alibaba.com#%E4%B8%AD%E8%BD%AC%E8%8A%82%E7%82%B9-3.52MB%2Fs
+ss://YWVzLTEyOC1nY206YS13eW00b3ZZNFl3@8.210.196.224:443/?plugin=v2ray-plugin%3Bmode%3Dwebsocket%3Bmux%3D4%3Bmux%3Dmux%3D4%3B%3B#%E9%A6%99%E6%B8%AF-1.88MB%2Fs
+ss://YWVzLTEyOC1nY206YS13eW00b3ZZNFl3@8.217.53.93:80/?plugin=obfs-local%3Bobfs%3Dhttp#%E9%A6%99%E6%B8%AF-673.6KB%2Fs
 trojan://66998b17-9f01-49df-92ed-715976306716@gdct003.theyydsnode.top:10658?allowInsecure=1&sni=us2.ckcloud.info#%E4%B8%AD%E8%BD%AC%E8%8A%82%E7%82%B9-1.19MB%2Fs
 trojan://66998b17-9f01-49df-92ed-715976306716@gdct001.theyydsnode.top:10658?allowInsecure=1&sni=us2.ckcloud.info#%E4%B8%AD%E8%BD%AC%E8%8A%82%E7%82%B9-6.34MB%2Fs
 trojan://66998b17-9f01-49df-92ed-715976306716@shcm002.theyydsnode.top:26681?allowInsecure=1&sni=us04.ckcloud.info#%E4%B8%AD%E8%BD%AC%E8%8A%82%E7%82%B9-5.54MB%2Fs
