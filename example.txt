@@ -1,10 +1,10 @@
-trojan://42191ca3-7937-44de-b572-b4f358c817b6@tank.19890604.day:10828?allowInsecure=1&sni=cloudflare.node-ssl.cdn-alibaba.com#%E4%B8%AD%E8%BD%AC%E8%8A%82%E7%82%B9-14.12MB%2Fs
-trojan://42191ca3-7937-44de-b572-b4f358c817b6@xijinping.19890604.day:10818?allowInsecure=1&sni=cloudflare.node-ssl.cdn-alibaba.com#%E4%B8%AD%E8%BD%AC%E8%8A%82%E7%82%B9-10.46MB%2Fs
-trojan://42191ca3-7937-44de-b572-b4f358c817b6@xijinping.19890604.day:10816?allowInsecure=1&sni=cloudflare.node-ssl.cdn-alibaba.com#%E4%B8%AD%E8%BD%AC%E8%8A%82%E7%82%B9-12.60MB%2Fs
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNToyNzcwYTY2Mi02MWRiLTQwZWQtYTE3Yy03ODNlNTIxMDg0Y2U@service.ouluyun9803.com:20009#%E4%B8%AD%E8%BD%AC%E8%8A%82%E7%82%B9-157.5KB%2Fs
-vmess://eyJ2IjoiMiIsInBzIjoi5pyq55+l5Zu95a62LTMuODBNQi9zIiwiYWRkIjoiZm9yLWlyYW5jZWxsLm91dGxpbmUtdnBuLmNsb3VkIiwicG9ydCI6IjgwIiwidHlwZSI6Im5vbmUiLCJpZCI6IjcwMjI5ODJmLWRhNGMtNDhjOS1jNjYwLWIyMzE1YWJkY2Y3ZSIsImFpZCI6IjAiLCJuZXQiOiJ3cyIsInBhdGgiOiIvIiwiaG9zdCI6Im15MS50b290ZXJzLmlyIiwidGxzIjoiIn0=
+trojan://42191ca3-7937-44de-b572-b4f358c817b6@falungong.19890604.day:10822?allowInsecure=1&sni=cloudflare.node-ssl.cdn-alibaba.com#%E4%B8%AD%E8%BD%AC%E8%8A%82%E7%82%B9-5.01MB%2Fs
+trojan://42191ca3-7937-44de-b572-b4f358c817b6@xijinping.19890604.day:10812?allowInsecure=1&sni=cloudflare.node-ssl.cdn-alibaba.com#%E4%B8%AD%E8%BD%AC%E8%8A%82%E7%82%B9-12.81MB%2Fs
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpLMjI3c1V2b0lJNGlMZkpKNFUwTExP@52.142.190.70:13499#%E8%8B%B1%E5%9B%BD-3.76MB%2Fs
+trojan://42191ca3-7937-44de-b572-b4f358c817b6@tank.19890604.day:10830?allowInsecure=1&sni=cloudflare.node-ssl.cdn-alibaba.com#%E4%B8%AD%E8%BD%AC%E8%8A%82%E7%82%B9-476.6KB%2Fs
+vmess://eyJ2IjoiMiIsInBzIjoi5b635Zu9LTIxNy45S0IvcyIsImFkZCI6IjExNi4yMDMuMTE2LjI0NCIsInBvcnQiOiIzMzg5IiwidHlwZSI6Im5vbmUiLCJpZCI6IjljMDUwYTg2LWQ2MTItNDhmMS1lYzMyLWU1NzNkZjA4YTFiNyIsImFpZCI6IjAiLCJuZXQiOiJodHRwIiwicGF0aCI6Ii8iLCJob3N0IjoiIiwidGxzIjoiIn0=
+trojan://42191ca3-7937-44de-b572-b4f358c817b6@tiananmen.19890604.day:10809?allowInsecure=1&sni=cloudflare.node-ssl.cdn-alibaba.com#%E4%B8%AD%E8%BD%AC%E8%8A%82%E7%82%B9-11.43MB%2Fs
 trojan://42191ca3-7937-44de-b572-b4f358c817b6@tiananmen.19890604.day:10810?allowInsecure=1&sni=cloudflare.node-ssl.cdn-alibaba.com#%E4%B8%AD%E8%BD%AC%E8%8A%82%E7%82%B9-9.65MB%2Fs
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpXNzRYRkFMTEx1dzZtNUlB@java.ct.arvancode.eu.Org:443#%E8%8B%B1%E5%9B%BD-3.78MB%2Fs
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpXNzRYRkFMTEx1dzZtNUlB@java.ct.arvancode.eu.org:443#%E8%8B%B1%E5%9B%BD-3.81MB%2Fs
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpiUkJSV3d6ZWtSSFNqaW9FWEZ4a292@52.142.190.10:59784#%E8%8B%B1%E5%9B%BD-362.7KB%2Fs
 ss://YWVzLTI1Ni1jZmI6YW1hem9uc2tyMDU@43.207.68.137:443#%E6%97%A5%E6%9C%AC-943.3KB%2Fs
