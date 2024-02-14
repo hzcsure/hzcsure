@@ -1,10 +1,5 @@
-trojan://0e8388eb-a1e2-4ff9-992f-3044b6c97310@falungong.19890604.day:10822?allowInsecure=1&sni=cloudflare.node-ssl.cdn-alibaba.com#%E4%B8%AD%E8%BD%AC%E8%8A%82%E7%82%B9-4.84MB%2Fs
-trojan://0e8388eb-a1e2-4ff9-992f-3044b6c97310@xijinping.19890604.day:10818?allowInsecure=1&sni=cloudflare.node-ssl.cdn-alibaba.com#%E4%B8%AD%E8%BD%AC%E8%8A%82%E7%82%B9-11.20MB%2Fs
-trojan://0e8388eb-a1e2-4ff9-992f-3044b6c97310@xibaozi.19890604.day:10839?allowInsecure=1&sni=cloudflare.node-ssl.cdn-alibaba.com#%E4%B8%AD%E8%BD%AC%E8%8A%82%E7%82%B9-2.65MB%2Fs
-trojan://0e8388eb-a1e2-4ff9-992f-3044b6c97310@tiananmen.19890604.day:10801?allowInsecure=1&sni=cloudflare.node-ssl.cdn-alibaba.com#%E4%B8%AD%E8%BD%AC%E8%8A%82%E7%82%B9-11.59MB%2Fs
-trojan://0e8388eb-a1e2-4ff9-992f-3044b6c97310@xijinping.19890604.day:10811?allowInsecure=1&sni=cloudflare.node-ssl.cdn-alibaba.com#%E4%B8%AD%E8%BD%AC%E8%8A%82%E7%82%B9-12.17MB%2Fs
-trojan://0e8388eb-a1e2-4ff9-992f-3044b6c97310@tiananmen.19890604.day:10808?allowInsecure=1&sni=cloudflare.node-ssl.cdn-alibaba.com#%E4%B8%AD%E8%BD%AC%E8%8A%82%E7%82%B9-30.15MB%2Fs
-trojan://0e8388eb-a1e2-4ff9-992f-3044b6c97310@tiananmen.19890604.day:10809?allowInsecure=1&sni=cloudflare.node-ssl.cdn-alibaba.com#%E4%B8%AD%E8%BD%AC%E8%8A%82%E7%82%B9-5.93MB%2Fs
-trojan://0e8388eb-a1e2-4ff9-992f-3044b6c97310@tiananmen.19890604.day:10810?allowInsecure=1&sni=cloudflare.node-ssl.cdn-alibaba.com#%E4%B8%AD%E8%BD%AC%E8%8A%82%E7%82%B9-12.08MB%2Fs
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTprVGpsTHhybmNLeDRpMkhJanhmQTNN@51.142.171.150:49499#%E8%8B%B1%E5%9B%BD-4.36MB%2Fs
-vmess://eyJ2IjoiMiIsInBzIjoi576O5Zu9LTIxNy4zS0IvcyIsImFkZCI6IjIwOS4xNDEuMzcuODkiLCJwb3J0IjoiODAiLCJ0eXBlIjoibm9uZSIsImlkIjoiMzg0NjQ4YjMtYmNjNS00MDFlLWIxNDUtZGM5MWY1N2VlNWU2IiwiYWlkIjoiMCIsIm5ldCI6IndzIiwicGF0aCI6Ii8iLCJob3N0IjoiYXBwcy5hcHBsZS5jb20iLCJ0bHMiOiIifQ==
+trojan://f0eb8c92ce8946aaba856569cff1a16b@104.19.171.3:443?allowInsecure=1&sni=sherasheba.com&ws=1&wspath=6b777a91#%E4%B8%AD%E8%BD%AC%E8%8A%82%E7%82%B9-4.97MB%2Fs
+vmess://eyJ2IjoiMiIsInBzIjoi5Lit6L2s6IqC54K5LTE3LjY5TUIvcyIsImFkZCI6IjE3Mi42Ny4xODAuMjQ4IiwicG9ydCI6IjgwODAiLCJ0eXBlIjoibm9uZSIsImlkIjoiMjI4MjZiNDQtNWMxYS00YjRiLWRiYWEtODNhMmU4YmQ5NWYwIiwiYWlkIjoiMCIsIm5ldCI6IndzIiwicGF0aCI6Ii8iLCJob3N0Ijoid3d3Lm5haGNrLnNpdGUiLCJ0bHMiOiIifQ==
+vmess://eyJ2IjoiMiIsInBzIjoi5Lit6L2s6IqC54K5LTE5LjIyTUIvcyIsImFkZCI6IjEwNC4yMi41MS4xNjIiLCJwb3J0IjoiODAiLCJ0eXBlIjoibm9uZSIsImlkIjoiNzAyMjk4MmYtZGE0Yy00OGM5LWM2NjAtYjIzMTVhYmRjZjdlIiwiYWlkIjoiMCIsIm5ldCI6IndzIiwicGF0aCI6Ii8iLCJob3N0IjoibXkxLnRvb3RlcnMuaXIiLCJ0bHMiOiIifQ==
+vmess://eyJ2IjoiMiIsInBzIjoi6I235YWwLTIzOC4wS0IvcyIsImFkZCI6IjEwNC4yMS4zMS4yNDQiLCJwb3J0IjoiODA4MCIsInR5cGUiOiJub25lIiwiaWQiOiIyMjgyNmI0NC01YzFhLTRiNGItZGJhYS04M2EyZThiZDk1ZjAiLCJhaWQiOiIwIiwibmV0Ijoid3MiLCJwYXRoIjoiLyIsImhvc3QiOiJ3d3cubmFoY2suc2l0ZSIsInRscyI6IiJ9
+vmess://eyJ2IjoiMiIsInBzIjoi5Lit6L2s6IqC54K5LTExLjIwTUIvcyIsImFkZCI6IjUuMTYxLjIyMC45MiIsInBvcnQiOiIzMzg5IiwidHlwZSI6Im5vbmUiLCJpZCI6IjljMDUwYTg2LWQ2MTItNDhmMS1lYzMyLWU1NzNkZjA4YTFiNyIsImFpZCI6IjAiLCJuZXQiOiJodHRwIiwicGF0aCI6Ii8iLCJob3N0IjoiIiwidGxzIjoiIn0=
