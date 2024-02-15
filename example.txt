@@ -1,8 +1,8 @@
-vmess://eyJ2IjoiMiIsInBzIjoi576O5Zu9LTkzMi45S0IvcyIsImFkZCI6Ind3dy5uYWhjay5zaXRlIiwicG9ydCI6IjgwODAiLCJ0eXBlIjoibm9uZSIsImlkIjoiMjI4MjZiNDQtNWMxYS00YjRiLWRiYWEtODNhMmU4YmQ5NWYwIiwiYWlkIjoiMCIsIm5ldCI6IndzIiwicGF0aCI6Ii8iLCJob3N0Ijoid3d3Lm5haGNrLnNpdGUiLCJ0bHMiOiIifQ==
-trojan://7c018513-0ba2-43c3-87b4-7010750694ee@falungong.19890604.day:10824?allowInsecure=1&sni=cloudflare.node-ssl.cdn-alibaba.com#%E4%B8%AD%E8%BD%AC%E8%8A%82%E7%82%B9-4.96MB%2Fs
-trojan://7c018513-0ba2-43c3-87b4-7010750694ee@xijinping.19890604.day:10817?allowInsecure=1&sni=cloudflare.node-ssl.cdn-alibaba.com#%E4%B8%AD%E8%BD%AC%E8%8A%82%E7%82%B9-8.13MB%2Fs
-ss://YWVzLTI1Ni1nY206ZDM2YjViYjEtZmFlNy00ZGRjLWIwMjMtMTkzNWY2NGUzNTBi@46.29.163.45:11751#%E4%BF%84%E7%BD%97%E6%96%AF%E8%81%94%E9%82%A6-5.29MB%2Fs
-vmess://eyJ2IjoiMiIsInBzIjoi5pel5pysLTUuOTRNQi9zIiwiYWRkIjoiMTUwLjIzMC4xOTcuMTU2IiwicG9ydCI6IjgwIiwidHlwZSI6Im5vbmUiLCJpZCI6IjcwMjI5ODJmLWRhNGMtNDhjOS1jNjYwLWIyMzE1YWJkY2Y3ZSIsImFpZCI6IjAiLCJuZXQiOiJ3cyIsInBhdGgiOiIvIiwiaG9zdCI6Im15MS50b290ZXJzLmlyIiwidGxzIjoiIn0=
+trojan://7c018513-0ba2-43c3-87b4-7010750694ee@tank.19890604.day:10830?allowInsecure=1&sni=cloudflare.node-ssl.cdn-alibaba.com#%E4%B8%AD%E8%BD%AC%E8%8A%82%E7%82%B9-8.35MB%2Fs
+trojan://7c018513-0ba2-43c3-87b4-7010750694ee@falungong.19890604.day:10821?allowInsecure=1&sni=cloudflare.node-ssl.cdn-alibaba.com#%E4%B8%AD%E8%BD%AC%E8%8A%82%E7%82%B9-5.18MB%2Fs
+ss://YWVzLTI1Ni1jZmI6cXdlclJFV1FAQA@p229.panda004.net:57428#%E9%9F%A9%E5%9B%BD-12.75MB%2Fs
+trojan://7c018513-0ba2-43c3-87b4-7010750694ee@xibaozi.19890604.day:10849?allowInsecure=1&sni=cloudflare.node-ssl.cdn-alibaba.com#%E4%B8%AD%E8%BD%AC%E8%8A%82%E7%82%B9-3.10MB%2Fs
+trojan://7c018513-0ba2-43c3-87b4-7010750694ee@tank.19890604.day:10829?allowInsecure=1&sni=cloudflare.node-ssl.cdn-alibaba.com#%E4%B8%AD%E8%BD%AC%E8%8A%82%E7%82%B9-19.34MB%2Fs
 trojan://7c018513-0ba2-43c3-87b4-7010750694ee@tiananmen.19890604.day:10809?allowInsecure=1&sni=cloudflare.node-ssl.cdn-alibaba.com#%E4%B8%AD%E8%BD%AC%E8%8A%82%E7%82%B9-6.53MB%2Fs
 trojan://7c018513-0ba2-43c3-87b4-7010750694ee@tiananmen.19890604.day:10810?allowInsecure=1&sni=cloudflare.node-ssl.cdn-alibaba.com#%E4%B8%AD%E8%BD%AC%E8%8A%82%E7%82%B9-4.60MB%2Fs
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpCb2cwRUxtTU05RFN4RGRR@fast_2ray_telchannelll.fast2rayy.eu.org:443#%E8%8B%B1%E5%9B%BD-2.56MB%2Fs
