@@ -1,10 +1,1 @@
-trojan://c3fa37bb-c80b-476f-8040-40bf309a51ba@falungong.19890604.day:10820?allowInsecure=1&sni=cloudflare.node-ssl.cdn-alibaba.com#%E4%B8%AD%E8%BD%AC%E8%8A%82%E7%82%B9-4.25MB%2Fs
-trojan://c3fa37bb-c80b-476f-8040-40bf309a51ba@xijinping.19890604.day:10812?allowInsecure=1&sni=cloudflare.node-ssl.cdn-alibaba.com#%E4%B8%AD%E8%BD%AC%E8%8A%82%E7%82%B9-12.11MB%2Fs
-vmess://eyJ2IjoiMiIsInBzIjoi5paw5Yqg5Z2hLTMwNy4yS0IvcyIsImFkZCI6IjI3LjEyNC42LjE0OCIsInBvcnQiOiI0NDMiLCJ0eXBlIjoibm9uZSIsImlkIjoiNDE4MDQ4YWYtYTI5My00Yjk5LTliMGMtOThjYTM1ODBkZDI0IiwiYWlkIjoiNjQiLCJuZXQiOiJ3cyIsInBhdGgiOiIvcGF0aC8zNDAzMjMwODE3MjYiLCJob3N0Ijoid3d3LjM3MzI3MjU1Lnh5eiIsInRscyI6InRscyJ9
-trojan://c3fa37bb-c80b-476f-8040-40bf309a51ba@falungong.19890604.day:10821?allowInsecure=1&sni=cloudflare.node-ssl.cdn-alibaba.com#%E4%B8%AD%E8%BD%AC%E8%8A%82%E7%82%B9-3.36MB%2Fs
-trojan://c3fa37bb-c80b-476f-8040-40bf309a51ba@tank.19890604.day:10832?allowInsecure=1&sni=cloudflare.node-ssl.cdn-alibaba.com#%E4%B8%AD%E8%BD%AC%E8%8A%82%E7%82%B9-6.53MB%2Fs
-trojan://c3fa37bb-c80b-476f-8040-40bf309a51ba@falungong.19890604.day:10823?allowInsecure=1&sni=cloudflare.node-ssl.cdn-alibaba.com#%E4%B8%AD%E8%BD%AC%E8%8A%82%E7%82%B9-4.11MB%2Fs
-trojan://c3fa37bb-c80b-476f-8040-40bf309a51ba@falungong.19890604.day:10824?allowInsecure=1&sni=cloudflare.node-ssl.cdn-alibaba.com#%E4%B8%AD%E8%BD%AC%E8%8A%82%E7%82%B9-4.31MB%2Fs
-trojan://c3fa37bb-c80b-476f-8040-40bf309a51ba@falungong.19890604.day:10825?allowInsecure=1&sni=cloudflare.node-ssl.cdn-alibaba.com#%E4%B8%AD%E8%BD%AC%E8%8A%82%E7%82%B9-4.02MB%2Fs
-trojan://c3fa37bb-c80b-476f-8040-40bf309a51ba@falungong.19890604.day:10826?allowInsecure=1&sni=cloudflare.node-ssl.cdn-alibaba.com#%E4%B8%AD%E8%BD%AC%E8%8A%82%E7%82%B9-3.88MB%2Fs
-trojan://c3fa37bb-c80b-476f-8040-40bf309a51ba@xibaozi.19890604.day:10837?allowInsecure=1&sni=cloudflare.node-ssl.cdn-alibaba.com#%E4%B8%AD%E8%BD%AC%E8%8A%82%E7%82%B9-2.83MB%2Fs
+ss://bm9uZTpAYnVsaWFuZzAw@1.1.1.1:6666#%e8%8e%b7%e5%8f%96%e8%8a%82%e7%82%b9%e5%bc%82%e5%b8%b8%ef%bc%8c%e8%af%b7%e5%9c%a8%e4%b8%8b%e4%b8%aa%e6%97%b6%e6%ae%b5%e9%87%8d%e8%af%95
