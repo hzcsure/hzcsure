@@ -1,10 +1,1 @@
-trojan://f3c9d453-8546-40d2-904e-4e8c97987d01@tank.19890604.day:10830?allowInsecure=1&sni=cloudflare.node-ssl.cdn-alibaba.com#%E4%B8%AD%E8%BD%AC%E8%8A%82%E7%82%B9-365.1KB%2Fs
-trojan://f3c9d453-8546-40d2-904e-4e8c97987d01@falungong.19890604.day:10825?allowInsecure=1&sni=cloudflare.node-ssl.cdn-alibaba.com#%E4%B8%AD%E8%BD%AC%E8%8A%82%E7%82%B9-3.79MB%2Fs
-trojan://f3c9d453-8546-40d2-904e-4e8c97987d01@xijinping.19890604.day:10814?allowInsecure=1&sni=cloudflare.node-ssl.cdn-alibaba.com#%E4%B8%AD%E8%BD%AC%E8%8A%82%E7%82%B9-492.1KB%2Fs
-trojan://f3c9d453-8546-40d2-904e-4e8c97987d01@xijinping.19890604.day:10815?allowInsecure=1&sni=cloudflare.node-ssl.cdn-alibaba.com#%E4%B8%AD%E8%BD%AC%E8%8A%82%E7%82%B9-11.86MB%2Fs
-trojan://f3c9d453-8546-40d2-904e-4e8c97987d01@xibaozi.19890604.day:10835?allowInsecure=1&sni=cloudflare.node-ssl.cdn-alibaba.com#%E4%B8%AD%E8%BD%AC%E8%8A%82%E7%82%B9-7.89MB%2Fs
-trojan://f3c9d453-8546-40d2-904e-4e8c97987d01@tiananmen.19890604.day:10808?allowInsecure=1&sni=cloudflare.node-ssl.cdn-alibaba.com#%E4%B8%AD%E8%BD%AC%E8%8A%82%E7%82%B9-940.0KB%2Fs
-trojan://f3c9d453-8546-40d2-904e-4e8c97987d01@tiananmen.19890604.day:10810?allowInsecure=1&sni=cloudflare.node-ssl.cdn-alibaba.com#%E4%B8%AD%E8%BD%AC%E8%8A%82%E7%82%B9-4.42MB%2Fs
-vmess://eyJ2IjoiMiIsInBzIjoi5pyq55+l5Zu95a62LTE1OS40S0IvcyIsImFkZCI6ImNmY2RuMy5zYW5mZW5jZG45LmNvbSIsInBvcnQiOiI4MCIsInR5cGUiOiJub25lIiwiaWQiOiI5YTU1N2QwMi0xMmZmLTRkYTgtODY2OS0xODI0Y2ZkZWZlMWYiLCJhaWQiOiIwIiwibmV0Ijoid3MiLCJwYXRoIjoiL3ZpZGVvL1ZEWGNhTTdyIiwiaG9zdCI6IkdXWXA2OVl1anAyLnlvZm5oa2ZjLnh5eiIsInRscyI6IiJ9
-vmess://eyJ2IjoiMiIsInBzIjoi5pyq55+l5Zu95a62LTMuNjFNQi9zIiwiYWRkIjoiMTk4LjQxLjIwNC4yMDkiLCJwb3J0IjoiODA4MCIsInR5cGUiOiJub25lIiwiaWQiOiIzMDY5ZWNiNi1kZDc1LTRlMjQtYTMwZC1lYzU1NzQ3ZDgzYTEiLCJhaWQiOiIwIiwibmV0Ijoid3MiLCJwYXRoIjoiMzA2OWVjYjYtZGQ3NS00ZTI0LWEzMGQtZWM1NTc0N2Q4M2ExLXZtIiwiaG9zdCI6Im5lc3QtZW1pbHktaGVhbGluZy1oLnRyeWNsb3VkZmxhcmUuY29tIiwidGxzIjoiIn0=
-vmess://eyJ2IjoiMiIsInBzIjoi5pyq55+l5Zu95a62LTIuNjhNQi9zIiwiYWRkIjoiMTA0LjIxLjIyNS4xNTMiLCJwb3J0IjoiODAiLCJ0eXBlIjoibm9uZSIsImlkIjoiNzAyMjk4MmYtZGE0Yy00OGM5LWM2NjAtYjIzMTVhYmRjZjdlIiwiYWlkIjoiMCIsIm5ldCI6IndzIiwicGF0aCI6Ii8iLCJob3N0IjoiYS5wcmFwdDUuaXIiLCJ0bHMiOiIifQ==
+ss://bm9uZTpAYnVsaWFuZzAw@1.1.1.1:6666#%e8%8e%b7%e5%8f%96%e8%8a%82%e7%82%b9%e5%bc%82%e5%b8%b8%ef%bc%8c%e8%af%b7%e5%9c%a8%e4%b8%8b%e4%b8%aa%e6%97%b6%e6%ae%b5%e9%87%8d%e8%af%95
