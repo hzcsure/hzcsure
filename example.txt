@@ -1,10 +1,1 @@
-trojan://8faa9d79-637d-45e7-ac61-a6b9a4780144@tiananmen.19890604.day:10810?allowInsecure=1&sni=cloudflare.node-ssl.cdn-alibaba.com#%E4%B8%AD%E8%BD%AC%E8%8A%82%E7%82%B9-4.91MB%2Fs
-vmess://eyJ2IjoiMiIsInBzIjoi5pyq55+l5Zu95a62LTUuMzVNQi9zIiwiYWRkIjoiMTA0LjIxLjIyNS4xNTEiLCJwb3J0IjoiODAiLCJ0eXBlIjoibm9uZSIsImlkIjoiNzAyMjk4MmYtZGE0Yy00OGM5LWM2NjAtYjIzMTVhYmRjZjdlIiwiYWlkIjoiMCIsIm5ldCI6IndzIiwicGF0aCI6Ii8iLCJob3N0IjoiYS5wcmFwdDUuaXIiLCJ0bHMiOiIifQ==
-trojan://8faa9d79-637d-45e7-ac61-a6b9a4780144@xibaozi.19890604.day:10850?allowInsecure=1&sni=cloudflare.node-ssl.cdn-alibaba.com#%E4%B8%AD%E8%BD%AC%E8%8A%82%E7%82%B9-2.66MB%2Fs
-trojan://8faa9d79-637d-45e7-ac61-a6b9a4780144@falungong.19890604.day:10823?allowInsecure=1&sni=cloudflare.node-ssl.cdn-alibaba.com#%E4%B8%AD%E8%BD%AC%E8%8A%82%E7%82%B9-1.51MB%2Fs
-trojan://8faa9d79-637d-45e7-ac61-a6b9a4780144@tiananmen.19890604.day:10804?allowInsecure=1&sni=cloudflare.node-ssl.cdn-alibaba.com#%E4%B8%AD%E8%BD%AC%E8%8A%82%E7%82%B9-896.6KB%2Fs
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpCb2cwRUxtTU05RFN4RGRR@jseyu.arvancode.eu.org:443#%E8%8B%B1%E5%9B%BD-3.60MB%2Fs
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTp1MTdUM0J2cFlhYWl1VzJj@series-a2-mec.samanehha.co:443#%E8%8B%B1%E5%9B%BD-3.74MB%2Fs
-ss://YWVzLTI1Ni1jZmI6VE4yWXFnaHhlRkRLWmZMVQ@103.172.116.79:9037#%E6%96%B0%E5%8A%A0%E5%9D%A1-134.3KB%2Fs
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTptcHMzRndtRGpMcldhT1Zn@v1.arvancode.eu.org:443#%E8%8B%B1%E5%9B%BD-3.76MB%2Fs
-vmess://eyJ2IjoiMiIsInBzIjoi6I235YWwLTEuNTNNQi9zIiwiYWRkIjoiMTU0Ljg1LjAuNDgiLCJwb3J0IjoiNDEwMDAiLCJ0eXBlIjoibm9uZSIsImlkIjoiNGVjMGFlNjItZGUwOS00MDI5LTkwNGEtMDMxM2Q0NjI4ZWNmIiwiYWlkIjoiNjQiLCJuZXQiOiJ3cyIsInBhdGgiOiIvcGF0aC8yNzE2MjQyODIxMTMiLCJob3N0IjoiIiwidGxzIjoidGxzIn0=
+ss://bm9uZTpAYnVsaWFuZzAw@1.1.1.1:6666#%e8%8e%b7%e5%8f%96%e8%8a%82%e7%82%b9%e5%bc%82%e5%b8%b8%ef%bc%8c%e8%af%b7%e5%9c%a8%e4%b8%8b%e4%b8%aa%e6%97%b6%e6%ae%b5%e9%87%8d%e8%af%95
