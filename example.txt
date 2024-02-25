@@ -1,10 +1,10 @@
-trojan://946de652-0980-466f-b8dc-37167ddd4b9d@xibaozi.19890604.day:10839?allowInsecure=1&sni=cloudflare.node-ssl.cdn-alibaba.com#%E4%B8%AD%E8%BD%AC%E8%8A%82%E7%82%B9-2.92MB%2Fs
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTptcHMzRndtRGpMcldhT1Zn@v1.arvancode.eu.org:443#%E8%8B%B1%E5%9B%BD-2.24MB%2Fs
-trojan://9ad66a6e-3999-494f-ae30-f8b4913ffbaa@xijinping.19890604.day:10812?allowInsecure=1&sni=cloudflare.node-ssl.cdn-alibaba.com#%E4%B8%AD%E8%BD%AC%E8%8A%82%E7%82%B9-9.27MB%2Fs
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTp3dlA2bEJFaW0wUHFpeWp6ZmVLMlpv@109.107.189.5:53064#%E4%BF%84%E7%BD%97%E6%96%AF%E8%81%94%E9%82%A6-112.3KB%2Fs
-trojan://946de652-0980-466f-b8dc-37167ddd4b9d@xibaozi.19890604.day:10838?allowInsecure=1&sni=cloudflare.node-ssl.cdn-alibaba.com#%E4%B8%AD%E8%BD%AC%E8%8A%82%E7%82%B9-2.87MB%2Fs
+trojan://9ad66a6e-3999-494f-ae30-f8b4913ffbaa@xibaozi.19890604.day:10849?allowInsecure=1&sni=cloudflare.node-ssl.cdn-alibaba.com#%E4%B8%AD%E8%BD%AC%E8%8A%82%E7%82%B9-3.36MB%2Fs
+trojan://9ad66a6e-3999-494f-ae30-f8b4913ffbaa@tank.19890604.day:10830?allowInsecure=1&sni=cloudflare.node-ssl.cdn-alibaba.com#%E4%B8%AD%E8%BD%AC%E8%8A%82%E7%82%B9-269.7KB%2Fs
+trojan://9ad66a6e-3999-494f-ae30-f8b4913ffbaa@tank.19890604.day:10827?allowInsecure=1&sni=cloudflare.node-ssl.cdn-alibaba.com#%E4%B8%AD%E8%BD%AC%E8%8A%82%E7%82%B9-822.7KB%2Fs
+trojan://9ad66a6e-3999-494f-ae30-f8b4913ffbaa@falungong.19890604.day:10821?allowInsecure=1&sni=cloudflare.node-ssl.cdn-alibaba.com#%E4%B8%AD%E8%BD%AC%E8%8A%82%E7%82%B9-2.65MB%2Fs
+trojan://9ad66a6e-3999-494f-ae30-f8b4913ffbaa@tank.19890604.day:10829?allowInsecure=1&sni=cloudflare.node-ssl.cdn-alibaba.com#%E4%B8%AD%E8%BD%AC%E8%8A%82%E7%82%B9-214.7KB%2Fs
 trojan://946de652-0980-466f-b8dc-37167ddd4b9d@tiananmen.19890604.day:10809?allowInsecure=1&sni=cloudflare.node-ssl.cdn-alibaba.com#%E4%B8%AD%E8%BD%AC%E8%8A%82%E7%82%B9-3.66MB%2Fs
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTp1MTdUM0J2cFlhYWl1VzJj@series-a2-mec.samanehha.co:443#%E8%8B%B1%E5%9B%BD-218.2KB%2Fs
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTp1MTdUM0J2cFlhYWl1VzJj@wxwctxxx.arvancode.eu.org:443#%E8%8B%B1%E5%9B%BD-3.10MB%2Fs
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpXNzRYRkFMTEx1dzZtNUlB@java.ct.arvancode.eu.org:443#%E8%8B%B1%E5%9B%BD-138.6KB%2Fs
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpXNzRYRkFMTEx1dzZtNUlB@series-a1.samanehha.co:443#%E8%8B%B1%E5%9B%BD-472.0KB%2Fs
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpXNzRYRkFMTEx1dzZtNUlB@series-a1.samanehha.co:443#%E8%8B%B1%E5%9B%BD-216.7KB%2Fs
