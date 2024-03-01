@@ -1,1 +1,10 @@
-ss://bm9uZTpAYnVsaWFuZzAw@1.1.1.1:6666#%e8%8e%b7%e5%8f%96%e8%8a%82%e7%82%b9%e5%bc%82%e5%b8%b8%ef%bc%8c%e8%af%b7%e5%9c%a8%e4%b8%8b%e4%b8%aa%e6%97%b6%e6%ae%b5%e9%87%8d%e8%af%95
+trojan://a7819ea2-b833-4b70-a60c-39786109ae33@xibaozi.19890604.day:10839?allowInsecure=1&sni=cloudflare.node-ssl.cdn-alibaba.com#%E4%B8%AD%E8%BD%AC%E8%8A%82%E7%82%B9-3.23MB%2Fs
+trojan://a7819ea2-b833-4b70-a60c-39786109ae33@tank.19890604.day:10830?allowInsecure=1&sni=cloudflare.node-ssl.cdn-alibaba.com#%E4%B8%AD%E8%BD%AC%E8%8A%82%E7%82%B9-15.68MB%2Fs
+trojan://a7819ea2-b833-4b70-a60c-39786109ae33@tiananmen.19890604.day:10803?allowInsecure=1&sni=cloudflare.node-ssl.cdn-alibaba.com#%E4%B8%AD%E8%BD%AC%E8%8A%82%E7%82%B9-14.53MB%2Fs
+trojan://telegram-id-privatevpns@54.217.249.196:22222?allowInsecure=1&sni=trojan.miwan.co.uk#%E7%88%B1%E5%B0%94%E5%85%B0-3.68MB%2Fs
+trojan://a7819ea2-b833-4b70-a60c-39786109ae33@xibaozi.19890604.day:10844?allowInsecure=1&sni=cloudflare.node-ssl.cdn-alibaba.com#%E4%B8%AD%E8%BD%AC%E8%8A%82%E7%82%B9-2.30MB%2Fs
+trojan://a7819ea2-b833-4b70-a60c-39786109ae33@tiananmen.19890604.day:10806?allowInsecure=1&sni=cloudflare.node-ssl.cdn-alibaba.com#%E4%B8%AD%E8%BD%AC%E8%8A%82%E7%82%B9-6.50MB%2Fs
+trojan://a7819ea2-b833-4b70-a60c-39786109ae33@tiananmen.19890604.day:10807?allowInsecure=1&sni=cloudflare.node-ssl.cdn-alibaba.com#%E4%B8%AD%E8%BD%AC%E8%8A%82%E7%82%B9-7.77MB%2Fs
+trojan://a7819ea2-b833-4b70-a60c-39786109ae33@tiananmen.19890604.day:10808?allowInsecure=1&sni=cloudflare.node-ssl.cdn-alibaba.com#%E4%B8%AD%E8%BD%AC%E8%8A%82%E7%82%B9-7.93MB%2Fs
+trojan://a7819ea2-b833-4b70-a60c-39786109ae33@tiananmen.19890604.day:10809?allowInsecure=1&sni=cloudflare.node-ssl.cdn-alibaba.com#%E4%B8%AD%E8%BD%AC%E8%8A%82%E7%82%B9-7.52MB%2Fs
+trojan://a7819ea2-b833-4b70-a60c-39786109ae33@tiananmen.19890604.day:10810?allowInsecure=1&sni=cloudflare.node-ssl.cdn-alibaba.com#%E4%B8%AD%E8%BD%AC%E8%8A%82%E7%82%B9-5.87MB%2Fs
