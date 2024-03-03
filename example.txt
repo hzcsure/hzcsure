@@ -1,4 +1,10 @@
-trojan://27d44990-96ce-4a01-a191-ad81a75b3028@falungong.19890604.day:10822?allowInsecure=1&sni=cloudflare.node-ssl.cdn-alibaba.com#%E4%B8%AD%E8%BD%AC%E8%8A%82%E7%82%B9-4.57MB%2Fs
-trojan://27d44990-96ce-4a01-a191-ad81a75b3028@tiananmen.19890604.day:10803?allowInsecure=1&sni=cloudflare.node-ssl.cdn-alibaba.com#%E4%B8%AD%E8%BD%AC%E8%8A%82%E7%82%B9-422.0KB%2Fs
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpCb2cwRUxtTU05RFN4RGRR@series-a2-me.samanehha.co:443#%E8%8B%B1%E5%9B%BD-4.09MB%2Fs
-ss://YWVzLTI1Ni1jZmI6ZE1MMnNmaGJWd3Z0Zk5QZQ@103.172.116.79:9058#%E6%96%B0%E5%8A%A0%E5%9D%A1-155.3KB%2Fs
+trojan://228a951f-c527-4ee2-8c20-221faeab81ca@xibaozi.19890604.day:10836?allowInsecure=1&sni=cloudflare.node-ssl.cdn-alibaba.com#%E4%B8%AD%E8%BD%AC%E8%8A%82%E7%82%B9-7.13MB%2Fs
+ss://YWVzLTI1Ni1jZmI6VE4yWXFnaHhlRkRLWmZMVQ@103.172.116.79:9037#%E6%96%B0%E5%8A%A0%E5%9D%A1-127.6KB%2Fs
+trojan://228a951f-c527-4ee2-8c20-221faeab81ca@tank.19890604.day:10833?allowInsecure=1&sni=cloudflare.node-ssl.cdn-alibaba.com#%E4%B8%AD%E8%BD%AC%E8%8A%82%E7%82%B9-332.5KB%2Fs
+trojan://228a951f-c527-4ee2-8c20-221faeab81ca@xibaozi.19890604.day:10835?allowInsecure=1&sni=cloudflare.node-ssl.cdn-alibaba.com#%E4%B8%AD%E8%BD%AC%E8%8A%82%E7%82%B9-7.30MB%2Fs
+trojan://228a951f-c527-4ee2-8c20-221faeab81ca@falungong.19890604.day:10823?allowInsecure=1&sni=cloudflare.node-ssl.cdn-alibaba.com#%E4%B8%AD%E8%BD%AC%E8%8A%82%E7%82%B9-4.29MB%2Fs
+trojan://228a951f-c527-4ee2-8c20-221faeab81ca@tiananmen.19890604.day:10810?allowInsecure=1&sni=cloudflare.node-ssl.cdn-alibaba.com#%E4%B8%AD%E8%BD%AC%E8%8A%82%E7%82%B9-6.02MB%2Fs
+trojan://7c252929-6ac0-4681-a835-e52af701f151@b12.ntbq.dynu.net:9755?allowInsecure=1&sni=b12.ntbq.dynu.net#%E5%8F%B0%E6%B9%BE-6.15MB%2Fs
+trojan://08c8768a-31ee-447e-81aa-845399553dbf@b22.ntbq.dynu.net:19489?allowInsecure=1&sni=b22.ntbq.dynu.net#%E5%8F%B0%E6%B9%BE-7.44MB%2Fs
+trojan://08c8768a-31ee-447e-81aa-845399553dbf@b23.ntbq.dynu.net:18701?allowInsecure=1&sni=b23.ntbq.dynu.net#%E5%8F%B0%E6%B9%BE-4.87MB%2Fs
+trojan://3d926991-4815-4dd9-aabe-42e8a56b27c4@b24.ntbq.dynu.net:3271?allowInsecure=1&sni=b24.ntbq.dynu.net#%E5%8F%B0%E6%B9%BE-4.12MB%2Fs
