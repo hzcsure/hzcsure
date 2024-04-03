@@ -26,9 +26,6 @@ jobs:
         run: |
            if [ -f ./example.txt ]; then
               sed -e '/ss:/d' -e '/ssr:/d' ./example.txt > ./example2.txt
-              if [ `wc -l  ./example2.txt` -gt 30 ];then
-                tail -n 15 ./example2.txt > ./example2.txt
-              fi
               cat ./example2.txt
               rm ./example.txt
            fi
