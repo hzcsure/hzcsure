@@ -1,9 +1,7 @@
 name: Test_telethon
 
 on:
-  schedule:
-    - cron: '15 * * * *'
-    - cron: '50 * * * *'
+
   repository_dispatch:
     types:
       - letaction
@@ -25,7 +23,7 @@ jobs:
           python3 -m pip install --upgrade telethon
       - name: RuntestPy
           id:test_py
-        run: python3 test.py
+        run: ls -ltr
       - name: Run
         run: |
           date
