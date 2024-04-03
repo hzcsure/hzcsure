@@ -26,13 +26,17 @@ jobs:
         run: |
            if [ -f ./example.txt ]; then
               sed -e '/ss:/d' -e '/ssr:/d' ./example.txt > ./example2.txt
+              aa=`wc -l ./example2.txt`
+              echo $aa
               cat ./example2.txt
               rm ./example.txt
            fi
            python3 test.py
            if [ -f ./example.txt ]; then
              if [ -f ./example2.txt ]; then
-               if [ `wc -l  ./example2.txt` -gt 0 ];then
+               bb=`wc -l ./example2.txt`
+               echo $bb
+               if [ $bb -gt 0 ];then
                  cat ./example2.txt >> ./example.txt
                fi
              fi
