@@ -23,7 +23,12 @@ jobs:
           python3 -m pip install --upgrade telethon
       - name: RuntestPy
           id:test_py
-        run: ls -ltr
+        run: |
+           if [ -f ./example.txt ]; then
+              sed -e '/ss:/d' -e '/ssr:/d' filename > ./example2.txt
+              wc -l ./example2.txt
+           fi
+           
       - name: Run
         run: |
           date
