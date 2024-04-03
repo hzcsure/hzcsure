@@ -25,7 +25,7 @@ jobs:
           id:test_py
         run: |
            if [ -f ./example.txt ]; then
-              sed -e '/ss:/d' -e '/ssr:/d' filename > ./example2.txt
+              sed -e '/ss:/d' -e '/ssr:/d' ./example.txt > ./example2.txt
               wc -l ./example2.txt
            fi
            
