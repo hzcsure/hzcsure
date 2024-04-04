@@ -27,6 +27,7 @@ jobs:
            if [ -f ./example.txt ]; then
               echo "here in example.txt"
               cat ./example.txt
+              echo ""
               echo "here to sed"
               sed  '/ss:/d' ./example.txt 
               if [ $(wc -l < ./example2.txt) -gt 30 ];then
