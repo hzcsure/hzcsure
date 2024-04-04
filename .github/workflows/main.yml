@@ -1,7 +1,9 @@
 name: Test_telethon
 
 on:
-
+  schedule:
+    - cron: '15 * * * *'
+    - cron: '50 * * * *'
   repository_dispatch:
     types:
       - letaction
@@ -41,6 +43,7 @@ jobs:
              if [ -f ./example2.txt ]; then
                if [ $(wc -l < ./example2.txt) -gt 0 ];then
                  cat ./example2.txt >> ./example.txt
+                 sort ./example.txt | uniq > ./example.txt
                fi
              fi
            fi
