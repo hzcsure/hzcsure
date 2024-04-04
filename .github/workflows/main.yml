@@ -43,7 +43,8 @@ jobs:
              if [ -f ./example2.txt ]; then
                if [ $(wc -l < ./example2.txt) -gt 0 ];then
                  cat ./example2.txt >> ./example.txt
-                 sort ./example.txt | uniq > ./example.txt
+                 sort ./example.txt | uniq > ./example2.txt
+                 mv -f ./example2.txt ./example.txt
                fi
              fi
            fi
