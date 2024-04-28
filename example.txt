@@ -1,13 +1,4 @@
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTp0MHNybWR4cm0zeHlqbnZxejlld2x4YjJteXE3cmp1dg@103.172.116.252:2377/?plugin=obfs-local%3Bobfs%3Dtls%3Bobfs-host%3Dff5c0fb%3A30513#%E6%96%B0%E5%8A%A0%E5%9D%A1-559.8KB%2Fs
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTp0MHNybWR4cm0zeHlqbnZxejlld2x4YjJteXE3cmp1dg@139.162.108.42:2377/?plugin=obfs-local%3Bobfs%3Dtls%3Bobfs-host%3De2322f9%3A87491#%E6%97%A5%E6%9C%AC-1.67MB%2Fs
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTp0MHNybWR4cm0zeHlqbnZxejlld2x4YjJteXE3cmp1dg@172.104.96.103:2377/?plugin=obfs-local%3Bobfs%3Dtls%3Bobfs-host%3Dd0a8692%3A32667#%E6%97%A5%E6%9C%AC-1.31MB%2Fs
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTp0MHNybWR4cm0zeHlqbnZxejlld2x4YjJteXE3cmp1dg@172.105.205.214:2377/?plugin=obfs-local%3Bobfs%3Dtls%3Bobfs-host%3Dff5c0fb%3A30513#%E6%97%A5%E6%9C%AC-1.84MB%2Fs
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTp0MHNybWR4cm0zeHlqbnZxejlld2x4YjJteXE3cmp1dg@172.105.219.224:2377/?plugin=obfs-local%3Bobfs%3Dtls%3Bobfs-host%3Dff5c0fb%3A30513#%E6%97%A5%E6%9C%AC-996.1KB%2Fs
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTp0MHNybWR4cm0zeHlqbnZxejlld2x4YjJteXE3cmp1dg@211.72.35.152:2377/?plugin=obfs-local%3Bobfs%3Dtls%3Bobfs-host%3Dff5c0fb%3A30513#%E5%8F%B0%E6%B9%BE-4.86MB%2Fs
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTp0MHNybWR4cm0zeHlqbnZxejlld2x4YjJteXE3cmp1dg@95.174.71.101:2377/?plugin=obfs-local%3Bobfs%3Dtls%3Bobfs-host%3Dff5c0fb%3A30513#%E7%BE%8E%E5%9B%BD-241.9KB%2Fs
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTp0MHNybWR4cm0zeHlqbnZxejlld2x4YjJteXE3cmp1dg@95.174.71.28:2377/?plugin=obfs-local%3Bobfs%3Dtls%3Bobfs-host%3Dff5c0fb%3A30513#%E7%BE%8E%E5%9B%BD-1.64MB%2Fs
-ss://YWVzLTI1Ni1nY206Rm9PaUdsa0FBOXlQRUdQ@149.202.82.172:7307#%E6%B3%95%E5%9B%BD-316.4KB%2Fs
-ss://YWVzLTI1Ni1nY206ZTRGQ1dyZ3BramkzUVk@149.202.82.172:9102#%E6%B3%95%E5%9B%BD-319.8KB%2Fs
+ss://bm9uZTpAYnVsaWFuZzAw@1.1.1.1:6666#%e8%8e%b7%e5%8f%96%e8%8a%82%e7%82%b9%e5%bc%82%e5%b8%b8%ef%bc%8c%e8%af%b7%e5%9c%a8%e4%b8%8b%e4%b8%aa%e6%97%b6%e6%ae%b5%e9%87%8d%e8%af%95
 trojan://BZjkHMao@112.16.228.100:443?allowInsecure=1#%E4%B8%AD%E8%BD%AC%E8%8A%82%E7%82%B9-10.57MB%2Fs
 trojan://BZjkHMao@112.16.228.100:443?allowInsecure=1#%E4%B8%AD%E8%BD%AC%E8%8A%82%E7%82%B9-10.75MB%2Fs
 trojan://BZjkHMao@112.16.228.100:443?allowInsecure=1#%E4%B8%AD%E8%BD%AC%E8%8A%82%E7%82%B9-6.19MB%2Fs
