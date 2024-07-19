@@ -1,10 +1,4 @@
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpsV2FHUFZGam1uYWc@205.134.180.139:443#%E7%BE%8E%E5%9B%BD-3.38MB%2Fs
-ss://YWVzLTEyOC1jZmI6c2hhZG93c29ja3M@109.201.152.181:443#%E8%8D%B7%E5%85%B0-3.07MB%2Fs
-ss://YWVzLTEyOC1nY206c2hhZG93c29ja3M@212.102.53.79:443#%E8%8B%B1%E5%9B%BD-3.89MB%2Fs
-ss://YWVzLTEyOC1nY206c2hhZG93c29ja3M@212.102.53.80:443#%E8%8B%B1%E5%9B%BD-4.05MB%2Fs
-ss://YWVzLTI1Ni1jZmI6YmY3djMzNEtLRFYzWURoSA@103.172.116.94:9070#%E6%96%B0%E5%8A%A0%E5%9D%A1-157.0KB%2Fs
-ss://YWVzLTI1Ni1jZmI6aEdrUTY5MTV0RA@59.56.77.178:15084#%E4%B8%AD%E8%BD%AC%E8%8A%82%E7%82%B9-4.58MB%2Fs
-ss://YWVzLTI1Ni1jZmI6ck5CZk51dUFORkNBazdLQg@103.172.116.94:9056#%E6%96%B0%E5%8A%A0%E5%9D%A1-175.8KB%2Fs
+/get
 trojan://9bd9f0da-cb8b-4bd3-9f80-efa1be67daa0@naiu-hk.05vr9nyqg5.download:13007?allowInsecure=1&sni=cloudflare.node-ssl.cdn-alibaba.com#%E4%B8%AD%E8%BD%AC%E8%8A%82%E7%82%B9-10.71MB%2Fs
 trojan://9bd9f0da-cb8b-4bd3-9f80-efa1be67daa0@naiu-hk.05vr9nyqg5.download:13007?allowInsecure=1&sni=cloudflare.node-ssl.cdn-alibaba.com#%E4%B8%AD%E8%BD%AC%E8%8A%82%E7%82%B9-348.6KB%2Fs
 trojan://9bd9f0da-cb8b-4bd3-9f80-efa1be67daa0@naiu-hk.05vr9nyqg5.download:13008?allowInsecure=1&sni=cloudflare.node-ssl.cdn-alibaba.com#%E4%B8%AD%E8%BD%AC%E8%8A%82%E7%82%B9-112.9KB%2Fs
