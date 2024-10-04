@@ -23,6 +23,8 @@ jobs:
       - name: Install requirements
         run: |
           printenv
+          python --version
+          find /usr/lib/ -name EXTERNALLY-MANAGED -exec rm {} \;
           python3 -m pip install --upgrade telethon
       - name: RuntestPy
           id:test_py
