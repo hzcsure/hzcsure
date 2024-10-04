@@ -22,7 +22,7 @@ jobs:
         uses: actions/checkout@v3
       - name: Install requirements
         run: |
-          mv /usr/lib/python3.x/EXTERNALLY-MANAGED /usr/lib/python3.x/EXTERNALLY-MANAGED.bk
+          printenv
           python3 -m pip install --upgrade telethon
       - name: RuntestPy
           id:test_py
