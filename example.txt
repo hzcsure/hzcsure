@@ -1,4 +1,4 @@
-ss://bm9uZTpAYnVsaWFuZzAw@1.1.1.1:6666#%e8%8e%b7%e5%8f%96%e8%8a%82%e7%82%b9%e5%bc%82%e5%b8%b8%ef%bc%8c%e8%af%b7%e5%9c%a8%e4%b8%8b%e4%b8%aa%e6%97%b6%e6%ae%b5%e9%87%8d%e8%af%95
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpucTk2S2Z0clpBajNMdUZRRVNxbW40NE1vNW9DdW8yY2lwb0VzYWUyNW1ybUhHMm9KNFZUMzdzY0JmVkJwTjVEV3RVRUxadXRWaGhYczhMZTVCOGZaOWhMbjl5dHd2YmY@208.67.105.87:42501#%E8%8D%B7%E5%85%B0-1.9MB%2Fs
 trojan://243eab52-9ac1-405c-887c-eb112c0985b8@74.226.136.204:443?allowInsecure=1&sni=tw02.trojanyyds.xyz#%E6%97%A5%E6%9C%AC-4.59MB%2Fs
 trojan://243eab52-9ac1-405c-887c-eb112c0985b8@74.226.136.204:443?allowInsecure=1&sni=tw02.trojanyyds.xyz#%E6%97%A5%E6%9C%AC-549.1KB%2Fs
 trojan://243eab52-9ac1-405c-887c-eb112c0985b8@74.226.136.204:443?allowInsecure=1&sni=tw02.trojanyyds.xyz#%E6%97%A5%E6%9C%AC-9.19MB%2Fs
@@ -15,6 +15,7 @@ trojan://7daf833c-37b9-4afc-8495-96590f03f781@120.232.217.96:21332?allowInsecure
 trojan://7daf833c-37b9-4afc-8495-96590f03f781@120.232.217.96:21332?allowInsecure=1&sni=120.232.217.96#%E4%B8%AD%E8%BD%AC%E8%8A%82%E7%82%B9-3.10MB%2Fs
 trojan://7daf833c-37b9-4afc-8495-96590f03f781@120.232.217.96:21332?allowInsecure=1&sni=120.232.217.96#%E4%B8%AD%E8%BD%AC%E8%8A%82%E7%82%B9-853.5KB%2Fs
 trojan://vzhXXZVw@223.113.54.149:14505?allowInsecure=1#%E4%B8%AD%E8%BD%AC%E8%8A%82%E7%82%B9-3.32MB%2Fs
+trojan://vzhXXZVw@223.113.54.149:14505?allowInsecure=1#%E4%B8%AD%E8%BD%AC%E8%8A%82%E7%82%B9-362.1KB%2Fs
 trojan://vzhXXZVw@223.113.54.149:14505?allowInsecure=1#%E4%B8%AD%E8%BD%AC%E8%8A%82%E7%82%B9-543.4KB%2Fs
 trojan://vzhXXZVw@223.113.54.149:14505?allowInsecure=1#%E4%B8%AD%E8%BD%AC%E8%8A%82%E7%82%B9-663.0KB%2Fs
 trojan://vzhXXZVw@36.150.215.196:18681?allowInsecure=1#%E4%B8%AD%E8%BD%AC%E8%8A%82%E7%82%B9-1.17MB%2Fs
