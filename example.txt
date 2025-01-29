@@ -1,9 +1,12 @@
-ss://YWVzLTI1Ni1jZmI6YW1hem9uc2tyMDU@13.229.129.167:443#%E6%96%B0%E5%8A%A0%E5%9D%A1-3.63MB%2Fs
-ss://YWVzLTI1Ni1jZmI6YW1hem9uc2tyMDU@35.87.38.141:443#%E7%BE%8E%E5%9B%BD-4.27MB%2Fs
-ss://YWVzLTI1Ni1jZmI6YW1hem9uc2tyMDU@35.94.24.233:443#%E7%BE%8E%E5%9B%BD-4.38MB%2Fs
-ss://YWVzLTI1Ni1jZmI6YW1hem9uc2tyMDU@54.180.228.40:443#%E9%9F%A9%E5%9B%BD-240.9KB%2Fs
-ss://YWVzLTI1Ni1jZmI6YW1hem9uc2tyMDU@54.187.27.197:443#%E7%BE%8E%E5%9B%BD-4.28MB%2Fs
-ss://YWVzLTI1Ni1jZmI6YW1hem9uc2tyMDU@54.244.34.53:443#%E7%BE%8E%E5%9B%BD-268.5KB%2Fs
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpLdU1GRVZTSklnTWhVVzdLNTVWNDA2@78.129.140.11:443#%E8%8B%B1%E5%9B%BD-3.56MB%2Fs
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpxbW1mMXk5Z0hpb2oyNndwRWdITXpH@178.128.91.175:8451#%E6%96%B0%E5%8A%A0%E5%9D%A1-4.5MB%2Fs
+ss://YWVzLTEyOC1jZmI6c2hhZG93c29ja3M@184.170.241.194:443#%E7%BE%8E%E5%9B%BD-721.2KB%2Fs
+ss://YWVzLTI1Ni1jZmI6YW1hem9uc2tyMDU@13.209.14.198:443#%E9%9F%A9%E5%9B%BD-4.05MB%2Fs
+ss://YWVzLTI1Ni1jZmI6YW1hem9uc2tyMDU@34.214.166.173:443#%E7%BE%8E%E5%9B%BD-4.10MB%2Fs
+ss://YWVzLTI1Ni1jZmI6YW1hem9uc2tyMDU@35.87.38.141:443#%E7%BE%8E%E5%9B%BD-3.50MB%2Fs
+ss://YWVzLTI1Ni1jZmI6YW1hem9uc2tyMDU@54.180.228.40:443#%E9%9F%A9%E5%9B%BD-11.0MB%2Fs
+ss://YWVzLTI1Ni1jZmI6YW1hem9uc2tyMDU@54.187.27.197:443#%E7%BE%8E%E5%9B%BD-4.09MB%2Fs
+ss://YWVzLTI1Ni1jZmI6ZjhmN2FDemNQS2JzRjhwMw@156.146.40.194:989#%E6%96%AF%E6%B4%9B%E4%BC%90%E5%85%8B-3.95MB%2Fs
 trojan://243eab52-9ac1-405c-887c-eb112c0985b8@hk03.trojanyyds.xyz:443?allowInsecure=1&sni=hk03.trojanyyds.xyz#%E6%97%A5%E6%9C%AC-10.01MB%2Fs
 trojan://243eab52-9ac1-405c-887c-eb112c0985b8@hk03.trojanyyds.xyz:443?allowInsecure=1&sni=hk03.trojanyyds.xyz#%E7%BE%8E%E5%9B%BD-1.69MB%2Fs
 trojan://243eab52-9ac1-405c-887c-eb112c0985b8@us02.trojanyyds.xyz:443?allowInsecure=1&sni=us02.trojanyyds.xyz#%E6%97%A5%E6%9C%AC-7.00MB%2Fs
@@ -12,6 +15,7 @@ trojan://3723507166611775488@54.146.207.76:443?allowInsecure=1&sni=busy-buffalo.
 trojan://3763495894587285504@35.155.4.93:443?allowInsecure=1&sni=usable-toad.treefrog761.one#%E7%BE%8E%E5%9B%BD-1.74MB%2Fs
 trojan://3763495894587285504@89.39.70.207:443?allowInsecure=1&sni=pet-bulldog.goat627.mom#%E7%BD%97%E9%A9%AC%E5%B0%BC%E4%BA%9A-13.5MB%2Fs
 trojan://3763495894587285504@pet-bulldog.goat627.mom:443?allowInsecure=1&sni=pet-bulldog.goat627.mom#%E7%BD%97%E9%A9%AC%E5%B0%BC%E4%BA%9A-13.4MB%2Fs
+trojan://3763495982449565696@109.61.16.83:443?allowInsecure=1&sni=sensible-crow.goat627.mom#%E5%8C%88%E7%89%99%E5%88%A9-12.2MB%2Fs
 trojan://3767107462583558144@first-sawfly.goat627.mom:443?allowInsecure=1&sni=first-sawfly.goat627.mom#%E6%97%A5%E6%9C%AC-3.69MB%2Fs
 trojan://3767107462583558144@modest-bulldog.goat627.mom:443?allowInsecure=1&sni=modest-bulldog.goat627.mom#%E6%B3%95%E5%9B%BD-3.24MB%2Fs
 trojan://3767107462583558144@modest-bulldog.goat627.mom:443?allowInsecure=1&sni=modest-bulldog.goat627.mom#%E6%B3%95%E5%9B%BD-3.39MB%2Fs
