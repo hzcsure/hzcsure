@@ -1,10 +1,6 @@
-vmess://eyJ2IjoiMiIsInBzIjoi5Lit6L2s6IqC54K5LTI1OC4zS0IvcyIsImFkZCI6ImR4djQucGFpNTAyODgudWsiLCJwb3J0IjoiMTQxMDAiLCJ0eXBlIjoibm9uZSIsImlkIjoiZjY4NjZiMGItZjk0Ni00YTAzLThkZjAtYzdlMDAxNmI1NWFkIiwiYWlkIjoiMCIsIm5ldCI6InRjcCIsInBhdGgiOiIvIiwiaG9zdCI6ImR4djQucGFpNTAyODgudWsiLCJ0bHMiOiIifQ==
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTp2a1FQNEZlMmRGRUExcmRXeDBsQWpI@62.60.151.134:60758#%E4%BC%8A%E6%9C%97-14.0MB%2Fs
-trojan://94d219c9-1afc-4d42-b090-8b3794764380@std1.loadingip.com:443?allowInsecure=1#%E6%9C%AA%E7%9F%A5%E5%9B%BD%E5%AE%B6-140.6KB%2Fs
+/get
 trojan://5f7be901-1bb7-4cc5-9c7d-e33bd7e407ad@103.173.66.155:443?allowInsecure=1&sni=cmc3.5gsieuvip.vn#%E8%B6%8A%E5%8D%97-43.7MB%2Fs
-ss://YWVzLTI1Ni1jZmI6YW1hem9uc2tyMDU@43.207.76.121:443#%E6%97%A5%E6%9C%AC-1.43MB%2Fs
-ss://Y2hhY2hhMjAtaWV0Zjphc2QxMjM0NTY@202.162.109.169:8388#%E6%96%B0%E5%8A%A0%E5%9D%A1-134.8KB%2Fs
-ss://YWVzLTI1Ni1jZmI6YW1hem9uc2tyMDU@43.201.102.200:443#%E9%9F%A9%E5%9B%BD-104.7KB%2Fs
-ss://YWVzLTI1Ni1jZmI6YW1hem9uc2tyMDU@3.112.1.143:443#%E6%97%A5%E6%9C%AC-2.99MB%2Fs
-trojan://65086520307764900@3.39.67.154:443?allowInsecure=1&sni=hopeful-seagull.shiner427.skin#%E9%9F%A9%E5%9B%BD-25.0MB%2Fs
 trojan://5f7be901-1bb7-4cc5-9c7d-e33bd7e407ad@cmc1.5gsieuvip.vn:443?allowInsecure=1&sni=cmc1.5gsieuvip.vn#%E8%B6%8A%E5%8D%97-33.7MB%2Fs
+trojan://65086520307764900@3.39.67.154:443?allowInsecure=1&sni=hopeful-seagull.shiner427.skin#%E9%9F%A9%E5%9B%BD-25.0MB%2Fs
+trojan://94d219c9-1afc-4d42-b090-8b3794764380@std1.loadingip.com:443?allowInsecure=1#%E6%9C%AA%E7%9F%A5%E5%9B%BD%E5%AE%B6-140.6KB%2Fs
+vmess://eyJ2IjoiMiIsInBzIjoi5Lit6L2s6IqC54K5LTI1OC4zS0IvcyIsImFkZCI6ImR4djQucGFpNTAyODgudWsiLCJwb3J0IjoiMTQxMDAiLCJ0eXBlIjoibm9uZSIsImlkIjoiZjY4NjZiMGItZjk0Ni00YTAzLThkZjAtYzdlMDAxNmI1NWFkIiwiYWlkIjoiMCIsIm5ldCI6InRjcCIsInBhdGgiOiIvIiwiaG9zdCI6ImR4djQucGFpNTAyODgudWsiLCJ0bHMiOiIifQ==
