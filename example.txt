@@ -1,13 +1,4 @@
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpRQ1hEeHVEbFRUTUQ3anRnSFVqSW9q@45.87.175.157:8080#%E7%AB%8B%E9%99%B6%E5%AE%9B-79.9MB%2Fs
-ss://YWVzLTI1Ni1jZmI6YW1hem9uc2tyMDU@34.217.145.61:443#%E7%BE%8E%E5%9B%BD-142.7KB%2Fs
-ss://YWVzLTI1Ni1jZmI6YW1hem9uc2tyMDU@52.79.249.199:443#%E9%9F%A9%E5%9B%BD-922.1KB%2Fs
-ss://YWVzLTI1Ni1nY206MVQ1QkxLWEowTTFXRjJXNA@ti3hyra4.slashdevslashnetslashtun.net:20002#%E4%B8%AD%E8%BD%AC%E8%8A%82%E7%82%B9-14.7MB%2Fs
-ss://YWVzLTI1Ni1nY206MlhaTkZWTDI4T09MTEVMUg@8tv68qhq.slashdevslashnetslashtun.net:16005#%E4%B8%AD%E8%BD%AC%E8%8A%82%E7%82%B9-14.5MB%2Fs
-ss://YWVzLTI1Ni1nY206NUZKRjIwT0hYS1pDU0RFQg@183.61.177.234:17006#%E4%B8%AD%E8%BD%AC%E8%8A%82%E7%82%B9-18.4MB%2Fs
-ss://YWVzLTI1Ni1nY206OE9DSk1BVlVPU1ZCWVM3Vg@w72tapyb.slashdevslashnetslashtun.net:15008#%E4%B8%AD%E8%BD%AC%E8%8A%82%E7%82%B9-17.2MB%2Fs
-ss://YWVzLTI1Ni1nY206OFJTM1kzTDUwVzZZTlY4Vg@w72tapyb.slashdevslashnetslashtun.net:18004#%E4%B8%AD%E8%BD%AC%E8%8A%82%E7%82%B9-17.0MB%2Fs
-ss://YWVzLTI1Ni1nY206OFVCM0kzOUtNMTEzUVQ5Tg@183.61.177.234:18002#%E4%B8%AD%E8%BD%AC%E8%8A%82%E7%82%B9-11.2MB%2Fs
-ss://cmM0LW1kNToxNGZGUHJiZXpFM0hEWnpzTU9yNg@107.155.57.11:8080#%E7%BE%8E%E5%9B%BD-2.16MB%2Fs
+ss://bm9uZTpAYnVsaWFuZzAw@1.1.1.1:6666#%e8%8e%b7%e5%8f%96%e8%8a%82%e7%82%b9%e5%bc%82%e5%b8%b8%ef%bc%8c%e8%af%b7%e5%9c%a8%e4%b8%8b%e4%b8%aa%e6%97%b6%e6%ae%b5%e9%87%8d%e8%af%95
 trojan://3774827088566296576@54.238.57.168:443?allowInsecure=1&sni=robust-insect.insect388.motorcycles#%E6%97%A5%E6%9C%AC-636.2KB%2Fs
 trojan://3774827088566296576@real-meerkat.insect388.motorcycles:443?allowInsecure=1&sni=real-meerkat.insect388.motorcycles#%E9%9F%A9%E5%9B%BD-4.25MB%2Fs
 trojan://3774827088566296576@robust-insect.insect388.motorcycles:443?allowInsecure=1&sni=robust-insect.insect388.motorcycles#%E6%9C%AA%E7%9F%A5%E5%9B%BD%E5%AE%B6-5.10MB%2Fs
