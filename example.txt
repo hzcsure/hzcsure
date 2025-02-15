@@ -1,8 +1,4 @@
 /get
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpCb2cwRUxtTU05RFN4RGRR@admin.c3.webramz.co:443#%E5%B7%B4%E6%9E%97-2.21MB%2Fs
-ss://YWVzLTI1Ni1jZmI6ZjhmN2FDemNQS2JzRjhwMw@103.106.229.219:989#%E9%A9%AC%E6%9D%A5%E8%A5%BF%E4%BA%9A-3.48MB%2Fs
-ss://YWVzLTI1Ni1jZmI6cXdlclJFV1FAQA@218.38.103.150:28902#%E9%9F%A9%E5%9B%BD-3.88MB%2Fs
-ss://YWVzLTI1Ni1nY206SUM0QVBEWTRBVEhYODkwSQ@23.185.248.14:17004#%E6%9C%AA%E7%9F%A5%E5%9B%BD%E5%AE%B6-13.0MB%2Fs
 trojan://3747000103274291200@integral-malamute.adder289.quest:443?allowInsecure=1&sni=integral-malamute.adder289.quest#%E5%8C%88%E7%89%99%E5%88%A9-8.7MB%2Fs
 trojan://3747000103274291200@integral-malamute.adder289.quest:443?allowInsecure=1&sni=integral-malamute.adder289.quest#%E5%8C%88%E7%89%99%E5%88%A9-8.9MB%2Fs
 trojan://3774827088566296576@95.110.142.205:443?allowInsecure=1&sni=destined-cub.treefrog761.one#%E6%84%8F%E5%A4%A7%E5%88%A9-26.3MB%2Fs
