@@ -1,3 +1,4 @@
+trojan://2cba4104747d49d18319e5ade1b93ab5@yourjobnavigator.online:443?allowInsecure=1#%E8%8B%B1%E5%9B%BD-75.8MB%2Fs
 trojan://43e5eeacbad3032bfe4c25a2f011b6b7@104.251.227.182:443?allowInsecure=1&sni=hezijiasuqi.com#%E9%A6%99%E6%B8%AF-486.7KB%2Fs
 trojan://43e5eeacbad3032bfe4c25a2f011b6b7@104.251.227.182:443?allowInsecure=1&sni=hezijiasuqi.com#%E9%A6%99%E6%B8%AF-6.59MB%2Fs
 trojan://telegram-id-privatevpns@34.248.168.61:22222?allowInsecure=1&sni=trojan.burgerip.co.uk#%E7%88%B1%E5%B0%94%E5%85%B0-3.36MB%2Fs
