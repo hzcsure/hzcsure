@@ -1,6 +1,4 @@
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo0NjE5ZDVhMC0yNThhLTQ4ZjQtOThiZi04ODg0M2Q1ZDdhODM@gdgs.tarioblink.me:30003#%E4%B8%AD%E8%BD%AC%E8%8A%82%E7%82%B9-978.7KB%2Fs
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpjdklJODVUclc2bjBPR3lmcEhWUzF1@193.29.139.189:8080#%E8%8D%B7%E5%85%B0-305.4KB%2Fs
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpmOGY3YUN6Y1BLYnNGOHAz@154.90.37.139:990#%E8%8F%B2%E5%BE%8B%E5%AE%BE-22.0MB%2Fs
+ssr://Mi5odWJsaW5rLnBybzo0MDIxODphdXRoX2FlczEyOF9tZDU6cmM0LW1kNTpwbGFpbjpSVTVhTlRKTC8_Z3JvdXA9VTFOU1VISnZkbWxrWlhJJnJlbWFya3M9NUxpdDZMMnM2SXFDNTRLNUxURTRMakZOUWk5eiZvYmZzcGFyYW09WTJReVlqWTVNamt3TWk0Mk5qQXlZamcwTmpNME5qUXhNRGcxTURZdWJXbGpjbTl6YjJaMExtTnZiUSZwcm90b3BhcmFtPU9USTVNREk2Y0VaWFIwOVI
 trojan://3782591447421952000@inspired-dinosaur.adder289.quest:443?allowInsecure=1#%E6%97%A5%E6%9C%AC-1.14MB%2Fs
 trojan://3782591447421952000@inspired-dinosaur.adder289.quest:443?allowInsecure=1#%E6%97%A5%E6%9C%AC-126.0KB%2Fs
 trojan://3782591447421952000@inspired-dinosaur.adder289.quest:443?allowInsecure=1#%E6%97%A5%E6%9C%AC-2.26MB%2Fs
@@ -16,6 +14,7 @@ trojan://3782591447421952000@sincere-stud.adder289.quest:443?allowInsecure=1&sni
 trojan://3782591447421952000@sincere-stud.adder289.quest:443?allowInsecure=1&sni=sincere-stud.adder289.quest#%E9%9F%A9%E5%9B%BD-36.0MB%2Fs
 trojan://3782591447421952000@sincere-stud.adder289.quest:443?allowInsecure=1&sni=sincere-stud.adder289.quest#%E9%9F%A9%E5%9B%BD-43.3MB%2Fs
 trojan://5af7fa3a-ad9c-4346-ba7f-184e89c91758@lm.kaiqsz.com:51075?allowInsecure=1&sni=mmbiz10.redapricotcloud.com#%E4%B8%AD%E8%BD%AC%E8%8A%82%E7%82%B9-12.33MB%2Fs
+trojan://5af7fa3a-ad9c-4346-ba7f-184e89c91758@lm.kaiqsz.com:51075?allowInsecure=1&sni=mmbiz10.redapricotcloud.com#%E4%B8%AD%E8%BD%AC%E8%8A%82%E7%82%B9-2.68MB%2Fs
 trojan://5af7fa3a-ad9c-4346-ba7f-184e89c91758@lm.kaiqsz.com:51075?allowInsecure=1&sni=mmbiz10.redapricotcloud.com#%E4%B8%AD%E8%BD%AC%E8%8A%82%E7%82%B9-3.62MB%2Fs
 trojan://5af7fa3a-ad9c-4346-ba7f-184e89c91758@lm.kaiqsz.com:51075?allowInsecure=1&sni=mmbiz10.redapricotcloud.com#%E4%B8%AD%E8%BD%AC%E8%8A%82%E7%82%B9-4.09MB%2Fs
 trojan://5af7fa3a-ad9c-4346-ba7f-184e89c91758@lm.kaiqsz.com:51075?allowInsecure=1&sni=mmbiz10.redapricotcloud.com#%E4%B8%AD%E8%BD%AC%E8%8A%82%E7%82%B9-6.58MB%2Fs
@@ -24,6 +23,7 @@ trojan://5af7fa3a-ad9c-4346-ba7f-184e89c91758@lm.kaiqsz.com:51075?allowInsecure=
 trojan://65f14831-5c67-483f-9e85-f3aa73f21187@naiu-other.05vr9nyqg5.download:13035?allowInsecure=1&sni=cloudflare.node-ssl.cdn-alibaba.com#%E4%B8%AD%E8%BD%AC%E8%8A%82%E7%82%B9-101.4KB%2Fs
 trojan://65f14831-5c67-483f-9e85-f3aa73f21187@naiu-other.05vr9nyqg5.download:13035?allowInsecure=1&sni=cloudflare.node-ssl.cdn-alibaba.com#%E4%B8%AD%E8%BD%AC%E8%8A%82%E7%82%B9-134.2KB%2Fs
 trojan://65f14831-5c67-483f-9e85-f3aa73f21187@naiu-other.05vr9nyqg5.download:13035?allowInsecure=1&sni=cloudflare.node-ssl.cdn-alibaba.com#%E4%B8%AD%E8%BD%AC%E8%8A%82%E7%82%B9-199.6KB%2Fs
+trojan://65f14831-5c67-483f-9e85-f3aa73f21187@naiu-other.05vr9nyqg5.download:13035?allowInsecure=1&sni=cloudflare.node-ssl.cdn-alibaba.com#%E4%B8%AD%E8%BD%AC%E8%8A%82%E7%82%B9-211.8KB%2Fs
 trojan://65f14831-5c67-483f-9e85-f3aa73f21187@naiu-other.05vr9nyqg5.download:13035?allowInsecure=1&sni=cloudflare.node-ssl.cdn-alibaba.com#%E4%B8%AD%E8%BD%AC%E8%8A%82%E7%82%B9-219.3KB%2Fs
 trojan://65f14831-5c67-483f-9e85-f3aa73f21187@naiu-other.05vr9nyqg5.download:13035?allowInsecure=1&sni=cloudflare.node-ssl.cdn-alibaba.com#%E4%B8%AD%E8%BD%AC%E8%8A%82%E7%82%B9-598.1KB%2Fs
 trojan://65f14831-5c67-483f-9e85-f3aa73f21187@naiu-other.05vr9nyqg5.download:13035?allowInsecure=1&sni=cloudflare.node-ssl.cdn-alibaba.com#%E4%B8%AD%E8%BD%AC%E8%8A%82%E7%82%B9-80.8MB%2Fs
@@ -34,7 +34,9 @@ trojan://65f14831-5c67-483f-9e85-f3aa73f21187@naiu-sg.05vr9nyqg5.download:13027?
 trojan://65f14831-5c67-483f-9e85-f3aa73f21187@naiu-sg.05vr9nyqg5.download:13027?allowInsecure=1&sni=cloudflare.node-ssl.cdn-alibaba.com#%E4%B8%AD%E8%BD%AC%E8%8A%82%E7%82%B9-8.09MB%2Fs
 trojan://65f14831-5c67-483f-9e85-f3aa73f21187@naiu-us.05vr9nyqg5.download:13019?allowInsecure=1&sni=cloudflare.node-ssl.cdn-alibaba.com#%E4%B8%AD%E8%BD%AC%E8%8A%82%E7%82%B9-10.13MB%2Fs
 trojan://65f14831-5c67-483f-9e85-f3aa73f21187@naiu-us.05vr9nyqg5.download:13019?allowInsecure=1&sni=cloudflare.node-ssl.cdn-alibaba.com#%E4%B8%AD%E8%BD%AC%E8%8A%82%E7%82%B9-131.3KB%2Fs
+trojan://65f14831-5c67-483f-9e85-f3aa73f21187@naiu-us.05vr9nyqg5.download:13019?allowInsecure=1&sni=cloudflare.node-ssl.cdn-alibaba.com#%E4%B8%AD%E8%BD%AC%E8%8A%82%E7%82%B9-202.1KB%2Fs
 trojan://65f14831-5c67-483f-9e85-f3aa73f21187@naiu-us.05vr9nyqg5.download:13019?allowInsecure=1&sni=cloudflare.node-ssl.cdn-alibaba.com#%E4%B8%AD%E8%BD%AC%E8%8A%82%E7%82%B9-321.1KB%2Fs
 trojan://65f14831-5c67-483f-9e85-f3aa73f21187@naiu-us.05vr9nyqg5.download:13019?allowInsecure=1&sni=cloudflare.node-ssl.cdn-alibaba.com#%E4%B8%AD%E8%BD%AC%E8%8A%82%E7%82%B9-63.9MB%2Fs
+trojan://telegram-id-directvpn@63.177.209.12:22222?allowInsecure=1&sni=trojan.burgerip.co.uk#%E7%BE%8E%E5%9B%BD-102.7KB%2Fs
 trojan://telegram-id-directvpn@63.177.209.12:22222?allowInsecure=1&sni=trojan.burgerip.co.uk#%E7%BE%8E%E5%9B%BD-549.0KB%2Fs
 vmess://eyJ2IjoiMiIsInBzIjoi5b635Zu9LTE3LjFNQi9zIiwiYWRkIjoiMTkzLjEwOC4xMTguMTM2IiwicG9ydCI6IjE1NzEzIiwidHlwZSI6Im5vbmUiLCJpZCI6ImY3NGUyNzdlLTg0YjMtNDZhMi04YWJkLTI3NzdmYTVlNGFmOSIsImFpZCI6IjAiLCJuZXQiOiJ0Y3AiLCJwYXRoIjoiLyIsImhvc3QiOiJtbWJpejEwLnJlZGFwcmljb3RjbG91ZC5jb20iLCJ0bHMiOiIifQ==
