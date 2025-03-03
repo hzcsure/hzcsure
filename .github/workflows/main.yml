@@ -3,6 +3,7 @@ name: Test_telethon
 on:
   schedule:
     - cron: '15 * * * *'
+    - cron: '35 * * * *'
     - cron: '55 * * * *'
   repository_dispatch:
     types:
