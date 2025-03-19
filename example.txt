@@ -1,6 +1,4 @@
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTowYjM4MWIzMTgxMWY0ZDk4@100.42.177.164:26905#%E7%BE%8E%E5%9B%BD-12.5MB%2Fs
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpjdklJODVUclc2bjBPR3lmcEhWUzF1@45.158.171.132:8080#%E7%BE%8E%E5%9B%BD-2.45MB%2Fs
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvWklvQTY5UTh5aGNRVjhrYTNQYTNB@45.87.175.65:8080#%E7%AB%8B%E9%99%B6%E5%AE%9B-26.5MB%2Fs
+/get
 trojan://SaujZeOR2F6eDD09KnxFcl3CY8laTXAyYOyCEI5qgwRSDp4ZCp33ASxN738zBa@69.5.52.87:443?allowInsecure=1&sni=beseech.homeofbrave.net#%E6%9C%AA%E7%9F%A5%E5%9B%BD%E5%AE%B6-58.7MB%2Fs
 trojan://SaujZeOR2F6eDD09KnxFcl3CY8laTXAyYOyCEI5qgwRSDp4ZCp33ASxN738zBa@beseech.homeofbrave.net:443?allowInsecure=1#%E6%9C%AA%E7%9F%A5%E5%9B%BD%E5%AE%B6-20.7MB%2Fs
 trojan://SaujZeOR2F6eDD09KnxFcl3CY8laTXAyYOyCEI5qgwRSDp4ZCp33ASxN738zBa@beseech.homeofbrave.net:443?allowInsecure=1&sni=beseech.homeofbrave.net#%E6%9C%AA%E7%9F%A5%E5%9B%BD%E5%AE%B6-42.3MB%2Fs
