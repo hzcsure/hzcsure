@@ -1,6 +1,7 @@
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo5NmVkYzdkNC03NDkwLTQ4ZmYtOTljYy00OTZiMGY0YTI3ZTk@xm.miloli.cc:31778#%E4%B8%AD%E8%BD%AC%E8%8A%82%E7%82%B9-11.54MB%2Fs
-ss://YWVzLTI1Ni1jZmI6YW1hem9uc2tyMDU@13.215.250.172:443#%E6%96%B0%E5%8A%A0%E5%9D%A1-243.9KB%2Fs
-ss://YWVzLTI1Ni1jZmI6YW1hem9uc2tyMDU@43.201.85.71:443#%E9%9F%A9%E5%9B%BD-382.0KB%2Fs
-ss://YWVzLTI1Ni1jZmI6YW1hem9uc2tyMDU@52.78.98.141:443#%E9%9F%A9%E5%9B%BD-74.1MB%2Fs
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo5NmVkYzdkNC03NDkwLTQ4ZmYtOTljYy00OTZiMGY0YTI3ZTk@ss.miloli.cc:19240#%E4%B8%AD%E8%BD%AC%E8%8A%82%E7%82%B9-8.88MB%2Fs
+ss://YWVzLTEyOC1jZmI6c2hhZG93c29ja3M@184.170.241.194:443#%E7%BE%8E%E5%9B%BD-70.3MB%2Fs
+ss://YWVzLTI1Ni1jZmI6YW1hem9uc2tyMDU@43.201.85.71:443#%E9%9F%A9%E5%9B%BD-422.2KB%2Fs
+trojan://85aDyYZY30RxnpAD38lSCKaue9CDDTDOAASycaExR9OEZxOD8c25CXeSCF33lN3q43BeI@gharial.superpokemon.com:443?allowInsecure=1&sni=gharial.superpokemon.com#%E7%BE%8E%E5%9B%BD-200.2KB%2Fs
 trojan://85aDyYZY30RxnpAD38lSCKaue9CDDTDOAASycaExR9OEZxOD8c25CXeSCF33lN3q43BeI@gharial.superpokemon.com:443?allowInsecure=1&sni=gharial.superpokemon.com#%E7%BE%8E%E5%9B%BD-56.7MB%2Fs
 trojan://85aDyYZY30RxnpAD38lSCKaue9CDDTDOAASycaExR9OEZxOD8c25CXeSCF33lN3q43BeI@gharial.superpokemon.com:443?allowInsecure=1&sni=gharial.superpokemon.com#%E7%BE%8E%E5%9B%BD-60.6MB%2Fs
+trojan://88K4yE6e3Za9YxCXR53paOnlqDy5qYIa4OczBTaFAyS0gZjS083Dz3YRCxuwOScXOFNYD@fearow.superpokemon.com:28341?allowInsecure=1&sni=fearow.superpokemon.com#%E7%BE%8E%E5%9B%BD-154.8KB%2Fs
