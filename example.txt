@@ -1,5 +1,6 @@
-ss://YWVzLTI1Ni1nY206SUVQOEdZUDRXTVI0ODJUSw@120.233.205.203:15005#%E4%B8%AD%E8%BD%AC%E8%8A%82%E7%82%B9-7.0MB%2Fs
-ss://YWVzLTI1Ni1nY206WDNGMTJXNERFM1hTM0E0Sw@183.240.211.76:15006#%E4%B8%AD%E8%BD%AC%E8%8A%82%E7%82%B9-12.2MB%2Fs
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo1YTY5YmRjMWJmNGNkOTI3@40.160.8.211:11105#%E7%BE%8E%E5%9B%BD-1.76MB%2Fs
+ss://YWVzLTI1Ni1jZmI6ZjhmN2FDemNQS2JzRjhwMw@154.223.16.212:989#%E9%A6%99%E6%B8%AF-16.3MB%2Fs
+ss://YWVzLTI1Ni1nY206Q0ZaSjVHR0FSWFdWVUNZSg@183.240.211.76:15012#%E4%B8%AD%E8%BD%AC%E8%8A%82%E7%82%B9-10.3MB%2Fs
 trojan://0979046d-90cc-4f58-9595-75ba19550d1c@aafrtpfxr.sgl02i9zjfegelp.5xfsur8v62.gosdk.xyz:42881?allowInsecure=1&sni=q08m.vgraxiw73s.hasyaf.cn#%E4%B8%AD%E8%BD%AC%E8%8A%82%E7%82%B9-14.65MB%2Fs
 trojan://0979046d-90cc-4f58-9595-75ba19550d1c@aafrtpfxr.sgl02i9zjfegelp.5xfsur8v62.gosdk.xyz:42881?allowInsecure=1&sni=q08m.vgraxiw73s.hasyaf.cn#%E4%B8%AD%E8%BD%AC%E8%8A%82%E7%82%B9-411.6KB%2Fs
 trojan://0979046d-90cc-4f58-9595-75ba19550d1c@aafrtpfxr.sgl02i9zjfegelp.5xfsur8v62.gosdk.xyz:42881?allowInsecure=1&sni=q08m.vgraxiw73s.hasyaf.cn#%E4%B8%AD%E8%BD%AC%E8%8A%82%E7%82%B9-632.5KB%2Fs
@@ -12,6 +13,7 @@ trojan://Aimer@8.223.15.4:443?allowInsecure=1&sni=agepl.ambercc.filegear-sg.me#%
 trojan://Y0IweO6223CjwZD8FFZAaCz3yTYxDKX9yOAlXp5FTRONDaZl3zSeS7a3D4cYuCxFRx7yS@tenderly.meijireform.com:28337?allowInsecure=1&sni=tenderly.meijireform.com#%E7%BE%8E%E5%9B%BD-237.0KB%2Fs
 trojan://telegram-id-directvpn@3.253.207.156:22222?allowInsecure=1&sni=trojan.burgerip.co.uk#%E7%88%B1%E5%B0%94%E5%85%B0-464.9KB%2Fs
 trojan://telegram-id-directvpn@79.125.50.228:22222?allowInsecure=1&sni=trojan.burgerip.co.uk#%E7%88%B1%E5%B0%94%E5%85%B0-233.5KB%2Fs
+trojan://telegram-id-privatevpns@51.44.49.128:22222?allowInsecure=1&sni=trojan.burgerip.co.uk#%E7%BE%8E%E5%9B%BD-247.0KB%2Fs
 trojan://telegram-id-privatevpns@52.48.97.169:22222?allowInsecure=1&sni=trojan.burgerip.co.uk#%E7%88%B1%E5%B0%94%E5%85%B0-130.4KB%2Fs
 vmess://eyJ2IjoiMiIsInBzIjoi576O5Zu9LTE0MS41S0IvcyIsImFkZCI6IjE4NS4xODQuNzAuOTAiLCJwb3J0IjoiMjA4MiIsInR5cGUiOiJub25lIiwiaWQiOiI3ZTg0YjViOS1lOWZlLTRkYmUtOTA2ZC00YWJkNjdjMDkzNzYiLCJhaWQiOiIwIiwibmV0Ijoid3MiLCJwYXRoIjoiN2U4NGI1YjktZTlmZS00ZGJlLTkwNmQtNGFiZDY3YzA5Mzc2LXZtIiwiaG9zdCI6IiIsInRscyI6IiJ9
 vmess://eyJ2IjoiMiIsInBzIjoi576O5Zu9LTEzOC4wS0IvcyIsImFkZCI6IjE4NS4xODQuNzAuOTAiLCJwb3J0IjoiMjA4MiIsInR5cGUiOiJub25lIiwiaWQiOiI3ZTg0YjViOS1lOWZlLTRkYmUtOTA2ZC00YWJkNjdjMDkzNzYiLCJhaWQiOiIwIiwibmV0Ijoid3MiLCJwYXRoIjoiN2U4NGI1YjktZTlmZS00ZGJlLTkwNmQtNGFiZDY3YzA5Mzc2LXZtIiwiaG9zdCI6IiIsInRscyI6IiJ9
