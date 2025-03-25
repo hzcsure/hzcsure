@@ -1,6 +1,8 @@
-ss://YWVzLTI1Ni1nY206NlU3TjNGRUpUNjJSMVlSSA@qh62onjn.slashdevslashnetslashtun.net:15015#%E4%B8%AD%E8%BD%AC%E8%8A%82%E7%82%B9-6.4MB%2Fs
-ss://YWVzLTI1Ni1nY206Ukc3T1FYN1M1T0lVM0FMNA@w72tapyb.slashdevslashnetslashtun.net:15016#%E4%B8%AD%E8%BD%AC%E8%8A%82%E7%82%B9-9.1MB%2Fs
-ss://YWVzLTI1Ni1nY206WUg3WlM3VFBIVkgzMjI2VQ@w72tapyb.slashdevslashnetslashtun.net:16010#%E4%B8%AD%E8%BD%AC%E8%8A%82%E7%82%B9-8.6MB%2Fs
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNToyaFFLMDhlMkNlZndFT0tJT25MUzBP@85.239.151.31:24596#%E8%8B%B1%E5%9B%BD-163.9KB%2Fs
+ss://YWVzLTI1Ni1jZmI6YW1hem9uc2tyMDU@13.212.61.224:443#%E6%96%B0%E5%8A%A0%E5%9D%A1-122.0KB%2Fs
+ss://YWVzLTI1Ni1jZmI6YW1hem9uc2tyMDU@35.89.254.58:443#%E7%BE%8E%E5%9B%BD-186.7KB%2Fs
+ss://YWVzLTI1Ni1nY206NlU3TjNGRUpUNjJSMVlSSA@qh62onjn.slashdevslashnetslashtun.net:15015#%E4%B8%AD%E8%BD%AC%E8%8A%82%E7%82%B9-6.8MB%2Fs
+ss://YWVzLTI1Ni1nY206WUg3WlM3VFBIVkgzMjI2VQ@w72tapyb.slashdevslashnetslashtun.net:16010#%E4%B8%AD%E8%BD%AC%E8%8A%82%E7%82%B9-8.8MB%2Fs
 trojan://c017fb27-a4b4-48f9-80f6-2bdb504adf75@35ba5dc4c753892feb3270a8e745e72b.lianjianode.xyz:42168?allowInsecure=1&sni=data.bilibili.com#%E4%B8%AD%E8%BD%AC%E8%8A%82%E7%82%B9-13.10MB%2Fs
 trojan://c017fb27-a4b4-48f9-80f6-2bdb504adf75@35ba5dc4c753892feb3270a8e745e72b.lianjianode.xyz:42168?allowInsecure=1&sni=data.bilibili.com#%E7%BE%8E%E5%9B%BD-2.45MB%2Fs
 trojan://c017fb27-a4b4-48f9-80f6-2bdb504adf75@35ba5dc4c753892feb3270a8e745e72b.lianjianode.xyz:42168?allowInsecure=1&sni=data.bilibili.com#%E7%BE%8E%E5%9B%BD-5.30MB%2Fs
