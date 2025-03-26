@@ -1,7 +1,4 @@
 /get
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTplZTE5ZmNlYi1jZWRjLTQ4MzItYjQ2MC1mY2NmMjRmZGM4YmU@120.232.150.248:11008#%E4%B8%AD%E8%BD%AC%E8%8A%82%E7%82%B9-54.3MB%2Fs
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTplZTE5ZmNlYi1jZWRjLTQ4MzItYjQ2MC1mY2NmMjRmZGM4YmU@183.232.229.164:11002#%E4%B8%AD%E8%BD%AC%E8%8A%82%E7%82%B9-33.1MB%2Fs
-ss://YWVzLTI1Ni1nY206RldTSzhSVERKTDdSMklKQQ@w72tapyb.slashdevslashnetslashtun.net:15008#%E4%B8%AD%E8%BD%AC%E8%8A%82%E7%82%B9-11.3MB%2Fs
 trojan://74260704627805900@capital-hyena.shiner427.skin:443?allowInsecure=1#%E7%BE%8E%E5%9B%BD-2.64MB%2Fs
 trojan://74260704627805900@capital-hyena.shiner427.skin:443?allowInsecure=1#%E7%BE%8E%E5%9B%BD-3.56MB%2Fs
 trojan://74260704627805900@capital-hyena.shiner427.skin:443?allowInsecure=1&sni=capital-hyena.shiner427.skin#%E7%BE%8E%E5%9B%BD-1.57MB%2Fs
@@ -10,6 +7,7 @@ trojan://74260704627805900@driven-tiger.shiner427.skin:443?allowInsecure=1&sni=d
 trojan://74260704627805900@driven-tiger.shiner427.skin:443?allowInsecure=1&sni=driven-tiger.shiner427.skin#%E6%97%A5%E6%9C%AC-157.5KB%2Fs
 trojan://74260704627805900@gorgeous-gopher.shiner427.skin:443?allowInsecure=1#%E8%8B%B1%E5%9B%BD-1.96MB%2Fs
 trojan://74260704627805900@gorgeous-gopher.shiner427.skin:443?allowInsecure=1&sni=gorgeous-gopher.shiner427.skin#%E8%8B%B1%E5%9B%BD-1.93MB%2Fs
+trojan://74260704627805900@gorgeous-gopher.shiner427.skin:443?allowInsecure=1&sni=gorgeous-gopher.shiner427.skin#%E8%8B%B1%E5%9B%BD-108.5KB%2Fs
 trojan://74260704627805900@gorgeous-gopher.shiner427.skin:443?allowInsecure=1&sni=gorgeous-gopher.shiner427.skin#%E8%8B%B1%E5%9B%BD-2.78MB%2Fs
 trojan://74260704627805900@gorgeous-gopher.shiner427.skin:443?allowInsecure=1&sni=gorgeous-gopher.shiner427.skin#%E8%8B%B1%E5%9B%BD-24.5MB%2Fs
 trojan://74260704627805900@gorgeous-gopher.shiner427.skin:443?allowInsecure=1&sni=gorgeous-gopher.shiner427.skin#%E8%8B%B1%E5%9B%BD-40.9MB%2Fs
