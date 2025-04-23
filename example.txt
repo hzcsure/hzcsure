@@ -1,3 +1,4 @@
+/get
 trojan://3828095943467868160@195.133.93.118:443?allowInsecure=1&sni=humble-shad.dolphin109.quest#%E6%8D%B7%E5%85%8B-92.0MB%2Fs
 trojan://3828095943467868160@212.192.2.202:443?allowInsecure=1&sni=lucky-lynx.dolphin109.quest#%E5%B7%B4%E5%8B%92%E6%96%AF%E5%9D%A6-39.8MB%2Fs
 trojan://3828095943467868160@blessed-opossum.dolphin109.quest:443?allowInsecure=1&sni=blessed-opossum.dolphin109.quest#%E8%8B%B1%E5%9B%BD-86.3MB%2Fs
