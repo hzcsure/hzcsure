@@ -1,4 +1,4 @@
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpjM2U5YzRhZjMwOTA@137.220.142.145:443/?plugin=v2ray-plugin%3Bmode%3Dwebsocket%3Btls%3Bmux%3D4%3Bhost%3Djp5v1.8vote.cn%3Bpath%3D%2Fpnkedddxby%3Bmux%3Dmux%3D4%3B%3B#%E6%97%A5%E6%9C%AC-2.95MB%2Fs
+ss://bm9uZTpAYnVsaWFuZzAw@1.1.1.1:6666#%e8%8e%b7%e5%8f%96%e8%8a%82%e7%82%b9%e5%bc%82%e5%b8%b8%ef%bc%8c%e8%af%b7%e5%9c%a8%e4%b8%8b%e4%b8%aa%e6%97%b6%e6%ae%b5%e9%87%8d%e8%af%95
 trojan://15e528dd-681f-472c-bd1b-c26d23adbddc@58.254.186.222:27102?allowInsecure=1&sni=q08m.vgraxiw73s.hasyaf.cn#%E4%B8%AD%E8%BD%AC%E8%8A%82%E7%82%B9-173.1KB%2Fs
 trojan://15e528dd-681f-472c-bd1b-c26d23adbddc@58.254.186.222:27102?allowInsecure=1&sni=q08m.vgraxiw73s.hasyaf.cn#%E4%B8%AD%E8%BD%AC%E8%8A%82%E7%82%B9-64.96MB%2Fs
 trojan://a38c9e28-9960-4e31-9f18-ed2495a756aa@vt-bana2-cn-11.ghpgwqswodgzv.com:40021?allowInsecure=1&sni=vt-bana2-cn-11.ghpgwqswodgzv.com&ws=1&wspath=%2Fdl_media#%E4%B8%AD%E8%BD%AC%E8%8A%82%E7%82%B9-126.9KB%2Fs
