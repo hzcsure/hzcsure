@@ -1,4 +1,4 @@
-ss://YWVzLTEyOC1jZmI6c2hhZG93c29ja3M@184.170.241.194:443#%E7%BE%8E%E5%9B%BD-27.3MB%2Fs
+/get
 trojan://3482c71a-d01c-4ae5-b454-fa8cb3785f66@94.131.20.3:443?allowInsecure=1&sni=chop-wrist-bud.stark-industries.solutions#%E7%BE%8E%E5%9B%BD-22.5MB%2Fs
 trojan://3482c71a-d01c-4ae5-b454-fa8cb3785f66@94.131.20.3:443?allowInsecure=1&sni=chop-wrist-bud.stark-industries.solutions#%E7%BE%8E%E5%9B%BD-25.1MB%2Fs
 vmess://eyJ2IjoiMiIsInBzIjoi576O5Zu9LTU2MC40S0IvcyIsImFkZCI6Ijl4LjkzOC5wcC51YSIsInBvcnQiOiI0NDMiLCJ0eXBlIjoibm9uZSIsImlkIjoiOTA2YmE5MmYtZWY5Ni00MTMzLThlZWUtZjMzMjAyYTVhNzIxIiwiYWlkIjoiMCIsIm5ldCI6IndzIiwicGF0aCI6Ii9EQXhKZGRPZFRkNXBWYW05dyIsImhvc3QiOiI5eC45MzgucHAudWEiLCJ0bHMiOiJ0bHMifQ==
