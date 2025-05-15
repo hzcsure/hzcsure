@@ -1,4 +1,4 @@
-ss://YWVzLTI1Ni1jZmI6ZjhmN2FDemNQS2JzRjhwMw@37.235.49.152:989#%E5%86%B0%E5%B2%9B-211.1KB%2Fs
+/get
 trojan://xxoo@138.197.5.103:443?allowInsecure=1#%E7%BE%8E%E5%9B%BD-221.2KB%2Fs
 trojan://xxoo@138.197.5.103:443?allowInsecure=1#%E7%BE%8E%E5%9B%BD-3.53MB%2Fs
 trojan://xxoo@us.blazeppn.info:443?allowInsecure=1&sni=us.blazeppn.info#%E7%BE%8E%E5%9B%BD-116.9KB%2Fs
