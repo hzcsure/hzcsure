@@ -1,5 +1,5 @@
-trojan://85f133142f04dbf6547da33895cfabb3@203.156.253.11:39001?allowInsecure=1&sni=www.yrtok.com#%E4%B8%AD%E8%BD%AC%E8%8A%82%E7%82%B9-233.2KB%2Fs
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNToxNDUwY2VjZmI5M2Y@kh36v1.pmxiaonan.xyz:26902/?plugin=v2ray-plugin%3Bmode%3Dwebsocket%3Btls%3Bmux%3D4%3Bhost%3Dkh36v1.pmxiaonan.xyz%3Bpath%3D%2Fsimieepvt%3Bmux%3Dmux%3D4%3B%3B#%E9%A6%99%E6%B8%AF-22.8MB%2Fs
 ss://YWVzLTI1Ni1jZmI6cXdlclJFV1FAQA@p141.panda001.net:4652#%E9%9F%A9%E5%9B%BD-78.4MB%2Fs
 ss://YWVzLTI1Ni1nY206YTg2OWJhN2UtZTQ2Yy00NmJmLTlkMGEtMmE0ZGRlY2MwNjI3@fell4.dogsvpn.top:7705#%E5%B7%B4%E8%A5%BF-105.5KB%2Fs
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNToxNDUwY2VjZmI5M2Y@kh36v1.pmxiaonan.xyz:26902/?plugin=v2ray-plugin%3Bmode%3Dwebsocket%3Btls%3Bmux%3D4%3Bhost%3Dkh36v1.pmxiaonan.xyz%3Bpath%3D%2Fsimieepvt%3Bmux%3Dmux%3D4%3B%3B#%E9%A6%99%E6%B8%AF-22.8MB%2Fs
+trojan://85f133142f04dbf6547da33895cfabb3@203.156.253.11:39001?allowInsecure=1&sni=www.yrtok.com#%E4%B8%AD%E8%BD%AC%E8%8A%82%E7%82%B9-233.2KB%2Fs
 vmess://eyJ2IjoiMiIsInBzIjoi5Lit6L2s6IqC54K5LTEyLjdNQi9zIiwiYWRkIjoiMTExLjI2LjEwOS43OSIsInBvcnQiOiIzMDgyOCIsInR5cGUiOiJub25lIiwiaWQiOiJjYmIzZjg3Ny1kMWZiLTM0NGMtODdhOS1kMTUzYmZmZDU0ODQiLCJhaWQiOiIyIiwibmV0Ijoid3MiLCJwYXRoIjoiL29vb28iLCJob3N0Ijoib2NiYy5jb20iLCJ0bHMiOiIifQ==
