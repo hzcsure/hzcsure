@@ -1,10 +1,8 @@
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo3OTA1YTMyYi0wMTJjLTQ3MTEtODllMi03M2I2NzEzZWNhNzU@pr.fastsoonlink.com:40030#%E4%B8%AD%E8%BD%AC%E8%8A%82%E7%82%B9-19.6MB%2Fs
-ss://YWVzLTI1Ni1jZmI6WG44aktkbURNMDBJZU8lIyQjZkpBTXRzRUFFVU9wSC9ZV1l0WXFERm5UMFNW@103.186.155.23:38388#%E8%B6%8A%E5%8D%97-287.2KB%2Fs
-ss://YWVzLTI1Ni1nY206MGIxOTEwNzZkMThm@156.251.179.139:636/?plugin=v2ray-plugin%3Bmode%3Dwebsocket%3Btls%3Bmux%3D4%3Bhost%3Dhk6v1.dsjsapp.com%3Bpath%3D%2Fugiibpkbca%3Bmux%3Dmux%3D4%3B%3B#%E7%BE%8E%E5%9B%BD-177.1KB%2Fs
-ss://YWVzLTI1Ni1nY206NzgxYmI1NGMtZjA4OS00OGRmLTgxMDItMDEyODhhODFlYjEw@jsyd.piaomiaoxu.net:44721#%E4%B8%AD%E8%BD%AC%E8%8A%82%E7%82%B9-38.7MB%2Fs
-ss://YWVzLTI1Ni1nY206ODg3YmZjZjQzYjUy@137.220.142.143:636/?plugin=v2ray-plugin%3Bmode%3Dwebsocket%3Btls%3Bmux%3D4%3Bhost%3Djp6v1.lingjfjkm002.com%3Bpath%3D%2Fsvynueogf%3Bmux%3Dmux%3D4%3B%3B#%E6%97%A5%E6%9C%AC-392.6KB%2Fs
-ss://YWVzLTI1Ni1nY206TU5PT1JJVktSUUY0S0dKUA@ti3hyra4.slashdevslashnetslashtun.net:18009#%E4%B8%AD%E8%BD%AC%E8%8A%82%E7%82%B9-9.3MB%2Fs
-ss://YWVzLTI1Ni1nY206V0hUU042VU9PODRUM1JWSQ@ti3hyra4.slashdevslashnetslashtun.net:18013#%E4%B8%AD%E8%BD%AC%E8%8A%82%E7%82%B9-10.7MB%2Fs
+ss://YWVzLTI1Ni1jZmI6ZjhmN2FDemNQS2JzRjhwMw@103.163.218.2:989#%E8%B6%8A%E5%8D%97-19.0MB%2Fs
+ss://YWVzLTI1Ni1nY206NzgxYmI1NGMtZjA4OS00OGRmLTgxMDItMDEyODhhODFlYjEw@jsyd.piaomiaoxu.net:44721#%E4%B8%AD%E8%BD%AC%E8%8A%82%E7%82%B9-332.0KB%2Fs
+ss://YWVzLTI1Ni1nY206TU5PT1JJVktSUUY0S0dKUA@ti3hyra4.slashdevslashnetslashtun.net:18009#%E4%B8%AD%E8%BD%AC%E8%8A%82%E7%82%B9-11.8MB%2Fs
+ss://YWVzLTI1Ni1nY206UVpWRk5HWlk4MjUzTFpZUA@ti3hyra4.slashdevslashnetslashtun.net:18008#%E4%B8%AD%E8%BD%AC%E8%8A%82%E7%82%B9-9.1MB%2Fs
+trojan://0de37cdc-abff-11ef-b7c6-f23c913c8d2b@57100505-sytz40-t389l0-1rsuw.cm5.cnkuaishou.com:27233?allowInsecure=1&sni=57100505-sytz40-t389l0-1rsuw.cm5.cnkuaishou.com#%E4%B8%AD%E8%BD%AC%E8%8A%82%E7%82%B9-34.3MB%2Fs
 trojan://d0d08cddacc3190ea81b1b792e1b5fde@36.151.192.58:51083?allowInsecure=1&sni=www.baidu.com#%E4%B8%AD%E8%BD%AC%E8%8A%82%E7%82%B9-14.60MB%2Fs
 trojan://d0d08cddacc3190ea81b1b792e1b5fde@36.151.192.58:51083?allowInsecure=1&sni=www.baidu.com#%E4%B8%AD%E8%BD%AC%E8%8A%82%E7%82%B9-6.29MB%2Fs
 trojan://d0d08cddacc3190ea81b1b792e1b5fde@36.151.192.60:13967?allowInsecure=1&sni=www.baidu.com#%E4%B8%AD%E8%BD%AC%E8%8A%82%E7%82%B9-5.56MB%2Fs
