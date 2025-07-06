@@ -1,5 +1,4 @@
-ss://YWVzLTI1Ni1jZmI6ZjhmN2FDemNQS2JzRjhwMw@154.90.63.177:989#%E5%B7%B4%E8%A5%BF-10.8MB%2Fs
-ss://YWVzLTI1Ni1jZmI6ZjhmN2FDemNQS2JzRjhwMw@185.213.23.226:989#%E6%8C%AA%E5%A8%81-8.8MB%2Fs
+ss://bm9uZTpAYnVsaWFuZzAw@1.1.1.1:6666#%e8%8e%b7%e5%8f%96%e8%8a%82%e7%82%b9%e5%bc%82%e5%b8%b8%ef%bc%8c%e8%af%b7%e5%9c%a8%e4%b8%8b%e4%b8%aa%e6%97%b6%e6%ae%b5%e9%87%8d%e8%af%95
 trojan://a0f7a422-7867-469c-946b-190d8fbc2a5d@103.248.229.29:1531?allowInsecure=1#%E6%96%B0%E5%8A%A0%E5%9D%A1-7.6MB%2Fs
 trojan://d0d08cddacc3190ea81b1b792e1b5fde@36.151.251.24:50723?allowInsecure=1&sni=www.baidu.com#%E4%B8%AD%E8%BD%AC%E8%8A%82%E7%82%B9-18.45MB%2Fs
 trojan://d0d08cddacc3190ea81b1b792e1b5fde@36.151.251.24:50723?allowInsecure=1&sni=www.baidu.com#%E4%B8%AD%E8%BD%AC%E8%8A%82%E7%82%B9-18.64MB%2Fs
