@@ -1,5 +1,4 @@
-ss://YWVzLTI1Ni1jZmI6WG44aktkbURNMDBJZU8lIyQjZkpBTXRzRUFFVU9wSC9ZV1l0WXFERm5UMFNW@103.186.154.26:38388#%E8%B6%8A%E5%8D%97-14.7MB%2Fs
-ssr://NjIuMTAwLjIwNS40ODo5ODk6b3JpZ2luOmFlcy0yNTYtY2ZiOnBsYWluOlpqaG1OMkZEZW1OUVMySnpSamh3TXcvP2dyb3VwPVUxTlNVSEp2ZG1sa1pYSSZyZW1hcmtzPTZJdXg1WnU5TFRNd0xqSk5RaTl6Jm9iZnNwYXJhbT0mcHJvdG9wYXJhbT0
+ss://bm9uZTpAYnVsaWFuZzAw@1.1.1.1:6666#%e8%8e%b7%e5%8f%96%e8%8a%82%e7%82%b9%e5%bc%82%e5%b8%b8%ef%bc%8c%e8%af%b7%e5%9c%a8%e4%b8%8b%e4%b8%aa%e6%97%b6%e6%ae%b5%e9%87%8d%e8%af%95
 trojan://4732adfa16c6450bbef87264e41332db@165.22.74.230:443?allowInsecure=1&sni=nextstepcareer.online#%E5%BE%B7%E5%9B%BD-2.01MB%2Fs
 trojan://4732adfa16c6450bbef87264e41332db@nextstepcareer.online:443?allowInsecure=1#%E5%BE%B7%E5%9B%BD-43.1MB%2Fs
 trojan://d0d08cddacc3190ea81b1b792e1b5fde@36.151.192.10:9141?allowInsecure=1&sni=www.baidu.com#%E4%B8%AD%E8%BD%AC%E8%8A%82%E7%82%B9-17.95MB%2Fs
