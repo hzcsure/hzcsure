@@ -1,4 +1,6 @@
-ss://bm9uZTpAYnVsaWFuZzAw@1.1.1.1:6666#%e8%8e%b7%e5%8f%96%e8%8a%82%e7%82%b9%e5%bc%82%e5%b8%b8%ef%bc%8c%e8%af%b7%e5%9c%a8%e4%b8%8b%e4%b8%aa%e6%97%b6%e6%ae%b5%e9%87%8d%e8%af%95
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpjMzc2MDgyYy05NWMzLTQ1MmUtODhlNC02YmI2YTVkYWFiNDE@free-relay.t01.themars.top:49900#%E8%A5%BF%E7%8F%AD%E7%89%99-30.7MB%2Fs
+ss://YWVzLTI1Ni1jZmI6cXdlclJFV1FAQA@218.237.185.230:4652#%E9%9F%A9%E5%9B%BD-95.3MB%2Fs
+ss://YWVzLTI1Ni1jZmI6cXdlclJFV1FAQA@p141.panda001.net:4652#%E9%9F%A9%E5%9B%BD-122.3KB%2Fs
 trojan://d0d08cddacc3190ea81b1b792e1b5fde@36.151.251.7:14495?allowInsecure=1&sni=www.baidu.com#%E4%B8%AD%E8%BD%AC%E8%8A%82%E7%82%B9-16.90MB%2Fs
 trojan://d0d08cddacc3190ea81b1b792e1b5fde@36.151.251.7:32962?allowInsecure=1&sni=www.baidu.com#%E4%B8%AD%E8%BD%AC%E8%8A%82%E7%82%B9-3.60MB%2Fs
 trojan://d0d08cddacc3190ea81b1b792e1b5fde@36.151.251.7:3596?allowInsecure=1&sni=www.baidu.com#%E4%B8%AD%E8%BD%AC%E8%8A%82%E7%82%B9-4.79MB%2Fs
