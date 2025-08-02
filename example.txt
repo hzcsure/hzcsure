@@ -1,4 +1,4 @@
-ss://YWVzLTI1Ni1nY206OWJmZGRlNzFiNGMw@103.103.245.158:636/?plugin=v2ray-plugin%3Bmode%3Dwebsocket%3Btls%3Bmux%3D4%3Bhost%3Dnewroot2v1.dsjsapp.com%3Bpath%3D%2Fcauejypbltqt%3Bmux%3Dmux%3D4%3B%3B#%E9%A6%99%E6%B8%AF-2.62MB%2Fs
+ss://bm9uZTpAYnVsaWFuZzAw@1.1.1.1:6666#%e8%8e%b7%e5%8f%96%e8%8a%82%e7%82%b9%e5%bc%82%e5%b8%b8%ef%bc%8c%e8%af%b7%e5%9c%a8%e4%b8%8b%e4%b8%aa%e6%97%b6%e6%ae%b5%e9%87%8d%e8%af%95
 trojan://7248e825-887c-48b9-83bc-c26bc6392bf8@172.67.214.21:443?allowInsecure=1&sni=xXcdvFgt.191268.XYz&ws=1&wspath=%2FctdmgeIg3NII3ibrzzKXJGy3S1#%E7%BE%8E%E5%9B%BD-1.26MB%2Fs
 trojan://7248e825-887c-48b9-83bc-c26bc6392bf8@172.67.214.21:443?allowInsecure=1&sni=xXcdvFgt.191268.XYz&ws=1&wspath=%2FctdmgeIg3NII3ibrzzKXJGy3S1#%E7%BE%8E%E5%9B%BD-892.7KB%2Fs
 vmess://eyJ2IjoiMiIsInBzIjoi5Lit6L2s6IqC54K5LTMuMTRNQi9zIiwiYWRkIjoiNjQ2NTcyMTctdDBmZHMwLXQweXVnaC1kbnNzLjgyLml3c2t3YWkuY29tIiwicG9ydCI6IjM2OTAiLCJ0eXBlIjoibm9uZSIsImlkIjoiMTY5NTVkNzItMTc5NC0xMWYwLWEwMzUtZjIzYzk1YjZmNTFkIiwiYWlkIjoiMCIsIm5ldCI6InRjcCIsInBhdGgiOiIvIiwiaG9zdCI6ImhrdC5nb3RvY2hpbmF0b3duLm5ldCIsInRscyI6IiJ9
