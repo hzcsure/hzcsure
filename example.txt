@@ -1,5 +1,6 @@
 /get
-ss://YWVzLTI1Ni1nY206OTk2OWRiN2EyZjUx@156.251.179.135:443/?plugin=v2ray-plugin%3Bmode%3Dwebsocket%3Btls%3Bmux%3D4%3Bhost%3Dhk6v1.dsjsapp.com%3Bpath%3D%2Ffgsauuoqxwx%3Bmux%3Dmux%3D4%3B%3B#%E7%BE%8E%E5%9B%BD-334.8KB%2Fs
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpxc2NhdkY1VXZpSUwtOFYtRTRyYUJB@185.245.107.250:2222#%E5%BE%B7%E5%9B%BD-1.73MB%2Fs
+ss://YWVzLTI1Ni1nY206OTk2OWRiN2EyZjUx@156.251.179.135:443/?plugin=v2ray-plugin%3Bmode%3Dwebsocket%3Btls%3Bmux%3D4%3Bhost%3Dhk6v1.dsjsapp.com%3Bpath%3D%2Ffgsauuoqxwx%3Bmux%3Dmux%3D4%3B%3B#%E7%BE%8E%E5%9B%BD-291.1KB%2Fs
 trojan://253bc477d4e43c209f2d427272968280@223.111.144.13:6928?allowInsecure=1&sni=www.baidu.com#%E4%B8%AD%E8%BD%AC%E8%8A%82%E7%82%B9-352.7KB%2Fs
 trojan://253bc477d4e43c209f2d427272968280@223.111.144.13:6928?allowInsecure=1&sni=www.baidu.com#%E4%B8%AD%E8%BD%AC%E8%8A%82%E7%82%B9-8.22MB%2Fs
 trojan://253bc477d4e43c209f2d427272968280@36.150.215.188:1546?allowInsecure=1&sni=www.baidu.com#%E4%B8%AD%E8%BD%AC%E8%8A%82%E7%82%B9-17.13MB%2Fs
