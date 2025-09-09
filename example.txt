@@ -1,4 +1,5 @@
 /get
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo4ZmM5NWViOC04M2I0LTQ3YWYtYWUxNy1kNzYzOWRkMGZkMmM@111.253.205.251:10147#%E5%8F%B0%E6%B9%BE-813.5KB%2Fs
 trojan://d0d08cddacc3190ea81b1b792e1b5fde@178.128.17.109:443?allowInsecure=1&sni=www.baidu.com#%E6%96%B0%E5%8A%A0%E5%9D%A1-1.24MB%2Fs
 trojan://d0d08cddacc3190ea81b1b792e1b5fde@178.128.17.109:443?allowInsecure=1&sni=www.baidu.com#%E6%96%B0%E5%8A%A0%E5%9D%A1-1.56MB%2Fs
 trojan://dda4f3bf-85fb-41bd-9d8e-77a8a02dbd59@194.104.147.74:1066?allowInsecure=1#%E9%A6%99%E6%B8%AF-3.90MB%2Fs
