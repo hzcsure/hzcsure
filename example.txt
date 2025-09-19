@@ -1,3 +1,4 @@
+/get
 trojan://1640ef52-2db0-44ab-b3f3-8690b762ebc9@165.154.112.107:12000?allowInsecure=1#%E9%A6%99%E6%B8%AF-4.3MB%2Fs
 trojan://253bc477d4e43c209f2d427272968280@153.121.45.139:327?allowInsecure=1&sni=www.nintendogames.net#%E6%97%A5%E6%9C%AC-3.66MB%2Fs
 trojan://253bc477d4e43c209f2d427272968280@153.121.73.102:3294?allowInsecure=1&sni=www.nintendogames.net#%E6%97%A5%E6%9C%AC-1008.6KB%2Fs
