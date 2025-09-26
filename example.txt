@@ -1,6 +1,7 @@
 /get
-ss://YWVzLTI1Ni1jZmI6WG44aktkbURNMDBJZU8lIyQjZkpBTXRzRUFFVU9wSC9ZV1l0WXFERm5UMFNW@103.186.154.32:38388#%E8%B6%8A%E5%8D%97-157.8KB%2Fs
-ss://YWVzLTI1Ni1nY206Y2NmNDI2ZjFmZTc4@103.103.245.158:443/?plugin=v2ray-plugin%3Bmode%3Dwebsocket%3Btls%3Bmux%3D4%3Bhost%3Dnewroot2v1.dsjsapp.com%3Bpath%3D%2Fzksuapgx%3Bmux%3Dmux%3D4%3B%3B#%E9%A6%99%E6%B8%AF-3.96MB%2Fs
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpYMm9jSldab2hYckU@77.83.245.169:443#%E6%B3%A2%E5%85%B0-3.74MB%2Fs
+ss://YWVzLTI1Ni1jZmI6WG44aktkbURNMDBJZU8lIyQjZkpBTXRzRUFFVU9wSC9ZV1l0WXFERm5UMFNW@103.186.155.28:38388#%E8%B6%8A%E5%8D%97-13.4MB%2Fs
+ss://YWVzLTI1Ni1nY206Y2NmNDI2ZjFmZTc4@103.103.245.158:443/?plugin=v2ray-plugin%3Bmode%3Dwebsocket%3Btls%3Bmux%3D4%3Bhost%3Dnewroot2v1.dsjsapp.com%3Bpath%3D%2Fzksuapgx%3Bmux%3Dmux%3D4%3B%3B#%E9%A6%99%E6%B8%AF-227.1KB%2Fs
 trojan://1ce1df7962f71c6f@uk-03.allhubb.info:8443?allowInsecure=1#%E6%B3%95%E5%9B%BD-1.16MB%2Fs
 trojan://1ce1df7962f71c6f@uk-03.allhubb.info:8443?allowInsecure=1#%E6%B3%95%E5%9B%BD-1.33MB%2Fs
 trojan://1ce1df7962f71c6f@uk-03.allhubb.info:8443?allowInsecure=1#%E6%B3%95%E5%9B%BD-1.36MB%2Fs
