@@ -1,6 +1,5 @@
 /get
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTprMXY1ZzlGZWZkb08@57.129.140.88:8388#%E6%B3%95%E5%9B%BD-18.4MB%2Fs
-ss://YWVzLTI1Ni1jZmI6YW1hem9uc2tyMDU@16.176.178.192:443#%E7%BE%8E%E5%9B%BD-5.52MB%2Fs
+ss://YWVzLTI1Ni1jZmI6YW1hem9uc2tyMDU@16.176.178.192:443#%E7%BE%8E%E5%9B%BD-5.45MB%2Fs
 trojan://c53647f3153f784b3c695ffbe5fb43c0@160.16.124.55:24673?allowInsecure=1&sni=www.baidu.com#%E6%97%A5%E6%9C%AC-37.3MB%2Fs
 trojan://c53647f3153f784b3c695ffbe5fb43c0@160.16.124.55:24673?allowInsecure=1&sni=www.baidu.com#%E6%97%A5%E6%9C%AC-98.6MB%2Fs
 trojan://c53647f3153f784b3c695ffbe5fb43c0@160.16.138.24:5041?allowInsecure=1&sni=www.baidu.com#%E6%97%A5%E6%9C%AC-111.2KB%2Fs
