@@ -1,2 +1,1 @@
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTp0MHNybWR4cm0zeHlqbnZxejlld2x4YjJteXE3cmp1dg@5.44.249.42:2377/?plugin=obfs-local%3Bobfs%3Dtls%3Bobfs-host%3D4a81070%3A6193#%E6%96%B0%E5%8A%A0%E5%9D%A1-1.17MB%2Fs
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTp0MHNybWR4cm0zeHlqbnZxejlld2x4YjJteXE3cmp1dg@5.44.249.42:2377/?plugin=obfs-local%3Bobfs%3Dtls%3Bobfs-host%3D874b20d%3A48331#%E6%96%B0%E5%8A%A0%E5%9D%A1-1.24MB%2Fs
+/get
