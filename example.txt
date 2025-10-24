@@ -1,5 +1,6 @@
 /get
 trojan://733a67f2-88c7-4ffc-9827-51ec5fa968e6@n001.xunxunmimisbs.sbs:28300?allowInsecure=1&sni=tai01.xxxxyyyysbs.sbs#%E4%B8%AD%E8%BD%AC%E8%8A%82%E7%82%B9-23.0MB%2Fs
+trojan://898e1dca-14b2-4371-abc8-1b9f839bff6d@37.202.200.11:12412?allowInsecure=1&sni=wjp04.weyaf9sdoh2h.space#%E4%BC%8A%E6%9C%97-1.02MB%2Fs
 trojan://898e1dca-14b2-4371-abc8-1b9f839bff6d@37.202.200.11:12412?allowInsecure=1&sni=wjp04.weyaf9sdoh2h.space#%E4%BC%8A%E6%9C%97-124.6KB%2Fs
 trojan://898e1dca-14b2-4371-abc8-1b9f839bff6d@37.202.200.11:12412?allowInsecure=1&sni=wjp04.weyaf9sdoh2h.space#%E4%BC%8A%E6%9C%97-2.24MB%2Fs
 trojan://898e1dca-14b2-4371-abc8-1b9f839bff6d@37.202.200.11:12412?allowInsecure=1&sni=wjp04.weyaf9sdoh2h.space#%E4%BC%8A%E6%9C%97-3.01MB%2Fs
