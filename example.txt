@@ -1,4 +1,4 @@
-ss://YWVzLTI1Ni1jZmI6ZjhmN2FDemNQS2JzRjhwMw@185.153.197.5:989#%E6%91%A9%E5%B0%94%E5%A4%9A%E7%93%A6-26.8MB%2Fs
+ss://YWVzLTI1Ni1jZmI6ZjhmN2FDemNQS2JzRjhwMw@185.231.233.112:989#%E8%91%A1%E8%90%84%E7%89%99-24.3MB%2Fs
 trojan://BxceQaOe@36.151.251.23:4451?allowInsecure=1#%E4%B8%AD%E8%BD%AC%E8%8A%82%E7%82%B9-1.32MB%2Fs
 trojan://BxceQaOe@36.151.251.23:4451?allowInsecure=1#%E4%B8%AD%E8%BD%AC%E8%8A%82%E7%82%B9-1.43MB%2Fs
 trojan://BxceQaOe@36.151.251.23:4451?allowInsecure=1#%E4%B8%AD%E8%BD%AC%E8%8A%82%E7%82%B9-2.25MB%2Fs
@@ -10,6 +10,7 @@ trojan://BxceQaOe@36.151.251.23:4451?allowInsecure=1#%E4%B8%AD%E8%BD%AC%E8%8A%82
 trojan://BxceQaOe@36.151.251.23:4451?allowInsecure=1#%E4%B8%AD%E8%BD%AC%E8%8A%82%E7%82%B9-616.0KB%2Fs
 trojan://BxceQaOe@36.151.251.23:4451?allowInsecure=1#%E4%B8%AD%E8%BD%AC%E8%8A%82%E7%82%B9-646.6KB%2Fs
 trojan://BxceQaOe@36.151.251.23:4451?allowInsecure=1#%E4%B8%AD%E8%BD%AC%E8%8A%82%E7%82%B9-672.5KB%2Fs
+trojan://BxceQaOe@36.151.251.23:4451?allowInsecure=1#%E4%B8%AD%E8%BD%AC%E8%8A%82%E7%82%B9-7.95MB%2Fs
 trojan://BxceQaOe@36.151.251.35:24392?allowInsecure=1#%E4%B8%AD%E8%BD%AC%E8%8A%82%E7%82%B9-184.6KB%2Fs
 trojan://BxceQaOe@36.151.251.35:24392?allowInsecure=1#%E4%B8%AD%E8%BD%AC%E8%8A%82%E7%82%B9-255.1KB%2Fs
 trojan://BxceQaOe@36.151.251.35:24392?allowInsecure=1#%E4%B8%AD%E8%BD%AC%E8%8A%82%E7%82%B9-267.2KB%2Fs
@@ -19,6 +20,7 @@ trojan://BxceQaOe@36.151.251.35:24392?allowInsecure=1#%E4%B8%AD%E8%BD%AC%E8%8A%8
 trojan://BxceQaOe@36.151.251.35:24392?allowInsecure=1#%E4%B8%AD%E8%BD%AC%E8%8A%82%E7%82%B9-5.16MB%2Fs
 trojan://BxceQaOe@36.151.251.35:24392?allowInsecure=1#%E4%B8%AD%E8%BD%AC%E8%8A%82%E7%82%B9-554.4KB%2Fs
 trojan://BxceQaOe@36.151.251.35:24392?allowInsecure=1#%E4%B8%AD%E8%BD%AC%E8%8A%82%E7%82%B9-6.47MB%2Fs
+trojan://BxceQaOe@36.151.251.35:24392?allowInsecure=1#%E4%B8%AD%E8%BD%AC%E8%8A%82%E7%82%B9-8.97MB%2Fs
 trojan://BxceQaOe@36.151.251.35:24392?allowInsecure=1#%E4%B8%AD%E8%BD%AC%E8%8A%82%E7%82%B9-935.3KB%2Fs
 trojan://ea39fa94f1ee00999337ea1fd3318e69@58.152.110.83:443?allowInsecure=1&sni=www.nintendogames.net#%E9%A6%99%E6%B8%AF-119.2KB%2Fs
 trojan://ea39fa94f1ee00999337ea1fd3318e69@58.152.110.83:443?allowInsecure=1&sni=www.nintendogames.net#%E9%A6%99%E6%B8%AF-141.0KB%2Fs
