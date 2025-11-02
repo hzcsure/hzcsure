@@ -1,4 +1,4 @@
-ss://YWVzLTI1Ni1jZmI6WG44aktkbURNMDBJZU8lIyQjZkpBTXRzRUFFVU9wSC9ZV1l0WXFERm5UMFNW@103.186.154.25:38388#%E8%B6%8A%E5%8D%97-13.6MB%2Fs
+ss://YWVzLTI1Ni1jZmI6WG44aktkbURNMDBJZU8lIyQjZkpBTXRzRUFFVU9wSC9ZV1l0WXFERm5UMFNW@103.186.154.25:38388#%E8%B6%8A%E5%8D%97-47.6MB%2Fs
 trojan://BxceQaOe@203.198.122.129:443?allowInsecure=1#%E9%A6%99%E6%B8%AF-140.2KB%2Fs
 trojan://BxceQaOe@203.198.122.129:443?allowInsecure=1#%E9%A6%99%E6%B8%AF-31.2MB%2Fs
 trojan://BxceQaOe@203.198.122.129:443?allowInsecure=1#%E9%A6%99%E6%B8%AF-46.5MB%2Fs
@@ -10,6 +10,7 @@ trojan://BxceQaOe@36.150.215.197:51825?allowInsecure=1#%E4%B8%AD%E8%BD%AC%E8%8A%
 trojan://BxceQaOe@36.150.215.236:4492?allowInsecure=1#%E4%B8%AD%E8%BD%AC%E8%8A%82%E7%82%B9-1.23MB%2Fs
 trojan://BxceQaOe@36.150.215.236:4492?allowInsecure=1#%E4%B8%AD%E8%BD%AC%E8%8A%82%E7%82%B9-1.84MB%2Fs
 trojan://BxceQaOe@36.150.215.236:4492?allowInsecure=1#%E4%B8%AD%E8%BD%AC%E8%8A%82%E7%82%B9-2.94MB%2Fs
+trojan://BxceQaOe@36.150.215.236:4492?allowInsecure=1#%E4%B8%AD%E8%BD%AC%E8%8A%82%E7%82%B9-6.49MB%2Fs
 trojan://BxceQaOe@36.151.192.242:194?allowInsecure=1#%E4%B8%AD%E8%BD%AC%E8%8A%82%E7%82%B9-1.29MB%2Fs
 trojan://BxceQaOe@36.151.192.242:4556?allowInsecure=1#%E4%B8%AD%E8%BD%AC%E8%8A%82%E7%82%B9-1.69MB%2Fs
 trojan://BxceQaOe@36.151.192.242:4556?allowInsecure=1#%E4%B8%AD%E8%BD%AC%E8%8A%82%E7%82%B9-5.21MB%2Fs
@@ -17,6 +18,7 @@ trojan://BxceQaOe@36.151.192.242:4556?allowInsecure=1#%E4%B8%AD%E8%BD%AC%E8%8A%8
 trojan://BxceQaOe@36.151.192.242:4556?allowInsecure=1#%E4%B8%AD%E8%BD%AC%E8%8A%82%E7%82%B9-8.95MB%2Fs
 trojan://BxceQaOe@36.151.192.242:4556?allowInsecure=1#%E4%B8%AD%E8%BD%AC%E8%8A%82%E7%82%B9-9.00MB%2Fs
 trojan://BxceQaOe@36.151.192.242:4556?allowInsecure=1#%E4%B8%AD%E8%BD%AC%E8%8A%82%E7%82%B9-9.31MB%2Fs
+trojan://BxceQaOe@36.151.192.242:4556?allowInsecure=1#%E4%B8%AD%E8%BD%AC%E8%8A%82%E7%82%B9-991.8KB%2Fs
 trojan://BxceQaOe@36.151.251.47:53743?allowInsecure=1#%E4%B8%AD%E8%BD%AC%E8%8A%82%E7%82%B9-4.21MB%2Fs
 trojan://BxceQaOe@36.151.251.47:53743?allowInsecure=1#%E4%B8%AD%E8%BD%AC%E8%8A%82%E7%82%B9-4.24MB%2Fs
 trojan://BxceQaOe@36.151.251.47:53743?allowInsecure=1#%E4%B8%AD%E8%BD%AC%E8%8A%82%E7%82%B9-4.29MB%2Fs
@@ -26,6 +28,7 @@ trojan://bca467b8c15211d189008a93c7519d3b@117.172.176.24:1332?allowInsecure=1&sn
 trojan://bca467b8c15211d189008a93c7519d3b@117.172.176.24:2283?allowInsecure=1&sni=www.nintendogames.net#%E4%B8%AD%E8%BD%AC%E8%8A%82%E7%82%B9-265.5KB%2Fs
 trojan://bca467b8c15211d189008a93c7519d3b@117.172.176.24:2283?allowInsecure=1&sni=www.nintendogames.net#%E4%B8%AD%E8%BD%AC%E8%8A%82%E7%82%B9-3.77MB%2Fs
 trojan://bca467b8c15211d189008a93c7519d3b@117.172.176.24:2283?allowInsecure=1&sni=www.nintendogames.net#%E4%B8%AD%E8%BD%AC%E8%8A%82%E7%82%B9-5.81MB%2Fs
+trojan://bca467b8c15211d189008a93c7519d3b@117.172.176.24:2283?allowInsecure=1&sni=www.nintendogames.net#%E4%B8%AD%E8%BD%AC%E8%8A%82%E7%82%B9-532.5KB%2Fs
 trojan://bca467b8c15211d189008a93c7519d3b@117.172.176.24:2283?allowInsecure=1&sni=www.nintendogames.net#%E4%B8%AD%E8%BD%AC%E8%8A%82%E7%82%B9-6.69MB%2Fs
 trojan://bca467b8c15211d189008a93c7519d3b@117.172.176.24:2283?allowInsecure=1&sni=www.nintendogames.net#%E4%B8%AD%E8%BD%AC%E8%8A%82%E7%82%B9-8.68MB%2Fs
 trojan://bca467b8c15211d189008a93c7519d3b@117.172.176.24:2283?allowInsecure=1&sni=www.nintendogames.net#%E4%B8%AD%E8%BD%AC%E8%8A%82%E7%82%B9-9.28MB%2Fs
@@ -33,4 +36,5 @@ trojan://bca467b8c15211d189008a93c7519d3b@117.172.176.24:3161?allowInsecure=1&sn
 trojan://bca467b8c15211d189008a93c7519d3b@58.152.53.42:443?allowInsecure=1&sni=www.nintendogames.net#%E9%A6%99%E6%B8%AF-1.49MB%2Fs
 trojan://bca467b8c15211d189008a93c7519d3b@58.152.53.42:443?allowInsecure=1&sni=www.nintendogames.net#%E9%A6%99%E6%B8%AF-2.38MB%2Fs
 trojan://bca467b8c15211d189008a93c7519d3b@58.152.53.42:443?allowInsecure=1&sni=www.nintendogames.net#%E9%A6%99%E6%B8%AF-346.1KB%2Fs
+trojan://bca467b8c15211d189008a93c7519d3b@58.152.53.42:443?allowInsecure=1&sni=www.nintendogames.net#%E9%A6%99%E6%B8%AF-5.69MB%2Fs
 trojan://bca467b8c15211d189008a93c7519d3b@58.152.53.42:443?allowInsecure=1&sni=www.nintendogames.net#%E9%A6%99%E6%B8%AF-73.5MB%2Fs
