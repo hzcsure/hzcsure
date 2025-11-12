@@ -1,7 +1,9 @@
 trojan://BxceQaOe@116.49.237.130:2173?allowInsecure=1&sni=t.me%2Fripaojiedian#%E9%A6%99%E6%B8%AF-17.6MB%2Fs
 trojan://BxceQaOe@116.49.237.130:2173?allowInsecure=1&sni=t.me%2Fripaojiedian#%E9%A6%99%E6%B8%AF-42.9MB%2Fs
 trojan://BxceQaOe@116.49.237.130:2173?allowInsecure=1&sni=t.me%2Fripaojiedian#%E9%A6%99%E6%B8%AF-49.8MB%2Fs
+trojan://BxceQaOe@116.49.237.130:2173?allowInsecure=1&sni=t.me%2Fripaojiedian#%E9%A6%99%E6%B8%AF-80.3MB%2Fs
 trojan://BxceQaOe@116.49.237.130:4569?allowInsecure=1&sni=t.me%252Fripaojiedian#%E9%A6%99%E6%B8%AF-40.1MB%2Fs
 trojan://BxceQaOe@116.49.237.130:518?allowInsecure=1&sni=t.me%2Fripaojiedian#%E9%A6%99%E6%B8%AF-6.61MB%2Fs
 trojan://BxceQaOe@203.198.122.97:443?allowInsecure=1&sni=t.me%2Fripaojiedian#%E9%A6%99%E6%B8%AF-390.4KB%2Fs
+trojan://BxceQaOe@203.198.122.97:443?allowInsecure=1&sni=t.me%2Fripaojiedian#%E9%A6%99%E6%B8%AF-478.8KB%2Fs
 trojan://BxceQaOe@58.152.46.98:443?allowInsecure=1#%E9%A6%99%E6%B8%AF-63.2MB%2Fs
