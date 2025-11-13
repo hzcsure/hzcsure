@@ -1,11 +1,12 @@
-ss://Y2hhY2hhMjAtaWV0ZjpwYXNzd2Q@oshk02.mynode.me:2000/?plugin=obfs-local%3Bobfs%3Dhttp%3Bobfs-host%3D31832-qOf3ahM8.download.microsoft.com#%E9%A6%99%E6%B8%AF-528.8KB%2Fs
-ss://YWVzLTI1Ni1jZmI6WG44aktkbURNMDBJZU8lIyQjZkpBTXRzRUFFVU9wSC9ZV1l0WXFERm5UMFNW@103.186.155.25:38388#%E8%B6%8A%E5%8D%97-13.3MB%2Fs
+ss://Y2hhY2hhMjAtaWV0ZjpwYXNzd2Q@oshk02.mynode.me:2000/?plugin=obfs-local%3Bobfs%3Dhttp%3Bobfs-host%3D31832-qOf3ahM8.download.microsoft.com#%E9%A6%99%E6%B8%AF-1.82MB%2Fs
+ss://YWVzLTI1Ni1jZmI6WG44aktkbURNMDBJZU8lIyQjZkpBTXRzRUFFVU9wSC9ZV1l0WXFERm5UMFNW@103.186.154.24:38388#%E8%B6%8A%E5%8D%97-16.7MB%2Fs
 trojan://2274c52572e721086f8bd8f88984643c@117.172.176.25:4054?allowInsecure=1&sni=www.nintendogames.net#%E4%B8%AD%E8%BD%AC%E8%8A%82%E7%82%B9-1.31MB%2Fs
 trojan://2274c52572e721086f8bd8f88984643c@117.172.176.25:4054?allowInsecure=1&sni=www.nintendogames.net#%E4%B8%AD%E8%BD%AC%E8%8A%82%E7%82%B9-2.26MB%2Fs
 trojan://2274c52572e721086f8bd8f88984643c@117.172.176.25:4054?allowInsecure=1&sni=www.nintendogames.net#%E4%B8%AD%E8%BD%AC%E8%8A%82%E7%82%B9-289.4KB%2Fs
 trojan://2274c52572e721086f8bd8f88984643c@117.172.176.25:4054?allowInsecure=1&sni=www.nintendogames.net#%E4%B8%AD%E8%BD%AC%E8%8A%82%E7%82%B9-306.1KB%2Fs
 trojan://2274c52572e721086f8bd8f88984643c@117.172.176.25:4054?allowInsecure=1&sni=www.nintendogames.net#%E4%B8%AD%E8%BD%AC%E8%8A%82%E7%82%B9-315.8KB%2Fs
 trojan://2274c52572e721086f8bd8f88984643c@117.172.176.25:4054?allowInsecure=1&sni=www.nintendogames.net#%E4%B8%AD%E8%BD%AC%E8%8A%82%E7%82%B9-322.5KB%2Fs
+trojan://2274c52572e721086f8bd8f88984643c@117.172.176.25:4054?allowInsecure=1&sni=www.nintendogames.net#%E4%B8%AD%E8%BD%AC%E8%8A%82%E7%82%B9-379.8KB%2Fs
 trojan://2274c52572e721086f8bd8f88984643c@117.172.176.25:4054?allowInsecure=1&sni=www.nintendogames.net#%E4%B8%AD%E8%BD%AC%E8%8A%82%E7%82%B9-400.8KB%2Fs
 trojan://2274c52572e721086f8bd8f88984643c@117.172.176.25:4054?allowInsecure=1&sni=www.nintendogames.net#%E4%B8%AD%E8%BD%AC%E8%8A%82%E7%82%B9-401.5KB%2Fs
 trojan://2274c52572e721086f8bd8f88984643c@160.16.204.136:1334?allowInsecure=1&sni=www.nintendogames.net#%E6%97%A5%E6%9C%AC-63.4MB%2Fs
