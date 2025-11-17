@@ -1,3 +1,5 @@
+ss://YWVzLTI1Ni1jZmI6ZjhmN2FDemNQS2JzRjhwMw@185.231.233.112:989#%E8%91%A1%E8%90%84%E7%89%99-16.9MB%2Fs
+ss://c3M6Ly9ZV1Z6TFRJMU5pMWpabUk2V0c0NGFrdGtiVVJOTURCSlpVOGxJeVFqWmtwQlRYUnpSVUZGVlU5d1NDOVpWMWwwV1hGRVJtNVVNRk5X@103.186.154.53:38388#%E8%B6%8A%E5%8D%97-11.3MB%2Fs
 trojan://BxceQaOe@153.121.53.187:2145?allowInsecure=1&sni=t.me%2Fripaojiedian#%E6%97%A5%E6%9C%AC-1.26MB%2Fs
 trojan://BxceQaOe@153.121.53.187:2145?allowInsecure=1&sni=t.me%2Fripaojiedian#%E6%97%A5%E6%9C%AC-164.4KB%2Fs
 trojan://BxceQaOe@219.79.165.55:443?allowInsecure=1&sni=t.me%2Fripaojiedian#%E9%A6%99%E6%B8%AF-1.19MB%2Fs
@@ -12,8 +14,11 @@ trojan://BxceQaOe@58.152.26.173:443?allowInsecure=1&sni=t.me%2Fripaojiedian#%E9%
 trojan://BxceQaOe@58.152.26.173:443?allowInsecure=1&sni=t.me%2Fripaojiedian#%E9%A6%99%E6%B8%AF-995.4KB%2Fs
 trojan://c2e3cdc0-bc72-3505-b2a9-ea5ed7bfa23f@151.242.164.127:3443?allowInsecure=1#%E4%BC%8A%E6%9C%97-12.2MB%2Fs
 trojan://c2e3cdc0-bc72-3505-b2a9-ea5ed7bfa23f@151.242.164.127:3443?allowInsecure=1#%E4%BC%8A%E6%9C%97-12.7MB%2Fs
+trojan://c2e3cdc0-bc72-3505-b2a9-ea5ed7bfa23f@151.242.165.233:3443?allowInsecure=1&sni=origin-a.akamaihd.net#%E4%BC%8A%E6%9C%97-16.5MB%2Fs
 trojan://dd2f25b4c70689de8bc0f7fa9d6591cb@153.121.76.9:4054?allowInsecure=1&sni=www.nintendogames.net#%E6%97%A5%E6%9C%AC-1.34MB%2Fs
 trojan://dd2f25b4c70689de8bc0f7fa9d6591cb@153.121.76.9:4054?allowInsecure=1&sni=www.nintendogames.net#%E6%97%A5%E6%9C%AC-1.52MB%2Fs
+trojan://dd2f25b4c70689de8bc0f7fa9d6591cb@160.16.131.243:4210?allowInsecure=1&sni=www.nintendogames.net#%E6%97%A5%E6%9C%AC-4.07MB%2Fs
+trojan://dd2f25b4c70689de8bc0f7fa9d6591cb@162.16.131.243:127?allowInsecure=1&sni=www.nintendogames.net#%E7%BE%8E%E5%9B%BD-3.65MB%2Fs
 trojan://dd2f25b4c70689de8bc0f7fa9d6591cb@203.198.122.135:443?allowInsecure=1&sni=www.nintendogames.net#%E9%A6%99%E6%B8%AF-1.23MB%2Fs
 trojan://dd2f25b4c70689de8bc0f7fa9d6591cb@203.198.122.135:443?allowInsecure=1&sni=www.nintendogames.net#%E9%A6%99%E6%B8%AF-16.53MB%2Fs
 trojan://dd2f25b4c70689de8bc0f7fa9d6591cb@203.198.122.135:443?allowInsecure=1&sni=www.nintendogames.net#%E9%A6%99%E6%B8%AF-2.04MB%2Fs
