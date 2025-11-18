@@ -15,6 +15,7 @@ trojan://BxceQaOe@219.79.165.55:443?allowInsecure=1&sni=t.me%2Fripaojiedian#%E9%
 trojan://BxceQaOe@58.152.26.173:443?allowInsecure=1&sni=t.me%2Fripaojiedian#%E9%A6%99%E6%B8%AF-1.99MB%2Fs
 trojan://BxceQaOe@58.152.26.173:443?allowInsecure=1&sni=t.me%2Fripaojiedian#%E9%A6%99%E6%B8%AF-10.35MB%2Fs
 trojan://BxceQaOe@58.152.26.173:443?allowInsecure=1&sni=t.me%2Fripaojiedian#%E9%A6%99%E6%B8%AF-3.21MB%2Fs
+trojan://BxceQaOe@58.152.26.173:443?allowInsecure=1&sni=t.me%2Fripaojiedian#%E9%A6%99%E6%B8%AF-5.38MB%2Fs
 trojan://BxceQaOe@58.152.26.173:443?allowInsecure=1&sni=t.me%2Fripaojiedian#%E9%A6%99%E6%B8%AF-574.7KB%2Fs
 trojan://BxceQaOe@58.152.26.173:443?allowInsecure=1&sni=t.me%2Fripaojiedian#%E9%A6%99%E6%B8%AF-682.1KB%2Fs
 trojan://BxceQaOe@58.152.26.173:443?allowInsecure=1&sni=t.me%2Fripaojiedian#%E9%A6%99%E6%B8%AF-762.0KB%2Fs
@@ -23,3 +24,4 @@ vmess://eyJ2IjoiMiIsInBzIjoi5Lit6L2s6IqC54K5LTUuNjZNQi9zIiwiYWRkIjoiYWZsenp1bC5t
 vmess://eyJ2IjoiMiIsInBzIjoi6aaZ5rivLTEyLjNNQi9zIiwiYWRkIjoidjEwLmhlZHVpYW4ubGluayIsInBvcnQiOiIzMDgwNyIsInR5cGUiOiJub25lIiwiaWQiOiJjYmIzZjg3Ny1kMWZiLTM0NGMtODdhOS1kMTUzYmZmZDU0ODQiLCJhaWQiOiIyIiwibmV0Ijoid3MiLCJwYXRoIjoiL29vb28iLCJob3N0IjoidjEwLmhlZHVpYW4ubGluayIsInRscyI6IiJ9
 vmess://eyJ2IjoiMiIsInBzIjoi6aaZ5rivLTEyLjlNQi9zIiwiYWRkIjoidjEwLmhlZHVpYW4ubGluayIsInBvcnQiOiIzMDgwNyIsInR5cGUiOiJub25lIiwiaWQiOiJjYmIzZjg3Ny1kMWZiLTM0NGMtODdhOS1kMTUzYmZmZDU0ODQiLCJhaWQiOiIyIiwibmV0Ijoid3MiLCJwYXRoIjoiL29vb28iLCJob3N0IjoidjEwLmhlZHVpYW4ubGluayIsInRscyI6IiJ9
 vmess://eyJ2IjoiMiIsInBzIjoi6aaZ5rivLTIuODNNQi9zIiwiYWRkIjoiODY4NWU3NzQtc3Yyc2cwLXN2cTd1dS0xZ2V2Zy5oazMucDVwdi5jb20iLCJwb3J0IjoiODAiLCJ0eXBlIjoibm9uZSIsImlkIjoiZjAyZWUyYjQtZDc2MC0xMWVjLWJkN2MtZjIzYzkxM2M4ZDJiIiwiYWlkIjoiMiIsIm5ldCI6IndzIiwicGF0aCI6Ii8iLCJob3N0IjoiODY4NWU3NzQtc3Yyc2cwLXN2cTd1dS0xZ2V2Zy5oazMucDVwdi5jb20iLCJ0bHMiOiIifQ==
+vmess://eyJ2IjoiMiIsInBzIjoi6aaZ5rivLTM2LjQ3TUIvcyIsImFkZCI6Im4xNzQ0NDUzMzE5LmxpZTVkLmN5b3UiLCJwb3J0IjoiNDQzIiwidHlwZSI6Im5vbmUiLCJpZCI6IjY5MjhhZjk3LWEyM2UtNDA4Yy05NTZlLTVjZDIyMDdmMzU1NyIsImFpZCI6IjAiLCJuZXQiOiJ3cyIsInBhdGgiOiIvIiwiaG9zdCI6Im4xNzQ0NDUzMzE5LmxpZTVkLmN5b3UiLCJ0bHMiOiJ0bHMifQ==
