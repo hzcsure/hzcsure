@@ -1,3 +1,4 @@
+trojan://BxceQaOe@58.152.26.173:443?allowInsecure=1&sni=t.me%2Fripaojiedian#%E9%A6%99%E6%B8%AF-574.7KB%2Fs
 trojan://BxceQaOe@58.152.26.173:443?allowInsecure=1&sni=t.me%2Fripaojiedian#%E9%A6%99%E6%B8%AF-762.0KB%2Fs
 trojan://dd2f25b4c70689de8bc0f7fa9d6591cb@203.198.122.135:443?allowInsecure=1&sni=www.nintendogames.net#%E9%A6%99%E6%B8%AF-542.1KB%2Fs
 vmess://eyJ2IjoiMiIsInBzIjoi6aaZ5rivLTEyLjNNQi9zIiwiYWRkIjoidjEwLmhlZHVpYW4ubGluayIsInBvcnQiOiIzMDgwNyIsInR5cGUiOiJub25lIiwiaWQiOiJjYmIzZjg3Ny1kMWZiLTM0NGMtODdhOS1kMTUzYmZmZDU0ODQiLCJhaWQiOiIyIiwibmV0Ijoid3MiLCJwYXRoIjoiL29vb28iLCJob3N0IjoidjEwLmhlZHVpYW4ubGluayIsInRscyI6IiJ9
