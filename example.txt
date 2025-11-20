@@ -1,4 +1,5 @@
-ss://YWVzLTI1Ni1jZmI6WG44aktkbURNMDBJZU8lIyQjZkpBTXRzRUFFVU9wSC9ZV1l0WXFERm5UMFNW@103.186.154.32:38388#%E8%B6%8A%E5%8D%97-437.5KB%2Fs
+ss://YWVzLTI1Ni1jZmI6WG44aktkbURNMDBJZU8lIyQjZkpBTXRzRUFFVU9wSC9ZV1l0WXFERm5UMFNW@103.186.154.32:38388#%E8%B6%8A%E5%8D%97-11.0MB%2Fs
+ss://YWVzLTI1Ni1jZmI6ZjhmN2FDemNQS2JzRjhwMw@185.153.197.5:989#%E6%91%A9%E5%B0%94%E5%A4%9A%E7%93%A6-15.2MB%2Fs
 trojan://09e71e3b-1f9f-44ab-9a10-02e0e10e2f05@37.202.200.19:25010?allowInsecure=1&sni=37.202.200.19#%E4%BC%8A%E6%9C%97-214.2KB%2Fs
 trojan://09e71e3b-1f9f-44ab-9a10-02e0e10e2f05@37.202.200.19:25010?allowInsecure=1&sni=37.202.200.19#%E4%BC%8A%E6%9C%97-250.8KB%2Fs
 trojan://09e71e3b-1f9f-44ab-9a10-02e0e10e2f05@37.202.200.19:25010?allowInsecure=1&sni=37.202.200.19#%E4%BC%8A%E6%9C%97-81.5MB%2Fs
@@ -19,6 +20,7 @@ trojan://BxceQaOe@58.152.25.241:443?allowInsecure=1&sni=t.me%2Fripaojiedian#%E9%
 trojan://BxceQaOe@58.152.25.241:443?allowInsecure=1&sni=t.me%2Fripaojiedian#%E9%A6%99%E6%B8%AF-11.45MB%2Fs
 trojan://BxceQaOe@58.152.25.241:443?allowInsecure=1&sni=t.me%2Fripaojiedian#%E9%A6%99%E6%B8%AF-164.1KB%2Fs
 trojan://BxceQaOe@58.152.25.241:443?allowInsecure=1&sni=t.me%2Fripaojiedian#%E9%A6%99%E6%B8%AF-18.51MB%2Fs
+trojan://BxceQaOe@58.152.25.241:443?allowInsecure=1&sni=t.me%2Fripaojiedian#%E9%A6%99%E6%B8%AF-3.33MB%2Fs
 trojan://BxceQaOe@58.152.25.241:443?allowInsecure=1&sni=t.me%2Fripaojiedian#%E9%A6%99%E6%B8%AF-34.20MB%2Fs
 trojan://BxceQaOe@58.152.25.241:443?allowInsecure=1&sni=t.me%2Fripaojiedian#%E9%A6%99%E6%B8%AF-9.08MB%2Fs
 trojan://BxceQaOe@58.152.25.241:443?allowInsecure=1&sni=t.me%2Fripaojiedian#%E9%A6%99%E6%B8%AF-9.87MB%2Fs
@@ -31,6 +33,7 @@ trojan://dd2f25b4c70689de8bc0f7fa9d6591cb@58.152.18.124:443?allowInsecure=1&sni=
 trojan://dd2f25b4c70689de8bc0f7fa9d6591cb@58.152.18.124:443?allowInsecure=1&sni=www.nintendogames.net#%E9%A6%99%E6%B8%AF-23.90MB%2Fs
 trojan://dd2f25b4c70689de8bc0f7fa9d6591cb@58.152.18.124:443?allowInsecure=1&sni=www.nintendogames.net#%E9%A6%99%E6%B8%AF-367.1KB%2Fs
 trojan://dd2f25b4c70689de8bc0f7fa9d6591cb@58.152.18.124:443?allowInsecure=1&sni=www.nintendogames.net#%E9%A6%99%E6%B8%AF-557.9KB%2Fs
+trojan://dd2f25b4c70689de8bc0f7fa9d6591cb@58.152.18.124:443?allowInsecure=1&sni=www.nintendogames.net#%E9%A6%99%E6%B8%AF-706.7KB%2Fs
 trojan://fg20mtCFHy@uspoc.southbyte.xyz:5684?allowInsecure=1&sni=uspoc.southbyte.xyz#%E7%BE%8E%E5%9B%BD-2.67MB%2Fs
 trojan://fg20mtCFHy@usygh.zippydeal.xyz:5710?allowInsecure=1&sni=usygh.zippydeal.xyz#%E7%BE%8E%E5%9B%BD-1.60MB%2Fs
 trojan://fg20mtCFHy@usygh.zippydeal.xyz:5710?allowInsecure=1&sni=usygh.zippydeal.xyz#%E7%BE%8E%E5%9B%BD-1.70MB%2Fs
