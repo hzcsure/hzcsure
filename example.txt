@@ -1,8 +1,6 @@
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNToxUld3WGh3ZkFCNWdBRW96VTRHMlBn@45.87.175.166:443#%E7%AB%8B%E9%99%B6%E5%AE%9B-72.8MB%2Fs
-ss://YWVzLTI1Ni1jZmI6WG44aktkbURNMDBJZU8lIyQjZkpBTXRzRUFFVU9wSC9ZV1l0WXFERm5UMFNW@103.186.154.38:38388#%E8%B6%8A%E5%8D%97-1.10MB%2Fs
-ss://YWVzLTI1Ni1jZmI6ZjhmN2FDemNQS2JzRjhwMw@38.54.57.90:989#%E5%B7%B4%E8%A5%BF-35.7MB%2Fs
 trojan://2cf6d686799e6fa95316394064f26c0a@3.113.21.213:2890?allowInsecure=1&sni=www.nintendogames.net#%E6%97%A5%E6%9C%AC-7.94MB%2Fs
 trojan://BxceQaOe@18.162.97.46:2569?allowInsecure=1&sni=t.me%2Fripaojiedian#%E9%A6%99%E6%B8%AF-4.52MB%2Fs
+trojan://BxceQaOe@58.152.25.241:443?allowInsecure=1&sni=t.me%252Fripaojiedian#%E9%A6%99%E6%B8%AF-2.94MB%2Fs
 trojan://BxceQaOe@58.152.25.241:443?allowInsecure=1&sni=t.me%2Fripaojiedian#%E9%A6%99%E6%B8%AF-15.71MB%2Fs
 trojan://BxceQaOe@58.152.53.22:443?allowInsecure=1&sni=t.me%2Fripaojiedian#%E9%A6%99%E6%B8%AF-20.55MB%2Fs
 trojan://BxceQaOe@58.152.53.22:443?allowInsecure=1&sni=t.me%2Fripaojiedian#%E9%A6%99%E6%B8%AF-30.29MB%2Fs
