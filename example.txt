@@ -1,5 +1,5 @@
 /get
-ss://YWVzLTI1Ni1jZmI6ZjhmN2FDemNQS2JzRjhwMw@185.231.233.112:989#%E8%91%A1%E8%90%84%E7%89%99-14.0MB%2Fs
+trojan://2cf6d686799e6fa95316394064f26c0a@58.152.110.120:443?allowInsecure=1&sni=www.nintendogames.net#%E9%A6%99%E6%B8%AF-14.91MB%2Fs
 trojan://2cf6d686799e6fa95316394064f26c0a@58.152.110.120:443?allowInsecure=1&sni=www.nintendogames.net#%E9%A6%99%E6%B8%AF-17.44MB%2Fs
 trojan://2cf6d686799e6fa95316394064f26c0a@58.152.110.120:443?allowInsecure=1&sni=www.nintendogames.net#%E9%A6%99%E6%B8%AF-2.89MB%2Fs
 trojan://2cf6d686799e6fa95316394064f26c0a@58.152.110.120:443?allowInsecure=1&sni=www.nintendogames.net#%E9%A6%99%E6%B8%AF-27.48MB%2Fs
