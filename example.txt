@@ -1,5 +1,8 @@
-trojan://BxceQaOe@58.152.30.175:443?allowInsecure=1&sni=t.me%2Fripaojiedian#%E9%A6%99%E6%B8%AF-24.35MB%2Fs
+trojan://79314e99f0a473fe86efc7827942ad00@153.121.73.102:2760?allowInsecure=1&sni=www.nintendogames.net#%E6%97%A5%E6%9C%AC-157.0KB%2Fs
 trojan://79314e99f0a473fe86efc7827942ad00@160.16.138.24:3169?allowInsecure=1&sni=www.nintendogames.net#%E6%97%A5%E6%9C%AC-840.4KB%2Fs
+trojan://79314e99f0a473fe86efc7827942ad00@160.16.214.6:2760?allowInsecure=1&sni=www.nintendogames.net#%E6%97%A5%E6%9C%AC-139.1KB%2Fs
+trojan://79314e99f0a473fe86efc7827942ad00@160.16.214.6:4054?allowInsecure=1&sni=www.nintendogames.net#%E6%97%A5%E6%9C%AC-130.8KB%2Fs
 trojan://79314e99f0a473fe86efc7827942ad00@160.16.214.6:4054?allowInsecure=1&sni=www.nintendogames.net#%E6%97%A5%E6%9C%AC-52.0MB%2Fs
 trojan://BxceQaOe@58.152.18.95:443?allowInsecure=1&sni=t.me%2Fripaojiedian#%E9%A6%99%E6%B8%AF-6.61MB%2Fs
+trojan://BxceQaOe@58.152.30.175:443?allowInsecure=1&sni=t.me%2Fripaojiedian#%E9%A6%99%E6%B8%AF-24.35MB%2Fs
 trojan://Q9gofGxinwLv0TfDfdKmdttdPGxrhKQS@psg2-ag.t.sgateway.link:5223?allowInsecure=1&sni=pod-kr-g1.psusercontent.com#%E7%BE%8E%E5%9B%BD-305.0KB%2Fs
