@@ -1,3 +1,5 @@
+ss://YWVzLTI1Ni1jZmI6WG44aktkbURNMDBJZU8lIyQjZkpBTXRzRUFFVU9wSC9ZV1l0WXFERm5UMFNW@103.186.154.33:38388#%E8%B6%8A%E5%8D%97-158.0KB%2Fs
+ss://YWVzLTI1Ni1jZmI6ZjhmN2FDemNQS2JzRjhwMw@185.231.233.112:989#%E8%91%A1%E8%90%84%E7%89%99-16.5MB%2Fs
 trojan://79314e99f0a473fe86efc7827942ad00@58.152.18.78:443?allowInsecure=1&sni=www.nintendogames.net#%E9%A6%99%E6%B8%AF-3.42MB%2Fs
 trojan://BxceQaOe@219.79.186.107:443?allowInsecure=1&sni=t.me%2Fripaojiedian#%E9%A6%99%E6%B8%AF-1.06MB%2Fs
 trojan://BxceQaOe@219.79.186.107:443?allowInsecure=1&sni=t.me%2Fripaojiedian#%E9%A6%99%E6%B8%AF-10.59MB%2Fs
