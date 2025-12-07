@@ -1,10 +1,12 @@
-ss://YWVzLTI1Ni1jZmI6ZjhmN2FDemNQS2JzRjhwMw@185.153.197.5:989#%E6%91%A9%E5%B0%94%E5%A4%9A%E7%93%A6-56.0MB%2Fs
 trojan://BxceQaOe@219.79.186.107:443?allowInsecure=1&sni=t.me%2Fripaojiedian#%E9%A6%99%E6%B8%AF-10.65MB%2Fs
 trojan://BxceQaOe@219.79.186.107:443?allowInsecure=1&sni=t.me%2Fripaojiedian#%E9%A6%99%E6%B8%AF-2.24MB%2Fs
 trojan://BxceQaOe@58.152.25.20:443?allowInsecure=1&sni=t.me%2Fripaojiedian#%E9%A6%99%E6%B8%AF-13.02MB%2Fs
+trojan://BxceQaOe@58.152.25.20:443?allowInsecure=1&sni=t.me%2Fripaojiedian#%E9%A6%99%E6%B8%AF-21.19MB%2Fs
 trojan://BxceQaOe@58.152.25.242:443?allowInsecure=1&sni=t.me%25252Fripaojiedian#%E9%A6%99%E6%B8%AF-5.57MB%2Fs
 trojan://BxceQaOe@58.152.25.242:443?allowInsecure=1&sni=t.me%2Fripaojiedian#%E9%A6%99%E6%B8%AF-1.47MB%2Fs
+trojan://BxceQaOe@58.152.25.242:443?allowInsecure=1&sni=t.me%2Fripaojiedian#%E9%A6%99%E6%B8%AF-5.82MB%2Fs
 trojan://BxceQaOe@58.152.25.242:443?allowInsecure=1&sni=t.me%2Fripaojiedian#%E9%A6%99%E6%B8%AF-9.78MB%2Fs
+trojan://BxceQaOe@58.152.30.120:443?allowInsecure=1&sni=t.me%2Fripaojiedian#%E9%A6%99%E6%B8%AF-15.56MB%2Fs
 trojan://BxceQaOe@58.152.30.120:443?allowInsecure=1&sni=t.me%2Fripaojiedian#%E9%A6%99%E6%B8%AF-3.01MB%2Fs
 trojan://BxceQaOe@58.152.30.120:443?allowInsecure=1&sni=t.me%2Fripaojiedian#%E9%A6%99%E6%B8%AF-3.62MB%2Fs
 trojan://BxceQaOe@58.152.30.120:443?allowInsecure=1&sni=t.me%2Fripaojiedian#%E9%A6%99%E6%B8%AF-5.83MB%2Fs
