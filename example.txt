@@ -1,7 +1,9 @@
 trojan://BxceQaOe@219.79.186.107:443?allowInsecure=1&sni=t.me%2Fripaojiedian#%E9%A6%99%E6%B8%AF-2.51MB%2Fs
 trojan://BxceQaOe@58.152.18.95:443?allowInsecure=1#%E9%A6%99%E6%B8%AF-1.42MB%2Fs
+trojan://BxceQaOe@58.152.30.120:443?allowInsecure=1&sni=t.me%2Fripaojiedian#%E9%A6%99%E6%B8%AF-1.11MB%2Fs
 trojan://BxceQaOe@58.152.30.120:443?allowInsecure=1&sni=t.me%2Fripaojiedian#%E9%A6%99%E6%B8%AF-1.32MB%2Fs
 trojan://BxceQaOe@58.152.30.120:443?allowInsecure=1&sni=t.me%2Fripaojiedian#%E9%A6%99%E6%B8%AF-717.0KB%2Fs
+trojan://BxceQaOe@58.152.30.120:443?allowInsecure=1&sni=t.me%2Fripaojiedian#%E9%A6%99%E6%B8%AF-746.0KB%2Fs
 trojan://BxceQaOe@58.152.30.120:443?allowInsecure=1&sni=t.me%2Fripaojiedian#%E9%A6%99%E6%B8%AF-845.1KB%2Fs
 vmess://eyJ2IjoiMiIsInBzIjoi6Iux5Zu9LTQ0LjFNQi9zIiwiYWRkIjoiODIuMTk4LjI0Ni45NyIsInBvcnQiOiIxODAiLCJ0eXBlIjoibm9uZSIsImlkIjoiZDEzZmMyZjUtM2UwNS00Nzk1LTgxZWItNDQxNDNhMDllNTUyIiwiYWlkIjoiMCIsIm5ldCI6InRjcCIsInBhdGgiOiIvIiwiaG9zdCI6ImM5MmQ5MDM3LXN1bno0MC1zdXFqcXEtMXByMzUuaGszLnA1cHYuY29tIiwidGxzIjoiIn0=
 vmess://eyJ2IjoiMiIsInBzIjoi6aaZ5rivLTI3MC40S0IvcyIsImFkZCI6IjgxNDA0N2UzLXN2MnNnMC10MDl0MTMtejdhMS5oazMucDVwdi5jb20iLCJwb3J0IjoiODAiLCJ0eXBlIjoibm9uZSIsImlkIjoiM2JkMjQ3YTgtOTkzZS0xMWVjLWE4YmYtZjIzYzkxY2ZiYmM5IiwiYWlkIjoiMiIsIm5ldCI6IndzIiwicGF0aCI6Ii8iLCJob3N0IjoiODE0MDQ3ZTMtc3Yyc2cwLXQwOXQxMy16N2ExLmhrMy5wNXB2LmNvbSIsInRscyI6IiJ9
