@@ -1,3 +1,4 @@
+ss://YWVzLTI1Ni1jZmI6ZjhmN2FDemNQS2JzRjhwMw@185.153.197.5:989#%E6%91%A9%E5%B0%94%E5%A4%9A%E7%93%A6-21.6MB%2Fs
 trojan://76d630f2af6619c4a5de0ef953df3c6a@153.121.73.102:1331?allowInsecure=1&sni=www.nintendogames.net#%E6%97%A5%E6%9C%AC-205.8KB%2Fs
 trojan://76d630f2af6619c4a5de0ef953df3c6a@160.16.106.144:4054?allowInsecure=1&sni=www.nintendogames.net#%E6%97%A5%E6%9C%AC-186.1KB%2Fs
 trojan://76d630f2af6619c4a5de0ef953df3c6a@160.16.242.183:1331?allowInsecure=1&sni=www.nintendogames.net#%E6%97%A5%E6%9C%AC-2.68MB%2Fs
@@ -12,6 +13,7 @@ trojan://BxceQaOe@219.79.186.107:443?allowInsecure=1&sni=t.me%2Fripaojiedian#%E9
 trojan://BxceQaOe@219.79.186.107:443?allowInsecure=1&sni=t.me/ripaojiedian#%E9%A6%99%E6%B8%AF-16.39MB%2Fs
 trojan://BxceQaOe@219.79.186.107:443?allowInsecure=1&sni=t.me/ripaojiedian#%E9%A6%99%E6%B8%AF-2.86MB%2Fs
 trojan://BxceQaOe@219.79.186.107:443?allowInsecure=1&sni=t.me/ripaojiedian#%E9%A6%99%E6%B8%AF-22.49MB%2Fs
+trojan://BxceQaOe@54.95.4.90:2145?allowInsecure=1&sni=t.me%2Fripaojiedian#%E6%97%A5%E6%9C%AC-1.63MB%2Fs
 trojan://BxceQaOe@58.152.18.95:443?allowInsecure=1&sni=t.me%2Fripaojiedian#%E9%A6%99%E6%B8%AF-1.25MB%2Fs
 trojan://BxceQaOe@58.152.18.95:443?allowInsecure=1&sni=t.me/ripaojiedian#%E9%A6%99%E6%B8%AF-1.99MB%2Fs
 trojan://BxceQaOe@58.152.18.95:443?allowInsecure=1&sni=t.me/ripaojiedian#%E9%A6%99%E6%B8%AF-2.91MB%2Fs
@@ -29,4 +31,5 @@ trojan://BxceQaOe@58.152.30.120:443?allowInsecure=1&sni=t.me%2Fripaojiedian#%E9%
 trojan://BxceQaOe@58.152.30.120:443?allowInsecure=1&sni=t.me%2Fripaojiedian#%E9%A6%99%E6%B8%AF-4.32MB%2Fs
 trojan://BxceQaOe@58.152.30.120:443?allowInsecure=1&sni=t.me%2Fripaojiedian#%E9%A6%99%E6%B8%AF-4.71MB%2Fs
 trojan://BxceQaOe@95.40.109.5:804?allowInsecure=1&sni=t.me%2Fripaojiedian#%E6%B3%A2%E5%85%B0-156.2KB%2Fs
+vmess://eyJ2IjoiMiIsInBzIjoi6aaZ5rivLTMuNjZNQi9zIiwiYWRkIjoidjEwLmhkYWNkLmNvbSIsInBvcnQiOiIzMDgwNyIsInR5cGUiOiJub25lIiwiaWQiOiJjYmIzZjg3Ny1kMWZiLTM0NGMtODdhOS1kMTUzYmZmZDU0ODQiLCJhaWQiOiIyIiwibmV0IjoidGNwIiwicGF0aCI6Ii8iLCJob3N0IjoidjEwLmhkYWNkLmNvbSIsInRscyI6IiJ9
 vmess://eyJ2IjoiMiIsInBzIjoi6aaZ5rivLTQuNk1CL3MiLCJhZGQiOiJ2MTAuaGRhY2QuY29tIiwicG9ydCI6IjMwODA3IiwidHlwZSI6Im5vbmUiLCJpZCI6ImNiYjNmODc3LWQxZmItMzQ0Yy04N2E5LWQxNTNiZmZkNTQ4NCIsImFpZCI6IjIiLCJuZXQiOiJ0Y3AiLCJwYXRoIjoiLyIsImhvc3QiOiJ2MTAuaGRhY2QuY29tIiwidGxzIjoiIn0=
