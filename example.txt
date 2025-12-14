@@ -1,4 +1,3 @@
-ss://YWVzLTI1Ni1jZmI6ZjhmN2FDemNQS2JzRjhwMw@185.153.197.5:989#%E6%91%A9%E5%B0%94%E5%A4%9A%E7%93%A6-16.3MB%2Fs
 trojan://BxceQaOe@16.162.21.116:804?allowInsecure=1&sni=t.me%252Fripaojiedian#%E9%A6%99%E6%B8%AF-45.1MB%2Fs
 trojan://BxceQaOe@58.152.18.155:443?allowInsecure=1&sni=t.me%2Fripaojiedian#%E9%A6%99%E6%B8%AF-11.14MB%2Fs
 trojan://BxceQaOe@58.152.18.155:443?allowInsecure=1&sni=t.me%2Fripaojiedian#%E9%A6%99%E6%B8%AF-15.49MB%2Fs
@@ -8,6 +7,7 @@ trojan://BxceQaOe@58.152.18.155:443?allowInsecure=1&sni=t.me%2Fripaojiedian#%E9%
 trojan://BxceQaOe@58.152.25.20:443?allowInsecure=1&sni=t.me%25252Fripaojiedian#%E9%A6%99%E6%B8%AF-466.6KB%2Fs
 trojan://BxceQaOe@58.152.25.242:443?allowInsecure=1&sni=t.me%2Fripaojiedian#%E9%A6%99%E6%B8%AF-1.66MB%2Fs
 trojan://BxceQaOe@58.152.25.242:443?allowInsecure=1&sni=t.me%2Fripaojiedian#%E9%A6%99%E6%B8%AF-695.2KB%2Fs
+trojan://BxceQaOe@58.152.53.174:443?allowInsecure=1&sni=t.me%25252Fripaojiedian#%E9%A6%99%E6%B8%AF-114.7KB%2Fs
 trojan://BxceQaOe@58.152.53.174:443?allowInsecure=1&sni=t.me%2Fripaojiedian#%E9%A6%99%E6%B8%AF-253.2KB%2Fs
 trojan://BxceQaOe@58.152.53.174:443?allowInsecure=1&sni=t.me%2Fripaojiedian#%E9%A6%99%E6%B8%AF-29.4MB%2Fs
 trojan://BxceQaOe@58.152.53.174:443?allowInsecure=1&sni=t.me%2Fripaojiedian#%E9%A6%99%E6%B8%AF-47.9MB%2Fs
@@ -21,3 +21,4 @@ vmess://eyJ2IjoiMiIsInBzIjoi6Iux5Zu9LTExMi44S0IvcyIsImFkZCI6IjgyLjE5OC4yNDYuOTci
 vmess://eyJ2IjoiMiIsInBzIjoi6Iux5Zu9LTI4LjhNQi9zIiwiYWRkIjoiODIuMTk4LjI0Ni45NyIsInBvcnQiOiIxODAiLCJ0eXBlIjoibm9uZSIsImlkIjoiZDEzZmMyZjUtM2UwNS00Nzk1LTgxZWItNDQxNDNhMDllNTUyIiwiYWlkIjoiMCIsIm5ldCI6InRjcCIsInBhdGgiOiIvIiwiaG9zdCI6InQubWUlMkZyaXBhb2ppZWRpYW4iLCJ0bHMiOiIifQ==
 vmess://eyJ2IjoiMiIsInBzIjoi6Iux5Zu9LTQ1LjhNQi9zIiwiYWRkIjoiODIuMTk4LjI0Ni45NyIsInBvcnQiOiIxODAiLCJ0eXBlIjoibm9uZSIsImlkIjoiZDEzZmMyZjUtM2UwNS00Nzk1LTgxZWItNDQxNDNhMDllNTUyIiwiYWlkIjoiMCIsIm5ldCI6InRjcCIsInBhdGgiOiIvIiwiaG9zdCI6IiIsInRscyI6IiJ9
 vmess://eyJ2IjoiMiIsInBzIjoi6Iux5Zu9LTY2LjhNQi9zIiwiYWRkIjoiODIuMTk4LjI0Ni45NyIsInBvcnQiOiIxODAiLCJ0eXBlIjoibm9uZSIsImlkIjoiZDEzZmMyZjUtM2UwNS00Nzk1LTgxZWItNDQxNDNhMDllNTUyIiwiYWlkIjoiMCIsIm5ldCI6InRjcCIsInBhdGgiOiIvIiwiaG9zdCI6InQubWUlMkZyaXBhb2ppZWRpYW4iLCJ0bHMiOiIifQ==
+vmess://eyJ2IjoiMiIsInBzIjoi6Iux5Zu9LTc5LjJNQi9zIiwiYWRkIjoiODIuMTk4LjI0Ni45NyIsInBvcnQiOiIxODAiLCJ0eXBlIjoibm9uZSIsImlkIjoiZDEzZmMyZjUtM2UwNS00Nzk1LTgxZWItNDQxNDNhMDllNTUyIiwiYWlkIjoiMCIsIm5ldCI6InRjcCIsInBhdGgiOiIvIiwiaG9zdCI6InQubWUlMjUyNTJGcmlwYW9qaWVkaWFuIiwidGxzIjoiIn0=
