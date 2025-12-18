@@ -1,5 +1,5 @@
 /get
-ss://YWVzLTEyOC1nY206c2hhZG93c29ja3M@156.146.38.170:443#%E7%BE%8E%E5%9B%BD-24.5MB%2Fs
+ss://YWVzLTEyOC1nY206c2hhZG93c29ja3M@156.146.38.170:443#%E7%BE%8E%E5%9B%BD-8.4MB%2Fs
 trojan://BxceQaOe@219.79.214.159:443?allowInsecure=1&sni=t.me%2Fripaojiedian#%E9%A6%99%E6%B8%AF-1014.1KB%2Fs
 trojan://BxceQaOe@219.79.214.159:443?allowInsecure=1&sni=t.me%2Fripaojiedian#%E9%A6%99%E6%B8%AF-480.7KB%2Fs
 trojan://BxceQaOe@58.152.30.31:443?allowInsecure=1&sni=t.me%2Fripaojiedian#%E9%A6%99%E6%B8%AF-198.4KB%2Fs
