@@ -1,7 +1,5 @@
 /get
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpucWNJZllIbHBNbjNqenFrTkRqS2FH@138.124.67.26:25572#%E4%B9%8C%E5%85%8B%E5%85%B0-66.1MB%2Fs
-ss://YWVzLTEyOC1nY206c2hhZG93c29ja3M@141.98.101.178:443#%E8%8B%B1%E5%9B%BD-3.96MB%2Fs
-ss://YWVzLTEyOC1nY206c2hhZG93c29ja3M@156.146.38.167:443#%E7%BE%8E%E5%9B%BD-4.11MB%2Fs
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpucWNJZllIbHBNbjNqenFrTkRqS2FH@138.124.67.26:25572#%E4%B9%8C%E5%85%8B%E5%85%B0-74.0MB%2Fs
 trojan://BxceQaOe@219.79.214.159:443?allowInsecure=1&sni=t.me%2Fripaojiedian#%E9%A6%99%E6%B8%AF-1014.1KB%2Fs
 trojan://BxceQaOe@219.79.214.159:443?allowInsecure=1&sni=t.me%2Fripaojiedian#%E9%A6%99%E6%B8%AF-480.7KB%2Fs
 trojan://BxceQaOe@219.79.214.159:443?allowInsecure=1&sni=t.me%2Fripaojiedian#%E9%A6%99%E6%B8%AF-55.07MB%2Fs
