@@ -1,4 +1,3 @@
-ss://Y2hhY2hhMjAtaWV0Zjphc2QxMjM0NTY@103.149.182.191:8388#%E9%A6%99%E6%B8%AF-1.04MB%2Fs
 trojan://BxceQaOe@13.115.156.232:4012?allowInsecure=1&sni=t.me%252Fripaojiedian#%E6%97%A5%E6%9C%AC-6.3MB%2Fs
 trojan://BxceQaOe@18.163.24.54:968?allowInsecure=1&sni=t.me%2Fripaojiedian#%E9%A6%99%E6%B8%AF-1.24MB%2Fs
 trojan://BxceQaOe@58.152.25.71:443?allowInsecure=1&sni=t.me%2Fripaojiedian#%E9%A6%99%E6%B8%AF-11.07MB%2Fs
@@ -10,6 +9,7 @@ trojan://BxceQaOe@58.152.25.71:443?allowInsecure=1&sni=t.me%2Fripaojiedian#%E9%A
 trojan://BxceQaOe@58.152.26.107:443?allowInsecure=1&sni=t.me%2Fripaojiedian#%E9%A6%99%E6%B8%AF-1.57MB%2Fs
 trojan://BxceQaOe@58.152.26.107:443?allowInsecure=1&sni=t.me%2Fripaojiedian#%E9%A6%99%E6%B8%AF-12.91MB%2Fs
 trojan://BxceQaOe@58.152.26.107:443?allowInsecure=1&sni=t.me%2Fripaojiedian#%E9%A6%99%E6%B8%AF-13.28MB%2Fs
+trojan://BxceQaOe@58.152.26.107:443?allowInsecure=1&sni=t.me%2Fripaojiedian#%E9%A6%99%E6%B8%AF-25.01MB%2Fs
 trojan://BxceQaOe@58.152.26.107:443?allowInsecure=1&sni=t.me%2Fripaojiedian#%E9%A6%99%E6%B8%AF-29.92MB%2Fs
 trojan://BxceQaOe@58.152.26.107:443?allowInsecure=1&sni=t.me%2Fripaojiedian#%E9%A6%99%E6%B8%AF-5.44MB%2Fs
 trojan://BxceQaOe@58.152.26.107:443?allowInsecure=1&sni=t.me%2Fripaojiedian#%E9%A6%99%E6%B8%AF-673.0KB%2Fs
@@ -26,6 +26,7 @@ vmess://eyJ2IjoiMiIsInBzIjoi576O5Zu9LTE1NC43S0IvcyIsImFkZCI6InQxLjYyMDcyMC54eXoi
 vmess://eyJ2IjoiMiIsInBzIjoi576O5Zu9LTI3Ni43S0IvcyIsImFkZCI6IjQ2LjMuNDcuMjUwIiwicG9ydCI6IjIwMDA0IiwidHlwZSI6Im5vbmUiLCJpZCI6ImU1Y2U0MjVlLTBiODQtNDM1Yy1hZWU1LTlmOWVjYmUyY2IxNiIsImFpZCI6IjAiLCJuZXQiOiJ0Y3AiLCJwYXRoIjoiLyIsImhvc3QiOiJ0Lm1lJTJGcmlwYW9qaWVkaWFuIiwidGxzIjoiIn0=
 vmess://eyJ2IjoiMiIsInBzIjoi576O5Zu9LTQuODFNQi9zIiwiYWRkIjoiNDYuMy40Ny4yNTAiLCJwb3J0IjoiMjAwMDQiLCJ0eXBlIjoibm9uZSIsImlkIjoiZTVjZTQyNWUtMGI4NC00MzVjLWFlZTUtOWY5ZWNiZTJjYjE2IiwiYWlkIjoiMCIsIm5ldCI6InRjcCIsInBhdGgiOiIvIiwiaG9zdCI6IiIsInRscyI6IiJ9
 vmess://eyJ2IjoiMiIsInBzIjoi6Iux5Zu9LTE5Ni4yS0IvcyIsImFkZCI6IjgyLjE5OC4yNDYuOTciLCJwb3J0IjoiMTgwIiwidHlwZSI6Im5vbmUiLCJpZCI6ImQxM2ZjMmY1LTNlMDUtNDc5NS04MWViLTQ0MTQzYTA5ZTU1MiIsImFpZCI6IjAiLCJuZXQiOiJ0Y3AiLCJwYXRoIjoiLyIsImhvc3QiOiIiLCJ0bHMiOiIifQ==
+vmess://eyJ2IjoiMiIsInBzIjoi6Iux5Zu9LTI1Mi45S0IvcyIsImFkZCI6IjgyLjE5OC4yNDYuOTciLCJwb3J0IjoiMTgwIiwidHlwZSI6Im5vbmUiLCJpZCI6ImQxM2ZjMmY1LTNlMDUtNDc5NS04MWViLTQ0MTQzYTA5ZTU1MiIsImFpZCI6IjAiLCJuZXQiOiJ0Y3AiLCJwYXRoIjoiLyIsImhvc3QiOiJ0Lm1lJTJGcmlwYW9qaWVkaWFuIiwidGxzIjoiIn0=
 vmess://eyJ2IjoiMiIsInBzIjoi6Iux5Zu9LTU3LjhNQi9zIiwiYWRkIjoiODIuMTk4LjI0Ni45NyIsInBvcnQiOiIxODAiLCJ0eXBlIjoibm9uZSIsImlkIjoiZDEzZmMyZjUtM2UwNS00Nzk1LTgxZWItNDQxNDNhMDllNTUyIiwiYWlkIjoiMCIsIm5ldCI6InRjcCIsInBhdGgiOiIvIiwiaG9zdCI6InQubWUlMjUyRnJpcGFvamllZGlhbiIsInRscyI6IiJ9
 vmess://eyJ2IjoiMiIsInBzIjoi6Iux5Zu9LTYxLjVNQi9zIiwiYWRkIjoiODIuMTk4LjI0Ni45NyIsInBvcnQiOiIxODAiLCJ0eXBlIjoibm9uZSIsImlkIjoiZDEzZmMyZjUtM2UwNS00Nzk1LTgxZWItNDQxNDNhMDllNTUyIiwiYWlkIjoiMCIsIm5ldCI6InRjcCIsInBhdGgiOiIvIiwiaG9zdCI6IiIsInRscyI6IiJ9
 vmess://eyJ2IjoiMiIsInBzIjoi6aaZ5rivLTEuMjNNQi9zIiwiYWRkIjoiaGt0LmdvdG9jaGluYXRvd24ubmV0IiwicG9ydCI6IjgwIiwidHlwZSI6Im5vbmUiLCJpZCI6ImJiODVlMDc0LWIwYzItMTFlYS1hZDI4LWYyM2M5MTNjOGQyYiIsImFpZCI6IjIiLCJuZXQiOiJ3cyIsInBhdGgiOiIvIiwiaG9zdCI6ImhrdC5nb3RvY2hpbmF0b3duLm5ldCIsInRscyI6IiJ9
