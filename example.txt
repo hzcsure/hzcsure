@@ -1,9 +1,9 @@
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvWklvQTY5UTh5aGNRVjhrYTNQYTNB@45.87.175.35:8080#%E7%AB%8B%E9%99%B6%E5%AE%9B-29.2MB%2Fs
 trojan://15299860-fadf-4a95-bb62-63666856822b@green2.cdntencentmusic.com:31102?allowInsecure=1&sni=green2.cdntencentmusic.com#%E5%8F%B0%E6%B9%BE-27.4MB%2Fs
 trojan://15299860-fadf-4a95-bb62-63666856822b@green2.cdntencentmusic.com:31102?allowInsecure=1&sni=green2.cdntencentmusic.com#%E5%8F%B0%E6%B9%BE-70.4MB%2Fs
 trojan://3e791d86-b43c-46c7-a3a9-dc2d2aff0db2@green2.cdntencentmusic.com:35501?allowInsecure=1&sni=green2.cdntencentmusic.com#%E5%8F%B0%E6%B9%BE-162.8KB%2Fs
 trojan://3e791d86-b43c-46c7-a3a9-dc2d2aff0db2@green2.cdntencentmusic.com:35501?allowInsecure=1&sni=green2.cdntencentmusic.com#%E5%8F%B0%E6%B9%BE-90.6MB%2Fs
 trojan://44e660b0ee21cf3ac66aee2c08af85d2@112.118.116.8:443?allowInsecure=1&sni=www.nintendogames.net#%E9%A6%99%E6%B8%AF-17.17MB%2Fs
+trojan://44e660b0ee21cf3ac66aee2c08af85d2@112.118.116.8:443?allowInsecure=1&sni=www.nintendogames.net#%E9%A6%99%E6%B8%AF-3.02MB%2Fs
 trojan://44e660b0ee21cf3ac66aee2c08af85d2@160.16.89.176:4054?allowInsecure=1&sni=www.nintendogames.net#%E6%97%A5%E6%9C%AC-124.9KB%2Fs
 trojan://44e660b0ee21cf3ac66aee2c08af85d2@160.16.89.176:4054?allowInsecure=1&sni=www.nintendogames.net#%E6%97%A5%E6%9C%AC-410.6KB%2Fs
 trojan://9f6256ae-52e7-4954-9a17-445b106bdca7@green2.cdntencentmusic.com:31102?allowInsecure=1&sni=green2.cdntencentmusic.com#%E5%8F%B0%E6%B9%BE-38.2MB%2Fs
