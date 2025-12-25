@@ -1,3 +1,4 @@
+ss://YWVzLTI1Ni1jZmI6WG44aktkbURNMDBJZU8lIyQjZkpBTXRzRUFFVU9wSC9ZV1l0WXFERm5UMFNW@103.186.155.21:38388#%E8%B6%8A%E5%8D%97-15.2MB%2Fs
 trojan://15299860-fadf-4a95-bb62-63666856822b@green2.cdntencentmusic.com:31102?allowInsecure=1&sni=green2.cdntencentmusic.com#%E5%8F%B0%E6%B9%BE-27.4MB%2Fs
 trojan://15299860-fadf-4a95-bb62-63666856822b@green2.cdntencentmusic.com:31102?allowInsecure=1&sni=green2.cdntencentmusic.com#%E5%8F%B0%E6%B9%BE-70.4MB%2Fs
 trojan://3e791d86-b43c-46c7-a3a9-dc2d2aff0db2@green2.cdntencentmusic.com:35501?allowInsecure=1&sni=green2.cdntencentmusic.com#%E5%8F%B0%E6%B9%BE-162.8KB%2Fs
