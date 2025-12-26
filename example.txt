@@ -1,14 +1,15 @@
-ss://YWVzLTEyOC1nY206c2hhZG93c29ja3M@141.98.101.178:443#%E8%8B%B1%E5%9B%BD-45.5MB%2Fs
-ss://YWVzLTI1Ni1jZmI6ZjhmN2FDemNQS2JzRjhwMw@154.223.20.79:989#%E9%A6%99%E6%B8%AF-21.7MB%2Fs
+ss://YWVzLTI1Ni1jZmI6ZjhmN2FDemNQS2JzRjhwMw@185.153.197.5:989#%E6%91%A9%E5%B0%94%E5%A4%9A%E7%93%A6-651.6KB%2Fs
 trojan://06cf7cdc-b434-4bef-8c0f-70316e2b59bd@cdnfire.xiaomispeed.com:25501?allowInsecure=1&sni=cdnfire.xiaomispeed.com#%E5%8F%B0%E6%B9%BE-37.9MB%2Fs
 trojan://44e660b0ee21cf3ac66aee2c08af85d2@112.118.116.8:443?allowInsecure=1&sni=www.nintendogames.net#%E9%A6%99%E6%B8%AF-35.31MB%2Fs
 trojan://44e660b0ee21cf3ac66aee2c08af85d2@112.118.116.8:443?allowInsecure=1&sni=www.nintendogames.net#%E9%A6%99%E6%B8%AF-38.78MB%2Fs
 trojan://44e660b0ee21cf3ac66aee2c08af85d2@112.118.116.8:443?allowInsecure=1&sni=www.nintendogames.net#%E9%A6%99%E6%B8%AF-39.65MB%2Fs
 trojan://44e660b0ee21cf3ac66aee2c08af85d2@160.16.138.24:2760?allowInsecure=1&sni=www.nintendogames.net#%E6%97%A5%E6%9C%AC-1.92MB%2Fs
+trojan://BxceQaOe@203.198.84.221:443?allowInsecure=1&sni=t.me%2Fripaojiedian#%E9%A6%99%E6%B8%AF-23.98MB%2Fs
 trojan://BxceQaOe@203.198.84.221:443?allowInsecure=1&sni=t.me%2Fripaojiedian#%E9%A6%99%E6%B8%AF-24.48MB%2Fs
 trojan://BxceQaOe@203.198.84.221:443?allowInsecure=1&sni=t.me%2Fripaojiedian#%E9%A6%99%E6%B8%AF-28.32MB%2Fs
 trojan://BxceQaOe@203.198.84.221:443?allowInsecure=1&sni=t.me%2Fripaojiedian#%E9%A6%99%E6%B8%AF-35.30MB%2Fs
 trojan://BxceQaOe@58.152.46.60:443?allowInsecure=1&sni=t.me%2Fripaojiedian#%E9%A6%99%E6%B8%AF-20.11MB%2Fs
+trojan://BxceQaOe@58.152.46.60:443?allowInsecure=1&sni=t.me%2Fripaojiedian#%E9%A6%99%E6%B8%AF-38.20MB%2Fs
 trojan://BxceQaOe@58.152.46.60:443?allowInsecure=1&sni=t.me%2Fripaojiedian#%E9%A6%99%E6%B8%AF-38.96MB%2Fs
 trojan://BxceQaOe@58.152.46.60:443?allowInsecure=1&sni=t.me%2Fripaojiedian#%E9%A6%99%E6%B8%AF-7.37MB%2Fs
 trojan://c87db6f1-9de1-4dab-badb-b970c723fe52@cdnfire.xiaomispeed.com:21103?allowInsecure=1&sni=cdnfire.xiaomispeed.com#%E5%8F%B0%E6%B9%BE-160.2KB%2Fs
@@ -20,6 +21,7 @@ vmess://eyJ2IjoiMiIsInBzIjoi5pyq55+l5Zu95a62LTIuNTBNQi9zIiwiYWRkIjoiaGd0cm9qYW4u
 vmess://eyJ2IjoiMiIsInBzIjoi5pyq55+l5Zu95a62LTM1MS41S0IvcyIsImFkZCI6ImhndHJvamFuLnphYmMubmV0IiwicG9ydCI6IjIwODMiLCJ0eXBlIjoibm9uZSIsImlkIjoiZTYzOTVjMjAtNDU3MS00YjM0LWQ2YjEtNTVhNWQzNmU0OWVhIiwiYWlkIjoiMCIsIm5ldCI6IndzIiwicGF0aCI6Ii9lNjM5NWMyMCIsImhvc3QiOiJoZ3Ryb2phbi56YWJjLm5ldCIsInRscyI6InRscyJ9
 vmess://eyJ2IjoiMiIsInBzIjoi5pyq55+l5Zu95a62LTQuNDVNQi9zIiwiYWRkIjoiaGd0cm9qYW4uemFiYy5uZXQiLCJwb3J0IjoiMjA4MyIsInR5cGUiOiJub25lIiwiaWQiOiJlNjM5NWMyMC00NTcxLTRiMzQtZDZiMS01NWE1ZDM2ZTQ5ZWEiLCJhaWQiOiIwIiwibmV0Ijoid3MiLCJwYXRoIjoiL2U2Mzk1YzIwIiwiaG9zdCI6ImhndHJvamFuLnphYmMubmV0IiwidGxzIjoidGxzIn0=
 vmess://eyJ2IjoiMiIsInBzIjoi5pyq55+l5Zu95a62LTkwLjhNQi9zIiwiYWRkIjoiYzcuNjIwNzIwLnh5eiIsInBvcnQiOiI4NDQzIiwidHlwZSI6Im5vbmUiLCJpZCI6IjUxNmQ4YTdhLTNmMGItNDFkMy1iYWQwLTI0NjExNjM4MTUxNiIsImFpZCI6IjAiLCJuZXQiOiJ3cyIsInBhdGgiOiIvIiwiaG9zdCI6ImM3LjYyMDcyMC54eXoiLCJ0bHMiOiJ0bHMifQ==
+vmess://eyJ2IjoiMiIsInBzIjoi5pyq55+l5Zu95a62LTkwNS4xS0IvcyIsImFkZCI6ImREZENDVkZnLjkyMjkyMi5TSE9QIiwicG9ydCI6IjgwIiwidHlwZSI6Im5vbmUiLCJpZCI6ImJjZTBjN2NiLTA4ZDEtNDZhNy1iNzdiLTdiZmY4YjQ2MjUyZiIsImFpZCI6IjAiLCJuZXQiOiJ3cyIsInBhdGgiOiIvUmtVVWJxaEE5R0paQlJPakwzUTV2VHltciIsImhvc3QiOiJkRGRDQ1ZGZy45MjI5MjIuU0hPUCIsInRscyI6IiJ9
 vmess://eyJ2IjoiMiIsInBzIjoi6Iux5Zu9LTE5OS4yS0IvcyIsImFkZCI6IjgyLjE5OC4yNDYuOTciLCJwb3J0IjoiMTgwIiwidHlwZSI6Im5vbmUiLCJpZCI6ImQxM2ZjMmY1LTNlMDUtNDc5NS04MWViLTQ0MTQzYTA5ZTU1MiIsImFpZCI6IjAiLCJuZXQiOiJ0Y3AiLCJwYXRoIjoiLyIsImhvc3QiOiJ0Lm1lJTJGcmlwYW9qaWVkaWFuIiwidGxzIjoiIn0=
 vmess://eyJ2IjoiMiIsInBzIjoi6Iux5Zu9LTI2MC41S0IvcyIsImFkZCI6IjgyLjE5OC4yNDYuOTciLCJwb3J0IjoiMTgwIiwidHlwZSI6Im5vbmUiLCJpZCI6ImQxM2ZjMmY1LTNlMDUtNDc5NS04MWViLTQ0MTQzYTA5ZTU1MiIsImFpZCI6IjAiLCJuZXQiOiJ0Y3AiLCJwYXRoIjoiLyIsImhvc3QiOiIiLCJ0bHMiOiIifQ==
 vmess://eyJ2IjoiMiIsInBzIjoi6Iux5Zu9LTI3OS4wS0IvcyIsImFkZCI6IjgyLjE5OC4yNDYuOTciLCJwb3J0IjoiMTgwIiwidHlwZSI6Im5vbmUiLCJpZCI6ImQxM2ZjMmY1LTNlMDUtNDc5NS04MWViLTQ0MTQzYTA5ZTU1MiIsImFpZCI6IjAiLCJuZXQiOiJ0Y3AiLCJwYXRoIjoiLyIsImhvc3QiOiIiLCJ0bHMiOiIifQ==
