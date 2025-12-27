@@ -1,5 +1,4 @@
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpmOGY3YUN6Y1BLYnNGOHAz@104.192.226.106:990#%E7%BE%8E%E5%9B%BD-2.11MB%2Fs
-ss://YWVzLTI1Ni1jZmI6WG44aktkbURNMDBJZU8lIyQjZkpBTXRzRUFFVU9wSC9ZV1l0WXFERm5UMFNW@103.186.155.25:38388#%E8%B6%8A%E5%8D%97-15.4MB%2Fs
+ss://YWVzLTI1Ni1jZmI6WG44aktkbURNMDBJZU8lIyQjZkpBTXRzRUFFVU9wSC9ZV1l0WXFERm5UMFNW@103.186.155.25:38388#%E8%B6%8A%E5%8D%97-4.1MB%2Fs
 trojan://BxceQaOe@13.231.208.147:1112?allowInsecure=1&sni=t.me%2Fripaojiedian#%E6%97%A5%E6%9C%AC-2.60MB%2Fs
 trojan://BxceQaOe@13.231.208.147:1112?allowInsecure=1&sni=t.me%2Fripaojiedian#%E6%97%A5%E6%9C%AC-7.79MB%2Fs
 trojan://BxceQaOe@18.167.99.12:3579?allowInsecure=1&sni=t.me%252Fripaojiedian#%E9%A6%99%E6%B8%AF-8.15MB%2Fs
@@ -11,6 +10,7 @@ trojan://BxceQaOe@203.198.84.221:443?allowInsecure=1&sni=t.me%2Fripaojiedian#%E9
 trojan://BxceQaOe@58.152.46.60:443?allowInsecure=1&sni=t.me%25252Fripaojiedian#%E9%A6%99%E6%B8%AF-717.7KB%2Fs
 trojan://BxceQaOe@58.152.46.60:443?allowInsecure=1&sni=t.me%2Fripaojiedian#%E9%A6%99%E6%B8%AF-1.31MB%2Fs
 trojan://BxceQaOe@58.152.46.60:443?allowInsecure=1&sni=t.me%2Fripaojiedian#%E9%A6%99%E6%B8%AF-2.63MB%2Fs
+trojan://BxceQaOe@58.152.46.60:443?allowInsecure=1&sni=t.me%2Fripaojiedian#%E9%A6%99%E6%B8%AF-5.95MB%2Fs
 trojan://f36f4495b4b26cc2fe346cfa23e05b1b@112.118.116.8:443?allowInsecure=1&sni=www.nintendogames.net#%E9%A6%99%E6%B8%AF-12.58MB%2Fs
 trojan://f36f4495b4b26cc2fe346cfa23e05b1b@112.118.116.8:443?allowInsecure=1&sni=www.nintendogames.net#%E9%A6%99%E6%B8%AF-7.82MB%2Fs
 trojan://f36f4495b4b26cc2fe346cfa23e05b1b@153.121.38.213:3093?allowInsecure=1&sni=www.nintendogames.net#%E6%97%A5%E6%9C%AC-1.78MB%2Fs
@@ -18,6 +18,7 @@ trojan://f36f4495b4b26cc2fe346cfa23e05b1b@153.121.38.213:3093?allowInsecure=1&sn
 trojan://f36f4495b4b26cc2fe346cfa23e05b1b@153.121.38.213:3093?allowInsecure=1&sni=www.nintendogames.net#%E6%97%A5%E6%9C%AC-3.63MB%2Fs
 trojan://f36f4495b4b26cc2fe346cfa23e05b1b@153.121.45.139:3169?allowInsecure=1&sni=www.nintendogames.net#%E6%97%A5%E6%9C%AC-1.89MB%2Fs
 trojan://f36f4495b4b26cc2fe346cfa23e05b1b@153.121.45.139:3169?allowInsecure=1&sni=www.nintendogames.net#%E6%97%A5%E6%9C%AC-3.47MB%2Fs
+trojan://f36f4495b4b26cc2fe346cfa23e05b1b@153.121.45.139:3169?allowInsecure=1&sni=www.nintendogames.net#%E6%97%A5%E6%9C%AC-303.3KB%2Fs
 trojan://f36f4495b4b26cc2fe346cfa23e05b1b@153.121.45.139:3169?allowInsecure=1&sni=www.nintendogames.net#%E6%97%A5%E6%9C%AC-5.09MB%2Fs
 trojan://f36f4495b4b26cc2fe346cfa23e05b1b@160.16.223.205:2760?allowInsecure=1&sni=www.nintendogames.net#%E6%97%A5%E6%9C%AC-25.8MB%2Fs
 trojan://f36f4495b4b26cc2fe346cfa23e05b1b@160.16.223.205:2760?allowInsecure=1&sni=www.nintendogames.net#%E6%97%A5%E6%9C%AC-28.0MB%2Fs
@@ -31,6 +32,7 @@ trojan://f36f4495b4b26cc2fe346cfa23e05b1b@160.16.223.205:2890?allowInsecure=1&sn
 trojan://f36f4495b4b26cc2fe346cfa23e05b1b@160.16.82.24:2760?allowInsecure=1&sni=www.nintendogames.net#%E6%97%A5%E6%9C%AC-104.2KB%2Fs
 trojan://f36f4495b4b26cc2fe346cfa23e05b1b@160.16.82.24:2760?allowInsecure=1&sni=www.nintendogames.net#%E6%97%A5%E6%9C%AC-242.5KB%2Fs
 trojan://f36f4495b4b26cc2fe346cfa23e05b1b@160.16.82.24:2760?allowInsecure=1&sni=www.nintendogames.net#%E6%97%A5%E6%9C%AC-32.3MB%2Fs
+trojan://f36f4495b4b26cc2fe346cfa23e05b1b@160.16.82.24:2760?allowInsecure=1&sni=www.nintendogames.net#%E6%97%A5%E6%9C%AC-46.2MB%2Fs
 trojan://f36f4495b4b26cc2fe346cfa23e05b1b@160.16.82.24:2760?allowInsecure=1&sni=www.nintendogames.net#%E6%97%A5%E6%9C%AC-63.2MB%2Fs
 trojan://f36f4495b4b26cc2fe346cfa23e05b1b@160.16.82.24:2760?allowInsecure=1&sni=www.nintendogames.net#%E6%97%A5%E6%9C%AC-76.6MB%2Fs
 trojan://f36f4495b4b26cc2fe346cfa23e05b1b@18.162.244.22:4054?allowInsecure=1&sni=www.nintendogames.net#%E9%A6%99%E6%B8%AF-114.3KB%2Fs
@@ -39,3 +41,4 @@ trojan://f36f4495b4b26cc2fe346cfa23e05b1b@18.162.244.22:4054?allowInsecure=1&sni
 vmess://eyJ2IjoiMiIsInBzIjoi5Lit6L2s6IqC54K5LTEuMjZNQi9zIiwiYWRkIjoidjEyLmhkYWNkLmNvbSIsInBvcnQiOiIzMDgxMiIsInR5cGUiOiJub25lIiwiaWQiOiJjYmIzZjg3Ny1kMWZiLTM0NGMtODdhOS1kMTUzYmZmZDU0ODQiLCJhaWQiOiIwIiwibmV0IjoidGNwIiwicGF0aCI6Ii8iLCJob3N0Ijoid3d3Lm5pbnRlbmRvZ2FtZXMubmV0IiwidGxzIjoiIn0=
 vmess://eyJ2IjoiMiIsInBzIjoi5Lit6L2s6IqC54K5LTY1LjlNQi9zIiwiYWRkIjoidjEyLmhkYWNkLmNvbSIsInBvcnQiOiIzMDgxMiIsInR5cGUiOiJub25lIiwiaWQiOiJjYmIzZjg3Ny1kMWZiLTM0NGMtODdhOS1kMTUzYmZmZDU0ODQiLCJhaWQiOiIwIiwibmV0IjoidGNwIiwicGF0aCI6Ii8iLCJob3N0IjoidjEyLmhkYWNkLmNvbSIsInRscyI6IiJ9
 vmess://eyJ2IjoiMiIsInBzIjoi6Iux5Zu9LTc0LjFNQi9zIiwiYWRkIjoiODIuMTk4LjI0Ni45NyIsInBvcnQiOiIxODAiLCJ0eXBlIjoibm9uZSIsImlkIjoiZDEzZmMyZjUtM2UwNS00Nzk1LTgxZWItNDQxNDNhMDllNTUyIiwiYWlkIjoiMCIsIm5ldCI6InRjcCIsInBhdGgiOiIvIiwiaG9zdCI6Ind3dy5uaW50ZW5kb2dhbWVzLm5ldCIsInRscyI6IiJ9
+vmess://eyJ2IjoiMiIsInBzIjoi6Iux5Zu9LTcyLjNNQi9zIiwiYWRkIjoiODIuMTk4LjI0Ni45NyIsInBvcnQiOiIxODAiLCJ0eXBlIjoibm9uZSIsImlkIjoiZDEzZmMyZjUtM2UwNS00Nzk1LTgxZWItNDQxNDNhMDllNTUyIiwiYWlkIjoiMCIsIm5ldCI6InRjcCIsInBhdGgiOiIvIiwiaG9zdCI6Ind3dy5uaW50ZW5kb2dhbWVzLm5ldCIsInRscyI6IiJ9
