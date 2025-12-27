@@ -1,9 +1,11 @@
-ss://YWVzLTI1Ni1jZmI6ZjhmN2FDemNQS2JzRjhwMw@154.223.20.79:989#%E9%A6%99%E6%B8%AF-34.9MB%2Fs
-ss://YWVzLTI1Ni1jZmI6ZjhmN2FDemNQS2JzRjhwMw@185.231.233.112:989#%E8%91%A1%E8%90%84%E7%89%99-17.3MB%2Fs
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTprMWRCT21PQjRvcWk3VW1wMzdhMWJR@45.87.175.197:8080#%E7%AB%8B%E9%99%B6%E5%AE%9B-56.5MB%2Fs
+ss://YWVzLTI1Ni1jZmI6ZjhmN2FDemNQS2JzRjhwMw@154.223.20.79:989#%E9%A6%99%E6%B8%AF-16.9MB%2Fs
+ss://YWVzLTI1Ni1jZmI6ZjhmN2FDemNQS2JzRjhwMw@185.231.233.112:989#%E8%91%A1%E8%90%84%E7%89%99-14.6MB%2Fs
 trojan://44e660b0ee21cf3ac66aee2c08af85d2@112.118.116.8:443?allowInsecure=1&sni=www.nintendogames.net#%E9%A6%99%E6%B8%AF-35.40MB%2Fs
 trojan://44e660b0ee21cf3ac66aee2c08af85d2@112.118.116.8:443?allowInsecure=1&sni=www.nintendogames.net#%E9%A6%99%E6%B8%AF-45.26MB%2Fs
 trojan://44e660b0ee21cf3ac66aee2c08af85d2@112.118.116.8:443?allowInsecure=1&sni=www.nintendogames.net#%E9%A6%99%E6%B8%AF-46.94MB%2Fs
 trojan://44e660b0ee21cf3ac66aee2c08af85d2@112.118.116.8:443?allowInsecure=1&sni=www.nintendogames.net#%E9%A6%99%E6%B8%AF-8.58MB%2Fs
+trojan://BxceQaOe@13.231.208.147:1112?allowInsecure=1&sni=t.me%2Fripaojiedian#%E6%97%A5%E6%9C%AC-7.82MB%2Fs
 trojan://BxceQaOe@203.198.84.221:443?allowInsecure=1&sni=t.me%2Fripaojiedian#%E9%A6%99%E6%B8%AF-17.66MB%2Fs
 trojan://BxceQaOe@203.198.84.221:443?allowInsecure=1&sni=t.me%2Fripaojiedian#%E9%A6%99%E6%B8%AF-19.92MB%2Fs
 trojan://BxceQaOe@203.198.84.221:443?allowInsecure=1&sni=t.me%2Fripaojiedian#%E9%A6%99%E6%B8%AF-23.63MB%2Fs
@@ -18,6 +20,7 @@ trojan://BxceQaOe@58.152.46.60:443?allowInsecure=1&sni=t.me%2Fripaojiedian#%E9%A
 trojan://BxceQaOe@58.152.46.60:443?allowInsecure=1&sni=t.me%2Fripaojiedian#%E9%A6%99%E6%B8%AF-28.93MB%2Fs
 trojan://BxceQaOe@58.152.46.60:443?allowInsecure=1&sni=t.me%2Fripaojiedian#%E9%A6%99%E6%B8%AF-29.61MB%2Fs
 trojan://BxceQaOe@58.152.46.60:443?allowInsecure=1&sni=t.me%2Fripaojiedian#%E9%A6%99%E6%B8%AF-4.47MB%2Fs
+trojan://f36f4495b4b26cc2fe346cfa23e05b1b@153.121.38.213:3093?allowInsecure=1&sni=www.nintendogames.net#%E6%97%A5%E6%9C%AC-948.9KB%2Fs
 vmess://eyJ2IjoiMiIsInBzIjoi5Lit6L2s6IqC54K5LTEuODNNQi9zIiwiYWRkIjoidjEyLmhkYWNkLmNvbSIsInBvcnQiOiIzMDgxMiIsInR5cGUiOiJub25lIiwiaWQiOiJjYmIzZjg3Ny1kMWZiLTM0NGMtODdhOS1kMTUzYmZmZDU0ODQiLCJhaWQiOiIwIiwibmV0IjoidGNwIiwicGF0aCI6Ii8iLCJob3N0IjoidjEyLmhkYWNkLmNvbSIsInRscyI6IiJ9
 vmess://eyJ2IjoiMiIsInBzIjoi5Lit6L2s6IqC54K5LTYuMjlNQi9zIiwiYWRkIjoidjEyLmhkYWNkLmNvbSIsInBvcnQiOiIzMDgxMiIsInR5cGUiOiJub25lIiwiaWQiOiJjYmIzZjg3Ny1kMWZiLTM0NGMtODdhOS1kMTUzYmZmZDU0ODQiLCJhaWQiOiIwIiwibmV0IjoidGNwIiwicGF0aCI6Ii8iLCJob3N0IjoidC5tZSUyRnJpcGFvamllZGlhbiIsInRscyI6IiJ9
 vmess://eyJ2IjoiMiIsInBzIjoi5Lit6L2s6IqC54K5LTc5LjJNQi9zIiwiYWRkIjoidjEyLmhkYWNkLmNvbSIsInBvcnQiOiIzMDgxMiIsInR5cGUiOiJub25lIiwiaWQiOiJjYmIzZjg3Ny1kMWZiLTM0NGMtODdhOS1kMTUzYmZmZDU0ODQiLCJhaWQiOiIwIiwibmV0IjoidGNwIiwicGF0aCI6Ii8iLCJob3N0IjoidjEyLmhkYWNkLmNvbSIsInRscyI6IiJ9
