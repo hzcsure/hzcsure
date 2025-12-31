@@ -1,5 +1,4 @@
 /get
-ss://YWVzLTI1Ni1jZmI6ZjhmN2FDemNQS2JzRjhwMw@46.183.184.60:989#%E5%85%8B%E7%BD%97%E5%9C%B0%E4%BA%9A-67.8MB%2Fs
 trojan://09e71e3b-1f9f-44ab-9a10-02e0e10e2f05@37.202.200.19:25010?allowInsecure=1&sni=37.202.200.19#%E4%BC%8A%E6%9C%97-191.3KB%2Fs
 trojan://09e71e3b-1f9f-44ab-9a10-02e0e10e2f05@37.202.200.19:25010?allowInsecure=1&sni=37.202.200.19#%E4%BC%8A%E6%9C%97-260.5KB%2Fs
 trojan://09e71e3b-1f9f-44ab-9a10-02e0e10e2f05@37.202.200.19:25010?allowInsecure=1&sni=37.202.200.19#%E4%BC%8A%E6%9C%97-319.3KB%2Fs
@@ -8,11 +7,13 @@ trojan://09e71e3b-1f9f-44ab-9a10-02e0e10e2f05@37.202.200.19:25010?allowInsecure=
 trojan://09e71e3b-1f9f-44ab-9a10-02e0e10e2f05@37.202.200.19:25010?allowInsecure=1&sni=37.202.200.19#%E4%BC%8A%E6%9C%97-828.6KB%2Fs
 trojan://BxceQaOe@52.194.193.12:2762?allowInsecure=1&sni=t.me%252Fripaojiedian#%E6%97%A5%E6%9C%AC-14.07MB%2Fs
 trojan://BxceQaOe@54.238.137.20:3127?allowInsecure=1&sni=t.me%252Fripaojiedian#%E6%97%A5%E6%9C%AC-1.01MB%2Fs
+trojan://BxceQaOe@54.238.137.20:3127?allowInsecure=1&sni=t.me%252Fripaojiedian#%E6%97%A5%E6%9C%AC-1.12MB%2Fs
 trojan://BxceQaOe@54.238.137.20:3127?allowInsecure=1&sni=t.me%252Fripaojiedian#%E6%97%A5%E6%9C%AC-5.10MB%2Fs
 trojan://BxceQaOe@54.238.137.20:3127?allowInsecure=1&sni=t.me%252Fripaojiedian#%E6%97%A5%E6%9C%AC-6.55MB%2Fs
 trojan://BxceQaOe@54.238.137.20:3127?allowInsecure=1&sni=t.me%252Fripaojiedian#%E6%97%A5%E6%9C%AC-6.87MB%2Fs
 trojan://BxceQaOe@58.152.25.236:443?allowInsecure=1&sni=t.me%2Fripaojiedian#%E9%A6%99%E6%B8%AF-25.39MB%2Fs
 trojan://BxceQaOe@58.152.25.236:443?allowInsecure=1&sni=t.me%2Fripaojiedian#%E9%A6%99%E6%B8%AF-29.46MB%2Fs
+trojan://BxceQaOe@58.152.25.236:443?allowInsecure=1&sni=t.me%2Fripaojiedian#%E9%A6%99%E6%B8%AF-3.16MB%2Fs
 trojan://BxceQaOe@58.152.25.236:443?allowInsecure=1&sni=t.me%2Fripaojiedian#%E9%A6%99%E6%B8%AF-40.31MB%2Fs
 trojan://BxceQaOe@58.152.46.60:443?allowInsecure=1&sni=t.me%2Fripaojiedian#%E9%A6%99%E6%B8%AF-1.24MB%2Fs
 trojan://BxceQaOe@58.152.46.60:443?allowInsecure=1&sni=t.me%2Fripaojiedian#%E9%A6%99%E6%B8%AF-1.28MB%2Fs
