@@ -1,3 +1,4 @@
+ss://YWVzLTEyOC1nY206c2hhZG93c29ja3M@173.244.56.6:443#%E7%BE%8E%E5%9B%BD-4.77MB%2Fs
 trojan://BxceQaOe@18.181.195.198:1112?allowInsecure=1&sni=t.me%2Fripaojiedian#%E6%97%A5%E6%9C%AC-4.97MB%2Fs
 trojan://BxceQaOe@58.152.25.236:443?allowInsecure=1&sni=t.me%2Fripaojiedian#%E9%A6%99%E6%B8%AF-1.23MB%2Fs
 trojan://BxceQaOe@58.152.25.236:443?allowInsecure=1&sni=t.me%2Fripaojiedian#%E9%A6%99%E6%B8%AF-3.10MB%2Fs
