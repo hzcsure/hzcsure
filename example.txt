@@ -1,4 +1,4 @@
-/get
+trojan://BxceQaOe@58.152.53.219:443?security=tls&insecure=1&headerType=&type=tcp&allowInsecure=1&sni=t.me%2Fripaojiedian#%E2%9A%A1%20b2n.ir%2Fv2ray-configs%20%7C%20460
 trojan://61d8077bfb174e171b8283f155a555ad@112.118.116.123:443?allowInsecure=1&sni=www.nintendogames.net#%E9%A6%99%E6%B8%AF-27.99MB%2Fs
 trojan://61d8077bfb174e171b8283f155a555ad@112.118.116.123:443?allowInsecure=1&sni=www.nintendogames.net#%E9%A6%99%E6%B8%AF-47.44MB%2Fs
 trojan://BxceQaOe@58.152.30.149:443?allowInsecure=1&sni=t.me%2Fripaojiedian#%E9%A6%99%E6%B8%AF-1.01MB%2Fs
