@@ -30,10 +30,11 @@ jobs:
               #echo $node_type
               case $node_type in
                   "trojan")
-                      echo 1
+                      #echo 1
                       a_ip=$(echo "$line"|cut -d "@" -f2|cut -d ":" -f1)
                       echo $a_ip
                       if [ -n "$a_ip" ]; then
+                          nslookup -timeout=2 -retry=0 www.google.com $a_ip
                           nslookup -timeout=2 -retry=0 www.google.com $a_ip >/dev/null 2>&1 && echo "$line" >> t2.txt
                       fi
                       ;;
