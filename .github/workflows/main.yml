@@ -27,11 +27,13 @@ jobs:
               echo $node_type
               case $node_type in
                   "trojan")
-                      1_ip=$(echo "$line"|cut -d "@" -f2|cut -d ":" -f1)
+                      echo 1
+                      echo "$line"|cut -d "@" -f2|cut -d ":" -f1
                       echo $1_ip
                       ;;
                   "vmess")
                       echo 2
+                      echo "$line" | sed 's/^vmess:\/\///' | base64 -d | jq -r '.add'
                       ;;
                   *)
                       echo 3
