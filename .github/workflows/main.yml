@@ -22,6 +22,8 @@ jobs:
           wget -O tt.txt https://raw.githubusercontent.com/miladtahanian/V2RayCFGDumper/refs/heads/main/config.txt
           # 定义匹配合法IPv4地址的正则表达式（覆盖0.0.0.0~255.255.255.255范围）
           IP_REGEX='((25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\.){3}(25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)'
+          nslookup www.google.com 63.181.195.69
+          echo -n "" > tt.txt
           while IFS= read -r line; do
           (
               
