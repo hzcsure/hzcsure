@@ -25,9 +25,9 @@ jobs:
           while IFS= read -r line; do
           (
               
-              echo "$line"
+              #echo "$line"
               node_type=$(echo "$line"|cut -d ":" -f1)
-              echo $node_type
+              #echo $node_type
               case $node_type in
                   "trojan")
                       echo 1
@@ -42,15 +42,15 @@ jobs:
                       b_ip=$(echo "$line" | sed 's/^vmess:\/\///' | base64 -d | jq -r '.add')
                       echo $b_ip
                       if [ -n "$b_ip" ]; then
-                          nslookup -timeout=2 -retry=0 baidu.com $b_ip >/dev/null 2>&1 && echo "$line" >> t2.txt
+                          nslookup -timeout=2 -retry=0 www.google.com $b_ip >/dev/null 2>&1 && echo "$line" >> t2.txt
                       fi
                       ;;
                   "vlesxxxxs")
                       c_ip=$(echo "$line" | cut -d "@" -f2|cut -d ":" -f1)
                       echo $c_ip
                       if [ -n "$c_ip" ]; then
-                          nslookup -timeout=2 -retry=0 baidu.com $c_ip
-                          nslookup -timeout=2 -retry=0 baidu.com $c_ip >/dev/null 2>&1 && echo "$line" >> t2.txt
+                          nslookup -timeout=2 -retry=0 www.google.com $c_ip
+                          nslookup -timeout=2 -retry=0 www.google.com $c_ip >/dev/null 2>&1 && echo "$line" >> t2.txt
                       fi
                       ;;
                   *)
