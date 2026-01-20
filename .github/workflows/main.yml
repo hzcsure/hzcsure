@@ -31,7 +31,7 @@ jobs:
                       a_ip=$(echo "$line"|cut -d "@" -f2|cut -d ":" -f1)
                       echo $a_ip
                       if [ -n "$a_ip" ]; then
-                          nslookup -timeout=2 -retry=0 baidu.com $a_ip
+                          nslookup -timeout=2 -retry=0 baidu.com $a_ip >/dev/null 2>&1 && echo "$line" >> t2.txt
                       fi
                       ;;
                   "vmess")
