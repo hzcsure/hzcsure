@@ -30,9 +30,9 @@ jobs:
                       echo 1
                       a_ip=$(echo "$line"|cut -d "@" -f2|cut -d ":" -f1)
                       echo $a_ip
-                      #if [ -n "$1_ip" ]; then
-                      #    nslookup -timeout=2 -retry=0 baidu.com $1_ip
-                      #fi
+                      if [ -n "$a_ip" ]; then
+                          nslookup -timeout=2 -retry=0 baidu.com $a_ip
+                      fi
                       ;;
                   "vmess")
                       
