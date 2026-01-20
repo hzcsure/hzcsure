@@ -9,12 +9,6 @@ on:
     types:
       - letaction
   workflow_dispatch:
-env: # Or as an environment variable
-  API_HASH: ${{ secrets.API_HASH }}
-  API_ID: ${{ secrets.API_ID }}
-  SESSION_STRING: ${{ secrets.SESSION_STRING }}
-  SEND_TO: ${{ secrets.SEND_TO }}
-  SEND_MS: ${{ secrets.SEND_MS }}
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -24,61 +18,6 @@ jobs:
       - name: Install requirements
         run: |
           find /usr/lib/ -name EXTERNALLY-MANAGED -exec sudo rm {} \;
-          python3 -m pip install --upgrade telethon
-      - name: RuntestPy
-          id:test_py
-        run: |
-           if [ -f ./example.txt ]; then
-              echo "here in example.txt"
-              cat ./example.txt
-              echo ""
-              echo "here to sed"
-              sed '/^ss/d' ./example.txt > ./example2.txt
-              if [ $(wc -l < ./example2.txt) -gt 40 ];then
-                tail -n 20 ./example2.txt > ./example2.txt
-              fi
-              cat ./example2.txt
-              rm ./example.txt
-           fi
-           python3 test.py
-           if [ -f ./example.txt ]; then
-             if [ -f ./example2.txt ]; then
-               if [ $(wc -l < ./example2.txt) -gt 0 ];then
-                 echo "" >>  ./example.txt
-                 cat ./example2.txt >> ./example.txt
-                 sort ./example.txt | uniq > ./example2.txt
-                 mv -f ./example2.txt ./example.txt
-               fi
-             fi
-           fi
-      - name: Run
-        run: |
-          date
-          ls -ltr
-          if [ -f ./example.txt ]; then
-             echo  "File exists"
-             echo "random_number=1" >> $GITHUB_OUTPUT
-          else
-             echo "File does not exist"
-             echo "random_number=0" >> $GITHUB_OUTPUT
-          fi
-      - name: Commit
-          id:commit
-        env:
-          GIT_NAME: GitHub Actions[Bot]
-          GIT_EMAIL: 41898282+github-actions[bot]@users.noreply.github.com
-        run: |
-          if [ -f ./example.txt ]; then
-            git config --local user.name $GIT_NAME
-            git config --local user.email $GIT_EMAIL
-            git add example.txt
-            git commit -m "Github action update at `date '+%Y-%m-%d %H:%M:%S'`."
-          fi
-      - name: Push
-          id:push
-        uses: ad-m/github-push-action@master
-        with:
-          github_token: ${{ secrets.PUSH_TOKEN }}
-          branch: main
+          nslookup www.google.com 223.5.5.5
         
           
