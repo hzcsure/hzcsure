@@ -19,7 +19,7 @@ jobs:
         run: |
           wget -O t1.txt https://raw.githubusercontent.com/hzcsure/hzcsure/refs/heads/main/example.txt
           cat t1.txt
-          rm t1.txt example.txt.1
+          rm t1.txt
           nslookup www.google.com 223.5.5.5
         
           
