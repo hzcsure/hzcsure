@@ -28,14 +28,14 @@ jobs:
               case $node_type in
                   "trojan")
                       echo 1
-                      1_ip=$("$line"|cut -d "@" -f2|cut -d ":" -f1)
+                      1_ip=$(echo "$line"|cut -d "@" -f2|cut -d ":" -f1)
                       if [ -n "$1_ip" ]; then
                       nslookup -timeout=2 -retry=0 baidu.com $1_ip
                       fi
                       ;;
                   "vmess")
                       
-                      2_ip=$("$line" | sed 's/^vmess:\/\///' | base64 -d | jq -r '.add')
+                      2_ip=$(echo "$line" | sed 's/^vmess:\/\///' | base64 -d | jq -r '.add')
                       if [ -n "$2_ip" ]; then
                       nslookup -timeout=2 -retry=0 baidu.com $2_ip
                       fi
