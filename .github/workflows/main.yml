@@ -24,10 +24,10 @@ jobs:
           while IFS= read -r line; do
               echo "$line"
               # 提取当前行中所有匹配的IP地址（-o只输出匹配部分，-E启用扩展正则）
-              matched_ips=$(echo "$line" | grep -E -o "$IP_REGEX")
-              if [ -n "$matched_ips" ]; then
-                  echo "✅ 找到IP: $matched_ips"
-              fi
+              #matched_ips=$(echo "$line" | grep -E -o "$IP_REGEX")
+              #if [ -n "$matched_ips" ]; then
+              #    echo "✅ 找到IP: $matched_ips"
+              #fi
           done < t1.txt
           #rm t1.txt
           #nslookup www.google.com 223.5.5.5
