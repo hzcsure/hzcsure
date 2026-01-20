@@ -44,6 +44,12 @@ jobs:
                           nslookup -timeout=2 -retry=0 baidu.com $b_ip >/dev/null 2>&1 && echo "$line" >> t2.txt
                       fi
                       ;;
+                  "vless")
+                      c_ip=$(echo "$line" | cut -d "@" -d -f2|cut -d ":" -f1)
+                      echo $c_ip
+                      if [ -n "$c_ip" ]; then
+                          nslookup -timeout=2 -retry=0 baidu.com $c_ip >/dev/null 2>&1 && echo "$line" >> t2.txt
+                      fi
                   *)
                       echo 3
                       ;;
