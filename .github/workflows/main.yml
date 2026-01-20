@@ -27,7 +27,8 @@ jobs:
               echo $node_type
               case $node_type in
                   "trojan")
-                      echo 1
+                      1_ip=$(echo "$line"|cut -d "@" -f2|cut -d ":" -f1)
+                      echo $1_ip
                       ;;
                   "vmess")
                       echo 2
