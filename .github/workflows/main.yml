@@ -18,10 +18,11 @@ jobs:
       - name: Install requirements
         run: |
           wget -O t1.txt https://raw.githubusercontent.com/hzcsure/hzcsure/refs/heads/main/example.txt
-          cat t1.txt
+          #cat t1.txt
           # 定义匹配合法IPv4地址的正则表达式（覆盖0.0.0.0~255.255.255.255范围）
           IP_REGEX='((25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\.){3}(25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)'
           while IFS= read -r line; do
+              echo done < "$line"
               # 提取当前行中所有匹配的IP地址（-o只输出匹配部分，-E启用扩展正则）
               matched_ips=$(echo "$line" | grep -E -o "$IP_REGEX")
               if [ -n "$matched_ips" ]; then
