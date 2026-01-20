@@ -28,7 +28,7 @@ jobs:
                   echo "✅ 找到IP: $matched_ips"
               fi
           done < t1.txt
-          rm t1.txt
-          nslookup www.google.com 223.5.5.5
+          #rm t1.txt
+          #nslookup www.google.com 223.5.5.5
         
           
