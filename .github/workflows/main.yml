@@ -35,6 +35,7 @@ jobs:
                   *)
                       echo 3
                       ;;
+              esac
                   
               # 提取当前行中所有匹配的IP地址（-o只输出匹配部分，-E启用扩展正则）
               #matched_ips=$(echo "$line" | grep -E -o "$IP_REGEX")
