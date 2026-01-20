@@ -38,15 +38,17 @@ jobs:
                       
                       b_ip=$(echo "$line" | sed 's/^vmess:\/\///' | base64 -d | jq -r '.add')
                       echo $b_ip
-                      #if [ -n "$2_ip" ]; then
-                      #    nslookup -timeout=2 -retry=0 baidu.com $2_ip
-                      #fi
+                      if [ -n "$b_ip" ]; then
+                          nslookup -timeout=2 -retry=0 baidu.com $b_ip >/dev/null 2>&1 && echo "$line" >> t2.txt
+                      fi
                       ;;
                   *)
                       echo 3
                       ;;
               esac
-                  
+              if [ -f ./t2.txt ]; then
+                  cat ./t2.txt
+              fi
               # 提取当前行中所有匹配的IP地址（-o只输出匹配部分，-E启用扩展正则）
               #matched_ips=$(echo "$line" | grep -E -o "$IP_REGEX")
               #if [ -n "$matched_ips" ]; then
