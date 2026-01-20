@@ -17,13 +17,14 @@ jobs:
         uses: actions/checkout@v3
       - name: Install requirements
         run: |
-          wget -O t1.txt https://raw.githubusercontent.com/Pawdroid/Free-servers/main/sub
-          cat t1.txt | base64 -d 2>/dev/null >tt.txt
+          #wget -O t1.txt https://raw.githubusercontent.com/Pawdroid/Free-servers/main/sub
+          #cat t1.txt | base64 -d 2>/dev/null >tt.txt
+          wget -O tt.txt https://raw.githubusercontent.com/miladtahanian/V2RayCFGDumper/refs/heads/main/config.txt
           # 定义匹配合法IPv4地址的正则表达式（覆盖0.0.0.0~255.255.255.255范围）
           IP_REGEX='((25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\.){3}(25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)'
           while IFS= read -r line; do
           (
-              sleep 1
+              
               echo "$line"
               node_type=$(echo "$line"|cut -d ":" -f1)
               echo $node_type
@@ -36,7 +37,7 @@ jobs:
                           nslookup -timeout=2 -retry=0 baidu.com $a_ip >/dev/null 2>&1 && echo "$line" >> t2.txt
                       fi
                       ;;
-                  "vmess")
+                  "vmessxxxx")
                       
                       b_ip=$(echo "$line" | sed 's/^vmess:\/\///' | base64 -d | jq -r '.add')
                       echo $b_ip
@@ -44,7 +45,7 @@ jobs:
                           nslookup -timeout=2 -retry=0 baidu.com $b_ip >/dev/null 2>&1 && echo "$line" >> t2.txt
                       fi
                       ;;
-                  "vless")
+                  "vlesxxxxs")
                       c_ip=$(echo "$line" | cut -d "@" -f2|cut -d ":" -f1)
                       echo $c_ip
                       if [ -n "$c_ip" ]; then
@@ -53,7 +54,7 @@ jobs:
                       fi
                       ;;
                   *)
-                      echo 3
+                     
                       ;;
               esac
           ) &
