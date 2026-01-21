@@ -22,8 +22,7 @@ jobs:
           wget -O tt.txt https://raw.githubusercontent.com/miladtahanian/V2RayCFGDumper/refs/heads/main/config.txt
           # 定义匹配合法IPv4地址的正则表达式（覆盖0.0.0.0~255.255.255.255范围）
           IP_REGEX='((25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\.){3}(25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)'
-          nslookup www.google.com 63.181.195.69
-          echo -n "" > tt.txt
+          PING_TIMEOUT=2
           while IFS= read -r line; do
           (
               
@@ -36,19 +35,28 @@ jobs:
                       a_ip=$(echo "$line"|cut -d "@" -f2|cut -d ":" -f1)
                       echo $a_ip
                       if [ -n "$a_ip" ]; then
-                          nslookup -timeout=2 -retry=0 www.google.com $a_ip
-                          nslookup -timeout=2 -retry=0 www.google.com $a_ip >/dev/null 2>&1 && echo "$line" >> t2.txt
+                          ping_result=$(ping -c 1 -W "$PING_TIMEOUT" -q "$a_ip" 2>/dev/null)
+                          delay_ms=$(echo "$ping_result" | grep -Eo 'time=[0-9.]+ ms' | awk -F'=' '{print $2}' | sed 's/ ms//')
+                          if [ -n "$delay_ms" ]; then
+                              echo $delay_ms
+                              echo "$line" >> t2.txt
+                          fi
                       fi
                       ;;
-                  "vmessxxxx")
+                  "vmess")
                       
                       b_ip=$(echo "$line" | sed 's/^vmess:\/\///' | base64 -d | jq -r '.add')
                       echo $b_ip
                       if [ -n "$b_ip" ]; then
-                          nslookup -timeout=2 -retry=0 www.google.com $b_ip >/dev/null 2>&1 && echo "$line" >> t2.txt
+                          ping_result=$(ping -c 1 -W "$PING_TIMEOUT" -q "$b_ip" 2>/dev/null)
+                          delay_ms=$(echo "$ping_result" | grep -Eo 'time=[0-9.]+ ms' | awk -F'=' '{print $2}' | sed 's/ ms//')
+                          if [ -n "$delay_ms" ]; then
+                              echo $delay_ms
+                              echo "$line" >> t2.txt
+                          fi
                       fi
                       ;;
-                  "vlesxxxxs")
+                  "vlessxxxx")
                       c_ip=$(echo "$line" | cut -d "@" -f2|cut -d ":" -f1)
                       echo $c_ip
                       if [ -n "$c_ip" ]; then
