@@ -27,8 +27,8 @@ jobs:
           while IFS= read -r line; do
           (
               
-              echo "$line"
-              node_type=$(echo "$line"|cut -d ":" -f1)
+              #echo "$line"
+              #node_type=$(echo "$line"|cut -d ":" -f1)
               echo $node_type
               case $node_type in
                   "trojan")
