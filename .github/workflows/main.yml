@@ -43,7 +43,7 @@ jobs:
                       #     echo $delay_ms
                       #     if [ -n "$delay_ms" ]; then
                       #         echo $delay_ms
-                      #         echo "$line" >> t2.txt
+                      #         echo "$line" >> example.txt
                       #     fi
                       # fi
                       ;;
@@ -59,7 +59,7 @@ jobs:
                       #     echo $delay_ms
                       #     if [ -n "$delay_ms" ]; then
                       #         echo $delay_ms
-                      #         echo "$line" >> t2.txt
+                      #         echo "$line" >> example.txt
                       #     fi
                       # fi
                       ;;
@@ -74,7 +74,7 @@ jobs:
                           echo $delay_ms
                           if [ -n "$delay_ms" ]; then
                               echo $delay_ms
-                              echo "$line" >> t2.txt
+                              echo "$line" >> example.txt
                           fi
                       fi
                       ;;
@@ -89,8 +89,8 @@ jobs:
         run: |
           date
           ls -ltr
-          if [ -f ./t2.txt ]; then
-             wc ./t2.txt
+          if [ -f ./example.txt ]; then
+             wc ./example.txt
              echo  "File exists"
              echo "random_number=1" >> $GITHUB_OUTPUT
           else
@@ -103,10 +103,10 @@ jobs:
           GIT_NAME: GitHub Actions[Bot]
           GIT_EMAIL: 41898282+github-actions[bot]@users.noreply.github.com
         run: |
-          if [ -f ./t2.txt ]; then
+          if [ -f ./example.txt ]; then
             git config --local user.name $GIT_NAME
             git config --local user.email $GIT_EMAIL
-            git add  t2.txt
+            git add  example.txt
             git commit -m "Github action update at `date '+%Y-%m-%d %H:%M:%S'`."
           fi
       - name: Push
