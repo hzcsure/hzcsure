@@ -27,12 +27,14 @@ jobs:
               
               #echo "$line"
               node_type=$(echo "$line"|cut -d ":" -f1)
+              ping -c 1 -W "$PING_TIMEOUT" -q 223.5.5.5
               #echo $node_type
               case $node_type in
                   "trojan")
                       #echo 1
                       a_ip=$(echo "$line"|cut -d "@" -f2|cut -d ":" -f1)
                       echo $a_ip
+                      echo "========" 
                       if [ -n "$a_ip" ]; then
                           ping_result=$(ping -c 1 -W "$PING_TIMEOUT" -q "$a_ip" 2>/dev/null)
                           delay_ms=$(echo "$ping_result" | grep -Eo 'time=[0-9.]+ ms' | awk -F'=' '{print $2}' | sed 's/ ms//')
@@ -44,7 +46,7 @@ jobs:
                           fi
                       fi
                       ;;
-                  "vmess")
+                  "vmessxxxx")
                       
                       b_ip=$(echo "$line" | sed 's/^vmess:\/\///' | base64 -d | jq -r '.add')
                       echo $b_ip
