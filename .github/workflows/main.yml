@@ -47,7 +47,7 @@ jobs:
                       #     fi
                       # fi
                       ;;
-                  "vmess")
+                  "vmessxxxx")
                       echo "$line" >> t2.txt
                       # b_ip=$(echo "$line" | sed 's/^vmess:\/\///' | base64 -d | jq -r '.add')
                       # echo $b_ip
