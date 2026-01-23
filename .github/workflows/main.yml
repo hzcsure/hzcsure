@@ -23,12 +23,12 @@ jobs:
           # 定义匹配合法IPv4地址的正则表达式（覆盖0.0.0.0~255.255.255.255范围）
           IP_REGEX='((25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\.){3}(25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)'
           PING_TIMEOUT=2
+          echo "============"
           while IFS= read -r line; do
           (
               
-              #echo "$line"
+              echo "$line"
               node_type=$(echo "$line"|cut -d ":" -f1)
-              ping -c 1 -W "$PING_TIMEOUT" -q 223.5.5.5
               echo $node_type
               case $node_type in
                   "trojan")
