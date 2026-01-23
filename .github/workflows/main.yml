@@ -28,8 +28,8 @@ jobs:
           (
               
               #echo "$line"
-              #node_type=$(echo "$line"|cut -d ":" -f1)
-              echo $node_type
+              node_type=$(echo "$line"|cut -d ":" -f1)
+              #echo $node_type
               case $node_type in
                   "trojan")
                       echo "$line" >> t2.txt
@@ -85,12 +85,12 @@ jobs:
           ) &
           done < tt.txt
           wait
-
       - name: Run
         run: |
           date
           ls -ltr
-          if [ -f ./ t2.txt ]; then
+          if [ -f ./t2.txt ]; then
+             wc ./t2.txt
              echo  "File exists"
              echo "random_number=1" >> $GITHUB_OUTPUT
           else
