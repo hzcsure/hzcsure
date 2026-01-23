@@ -20,7 +20,7 @@ jobs:
           #wget -O t1.txt https://raw.githubusercontent.com/Pawdroid/Free-servers/main/sub
           #cat t1.txt | base64 -d 2>/dev/null >tt.txt
           wget -O tt.txt https://raw.githubusercontent.com/MatinGhanbari/v2ray-configs/refs/heads/main/subscriptions/v2ray/all_sub.txt
-          cat tt.txt
+          #cat tt.txt
           # 定义匹配合法IPv4地址的正则表达式（覆盖0.0.0.0~255.255.255.255范围）
           IP_REGEX='((25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\.){3}(25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)'
           PING_TIMEOUT=2
@@ -32,12 +32,12 @@ jobs:
               echo $node_type
               case $node_type in
                   "trojan")
-                      echo $node_type
                       a_ip=$(echo "$line"|cut -d "@" -f2|cut -d ":" -f1)
-                      echo $a_ip
-                      ping -c 1 -W $PING_TIMEOUT -q "$a_ip"
+                      #echo $a_ip
+                      
                       if [ -n "$a_ip" ]; then
-                          ping_result=$(ping -c 1 -W "$PING_TIMEOUT" -q "$a_ip" 2>/dev/null)
+                      ping -c 2 -W $PING_TIMEOUT -q "$a_ip"  2>/dev/null
+                          ping_result=$(ping -c 2 -W "$PING_TIMEOUT" -q "$a_ip" 2>/dev/null)
                           delay_ms=$(echo "$ping_result" | grep -Eo 'time=[0-9.]+ ms' | awk -F'=' '{print $2}' | sed 's/ ms//')
                           echo $ping_result
                           echo $delay_ms
@@ -52,7 +52,8 @@ jobs:
                       b_ip=$(echo "$line" | sed 's/^vmess:\/\///' | base64 -d | jq -r '.add')
                       echo $b_ip
                       if [ -n "$b_ip" ]; then
-                          ping_result=$(ping -c 1 -W "$PING_TIMEOUT" -q "$b_ip" 2>/dev/null)
+                          ping -c 2 -W $PING_TIMEOUT -q "$bip"  2>/dev/null
+                          ping_result=$(ping -c 2 -W "$PING_TIMEOUT" -q "$b_ip" 2>/dev/null)
                           delay_ms=$(echo "$ping_result" | grep -Eo 'time=[0-9.]+ ms' | awk -F'=' '{print $2}' | sed 's/ ms//')
                           echo $ping_result
                           echo $delay_ms
@@ -66,7 +67,8 @@ jobs:
                       c_ip=$(echo "$line" | cut -d "@" -f2|cut -d ":" -f1)
                       echo $c_ip
                       if [ -n "$c_ip" ]; then
-                          ping_result=$(ping -c 1 -W "$PING_TIMEOUT" -q "$c_ip" 2>/dev/null)
+                          ping -c 2 -W $PING_TIMEOUT -q "$c_ip"  2>/dev/null
+                          ping_result=$(ping -c 2 -W "$PING_TIMEOUT" -q "$c_ip" 2>/dev/null)
                           delay_ms=$(echo "$ping_result" | grep -Eo 'time=[0-9.]+ ms' | awk -F'=' '{print $2}' | sed 's/ ms//')
                           echo $ping_result
                           echo $delay_ms
