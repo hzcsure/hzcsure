@@ -29,10 +29,10 @@ jobs:
               #echo "$line"
               node_type=$(echo "$line"|cut -d ":" -f1)
               ping -c 1 -W "$PING_TIMEOUT" -q 223.5.5.5
-              #echo $node_type
+              echo $node_type
               case $node_type in
                   "trojan")
-                      #echo 1
+                      echo $node_type
                       a_ip=$(echo "$line"|cut -d "@" -f2|cut -d ":" -f1)
                       echo $a_ip
                       echo "========" 
