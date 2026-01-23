@@ -32,7 +32,7 @@ jobs:
               #echo $node_type
               case $node_type in
                   "trojan")
-                      echo "$line" >> t2.txt
+                      echo "$line" >> example.txt
                       # a_ip=$(echo "$line"|cut -d "@" -f2|cut -d ":" -f1)
                       # #echo $a_ip
                       # if [ -n "$a_ip" ]; then
@@ -48,7 +48,7 @@ jobs:
                       # fi
                       ;;
                   "vmessxxxx")
-                      echo "$line" >> t2.txt
+                      echo "$line" >> example.txt
                       # b_ip=$(echo "$line" | sed 's/^vmess:\/\///' | base64 -d | jq -r '.add')
                       # echo $b_ip
                       # if [ -n "$b_ip" ]; then
