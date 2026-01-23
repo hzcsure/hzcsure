@@ -85,10 +85,36 @@ jobs:
           ) &
           done < tt.txt
           wait
-          if [ -f ./t2.txt ]; then
-              cat ./t2.txt
+
+      - name: Run
+        run: |
+          date
+          ls -ltr
+          if [ -f ./ t2.txt ]; then
+             echo  "File exists"
+             echo "random_number=1" >> $GITHUB_OUTPUT
+          else
+             echo "File does not exist"
+             echo "random_number=0" >> $GITHUB_OUTPUT
           fi
-          #rm t1.txt
-          #nslookup www.google.com 223.5.5.5
+      - name: Commit
+          id:commit
+        env:
+          GIT_NAME: GitHub Actions[Bot]
+          GIT_EMAIL: 41898282+github-actions[bot]@users.noreply.github.com
+        run: |
+          if [ -f ./t2.txt ]; then
+            git config --local user.name $GIT_NAME
+            git config --local user.email $GIT_EMAIL
+            git add  t2.txt
+            git commit -m "Github action update at `date '+%Y-%m-%d %H:%M:%S'`."
+          fi
+      - name: Push
+          id:push
+        uses: ad-m/github-push-action@master
+        with:
+          github_token: ${{ secrets.PUSH_TOKEN }}
+          branch: main
+        
         
           
