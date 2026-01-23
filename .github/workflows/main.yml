@@ -36,6 +36,7 @@ jobs:
                       a_ip=$(echo "$line"|cut -d "@" -f2|cut -d ":" -f1)
                       echo $a_ip
                       echo "========" 
+                      ping -c 1 -W $PING_TIMEOUT -q "$a_ip"
                       if [ -n "$a_ip" ]; then
                           ping_result=$(ping -c 1 -W "$PING_TIMEOUT" -q "$a_ip" 2>/dev/null)
                           delay_ms=$(echo "$ping_result" | grep -Eo 'time=[0-9.]+ ms' | awk -F'=' '{print $2}' | sed 's/ ms//')
