@@ -18,7 +18,8 @@ jobs:
       - name: Install requirements
         run: |
           apt install yt-dlp ffmpeg
-          yt-dlp -f best -o -"https://www.youtube.com/watch?v=FS7IPxmfEms" | ffmpeg -i --vframes 1 -q:v2
+          yt-dlp -f best -o -"https://www.youtube.com/watch?v=FS7IPxmfEms" | ffmpeg -i --vframes 1 -q:v2 aaa.png
+          ls 
           #wget -O t1.txt https://raw.githubusercontent.com/Pawdroid/Free-servers/main/sub
           #cat t1.txt | base64 -d 2>/dev/null >tt.txt
           #wget -O tt.txt https://raw.githubusercontent.com/MatinGhanbari/v2ray-configs/refs/heads/main/subscriptions/v2ray/all_sub.txt
