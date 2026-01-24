@@ -20,7 +20,7 @@ jobs:
       - name: Install requirements
         
         run: |
-          yt-dlp --add-header "User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" --cookies oo.txt -f best -o - "https://www.youtube.com/watch?v=FS7IPxmfEms" | ffmpeg -i - -vframes 1 -q:v2 aaa.png
+          yt-dlp -v --add-header 'User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36' --cookies ./oo.txt -f best -o - "https://www.youtube.com/watch?v=FS7IPxmfEms" | ffmpeg -i - -vframes 1 -q:v2 aaa.png
           ls 
           #wget -O t1.txt https://raw.githubusercontent.com/Pawdroid/Free-servers/main/sub
           #cat t1.txt | base64 -d 2>/dev/null >tt.txt
