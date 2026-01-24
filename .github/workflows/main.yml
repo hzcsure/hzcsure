@@ -98,8 +98,8 @@ jobs:
         run: |
           date
           ls -ltr
-          if [ -f ./oo.pp ]; then
-             wc ./oo.p
+          if [ -f ./ws.txt ]; then
+             wc ./ws.txt
              echo  "File exists"
              echo "random_number=1" >> $GITHUB_OUTPUT
           else
@@ -112,10 +112,10 @@ jobs:
           GIT_NAME: GitHub Actions[Bot]
           GIT_EMAIL: 41898282+github-actions[bot]@users.noreply.github.com
         run: |
-          if [ -f ./oo.pp ]; then
+          if [ -f ./ws.txt ]; then
             git config --local user.name $GIT_NAME
             git config --local user.email $GIT_EMAIL
-            git add  oo.p
+            git add  ws.txt
             git commit -m "Github action update at `date '+%Y-%m-%d %H:%M:%S'`."
           fi
       - name: Push
