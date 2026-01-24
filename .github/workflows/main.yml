@@ -20,7 +20,7 @@ jobs:
       - name: Install requirements
         
         run: |
-          yt-dlp --cookies ./oo.txt https://www.youtube.com/watch?v=DTi8wZ1a1TA
+          yt-dlp --cookies oo.txt https://www.youtube.com/watch?v=DTi8wZ1a1TA
           ls 
           #wget -O t1.txt https://raw.githubusercontent.com/Pawdroid/Free-servers/main/sub
           #cat t1.txt | base64 -d 2>/dev/null >tt.txt
