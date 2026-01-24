@@ -23,8 +23,8 @@ jobs:
         
         run: |
           #openssl enc -aes-256-ctr -salt -in ws.txt -pass pass:$API_HASH -out oo.p
-          openssl enc -d -aes-256-ctr -in ./oo.p -pass pass:$API_HASH -out ws.txt
-          #yt-dlp --cookies ./ws.txt https://www.youtube.com/watch?v=DTi8wZ1a1TA
+          #openssl enc -d -aes-256-ctr -in ./oo.p -pass pass:$API_HASH -out ws.txt
+          yt-dlp --cookies ./ws.txt https://www.youtube.com/watch?v=DTi8wZ1a1TA
           ls 
           #wget -O t1.txt https://raw.githubusercontent.com/Pawdroid/Free-servers/main/sub
           #cat t1.txt | base64 -d 2>/dev/null >tt.txt
@@ -98,7 +98,7 @@ jobs:
         run: |
           date
           ls -ltr
-          if [ -f ./ws.txt ]; then
+          if [ -f ./wss.txt ]; then
              wc ./ws.txt
              echo  "File exists"
              echo "random_number=1" >> $GITHUB_OUTPUT
@@ -112,7 +112,7 @@ jobs:
           GIT_NAME: GitHub Actions[Bot]
           GIT_EMAIL: 41898282+github-actions[bot]@users.noreply.github.com
         run: |
-          if [ -f ./ws.txt ]; then
+          if [ -f ./wss.txt ]; then
             git config --local user.name $GIT_NAME
             git config --local user.email $GIT_EMAIL
             git add  ws.txt
