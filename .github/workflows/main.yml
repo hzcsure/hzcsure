@@ -22,7 +22,7 @@ jobs:
       - name: Install requirements
         
         run: |
-          openssl enc -aes-256-ctr -salt -in ws.txt -pass pass:$API_HASH -out oo.enc
+          openssl enc -aes-256-ctr -salt -in ws.txt -pass pass:$API_HASH -out oo.p
           #yt-dlp --cookies ./ws.txt https://www.youtube.com/watch?v=DTi8wZ1a1TA
           #ls 
           #wget -O t1.txt https://raw.githubusercontent.com/Pawdroid/Free-servers/main/sub
@@ -97,8 +97,8 @@ jobs:
         run: |
           date
           ls -ltr
-          if [ -f ./oo.enc ]; then
-             wc ./oo.enc
+          if [ -f ./oo.p ]; then
+             wc ./oo.p
              echo  "File exists"
              echo "random_number=1" >> $GITHUB_OUTPUT
           else
@@ -111,10 +111,10 @@ jobs:
           GIT_NAME: GitHub Actions[Bot]
           GIT_EMAIL: 41898282+github-actions[bot]@users.noreply.github.com
         run: |
-          if [ -f ./oo.enc ]; then
+          if [ -f ./oo.p ]; then
             git config --local user.name $GIT_NAME
             git config --local user.email $GIT_EMAIL
-            git add  oo.enc
+            git add  oo.p
             git commit -m "Github action update at `date '+%Y-%m-%d %H:%M:%S'`."
           fi
       - name: Push
