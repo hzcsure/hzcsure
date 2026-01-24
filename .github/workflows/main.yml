@@ -15,9 +15,11 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v3
+      - name: Setup yt-dlp
+        uses: AnimMouse/setup-yt-dlp@v3
       - name: Install requirements
+        
         run: |
-          apt install yt-dlp ffmpeg
           yt-dlp -f best -o -"https://www.youtube.com/watch?v=FS7IPxmfEms" | ffmpeg -i --vframes 1 -q:v2 aaa.png
           ls 
           #wget -O t1.txt https://raw.githubusercontent.com/Pawdroid/Free-servers/main/sub
