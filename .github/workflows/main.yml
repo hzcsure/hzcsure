@@ -24,8 +24,8 @@ jobs:
         run: |
           #openssl enc -aes-256-ctr -salt -in ws.txt -pass pass:$API_HASH -out oo.p
           openssl enc -d -aes-256-ctr -in ./oo.p -pass pass:$API_HASH -out ws.txt
-          yt-dlp --cookies ./ws.txt https://www.youtube.com/watch?v=DTi8wZ1a1TA
-          #ls 
+          #yt-dlp --cookies ./ws.txt https://www.youtube.com/watch?v=DTi8wZ1a1TA
+          ls 
           #wget -O t1.txt https://raw.githubusercontent.com/Pawdroid/Free-servers/main/sub
           #cat t1.txt | base64 -d 2>/dev/null >tt.txt
           #wget -O tt.txt https://raw.githubusercontent.com/MatinGhanbari/v2ray-configs/refs/heads/main/subscriptions/v2ray/all_sub.txt
