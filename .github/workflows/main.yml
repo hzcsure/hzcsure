@@ -114,7 +114,7 @@ jobs:
           if [ -f ./oo.enc ]; then
             git config --local user.name $GIT_NAME
             git config --local user.email $GIT_EMAIL
-            git add  example.txt
+            git add  oo.enc
             git commit -m "Github action update at `date '+%Y-%m-%d %H:%M:%S'`."
           fi
       - name: Push
