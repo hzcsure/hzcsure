@@ -25,7 +25,7 @@ jobs:
           #openssl enc -aes-256-ctr -salt -in ws.txt -pass pass:$API_HASH -out oo.p
           openssl enc -d -aes-256-ctr -in ./oo.p -pass pass:$API_HASH -out ws.txt
           #yt-dlp --cookies ./ws.txt https://www.youtube.com/watch?v=DTi8wZ1a1TA
-          yt-dlp --cookies ./ws.txt -f best -o - "https://www.youtube.com/watch?v=FS7IPxmfEms" | ffmpeg -i - -vframes 1 -q:v 2 live_screenshot.png
+          yt-dlp --cookies ./ws.txt -o - "https://www.youtube.com/watch?v=FS7IPxmfEms" | ffmpeg -i - -vframes 1 -q:v 2 live_screenshot.png
           ls 
           #wget -O t1.txt https://raw.githubusercontent.com/Pawdroid/Free-servers/main/sub
           #cat t1.txt | base64 -d 2>/dev/null >tt.txt
