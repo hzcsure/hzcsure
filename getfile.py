@@ -5,6 +5,7 @@ import re
 from telethon import TelegramClient, events, sync
 from telethon import functions, types
 from telethon.sessions import StringSession
+import asyncio
 import time
 
 api_id = os.environ.get("API_ID", "")
