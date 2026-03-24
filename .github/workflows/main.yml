@@ -29,6 +29,10 @@ jobs:
           id:getfile.py
         run: |
            python3 getfile.py
+           if [ -f ./Y.yaml ]; then
+             chmod +x ./yaml2proxy.sh
+             ./yaml2proxy.sh Y.yaml
+           fi
 
         
           
