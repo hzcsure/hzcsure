@@ -1,4 +1,4 @@
-name: Test_nslookup
+name: Test_telethon
 
 on:
 #  schedule:
@@ -10,123 +10,25 @@ on:
       - letaction
   workflow_dispatch:
 env: # Or as an environment variable
-  API_HASH: ${{ secrets.SOMETHING }}
+  API_HASH: ${{ secrets.API_HASH }}
+  API_ID: ${{ secrets.API_ID }}
+  SESSION_STRING: ${{ secrets.SESSION_STRING }}
+  SEND_TO: ${{ secrets.SEND_TO }}
+  SEND_MS: ${{ secrets.SEND_MS }}
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
         uses: actions/checkout@v3
-      # - name: Setup yt-dlp
-      #   uses: AnimMouse/setup-yt-dlp@v3
       - name: Install requirements
-        
         run: |
-          #openssl enc -aes-256-ctr -salt -in ws.txt -pass pass:$API_HASH -out oo.p
-          #openssl enc -d -aes-256-ctr -in ./oo.p -pass pass:$API_HASH -out ws.txt
-          #yt-dlp --cookies ./ws.txt https://www.youtube.com/watch?v=DTi8wZ1a1TA
-          #yt-dlp --cookies ./ws.txt -o - "https://www.youtube.com/watch?v=FS7IPxmfEms" | ffmpeg -i - -vframes 1 -q:v 2 live_screenshot.png
-          sudo apt install streamlink ffmpeg
-          streamlink "https://www.youtube.com/watch?v=FS7IPxmfEms" best -O | ffmpeg -i - -vframes 1 -q:v 2 live_screenshot.png
-          ls 
-          #wget -O t1.txt https://raw.githubusercontent.com/Pawdroid/Free-servers/main/sub
-          #cat t1.txt | base64 -d 2>/dev/null >tt.txt
-          #wget -O tt.txt https://raw.githubusercontent.com/MatinGhanbari/v2ray-configs/refs/heads/main/subscriptions/v2ray/all_sub.txt
-          echo -n "" > tt.txt
-          # 定义匹配合法IPv4地址的正则表达式（覆盖0.0.0.0~255.255.255.255范围）
-          IP_REGEX='((25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\.){3}(25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)'
-          PING_TIMEOUT=2
-          while IFS= read -r line; do
-          (
-              
-              #echo "$line"
-              node_type=$(echo "$line"|cut -d ":" -f1)
-              #echo $node_type
-              case $node_type in
-                  "trojan")
-                      echo "$line" >> example.txt
-                      # a_ip=$(echo "$line"|cut -d "@" -f2|cut -d ":" -f1)
-                      # #echo $a_ip
-                      # if [ -n "$a_ip" ]; then
-                      # ping -c 2 -W $PING_TIMEOUT -q "$a_ip"  2>/dev/null
-                      #     ping_result=$(ping -c 2 -W "$PING_TIMEOUT" -q "$a_ip" 2>/dev/null)
-                      #     delay_ms=$(echo "$ping_result" | grep -Eo 'time=[0-9.]+ ms' | awk -F'=' '{print $2}' | sed 's/ ms//')
-                      #     echo $ping_result
-                      #     echo $delay_ms
-                      #     if [ -n "$delay_ms" ]; then
-                      #         echo $delay_ms
-                      #         echo "$line" >> example.txt
-                      #     fi
-                      # fi
-                      ;;
-                  "vmessxxxx")
-                      echo "$line" >> example.txt
-                      # b_ip=$(echo "$line" | sed 's/^vmess:\/\///' | base64 -d | jq -r '.add')
-                      # echo $b_ip
-                      # if [ -n "$b_ip" ]; then
-                      #     ping -c 2 -W $PING_TIMEOUT -q "$bip"  2>/dev/null
-                      #     ping_result=$(ping -c 2 -W "$PING_TIMEOUT" -q "$b_ip" 2>/dev/null)
-                      #     delay_ms=$(echo "$ping_result" | grep -Eo 'time=[0-9.]+ ms' | awk -F'=' '{print $2}' | sed 's/ ms//')
-                      #     echo $ping_result
-                      #     echo $delay_ms
-                      #     if [ -n "$delay_ms" ]; then
-                      #         echo $delay_ms
-                      #         echo "$line" >> example.txt
-                      #     fi
-                      # fi
-                      ;;
-                  "vlessxxxxx")
-                      c_ip=$(echo "$line" | cut -d "@" -f2|cut -d ":" -f1)
-                      echo $c_ip
-                      if [ -n "$c_ip" ]; then
-                          ping -c 2 -W $PING_TIMEOUT -q "$c_ip"  2>/dev/null
-                          ping_result=$(ping -c 2 -W "$PING_TIMEOUT" -q "$c_ip" 2>/dev/null)
-                          delay_ms=$(echo "$ping_result" | grep -Eo 'time=[0-9.]+ ms' | awk -F'=' '{print $2}' | sed 's/ ms//')
-                          echo $ping_result
-                          echo $delay_ms
-                          if [ -n "$delay_ms" ]; then
-                              echo $delay_ms
-                              echo "$line" >> example.txt
-                          fi
-                      fi
-                      ;;
-                  *)
-                     
-                      ;;
-              esac
-          ) &
-          done < tt.txt
-          wait
-      - name: Run
+          find /usr/lib/ -name EXTERNALLY-MANAGED -exec sudo rm {} \;
+          python3 -m pip install --upgrade telethon
+      - name: RuntestPy
+          id:test_py
         run: |
-          date
-          ls -ltr
-          if [ -f ./oo.pp ]; then
-             wc ./oo.p
-             echo  "File exists"
-             echo "random_number=1" >> $GITHUB_OUTPUT
-          else
-             echo "File does not exist"
-             echo "random_number=0" >> $GITHUB_OUTPUT
-          fi
-      - name: Commit
-          id:commit
-        env:
-          GIT_NAME: GitHub Actions[Bot]
-          GIT_EMAIL: 41898282+github-actions[bot]@users.noreply.github.com
-        run: |
-          if [ -f ./oo.pp ]; then
-            git config --local user.name $GIT_NAME
-            git config --local user.email $GIT_EMAIL
-            git add  oo.p
-            git commit -m "Github action update at `date '+%Y-%m-%d %H:%M:%S'`."
-          fi
-      - name: Push
-          id:push
-        uses: ad-m/github-push-action@master
-        with:
-          github_token: ${{ secrets.PUSH_TOKEN }}
-          branch: main
-        
+           python3 test.py
+
         
           
