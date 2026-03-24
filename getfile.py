@@ -24,8 +24,8 @@ async def download_last_yaml():
 
     # 遍历最新消息，只取未读
     async for msg in client.iter_messages(channel, limit=50):
-        if msg.read:
-            break  # 遇到已读就停止
+#        if msg.read:
+#            break  # 遇到已读就停止
 
         # 判断：是否是文件 + 文件名以 .yaml / .yml 结尾
         if msg.media and isinstance(msg.media, MessageMediaDocument):
