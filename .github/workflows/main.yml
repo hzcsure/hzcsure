@@ -31,8 +31,36 @@ jobs:
            python3 getfile.py
            if [ -f ./Y.yaml ]; then
              chmod +x ./yaml2proxy.sh
-             ./yaml2proxy.sh Y.yaml
+             ./yaml2proxy.sh Y.yaml >> example.txt
            fi
-
+      - name: Run
+        run: |
+          date
+          ls -ltr
+          if [ -f ./example.txt ]; then
+             echo  "File exists"
+             echo "random_number=1" >> $GITHUB_OUTPUT
+          else
+             echo "File does not exist"
+             echo "random_number=0" >> $GITHUB_OUTPUT
+          fi
+      - name: Commit
+          id:commit
+        env:
+          GIT_NAME: GitHub Actions[Bot]
+          GIT_EMAIL: 41898282+github-actions[bot]@users.noreply.github.com
+        run: |
+          if [ -f ./example.txt ]; then
+            git config --local user.name $GIT_NAME
+            git config --local user.email $GIT_EMAIL
+            git add example.txt
+            git commit -m "Github action update at `date '+%Y-%m-%d %H:%M:%S'`."
+          fi
+      - name: Push
+          id:push
+        uses: ad-m/github-push-action@master
+        with:
+          github_token: ${{ secrets.PUSH_TOKEN }}
+          branch: main
         
           
