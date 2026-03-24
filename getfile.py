@@ -11,9 +11,11 @@ import time
 api_id = os.environ.get("API_ID", "")
 api_hash = os.environ.get("API_HASH", "")
 session_string = os.environ.get("SESSION_STRING", "")
-client = TelegramClient(StringSession(session_string), api_id, api_hash)
+#client = TelegramClient(StringSession(session_string), api_id, api_hash)
 CHANNEL = "-1003478604091"
-
+async def get_channel_history():
+    # 1. 连接客户端
+    client = TelegramClient(StringSession(session_string), api_id, api_hash)
     await client.start()
 
     # 2. 获取频道实体（必须先获取）
@@ -33,3 +35,8 @@ CHANNEL = "-1003478604091"
         print("-" * 50)
 
     await client.disconnect()
+
+# 运行
+if __name__ == "__main__":
+    import asyncio
+    asyncio.run(get_channel_history())
