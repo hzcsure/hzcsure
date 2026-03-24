@@ -2,8 +2,8 @@ name: Test_telethon
 
 on:
 #  schedule:
-#    - cron: '15 * * * *'
-#    - cron: '35 * * * *'
+    - cron: '15 10 * * *'
+    - cron: '35 11 * * *'
 #    - cron: '55 * * * *'
   repository_dispatch:
     types:
