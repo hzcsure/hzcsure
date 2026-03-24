@@ -5,6 +5,7 @@ import re
 from telethon import TelegramClient, events, sync
 from telethon import functions, types
 from telethon.sessions import StringSession
+from telethon.tl.types import MessageMediaDocument
 import asyncio
 import time
 
