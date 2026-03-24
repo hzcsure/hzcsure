@@ -12,7 +12,7 @@ api_id = os.environ.get("API_ID", "")
 api_hash = os.environ.get("API_HASH", "")
 session_string = os.environ.get("SESSION_STRING", "")
 #client = TelegramClient(StringSession(session_string), api_id, api_hash)
-CHANNEL = "-1003478604091"
+CHANNEL = "https://t.me/SCHPD_SUB"
 async def get_channel_history():
     # 1. 连接客户端
     client = TelegramClient(StringSession(session_string), api_id, api_hash)
