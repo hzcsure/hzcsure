@@ -12,11 +12,24 @@ api_id = os.environ.get("API_ID", "")
 api_hash = os.environ.get("API_HASH", "")
 session_string = os.environ.get("SESSION_STRING", "")
 client = TelegramClient(StringSession(session_string), api_id, api_hash)
-CHANNEL = "@SCHPD_SUB"
+CHANNEL = "-1003478604091"
 
-async def main():
-    async with TelegramClient(StringSession(session_string), api_id, api_hash) as client:
-        chat = await client.get_entity(CHANNEL)
-        print(f"频道ID: -100{chat.id}")
+    await client.start()
 
-asyncio.run(main())
+    # 2. 获取频道实体（必须先获取）
+    channel = await client.get_entity(CHANNEL)
+    print(f"✅ 成功获取频道：{channel.title}")
+
+    # 3. 获取历史消息（核心代码）
+    # limit=None = 获取全部消息；limit=100 = 只获取最新100条
+    messages = await client.get_messages(channel, limit=None)
+
+    # 4. 遍历打印消息
+    print(f"\n📝 共获取到 {len(messages)} 条消息：\n")
+    for msg in messages:
+        print(f"[{msg.date}] 消息ID：{msg.id}")
+        if msg.text:  # 如果有文本内容
+            print(f"内容：{msg.text[:100]}...")  # 只打印前100字符避免过长
+        print("-" * 50)
+
+    await client.disconnect()
