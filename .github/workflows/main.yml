@@ -26,9 +26,9 @@ jobs:
           find /usr/lib/ -name EXTERNALLY-MANAGED -exec sudo rm {} \;
           python3 -m pip install --upgrade telethon
       - name: RuntestPy
-          id:test_py
+          id:getfile.py
         run: |
-           python3 test.py
+           python3 getfile.py
 
         
           
