@@ -42,6 +42,10 @@ async def download_last_yaml():
     # ✅ 取【最后一个】yaml 文件
     last_yaml_msg = unread_yaml_files[-1]
     print(f"\n🎉 找到最后一个 yaml 文件：{last_yaml_msg.file.name}")
+    
+    last_yaml_msg = unread_yaml_files[1]
+    print(f"\n🎉 找到第一个 yaml 文件：{last_yaml_msg.file.name}")
+    
 
     # ✅ 下载并重命名为 Y.yaml
     save_path = await last_yaml_msg.download_media(file="Y.yaml")
