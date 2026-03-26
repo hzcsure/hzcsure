@@ -24,7 +24,7 @@ async def download_last_yaml():
     unread_yaml_files = []
 
     # 遍历最新消息，只取未读
-    async for msg in client.iter_messages(channel, limit=5):
+    async for msg in client.iter_messages(channel, limit=8):
 #        if msg.read:
 #            break  # 遇到已读就停止
 
@@ -42,11 +42,8 @@ async def download_last_yaml():
         return
 
     # ✅ 取【最后一个】yaml 文件
-    last_yaml_msg = unread_yaml_files[-1]
+    last_yaml_msg = unread_yaml_files[0]
     print(f"\n🎉 找到最后一个 yaml 文件：{last_yaml_msg.file.name}")
-    
-    last_yaml_msg = unread_yaml_files[1]
-    print(f"\n🎉 找到第一个 yaml 文件：{last_yaml_msg.file.name}")
     
 
     # ✅ 下载并重命名为 Y.yaml
