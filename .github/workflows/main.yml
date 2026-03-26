@@ -28,10 +28,10 @@ jobs:
         run: |
            if [ -f ./example.txt ]; then
               echo "here in example.txt"
-              cat ./example.txt
+              #cat ./example.txt
               echo ""
               echo "here to sed"
-              sed '/^ss/d' ./example.txt > ./example2.txt
+              sed '/^ss/d' ./example.txt >> ./example2.txt
               if [ $(wc -l < ./example2.txt) -gt 40 ];then
                 tail -n 10 ./example2.txt > ./example2.txt
               fi
