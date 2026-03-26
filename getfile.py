@@ -24,15 +24,16 @@ async def download_last_yaml():
     unread_yaml_files = []
 
     # 遍历最新消息，只取未读
-    async for msg in client.iter_messages(channel, limit=50):
+    async for msg in client.iter_messages(channel, limit=5):
 #        if msg.read:
 #            break  # 遇到已读就停止
 
         # 判断：是否是文件 + 文件名以 .yaml / .yml 结尾
         if msg.media and isinstance(msg.media, MessageMediaDocument):
+             print(f"\n🎉 找到最后一个 yaml 文件：{msg.text}")
             if msg.file and msg.file.name:
                 if msg.file.name.endswith(('.yaml', '.yml')):
-                    unread_yaml_files.append(msg)
+                    unread_yaml_files.append(msg
 
     if not unread_yaml_files:
         print("\n❌ 未找到任何未读的 yaml 文件")
