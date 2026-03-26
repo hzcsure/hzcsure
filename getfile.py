@@ -30,7 +30,7 @@ async def download_last_yaml():
 
         # 判断：是否是文件 + 文件名以 .yaml / .yml 结尾
         if msg.media and isinstance(msg.media, MessageMediaDocument):
-             print(f"\n🎉 完整消息：{msg.text}")
+            print(f"\n🎉 消息：{msg.text}")
             if msg.file and msg.file.name:
                 if msg.file.name.endswith(('.yaml', '.yml')):
                     unread_yaml_files.append(msg
