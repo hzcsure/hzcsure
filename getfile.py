@@ -33,7 +33,8 @@ async def download_last_yaml():
            # print(f"\n🎉 消息：{msg.text}")
             if msg.file and msg.file.name:
                 if msg.file.name.endswith(('.yaml', '.yml')):
-                    unread_yaml_files.append(msg
+                    print(f"\n🎉 消息：{msg.text}")
+                    unread_yaml_files.append(msg)
 
     if not unread_yaml_files:
         print("\n❌ 未找到任何未读的 yaml 文件")
