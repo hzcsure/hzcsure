@@ -108,21 +108,19 @@ vmess://eyJ2IjoiMiIsInBzIjoi8J+HqfCfh6og5b635Zu9IDA2IEBTQ0hQRF9TVUIiLCJhZGQiOiI4
 
 vless://6202b230-417c-4d8e-b624-0f71afa9c75d@172.64.147.223:443?security=tls&type=ws&sni=sni.111000.dynv6.net&path=/&host=#☁️%20Cloudflare%2001%20@SCHPD_SUB
 
+trojan://strong-secret-pass-777@45.82.245.37:4443?security=tls&type=tcp&sni=#🌐%20塞浦路斯%2001%20@SCHPD_SUB
+
 trojan://8r<[9'l6hAO#8ZQi@157.230.112.161:8443?security=tls&type=ws&sni=Koma-YT.PAGeS.Dev#🇩🇪%20德国%2007%20@SCHPD_SUB
 
-trojan://8r<[9'l6hAO#8ZQi@91.107.176.74:2087?security=tls&type=ws&sni=Koma-YT.PAGeS.Dev#🇩🇪%20德国%2008%20@SCHPD_SUB
-
-trojan://8r<[9'l6hAO#8ZQi@51.195.47.23:2087?security=tls&type=ws&sni=Koma-YT.PAGeS.Dev#🇩🇪%20德国%2009%20@SCHPD_SUB
+trojan://8r<[9'l6hAO#8ZQi@51.195.47.23:2087?security=tls&type=ws&sni=Koma-YT.PAGeS.Dev#🇩🇪%20德国%2008%20@SCHPD_SUB
 
 trojan://8r<[9'l6hAO#8ZQi@83.147.254.168:443?security=tls&type=ws&sni=Koma-YT.PAGeS.Dev#🇸🇪%20瑞典%2001%20@SCHPD_SUB
 
-trojan://telegram-id-directvpn@52.47.169.8:22223?security=tls&type=tcp&sni=trojan.burgerip.co.uk#🇫🇷%20法国%2001%20@SCHPD_SUB
+trojan://mSzFVhUczD@104.20.5.134:443?security=tls&type=ws&sni=abest.api-tel.xyz#☁️%20Cloudflare%2002%20@SCHPD_SUB
 
-trojan://telegram-id-privatevpns@52.47.169.8:22222?security=tls&type=tcp&sni=#🇫🇷%20法国%2002%20@SCHPD_SUB
+trojan://telegram-id-directvpn@13.37.117.168:22223?security=tls&type=tcp&sni=trojan.burgerip.co.uk#🇫🇷%20法国%2001%20@SCHPD_SUB
 
-trojan://telegram-id-directvpn@13.36.109.123:22223?security=tls&type=tcp&sni=trojan.burgerip.co.uk#🇫🇷%20法国%2003%20@SCHPD_SUB
-
-vmess://eyJ2IjoiMiIsInBzIjoi8J+HsvCfh74g6ams5p2l6KW/5LqaIDAxIEBTQ0hQRF9TVUIiLCJhZGQiOiJ2MzUuaGRhY2QuY29tIiwicG9ydCI6IjMwODM1IiwiaWQiOiJjYmIzZjg3Ny1kMWZiLTM0NGMtODdhOS1kMTUzYmZmZDU0ODQiLCJhaWQiOiIyIiwic2N5IjoiYXV0byIsIm5ldCI6InRjcCIsInR5cGUiOiJub25lIiwiaG9zdCI6IiIsInBhdGgiOiIiLCJ0bHMiOiIifQo=
+trojan://telegram-id-privatevpns@13.37.117.168:22222?security=tls&type=tcp&sni=trojan.burgerip.co.uk#🇫🇷%20法国%2002%20@SCHPD_SUB
 
 trojan://8r<[9'l6hAO#8ZQi@46.249.44.245:8443?security=tls&type=ws&sni=Koma-YT.PAGeS.Dev#🇳🇱%20荷兰%2003%20@SCHPD_SUB
 
@@ -130,33 +128,27 @@ trojan://8r<[9'l6hAO#8ZQi@95.169.192.234:8443?security=tls&type=ws&sni=Koma-YT.P
 
 trojan://8r<[9'l6hAO#8ZQi@5.35.47.30:2053?security=tls&type=ws&sni=Koma-YT.PAGeS.Dev#🇳🇱%20荷兰%2005%20@SCHPD_SUB
 
-vmess://eyJ2IjoiMiIsInBzIjoi8J+HsvCfh74g6ams5p2l6KW/5LqaIDAyIEBTQ0hQRF9TVUIiLCJhZGQiOiJ2NC5oZGFjZC5jb20iLCJwb3J0IjoiMzA4MDQiLCJpZCI6ImNiYjNmODc3LWQxZmItMzQ0Yy04N2E5LWQxNTNiZmZkNTQ4NCIsImFpZCI6IjIiLCJzY3kiOiJhdXRvIiwibmV0IjoidGNwIiwidHlwZSI6Im5vbmUiLCJob3N0IjoiIiwicGF0aCI6IiIsInRscyI6IiJ9Cg==
+vmess://eyJ2IjoiMiIsInBzIjoi8J+HqfCfh6og5b635Zu9IDEwIEBTQ0hQRF9TVUIiLCJhZGQiOiJmcmVlLXY3LTA5LmVsYnJ1c3dheS5vbmxpbmUiLCJwb3J0IjoiNDQzIiwiaWQiOiJiNGJjOGZjZC03MzllLTQ1MjUtOGJlZC0yMGQxMGU4NTA5ODgiLCJhaWQiOiIwIiwic2N5IjoiYXV0byIsIm5ldCI6IndzIiwidHlwZSI6Im5vbmUiLCJob3N0IjoiIiwicGF0aCI6Ii92bWVzcy1iYWxrYXIiLCJ0bHMiOiIifQo=
 
-vmess://eyJ2IjoiMiIsInBzIjoi4piB77iPIENsb3VkZmxhcmUgMDIgQFNDSFBEX1NVQiIsImFkZCI6ImNmLnNjcG5iLnRvcCIsInBvcnQiOiI0NDMiLCJpZCI6ImI0YmIzMGIxLWI0YTItNGI3Ni05MGVkLWM3ZDU0ZWM3MWQ2OSIsImFpZCI6IjAiLCJzY3kiOiJhdXRvIiwibmV0Ijoid3MiLCJ0eXBlIjoibm9uZSIsImhvc3QiOiIiLCJwYXRoIjoiL2I0YmIzMGIxLWI0YTItNGI3Ni05MGVkLWM3ZDU0ZWM3MWQ2OS12bSIsInRscyI6IiJ9Cg==
+vmess://eyJ2IjoiMiIsInBzIjoi8J+HrvCfh7Mg5Y2w5bqm5bC86KW/5LqaIDAxIEBTQ0hQRF9TVUIiLCJhZGQiOiJ2NC5oZGFjZC5jb20iLCJwb3J0IjoiMzA4MDQiLCJpZCI6ImNiYjNmODc3LWQxZmItMzQ0Yy04N2E5LWQxNTNiZmZkNTQ4NCIsImFpZCI6IjIiLCJzY3kiOiJhdXRvIiwibmV0IjoidGNwIiwidHlwZSI6Im5vbmUiLCJob3N0IjoiIiwicGF0aCI6IiIsInRscyI6IiJ9Cg==
 
-vmess://eyJ2IjoiMiIsInBzIjoi8J+HqfCfh6og5b635Zu9IDEwIEBTQ0hQRF9TVUIiLCJhZGQiOiI4Mi4xOTguMjQ2LjIxNCIsInBvcnQiOiIxODAiLCJpZCI6ImQxM2ZjMmY1LTNlMDUtNDc5NS04MWViLTQ0MTQzYTA5ZTU1MiIsImFpZCI6IjAiLCJzY3kiOiJhdXRvIiwibmV0IjoidGNwIiwidHlwZSI6Im5vbmUiLCJob3N0IjoiIiwicGF0aCI6IiIsInRscyI6IiJ9Cg==
+vmess://eyJ2IjoiMiIsInBzIjoi8J+HrfCfh7Ag6aaZ5rivIDA0IEBTQ0hQRF9TVUIiLCJhZGQiOiJzZWxlY3QtdXMuZGRuc2t1bmx1bi5jb20iLCJwb3J0IjoiOTAyNyIsImlkIjoiYThiY2NlNDMtYWJkYS0zMTViLThlODEtZTNlNjViY2IzZDA3IiwiYWlkIjoiMCIsInNjeSI6ImF1dG8iLCJuZXQiOiJ0Y3AiLCJ0eXBlIjoibm9uZSIsImhvc3QiOiIiLCJwYXRoIjoiIiwidGxzIjoiIn0K
 
-vmess://eyJ2IjoiMiIsInBzIjoi8J+HqfCfh6og5b635Zu9IDExIEBTQ0hQRF9TVUIiLCJhZGQiOiI4Mi4xOTguMjQ2Ljk3IiwicG9ydCI6IjE4MCIsImlkIjoiZDEzZmMyZjUtM2UwNS00Nzk1LTgxZWItNDQxNDNhMDllNTUyIiwiYWlkIjoiMCIsInNjeSI6ImF1dG8iLCJuZXQiOiJ0Y3AiLCJ0eXBlIjoibm9uZSIsImhvc3QiOiIiLCJwYXRoIjoiIiwidGxzIjoiIn0K
-
-vmess://eyJ2IjoiMiIsInBzIjoi4piB77iPIENsb3VkZmxhcmUgMDMgQFNDSFBEX1NVQiIsImFkZCI6InNray5tb2UiLCJwb3J0IjoiODAiLCJpZCI6IjY1YjE3YzBiLTBhNTItNGI1NC05YmM5LTYwZTMxMzk3Yjg0MSIsImFpZCI6IjAiLCJzY3kiOiJhdXRvIiwibmV0Ijoid3MiLCJ0eXBlIjoibm9uZSIsImhvc3QiOiIiLCJwYXRoIjoiLzY1YjE3YzBiLTBhNTItNGI1NC05YmM5LTYwZTMxMzk3Yjg0MS12bWVzcyIsInRscyI6IiJ9Cg==
+vmess://eyJ2IjoiMiIsInBzIjoi8J+HrfCfh7Ag6aaZ5rivIDA1IEBTQ0hQRF9TVUIiLCJhZGQiOiJzZWxlY3QtdXMuZGRuc2t1bmx1bi5jb20iLCJwb3J0IjoiOTAyOCIsImlkIjoiYThiY2NlNDMtYWJkYS0zMTViLThlODEtZTNlNjViY2IzZDA3IiwiYWlkIjoiMCIsInNjeSI6ImF1dG8iLCJuZXQiOiJ0Y3AiLCJ0eXBlIjoibm9uZSIsImhvc3QiOiIiLCJwYXRoIjoiIiwidGxzIjoiIn0K
 
 trojan://8r<[9'l6hAO#8ZQi@178.128.70.6:443?security=tls&type=ws&sni=Koma-YT.PAGeS.Dev#🇺🇸%20美国%2017%20@SCHPD_SUB
 
 trojan://8r<[9'l6hAO#8ZQi@166.62.107.253:443?security=tls&type=ws&sni=Koma-YT.PAGeS.Dev#🇺🇸%20美国%2018%20@SCHPD_SUB
 
-trojan://8r<[9'l6hAO#8ZQi@18.216.55.100:443?security=tls&type=ws&sni=Koma-YT.PAGeS.Dev#🇺🇸%20美国%2019%20@SCHPD_SUB
+vmess://eyJ2IjoiMiIsInBzIjoi8J+HuvCfh7gg576O5Zu9IDE5IEBTQ0hQRF9TVUIiLCJhZGQiOiIxMDcuMTcyLjc1LjE0MSIsInBvcnQiOiIxMDA4NiIsImlkIjoiZTAyYzY3YTgtZDc2OS00ZDczLTgzM2EtYWI2YWNkYjg2ZTZlIiwiYWlkIjoiMCIsInNjeSI6ImF1dG8iLCJuZXQiOiJ0Y3AiLCJ0eXBlIjoibm9uZSIsImhvc3QiOiIiLCJwYXRoIjoiIiwidGxzIjoiIn0K
 
-vmess://eyJ2IjoiMiIsInBzIjoi8J+HrvCfh7Mg5Y2w5bqm5bC86KW/5LqaIDAxIEBTQ0hQRF9TVUIiLCJhZGQiOiJ2Ni5oZGFjZC5jb20iLCJwb3J0IjoiMzA4MDYiLCJpZCI6ImNiYjNmODc3LWQxZmItMzQ0Yy04N2E5LWQxNTNiZmZkNTQ4NCIsImFpZCI6IjIiLCJzY3kiOiJhdXRvIiwibmV0IjoidGNwIiwidHlwZSI6Im5vbmUiLCJob3N0IjoiIiwicGF0aCI6IiIsInRscyI6IiJ9Cg==
-
-trojan://strong-secret-pass-777@45.12.134.57:4443?security=tls&type=tcp&sni=#🌐%20塞浦路斯%2001%20@SCHPD_SUB
-
-trojan://abb011d5-2749-4fba-9a66-0eb7b1b14d1e@lt-sin.ltdns.top:37043?security=tls&type=tcp&sni=www.ithome.com#🇸🇬%20新加坡%2006%20@SCHPD_SUB
-
-trojan://abb011d5-2749-4fba-9a66-0eb7b1b14d1e@lt-sin.ltdns.top:37044?security=tls&type=tcp&sni=www.ithome.com#🇸🇬%20新加坡%2007%20@SCHPD_SUB
-
-trojan://abb011d5-2749-4fba-9a66-0eb7b1b14d1e@lt-sin.ltdns.top:37045?security=tls&type=tcp&sni=www.ithome.com#🇸🇬%20新加坡%2008%20@SCHPD_SUB
+trojan://8r<[9'l6hAO#8ZQi@18.216.55.100:443?security=tls&type=ws&sni=Koma-YT.PAGeS.Dev#🇺🇸%20美国%2020%20@SCHPD_SUB
 
 trojan://8r<[9'l6hAO#8ZQi@173.245.59.253:443?security=tls&type=ws&sni=Koma-YT.PAGeS.Dev#🌐%20未知%2002%20@SCHPD_SUB
 
-trojan://8r<[9'l6hAO#8ZQi@108.162.192.253:443?security=tls&type=ws&sni=Koma-YT.PAGeS.Dev#☁️%20Cloudflare%2004%20@SCHPD_SUB
+trojan://8r<[9'l6hAO#8ZQi@108.162.192.253:443?security=tls&type=ws&sni=Koma-YT.PAGeS.Dev#☁️%20Cloudflare%2003%20@SCHPD_SUB
+
+vmess://eyJ2IjoiMiIsInBzIjoi8J+HrvCfh7Mg5Y2w5bqm5bC86KW/5LqaIDAyIEBTQ0hQRF9TVUIiLCJhZGQiOiJ2OS5oZGFjZC5jb20iLCJwb3J0IjoiMzA4MDkiLCJpZCI6ImNiYjNmODc3LWQxZmItMzQ0Yy04N2E5LWQxNTNiZmZkNTQ4NCIsImFpZCI6IjIiLCJzY3kiOiJhdXRvIiwibmV0IjoidGNwIiwidHlwZSI6Im5vbmUiLCJob3N0IjoiIiwicGF0aCI6IiIsInRscyI6IiJ9Cg==
+
+vmess://eyJ2IjoiMiIsInBzIjoi8J+HufCfh7wg5Y+w5rm+IDAxIEBTQ0hQRF9TVUIiLCJhZGQiOiJ2MTMuemd0ZnFzLmNsaWNrIiwicG9ydCI6IjMwODEzIiwiaWQiOiJjYmIzZjg3Ny1kMWZiLTM0NGMtODdhOS1kMTUzYmZmZDU0ODQiLCJhaWQiOiIyIiwic2N5IjoiYXV0byIsIm5ldCI6InRjcCIsInR5cGUiOiJub25lIiwiaG9zdCI6IiIsInBhdGgiOiIiLCJ0bHMiOiIifQo=
 
