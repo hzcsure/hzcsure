@@ -36,7 +36,7 @@ vless://7625adbb-52f7-4ff4-95f8-677471071a77@132.243.231.122:8443?security=tls&t
 
 vless://ea484535-0170-4ec8-bb3c-a9dbaa7412d7@146.103.121.166:443?security=tls&type=tcp&sni=nl2.panel11.ru&path=&host=#🇳🇱%20荷兰%2002%20@SCHPD_SUB
 
-vless://279828c6-13f2-439c-9a4e-ea7d4f470fa4@g7.steptofsvo.com:443?security=tls&type=tcp&sni=g7.steptofsvo.com&path=&host=#🌐%20拉脱维亚%2002%20@SCHPD_SUB
+vless://279828c6-13f2-439c-9a4e-ea7d4f470fa4@g7.steptofsvo.com:443?security=tls&type=tcp&sni=g7.steptofsvo.com&path=&host=#🇨🇭%20瑞士%2002%20@SCHPD_SUB
 
 vless://a7e07a49-1d6a-40f7-a172-ed04d6036c09@51.250.104.246:443?security=tls&type=tcp&sni=cdp.x5.ru&path=&host=#🇷🇺%20俄罗斯联邦%2008%20@SCHPD_SUB
 
@@ -64,5 +64,43 @@ vless://3b01a777-55e7-49f6-8637-d94ee69607c6@202.37.33.81:443?security=tls&type=
 
 vless://6f122bf8-65b5-43c5-a0be-5719cd842ff3@vip.starservices.lol:3082?security=tls&type=tcp&sni=www.nvidia.com&path=&host=#🇨🇿%20捷克%2001%20@SCHPD_SUB
 
-trojan://4f4d1167-ef14-4304-9bce-0740472503ef@90081bb25c.node.tro.cac.cab:47909?security=tls&type=tcp&sni=is.01.naiun.bilibili.com#🇺🇸%20美国%2003%20@SCHPD_SUB
+trojan://owreRY1bmquS1WcYN2@au-3.tr202605.com:443?security=tls&type=tcp&sni=#🇦🇺%20澳大利亚%2001%20@SCHPD_SUB
+
+vmess://eyJ2IjoiMiIsInBzIjoi8J+HsvCfh74g6ams5p2l6KW/5LqaIDAxIEBTQ0hQRF9TVUIiLCJhZGQiOiJ2MzMuaGRhY2QuY29tIiwicG9ydCI6IjMwODMzIiwiaWQiOiJjYmIzZjg3Ny1kMWZiLTM0NGMtODdhOS1kMTUzYmZmZDU0ODQiLCJhaWQiOiIyIiwic2N5IjoiYXV0byIsIm5ldCI6InRjcCIsInR5cGUiOiJub25lIiwiaG9zdCI6IiIsInBhdGgiOiIiLCJ0bHMiOiIifQo=
+
+trojan://telegram-id-privatevpns@52.57.7.168:22222?security=tls&type=tcp&sni=#🇩🇪%20德国%2005%20@SCHPD_SUB
+
+trojan://telegram-id-privatevpns@13.39.205.209:22222?security=tls&type=tcp&sni=#🇫🇷%20法国%2001%20@SCHPD_SUB
+
+trojan://telegram-id-directvpn@52.47.172.108:22223?security=tls&type=tcp&sni=#🇫🇷%20法国%2002%20@SCHPD_SUB
+
+trojan://3ac6a6ca99f74941b1eaf892818e2ddb@45.15.167.20:443?security=tls&type=tcp&sni=#🌐%20塞浦路斯%2002%20@SCHPD_SUB
+
+vmess://eyJ2IjoiMiIsInBzIjoi8J+HqfCfh6og5b635Zu9IDA2IEBTQ0hQRF9TVUIiLCJhZGQiOiI4Mi4xOTguMjQ2LjM3IiwicG9ydCI6IjE4MCIsImlkIjoiZDEzZmMyZjUtM2UwNS00Nzk1LTgxZWItNDQxNDNhMDllNTUyIiwiYWlkIjoiMCIsInNjeSI6ImF1dG8iLCJuZXQiOiJ0Y3AiLCJ0eXBlIjoibm9uZSIsImhvc3QiOiIiLCJwYXRoIjoiIiwidGxzIjoiIn0K
+
+vmess://eyJ2IjoiMiIsInBzIjoi8J+HuvCfh7gg576O5Zu9IDAzIEBTQ0hQRF9TVUIiLCJhZGQiOiJjZzFjMDYud2FpbWFvamQuY29tIiwicG9ydCI6IjQ0MyIsImlkIjoiYTYwZjM5MDAtYmZjNi00ZTk5LWEyMjEtMjM5Zjk2OTJkNTllIiwiYWlkIjoiMCIsInNjeSI6ImF1dG8iLCJuZXQiOiJ3cyIsInR5cGUiOiJub25lIiwiaG9zdCI6IiIsInBhdGgiOiIvYXBpL3YxL2dyYXBocWwiLCJ0bHMiOiIifQo=
+
+vmess://eyJ2IjoiMiIsInBzIjoi8J+HuvCfh7gg576O5Zu9IDA0IEBTQ0hQRF9TVUIiLCJhZGQiOiJjZzFjMDMud2FpbWFvamQuY29tIiwicG9ydCI6IjQ0MyIsImlkIjoiYTYwZjM5MDAtYmZjNi00ZTk5LWEyMjEtMjM5Zjk2OTJkNTllIiwiYWlkIjoiMCIsInNjeSI6ImF1dG8iLCJuZXQiOiJ3cyIsInR5cGUiOiJub25lIiwiaG9zdCI6IiIsInBhdGgiOiIvYXBpL3YxL2dyYXBocWwiLCJ0bHMiOiIifQo=
+
+vmess://eyJ2IjoiMiIsInBzIjoi8J+HuvCfh7gg576O5Zu9IDA1IEBTQ0hQRF9TVUIiLCJhZGQiOiJjZzFjMDIud2FpbWFvamQuY29tIiwicG9ydCI6IjQ0MyIsImlkIjoiYTYwZjM5MDAtYmZjNi00ZTk5LWEyMjEtMjM5Zjk2OTJkNTllIiwiYWlkIjoiMCIsInNjeSI6ImF1dG8iLCJuZXQiOiJ3cyIsInR5cGUiOiJub25lIiwiaG9zdCI6IiIsInBhdGgiOiIvYXBpL3YxL2dyYXBocWwiLCJ0bHMiOiIifQo=
+
+vmess://eyJ2IjoiMiIsInBzIjoi4piB77iPIENsb3VkZmxhcmUgMDEgQFNDSFBEX1NVQiIsImFkZCI6ImNnMWMwNS53YWltYW9qZC5jb20iLCJwb3J0IjoiNDQzIiwiaWQiOiIzMzI3NzRlNS05MzcxLTQ4YmItYjUxOC0xZmU1NmM3MjY4ZGEiLCJhaWQiOiIwIiwic2N5IjoiYXV0byIsIm5ldCI6IndzIiwidHlwZSI6Im5vbmUiLCJob3N0IjoiIiwicGF0aCI6Ii9hcGkvdjEvZ3JhcGhxbCIsInRscyI6IiJ9Cg==
+
+vmess://eyJ2IjoiMiIsInBzIjoi8J+HrfCfh7Ag6aaZ5rivIDAyIEBTQ0hQRF9TVUIiLCJhZGQiOiJzZWxlY3QtdXMuZGRuc2t1bmx1bi5jb20iLCJwb3J0IjoiOTAyNyIsImlkIjoiYThiY2NlNDMtYWJkYS0zMTViLThlODEtZTNlNjViY2IzZDA3IiwiYWlkIjoiMCIsInNjeSI6ImF1dG8iLCJuZXQiOiJ0Y3AiLCJ0eXBlIjoibm9uZSIsImhvc3QiOiIiLCJwYXRoIjoiIiwidGxzIjoiIn0K
+
+trojan://3ac6a6ca99f74941b1eaf892818e2ddb@169.239.128.39:443?security=tls&type=tcp&sni=#🇿🇦%20南非%2001%20@SCHPD_SUB
+
+vmess://eyJ2IjoiMiIsInBzIjoi8J+HsvCfh74g6ams5p2l6KW/5LqaIDAyIEBTQ0hQRF9TVUIiLCJhZGQiOiJ2Ni5oZGFjZC5jb20iLCJwb3J0IjoiMzA4MDYiLCJpZCI6ImNiYjNmODc3LWQxZmItMzQ0Yy04N2E5LWQxNTNiZmZkNTQ4NCIsImFpZCI6IjIiLCJzY3kiOiJhdXRvIiwibmV0IjoidGNwIiwidHlwZSI6Im5vbmUiLCJob3N0IjoiIiwicGF0aCI6IiIsInRscyI6IiJ9Cg==
+
+trojan://BxceQaOe@43.199.61.178:47655?security=tls&type=tcp&sni=t.me/ripaojiedian#🇭🇰%20香港%2003%20@SCHPD_SUB
+
+vmess://eyJ2IjoiMiIsInBzIjoi8J+HrfCfh7Ag6aaZ5rivIDA0IEBTQ0hQRF9TVUIiLCJhZGQiOiJ3b3JsZC50LjUxZ3Vhbmd0YW9iYW8uY29tIiwicG9ydCI6IjI1MTIiLCJpZCI6IjFkM2Q4NjhlLWFlN2ItMzc2Mi1iOWQ5LWE3ZjI2NzQ5NGM3ZSIsImFpZCI6IjAiLCJzY3kiOiJhdXRvIiwibmV0IjoidGNwIiwidHlwZSI6Im5vbmUiLCJob3N0IjoiIiwicGF0aCI6IiIsInRscyI6IiJ9Cg==
+
+vmess://eyJ2IjoiMiIsInBzIjoi8J+HqPCfh7Mg5Lit5Zu9IDAxIEBTQ0hQRF9TVUIiLCJhZGQiOiJ5ZDMuYWluaXZwLmNvbSIsInBvcnQiOiIzMzQwNCIsImlkIjoiOTIwNGFmY2QtMDI2ZS03ODFmLTFhYmMtYzAzZWZhYmQxMzQ0IiwiYWlkIjoiMCIsInNjeSI6ImF1dG8iLCJuZXQiOiJ3cyIsInR5cGUiOiJub25lIiwiaG9zdCI6IiIsInBhdGgiOiIvcmF5IiwidGxzIjoiIn0K
+
+trojan://da292191-b895-3264-b41c-200512b8f965@a.twodnwnpoe.xyz:40015?security=tls&type=tcp&sni=1.lossyesterday.xyz#🇲🇾%20马来西亚%2003%20@SCHPD_SUB
+
+trojan://da292191-b895-3264-b41c-200512b8f965@a.twodnwnpoe.xyz:52225?security=tls&type=tcp&sni=i.comfortableyou.top#🇲🇾%20马来西亚%2004%20@SCHPD_SUB
+
+trojan://da292191-b895-3264-b41c-200512b8f965@a.twodnwnpoe.xyz:40017?security=tls&type=tcp&sni=water.waittomorrow.top#🇲🇾%20马来西亚%2005%20@SCHPD_SUB
 
