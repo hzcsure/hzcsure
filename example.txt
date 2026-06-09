@@ -1,58 +1,146 @@
-vless://940823b5-5f5d-43a4-8860-4413b71ef4a6@another-cf.dnsyes.kawaii520.icu:443?security=tls&type=ws&sni=djkrei5f4jb9941fd6v8sg.another-appleid.ccwu.cc&path=/&host=#☁️%20Cloudflare%2001%20@SCHPD_SUB
+trojan://ppmk@104.18.32.47:8443?security=tls&type=ws&sni=flat-firefly-6022.rixewi3168.workers.dev#☁️%20Cloudflare%2001%20@SCHPD_SUB
 
-vless://2b47dd1e-e8f4-48e8-8d99-6ece8cb76e34@hk01zl.lovetutujiejie.com:443?security=tls&type=tcp&sni=php.net&path=&host=#🇭🇰%20香港%2001%20@SCHPD_SUB
+vless://78d9f9d6-f85a-4d39-9a1e-897b8e2cdf7a@13.54.156.73:45565?security=tls&type=tcp&sni=yahoo.com&path=&host=#🇦🇺%20澳大利亚%2001%20@SCHPD_SUB
 
-trojan://Telegram-Config0plus@66.81.247.155:443?security=tls&type=ws&sni=go.appsflyer.com.r3xxe.eu.cc#🇺🇸%20美国%2001%20@SCHPD_SUB
+vless://b0d9918c-320d-4e76-ab89-1a12ff5e1fe2@panel.persianghost.sbs:45542?security=tls&type=xhttp&sni=s1.persianghost.sbs&path=&host=#🇬🇧%20英国%2001%20@SCHPD_SUB
 
-vless://2b47dd1e-e8f4-48e8-8d99-6ece8cb76e34@ft-cn2.woaitutu520.com:18007?security=tls&type=tcp&sni=apple.com&path=&host=#🇭🇰%20香港%2002%20@SCHPD_SUB
+vless://f032fd94-715d-4d37-835f-13959a63df14@18.183.94.154:39611?security=tls&type=tcp&sni=www.icloud.com&path=&host=#🇯🇵%20日本%2001%20@SCHPD_SUB
 
-vless://afcac633-0e1a-46c3-bef2-cc01cc0097c8@r1.mizulina.top:22231?security=tls&type=tcp&sni=''&path=&host=#🇷🇺%20俄罗斯联邦%2001%20@SCHPD_SUB
+vless://afcac633-0e1a-46c3-bef2-cc01cc0097c8@85.234.114.53:22231?security=tls&type=tcp&sni=r1.mizulina.top&path=&host=#🇷🇺%20俄罗斯联邦%2001%20@SCHPD_SUB
 
-vless://2b47dd1e-e8f4-48e8-8d99-6ece8cb76e34@hk08zl.lovetutujiejie.com:443?security=tls&type=tcp&sni=php.net&path=&host=#🇭🇰%20香港%2003%20@SCHPD_SUB
+vless://b0d9918c-320d-4e76-ab89-1a12ff5e1fe2@panel.persianghost.sbs:41328?security=tls&type=grpc&sni=s1.persianghost.sbs&path=&host=#🇬🇧%20英国%2002%20@SCHPD_SUB
+
+vless://b0d9918c-320d-4e76-ab89-1a12ff5e1fe2@panel.persianghost.sbs:11809?security=tls&type=xhttp&sni=s1.persianghost.sbs&path=&host=#🇬🇧%20英国%2003%20@SCHPD_SUB
+
+vless://afcac633-0e1a-46c3-bef2-cc01cc0097c8@85.234.114.53:443?security=tls&type=tcp&sni=r1.mizulina.top&path=&host=#🇷🇺%20俄罗斯联邦%2002%20@SCHPD_SUB
+
+vless://d8547c50-2ead-4251-a01c-f558a2af3843@188.114.97.6:2087?security=tls&type=xhttp&sni=natrskedarad-besooyat-navmiad.mgwarrior.ir&path=&host=#🌐%20未知%2001%20@SCHPD_SUB
+
+trojan://humanity@104.18.32.47:443?security=tls&type=ws&sni=www.gossipglove.com#☁️%20Cloudflare%2002%20@SCHPD_SUB
+
+vless://afcac633-0e1a-46c3-bef2-cc01cc0097c8@r1.mizulina.top:22231?security=tls&type=tcp&sni=r1.mizulina.top&path=&host=#🇷🇺%20俄罗斯联邦%2003%20@SCHPD_SUB
+
+vless://e84064cc-617f-4ba8-aa6f-13e920fd2610@172.67.211.74:80?security=none&type=ws&sni=''&path=/&host=#☁️%20Cloudflare%2003%20@SCHPD_SUB
+
+vless://be2e1543-d450-481b-a955-c691086e41b1@se-modx.nodexphere.net:443?security=tls&type=tcp&sni=se-modx.nodexphere.net&path=&host=#🌐%20立陶宛%2001%20@SCHPD_SUB
+
+vless://52c0dab9-2187-49a4-8e31-f1db94bd7a9e@199.232.78.160:443?security=tls&type=ws&sni=speedtest.net&path=/&host=#🇺🇸%20美国%2001%20@SCHPD_SUB
+
+vless://96eec36e-2c44-5b09-898e-6f0f0526e57f@23.235.42.205:80?security=none&type=xhttp&sni=''&path=&host=#🇺🇸%20美国%2002%20@SCHPD_SUB
 
 vless://InternetAzadRobot@146.75.117.91:80?security=none&type=xhttp&sni=''&path=&host=#🇩🇪%20德国%2001%20@SCHPD_SUB
 
-vless://2b47dd1e-e8f4-48e8-8d99-6ece8cb76e34@hk06zl.lovetutujiejie.com:443?security=tls&type=tcp&sni=php.net&path=&host=#🇭🇰%20香港%2004%20@SCHPD_SUB
+vless://3d7c04ea-0d63-4847-b916-1103cc6a488f@45.130.125.194:8443?security=tls&type=xhttp&sni=vi.new-persian-song.ir&path=&host=#🌐%20塞舌尔%2001%20@SCHPD_SUB
 
-trojan://4f4d1167-ef14-4304-9bce-0740472503ef@155.117.198.86:45619?security=tls&type=tcp&sni=fr.01.naiun.bilibili.com#🇺🇸%20美国%2002%20@SCHPD_SUB
+trojan://4f4d1167-ef14-4304-9bce-0740472503ef@155.117.198.82:45619?security=tls&type=tcp&sni=fr.01.naiun.bilibili.com#🇺🇸%20美国%2003%20@SCHPD_SUB
 
-trojan://4f4d1167-ef14-4304-9bce-0740472503ef@155.117.198.87:45619?security=tls&type=tcp&sni=fr.01.naiun.bilibili.com#🇺🇸%20美国%2003%20@SCHPD_SUB
+vless://fc965ad9-bdd7-4815-ad71-b39ec5972dc1@104.17.108.189:443?security=tls&type=ws&sni=octopusss4.com&path=/tsghdws&host=#☁️%20Cloudflare%2004%20@SCHPD_SUB
 
-trojan://4f4d1167-ef14-4304-9bce-0740472503ef@155.117.198.86:48697?security=tls&type=tcp&sni=gh.01.naiun.bilibili.com#🇺🇸%20美国%2004%20@SCHPD_SUB
+trojan://4f4d1167-ef14-4304-9bce-0740472503ef@155.117.198.82:47909?security=tls&type=tcp&sni=is.01.naiun.bilibili.com#🇺🇸%20美国%2004%20@SCHPD_SUB
 
-trojan://4f4d1167-ef14-4304-9bce-0740472503ef@155.117.198.82:45619?security=tls&type=tcp&sni=fr.01.naiun.bilibili.com#🇺🇸%20美国%2005%20@SCHPD_SUB
+vless://2703cda8-5cf4-019d-c4bd-6cf0c2261946@122.8.44.3:993?security=tls&type=tcp&sni=dl.google.com&path=&host=#🇨🇳%20中国%2001%20@SCHPD_SUB
 
-trojan://4f4d1167-ef14-4304-9bce-0740472503ef@155.117.198.82:47909?security=tls&type=tcp&sni=is.01.naiun.bilibili.com#🇺🇸%20美国%2006%20@SCHPD_SUB
+vless://b8c51058-4378-46d3-b2c9-50b43b5715a0@main.saforia.ru:2086?security=none&type=ws&sni=''&path=/&host=#🇨🇿%20捷克%2001%20@SCHPD_SUB
 
-trojan://4f4d1167-ef14-4304-9bce-0740472503ef@155.117.198.87:48697?security=tls&type=tcp&sni=gh.01.naiun.bilibili.com#🇺🇸%20美国%2007%20@SCHPD_SUB
+trojan://4f4d1167-ef14-4304-9bce-0740472503ef@155.117.198.87:48697?security=tls&type=tcp&sni=gh.01.naiun.bilibili.com#🇺🇸%20美国%2005%20@SCHPD_SUB
 
-trojan://4f4d1167-ef14-4304-9bce-0740472503ef@155.117.198.87:47909?security=tls&type=tcp&sni=is.01.naiun.bilibili.com#🇺🇸%20美国%2008%20@SCHPD_SUB
+vless://96eec36e-2c44-5b09-898e-6f0f0526e57f@fastly.com:80?security=none&type=xhttp&sni=''&path=&host=#🇺🇸%20美国%2006%20@SCHPD_SUB
 
-vless://882e17c8-b013-4e99-9774-36e26e5001ff@185.242.19.249:443?security=tls&type=xhttp&sni=top3739667002.mwscdn.ru&path=&host=#🇷🇺%20俄罗斯联邦%2002%20@SCHPD_SUB
+trojan://4f4d1167-ef14-4304-9bce-0740472503ef@155.117.198.87:47909?security=tls&type=tcp&sni=is.01.naiun.bilibili.com#🇺🇸%20美国%2007%20@SCHPD_SUB
 
-trojan://4f4d1167-ef14-4304-9bce-0740472503ef@155.117.198.83:48697?security=tls&type=tcp&sni=gh.01.naiun.bilibili.com#🇺🇸%20美国%2009%20@SCHPD_SUB
+trojan://4f4d1167-ef14-4304-9bce-0740472503ef@155.117.198.86:45619?security=tls&type=tcp&sni=fr.01.naiun.bilibili.com#🇺🇸%20美国%2008%20@SCHPD_SUB
 
-vless://2b47dd1e-e8f4-48e8-8d99-6ece8cb76e34@tw01zl.lovetutujiejie.com:443?security=tls&type=tcp&sni=apple.com&path=&host=#🇹🇼%20台湾%2007%20@SCHPD_SUB
+trojan://4f4d1167-ef14-4304-9bce-0740472503ef@155.117.198.86:48697?security=tls&type=tcp&sni=gh.01.naiun.bilibili.com#🇺🇸%20美国%2009%20@SCHPD_SUB
 
-vless://cfb70000-ed61-4a7e-89a3-2b9c2caa6001@185.242.19.250:443?security=tls&type=xhttp&sni=top3739667002.mwscdn.ru&path=&host=#🇷🇺%20俄罗斯联邦%2003%20@SCHPD_SUB
+trojan://4f4d1167-ef14-4304-9bce-0740472503ef@155.117.198.83:48697?security=tls&type=tcp&sni=gh.01.naiun.bilibili.com#🇺🇸%20美国%2010%20@SCHPD_SUB
 
-trojan://a2bfee94467080abd8f339322d92012b@hk-01.pg13900.com:443?security=tls&type=ws&sni=hk-01.pg13900.com#☁️%20Cloudflare%2002%20@SCHPD_SUB
+trojan://4f4d1167-ef14-4304-9bce-0740472503ef@155.117.198.87:45619?security=tls&type=tcp&sni=fr.01.naiun.bilibili.com#🇺🇸%20美国%2011%20@SCHPD_SUB
 
-trojan://4f4d1167-ef14-4304-9bce-0740472503ef@90081bb25c.node.tro.cac.cab:41943?security=tls&type=tcp&sni=az.01.naiun.bilibili.com#🇺🇸%20美国%2010%20@SCHPD_SUB
+vless://96eec36e-2c44-5b09-898e-6f0f0526e57f@151.101.1.57:80?security=none&type=xhttp&sni=''&path=&host=#🇺🇸%20美国%2012%20@SCHPD_SUB
 
-trojan://4f4d1167-ef14-4304-9bce-0740472503ef@155.117.198.87:41943?security=tls&type=tcp&sni=az.01.naiun.bilibili.com#🇺🇸%20美国%2011%20@SCHPD_SUB
+vless://b0d9918c-320d-4e76-ab89-1a12ff5e1fe2@panel.persianghost.sbs:49497?security=tls&type=ws&sni=s1.persianghost.sbs&path=/&host=#🇬🇧%20英国%2004%20@SCHPD_SUB
 
-vmess://eyJ2IjoiMiIsInBzIjoi8J+Hq/Cfh7cg5rOV5Zu9IDAxIEBTQ0hQRF9TVUIiLCJhZGQiOiJkZTUubmlla290aW4uZGUiLCJwb3J0IjoiODAiLCJpZCI6Ijg1YmY1ODAxLTQ2NTgtNDQxYy1hMmU1LTg0MmM2YzcxYTUyMSIsImFpZCI6IjAiLCJzY3kiOiJhdXRvIiwibmV0Ijoid3MiLCJ0eXBlIjoibm9uZSIsImhvc3QiOiIiLCJwYXRoIjoiL3ZtZXNzIiwidGxzIjoiIn0K
+vless://3d7c04ea-0d63-4847-b916-1103cc6a488f@45.130.125.192:8443?security=tls&type=xhttp&sni=vh.mojaz-persian-music.ir&path=&host=#🌐%20塞舌尔%2002%20@SCHPD_SUB
 
-trojan://telegram-id-directvpn@63.185.124.176:22223?security=tls&type=tcp&sni=trojan.burgerip.co.uk#🇩🇪%20德国%2002%20@SCHPD_SUB
+vless://96eec36e-2c44-5b09-898e-6f0f0526e57f@151.101.65.57:80?security=none&type=xhttp&sni=''&path=&host=#🇺🇸%20美国%2013%20@SCHPD_SUB
 
-trojan://telegram-id-privatevpns@63.185.124.176:22222?security=tls&type=tcp&sni=trojan.burgerip.co.uk#🇩🇪%20德国%2003%20@SCHPD_SUB
+vless://InternetAzadRobot-AliKiller@151.101.193.57:80?security=none&type=xhttp&sni=''&path=&host=#🇺🇸%20美国%2014%20@SCHPD_SUB
 
-trojan://4f4d1167-ef14-4304-9bce-0740472503ef@90081bb25c.node.tro.cac.cab:45619?security=tls&type=tcp&sni=fr.01.naiun.bilibili.com#🇺🇸%20美国%2012%20@SCHPD_SUB
+vless://InternetAzadRobot-AliKiller@151.101.129.57:80?security=none&type=xhttp&sni=''&path=&host=#🇺🇸%20美国%2015%20@SCHPD_SUB
 
-trojan://4f4d1167-ef14-4304-9bce-0740472503ef@155.117.198.83:45619?security=tls&type=tcp&sni=fr.01.naiun.bilibili.com#🇺🇸%20美国%2013%20@SCHPD_SUB
+vless://Telegram-Parsashonam-12@45.130.125.76:443?security=tls&type=xhttp&sni=p4r34m.hendevaneh.sbs&path=&host=#🌐%20塞舌尔%2003%20@SCHPD_SUB
 
-vmess://eyJ2IjoiMiIsInBzIjoi8J+Hs/Cfh7Eg6I235YWwIDAxIEBTQ0hQRF9TVUIiLCJhZGQiOiI5NS4xNzkuMTg3LjE4OCIsInBvcnQiOiI1NzIyMCIsImlkIjoiMTNhNDAwZjMtZTRkNi00Y2M2LTg0MGUtOGNjOWM1MmU5YzI1IiwiYWlkIjoiMCIsInNjeSI6ImF1dG8iLCJuZXQiOiJ0Y3AiLCJ0eXBlIjoibm9uZSIsImhvc3QiOiIiLCJwYXRoIjoiIiwidGxzIjoiIn0K
+trojan://4f4d1167-ef14-4304-9bce-0740472503ef@155.117.198.87:41943?security=tls&type=tcp&sni=az.01.naiun.bilibili.com#🇺🇸%20美国%2016%20@SCHPD_SUB
 
-vmess://eyJ2IjoiMiIsInBzIjoi8J+HsvCfh74g6ams5p2l6KW/5LqaIDAxIEBTQ0hQRF9TVUIiLCJhZGQiOiJ2MjkuaGRhY2QuY29tIiwicG9ydCI6IjMwODI5IiwiaWQiOiJjYmIzZjg3Ny1kMWZiLTM0NGMtODdhOS1kMTUzYmZmZDU0ODQiLCJhaWQiOiIyIiwic2N5IjoiYXV0byIsIm5ldCI6InRjcCIsInR5cGUiOiJub25lIiwiaG9zdCI6IiIsInBhdGgiOiIiLCJ0bHMiOiIifQo=
+trojan://humanity@172.67.180.92:443?security=tls&type=ws&sni=www.multiplydose.com#☁️%20Cloudflare%2005%20@SCHPD_SUB
+
+trojan://4f4d1167-ef14-4304-9bce-0740472503ef@155.117.198.82:45553?security=tls&type=tcp&sni=ch.01.naiun.bilibili.com#🇺🇸%20美国%2017%20@SCHPD_SUB
+
+trojan://4f4d1167-ef14-4304-9bce-0740472503ef@155.117.198.86:45553?security=tls&type=tcp&sni=ch.01.naiun.bilibili.com#🇺🇸%20美国%2018%20@SCHPD_SUB
+
+trojan://humanity@8.6.112.0:443?security=tls&type=ws&sni=www.multiplydose.com#🌐%20未知%2002%20@SCHPD_SUB
+
+trojan://humanity@104.18.152.210:443?security=tls&type=ws&sni=www.ignitelimit.com#☁️%20Cloudflare%2006%20@SCHPD_SUB
+
+vless://cd91af31-0c74-4bce-aac3-bdae367c84fa@43.203.252.196:21796?security=tls&type=tcp&sni=www.sony.com&path=&host=#🇰🇷%20韩国%2001%20@SCHPD_SUB
+
+vless://5a23e6b2-3cd3-4475-898e-0885d71da6ec@82.115.5.207:443?security=tls&type=ws&sni=us2.wxgqlfx.xyz&path=/TG@wxgqlfx&host=#🇳🇱%20荷兰%2001%20@SCHPD_SUB
+
+vless://b940be1b-3998-45d2-bf7b-06e7b6c4987a@172.104.110.10:14673?security=tls&type=ws&sni=2026060522.yja.de5.net&path=/&host=#🇯🇵%20日本%2002%20@SCHPD_SUB
+
+vless://e35adc70-2a7c-4fa1-a1d7-0985e4a61ec4@54.206.20.169:53243?security=tls&type=tcp&sni=yahoo.com&path=&host=#🇦🇺%20澳大利亚%2002%20@SCHPD_SUB
+
+vless://bf45d77d-59f7-4034-b10b-9c6c99cb9fbb@3.107.205.213:41876?security=tls&type=tcp&sni=yahoo.com&path=&host=#🇦🇺%20澳大利亚%2003%20@SCHPD_SUB
+
+vless://0a01fb0f-2b20-4088-84f6-4d742f1a3e10@13.230.213.47:45806?security=tls&type=tcp&sni=www.icloud.com&path=&host=#🇯🇵%20日本%2003%20@SCHPD_SUB
+
+vless://777d639d-48b7-4070-9215-48191a8edc4c@16.176.222.48:53887?security=tls&type=tcp&sni=yahoo.com&path=&host=#🇦🇺%20澳大利亚%2004%20@SCHPD_SUB
+
+vless://649dcb36-db0c-41b0-ad50-26ec755bee55@16.176.5.2:58981?security=tls&type=tcp&sni=yahoo.com&path=&host=#🇦🇺%20澳大利亚%2005%20@SCHPD_SUB
+
+vless://c6508e59-dd68-4dc0-b14f-3192e84ef843@13.231.185.74:47381?security=tls&type=tcp&sni=www.yahoo.com&path=&host=#🇯🇵%20日本%2004%20@SCHPD_SUB
+
+vless://3fd28704-112e-4451-8c5f-d6657f8ecf44@54.169.248.107:29746?security=tls&type=tcp&sni=www.intel.com&path=&host=#🇸🇬%20新加坡%2001%20@SCHPD_SUB
+
+vless://c84aafa4-4c6c-4459-90a2-44c92e542382@47.129.217.38:39551?security=tls&type=tcp&sni=www.sony.com&path=&host=#🇸🇬%20新加坡%2002%20@SCHPD_SUB
+
+vless://66031b35-3a36-4fc1-9225-b7c39a7b4453@52.76.240.5:35349?security=tls&type=tcp&sni=www.amazon.com&path=&host=#🇸🇬%20新加坡%2003%20@SCHPD_SUB
+
+vless://ba6c3fe7-19ba-4346-8ae3-41d6a2065f19@47.131.12.238:59597?security=tls&type=tcp&sni=www.tesla.com&path=&host=#🇸🇬%20新加坡%2004%20@SCHPD_SUB
+
+vless://2a222b39-411e-4d6d-800a-5d067199b6ec@13.212.10.113:51182?security=tls&type=tcp&sni=www.tesla.com&path=&host=#🇸🇬%20新加坡%2005%20@SCHPD_SUB
+
+vless://0ff7989d-59b3-4cbd-a2e4-960ac02fb2f1@46.137.225.209:32946?security=tls&type=tcp&sni=www.amd.com&path=&host=#🇸🇬%20新加坡%2006%20@SCHPD_SUB
+
+vmess://eyJ2IjoiMiIsInBzIjoi8J+HsvCfh74g6ams5p2l6KW/5LqaIDAxIEBTQ0hQRF9TVUIiLCJhZGQiOiJ2OC5oZGFjZC5jb20iLCJwb3J0IjoiMzA4MDgiLCJpZCI6ImNiYjNmODc3LWQxZmItMzQ0Yy04N2E5LWQxNTNiZmZkNTQ4NCIsImFpZCI6IjIiLCJzY3kiOiJhdXRvIiwibmV0IjoidGNwIiwidHlwZSI6Im5vbmUiLCJob3N0IjoiIiwicGF0aCI6IiIsInRscyI6IiJ9Cg==
+
+vmess://eyJ2IjoiMiIsInBzIjoi8J+HqfCfh6og5b635Zu9IDAyIEBTQ0hQRF9TVUIiLCJhZGQiOiI1MS43NS42OS4xNjQiLCJwb3J0IjoiMjA1MyIsImlkIjoiYmYyYzFkOWItODY0Yy00NTAzLTgxMzMtNjQ4NDg3YWMzYmM5IiwiYWlkIjoiMCIsInNjeSI6ImF1dG8iLCJuZXQiOiJ0Y3AiLCJ0eXBlIjoibm9uZSIsImhvc3QiOiIiLCJwYXRoIjoiIiwidGxzIjoiIn0K
+
+vmess://eyJ2IjoiMiIsInBzIjoi8J+HsvCfh74g6ams5p2l6KW/5LqaIDAyIEBTQ0hQRF9TVUIiLCJhZGQiOiJ2MzMuaGRhY2QuY29tIiwicG9ydCI6IjMwODMzIiwiaWQiOiJjYmIzZjg3Ny1kMWZiLTM0NGMtODdhOS1kMTUzYmZmZDU0ODQiLCJhaWQiOiIyIiwic2N5IjoiYXV0byIsIm5ldCI6InRjcCIsInR5cGUiOiJub25lIiwiaG9zdCI6IiIsInBhdGgiOiIiLCJ0bHMiOiIifQo=
+
+trojan://telegram-id-directvpn@15.236.237.21:22223?security=tls&type=tcp&sni=trojan.burgerip.co.uk#🇫🇷%20法国%2001%20@SCHPD_SUB
+
+trojan://telegram-id-privatevpns@15.236.237.21:22222?security=tls&type=tcp&sni=trojan.burgerip.co.uk#🇫🇷%20法国%2002%20@SCHPD_SUB
+
+vmess://eyJ2IjoiMiIsInBzIjoi8J+HsvCfh74g6ams5p2l6KW/5LqaIDAzIEBTQ0hQRF9TVUIiLCJhZGQiOiJ2MzUuaGRhY2QuY29tIiwicG9ydCI6IjMwODM1IiwiaWQiOiJjYmIzZjg3Ny1kMWZiLTM0NGMtODdhOS1kMTUzYmZmZDU0ODQiLCJhaWQiOiIyIiwic2N5IjoiYXV0byIsIm5ldCI6InRjcCIsInR5cGUiOiJub25lIiwiaG9zdCI6IiIsInBhdGgiOiIiLCJ0bHMiOiIifQo=
+
+trojan://4f4d1167-ef14-4304-9bce-0740472503ef@155.117.198.82:48697?security=tls&type=tcp&sni=gh.01.naiun.bilibili.com#🇺🇸%20美国%2019%20@SCHPD_SUB
+
+vmess://eyJ2IjoiMiIsInBzIjoi8J+HsvCfh74g6ams5p2l6KW/5LqaIDA0IEBTQ0hQRF9TVUIiLCJhZGQiOiJ2NC5oZGFjZC5jb20iLCJwb3J0IjoiMzA4MDQiLCJpZCI6ImNiYjNmODc3LWQxZmItMzQ0Yy04N2E5LWQxNTNiZmZkNTQ4NCIsImFpZCI6IjIiLCJzY3kiOiJhdXRvIiwibmV0IjoidGNwIiwidHlwZSI6Im5vbmUiLCJob3N0IjoiIiwicGF0aCI6IiIsInRscyI6IiJ9Cg==
+
+vmess://eyJ2IjoiMiIsInBzIjoi8J+HqfCfh6og5b635Zu9IDAzIEBTQ0hQRF9TVUIiLCJhZGQiOiI4Mi4xOTguMjQ2LjI1MCIsInBvcnQiOiIxODAiLCJpZCI6ImQxM2ZjMmY1LTNlMDUtNDc5NS04MWViLTQ0MTQzYTA5ZTU1MiIsImFpZCI6IjAiLCJzY3kiOiJhdXRvIiwibmV0IjoidGNwIiwidHlwZSI6Im5vbmUiLCJob3N0IjoiIiwicGF0aCI6IiIsInRscyI6IiJ9Cg==
+
+vless://''@104.17.3.81:80?security=none&type=ws&sni=r3xxe.eu.cc&path=/id-pusat&host=#☁️%20Cloudflare%2007%20@SCHPD_SUB
+
+vmess://eyJ2IjoiMiIsInBzIjoi8J+HsvCfh74g6ams5p2l6KW/5LqaIDA1IEBTQ0hQRF9TVUIiLCJhZGQiOiJ2MjQuaGRhY2QuY29tIiwicG9ydCI6IjMwODI0IiwiaWQiOiJjYmIzZjg3Ny1kMWZiLTM0NGMtODdhOS1kMTUzYmZmZDU0ODQiLCJhaWQiOiIyIiwic2N5IjoiYXV0byIsIm5ldCI6InRjcCIsInR5cGUiOiJub25lIiwiaG9zdCI6IiIsInBhdGgiOiIiLCJ0bHMiOiIifQo=
+
+vmess://eyJ2IjoiMiIsInBzIjoi8J+HsvCfh74g6ams5p2l6KW/5LqaIDA2IEBTQ0hQRF9TVUIiLCJhZGQiOiJ2Ni5oZGFjZC5jb20iLCJwb3J0IjoiMzA4MDYiLCJpZCI6ImNiYjNmODc3LWQxZmItMzQ0Yy04N2E5LWQxNTNiZmZkNTQ4NCIsImFpZCI6IjIiLCJzY3kiOiJhdXRvIiwibmV0IjoidGNwIiwidHlwZSI6Im5vbmUiLCJob3N0IjoiIiwicGF0aCI6IiIsInRscyI6IiJ9Cg==
+
+vmess://eyJ2IjoiMiIsInBzIjoi8J+HsvCfh74g6ams5p2l6KW/5LqaIDA3IEBTQ0hQRF9TVUIiLCJhZGQiOiJ2NDUuaGRhY2QuY29tIiwicG9ydCI6IjMwODQ1IiwiaWQiOiJjYmIzZjg3Ny1kMWZiLTM0NGMtODdhOS1kMTUzYmZmZDU0ODQiLCJhaWQiOiIyIiwic2N5IjoiYXV0byIsIm5ldCI6InRjcCIsInR5cGUiOiJub25lIiwiaG9zdCI6IiIsInBhdGgiOiIiLCJ0bHMiOiIifQo=
+
+vmess://eyJ2IjoiMiIsInBzIjoi8J+HsvCfh74g6ams5p2l6KW/5LqaIDA4IEBTQ0hQRF9TVUIiLCJhZGQiOiJ2MzYuaGRhY2QuY29tIiwicG9ydCI6IjMwODM2IiwiaWQiOiJjYmIzZjg3Ny1kMWZiLTM0NGMtODdhOS1kMTUzYmZmZDU0ODQiLCJhaWQiOiIyIiwic2N5IjoiYXV0byIsIm5ldCI6InRjcCIsInR5cGUiOiJub25lIiwiaG9zdCI6IiIsInBhdGgiOiIiLCJ0bHMiOiIifQo=
+
+trojan://825929f4-c702-35ce-9124-00d3f95b8c32@adak.sonofthewinds.com:34450?security=tls&type=tcp&sni=tt1.sonofthewinds.com#🇺🇸%20美国%2020%20@SCHPD_SUB
+
+vmess://eyJ2IjoiMiIsInBzIjoi8J+HrfCfh7Ag6aaZ5rivIDAxIEBTQ0hQRF9TVUIiLCJhZGQiOiIxNTQuMzcuMjIzLjE5IiwicG9ydCI6IjU2OTcyIiwiaWQiOiJhZTIyNTQ1NS01ZThjLTQ5MWQtZDkzMS1jMDZhYzU2ZjRhZWUiLCJhaWQiOiIwIiwic2N5IjoiYXV0byIsIm5ldCI6Imh0dHAiLCJ0eXBlIjoibm9uZSIsImhvc3QiOiIiLCJwYXRoIjoiICAgIHBhdGg6IiwidGxzIjoiIn0K
 
