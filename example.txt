@@ -32,3 +32,7 @@ vless://96eec36e-2c44-5b09-898e-6f0f0526e57f@23.235.42.205:80?security=none&type
 
 vless://5cdf99d3-a51b-570e-8245-f87d674dc652@151.101.129.57:80?security=none&type=xhttp&sni=''&path=&host=#🇺🇸%20美国%2007%20@SCHPD_SUB
 
+trojan://telegram-id-privatevpns@63.186.46.224:22222?security=tls&type=tcp&sni=trojan.burgerip.co.uk#🇩🇪%20德国%2002%20@SCHPD_SUB
+
+trojan://telegram-id-directvpn@63.186.46.224:22223?security=tls&type=tcp&sni=trojan.burgerip.co.uk#🇩🇪%20德国%2003%20@SCHPD_SUB
+
