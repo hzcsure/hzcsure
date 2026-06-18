@@ -32,7 +32,29 @@ vless://96eec36e-2c44-5b09-898e-6f0f0526e57f@23.235.42.205:80?security=none&type
 
 vless://5cdf99d3-a51b-570e-8245-f87d674dc652@151.101.129.57:80?security=none&type=xhttp&sni=''&path=&host=#🇺🇸%20美国%2007%20@SCHPD_SUB
 
-trojan://telegram-id-privatevpns@63.186.46.224:22222?security=tls&type=tcp&sni=trojan.burgerip.co.uk#🇩🇪%20德国%2002%20@SCHPD_SUB
+vmess://eyJ2IjoiMiIsInBzIjoi8J+HqfCfh6og5b635Zu9IDAyIEBTQ0hQRF9TVUIiLCJhZGQiOiIxNjcuMjM1LjEwOC44NiIsInBvcnQiOiIxNDk5MSIsImlkIjoiZDRkZDA0ODEtYmM5Yy00NTIxLTg2ZWEtMGM5ZjU1ZjBhYWQ1IiwiYWlkIjoiMCIsInNjeSI6ImF1dG8iLCJuZXQiOiJ0Y3AiLCJ0eXBlIjoibm9uZSIsImhvc3QiOiIiLCJwYXRoIjoiIiwidGxzIjoiIn0K
 
-trojan://telegram-id-directvpn@63.186.46.224:22223?security=tls&type=tcp&sni=trojan.burgerip.co.uk#🇩🇪%20德国%2003%20@SCHPD_SUB
+vmess://eyJ2IjoiMiIsInBzIjoi8J+HqfCfh6og5b635Zu9IDAzIEBTQ0hQRF9TVUIiLCJhZGQiOiI0Ni4yMjUuMjUyLjMyIiwicG9ydCI6IjE0OTkxIiwiaWQiOiJkNGRkMDQ4MS1iYzljLTQ1MjEtODZlYS0wYzlmNTVmMGFhZDUiLCJhaWQiOiIwIiwic2N5IjoiYXV0byIsIm5ldCI6InRjcCIsInR5cGUiOiJub25lIiwiaG9zdCI6IiIsInBhdGgiOiIiLCJ0bHMiOiIifQo=
+
+vmess://eyJ2IjoiMiIsInBzIjoi8J+HqfCfh6og5b635Zu9IDA0IEBTQ0hQRF9TVUIiLCJhZGQiOiI0Ni4yMjUuMjU1LjgyIiwicG9ydCI6IjE0OTkxIiwiaWQiOiJkNGRkMDQ4MS1iYzljLTQ1MjEtODZlYS0wYzlmNTVmMGFhZDUiLCJhaWQiOiIwIiwic2N5IjoiYXV0byIsIm5ldCI6InRjcCIsInR5cGUiOiJub25lIiwiaG9zdCI6IiIsInBhdGgiOiIiLCJ0bHMiOiIifQo=
+
+trojan://telegram-id-directvpn@18.193.218.173:22223?security=tls&type=tcp&sni=trojan.burgerip.co.uk#🇩🇪%20德国%2005%20@SCHPD_SUB
+
+trojan://telegram-id-privatevpns@18.193.218.173:22222?security=tls&type=tcp&sni=trojan.burgerip.co.uk#🇩🇪%20德国%2006%20@SCHPD_SUB
+
+trojan://telegram-id-directvpn@3.64.2.50:22223?security=tls&type=tcp&sni=trojan.burgerip.co.uk#🇩🇪%20德国%2007%20@SCHPD_SUB
+
+trojan://telegram-id-privatevpns@3.64.2.50:22222?security=tls&type=tcp&sni=trojan.burgerip.co.uk#🇩🇪%20德国%2008%20@SCHPD_SUB
+
+vmess://eyJ2IjoiMiIsInBzIjoi8J+MkCDkvIrmnJcgMDEgQFNDSFBEX1NVQiIsImFkZCI6IjE4OC4xMjEuMTA5LjU1IiwicG9ydCI6IjYwNjYiLCJpZCI6IjlhZWI5MWY3LWM1MzktNGYxNS04ZmJkLWZiMTdlZmFjYTBlNiIsImFpZCI6IjAiLCJzY3kiOiJhdXRvIiwibmV0Ijoid3MiLCJ0eXBlIjoibm9uZSIsImhvc3QiOiIiLCJwYXRoIjoiLyIsInRscyI6IiJ9Cg==
+
+trojan://telegram-id-privatevpns@35.181.85.57:22222?security=tls&type=tcp&sni=trojan.burgerip.co.uk#🇫🇷%20法国%2001%20@SCHPD_SUB
+
+trojan://telegram-id-directvpn@13.36.52.200:22223?security=tls&type=tcp&sni=trojan.burgerip.co.uk#🇫🇷%20法国%2002%20@SCHPD_SUB
+
+trojan://telegram-id-privatevpns@13.36.52.200:22222?security=tls&type=tcp&sni=trojan.burgerip.co.uk#🇫🇷%20法国%2003%20@SCHPD_SUB
+
+trojan://telegram-id-directvpn@35.181.85.57:22223?security=tls&type=tcp&sni=trojan.burgerip.co.uk#🇫🇷%20法国%2004%20@SCHPD_SUB
+
+vmess://eyJ2IjoiMiIsInBzIjoi8J+HuvCfh7gg576O5Zu9IDA4IEBTQ0hQRF9TVUIiLCJhZGQiOiI2OS44NC4xODIuNDkiLCJwb3J0IjoiODAiLCJpZCI6ImY4OTc1ODcxLWE3YTAtNDkwNi04ODM1LWEyM2MxMjU4Y2ExZSIsImFpZCI6IjAiLCJzY3kiOiJhdXRvIiwibmV0Ijoid3MiLCJ0eXBlIjoibm9uZSIsImhvc3QiOiIiLCJwYXRoIjoiLyIsInRscyI6IiJ9Cg==
 
