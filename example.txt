@@ -52,23 +52,23 @@ vless://394f6981-a782-4779-9a85-e6cf22935d93@95.173.199.86:8443?security=tls&typ
 
 trojan://4f4d1167-ef14-4304-9bce-0740472503ef@103.177.136.45:48697?security=tls&type=tcp&sni=gh.01.naiun.bilibili.com#🇭🇰%20香港%2012%20@SCHPD_SUB
 
-vless://27f914c5-bdcc-441a-9459-368daf552606@fh2.freechatup2.com:443?security=tls&type=tcp&sni=m.media-amazon.com&path=&host=#🇺🇸%20美国%2002%20@SCHPD_SUB
+vless://27f914c5-bdcc-441a-9459-368daf552606@fh2.freechatup2.com:443?security=tls&type=tcp&sni=m.media-amazon.com&path=&host=#🇦🇹%20奥地利%2001%20@SCHPD_SUB
 
-vless://4c9b304f-ec00-41af-be5b-aa3f22ed430e@fsxhh.fastshop1.com:443?security=tls&type=xhttp&sni=ssl.fastly.com&path=&host=#🇺🇸%20美国%2003%20@SCHPD_SUB
+vless://4c9b304f-ec00-41af-be5b-aa3f22ed430e@fsxhh.fastshop1.com:443?security=tls&type=xhttp&sni=ssl.fastly.com&path=&host=#🇺🇸%20美国%2002%20@SCHPD_SUB
 
 vless://5982d32f-f2e4-4267-a8ad-48492e65344c@95.133.242.210:443?security=tls&type=tcp&sni=filesconvert.org&path=&host=#🇬🇧%20英国%2002%20@SCHPD_SUB
 
 trojan://OccIqeORGQwiNkwS@jpbgp.netvigor.cc:19128?security=tls&type=tcp&sni=yazhou10.dynu.net#🇭🇰%20香港%2013%20@SCHPD_SUB
 
-vless://27f914c5-bdcc-441a-9459-368daf552606@fh1.freechatup2.com:443?security=tls&type=tcp&sni=m.media-amazon.com&path=&host=#🇺🇸%20美国%2004%20@SCHPD_SUB
+vless://27f914c5-bdcc-441a-9459-368daf552606@fh1.freechatup2.com:443?security=tls&type=tcp&sni=m.media-amazon.com&path=&host=#🌐%20阿尔巴尼亚%2001%20@SCHPD_SUB
 
-vless://27f914c5-bdcc-441a-9459-368daf552606@fh3.freechatup2.com:443?security=tls&type=tcp&sni=m.media-amazon.com&path=&host=#🇭🇰%20香港%2014%20@SCHPD_SUB
+vless://27f914c5-bdcc-441a-9459-368daf552606@fh3.freechatup2.com:443?security=tls&type=tcp&sni=m.media-amazon.com&path=&host=#🇦🇪%20阿联酋%2001%20@SCHPD_SUB
 
-vless://27f914c5-bdcc-441a-9459-368daf552606@fh6.freechatup2.com:443?security=tls&type=tcp&sni=m.media-amazon.com&path=&host=#🇭🇰%20香港%2015%20@SCHPD_SUB
+vless://27f914c5-bdcc-441a-9459-368daf552606@fh6.freechatup2.com:443?security=tls&type=tcp&sni=m.media-amazon.com&path=&host=#🇯🇵%20日本%2002%20@SCHPD_SUB
 
 vless://394f6981-a782-4779-9a85-e6cf22935d93@87.249.139.235:8443?security=tls&type=tcp&sni=ams1.fromblancwithlove.com&path=&host=#🇹🇷%20土耳其%2002%20@SCHPD_SUB
 
-vless://27f914c5-bdcc-441a-9459-368daf552606@media6.hihidress.com:443?security=tls&type=tcp&sni=www.mi.com&path=&host=#🇺🇸%20美国%2005%20@SCHPD_SUB
+vless://27f914c5-bdcc-441a-9459-368daf552606@media6.hihidress.com:443?security=tls&type=tcp&sni=www.mi.com&path=&host=#🇺🇸%20美国%2003%20@SCHPD_SUB
 
 vless://394f6981-a782-4779-9a85-e6cf22935d93@95.173.199.87:8443?security=tls&type=tcp&sni=ams1.fromblancwithlove.com&path=&host=#🇷🇴%20罗马尼亚%2004%20@SCHPD_SUB
 
@@ -80,11 +80,13 @@ vless://394f6981-a782-4779-9a85-e6cf22935d93@152.233.28.201:8443?security=tls&ty
 
 vless://394f6981-a782-4779-9a85-e6cf22935d93@87.249.139.233:8443?security=tls&type=tcp&sni=ams1.fromblancwithlove.com&path=&host=#🇹🇷%20土耳其%2003%20@SCHPD_SUB
 
-trojan://telegram-id-directvpn@63.185.169.158:22223?security=tls&type=tcp&sni=trojan.burgerip.co.uk#🇩🇪%20德国%2003%20@SCHPD_SUB
+trojan://telegram-id-directvpn@52.28.80.88:22223?security=tls&type=tcp&sni=trojan.burgerip.co.uk#🇩🇪%20德国%2003%20@SCHPD_SUB
 
-trojan://telegram-id-directvpn@15.224.37.193:22223?security=tls&type=tcp&sni=trojan.burgerip.co.uk#🇫🇷%20法国%2001%20@SCHPD_SUB
+vmess://eyJ2IjoiMiIsInBzIjoi8J+MkCDkvIrmnJcgMDEgQFNDSFBEX1NVQiIsImFkZCI6InNwdC5yZWF0YS5pciIsInBvcnQiOiIxMDIwIiwiaWQiOiJhODAyMmVkYi0wYmQ3LTRmODYtYjcwZC0yMGY3ZjhhNTk4MTQiLCJhaWQiOiIwIiwic2N5IjoiYXV0byIsIm5ldCI6InRjcCIsInR5cGUiOiJub25lIiwiaG9zdCI6IiIsInBhdGgiOiIiLCJ0bHMiOiIifQo=
 
-vmess://eyJ2IjoiMiIsInBzIjoi8J+HuvCfh7gg576O5Zu9IDA2IEBTQ0hQRF9TVUIiLCJhZGQiOiIxMDcuMTczLjI3LjIxOSIsInBvcnQiOiI2NjY2IiwiaWQiOiJmMGEyZmJlNS0yOWJmLTQ2OGMtZGRjMS1iNTI0NTUyZDFhMjMiLCJhaWQiOiIwIiwic2N5IjoiYXV0byIsIm5ldCI6IndzIiwidHlwZSI6Im5vbmUiLCJob3N0IjoiIiwicGF0aCI6Ii95b3V0dWJlIiwidGxzIjoiIn0K
+vmess://eyJ2IjoiMiIsInBzIjoi8J+MkCDkvIrmnJcgMDIgQFNDSFBEX1NVQiIsImFkZCI6InNwdC5yZWF0YS5pciIsInBvcnQiOiIxMDUwIiwiaWQiOiJiNWIxODNiNi1hNGYwLTQxYWQtYTAxNS1iYTlmMDAwYWQ3ZWQiLCJhaWQiOiIwIiwic2N5IjoiYXV0byIsIm5ldCI6InRjcCIsInR5cGUiOiJub25lIiwiaG9zdCI6IiIsInBhdGgiOiIiLCJ0bHMiOiIifQo=
 
-trojan://SoftNetConnect@37.156.45.237:42549?security=tls&type=tcp&sni=www.speedtest.net#🇨🇭%20瑞士%2001%20@SCHPD_SUB
+trojan://telegram-id-privatevpns@13.38.243.57:22222?security=tls&type=tcp&sni=trojan.burgerip.co.uk#🇫🇷%20法国%2001%20@SCHPD_SUB
+
+vmess://eyJ2IjoiMiIsInBzIjoi8J+HrfCfh7Ag6aaZ5rivIDE0IEBTQ0hQRF9TVUIiLCJhZGQiOiIxNTQuMzcuMjIzLjU2IiwicG9ydCI6IjM1MTE1IiwiaWQiOiJiOTVhZGYwMi04ZDU0LTQ4MmYtOGIyNi1lNDk0NTBjODczY2UiLCJhaWQiOiIwIiwic2N5IjoiYXV0byIsIm5ldCI6Imh0dHAiLCJ0eXBlIjoibm9uZSIsImhvc3QiOiIiLCJwYXRoIjoiICAgIHBhdGg6IiwidGxzIjoiIn0K
 
