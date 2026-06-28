@@ -86,9 +86,9 @@ vmess://eyJ2IjoiMiIsInBzIjoi8J+HqfCfh6og5b635Zu9IDAxIEBTQ0hQRF9TVUIiLCJhZGQiOiI4
 
 vmess://eyJ2IjoiMiIsInBzIjoi4piB77iPIENsb3VkZmxhcmUgMDMgQFNDSFBEX1NVQiIsImFkZCI6ImgxLmJubS51dy50byIsInBvcnQiOiI0NDMiLCJpZCI6IjMyZDdjNWM3LWFiOTYtNDgwMy1iZmYzLWNiOWM2N2U2NmE2NCIsImFpZCI6IjAiLCJzY3kiOiJhdXRvIiwibmV0Ijoid3MiLCJ0eXBlIjoibm9uZSIsImhvc3QiOiIiLCJwYXRoIjoiLzMyZDdjNWM3LWFiOTYtNDgwMy1iZmYzLWNiOWM2N2U2NmE2NC12bSIsInRscyI6IiJ9Cg==
 
-trojan://63872b0d-87dd-4474-b690-92773af2922e@d1.catcat321.com:42531?security=tls&type=tcp&sni=d.usj1.cat.bilibili.com#🇯🇵%20日本%2001%20@SCHPD_SUB
+trojan://63872b0d-87dd-4474-b690-92773af2922e@d1.catcat321.com:42531?security=tls&type=tcp&sni=d.usj1.cat.bilibili.com#🌐%20未知%2001%20@SCHPD_SUB
 
-trojan://7e70223b-f331-41d5-9313-02b8d2df2885@d1.catcat321.com:56168?security=tls&type=tcp&sni=d.usj1.cat.bilibili.com#🇯🇵%20日本%2002%20@SCHPD_SUB
+trojan://7e70223b-f331-41d5-9313-02b8d2df2885@d1.catcat321.com:56168?security=tls&type=tcp&sni=d.usj1.cat.bilibili.com#🌐%20未知%2002%20@SCHPD_SUB
 
 vmess://eyJ2IjoiMiIsInBzIjoi4piB77iPIENsb3VkZmxhcmUgMDQgQFNDSFBEX1NVQiIsImFkZCI6IlNMMi5ibm0udXcudG8iLCJwb3J0IjoiNDQzIiwiaWQiOiJiYzFmMDM0MC05NTRhLTRlNjktODY3Ni1mOTE2NjI5ZTZmMmEiLCJhaWQiOiIwIiwic2N5IjoiYXV0byIsIm5ldCI6IndzIiwidHlwZSI6Im5vbmUiLCJob3N0IjoiIiwicGF0aCI6Ii9iYzFmMDM0MC05NTRhLTRlNjktODY3Ni1mOTE2NjI5ZTZmMmEtdm0iLCJ0bHMiOiIifQo=
 
