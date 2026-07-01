@@ -36,7 +36,7 @@ jobs:
           python3 -m pip install --upgrade telethon
 
       - name: RuntestPy
-        id: getfile.py                         # ← 修复缩进和空格
+        id: getfile                      # ← 修复缩进和空格
         run: |
           python3 getfile.py
           if [ -f ./Y.yaml ]; then
