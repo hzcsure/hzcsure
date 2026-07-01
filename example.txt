@@ -12,6 +12,7 @@ trojan://4f4d1167-ef14-4304-9bce-0740472503ef@103.177.136.45:47909?security=tls&
 trojan://4f4d1167-ef14-4304-9bce-0740472503ef@103.177.136.45:48697?security=tls&type=tcp&sni=gh.01.naiun.bilibili.com#🇭🇰%20香港%2009%20@SCHPD_SUB
 trojan://63872b0d-87dd-4474-b690-92773af2922e@d1.catcat321.com:42531?security=tls&type=tcp&sni=d.usj1.cat.bilibili.com#🇯🇵%20日本%2001%20@SCHPD_SUB
 trojan://7e70223b-f331-41d5-9313-02b8d2df2885@d1.catcat321.com:56168?security=tls&type=tcp&sni=d.usj1.cat.bilibili.com#🇯🇵%20日本%2002%20@SCHPD_SUB
+trojan://BxceQaOe@16.162.118.81:9211?security=tls&type=tcp&sni=t.me/ripaojiedian#🇭🇰%20香港%2013%20@SCHPD_SUB
 trojan://Mitivpn@151.101.1.242:443?security=tls&type=ws&sni=cdn.gamingdll.ir#🇺🇸%20美国%2006%20@SCHPD_SUB
 trojan://Mitivpn@151.101.110.219:443?security=tls&type=ws&sni=ssl.fastly.com#🇺🇸%20美国%2003%20@SCHPD_SUB
 trojan://Mitivpn@151.101.56.6:443?security=tls&type=ws&sni=ssl.fastly.com#🇺🇸%20美国%2005%20@SCHPD_SUB
