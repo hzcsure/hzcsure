@@ -10,7 +10,7 @@ on:
     - cron: '10 03 * * *'
     - cron: '20 03 * * *'
     - cron: '30 03 * * *'
-    - cron: '20 05 * * *'
+    - cron: '50 05 * * *'
   repository_dispatch:
     types:
       - letaction
