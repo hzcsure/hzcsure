@@ -15,45 +15,51 @@ on:
     types:
       - letaction
   workflow_dispatch:
-env: # Or as an environment variable
+
+env:
   API_HASH: ${{ secrets.API_HASH }}
   API_ID: ${{ secrets.API_ID }}
   SESSION_STRING: ${{ secrets.SESSION_STRING }}
   SEND_TO: ${{ secrets.SEND_TO }}
   SEND_MS: ${{ secrets.SEND_MS }}
+
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
         uses: actions/checkout@v5
+
       - name: Install requirements
         run: |
           find /usr/lib/ -name EXTERNALLY-MANAGED -exec sudo rm {} \;
           python3 -m pip install --upgrade telethon
+
       - name: RuntestPy
-          id:getfile.py
+        id: getfile.py                         # ← 修复缩进和空格
         run: |
-           python3 getfile.py
-           if [ -f ./Y.yaml ]; then
-             chmod +x ./yaml2proxy.sh
-             ./yaml2proxy.sh Y.yaml |grep "." >> example.txt
-             tail -300 example.txt >tmp.txt
-             sort tmp.txt | uniq > example.txt
-           fi
+          python3 getfile.py
+          if [ -f ./Y.yaml ]; then
+            chmod +x ./yaml2proxy.sh
+            ./yaml2proxy.sh Y.yaml | grep "." >> example.txt
+            tail -300 example.txt > tmp.txt
+            sort tmp.txt | uniq > example.txt
+          fi
+
       - name: Run
         run: |
           date
           ls -ltr
           if [ -f ./example.txt ]; then
-             echo  "File exists"
+             echo "File exists"
              echo "random_number=1" >> $GITHUB_OUTPUT
           else
              echo "File does not exist"
              echo "random_number=0" >> $GITHUB_OUTPUT
           fi
+
       - name: Commit
-          id:commit
+        id: commit                              # ← 修复缩进和空格
         env:
           GIT_NAME: GitHub Actions[Bot]
           GIT_EMAIL: 41898282+github-actions[bot]@users.noreply.github.com
@@ -64,11 +70,10 @@ jobs:
             git add example.txt
             git commit -m "Github action update at `date '+%Y-%m-%d %H:%M:%S'`."
           fi
+
       - name: Push
-          id:push
+        id: push                                # ← 修复缩进和空格
         uses: ad-m/github-push-action@master
         with:
           github_token: ${{ secrets.PUSH_TOKEN }}
           branch: main
-        
-          
