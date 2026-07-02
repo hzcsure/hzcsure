@@ -44,11 +44,18 @@ async def download_last_yaml():
     last_yaml_msg = unread_yaml_files[0]
     print(f"\n🎉 找到最后一个 yaml 文件：{last_yaml_msg.file.name}")
     
+    # ✅ 下载并重命名为 Z.yaml
+    save_path = await last_yaml_msg.download_media(file="Z.yaml")
+    print(f"✅ 下载完成！保存路径：{save_path}")
 
+    # ✅ 取【倒数第二个】yaml 文件
+    last_yaml_msg = unread_yaml_files[0]
+    print(f"\n🎉 找到倒数第二个 yaml 文件：{last_yaml_msg.file.name}")
+    
     # ✅ 下载并重命名为 Y.yaml
     save_path = await last_yaml_msg.download_media(file="Y.yaml")
     print(f"✅ 下载完成！保存路径：{save_path}")
-
+    
     await client.disconnect()
     return save_path
 
