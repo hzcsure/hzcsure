@@ -26,7 +26,7 @@ jobs:
           python3 -m pip install --upgrade telethon
 
       - name: RuntestPy
-        id: getfile                      # ← 修复缩进和空格
+        id: getfile
         run: |
           python3 getfile.py
           if [ -f ./Y.yaml ]; then
@@ -49,7 +49,7 @@ jobs:
           fi
 
       - name: Commit
-        id: commit                              # ← 修复缩进和空格
+        id: commit
         env:
           GIT_NAME: GitHub Actions[Bot]
           GIT_EMAIL: 41898282+github-actions[bot]@users.noreply.github.com
@@ -62,7 +62,7 @@ jobs:
           fi
 
       - name: Push
-        id: push                                # ← 修复缩进和空格
+        id: push
         uses: ad-m/github-push-action@master
         with:
           github_token: ${{ secrets.PUSH_TOKEN }}
