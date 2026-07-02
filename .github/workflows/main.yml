@@ -27,23 +27,17 @@ jobs:
       - name: RuntestPy
           id:getfile.py
         run: |
-           if [ -f ./example.txt ]; then
-              echo "here in example.txt"
-              #cat ./example.txt
-              echo ""
-              echo "here to sed"
-              sed '/^ss/d' ./example.txt >> ./example2.txt
-              if [ $(wc -l < ./example2.txt) -gt 40 ];then
-                tail -n 10 ./example2.txt > ./example2.txt
-              fi
-              #cat ./example2.txt
-              rm ./example.txt
-           fi
            python3 getfile.py
+           chmod +x ./yaml2proxy.sh
            if [ -f ./Y.yaml ]; then
-             chmod +x ./yaml2proxy.sh
-             ./yaml2proxy.sh Y.yaml >> example.txt
+             ./yaml2proxy.sh Y.yaml |grep "." >> tmp.txt
            fi
+           if [ -f ./Z.yaml ]; then
+             ./yaml2proxy.sh Z.yaml |grep "." >> tmp.txt
+           fi
+           cat ./tmp.txt >> example.txt
+           sort -n ./example.txt |uniq > example.txt
+           
       - name: Run
         run: |
           date
