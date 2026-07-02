@@ -36,7 +36,7 @@ jobs:
              ./yaml2proxy.sh Z.yaml |grep "." >> tmp.txt
            fi
            cat ./tmp.txt >> example.txt
-           cat example.txt
+           #cat example.txt
            sort example.txt |uniq > tmp.txt
            mv -f tmp.txt example.txt
            
