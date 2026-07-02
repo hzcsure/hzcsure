@@ -37,8 +37,8 @@ jobs:
            fi
            cat ./tmp.txt >> example.txt
            cat example.txt
-           sort example.txt |uniq > example_tmp.txt
-           mv -f example_tmp.txt example.txt
+           sort example.txt |uniq > tmp.txt
+           mv -f tmp.txt example.txt
            
       - name: Run
         run: |
