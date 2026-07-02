@@ -49,7 +49,7 @@ async def download_last_yaml():
     print(f"✅ 下载完成！保存路径：{save_path}")
 
     # ✅ 取【倒数第二个】yaml 文件
-    last_yaml_msg = unread_yaml_files[0]
+    last_yaml_msg = unread_yaml_files[1]
     print(f"\n🎉 找到倒数第二个 yaml 文件：{last_yaml_msg.file.name}")
     
     # ✅ 下载并重命名为 Y.yaml
