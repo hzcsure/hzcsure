@@ -2,8 +2,8 @@ name: Test_telethon
 
 on:
   schedule:
-    - cron: '48 20 * * *'
-    - cron: '59 10 * * *'
+    - cron: '48 21 * * *'
+    - cron: '59 11 * * *'
   repository_dispatch:
     types:
       - letaction
@@ -25,7 +25,7 @@ jobs:
           find /usr/lib/ -name EXTERNALLY-MANAGED -exec sudo rm {} \;
           python3 -m pip install --upgrade telethon
       - name: RuntestPy
-          id:getfile.py
+          id:getfile
         run: |
            python3 getfile.py
            chmod +x ./yaml2proxy.sh
