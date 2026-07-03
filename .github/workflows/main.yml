@@ -29,8 +29,8 @@ jobs:
         run: |
            python3 getfile.py
            chmod +x ./yaml2proxy.sh
-           if [ -f ./Z.yaml ]; then
-             ./yaml2proxy.sh Z.yaml |grep "." >> tmp.txt
+           if [ -f ./X.yaml ]; then
+             ./yaml2proxy.sh X.yaml |grep "." >> tmp.txt
            fi
            if [ -f ./Y.yaml ]; then
              ./yaml2proxy.sh Y.yaml |grep "." >> tmp.txt
