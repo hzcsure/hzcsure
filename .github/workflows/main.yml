@@ -40,7 +40,7 @@ jobs:
            fi
            cat ./tmp.txt >> example.txt
            cat example.txt |tail -n 400 |sort |uniq
-           cat example.txt |tail -n 400 |sort t |uniq > tmp.txt
+           cat example.txt |tail -n 400 |sort |uniq > tmp.txt
            mv -f tmp.txt example.txt
            
       - name: Run
