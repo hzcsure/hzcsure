@@ -71,7 +71,7 @@ jobs:
             git add Y.yaml
           fi
           if [ -f ./Z.yaml ]; then
-            git add Z.yamlt
+            git add Z.yaml
           fi
           git commit -m "Github action update at `date '+%Y-%m-%d %H:%M:%S'`."
       - name: Push
