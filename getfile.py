@@ -2,6 +2,7 @@
 
 import os
 import re
+import base64
 from telethon import TelegramClient, events, sync
 from telethon import functions, types
 from telethon.sessions import StringSession
@@ -13,12 +14,14 @@ api_id = os.environ.get("API_ID", "")
 api_hash = os.environ.get("API_HASH", "")
 session_string = os.environ.get("SESSION_STRING", "")
 #client = TelegramClient(StringSession(session_string), api_id, api_hash)
-CHANNEL = "https://t.me/schpd_chat"
+chan_name_e = "c2NocGRfY2hhdAo="
+chan_name_d = base64.b64decode(encoded).decode()
+CHANNEL = "https://t.me/" + chan_name_d
 async def download_last_yaml():
     client = TelegramClient(StringSession(session_string), api_id, api_hash)
     await client.start()
     channel = await client.get_entity(CHANNEL)
-    print(f"✅ 已连接频道：{channel.title}")
+    #print(f"✅ 已连接频道：{channel.title}")
 
     # 存储所有未读的 yaml 文件
     unread_yaml_files = []
