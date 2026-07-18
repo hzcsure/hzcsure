@@ -24,7 +24,7 @@ async def download_last_yaml():
     unread_yaml_files = []
 
     # 遍历最新消息，只取未读
-    async for msg in client.iter_messages(channel, limit=8):
+    async for msg in client.iter_messages(channel, limit=100):
 #        if msg.read:
 #            break  # 遇到已读就停止
 
