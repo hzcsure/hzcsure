@@ -18,7 +18,7 @@ async def download_last_yaml():
     client = TelegramClient(StringSession(session_string), api_id, api_hash)
     await client.start()
     channel = await client.get_entity(CHANNEL)
-    #print(f"✅ 已连接频道：{channel.title}")
+    print(f"✅ 已连接频道：{channel.title}")
 
     # 存储所有未读的 yaml 文件
     unread_yaml_files = []
