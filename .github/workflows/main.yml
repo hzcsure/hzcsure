@@ -59,12 +59,21 @@ jobs:
           GIT_NAME: GitHub Actions[Bot]
           GIT_EMAIL: 41898282+github-actions[bot]@users.noreply.github.com
         run: |
+          git config --local user.name $GIT_NAME
+          git config --local user.email $GIT_EMAIL
           if [ -f ./example.txt ]; then
-            git config --local user.name $GIT_NAME
-            git config --local user.email $GIT_EMAIL
             git add example.txt
-            git commit -m "Github action update at `date '+%Y-%m-%d %H:%M:%S'`."
           fi
+          if [ -f ./X.yaml ]; then
+            git add X.yaml
+          fi
+          if [ -f ./Y.yaml ]; then
+            git add Y.yaml
+          fi
+          if [ -f ./Z.yaml ]; then
+            git add Z.yamlt
+          fi
+          git commit -m "Github action update at `date '+%Y-%m-%d %H:%M:%S'`."
       - name: Push
           id:push
         uses: ad-m/github-push-action@master
