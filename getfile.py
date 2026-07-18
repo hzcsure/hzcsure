@@ -13,7 +13,7 @@ api_id = os.environ.get("API_ID", "")
 api_hash = os.environ.get("API_HASH", "")
 session_string = os.environ.get("SESSION_STRING", "")
 #client = TelegramClient(StringSession(session_string), api_id, api_hash)
-CHANNEL = "https://t.me/SCHPD_SUB"
+CHANNEL = "https://t.me/schpd_chat"
 async def download_last_yaml():
     client = TelegramClient(StringSession(session_string), api_id, api_hash)
     await client.start()
