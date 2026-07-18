@@ -1,0 +1,851 @@
+port: 7890
+socks-port: 7891
+allow-lan: true
+mode: rule
+log-level: info
+ipv6: true
+external-controller: 127.0.0.1:6170
+dns:
+  enable: true
+  enhanced-mode: fake-ip
+  fake-ip-range: 198.18.0.1/15
+  nameserver:
+  - 223.5.5.5
+  - 119.29.29.29
+proxy-groups:
+- name: 手动选择
+  type: select
+  proxies: &id001
+  - 🇦🇺 澳大利亚 01 @SCHPD
+  - 🇨🇳 中国 01 @SCHPD
+  - 🇨🇳 中国 02 @SCHPD
+  - 🇩🇪 德国 01 @SCHPD
+  - 🇩🇪 德国 02 @SCHPD
+  - 🇫🇷 法国 01 @SCHPD
+  - 🇫🇷 法国 02 @SCHPD
+  - 🇭🇰 香港 01 @SCHPD
+  - 🇭🇰 香港 02 @SCHPD
+  - 🇭🇰 香港 03 @SCHPD
+  - 🇭🇰 香港 04 @SCHPD
+  - 🇭🇰 香港 05 @SCHPD
+  - 🇮🇪 爱尔兰 01 @SCHPD
+  - 🇮🇪 爱尔兰 02 @SCHPD
+  - 🇯🇵 日本 01 @SCHPD
+  - 🇯🇵 日本 02 @SCHPD
+  - 🇯🇵 日本 03 @SCHPD
+  - 🇯🇵 日本 04 @SCHPD
+  - 🇯🇵 日本 05 @SCHPD
+  - 🇯🇵 日本 06 @SCHPD
+  - 🇯🇵 日本 07 @SCHPD
+  - 🇯🇵 日本 08 @SCHPD
+  - 🇯🇵 日本 09 @SCHPD
+  - 🇯🇵 日本 10 @SCHPD
+  - 🇯🇵 日本 11 @SCHPD
+  - 🇯🇵 日本 12 @SCHPD
+  - 🇯🇵 日本 13 @SCHPD
+  - 🇯🇵 日本 14 @SCHPD
+  - 🇯🇵 日本 15 @SCHPD
+  - 🇯🇵 日本 16 @SCHPD
+  - 🇯🇵 日本 17 @SCHPD
+  - 🇯🇵 日本 18 @SCHPD
+  - 🇯🇵 日本 19 @SCHPD
+  - 🇯🇵 日本 20 @SCHPD
+  - 🇯🇵 日本 21 @SCHPD
+  - 🇯🇵 日本 22 @SCHPD
+  - 🇯🇵 日本 23 @SCHPD
+  - 🇯🇵 日本 24 @SCHPD
+  - 🇯🇵 日本 25 @SCHPD
+  - 🇯🇵 日本 26 @SCHPD
+  - 🇯🇵 日本 27 @SCHPD
+  - 🇯🇵 日本 28 @SCHPD
+  - 🇯🇵 日本 29 @SCHPD
+  - 🇯🇵 日本 30 @SCHPD
+  - 🇯🇵 日本 31 @SCHPD
+  - 🇰🇷 韩国 01 @SCHPD
+  - 🇰🇷 韩国 02 @SCHPD
+  - 🇰🇷 韩国 03 @SCHPD
+  - 🇰🇷 韩国 04 @SCHPD
+  - 🇰🇷 韩国 05 @SCHPD
+  - 🇰🇷 韩国 06 @SCHPD
+  - 🇰🇷 韩国 07 @SCHPD
+  - 🇰🇷 韩国 08 @SCHPD
+  - 🇰🇷 韩国 09 @SCHPD
+  - 🇳🇱 荷兰 01 @SCHPD
+  - 🇳🇱 荷兰 02 @SCHPD
+  - 🇸🇬 新加坡 01 @SCHPD
+  - 🇸🇬 新加坡 02 @SCHPD
+  - 🇸🇬 新加坡 03 @SCHPD
+  - 🇸🇬 新加坡 04 @SCHPD
+  - 🇸🇬 新加坡 05 @SCHPD
+  - 🇸🇬 新加坡 06 @SCHPD
+  - 🇹🇼 台湾 01 @SCHPD
+  - 🇹🇼 台湾 02 @SCHPD
+  - 🇹🇼 台湾 03 @SCHPD
+  - 🇹🇼 台湾 04 @SCHPD
+  - 🇹🇼 台湾 05 @SCHPD
+  - 🇹🇼 台湾 06 @SCHPD
+  - 🇹🇼 台湾 07 @SCHPD
+  - 🇹🇼 台湾 08 @SCHPD
+- name: 自动选择
+  type: url-test
+  url: http://connectivitycheck.gstatic.com/generate_204
+  interval: 300
+  proxies: *id001
+- name: Proxy
+  type: select
+  proxies:
+  - 手动选择
+  - 自动选择
+  - DIRECT
+  - REJECT
+rules:
+- MATCH,Proxy
+proxies:
+- name: 🇹🇼 台湾 01 @SCHPD
+  server: family.bucket.x9.kfc-520.com
+  type: vmess
+  country: 🇭🇰HK
+  port: 10046
+  uuid: 1dc73529-f030-3ac5-ad64-f7666b9a51bc
+  alterId: 0
+  cipher: auto
+  network: tcp
+  servername: family.bucket.x9.kfc-520.com
+  http-opts: {}
+  h2-opts: {}
+  skip-cert-verify: true
+  delay: 1605
+  udp: true
+- name: 🇮🇪 爱尔兰 01 @SCHPD
+  server: correct-starfish.rooster465.autos
+  type: trojan
+  country: 🇮🇪IE
+  port: 443
+  password: NQ26071394
+  sni: correct-starfish.rooster465.autos
+  skip-cert-verify: true
+  udp: true
+  delay: 2376
+- name: 🇮🇪 爱尔兰 02 @SCHPD
+  server: fun-labrador.rooster465.autos
+  type: trojan
+  country: 🇮🇪IE
+  port: 443
+  password: NQ26071394
+  sni: fun-labrador.rooster465.autos
+  skip-cert-verify: true
+  udp: true
+  delay: 2378
+- name: 🇦🇺 澳大利亚 01 @SCHPD
+  server: stirring-dane.rooster465.autos
+  port: 443
+  type: trojan
+  password: XG59623478
+  sni: stirring-dane.rooster465.autos
+  skip-cert-verify: true
+  udp: true
+  delay: 2479
+- name: 🇨🇳 中国 01 @SCHPD
+  server: v33.hdacd.com
+  port: 30833
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  alterId: 2
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  udp: true
+  delay: 1866
+- name: 🇩🇪 德国 01 @SCHPD
+  server: certain-prawn.rooster465.autos
+  type: trojan
+  country: 🇩🇪DE
+  port: 443
+  password: NQ26071394
+  skip-cert-verify: true
+  udp: true
+  delay: 2227
+- name: 🇩🇪 德国 02 @SCHPD
+  server: 91.107.159.216
+  type: vmess
+  country: 🇮🇷IR
+  port: 43969
+  uuid: 4281e90a-a495-45ac-bac0-c4aa7ed133b1
+  alterId: 0
+  cipher: auto
+  network: tcp
+  http-opts: {}
+  h2-opts: {}
+  skip-cert-verify: true
+  delay: 1039
+  udp: true
+- name: 🇫🇷 法国 01 @SCHPD
+  server: ready-kangaroo.rooster465.autos
+  type: trojan
+  country: 🇫🇷FR
+  port: 443
+  password: NQ26071394
+  sni: ready-kangaroo.rooster465.autos
+  skip-cert-verify: true
+  udp: true
+  delay: 2659
+- name: 🇫🇷 法国 02 @SCHPD
+  server: chief-cricket.rooster465.autos
+  type: trojan
+  country: 🇫🇷FR
+  port: 443
+  password: NQ26071394
+  skip-cert-verify: true
+  udp: true
+  delay: 2621
+- name: 🇰🇷 韩国 01 @SCHPD
+  server: legible-ocelot.rooster465.autos
+  type: trojan
+  country: 🇰🇷KR
+  port: 443
+  password: NQ26071394
+  sni: legible-ocelot.rooster465.autos
+  skip-cert-verify: true
+  udp: true
+  delay: 1975
+- name: 🇰🇷 韩国 02 @SCHPD
+  server: genuine-cougar.rooster465.autos
+  type: trojan
+  port: 443
+  password: NQ26071394
+  sni: genuine-cougar.rooster465.autos
+  udp: true
+  delay: 1607
+- name: 🇰🇷 韩国 03 @SCHPD
+  server: normal-bull.rooster465.autos
+  type: trojan
+  country: 🇰🇷KR
+  port: 443
+  password: NQ26071394
+  sni: normal-bull.rooster465.autos
+  skip-cert-verify: true
+  udp: true
+  delay: 1981
+- name: 🇰🇷 韩国 04 @SCHPD
+  server: guided-pelican.rooster465.autos
+  type: trojan
+  country: 🇺🇸US
+  port: 443
+  password: NQ26071394
+  sni: guided-pelican.rooster465.autos
+  skip-cert-verify: true
+  udp: true
+  delay: 2000
+- name: 🇰🇷 韩国 05 @SCHPD
+  server: modest-amoeba.rooster465.autos
+  type: trojan
+  country: 🇺🇸US
+  port: 443
+  password: NQ26071394
+  sni: modest-amoeba.rooster465.autos
+  skip-cert-verify: true
+  udp: true
+  delay: 1999
+- name: 🇹🇼 台湾 02 @SCHPD
+  server: family.bucket.x9.kfc-520.com
+  type: vmess
+  country: 🇭🇰HK
+  port: 10038
+  uuid: 1dc73529-f030-3ac5-ad64-f7666b9a51bc
+  alterId: 0
+  cipher: auto
+  network: tcp
+  servername: family.bucket.x9.kfc-520.com
+  http-opts: {}
+  h2-opts: {}
+  skip-cert-verify: true
+  delay: 795
+  udp: true
+- name: 🇰🇷 韩国 06 @SCHPD
+  server: merry-falcon.rooster465.autos
+  type: trojan
+  port: 443
+  password: NQ26071394
+  sni: merry-falcon.rooster465.autos
+  udp: true
+  delay: 726
+- name: 🇰🇷 韩国 07 @SCHPD
+  server: musical-mouse.rooster465.autos
+  type: trojan
+  country: 🇰🇷KR
+  port: 443
+  udp: true
+  password: NQ26071394
+  sni: musical-mouse.rooster465.autos
+  skip-cert-verify: true
+  delay: 754
+- name: 🇰🇷 韩国 08 @SCHPD
+  server: inviting-ferret.rooster465.autos
+  type: trojan
+  country: 🇰🇷KR
+  port: 443
+  password: NQ26071394
+  sni: inviting-ferret.rooster465.autos
+  skip-cert-verify: true
+  udp: true
+  delay: 756
+- name: 🇰🇷 韩国 09 @SCHPD
+  server: capable-jay.rooster465.autos
+  type: trojan
+  country: 🇺🇸US
+  port: 443
+  password: NQ26071394
+  sni: capable-jay.rooster465.autos
+  skip-cert-verify: true
+  udp: true
+  delay: 1589
+- name: 🇹🇼 台湾 03 @SCHPD
+  server: family.bucket.x9.kfc-520.com
+  type: vmess
+  country: 🇭🇰HK
+  port: 10049
+  uuid: 1dc73529-f030-3ac5-ad64-f7666b9a51bc
+  alterId: 0
+  cipher: auto
+  network: tcp
+  servername: family.bucket.x9.kfc-520.com
+  http-opts: {}
+  h2-opts: {}
+  skip-cert-verify: true
+  delay: 945
+  udp: true
+- name: 🇳🇱 荷兰 01 @SCHPD
+  server: grateful-bedbug.rooster465.autos
+  type: trojan
+  port: 443
+  password: NQ26071394
+  sni: grateful-bedbug.rooster465.autos
+  udp: true
+  delay: 2972
+- name: 🇭🇰 香港 01 @SCHPD
+  server: 45.158.23.138
+  type: vmess
+  country: 🇨🇦CA
+  port: 27272
+  uuid: 1c7c0c72-6bc1-4e51-ada8-0e5570bb4780
+  alterId: 0
+  cipher: auto
+  network: http
+  http-opts:
+    method: GET
+    path:
+    - /
+  h2-opts: {}
+  skip-cert-verify: true
+  delay: 1692
+  udp: true
+- name: 🇹🇼 台湾 04 @SCHPD
+  server: family.bucket.x9.kfc-520.com
+  type: vmess
+  country: 🇭🇰HK
+  port: 10043
+  uuid: 1dc73529-f030-3ac5-ad64-f7666b9a51bc
+  alterId: 0
+  cipher: auto
+  network: tcp
+  servername: family.bucket.x9.kfc-520.com
+  http-opts: {}
+  h2-opts: {}
+  skip-cert-verify: true
+  delay: 2892
+  udp: true
+- name: 🇹🇼 台湾 05 @SCHPD
+  server: family.bucket.x9.kfc-520.com
+  type: vmess
+  country: 🇭🇰HK
+  port: 10050
+  uuid: 1dc73529-f030-3ac5-ad64-f7666b9a51bc
+  alterId: 0
+  cipher: auto
+  network: tcp
+  servername: family.bucket.x9.kfc-520.com
+  http-opts: {}
+  h2-opts: {}
+  skip-cert-verify: true
+  delay: 999
+  udp: true
+- name: 🇭🇰 香港 02 @SCHPD
+  server: 18.163.5.109
+  type: trojan
+  country: 🇭🇰HK
+  port: 35966
+  password: BxceQaOe
+  sni: t.me/ripaojiedian
+  skip-cert-verify: true
+  udp: true
+  delay: 2569
+- name: 🇹🇼 台湾 06 @SCHPD
+  server: zjs001.kfc-520.com
+  type: vmess
+  country: 🇭🇰HK
+  port: 10004
+  uuid: 1dc73529-f030-3ac5-ad64-f7666b9a51bc
+  alterId: 0
+  cipher: auto
+  network: tcp
+  servername: zjs001.kfc-520.com
+  http-opts: {}
+  h2-opts: {}
+  skip-cert-verify: true
+  delay: 904
+  udp: true
+- name: 🇨🇳 中国 02 @SCHPD
+  server: v4.hdacd.com
+  port: 30804
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  alterId: 2
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  udp: true
+  delay: 877
+- name: 🇯🇵 日本 01 @SCHPD
+  server: brief-hare.rooster465.autos
+  type: trojan
+  country: 🇯🇵JP
+  port: 443
+  password: NQ26071394
+  sni: brief-hare.rooster465.autos
+  skip-cert-verify: true
+  udp: true
+  delay: 1927
+- name: 🇯🇵 日本 02 @SCHPD
+  server: select-ferret.rooster465.autos
+  type: trojan
+  country: 🇯🇵JP
+  port: 443
+  udp: true
+  password: NQ26071394
+  sni: select-ferret.rooster465.autos
+  skip-cert-verify: true
+  delay: 989
+- name: 🇯🇵 日本 03 @SCHPD
+  server: capable-baboon.rooster465.autos
+  type: trojan
+  country: 🇯🇵JP
+  port: 443
+  udp: true
+  password: NQ26071394
+  sni: capable-baboon.rooster465.autos
+  skip-cert-verify: true
+  delay: 984
+- name: 🇯🇵 日本 04 @SCHPD
+  server: allowing-ram.rooster465.autos
+  type: trojan
+  country: 🇯🇵JP
+  port: 443
+  udp: true
+  password: NQ26071394
+  sni: allowing-ram.rooster465.autos
+  skip-cert-verify: true
+  delay: 975
+- name: 🇯🇵 日本 05 @SCHPD
+  server: fit-marten.rooster465.autos
+  type: trojan
+  country: 🇯🇵JP
+  port: 443
+  udp: true
+  password: NQ26071394
+  sni: fit-marten.rooster465.autos
+  skip-cert-verify: true
+  delay: 975
+- name: 🇯🇵 日本 06 @SCHPD
+  server: sure-husky.rooster465.autos
+  type: trojan
+  country: 🇯🇵JP
+  port: 443
+  password: NQ26071394
+  sni: sure-husky.rooster465.autos
+  skip-cert-verify: true
+  udp: true
+  delay: 983
+- name: 🇯🇵 日本 07 @SCHPD
+  server: upright-caribou.rooster465.autos
+  type: trojan
+  port: 443
+  password: NQ26071394
+  sni: upright-caribou.rooster465.autos
+  udp: true
+  delay: 976
+- name: 🇯🇵 日本 08 @SCHPD
+  server: one-dove.rooster465.autos
+  type: trojan
+  country: 🇯🇵JP
+  port: 443
+  password: NQ26071394
+  sni: one-dove.rooster465.autos
+  skip-cert-verify: true
+  udp: true
+  delay: 984
+- name: 🇯🇵 日本 09 @SCHPD
+  server: new-eagle.rooster465.autos
+  type: trojan
+  port: 443
+  password: NQ26071394
+  sni: new-eagle.rooster465.autos
+  udp: true
+  delay: 974
+- name: 🇯🇵 日本 10 @SCHPD
+  server: infinite-killdeer.rooster465.autos
+  type: trojan
+  port: 443
+  password: NQ26071394
+  sni: infinite-killdeer.rooster465.autos
+  udp: true
+  delay: 983
+- name: 🇯🇵 日本 11 @SCHPD
+  server: immune-grackle.rooster465.autos
+  type: trojan
+  country: 🇯🇵JP
+  port: 443
+  password: NQ26071394
+  sni: immune-grackle.rooster465.autos
+  skip-cert-verify: true
+  udp: true
+  delay: 982
+- name: 🇯🇵 日本 12 @SCHPD
+  server: hot-tapir.rooster465.autos
+  type: trojan
+  country: 🇯🇵JP
+  port: 443
+  password: NQ26071394
+  sni: hot-tapir.rooster465.autos
+  skip-cert-verify: true
+  udp: true
+  delay: 1927
+- name: 🇯🇵 日本 13 @SCHPD
+  server: engaging-elf.rooster465.autos
+  type: trojan
+  country: 🇯🇵JP
+  port: 443
+  password: NQ26071394
+  sni: engaging-elf.rooster465.autos
+  skip-cert-verify: true
+  udp: true
+  delay: 975
+- name: 🇯🇵 日本 14 @SCHPD
+  server: amusing-grub.rooster465.autos
+  type: trojan
+  country: 🇯🇵JP
+  port: 443
+  password: NQ26071394
+  sni: amusing-grub.rooster465.autos
+  skip-cert-verify: true
+  udp: true
+  delay: 1533
+- name: 🇯🇵 日本 15 @SCHPD
+  server: real-ewe.rooster465.autos
+  type: trojan
+  port: 443
+  password: NQ26071394
+  sni: real-ewe.rooster465.autos
+  udp: true
+  delay: 1533
+- name: 🇯🇵 日本 16 @SCHPD
+  server: magical-prawn.rooster465.autos
+  type: trojan
+  port: 443
+  password: NQ26071394
+  sni: magical-prawn.rooster465.autos
+  udp: true
+  delay: 1529
+- name: 🇯🇵 日本 17 @SCHPD
+  server: saving-drake.rooster465.autos
+  type: trojan
+  country: 🇯🇵JP
+  port: 443
+  password: NQ26071394
+  sni: saving-drake.rooster465.autos
+  skip-cert-verify: true
+  udp: true
+  delay: 1529
+- name: 🇯🇵 日本 18 @SCHPD
+  server: joint-ewe.rooster465.autos
+  type: trojan
+  country: 🇯🇵JP
+  port: 443
+  password: NQ26071394
+  sni: joint-ewe.rooster465.autos
+  skip-cert-verify: true
+  udp: true
+  delay: 1529
+- name: 🇯🇵 日本 19 @SCHPD
+  server: better-molly.rooster465.autos
+  type: trojan
+  country: 🇯🇵JP
+  port: 443
+  password: NQ26071394
+  sni: better-molly.rooster465.autos
+  skip-cert-verify: true
+  udp: true
+  delay: 1529
+- name: 🇯🇵 日本 20 @SCHPD
+  server: prime-quail.rooster465.autos
+  type: trojan
+  country: 🇺🇸US
+  port: 443
+  udp: true
+  password: NQ26071394
+  sni: prime-quail.rooster465.autos
+  skip-cert-verify: true
+  delay: 1074
+- name: 🇯🇵 日本 21 @SCHPD
+  server: helped-jennet.rooster465.autos
+  type: trojan
+  country: 🇺🇸US
+  port: 443
+  password: NQ26071394
+  sni: helped-jennet.rooster465.autos
+  skip-cert-verify: true
+  udp: true
+  delay: 1087
+- name: 🇯🇵 日本 22 @SCHPD
+  server: alert-wren.rooster465.autos
+  type: trojan
+  port: 443
+  password: NQ26071394
+  sni: alert-wren.rooster465.autos
+  udp: true
+  delay: 1266
+- name: 🇯🇵 日本 23 @SCHPD
+  server: legible-ram.rooster465.autos
+  type: trojan
+  country: 🇯🇵JP
+  port: 443
+  password: NQ26071394
+  sni: legible-ram.rooster465.autos
+  skip-cert-verify: true
+  udp: true
+  delay: 1908
+- name: 🇯🇵 日本 24 @SCHPD
+  server: calm-muskrat.rooster465.autos
+  type: trojan
+  country: 🇺🇸US
+  port: 443
+  udp: true
+  password: NQ26071394
+  sni: calm-muskrat.rooster465.autos
+  skip-cert-verify: true
+  delay: 1073
+- name: 🇯🇵 日本 25 @SCHPD
+  server: warm-bass.rooster465.autos
+  type: trojan
+  country: 🇺🇸US
+  port: 443
+  udp: true
+  password: NQ26071394
+  sni: warm-bass.rooster465.autos
+  skip-cert-verify: true
+  delay: 1312
+- name: 🇯🇵 日本 26 @SCHPD
+  server: beloved-crow.rooster465.autos
+  type: trojan
+  country: 🇯🇵JP
+  port: 443
+  password: NQ26071394
+  sni: beloved-crow.rooster465.autos
+  skip-cert-verify: true
+  udp: true
+  delay: 1913
+- name: 🇯🇵 日本 27 @SCHPD
+  server: firm-krill.rooster465.autos
+  type: trojan
+  country: 🇯🇵JP
+  port: 443
+  password: NQ26071394
+  sni: firm-krill.rooster465.autos
+  skip-cert-verify: true
+  udp: true
+  delay: 1912
+- name: 🇯🇵 日本 28 @SCHPD
+  server: flexible-gannet.rooster465.autos
+  type: trojan
+  country: 🇯🇵JP
+  port: 443
+  password: NQ26071394
+  sni: flexible-gannet.rooster465.autos
+  skip-cert-verify: true
+  udp: true
+  delay: 1908
+- name: 🇯🇵 日本 29 @SCHPD
+  server: expert-muskrat.rooster465.autos
+  type: trojan
+  country: 🇺🇸US
+  port: 443
+  password: NQ26071394
+  sni: expert-muskrat.rooster465.autos
+  skip-cert-verify: true
+  udp: true
+  delay: 1915
+- name: 🇯🇵 日本 30 @SCHPD
+  server: golden-kangaroo.rooster465.autos
+  type: trojan
+  country: 🇧🇪BE
+  port: 443
+  udp: true
+  password: NQ26071394
+  sni: golden-kangaroo.rooster465.autos
+  skip-cert-verify: true
+  delay: 1128
+- name: 🇯🇵 日本 31 @SCHPD
+  server: worthy-labrador.rooster465.autos
+  type: trojan
+  country: 🇯🇵JP
+  port: 443
+  password: NQ26071394
+  sni: worthy-labrador.rooster465.autos
+  skip-cert-verify: true
+  udp: true
+  delay: 988
+- name: 🇹🇼 台湾 07 @SCHPD
+  server: family.bucket.x9.kfc-520.com
+  type: vmess
+  country: 🇭🇰HK
+  port: 10047
+  uuid: 1dc73529-f030-3ac5-ad64-f7666b9a51bc
+  alterId: 0
+  cipher: auto
+  network: tcp
+  servername: family.bucket.x9.kfc-520.com
+  http-opts: {}
+  h2-opts: {}
+  skip-cert-verify: true
+  delay: 991
+  udp: true
+- name: 🇸🇬 新加坡 01 @SCHPD
+  server: smooth-sculpin.rooster465.autos
+  type: trojan
+  country: 🇸🇬SG
+  port: 443
+  password: NQ26071394
+  sni: smooth-sculpin.rooster465.autos
+  skip-cert-verify: true
+  udp: true
+  delay: 1908
+- name: 🇸🇬 新加坡 02 @SCHPD
+  server: eminent-hagfish.rooster465.autos
+  type: trojan
+  country: 🇸🇬SG
+  port: 443
+  password: NQ26071394
+  sni: eminent-hagfish.rooster465.autos
+  skip-cert-verify: true
+  udp: true
+  delay: 722
+- name: 🇸🇬 新加坡 03 @SCHPD
+  server: usable-dogfish.rooster465.autos
+  type: trojan
+  country: 🇸🇬SG
+  port: 443
+  password: NQ26071394
+  sni: usable-dogfish.rooster465.autos
+  skip-cert-verify: true
+  udp: true
+  delay: 727
+- name: 🇸🇬 新加坡 04 @SCHPD
+  server: pet-ghost.rooster465.autos
+  type: trojan
+  country: 🇸🇬SG
+  port: 443
+  password: NQ26071394
+  sni: pet-ghost.rooster465.autos
+  skip-cert-verify: true
+  udp: true
+  delay: 730
+- name: 🇸🇬 新加坡 05 @SCHPD
+  server: verified-ringtail.rooster465.autos
+  type: trojan
+  country: 🇺🇸US
+  port: 443
+  password: NQ26071394
+  sni: verified-ringtail.rooster465.autos
+  skip-cert-verify: true
+  udp: true
+  delay: 1054
+- name: 🇸🇬 新加坡 06 @SCHPD
+  server: alert-titmouse.rooster465.autos
+  type: trojan
+  country: 🇺🇸US
+  port: 443
+  password: NQ26071394
+  sni: alert-titmouse.rooster465.autos
+  skip-cert-verify: true
+  udp: true
+  delay: 1044
+- name: 🇳🇱 荷兰 02 @SCHPD
+  server: 188.164.248.122
+  port: 443
+  type: trojan
+  password: c206d543-023d-46cc-9d5a-1f0f2fc16323
+  sni: space.byu.id.yxls.eu.cc
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /in-pdr
+    headers:
+      Host: space.byu.id.yxls.eu.cc
+  udp: true
+  delay: 584
+- name: 🇹🇼 台湾 08 @SCHPD
+  server: family.bucket.x9.kfc-520.com
+  type: vmess
+  country: 🇭🇰HK
+  port: 10039
+  uuid: 1dc73529-f030-3ac5-ad64-f7666b9a51bc
+  alterId: 0
+  cipher: auto
+  network: tcp
+  servername: family.bucket.x9.kfc-520.com
+  http-opts: {}
+  h2-opts: {}
+  skip-cert-verify: true
+  delay: 797
+  udp: true
+- name: 🇭🇰 香港 03 @SCHPD
+  server: c722s5.portablesubmarines.com
+  type: vmess
+  country: 🇺🇸US
+  port: 16025
+  uuid: 4bd2af9a-67a3-4e1a-8eef-c443ec86e80b
+  alterId: 0
+  cipher: auto
+  network: tcp
+  http-opts: {}
+  h2-opts: {}
+  skip-cert-verify: true
+  delay: 2443
+  udp: true
+- name: 🇭🇰 香港 04 @SCHPD
+  server: c722s4.portablesubmarines.com
+  type: vmess
+  country: 🇺🇸US
+  port: 16025
+  uuid: 4bd2af9a-67a3-4e1a-8eef-c443ec86e80b
+  alterId: 0
+  cipher: auto
+  network: tcp
+  http-opts: {}
+  h2-opts: {}
+  skip-cert-verify: true
+  delay: 790
+  udp: true
+- name: 🇭🇰 香港 05 @SCHPD
+  server: c722s3.portablesubmarines.com
+  type: vmess
+  country: 🇺🇸US
+  port: 16025
+  uuid: 4bd2af9a-67a3-4e1a-8eef-c443ec86e80b
+  alterId: 0
+  cipher: auto
+  network: tcp
+  http-opts: {}
+  h2-opts: {}
+  skip-cert-verify: true
+  delay: 1448
+  udp: true
