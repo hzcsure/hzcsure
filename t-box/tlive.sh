@@ -150,7 +150,7 @@ echo "---"
 TMPDIR=$(mktemp -d)
 trap "rm -rf '$TMPDIR'; kill $SB_PID 2>/dev/null; wait $SB_PID 2>/dev/null" EXIT
 
-running=0
+pids=()
 for idx in $(seq 0 $((TOTAL - 1))); do
     node="${NODES[$idx]}"
     (
@@ -167,13 +167,15 @@ for idx in $(seq 0 $((TOTAL - 1))); do
             printf "  %-45s ${color}%sms${RESET}\n" "$node" "$delay"
         fi
     ) &
-    running=$((running + 1))
-    # Use jobs -r for accurate running count (more reliable than wait -n counter)
-    while [ "$(jobs -rp | wc -l)" -ge "$MAX_JOBS" ]; do
-        wait -n 2>/dev/null || true
-    done
+    pids+=($!)
+    # FIFO: when MAX_JOBS active, wait for oldest to finish
+    if [ ${#pids[@]} -ge "$MAX_JOBS" ]; then
+        wait "${pids[0]}" 2>/dev/null || true
+        pids=("${pids[@]:1}")
+    fi
 done
-wait
+# Wait for remaining
+for pid in "${pids[@]}"; do wait "$pid" 2>/dev/null || true; done
 
 # ── 4. Collect alive nodes ──
 echo "---"
