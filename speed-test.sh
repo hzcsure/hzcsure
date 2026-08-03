@@ -6,8 +6,8 @@ set -euo pipefail
 CONFIG="${1:-config.json}"
 JSON_OUT="${2:-}"
 DELAY_URL="${DELAY_URL:-http://www.gstatic.com/generate_204}"
-DELAY_TIMEOUT="${DELAY_TIMEOUT:-3000}"
-MAX_JOBS="${MAX_JOBS:-5}"
+DELAY_TIMEOUT="${DELAY_TIMEOUT:-2000}"
+MAX_JOBS="${MAX_JOBS:-10}"
 API="http://127.0.0.1:9090"
 SING_BOX="${SING_BOX:-sing-box}"
 
