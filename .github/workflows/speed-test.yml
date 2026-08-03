@@ -5,6 +5,7 @@ on:
     paths:
       - 'config.json'
       - '.github/workflows/speed-test.yml'
+      - 'speed-test.sh'
   schedule:
     - cron: '0 */6 * * *'   # every 6 hours
   workflow_dispatch:
@@ -27,11 +28,20 @@ jobs:
           sing-box version
 
       - name: Run speed test
+        id: test
         run: |
           chmod +x speed-test.sh
-          bash speed-test.sh config.json
+          bash speed-test.sh config.json 2>&1 | tee speed-test.log
+        continue-on-error: true
 
-      - name: Upload results
+      - name: Summary
+        run: |
+          echo "## Speed Test Results" >> $GITHUB_STEP_SUMMARY
+          echo '```' >> $GITHUB_STEP_SUMMARY
+          tail -20 speed-test.log >> $GITHUB_STEP_SUMMARY
+          echo '```' >> $GITHUB_STEP_SUMMARY
+
+      - name: Upload log
         if: always()
         uses: actions/upload-artifact@v4
         with:
