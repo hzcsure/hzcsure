@@ -42,6 +42,7 @@ jobs:
         run: |
           git config --local user.name "$GIT_NAME"
           git config --local user.email "$GIT_EMAIL"
+          git pull --rebase --autostash origin main || true
           git add t-box/config.json t-box/raw/
           if ! git diff --staged --quiet; then
             git commit -m "auto: subscription update $(date '+%Y-%m-%d %H:%M:%S')"
@@ -54,7 +55,7 @@ jobs:
         with:
           github_token: ${{ secrets.PUSH_TOKEN }}
           branch: main
-          force: false
+          force: true
 
   tlive:
     needs: update
@@ -84,6 +85,7 @@ jobs:
         run: |
           git config --local user.name "$GIT_NAME"
           git config --local user.email "$GIT_EMAIL"
+          git pull --rebase --autostash origin main || true
           git add t-box/alive_nodes.txt
           if ! git diff --staged --quiet; then
             git commit -m "auto: tlive alive nodes $(date '+%Y-%m-%d %H:%M:%S')"
@@ -95,7 +97,7 @@ jobs:
         with:
           github_token: ${{ secrets.PUSH_TOKEN }}
           branch: main
-          force: false
+          force: true
 
       - name: Upload log
         if: always()
