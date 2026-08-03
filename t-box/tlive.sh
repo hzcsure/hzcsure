@@ -110,6 +110,8 @@ echo ""
 
 # ── 1. Start sing-box ──
 echo -n "starting sing-box ... "
+ENABLE_DEPRECATED_LEGACY_DNS_SERVERS=true \
+ENABLE_DEPRECATED_MISSING_DOMAIN_RESOLVER=true \
 "$SING_BOX" run -c "$CONFIG" > sing-box.log 2>&1 &
 SB_PID=$!
 trap "kill $SB_PID 2>/dev/null; wait $SB_PID 2>/dev/null" EXIT
