@@ -1,0 +1,50 @@
+name: Speed Test
+
+on:
+  push:
+    paths:
+      - 'config.json'
+      - '.github/workflows/speed-test.yml'
+      - 'speed-test.sh'
+  schedule:
+    - cron: '0 */6 * * *'   # every 6 hours
+  workflow_dispatch:
+
+jobs:
+  speed-test:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Install sing-box
+        run: |
+          sudo curl -fsSL https://sing-box.app/gpg.key -o /etc/apt/keyrings/sing-box.asc
+          echo "deb [signed-by=/etc/apt/keyrings/sing-box.asc] https://apt.sing-box.app stable main" | \
+            sudo tee /etc/apt/sources.list.d/sing-box.list
+          sudo apt-get update
+          sudo apt-get install -y sing-box
+          sing-box version
+
+      - name: Run speed test
+        id: test
+        run: |
+          chmod +x speed-test.sh
+          bash speed-test.sh config.json 2>&1 | tee speed-test.log
+        continue-on-error: true
+
+      - name: Summary
+        run: |
+          echo "## Speed Test Results" >> $GITHUB_STEP_SUMMARY
+          echo '```' >> $GITHUB_STEP_SUMMARY
+          tail -20 speed-test.log >> $GITHUB_STEP_SUMMARY
+          echo '```' >> $GITHUB_STEP_SUMMARY
+
+      - name: Upload log
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: speed-test-log
+          path: speed-test.log
+          retention-days: 7
