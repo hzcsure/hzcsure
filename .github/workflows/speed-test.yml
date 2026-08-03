@@ -36,7 +36,7 @@ jobs:
         run: |
           git config user.name "tvproxy-bot"
           git config user.email "bot@tvproxy"
-          git add t-box/config.json t-box/cache/ t-box/raw/
+          git add t-box/config.json t-box/raw/
           if ! git diff --staged --quiet; then
             git commit -m "auto: subscription update"
             git push

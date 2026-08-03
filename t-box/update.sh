@@ -9,14 +9,12 @@ cd "$SCRIPT_DIR"
 SUB_URLS="${SUB_URLS:-sub_urls}"
 UA_FILE="ua.type"
 OUT_CONFIG="config.json"
-CACHE_DIR="cache"
-RAW_DIR="raw"
 PROXY_PORT="${PROXY_PORT:-1080}"
 LOG_LEVEL="error"
 DEFAULT_UA="${DEFAULT_UA:-Shadowrocket/2.0}"
 DELAY_URL="${DELAY_URL:-http://www.gstatic.com/generate_204}"
 
-mkdir -p "$CACHE_DIR" "$RAW_DIR"
+mkdir -p raw
 
 # ─── URL decode ───
 _url_decode() { printf '%b' "${1//%/\\x}"; }
@@ -347,7 +345,7 @@ for i in "${!ENTRIES[@]}"; do
     fi
 
     # Save raw for debugging
-    echo "$raw" > "$RAW_DIR/${short}_$(date +%Y%m%d_%H%M%S).yaml"
+    echo "$raw" > "raw/${short}_$(date +%Y%m%d_%H%M%S).yaml"
 
     # Try base64 decode if not URI format
     first_line=$(echo "$raw" | grep -v '^[[:space:]]*$' | head -1)
@@ -415,8 +413,7 @@ for i in "${!ENTRIES[@]}"; do
         nodes_json="[]"
     fi
 
-    # Cache this subscription
-    echo "$nodes_json" > "$CACHE_DIR/cache_${i}.json"
+    # Merge nodes
     ALL_NODES=$(echo "$ALL_NODES" | jq -c --argjson n "$nodes_json" '. + $n')
     OK_COUNT=$((OK_COUNT + 1))
 done
