@@ -20,7 +20,11 @@ RED='\033[0;31m' GREEN='\033[0;32m' YELLOW='\033[0;33m' CYAN='\033[0;36m' BOLD='
 [ ! -f "$CONFIG" ] && { echo "ERROR: $CONFIG not found, run update.sh first"; exit 1; }
 [ ! -x "$SING_BOX" ] && { chmod +x "$SING_BOX" 2>/dev/null || true; }
 
-_api_get() { curl -sf --retry 2 --connect-timeout 3 "$API$1" 2>/dev/null; }
+_api_get() {
+    # curl-level safety net: max-time = delay_timeout + 2s buffer
+    local max_s=$((DELAY_TIMEOUT / 1000 + 2))
+    curl -sf --retry 1 --max-time "$max_s" --connect-timeout 3 "$API$1" 2>/dev/null || echo '{"delay":null}'
+}
 _url_encode() { printf '%s' "$1" | jq -sRr '@uri'; }
 
 # ═══ Export sing-box JSON → share-link URIs (ported from tvproxy-url --export) ═══
@@ -164,10 +168,10 @@ for idx in $(seq 0 $((TOTAL - 1))); do
         fi
     ) &
     running=$((running + 1))
-    if [ "$running" -ge "$MAX_JOBS" ]; then
+    # Use jobs -r for accurate running count (more reliable than wait -n counter)
+    while [ "$(jobs -rp | wc -l)" -ge "$MAX_JOBS" ]; do
         wait -n 2>/dev/null || true
-        running=$((running - 1))
-    fi
+    done
 done
 wait
 
