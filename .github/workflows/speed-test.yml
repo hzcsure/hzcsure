@@ -32,10 +32,15 @@ jobs:
         continue-on-error: true
 
       - name: Summary
+        if: always()
         run: |
           echo "## Speed Test Results" >> $GITHUB_STEP_SUMMARY
           echo '```' >> $GITHUB_STEP_SUMMARY
-          tail -20 t-box/speed-test.log >> $GITHUB_STEP_SUMMARY
+          if [ -f t-box/speed-test.log ]; then
+            tail -20 t-box/speed-test.log >> $GITHUB_STEP_SUMMARY
+          else
+            echo "(no log - sing-box may have failed to start)" >> $GITHUB_STEP_SUMMARY
+          fi
           echo '```' >> $GITHUB_STEP_SUMMARY
 
       - name: Upload log
