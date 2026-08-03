@@ -1,47 +1,83 @@
-name: Speed Test
+name: TVProxy CI
 
 on:
-  push:
-    paths:
-      - 't-box/config.json'
-      - '.github/workflows/speed-test.yml'
-      - 't-box/speed-test.sh'
-  schedule:
-    - cron: '0 */6 * * *'
   workflow_dispatch:
+    inputs:
+      action:
+        description: 'Action to run'
+        type: choice
+        options:
+          - update
+          - tlive
+          - both
+        default: both
 
 jobs:
-  speed-test:
+  update:
+    if: github.event.inputs.action == 'update' || github.event.inputs.action == 'both'
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Install yq
+        run: pip install yq
+
+      - name: Setup sing-box
+        run: chmod +x t-box/sing-box
+
+      - name: Run update
+        run: |
+          cd t-box
+          chmod +x update.sh
+          bash update.sh
+
+      - name: Commit config
+        run: |
+          git config user.name "tvproxy-bot"
+          git config user.email "bot@tvproxy"
+          git add t-box/config.json t-box/raw/
+          if ! git diff --staged --quiet; then
+            git commit -m "auto: subscription update"
+            git push
+          else
+            echo "no changes"
+          fi
+
+  tlive:
+    needs: update
+    if: always() && (github.event.inputs.action == 'tlive' || github.event.inputs.action == 'both')
     runs-on: ubuntu-latest
     timeout-minutes: 30
-
     steps:
       - uses: actions/checkout@v4
 
       - name: Setup sing-box
-        run: |
-          chmod +x t-box/sing-box
-          t-box/sing-box version
+        run: chmod +x t-box/sing-box
 
-      - name: Run speed test
-        id: test
+      - name: Run tlive
         run: |
           cd t-box
-          chmod +x speed-test.sh
-          bash speed-test.sh config.json 2>&1 | tee speed-test.log
-        continue-on-error: true
+          chmod +x tlive.sh
+          bash tlive.sh
 
-      - name: Summary
+      - name: Commit alive nodes
+        if: success()
         run: |
-          echo "## Speed Test Results" >> $GITHUB_STEP_SUMMARY
-          echo '```' >> $GITHUB_STEP_SUMMARY
-          tail -20 t-box/speed-test.log >> $GITHUB_STEP_SUMMARY
-          echo '```' >> $GITHUB_STEP_SUMMARY
+          git config user.name "tvproxy-bot"
+          git config user.email "bot@tvproxy"
+          git add t-box/alive_nodes.txt
+          if ! git diff --staged --quiet; then
+            git commit -m "auto: tlive alive nodes update"
+            git push
+          fi
 
       - name: Upload log
         if: always()
         uses: actions/upload-artifact@v4
         with:
-          name: speed-test-log
-          path: t-box/speed-test.log
+          name: tlive-output
+          path: |
+            t-box/alive_nodes.txt
+            t-box/sing-box.log
           retention-days: 7

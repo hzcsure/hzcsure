@@ -1,0 +1,37 @@
+# User-Agent reference for subscription requests
+# usage: add the UA after the URL in ~/.sing-box/sub_urls
+#   https://example.com/sub ClashMetaForAndroid/3.0
+#
+# format:  UA                      description
+# ------------------------------------------------------------
+
+# ─── Clash family ───
+ClashforWindows/0.20.39        Clash for Windows
+ClashVerge/2.1.0               Clash Verge
+Clash.Meta                     Clash Meta (generic)
+ClashMetaForAndroid/3.0        Clash Meta for Android
+mihomo/1.0                     Mihomo Party (Clash Meta fork)
+Flclash/0.2.0                  FlClash
+
+# ─── v2ray family ───
+v2rayN/6.23                    v2rayN (Windows)
+v2rayNG/1.8.0                  v2rayNG (Android)
+v2rayU/4.1.0                   v2rayU (macOS)
+
+# ─── Shadowrocket / Quantumult ───
+Shadowrocket/2.0               Shadowrocket (iOS)
+Quantumult%20X/1.4.0           Quantumult X (iOS)
+
+# ─── sing-box family ───
+sing-box/1.13.0                sing-box
+
+# ─── other clients ───
+Surge/5.0                      Surge (iOS/macOS)
+Stash/2.0                      Stash (iOS)
+Loon/3.0                       Loon (iOS)
+NekoRay/3.0                    NekoRay (Linux)
+Nekoray/4.0                    Nekoray (cross-platform)
+
+# ─── generic ───
+Clash/1.0                      Clash generic
+curl/8.0                       curl (debug/standard)
