@@ -19,6 +19,9 @@ jobs:
     timeout-minutes: 10
     steps:
       - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          token: ${{ secrets.PUSH_TOKEN }}
 
       - name: Install yq
         run: pip install yq
@@ -32,17 +35,26 @@ jobs:
           chmod +x update.sh
           bash update.sh
 
-      - name: Commit config
+      - name: Commit
+        env:
+          GIT_NAME: github-actions[bot]
+          GIT_EMAIL: 41898282+github-actions[bot]@users.noreply.github.com
         run: |
-          git config user.name "tvproxy-bot"
-          git config user.email "bot@tvproxy"
+          git config --local user.name "$GIT_NAME"
+          git config --local user.email "$GIT_EMAIL"
           git add t-box/config.json t-box/raw/
           if ! git diff --staged --quiet; then
-            git commit -m "auto: subscription update"
-            git push
+            git commit -m "auto: subscription update $(date '+%Y-%m-%d %H:%M:%S')"
           else
             echo "no changes"
           fi
+
+      - name: Push
+        uses: ad-m/github-push-action@master
+        with:
+          github_token: ${{ secrets.PUSH_TOKEN }}
+          branch: main
+          force: false
 
   tlive:
     needs: update
@@ -51,6 +63,9 @@ jobs:
     timeout-minutes: 30
     steps:
       - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          token: ${{ secrets.PUSH_TOKEN }}
 
       - name: Setup sing-box
         run: chmod +x t-box/sing-box
@@ -63,14 +78,24 @@ jobs:
 
       - name: Commit alive nodes
         if: success()
+        env:
+          GIT_NAME: github-actions[bot]
+          GIT_EMAIL: 41898282+github-actions[bot]@users.noreply.github.com
         run: |
-          git config user.name "tvproxy-bot"
-          git config user.email "bot@tvproxy"
+          git config --local user.name "$GIT_NAME"
+          git config --local user.email "$GIT_EMAIL"
           git add t-box/alive_nodes.txt
           if ! git diff --staged --quiet; then
-            git commit -m "auto: tlive alive nodes update"
-            git push
+            git commit -m "auto: tlive alive nodes $(date '+%Y-%m-%d %H:%M:%S')"
           fi
+
+      - name: Push
+        if: success()
+        uses: ad-m/github-push-action@master
+        with:
+          github_token: ${{ secrets.PUSH_TOKEN }}
+          branch: main
+          force: false
 
       - name: Upload log
         if: always()
