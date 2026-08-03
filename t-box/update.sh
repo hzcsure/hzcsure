@@ -18,6 +18,7 @@ mkdir -p raw
 
 # ─── URL decode ───
 _url_decode() { printf '%b' "${1//%/\\x}"; }
+_first_line() { sed -n '/^[[:space:]]*$/d;1p' 2>/dev/null || true; }
 
 # ─── jq helpers (ported from tvproxy-url) ───
 
@@ -344,20 +345,28 @@ for i in "${!ENTRIES[@]}"; do
         continue
     fi
 
+    # Skip HTML pages (Cloudflare challenge, redirects, etc.)
+    first_line=$(_first_line <<< "$raw")
+    if echo "$first_line" | grep -qiE '^\s*(<!DOCTYPE|<html|<head|<meta|<script|HTTP/)' 2>/dev/null; then
+        echo "SKIP (HTML response, not proxy data)"
+        FAIL_COUNT=$((FAIL_COUNT + 1))
+        continue
+    fi
+
     # Save raw for debugging
     echo "$raw" > "raw/${short}_$(date +%Y%m%d_%H%M%S).yaml"
 
     # Try base64 decode if not URI format
-    first_line=$(echo "$raw" | grep -v '^[[:space:]]*$' | head -1)
+    first_line=$(_first_line <<< "$raw")
     if [[ ! "$first_line" =~ ^(vmess|vless|trojan|hysteria2|ss|tuic|socks):// ]]; then
         decoded=$(echo "$raw" | base64 -d 2>/dev/null || true)
-        dfirst=$(echo "$decoded" | grep -v '^[[:space:]]*$' | head -1)
+        dfirst=$(_first_line <<< "$decoded")
         if [ -n "$decoded" ] && [[ "$dfirst" =~ ^(vmess|vless|trojan|hysteria2|ss|tuic|socks):// ]]; then
             raw="$decoded"
         fi
     fi
 
-    first_line=$(echo "$raw" | grep -v '^[[:space:]]*$' | head -1)
+    first_line=$(_first_line <<< "$raw")
 
     # Parse
     nodes_json=""
