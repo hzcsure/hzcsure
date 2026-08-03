@@ -14,111 +14,17 @@
     "servers": [
       {
         "tag": "local",
-        "address": "udp://223.5.5.5",
+        "address": "udp://8.8.8.8",
         "detour": "direct"
       },
       {
-        "tag": "local-v6",
-        "address": "udp://119.29.29.29",
+        "tag": "local6",
+        "address": "udp://1.1.1.1",
         "detour": "direct"
       }
     ]
   },
   "outbounds": [
-    {
-      "type": "anytls",
-      "server": "proxyip.cn.mt",
-      "server_port": 55285,
-      "tag": "HK-BGP05🇭🇰",
-      "password": "b5d73114-06b9-4176-b2c3-9c87daee4e46",
-      "tls": {
-        "enabled": true,
-        "server_name": "updates.cdn-apple.com",
-        "insecure": true
-      }
-    },
-    {
-      "type": "vless",
-      "server": "cf.tw.kg",
-      "server_port": 2086,
-      "tag": "HK-优选01🇭🇰",
-      "uuid": "b5d73114-06b9-4176-b2c3-9c87daee4e46",
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "Host": "hk01.639205.xyz"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "server": "cf.tw.kg",
-      "server_port": 2086,
-      "tag": "HK-优选06🇭🇰",
-      "uuid": "b5d73114-06b9-4176-b2c3-9c87daee4e46",
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "Host": "v6hk1.639205.xyz"
-        }
-      }
-    },
-    {
-      "type": "anytls",
-      "server": "proxyip.cn.mt",
-      "server_port": 44698,
-      "tag": "MO-BGP01🇲🇴",
-      "password": "b5d73114-06b9-4176-b2c3-9c87daee4e46",
-      "tls": {
-        "enabled": true,
-        "server_name": "updates.cdn-apple.com",
-        "insecure": true
-      }
-    },
-    {
-      "type": "vless",
-      "server": "cf.tw.kg",
-      "server_port": 2086,
-      "tag": "MO-优选01🇲🇴",
-      "uuid": "b5d73114-06b9-4176-b2c3-9c87daee4e46",
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "Host": "mo01.639205.xyz"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "server": "cf.tw.kg",
-      "server_port": 2086,
-      "tag": "NL-优选01🇳🇱",
-      "uuid": "b5d73114-06b9-4176-b2c3-9c87daee4e46",
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "Host": "nl01.639205.xyz"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "server": "cf.tw.kg",
-      "server_port": 2086,
-      "tag": "US-优选01🇺🇸",
-      "uuid": "b5d73114-06b9-4176-b2c3-9c87daee4e46",
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "Host": "us01.639205.xyz"
-        }
-      }
-    },
     {
       "type": "vless",
       "server": "152.32.181.246",
@@ -139,6 +45,46 @@
         "path": "/",
         "headers": {
           "Host": "cf3.schzyc.cc.cd"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "server": "free.ch1.laodavip.com",
+      "server_port": 443,
+      "tag": "🇨🇭瑞士 01",
+      "uuid": "acc89b18-5ca3-4df9-97cf-c959e080cd20",
+      "tls": {
+        "enabled": true,
+        "server_name": "free.ch1.laodavip.com",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "QZDU9ZZt6HEIijqRyeyebLxt11S692nSBIDNCKLBM3k",
+          "short_id": "f5420efbe305d354"
+        }
+      }
+    },
+    {
+      "type": "trojan",
+      "server": "sub.danfeng.eu.org",
+      "server_port": 443,
+      "tag": "🇨🇳台湾 01",
+      "password": "5dc15e15-f285-4a9d-959b-0e4fbdd77b63",
+      "tls": {
+        "enabled": true,
+        "server_name": "cf1-1mh.pages.dev",
+        "insecure": false
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/?ed=2560",
+        "headers": {
+          "Host": "cf1-1mh.pages.dev"
         }
       }
     },
@@ -522,6 +468,25 @@
       }
     },
     {
+      "type": "trojan",
+      "server": "cf.zhetengsha.eu.org",
+      "server_port": 443,
+      "tag": "🇭🇰香港 04",
+      "password": "5dc15e15-f285-4a9d-959b-0e4fbdd77b63",
+      "tls": {
+        "enabled": true,
+        "server_name": "cf1-1mh.pages.dev",
+        "insecure": false
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/?ed=2560",
+        "headers": {
+          "Host": "cf1-1mh.pages.dev"
+        }
+      }
+    },
+    {
       "type": "vless",
       "server": "saas.sin.fan",
       "server_port": 443,
@@ -616,9 +581,55 @@
     {
       "type": "vless",
       "server": "104.17.214.60",
+      "server_port": 443,
+      "tag": "🇭🇰香港 09",
+      "uuid": "b4f25b41-cc8e-49eb-bdb8-83dd8c7e542d",
+      "tls": {
+        "enabled": true,
+        "server_name": "cfnew.schzyc.cc.cd",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "randomized"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/?ed=2048",
+        "headers": {
+          "Host": "cfnew.schzyc.cc.cd"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "server": "104.17.214.60",
       "server_port": 80,
       "tag": "🇭🇰香港 10",
       "uuid": "b4f25b41-cc8e-49eb-bdb8-83dd8c7e542d",
+      "transport": {
+        "type": "ws",
+        "path": "/?ed=2048",
+        "headers": {
+          "Host": "cfnew.schzyc.cc.cd"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "server": "104.25.242.238",
+      "server_port": 443,
+      "tag": "🇭🇰香港 11",
+      "uuid": "b4f25b41-cc8e-49eb-bdb8-83dd8c7e542d",
+      "tls": {
+        "enabled": true,
+        "server_name": "cfnew.schzyc.cc.cd",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "randomized"
+        }
+      },
       "transport": {
         "type": "ws",
         "path": "/?ed=2048",
@@ -644,9 +655,55 @@
     {
       "type": "vless",
       "server": "104.25.244.99",
+      "server_port": 443,
+      "tag": "🇭🇰香港 13",
+      "uuid": "b4f25b41-cc8e-49eb-bdb8-83dd8c7e542d",
+      "tls": {
+        "enabled": true,
+        "server_name": "cfnew.schzyc.cc.cd",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "randomized"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/?ed=2048",
+        "headers": {
+          "Host": "cfnew.schzyc.cc.cd"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "server": "104.25.244.99",
       "server_port": 80,
       "tag": "🇭🇰香港 14",
       "uuid": "b4f25b41-cc8e-49eb-bdb8-83dd8c7e542d",
+      "transport": {
+        "type": "ws",
+        "path": "/?ed=2048",
+        "headers": {
+          "Host": "cfnew.schzyc.cc.cd"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "server": "104.17.114.109",
+      "server_port": 443,
+      "tag": "🇭🇰香港 15",
+      "uuid": "b4f25b41-cc8e-49eb-bdb8-83dd8c7e542d",
+      "tls": {
+        "enabled": true,
+        "server_name": "cfnew.schzyc.cc.cd",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "randomized"
+        }
+      },
       "transport": {
         "type": "ws",
         "path": "/?ed=2048",
@@ -672,6 +729,29 @@
     {
       "type": "vless",
       "server": "104.17.184.80",
+      "server_port": 443,
+      "tag": "🇭🇰香港 17",
+      "uuid": "b4f25b41-cc8e-49eb-bdb8-83dd8c7e542d",
+      "tls": {
+        "enabled": true,
+        "server_name": "cfnew.schzyc.cc.cd",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "randomized"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/?ed=2048",
+        "headers": {
+          "Host": "cfnew.schzyc.cc.cd"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "server": "104.17.184.80",
       "server_port": 80,
       "tag": "🇭🇰香港 18",
       "uuid": "b4f25b41-cc8e-49eb-bdb8-83dd8c7e542d",
@@ -680,6 +760,25 @@
         "path": "/?ed=2048",
         "headers": {
           "Host": "cfnew.schzyc.cc.cd"
+        }
+      }
+    },
+    {
+      "type": "trojan",
+      "server": "store.ubi.com",
+      "server_port": 443,
+      "tag": "🇯🇵日本 01",
+      "password": "5dc15e15-f285-4a9d-959b-0e4fbdd77b63",
+      "tls": {
+        "enabled": true,
+        "server_name": "cf1-1mh.pages.dev",
+        "insecure": false
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/?ed=2560",
+        "headers": {
+          "Host": "cf1-1mh.pages.dev"
         }
       }
     },
@@ -1153,9 +1252,55 @@
     {
       "type": "vless",
       "server": "162.159.41.118",
+      "server_port": 443,
+      "tag": "🇸🇬新加坡 09",
+      "uuid": "b4f25b41-cc8e-49eb-bdb8-83dd8c7e542d",
+      "tls": {
+        "enabled": true,
+        "server_name": "cfnew.schzyc.cc.cd",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "randomized"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/?ed=2048",
+        "headers": {
+          "Host": "cfnew.schzyc.cc.cd"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "server": "162.159.41.118",
       "server_port": 80,
       "tag": "🇸🇬新加坡 10",
       "uuid": "b4f25b41-cc8e-49eb-bdb8-83dd8c7e542d",
+      "transport": {
+        "type": "ws",
+        "path": "/?ed=2048",
+        "headers": {
+          "Host": "cfnew.schzyc.cc.cd"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "server": "108.162.194.80",
+      "server_port": 443,
+      "tag": "🇸🇬新加坡 11",
+      "uuid": "b4f25b41-cc8e-49eb-bdb8-83dd8c7e542d",
+      "tls": {
+        "enabled": true,
+        "server_name": "cfnew.schzyc.cc.cd",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "randomized"
+        }
+      },
       "transport": {
         "type": "ws",
         "path": "/?ed=2048",
@@ -1181,6 +1326,29 @@
     {
       "type": "vless",
       "server": "108.162.194.242",
+      "server_port": 443,
+      "tag": "🇸🇬新加坡 13",
+      "uuid": "b4f25b41-cc8e-49eb-bdb8-83dd8c7e542d",
+      "tls": {
+        "enabled": true,
+        "server_name": "cfnew.schzyc.cc.cd",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "randomized"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/?ed=2048",
+        "headers": {
+          "Host": "cfnew.schzyc.cc.cd"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "server": "108.162.194.242",
       "server_port": 80,
       "tag": "🇸🇬新加坡 14",
       "uuid": "b4f25b41-cc8e-49eb-bdb8-83dd8c7e542d",
@@ -1195,9 +1363,55 @@
     {
       "type": "vless",
       "server": "162.159.41.67",
+      "server_port": 443,
+      "tag": "🇸🇬新加坡 15",
+      "uuid": "b4f25b41-cc8e-49eb-bdb8-83dd8c7e542d",
+      "tls": {
+        "enabled": true,
+        "server_name": "cfnew.schzyc.cc.cd",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "randomized"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/?ed=2048",
+        "headers": {
+          "Host": "cfnew.schzyc.cc.cd"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "server": "162.159.41.67",
       "server_port": 80,
       "tag": "🇸🇬新加坡 16",
       "uuid": "b4f25b41-cc8e-49eb-bdb8-83dd8c7e542d",
+      "transport": {
+        "type": "ws",
+        "path": "/?ed=2048",
+        "headers": {
+          "Host": "cfnew.schzyc.cc.cd"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "server": "172.64.41.219",
+      "server_port": 443,
+      "tag": "🇸🇬新加坡 17",
+      "uuid": "b4f25b41-cc8e-49eb-bdb8-83dd8c7e542d",
+      "tls": {
+        "enabled": true,
+        "server_name": "cfnew.schzyc.cc.cd",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "randomized"
+        }
+      },
       "transport": {
         "type": "ws",
         "path": "/?ed=2048",
@@ -1225,6 +1439,29 @@
       "server": "mfa.gov.ua",
       "server_port": 443,
       "tag": "🇺🇦 🌍乌克兰 01",
+      "uuid": "5d04446f-af4b-4372-85f8-c19eca05b3f9",
+      "tls": {
+        "enabled": true,
+        "server_name": "mao.kipfel.kdns.fr",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/glasspanel/guest000_0_5de14443985f/",
+        "headers": {
+          "Host": "mao.kipfel.kdns.fr"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "server": "www.shopify.com",
+      "server_port": 443,
+      "tag": "🇺🇸美国 01",
       "uuid": "5d04446f-af4b-4372-85f8-c19eca05b3f9",
       "tls": {
         "enabled": true,
@@ -1290,12 +1527,128 @@
       }
     },
     {
+      "type": "vless",
+      "server": "www.cnae.top",
+      "server_port": 443,
+      "tag": "🇺🇸美国 04",
+      "uuid": "5d04446f-af4b-4372-85f8-c19eca05b3f9",
+      "tls": {
+        "enabled": true,
+        "server_name": "mao.kipfel.kdns.fr",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/glasspanel/guest000_0_5de14443985f/",
+        "headers": {
+          "Host": "mao.kipfel.kdns.fr"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "server": "nexusmods.com",
+      "server_port": 443,
+      "tag": "🇺🇸美国 05",
+      "uuid": "5d04446f-af4b-4372-85f8-c19eca05b3f9",
+      "tls": {
+        "enabled": true,
+        "server_name": "mao.kipfel.kdns.fr",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/glasspanel/guest000_0_5de14443985f/",
+        "headers": {
+          "Host": "mao.kipfel.kdns.fr"
+        }
+      }
+    },
+    {
+      "type": "shadowsocks",
+      "server": "www.syfe.com",
+      "server_port": 80,
+      "tag": "🇺🇸美国 06",
+      "method": "2022-blake3-aes-128-gcm",
+      "password": "YTE1ZWU4ZTEyZjc3YmEzZA==:ZjQ4NzExMzUtMGYzNy00NA=="
+    },
+    {
+      "type": "shadowsocks",
+      "server": "104.128.72.119",
+      "server_port": 80,
+      "tag": "🇺🇸美国 07",
+      "method": "2022-blake3-aes-128-gcm",
+      "password": "YTE1ZWU4ZTEyZjc3YmEzZA==:ZjQ4NzExMzUtMGYzNy00NA=="
+    },
+    {
       "type": "shadowsocks",
       "server": "www.syfe.com",
       "server_port": 80,
       "tag": "🇺🇸美国 08",
       "method": "2022-blake3-aes-128-gcm",
       "password": "YTE1ZWU4ZTEyZjc3YmEzZA==:ZjQ4NzExMzUtMGYzNy00NA=="
+    },
+    {
+      "type": "shadowsocks",
+      "server": "172.96.161.152",
+      "server_port": 20090,
+      "tag": "🇺🇸美国 09",
+      "method": "2022-blake3-aes-128-gcm",
+      "password": "YTE1ZWU4ZTEyZjc3YmEzZA==:ZjQ4NzExMzUtMGYzNy00NA=="
+    },
+    {
+      "type": "vless",
+      "server": "144.202.91.169",
+      "server_port": 443,
+      "tag": "🇺🇸美国 10",
+      "uuid": "51a0af77-a60c-4d9b-81a4-f50e1b38d90b",
+      "tls": {
+        "enabled": true,
+        "server_name": "cf3.schzyc.cc.cd",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "cf3.schzyc.cc.cd"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "server": "142.248.219.61",
+      "server_port": 2053,
+      "tag": "🇺🇸美国 11",
+      "uuid": "51a0af77-a60c-4d9b-81a4-f50e1b38d90b",
+      "tls": {
+        "enabled": true,
+        "server_name": "cf3.schzyc.cc.cd",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "cf3.schzyc.cc.cd"
+        }
+      }
     },
     {
       "type": "vless",
@@ -1345,6 +1698,29 @@
     },
     {
       "type": "vless",
+      "server": "207.246.71.78",
+      "server_port": 8443,
+      "tag": "🇺🇸美国 14",
+      "uuid": "51a0af77-a60c-4d9b-81a4-f50e1b38d90b",
+      "tls": {
+        "enabled": true,
+        "server_name": "cf3.schzyc.cc.cd",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "cf3.schzyc.cc.cd"
+        }
+      }
+    },
+    {
+      "type": "vless",
       "server": "104.168.176.241",
       "server_port": 24264,
       "tag": "🇺🇸美国 15",
@@ -1368,10 +1744,121 @@
     },
     {
       "type": "vless",
+      "server": "129.159.37.19",
+      "server_port": 30488,
+      "tag": "🇺🇸美国 16",
+      "uuid": "51a0af77-a60c-4d9b-81a4-f50e1b38d90b",
+      "tls": {
+        "enabled": true,
+        "server_name": "cf3.schzyc.cc.cd",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "cf3.schzyc.cc.cd"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "server": "free.us1.laodavip.com",
+      "server_port": 443,
+      "tag": "🇺🇸美国 17",
+      "uuid": "acc89b18-5ca3-4df9-97cf-c959e080cd20",
+      "tls": {
+        "enabled": true,
+        "server_name": "free.us1.laodavip.com",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "7_vH7zeCpAuc82hRhpewmCB0TGnF6EPfn7HZb4lDNmQ",
+          "short_id": "a38fa7e8c1844957"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "server": "free.us2.laodavip.com",
+      "server_port": 443,
+      "tag": "🇺🇸美国 21",
+      "uuid": "acc89b18-5ca3-4df9-97cf-c959e080cd20",
+      "tls": {
+        "enabled": true,
+        "server_name": "free.us2.laodavip.com",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "fmgZqiXIsO-LWrQMCNsi8_o_EaShi4ubxajVI_m8TBA",
+          "short_id": "d4e718a6ea7cdb2d"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "server": "104.25.216.104",
+      "server_port": 443,
+      "tag": "🇺🇸美国 22",
+      "uuid": "b4f25b41-cc8e-49eb-bdb8-83dd8c7e542d",
+      "tls": {
+        "enabled": true,
+        "server_name": "cfnew.schzyc.cc.cd",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "randomized"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/?ed=2048",
+        "headers": {
+          "Host": "cfnew.schzyc.cc.cd"
+        }
+      }
+    },
+    {
+      "type": "vless",
       "server": "104.25.216.104",
       "server_port": 80,
       "tag": "🇺🇸美国 23",
       "uuid": "b4f25b41-cc8e-49eb-bdb8-83dd8c7e542d",
+      "transport": {
+        "type": "ws",
+        "path": "/?ed=2048",
+        "headers": {
+          "Host": "cfnew.schzyc.cc.cd"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "server": "162.159.24.242",
+      "server_port": 443,
+      "tag": "🇺🇸美国 24",
+      "uuid": "b4f25b41-cc8e-49eb-bdb8-83dd8c7e542d",
+      "tls": {
+        "enabled": true,
+        "server_name": "cfnew.schzyc.cc.cd",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "randomized"
+        }
+      },
       "transport": {
         "type": "ws",
         "path": "/?ed=2048",
@@ -1494,6 +1981,29 @@
     {
       "type": "vless",
       "server": "104.17.158.132",
+      "server_port": 443,
+      "tag": "🌍 🌍其他 10",
+      "uuid": "b4f25b41-cc8e-49eb-bdb8-83dd8c7e542d",
+      "tls": {
+        "enabled": true,
+        "server_name": "cfnew.schzyc.cc.cd",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "randomized"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/?ed=2048",
+        "headers": {
+          "Host": "cfnew.schzyc.cc.cd"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "server": "104.17.158.132",
       "server_port": 80,
       "tag": "🌍 🌍其他 11",
       "uuid": "b4f25b41-cc8e-49eb-bdb8-83dd8c7e542d",
@@ -1509,14 +2019,9 @@
       "type": "selector",
       "tag": "proxy",
       "outbounds": [
-        "HK-BGP05🇭🇰",
-        "HK-优选01🇭🇰",
-        "HK-优选06🇭🇰",
-        "MO-BGP01🇲🇴",
-        "MO-优选01🇲🇴",
-        "NL-优选01🇳🇱",
-        "US-优选01🇺🇸",
         "🇦🇪阿联酋 01",
+        "🇨🇭瑞士 01",
+        "🇨🇳台湾 01",
         "🇨🇳台湾 02",
         "🇨🇿捷克 01",
         "🇩🇪德国 01",
@@ -1534,15 +2039,22 @@
         "🇭🇰香港 01",
         "🇭🇰香港 02",
         "🇭🇰香港 03",
+        "🇭🇰香港 04",
         "🇭🇰香港 05",
         "🇭🇰香港 06",
         "🇭🇰香港 07",
         "🇭🇰香港 08",
+        "🇭🇰香港 09",
         "🇭🇰香港 10",
+        "🇭🇰香港 11",
         "🇭🇰香港 12",
+        "🇭🇰香港 13",
         "🇭🇰香港 14",
+        "🇭🇰香港 15",
         "🇭🇰香港 16",
+        "🇭🇰香港 17",
         "🇭🇰香港 18",
+        "🇯🇵日本 01",
         "🇯🇵日本 02",
         "🇯🇵日本 03",
         "🇯🇵日本 04",
@@ -1564,25 +2076,45 @@
         "🇸🇬新加坡 03",
         "🇸🇬新加坡 04",
         "🇸🇬新加坡 05",
+        "🇸🇬新加坡 09",
         "🇸🇬新加坡 10",
+        "🇸🇬新加坡 11",
         "🇸🇬新加坡 12",
+        "🇸🇬新加坡 13",
         "🇸🇬新加坡 14",
+        "🇸🇬新加坡 15",
         "🇸🇬新加坡 16",
+        "🇸🇬新加坡 17",
         "🇸🇬新加坡 18",
         "🇺🇦 🌍乌克兰 01",
+        "🇺🇸美国 01",
         "🇺🇸美国 02",
         "🇺🇸美国 03",
+        "🇺🇸美国 04",
+        "🇺🇸美国 05",
+        "🇺🇸美国 06",
+        "🇺🇸美国 07",
         "🇺🇸美国 08",
+        "🇺🇸美国 09",
+        "🇺🇸美国 10",
+        "🇺🇸美国 11",
         "🇺🇸美国 12",
         "🇺🇸美国 13",
+        "🇺🇸美国 14",
         "🇺🇸美国 15",
+        "🇺🇸美国 16",
+        "🇺🇸美国 17",
+        "🇺🇸美国 21",
+        "🇺🇸美国 22",
         "🇺🇸美国 23",
+        "🇺🇸美国 24",
         "🇺🇸美国 25",
         "🇺🇸美国 26",
         "🇺🇸美国 27",
         "🌍 🌍其他 01",
         "🌍 🌍其他 08",
         "🌍 🌍其他 09",
+        "🌍 🌍其他 10",
         "🌍 🌍其他 11"
       ]
     },
