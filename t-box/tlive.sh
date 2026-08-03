@@ -22,8 +22,9 @@ RED='\033[0;31m' GREEN='\033[0;32m' YELLOW='\033[0;33m' CYAN='\033[0;36m' BOLD='
 
 _api_get() {
     # curl-level safety net: max-time = delay_timeout + 2s buffer
+    # No JSON fallback — caller must handle empty output
     local max_s=$((DELAY_TIMEOUT / 1000 + 2))
-    curl -sf --retry 1 --max-time "$max_s" --connect-timeout 3 "$API$1" 2>/dev/null || echo '{"delay":null}'
+    curl -sf --retry 1 --max-time "$max_s" --connect-timeout 3 "$API$1" 2>/dev/null
 }
 _url_encode() { printf '%s' "$1" | jq -sRr '@uri'; }
 
@@ -129,13 +130,23 @@ for i in $(seq 1 15); do
     sleep 1
 done
 
-# ── 2. Get all nodes ──
-mapfile -t NODES < <(_api_get "/proxies/proxy" | jq -r '
-  [.all | to_entries[] | select(.key!="proxy" and .key!="direct")]
-  | sort_by(.key) | .[].value')
+# ── 2. Wait for config to load, then get all nodes ──
+echo "waiting for config to load..."
+for i in $(seq 1 10); do
+    RAW=$(_api_get "/proxies/proxy" 2>/dev/null)
+    [ -n "$RAW" ] && break
+    sleep 1
+done
+
+NODES=()
+if [ -n "$RAW" ]; then
+    mapfile -t NODES < <(echo "$RAW" | jq -r '
+      [.all | to_entries[] | select(.key!="proxy" and .key!="direct")]
+      | sort_by(.key) | .[].value' 2>/dev/null)
+fi
 
 TOTAL=${#NODES[@]}
-[ "$TOTAL" -eq 0 ] && { echo "ERROR: no nodes in config"; exit 1; }
+[ "$TOTAL" -eq 0 ] && { echo "ERROR: no nodes in config (sing-box may not have loaded it yet)"; cat sing-box.log 2>/dev/null | tail -20; exit 1; }
 
 # Build type map
 declare -A TYPE_MAP
