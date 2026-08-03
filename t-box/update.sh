@@ -14,7 +14,7 @@ PROXY_PORT="${PROXY_PORT:-1080}"
 LOG_LEVEL="error"
 DEFAULT_UA="${DEFAULT_UA:-ClashforWindows/0.20.39}"
 DELAY_URL="${DELAY_URL:-http://www.gstatic.com/generate_204}"
-BLOCKLIST="${BLOCKLIST:-|流量|套餐|重置|建议|官网|http|剩余|到期}"
+BLOCKLIST="${BLOCKLIST:-(流量|套餐|重置|建议|官网|http|剩余|到期)}"
 LOCAL_BUILD=false
 [ "${1:-}" = "--local" ] && LOCAL_BUILD=true
 
