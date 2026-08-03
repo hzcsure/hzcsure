@@ -17,7 +17,7 @@ CYAN='\033[0;36m' BOLD='\033[1m' RESET='\033[0m'
 
 _api_get() {
     local max_s=$((DELAY_TIMEOUT / 1000 + 2))
-    curl -sf --retry 1 --max-time "$max_s" --connect-timeout 3 "$API$1" 2>/dev/null || echo '{"delay":null}'
+    curl -sf --retry 1 --max-time "$max_s" --connect-timeout 3 "$API$1" 2>/dev/null
 }
 _url_encode() { printf '%s' "$1" | jq -sRr '@uri'; }
 
