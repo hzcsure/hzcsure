@@ -15,7 +15,10 @@ SING_BOX="${SING_BOX:-./sing-box}"
 RED='\033[0;31m' GREEN='\033[0;32m' YELLOW='\033[0;33m'
 CYAN='\033[0;36m' BOLD='\033[1m' RESET='\033[0m'
 
-_api_get() { curl -sf --retry 2 --connect-timeout 3 "$API$1" 2>/dev/null; }
+_api_get() {
+    local max_s=$((DELAY_TIMEOUT / 1000 + 2))
+    curl -sf --retry 1 --max-time "$max_s" --connect-timeout 3 "$API$1" 2>/dev/null || echo '{"delay":null}'
+}
 _url_encode() { printf '%s' "$1" | jq -sRr '@uri'; }
 
 echo "=== sing-box Speed Test ==="
@@ -81,10 +84,9 @@ for idx in $(seq 0 $((TOTAL - 1))); do
         fi
     ) &
     running=$((running + 1))
-    if [ "$running" -ge "$MAX_JOBS" ]; then
+    while [ "$(jobs -rp | wc -l)" -ge "$MAX_JOBS" ]; do
         wait -n 2>/dev/null || true
-        running=$((running - 1))
-    fi
+    done
 done
 wait
 
