@@ -3,9 +3,9 @@ name: Speed Test
 on:
   push:
     paths:
-      - 'config.json'
+      - 't-box/config.json'
       - '.github/workflows/speed-test.yml'
-      - 'speed-test.sh'
+      - 't-box/speed-test.sh'
   schedule:
     - cron: '0 */6 * * *'
   workflow_dispatch:
@@ -18,25 +18,15 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Install sing-box
+      - name: Setup sing-box
         run: |
-          set -e
-          # Get latest release version (e.g. v1.13.0)
-          VERSION=$(curl -fsSL https://api.github.com/repos/SagerNet/sing-box/releases/latest \
-            | grep -oP '"tag_name": "v\K[^"]+' | head -1)
-          echo "sing-box version: $VERSION"
-          # Download official linux-amd64 release
-          curl -fsSL -o /tmp/sb.tar.gz \
-            "https://github.com/SagerNet/sing-box/releases/download/v${VERSION}/sing-box-${VERSION}-linux-amd64.tar.gz"
-          # Extract
-          sudo tar -xzf /tmp/sb.tar.gz -C /usr/local/bin --strip-components=1 \
-            "sing-box-${VERSION}-linux-amd64/sing-box"
-          sudo chmod +x /usr/local/bin/sing-box
-          sing-box version
+          chmod +x t-box/sing-box
+          t-box/sing-box version
 
       - name: Run speed test
         id: test
         run: |
+          cd t-box
           chmod +x speed-test.sh
           bash speed-test.sh config.json 2>&1 | tee speed-test.log
         continue-on-error: true
@@ -45,7 +35,7 @@ jobs:
         run: |
           echo "## Speed Test Results" >> $GITHUB_STEP_SUMMARY
           echo '```' >> $GITHUB_STEP_SUMMARY
-          tail -20 speed-test.log >> $GITHUB_STEP_SUMMARY
+          tail -20 t-box/speed-test.log >> $GITHUB_STEP_SUMMARY
           echo '```' >> $GITHUB_STEP_SUMMARY
 
       - name: Upload log
@@ -53,5 +43,5 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: speed-test-log
-          path: speed-test.log
+          path: t-box/speed-test.log
           retention-days: 7
