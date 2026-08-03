@@ -7,7 +7,7 @@ on:
       - '.github/workflows/speed-test.yml'
       - 'speed-test.sh'
   schedule:
-    - cron: '0 */6 * * *'   # every 6 hours
+    - cron: '0 */6 * * *'
   workflow_dispatch:
 
 jobs:
@@ -20,11 +20,18 @@ jobs:
 
       - name: Install sing-box
         run: |
-          sudo curl -fsSL https://sing-box.app/gpg.key -o /etc/apt/keyrings/sing-box.asc
-          echo "deb [signed-by=/etc/apt/keyrings/sing-box.asc] https://apt.sing-box.app stable main" | \
-            sudo tee /etc/apt/sources.list.d/sing-box.list
-          sudo apt-get update
-          sudo apt-get install -y sing-box
+          set -e
+          # Get latest release version (e.g. v1.13.0)
+          VERSION=$(curl -fsSL https://api.github.com/repos/SagerNet/sing-box/releases/latest \
+            | grep -oP '"tag_name": "v\K[^"]+' | head -1)
+          echo "sing-box version: $VERSION"
+          # Download official linux-amd64 release
+          curl -fsSL -o /tmp/sb.tar.gz \
+            "https://github.com/SagerNet/sing-box/releases/download/v${VERSION}/sing-box-${VERSION}-linux-amd64.tar.gz"
+          # Extract
+          sudo tar -xzf /tmp/sb.tar.gz -C /usr/local/bin --strip-components=1 \
+            "sing-box-${VERSION}-linux-amd64/sing-box"
+          sudo chmod +x /usr/local/bin/sing-box
           sing-box version
 
       - name: Run speed test
