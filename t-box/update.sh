@@ -416,10 +416,11 @@ stderr_file=$(mktemp)
 parse_output=$(_detect_and_parse "$raw" 2>"$stderr_file")
 if [ $? -ne 0 ]; then parse_rc=$?; else parse_rc=0; fi
 parse_output=${parse_output:-}
-err_msg=$(head -3 "$stderr_file" 2>/dev/null | tr '\n' ' ')
+err_msg=$(head -3 "$stderr_file" 2>/dev/null)
+err_msg=${err_msg//$'\n'/ }
 rm -f "$stderr_file"
-status_line=$(grep '^_status:' <<< "$parse_output" | tail -1)
-nodes_str=$(echo "$parse_output" | grep -v '^_status:')
+status_line=$(awk '/^_status:/{s=$0} END{print s}' <<< "$parse_output")
+nodes_str=$(awk '!/^_status:/{print}' <<< "$parse_output")
 echo "DEBUG rc=$parse_rc raw_len=$(echo -n "$raw" | wc -c) parse_out_len=$(echo -n "$parse_output" | wc -c) status='$status_line' stderr='$err_msg'"
 
         case "$status_line" in
