@@ -411,14 +411,14 @@ else
         echo "$raw" > "raw/${short}_$(date +%Y%m%d_%H%M%S).yaml"
 
         # Parse with all stages collected (capture stderr for debug)
-        stderr_file=$(mktemp)
-        parse_output=$(_detect_and_parse "$raw" 2>"$stderr_file"); parse_rc=$?
-        parse_output=${parse_output:-}
-        err_msg=$(cat "$stderr_file" 2>/dev/null | head -3 | tr '\n' ' ')
-        rm -f "$stderr_file"
-        status_line=$(echo "$parse_output" | grep '^_status:' | tail -1)
-        nodes_str=$(echo "$parse_output" | grep -v '^_status:')
-        echo "DEBUG rc=$parse_rc raw_len=$(echo -n "$raw" | wc -c) parse_out_len=$(echo -n "$parse_output" | wc -c) status='$status_line'"
+stderr_file=$(mktemp)
+parse_output=$(_detect_and_parse "$raw" 2>"$stderr_file") && parse_rc=0 || parse_rc=$?
+parse_output=${parse_output:-}
+err_msg=$(cat "$stderr_file" 2>/dev/null | head -3 | tr '\n' ' ')
+rm -f "$stderr_file"
+status_line=$(echo "$parse_output" | grep '^_status:' | tail -1)
+nodes_str=$(echo "$parse_output" | grep -v '^_status:')
+echo "DEBUG rc=$parse_rc raw_len=$(echo -n "$raw" | wc -c) parse_out_len=$(echo -n "$parse_output" | wc -c) status='$status_line' stderr='$err_msg'"
 
         case "$status_line" in
             _status:HTML)    echo "SKIP (HTML)"; FAIL_COUNT=$((FAIL_COUNT+1)); continue ;;
