@@ -265,7 +265,7 @@ _clash_to_singbox() {
             else {} end)
           + (if .["reality-opts"] then
               { reality: { enabled: true, public_key: (.["reality-opts"]["public-key"] // ""),
-                short_id: ((.["reality-opts"]["short-id"] // "") | tostring) } }
+                short_id: ((.["reality-opts"]["short-id"] // "") | if . == "" or (type=="number" and (. < 0 or . >= 65536)) then "" elif type=="number" then (.|floor|tostring) else tostring end) } }
             else {} end)
         ) }
         else {} end)
