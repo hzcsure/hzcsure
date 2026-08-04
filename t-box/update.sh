@@ -576,8 +576,8 @@ jq -n --slurpfile nodes <(echo "$NODES") --argjson tags "$TAGS" \
     log: { level: $loglevel },
     inbounds: [{ type: "mixed", tag: "mixed-in", listen: "0.0.0.0", listen_port: $port }],
     dns: { servers: [
-      { tag: "local", address: "udp://8.8.8.8", detour: "direct" },
-      { tag: "local6", address: "udp://1.1.1.1", detour: "direct" }
+      { tag: "local", address: "udp://223.5.5.5", detour: "direct" },
+      { tag: "local6", address: "udp://114.114.114.114", detour: "direct" }
     ]},
     outbounds: ($nodes[0] + [
       { type: "selector", tag: "proxy", outbounds: $tags },
