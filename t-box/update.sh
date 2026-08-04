@@ -31,13 +31,13 @@ _transport_jq() {
     local type="$1" host="$2" path="$3"
     case "$type" in
         ws) jq -n -c --arg host "$host" --arg path "${path:-/}" \
-              '{transport:{type:"ws",path:$path,headers:{Host:$host}}}' ;;
+              '{type:"ws",path:$path,headers:{Host:$host}}' ;;
         grpc) jq -n -c --arg svc "${path:-gRPC}" \
-              '{transport:{type:"grpc",service_name:$svc}}' ;;
+              '{type:"grpc",service_name:$svc}' ;;
         http|h2) jq -n -c --arg host "$host" --arg path "${path:-/}" \
-              '{transport:{type:"http",host:[$host],path:$path}}' ;;
+              '{type:"http",host:[$host],path:$path}' ;;
         httpupgrade) jq -n -c --arg host "$host" --arg path "${path:-/}" \
-              '{transport:{type:"httpupgrade",host:$host,path:$path}}' ;;
+              '{type:"httpupgrade",host:$host,path:$path}' ;;
         *) echo '{}' ;;
     esac
 }
@@ -443,89 +443,120 @@ FETCH_DIR=$(mktemp -d)
             continue
         fi
 
-        # Parse: auto-detect format (flow: URL prefix → YAML → base64 → URL → YAML)
-        first_line=$(awk '!/^[[:space:]]*$/{print; exit}' <<< "$raw")
+mkdir -p raw
+echo "$raw" > "raw/${short}_$(date +%Y%m%d_%H%M%S).yaml"
 
+        # Parse: auto-detect format
+        first_line=$(awk '!/^[[:space:]]*$/{print; exit}' <<< "$raw")
+        
         # HTML check
         if [[ "$first_line" =~ ^[[:space:]]*(<\!DOCTYPE|<html|<head|<meta|<script|HTTP/) ]]; then
             echo "SKIP (HTML)"; FAIL_COUNT=$((FAIL_COUNT+1)); continue
         fi
 
-        # Helper: parse URI format
-        _parse_uri_format() {
-            local input="$1"
-            local cnt=0; nodes_json="[]"
-            while IFS= read -r uri_line; do
-                [ -z "$uri_line" ] && continue
-                local parsed; parsed=$(_parse_uri "$uri_line" 2>/dev/null || true)
-                [ -n "$parsed" ] && { nodes_json=$(echo "$nodes_json" | jq -c --argjson p "$parsed" '. + [$p]' 2>/dev/null); cnt=$((cnt+1)); }
-            done <<< "$input"
-            [ "$cnt" -gt 0 ] && { echo "$nodes_json"; return 0; } || return 1
-        }
-
-        # Helper: parse Clash YAML
-        _parse_clash_yaml() {
-            local input="$1"
-            command -v yq >/dev/null 2>&1 || return 1
-            grep -qE '^[[:space:]]*(proxies|mixed-port|port):' <<< "$input" || return 1
-            local proxies
-            proxies=$(echo "$input" | yq -j '.proxies' 2>/dev/null || echo "$input" | yq -o=json '.proxies' 2>/dev/null || echo "[]")
-            [ -n "$proxies" ] && [ "$proxies" != "null" ] && [ "$(echo "$proxies" | jq 'length' 2>/dev/null)" != "0" ] || return 1
-            echo "$proxies" > /tmp/proxies.json
-            local parsed
-            _clash_to_singbox < /tmp/proxies.json 2>/dev/null > /tmp/parsed.json
-            local cnt=$(jq 'length' /tmp/parsed.json 2>/dev/null || echo 0)
-            [ "$cnt" -gt 0 ] && { cat /tmp/parsed.json; return 0; } || return 1
-        }
-
-        # Helper: merge parsed into ALL_NODES
-        _merge_nodes() {
-            local new_nodes="$1"
-            echo "$ALL_NODES" > /tmp/all_tmp.json
-            echo "$new_nodes" > /tmp/new_nodes.json
-            jq -cs --slurpfile b /tmp/new_nodes.json '.[0] + $b[0]' /tmp/all_tmp.json > /tmp/merged.json 2>/dev/null
-            ALL_NODES=$(cat /tmp/merged.json)
-        }
-
-        # Step 1: first line is protocol prefix → URI parsing (no base64)
-        if [[ "$first_line" =~ ^(vmess|vless|trojan|hysteria2|anytls|ss|tuic|socks):// ]]; then
-            if nodes_json=$(_parse_uri_format "$raw"); then
-                cnt=$(echo "$nodes_json" | jq 'length' 2>/dev/null || echo 0)
-                echo "OK (URI, $cnt nodes)"
-                _merge_nodes "$nodes_json"
-                OK_COUNT=$((OK_COUNT + 1)); continue
-            fi
-        fi
-
-        # Step 2: contains YAML keywords → YAML parsing (no base64)
+        # Clash YAML check
         if grep -qE '^[[:space:]]*(proxies|mixed-port|port):' <<< "$raw"; then
-            if output=$(_parse_clash_yaml "$raw"); then
-                cnt=$(echo "$output" | jq 'length' 2>/dev/null || echo 0)
-                echo "OK (Clash, $cnt nodes)"
-                _merge_nodes "$output"
-                OK_COUNT=$((OK_COUNT + 1)); continue
-            fi
-        fi
-
-        # Step 3: not matched → try base64 decode
-        decoded=$(echo "$raw" | base64 -d 2>/dev/null || true)
-        if [ -n "$decoded" ]; then
-            # decoded starts with protocol prefix → URI parsing
-            dfirst=$(awk '!/^[[:space:]]*$/{print; exit}' <<< "$decoded")
-            if [[ "$dfirst" =~ ^(vmess|vless|trojan|hysteria2|anytls|ss|tuic|socks):// ]]; then
-                if nodes_json=$(_parse_uri_format "$decoded"); then
-                    cnt=$(echo "$nodes_json" | jq 'length' 2>/dev/null || echo 0)
-                    echo "OK (URI+b64, $cnt nodes)"
-                    _merge_nodes "$nodes_json"
-                    OK_COUNT=$((OK_COUNT + 1)); continue
+            if command -v yq >/dev/null 2>&1; then
+                proxies=$(echo "$raw" | yq -j '.proxies' 2>/dev/null || echo "$raw" | yq -o=json '.proxies' 2>/dev/null || echo "[]")
+                if [ -n "$proxies" ] && [ "$proxies" != "null" ] && [ "$(echo "$proxies" | jq 'length' 2>/dev/null)" != "0" ]; then
+                    echo "$proxies" > /tmp/proxies.json
+                    parsed=$(_clash_to_singbox < /tmp/proxies.json 2>/dev/null; true)
+                    echo "$parsed" > /tmp/parsed.json
+                    cnt=$(jq 'length' /tmp/parsed.json 2>/dev/null || echo 0)
+                    echo "OK (Clash, $cnt nodes)"
+                    # Merge into ALL_NODES (avoid --argjson for large data)
+                    echo "$ALL_NODES" > /tmp/all_tmp.json
+                    jq -cs --slurpfile b /tmp/parsed.json '.[0] + $b[0]' /tmp/all_tmp.json > /tmp/merged.json 2>/dev/null
+                    ALL_NODES=$(cat /tmp/merged.json)
+                    OK_COUNT=$((OK_COUNT + 1))
+                    continue
                 fi
             fi
-            # decoded is YAML → yq parsing
-            if output=$(_parse_clash_yaml "$decoded"); then
-                cnt=$(echo "$output" | jq 'length' 2>/dev/null || echo 0)
-                echo "OK (Clash+b64, $cnt nodes)"
-                _merge_nodes "$output"
-                OK_COUNT=$((OK_COUNT + 1)); continue
+        fi
+
+        # URI format
+        if [[ "$first_line" =~ ^(vmess|vless|trojan|hysteria2|anytls|ss|tuic|socks):// ]]; then
+            cnt=0; nodes_json="[]"
+            while IFS= read -r uri_line; do
+                [ -z "$uri_line" ] && continue
+                parsed=$(_parse_uri "$uri_line" 2>/dev/null || true)
+                [ -n "$parsed" ] && { nodes_json=$(echo "$nodes_json" | jq -c --argjson p "$parsed" '. + [$p]' 2>/dev/null); cnt=$((cnt+1)); }
+            done <<< "$raw"
+            echo "$nodes_json" > /tmp/uri_nodes.json
+            echo "$ALL_NODES" > /tmp/all_tmp.json
+            jq -cs --slurpfile b /tmp/uri_nodes.json '.[0] + $b[0]' /tmp/all_tmp.json > /tmp/merged.json 2>/dev/null
+            ALL_NODES=$(cat /tmp/merged.json)
+            cnt=${cnt:-0}  # defensive: empty if none parsed
+            echo "OK (URI, $cnt nodes)"
+            OK_COUNT=$((OK_COUNT + 1))
+            continue
+        fi
+
+        # YAML format (skip Step 1 since first line didn't match URI prefix)
+        if grep -qE '^[[:space:]]*(proxies|mixed-port|port):' <<< "$raw"; then
+            if command -v yq >/dev/null 2>&1; then
+                proxies=$(echo "$raw" | yq -j '.proxies' 2>/dev/null || echo "$raw" | yq -o=json '.proxies' 2>/dev/null || echo "[]")
+                if [ -n "$proxies" ] && [ "$proxies" != "null" ] && [ "$(echo "$proxies" | jq 'length' 2>/dev/null)" != "0" ]; then
+                    echo "$proxies" > /tmp/proxies.json
+                    _clash_to_singbox < /tmp/proxies.json 2>/dev/null > /tmp/parsed.json
+                    parsed=$(cat /tmp/parsed.json)
+                    cnt=$(echo "$parsed" | jq 'length' 2>/dev/null)
+                    cnt=${cnt:-0}  # defensive: empty if jq returned nothing
+                    if [ "$cnt" -gt 0 ]; then
+                        echo "OK (Clash, $cnt nodes)"
+                        echo "$parsed" > /tmp/new_nodes.json
+                        echo "$ALL_NODES" > /tmp/all_tmp.json
+                        jq -cs --slurpfile b /tmp/new_nodes.json '.[0] + $b[0]' /tmp/all_tmp.json > /tmp/merged.json 2>/dev/null
+                        ALL_NODES=$(cat /tmp/merged.json)
+                        OK_COUNT=$((OK_COUNT + 1))
+                        continue
+                    fi
+                fi
+            fi
+        fi
+
+        # base64 decode fallback
+        decoded=$(echo "$raw" | base64 -d 2>/dev/null || true)
+        if [ -n "$decoded" ]; then
+            dfirst=$(awk '!/^[[:space:]]*$/{print; exit}' <<< "$decoded")
+            # URI format after b64
+            if [[ "$dfirst" =~ ^(vmess|vless|trojan|hysteria2|anytls|ss|tuic|socks):// ]]; then
+                cnt=0; nodes_json="[]"
+                while IFS= read -r uri_line; do
+                    [ -z "$uri_line" ] && continue
+                    parsed=$(_parse_uri "$uri_line" 2>/dev/null || true)
+                    [ -n "$parsed" ] && { nodes_json=$(echo "$nodes_json" | jq -c --argjson p "$parsed" '. + [$p]' 2>/dev/null); cnt=$((cnt+1)); }
+                done <<< "$decoded"
+                cnt=${cnt:-0}
+                if [ "$cnt" -gt 0 ]; then
+                    echo "$nodes_json" > /tmp/uri_nodes.json
+                    echo "$ALL_NODES" > /tmp/all_tmp.json
+                    jq -cs --slurpfile b /tmp/uri_nodes.json '.[0] + $b[0]' /tmp/all_tmp.json > /tmp/merged.json 2>/dev/null
+                    ALL_NODES=$(cat /tmp/merged.json)
+                    echo "OK (URI+b64, $cnt nodes)"
+                    OK_COUNT=$((OK_COUNT + 1))
+                    continue
+                fi
+            fi
+            # YAML after b64
+            if grep -qE '^[[:space:]]*(proxies|mixed-port|port):' <<< "$decoded" && command -v yq >/dev/null 2>&1; then
+                proxies=$(echo "$decoded" | yq -j '.proxies' 2>/dev/null || echo "$decoded" | yq -o=json '.proxies' 2>/dev/null || echo "[]")
+                if [ -n "$proxies" ] && [ "$proxies" != "null" ] && [ "$(echo "$proxies" | jq 'length' 2>/dev/null)" != "0" ]; then
+                    echo "$proxies" > /tmp/proxies.json
+                    _clash_to_singbox < /tmp/proxies.json 2>/dev/null > /tmp/parsed.json
+                    parsed=$(cat /tmp/parsed.json)
+                    cnt=$(echo "$parsed" | jq 'length' 2>/dev/null)
+                    cnt=${cnt:-0}
+                    if [ "$cnt" -gt 0 ]; then
+                        echo "OK (Clash+b64, $cnt nodes)"
+                        echo "$parsed" > /tmp/new_nodes.json
+                        echo "$ALL_NODES" > /tmp/all_tmp.json
+                        jq -cs --slurpfile b /tmp/new_nodes.json '.[0] + $b[0]' /tmp/all_tmp.json > /tmp/merged.json 2>/dev/null
+                        ALL_NODES=$(cat /tmp/merged.json)
+                        OK_COUNT=$((OK_COUNT + 1))
+                        continue
+                    fi
+                fi
             fi
         fi
 
