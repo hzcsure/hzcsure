@@ -330,13 +330,24 @@ _detect_and_parse() {
     if grep -qE '^[[:space:]]*(proxies|mixed-port|port):' <<< "$raw"; then
         if command -v yq >/dev/null 2>&1; then
             # Python yq (kislyuk) uses -j for JSON; MikeFarah yq uses -o=json.
-            # Try both, first valid output wins.
-            local proxies
-            proxies=$(echo "$raw" | yq -j '.proxies' 2>/dev/null) \
-              || proxies=$(echo "$raw" | yq -o=json '.proxies' 2>/dev/null) \
-              || proxies="[]"
+            local proxies yq_ver
+            yq_ver=$(yq --version 2>&1 | head -1)
+            stderr_yq=$(mktemp)
+            proxies=$(echo "$raw" | yq -j '.proxies' 2>"$stderr_yq")
+            if ! echo "$proxies" | jq . >/dev/null 2>&1; then
+                proxies=$(echo "$raw" | yq -o=json '.proxies' 2>>"$stderr_yq")
+            fi
+            if ! echo "$proxies" | jq . >/dev/null 2>&1; then
+                echo "DBG yq_ver='$yq_ver' raw_len=$(echo -n "$raw" | wc -c)"
+                echo "DBG yq_stderr=$(head -3 "$stderr_yq" 2>/dev/null | tr '\n' ' ')"
+                echo "DBG proxies_first100=$(echo "$proxies" | head -c 100)"
+                proxies="[]"
+            fi
+            [ -e "$stderr_yq" ] && cat /dev/null > "$stderr_yq"
             if [ -n "$proxies" ] && [ "$proxies" != "null" ] && [ "$(echo "$proxies" | jq 'length' 2>/dev/null)" != "0" ]; then
-                echo "$proxies" | _clash_to_singbox
+                parsed=$(echo "$proxies" | _clash_to_singbox)
+                echo "DBG yq_ver='$yq_ver' proxies_len=$(echo "$proxies" | jq 'length' 2>/dev/null) parsed_len=$(echo "$parsed" | jq 'length' 2>/dev/null)"
+                echo "$parsed"
                 echo "_status:Clash|$(echo "$proxies" | jq 'length' 2>/dev/null)"
             else
                 # Try URI format with default UA (no custom UA)
