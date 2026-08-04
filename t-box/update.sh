@@ -445,7 +445,8 @@ echo "$raw" > "raw/${short}_$(date +%Y%m%d_%H%M%S).yaml"
         if grep -qE '^[[:space:]]*(proxies|mixed-port|port):' <<< "$raw"; then
             if command -v yq >/dev/null 2>&1; then
                 proxies=$(echo "$raw" | yq -j '.proxies' 2>/dev/null || echo "$raw" | yq -o=json '.proxies' 2>/dev/null || echo "[]")
-                echo "$proxies" > /tmp/proxies.json
+                if [ -n "$proxies" ] && [ "$proxies" != "null" ] && [ "$(echo "$proxies" | jq 'length' 2>/dev/null)" != "0" ]; then
+                    echo "$proxies" > /tmp/proxies.json
                     parsed=$(_clash_to_singbox < /tmp/proxies.json 2>/tmp/clash_err; true)
                     echo "$parsed" > /tmp/parsed.json
                     echo "DBG clash_stderr=$(head -3 /tmp/clash_err 2>/dev/null | tr '\n' ' ')"
