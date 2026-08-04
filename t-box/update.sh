@@ -329,7 +329,7 @@ _detect_and_parse() {
     # Clash YAML
     if grep -qE '^[[:space:]]*(proxies|mixed-port|port):' <<< "$raw"; then
         if command -v yq >/dev/null 2>&1; then
-            local proxies; proxies=$(echo "$raw" | yq -o=json '.proxies' 2>/dev/null || echo "[]")
+            local proxies; proxies=$(echo "$raw" | yq '.proxies' 2>/dev/null || echo "[]")
             if [ -n "$proxies" ] && [ "$proxies" != "null" ] && [ "$(echo "$proxies" | jq 'length' 2>/dev/null)" != "0" ]; then
                 echo "$proxies" | _clash_to_singbox
                 echo "_status:Clash|$(echo "$proxies" | jq 'length' 2>/dev/null)"
