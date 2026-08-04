@@ -1,0 +1,482 @@
+port: 7890
+socks-port: 7891
+allow-lan: true
+mode: rule
+log-level: info
+ipv6: true
+external-controller: 127.0.0.1:6170
+dns:
+  enable: true
+  enhanced-mode: fake-ip
+  fake-ip-range: 198.18.0.1/15
+  nameserver:
+  - 223.5.5.5
+  - 119.29.29.29
+proxy-groups:
+- name: 手动选择
+  type: select
+  proxies: &id001
+  - 🇨🇳 中国 01 @SCHPD
+  - 🇭🇰 香港 01 @SCHPD
+  - 🇭🇰 香港 02 @SCHPD
+  - 🇯🇵 日本 01 @SCHPD
+  - 🇯🇵 日本 02 @SCHPD
+  - 🇰🇷 韩国 01 @SCHPD
+  - 🇰🇷 韩国 02 @SCHPD
+  - 🇳🇱 荷兰 01 @SCHPD
+  - 🇳🇱 荷兰 02 @SCHPD
+  - 🇳🇱 荷兰 03 @SCHPD
+  - 🇳🇱 荷兰 04 @SCHPD
+  - 🇵🇱 波兰 01 @SCHPD
+  - 🇷🇴 罗马尼亚 01 @SCHPD
+  - 🇷🇴 罗马尼亚 02 @SCHPD
+  - 🇷🇴 罗马尼亚 03 @SCHPD
+  - 🇷🇴 罗马尼亚 04 @SCHPD
+  - 🇷🇴 罗马尼亚 05 @SCHPD
+  - 🇷🇴 罗马尼亚 06 @SCHPD
+  - 🇷🇴 罗马尼亚 07 @SCHPD
+  - 🇷🇴 罗马尼亚 08 @SCHPD
+  - 🇷🇴 罗马尼亚 09 @SCHPD
+  - 🇷🇴 罗马尼亚 10 @SCHPD
+  - 🇷🇴 罗马尼亚 11 @SCHPD
+  - 🇷🇴 罗马尼亚 12 @SCHPD
+  - 🇷🇴 罗马尼亚 13 @SCHPD
+  - 🇷🇴 罗马尼亚 14 @SCHPD
+  - 🇷🇴 罗马尼亚 15 @SCHPD
+  - 🇷🇴 罗马尼亚 16 @SCHPD
+  - 🇷🇴 罗马尼亚 17 @SCHPD
+  - 🇷🇴 罗马尼亚 18 @SCHPD
+  - 🇷🇴 罗马尼亚 19 @SCHPD
+  - 🇷🇴 罗马尼亚 20 @SCHPD
+  - 🇷🇴 罗马尼亚 21 @SCHPD
+  - 🇷🇴 罗马尼亚 22 @SCHPD
+  - 🇷🇴 罗马尼亚 23 @SCHPD
+  - 🇷🇴 罗马尼亚 24 @SCHPD
+  - 🇷🇴 罗马尼亚 25 @SCHPD
+  - 🇷🇴 罗马尼亚 26 @SCHPD
+  - 🇷🇴 罗马尼亚 27 @SCHPD
+  - 🇷🇴 罗马尼亚 28 @SCHPD
+  - 🇷🇴 罗马尼亚 29 @SCHPD
+  - 🇷🇴 罗马尼亚 30 @SCHPD
+  - 🇷🇴 罗马尼亚 31 @SCHPD
+  - 🇺🇸 美国 01 @SCHPD
+  - 🇺🇸 美国 02 @SCHPD
+  - 🇺🇸 美国 03 @SCHPD
+- name: 自动选择
+  type: url-test
+  url: http://connectivitycheck.gstatic.com/generate_204
+  interval: 300
+  proxies: *id001
+- name: Proxy
+  type: select
+  proxies:
+  - 手动选择
+  - 自动选择
+  - DIRECT
+  - REJECT
+rules:
+- MATCH,Proxy
+proxies:
+- name: 🇵🇱 波兰 01 @SCHPD
+  server: discrete-basilisk.rooster465.autos
+  type: trojan
+  country: 🇮🇳IN
+  port: 443
+  password: ND91608427
+  sni: discrete-basilisk.rooster465.autos
+  skip-cert-verify: true
+  udp: true
+  delay: 2997
+- name: 🇰🇷 韩国 01 @SCHPD
+  server: moved-meerkat.rooster465.autos
+  port: 443
+  type: trojan
+  password: ND91608427
+  sni: moved-meerkat.rooster465.autos
+  skip-cert-verify: true
+  udp: true
+  delay: 1048
+- name: 🇰🇷 韩国 02 @SCHPD
+  server: definite-malamute.rooster465.autos
+  port: 443
+  type: trojan
+  password: ND91608427
+  sni: definite-malamute.rooster465.autos
+  skip-cert-verify: true
+  udp: true
+  delay: 628
+- name: 🇳🇱 荷兰 01 @SCHPD
+  server: nl-4.tr202604.com
+  type: trojan
+  country: 🇳🇱NL
+  port: 443
+  password: RJbtIstwtcU5buDY3r
+  skip-cert-verify: true
+  udp: true
+  delay: 1607
+- name: 🇳🇱 荷兰 02 @SCHPD
+  server: nl-1.tr202604.com
+  type: trojan
+  country: 🇳🇱NL
+  port: 443
+  password: RJbtIstwtcU5buDY3r
+  skip-cert-verify: true
+  udp: true
+  delay: 1590
+- name: 🇳🇱 荷兰 03 @SCHPD
+  server: 84.17.47.150
+  port: 9002
+  type: http
+  tls: true
+  skip-cert-verify: true
+  udp: true
+  delay: 1437
+- name: 🇳🇱 荷兰 04 @SCHPD
+  server: 84.17.47.148
+  port: 9002
+  type: http
+  tls: true
+  skip-cert-verify: true
+  udp: true
+  delay: 2197
+- name: 🇷🇴 罗马尼亚 01 @SCHPD
+  server: 193.176.84.21
+  port: 9002
+  type: http
+  tls: true
+  skip-cert-verify: true
+  udp: true
+  delay: 1575
+- name: 🇷🇴 罗马尼亚 02 @SCHPD
+  server: 193.176.84.19
+  port: 9002
+  type: http
+  tls: true
+  skip-cert-verify: true
+  udp: true
+  delay: 1580
+- name: 🇷🇴 罗马尼亚 03 @SCHPD
+  server: 193.176.84.38
+  port: 9002
+  type: http
+  tls: true
+  skip-cert-verify: true
+  udp: true
+  delay: 1168
+- name: 🇷🇴 罗马尼亚 04 @SCHPD
+  server: 193.176.84.36
+  port: 9002
+  type: http
+  tls: true
+  skip-cert-verify: true
+  udp: true
+  delay: 1366
+- name: 🇷🇴 罗马尼亚 05 @SCHPD
+  server: 193.176.84.24
+  port: 9002
+  type: http
+  tls: true
+  skip-cert-verify: true
+  udp: true
+  delay: 2818
+- name: 🇷🇴 罗马尼亚 06 @SCHPD
+  server: 84.239.49.197
+  port: 9002
+  type: http
+  tls: true
+  skip-cert-verify: true
+  udp: true
+  delay: 1631
+- name: 🇷🇴 罗马尼亚 07 @SCHPD
+  server: 84.239.14.158
+  port: 9002
+  type: http
+  tls: true
+  skip-cert-verify: true
+  udp: true
+  delay: 1727
+- name: 🇷🇴 罗马尼亚 08 @SCHPD
+  server: 84.239.49.224
+  port: 9002
+  type: http
+  tls: true
+  skip-cert-verify: true
+  udp: true
+  delay: 2331
+- name: 🇷🇴 罗马尼亚 09 @SCHPD
+  server: 84.239.49.175
+  port: 9002
+  type: http
+  password: None
+  tls: true
+  skip-cert-verify: true
+  udp: true
+  delay: 2818
+- name: 🇷🇴 罗马尼亚 10 @SCHPD
+  server: 84.239.49.62
+  port: 9002
+  type: http
+  tls: true
+  skip-cert-verify: true
+  udp: true
+  delay: 2818
+- name: 🇷🇴 罗马尼亚 11 @SCHPD
+  server: 84.239.49.223
+  port: 9002
+  type: http
+  tls: true
+  skip-cert-verify: true
+  udp: true
+  delay: 1345
+- name: 🇷🇴 罗马尼亚 12 @SCHPD
+  server: 84.239.49.217
+  port: 9002
+  type: http
+  tls: true
+  skip-cert-verify: true
+  udp: true
+  delay: 1354
+- name: 🇷🇴 罗马尼亚 13 @SCHPD
+  server: 84.239.49.154
+  port: 9002
+  type: http
+  password: None
+  tls: true
+  skip-cert-verify: true
+  udp: true
+  delay: 2449
+- name: 🇷🇴 罗马尼亚 14 @SCHPD
+  server: 84.239.49.58
+  port: 9002
+  type: http
+  username: 'null'
+  password: 'null'
+  tls: true
+  skip-cert-verify: true
+  udp: true
+  delay: 2473
+- name: 🇷🇴 罗马尼亚 15 @SCHPD
+  server: 84.239.49.157
+  port: 9002
+  type: http
+  tls: true
+  skip-cert-verify: true
+  udp: true
+  delay: 2164
+- name: 🇷🇴 罗马尼亚 16 @SCHPD
+  server: 84.239.49.220
+  port: 9002
+  type: http
+  tls: true
+  skip-cert-verify: true
+  udp: true
+  delay: 2385
+- name: 🇷🇴 罗马尼亚 17 @SCHPD
+  server: 84.239.49.240
+  port: 9002
+  type: http
+  tls: true
+  skip-cert-verify: true
+  udp: true
+  delay: 2164
+- name: 🇷🇴 罗马尼亚 18 @SCHPD
+  server: 84.239.49.48
+  port: 9002
+  type: http
+  password: None
+  tls: true
+  skip-cert-verify: true
+  udp: true
+  delay: 1552
+- name: 🇷🇴 罗马尼亚 19 @SCHPD
+  server: 84.239.49.244
+  port: 9002
+  type: http
+  tls: true
+  skip-cert-verify: true
+  udp: true
+  delay: 1590
+- name: 🇷🇴 罗马尼亚 20 @SCHPD
+  server: 84.239.14.157
+  port: 9002
+  type: http
+  tls: true
+  skip-cert-verify: true
+  udp: true
+  delay: 2164
+- name: 🇷🇴 罗马尼亚 21 @SCHPD
+  server: 84.239.49.227
+  port: 9002
+  type: http
+  tls: true
+  skip-cert-verify: true
+  udp: true
+  delay: 1156
+- name: 🇷🇴 罗马尼亚 22 @SCHPD
+  server: 84.239.49.180
+  port: 9002
+  type: http
+  tls: true
+  skip-cert-verify: true
+  udp: true
+  delay: 2402
+- name: 🇷🇴 罗马尼亚 23 @SCHPD
+  server: 84.239.49.233
+  port: 9002
+  type: http
+  tls: true
+  skip-cert-verify: true
+  udp: true
+  delay: 1156
+- name: 🇷🇴 罗马尼亚 24 @SCHPD
+  server: 84.239.49.199
+  port: 9002
+  type: http
+  tls: true
+  skip-cert-verify: true
+  udp: true
+  delay: 1735
+- name: 🇷🇴 罗马尼亚 25 @SCHPD
+  server: 84.239.49.182
+  port: 9002
+  type: http
+  password: None
+  tls: true
+  skip-cert-verify: true
+  udp: true
+  delay: 1152
+- name: 🇷🇴 罗马尼亚 26 @SCHPD
+  server: 84.239.49.198
+  port: 9002
+  type: http
+  tls: true
+  skip-cert-verify: true
+  udp: true
+  delay: 1567
+- name: 🇷🇴 罗马尼亚 27 @SCHPD
+  server: 84.239.49.183
+  port: 9002
+  type: http
+  tls: true
+  skip-cert-verify: true
+  udp: true
+  delay: 1164
+- name: 🇷🇴 罗马尼亚 28 @SCHPD
+  server: 84.239.49.231
+  port: 9002
+  type: http
+  tls: true
+  skip-cert-verify: true
+  udp: true
+  delay: 1657
+- name: 🇷🇴 罗马尼亚 29 @SCHPD
+  server: 84.239.49.184
+  port: 9002
+  type: http
+  password: None
+  tls: true
+  skip-cert-verify: true
+  udp: true
+  delay: 1670
+- name: 🇷🇴 罗马尼亚 30 @SCHPD
+  server: 84.239.49.204
+  port: 9002
+  type: http
+  tls: true
+  skip-cert-verify: true
+  udp: true
+  delay: 1929
+- name: 🇷🇴 罗马尼亚 31 @SCHPD
+  server: 84.239.14.156
+  port: 9002
+  type: http
+  password: None
+  tls: true
+  skip-cert-verify: true
+  udp: true
+  delay: 1941
+- name: 🇺🇸 美国 01 @SCHPD
+  server: 138.199.35.218
+  port: 9002
+  type: http
+  tls: true
+  skip-cert-verify: true
+  udp: true
+  delay: 1097
+- name: 🇺🇸 美国 02 @SCHPD
+  server: 138.199.35.216
+  port: 9002
+  type: http
+  tls: true
+  skip-cert-verify: true
+  udp: true
+  delay: 1929
+- name: 🇺🇸 美国 03 @SCHPD
+  server: 138.199.35.211
+  port: 9002
+  type: http
+  password: None
+  tls: true
+  skip-cert-verify: true
+  udp: true
+  delay: 1162
+- name: 🇯🇵 日本 01 @SCHPD
+  server: upright-impala.rooster465.autos
+  port: 443
+  type: trojan
+  password: ND91608427
+  sni: upright-impala.rooster465.autos
+  skip-cert-verify: true
+  udp: true
+  delay: 964
+- name: 🇯🇵 日本 02 @SCHPD
+  server: 47.74.43.250
+  type: vmess
+  country: 🇯🇵JP
+  port: 53268
+  uuid: 16364b13-0e00-4f2e-82f0-37a721088953
+  alterId: 0
+  cipher: auto
+  network: http
+  http-opts:
+    method: GET
+    path:
+    - /
+  h2-opts: {}
+  skip-cert-verify: true
+  delay: 2521
+  udp: true
+- name: 🇭🇰 香港 01 @SCHPD
+  server: 16.162.22.218
+  port: 9149
+  type: trojan
+  password: BxceQaOe
+  sni: t.me%252Fripaojiedian
+  skip-cert-verify: true
+  udp: true
+  delay: 612
+- name: 🇭🇰 香港 02 @SCHPD
+  server: board-04.ddnskunlun.com
+  port: 11973
+  type: vmess
+  uuid: a8bcce43-abda-315b-8e81-e3e65bcb3d07
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  udp: true
+  delay: 1851
+- name: 🇨🇳 中国 01 @SCHPD
+  server: v9.hdacd.com
+  port: 30809
+  type: vmess
+  country: 🇨🇳 CN
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  alterId: 2
+  cipher: auto
+  network: tcp
+  http-opts: {}
+  ws-path: /
+  skip-cert-verify: true
+  delay: 1214
+  udp: true
