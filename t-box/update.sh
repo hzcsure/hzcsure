@@ -300,7 +300,7 @@ _clash_to_singbox() {
         { type: "socks", version: "5", username: (.username // ""), password: (.password // "") }
       else empty end
     | select(.type != null)
-    ]' 2>/dev/null
+    ]'
 }
 
 # ─── Format detection + parse ───
