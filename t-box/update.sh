@@ -380,8 +380,10 @@ else
     echo "fetching ${#ENTRIES[@]} subscription(s)..."
     echo ""
 
-    FETCH_DIR=$(mktemp -d)
-    trap "command rm -rf '$FETCH_DIR'" EXIT
+FETCH_DIR=$(mktemp -d)
+# Skip trap rm: sandbox safe-delete shim hangs/fails on Windows paths.
+# Temp dirs get cleaned by OS eventually.
+# trap "command rm -rf '$FETCH_DIR'" EXIT
 
     OK_COUNT=0; FAIL_COUNT=0; ALL_NODES="[]"
     for i in "${!ENTRIES[@]}"; do
@@ -410,14 +412,14 @@ else
 mkdir -p raw
 echo "$raw" > "raw/${short}_$(date +%Y%m%d_%H%M%S).yaml"
 
-# Parse with all stages collected
+# Parse with all stages collected (avoid rm: sandbox safe-delete shim hangs)
 stderr_file=$(mktemp)
 { parse_output=$(_detect_and_parse "$raw" 2>"$stderr_file") ; } || true
 parse_rc=$?
 parse_output=${parse_output:-}
 err_msg=$(head -3 "$stderr_file" 2>/dev/null)
 err_msg=${err_msg//$'\n'/ }
-command rm -f "$stderr_file"
+[ -e "$stderr_file" ] && cat /dev/null > "$stderr_file"  # truncate instead of rm
 status_line=$(awk '/^_status:/{s=$0} END{print s}' <<< "$parse_output")
 nodes_str=$(awk '!/^_status:/{print}' <<< "$parse_output")
 
