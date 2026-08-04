@@ -30574,7 +30574,7 @@
         "reality": {
           "enabled": true,
           "public_key": "nlEvGwt7WTuobjUSOK9ITQ8LF5VIC-SrWPMTH9FqTk4",
-          "short_id": 1.7976931348623157E+308
+          "short_id": "1.7976931348623157E+308"
         }
       },
       "type": "vless",
