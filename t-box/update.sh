@@ -255,33 +255,20 @@ _clash_to_singbox() {
     # --- TLS ---
     + (if (.type | IN("vless","trojan","hysteria","hysteria2","tuic","anytls")) and
          (.tls or .["skip-cert-verify"] or .servername or .sni or .["reality-opts"]) then
-<<<<<<< f90d4f590
-        { tls: (
-          { enabled: true, server_name: (.servername // .sni // .server // ""),
-            insecure: (.["skip-cert-verify"] // false) }
-=======
         { tls: ({
             enabled: true,
             server_name: (.servername // .sni // .server // ""),
             insecure: (.["skip-cert-verify"] // false)
           }
->>>>>>> e417e12a0
           + (if .["client-fingerprint"] then
               { utls: { enabled: true, fingerprint: .["client-fingerprint"] } }
             else {} end)
           + (if .["reality-opts"] then
               { reality: { enabled: true, public_key: (.["reality-opts"]["public-key"] // ""),
-<<<<<<< f90d4f590
-                short_id: (.["reality-opts"]["short-id"] // "") } }
-            else {} end)
-        )
-        } else {} end)
-=======
                 short_id: ((.["reality-opts"]["short-id"] // "") | if . == "" or (type=="number" and (. < 0 or . >= 65536)) then "" elif type=="number" then (.|floor|tostring) else tostring end) } }
             else {} end)
         ) }
         else {} end)
->>>>>>> e417e12a0
     # --- protocol-specific ---
     + if .type == "vless" then
         { type: "vless", uuid } + (if .["reality-opts"] then { flow: (.flow // "xtls-rprx-vision") } else {} end)
