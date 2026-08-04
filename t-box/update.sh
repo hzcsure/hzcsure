@@ -455,7 +455,8 @@ echo "$raw" > "raw/${short}_$(date +%Y%m%d_%H%M%S).yaml"
                     echo "OK (Clash, $cnt nodes)"
                     # Merge into ALL_NODES (avoid --argjson for large data)
                     echo "$ALL_NODES" > /tmp/all_tmp.json
-                    ALL_NODES=$(jq -c --slurpfile a /tmp/all_tmp.json --slurpfile b /tmp/parsed.json '$a[0] + $b[0]' <<< '' 2>/dev/null)
+                    jq -cs --slurpfile b /tmp/parsed.json '.[0] + $b[0]' /tmp/all_tmp.json > /tmp/merged.json 2>/dev/null
+                    ALL_NODES=$(cat /tmp/merged.json)
                     OK_COUNT=$((OK_COUNT + 1))
                     continue
                 fi
@@ -470,8 +471,11 @@ echo "$raw" > "raw/${short}_$(date +%Y%m%d_%H%M%S).yaml"
                 parsed=$(_parse_uri "$uri_line" 2>/dev/null || true)
                 [ -n "$parsed" ] && { nodes_json=$(echo "$nodes_json" | jq -c --argjson p "$parsed" '. + [$p]' 2>/dev/null); cnt=$((cnt+1)); }
             done <<< "$raw"
+            echo "$nodes_json" > /tmp/uri_nodes.json
+            echo "$ALL_NODES" > /tmp/all_tmp.json
+            jq -cs --slurpfile b /tmp/uri_nodes.json '.[0] + $b[0]' /tmp/all_tmp.json > /tmp/merged.json 2>/dev/null
+            ALL_NODES=$(cat /tmp/merged.json)
             echo "OK (URI, $cnt nodes)"
-            ALL_NODES=$(echo "$ALL_NODES" | jq -c --argjson n "$nodes_json" '. + $n')
             OK_COUNT=$((OK_COUNT + 1))
             continue
         fi
