@@ -411,7 +411,7 @@ else
         echo "$raw" > "raw/${short}_$(date +%Y%m%d_%H%M%S).yaml"
 
         # Parse with all stages collected
-        parse_output=$(_detect_and_parse "$raw" 2>/dev/null || true)
+        parse_output=$(_detect_and_parse "$raw" 2>/dev/null) || true
         status_line=$(echo "$parse_output" | grep '^_status:' | tail -1)
         nodes_str=$(echo "$parse_output" | grep -v '^_status:')
 
