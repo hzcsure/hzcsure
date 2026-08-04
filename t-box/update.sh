@@ -255,29 +255,34 @@ _clash_to_singbox() {
     # --- TLS ---
     + (if (.type != "shadowsocks" and .type != "ss" and .type != "vmess") and
          (.tls or .["skip-cert-verify"] or .servername or .sni or .["reality-opts"]) then
-        { tls: { enabled: true, server_name: (.servername // .sni // .server // ""),
-          insecure: (.["skip-cert-verify"] // false)
-        }
-        + (if .["client-fingerprint"] then
-            { utls: { enabled: true, fingerprint: .["client-fingerprint"] } }
-          else {} end)
-        + (if .["reality-opts"] then
-            { reality: { enabled: true, public_key: (.["reality-opts"]["public-key"] // ""),
-              short_id: (.["reality-opts"]["short-id"] // "") } }
-          else {} end)
-        } else {} end)
+        { tls: ({
+            enabled: true,
+            server_name: (.servername // .sni // .server // ""),
+            insecure: (.["skip-cert-verify"] // false)
+          }
+          + (if .["client-fingerprint"] then
+              { utls: { enabled: true, fingerprint: .["client-fingerprint"] } }
+            else {} end)
+          + (if .["reality-opts"] then
+              { reality: { enabled: true, public_key: (.["reality-opts"]["public-key"] // ""),
+                short_id: (.["reality-opts"]["short-id"] // "") } }
+            else {} end)
+        ) }
+        else {} end)
     # --- protocol-specific ---
     + if .type == "vless" then
         { type: "vless", uuid } + (if .["reality-opts"] then { flow: (.flow // "xtls-rprx-vision") } else {} end)
       elif .type == "trojan" then
         { type: "trojan", password }
       elif .type == "hysteria" or .type == "hysteria2" then
-        { type: "hysteria2", password: (.auth_str // .password // ""),
-          up_mbps: (.up // 50), down_mbps: (.down // 100) }
+        ({ type: "hysteria2", password: (.auth_str // .password // ""),
+          up_mbps: (.up // 50), down_mbps: (.down // 100)
+        }
         + (if .obfs and .obfs != "" and .["obfs-password"] and .["obfs-password"] != "" then
             { obfs: { type: .obfs, password: .["obfs-password"] } }
           else {} end)
         + (if .["skip-cert-verify"] then { tls: { enabled: true, server_name: (.sni // .servername // .server // ""), insecure: true, alpn: ["h3"] } } else {} end)
+        )
       elif .type == "shadowsocks" or .type == "ss" then
         { type: "shadowsocks", method: (.cipher // "aes-256-gcm"), password: (.password // ""),
           plugin: (if .plugin then .plugin else empty end),
