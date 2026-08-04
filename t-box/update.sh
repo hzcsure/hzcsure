@@ -253,32 +253,49 @@ _clash_to_singbox() {
           path: (.["httpupgrade-opts"].path // "/") } }
       else {} end)
     # --- TLS ---
-    + (if (.type != "shadowsocks" and .type != "ss" and .type != "vmess") and
+    + (if (.type | IN("vless","trojan","hysteria","hysteria2","tuic","anytls")) and
          (.tls or .["skip-cert-verify"] or .servername or .sni or .["reality-opts"]) then
+<<<<<<< f90d4f590
         { tls: (
           { enabled: true, server_name: (.servername // .sni // .server // ""),
             insecure: (.["skip-cert-verify"] // false) }
+=======
+        { tls: ({
+            enabled: true,
+            server_name: (.servername // .sni // .server // ""),
+            insecure: (.["skip-cert-verify"] // false)
+          }
+>>>>>>> e417e12a0
           + (if .["client-fingerprint"] then
               { utls: { enabled: true, fingerprint: .["client-fingerprint"] } }
             else {} end)
           + (if .["reality-opts"] then
               { reality: { enabled: true, public_key: (.["reality-opts"]["public-key"] // ""),
+<<<<<<< f90d4f590
                 short_id: (.["reality-opts"]["short-id"] // "") } }
             else {} end)
         )
         } else {} end)
+=======
+                short_id: ((.["reality-opts"]["short-id"] // "") | if . == "" or (type=="number" and (. < 0 or . >= 65536)) then "" elif type=="number" then (.|floor|tostring) else tostring end) } }
+            else {} end)
+        ) }
+        else {} end)
+>>>>>>> e417e12a0
     # --- protocol-specific ---
     + if .type == "vless" then
         { type: "vless", uuid } + (if .["reality-opts"] then { flow: (.flow // "xtls-rprx-vision") } else {} end)
       elif .type == "trojan" then
         { type: "trojan", password }
       elif .type == "hysteria" or .type == "hysteria2" then
-        { type: "hysteria2", password: (.auth_str // .password // ""),
-          up_mbps: (.up // 50), down_mbps: (.down // 100) }
+        ({ type: "hysteria2", password: (.auth_str // .password // ""),
+          up_mbps: (.up // 50), down_mbps: (.down // 100)
+        }
         + (if .obfs and .obfs != "" and .["obfs-password"] and .["obfs-password"] != "" then
             { obfs: { type: .obfs, password: .["obfs-password"] } }
           else {} end)
         + (if .["skip-cert-verify"] then { tls: { enabled: true, server_name: (.sni // .servername // .server // ""), insecure: true, alpn: ["h3"] } } else {} end)
+        )
       elif .type == "shadowsocks" or .type == "ss" then
         { type: "shadowsocks", method: (.cipher // "aes-256-gcm"), password: (.password // ""),
           plugin: (if .plugin then .plugin else empty end),
@@ -301,7 +318,7 @@ _clash_to_singbox() {
         { type: "socks", version: "5", username: (.username // ""), password: (.password // "") }
       else empty end
     | select(.type != null)
-    ]' 2>/dev/null
+    ]'
 }
 
 # ─── Format detection + parse ───
@@ -429,33 +446,52 @@ FETCH_DIR=$(mktemp -d)
 mkdir -p raw
 echo "$raw" > "raw/${short}_$(date +%Y%m%d_%H%M%S).yaml"
 
-# Parse with all stages collected (avoid rm: sandbox safe-delete shim hangs)
-stderr_file=$(mktemp)
-{ parse_output=$(_detect_and_parse "$raw" 2>"$stderr_file") ; } || true
-parse_rc=$?
-parse_output=${parse_output:-}
-err_msg=$(head -3 "$stderr_file" 2>/dev/null)
-err_msg=${err_msg//$'\n'/ }
-[ -e "$stderr_file" ] && cat /dev/null > "$stderr_file"  # truncate instead of rm
-status_line=$(awk '/^_status:/{s=$0} END{print s}' <<< "$parse_output")
-nodes_str=$(awk '!/^_status:/{print}' <<< "$parse_output")
+        # Parse: auto-detect format
+        first_line=$(awk '!/^[[:space:]]*$/{print; exit}' <<< "$raw")
+        
+        # HTML check
+        if [[ "$first_line" =~ ^[[:space:]]*(<\!DOCTYPE|<html|<head|<meta|<script|HTTP/) ]]; then
+            echo "SKIP (HTML)"; FAIL_COUNT=$((FAIL_COUNT+1)); continue
+        fi
 
-        case "$status_line" in
-            _status:HTML)    echo "SKIP (HTML)"; FAIL_COUNT=$((FAIL_COUNT+1)); continue ;;
-            _status:UNKNOWN) echo "UNKNOWN format"; FAIL_COUNT=$((FAIL_COUNT+1)); continue ;;
-            _status:NoYQ)    echo "WARN (no yq)"; FAIL_COUNT=$((FAIL_COUNT+1)); continue ;;
-            _status:Clash*)
-                cnt=$(echo "$nodes_str" | jq -s 'length' 2>/dev/null)
-                nodes_json=$(echo "$nodes_str" | jq -s '.' 2>/dev/null || echo "[]")
-                echo "OK (Clash, $cnt nodes)" ;;
-            _status:URI*)
-                cnt=$(echo "$nodes_str" | jq -s 'length' 2>/dev/null || echo 0)
-                nodes_json=$(echo "$nodes_str" | jq -s '.' 2>/dev/null || echo "[]")
-                echo "OK (URI, $cnt nodes)" ;;
-        esac
+        # Clash YAML check
+        if grep -qE '^[[:space:]]*(proxies|mixed-port|port):' <<< "$raw"; then
+            if command -v yq >/dev/null 2>&1; then
+                proxies=$(echo "$raw" | yq -j '.proxies' 2>/dev/null || echo "$raw" | yq -o=json '.proxies' 2>/dev/null || echo "[]")
+                if [ -n "$proxies" ] && [ "$proxies" != "null" ] && [ "$(echo "$proxies" | jq 'length' 2>/dev/null)" != "0" ]; then
+                    echo "$proxies" > /tmp/proxies.json
+                    parsed=$(_clash_to_singbox < /tmp/proxies.json 2>/dev/null; true)
+                    echo "$parsed" > /tmp/parsed.json
+                    cnt=$(jq 'length' /tmp/parsed.json 2>/dev/null || echo 0)
+                    echo "OK (Clash, $cnt nodes)"
+                    # Merge into ALL_NODES (avoid --argjson for large data)
+                    echo "$ALL_NODES" > /tmp/all_tmp.json
+                    jq -cs --slurpfile b /tmp/parsed.json '.[0] + $b[0]' /tmp/all_tmp.json > /tmp/merged.json 2>/dev/null
+                    ALL_NODES=$(cat /tmp/merged.json)
+                    OK_COUNT=$((OK_COUNT + 1))
+                    continue
+                fi
+            fi
+        fi
 
-        ALL_NODES=$(echo "$ALL_NODES" | jq -c --argjson n "$nodes_json" '. + $n')
-        OK_COUNT=$((OK_COUNT + 1))
+        # URI format
+        if [[ "$first_line" =~ ^(vmess|vless|trojan|hysteria2|anytls|ss|tuic|socks):// ]]; then
+            cnt=0; nodes_json="[]"
+            while IFS= read -r uri_line; do
+                [ -z "$uri_line" ] && continue
+                parsed=$(_parse_uri "$uri_line" 2>/dev/null || true)
+                [ -n "$parsed" ] && { nodes_json=$(echo "$nodes_json" | jq -c --argjson p "$parsed" '. + [$p]' 2>/dev/null); cnt=$((cnt+1)); }
+            done <<< "$raw"
+            echo "$nodes_json" > /tmp/uri_nodes.json
+            echo "$ALL_NODES" > /tmp/all_tmp.json
+            jq -cs --slurpfile b /tmp/uri_nodes.json '.[0] + $b[0]' /tmp/all_tmp.json > /tmp/merged.json 2>/dev/null
+            ALL_NODES=$(cat /tmp/merged.json)
+            echo "OK (URI, $cnt nodes)"
+            OK_COUNT=$((OK_COUNT + 1))
+            continue
+        fi
+
+        echo "UNKNOWN format"; FAIL_COUNT=$((FAIL_COUNT + 1)); continue
     done
 
     echo ""
