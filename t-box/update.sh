@@ -338,15 +338,15 @@ _detect_and_parse() {
                 proxies=$(echo "$raw" | yq -o=json '.proxies' 2>>"$stderr_yq")
             fi
             if ! echo "$proxies" | jq . >/dev/null 2>&1; then
-                echo "DBG yq_ver='$yq_ver' raw_len=$(echo -n "$raw" | wc -c)"
-                echo "DBG yq_stderr=$(head -3 "$stderr_yq" 2>/dev/null | tr '\n' ' ')"
-                echo "DBG proxies_first100=$(echo "$proxies" | head -c 100)"
+                echo "DBG yq_ver='$yq_ver' raw_len=$(echo -n "$raw" | wc -c)" >&2
+                echo "DBG yq_stderr=$(head -3 "$stderr_yq" 2>/dev/null | tr '\n' ' ')" >&2
+                echo "DBG proxies_first100=$(echo "$proxies" | head -c 100)" >&2
                 proxies="[]"
             fi
             [ -e "$stderr_yq" ] && cat /dev/null > "$stderr_yq"
             if [ -n "$proxies" ] && [ "$proxies" != "null" ] && [ "$(echo "$proxies" | jq 'length' 2>/dev/null)" != "0" ]; then
                 parsed=$(echo "$proxies" | _clash_to_singbox)
-                echo "DBG yq_ver='$yq_ver' proxies_len=$(echo "$proxies" | jq 'length' 2>/dev/null) parsed_len=$(echo "$parsed" | jq 'length' 2>/dev/null)"
+                echo "DBG yq_ver='$yq_ver' proxies_len=$(echo "$proxies" | jq 'length' 2>/dev/null) parsed_len=$(echo "$parsed" | jq 'length' 2>/dev/null)" >&2
                 echo "$parsed"
                 echo "_status:Clash|$(echo "$proxies" | jq 'length' 2>/dev/null)"
             else
