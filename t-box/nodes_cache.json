@@ -1,50 +1,62 @@
 [
   {
-    "type": "ws",
+    "type": "vless",
     "server": "89.127.217.9",
     "server_port": 2200,
     "tag": "俄罗斯联邦 21 @SCHPD",
     "uuid": "9501f3d6-483f-45c1-ab2c-33266520cd5c",
-    "path": "/v1",
-    "headers": {
-      "Host": "rzd.ru"
+    "transport": {
+      "type": "ws",
+      "path": "/v1",
+      "headers": {
+        "Host": "rzd.ru"
+      }
     }
   },
   {
-    "type": "ws",
+    "type": "vless",
     "server": "www.visa.com.sg",
     "server_port": 8880,
     "tag": "其他地区 101 @SCHPD",
     "uuid": "35b94b2c-1b46-4209-a04b-32ecf159b632",
-    "path": "/pyip=ProxyIP.SG.CMLiussss.net",
-    "headers": {
-      "Host": "fragrant-tooth-2180.97-cbb.workers.dev"
+    "transport": {
+      "type": "ws",
+      "path": "/pyip=ProxyIP.SG.CMLiussss.net",
+      "headers": {
+        "Host": "fragrant-tooth-2180.97-cbb.workers.dev"
+      }
     }
   },
   {
-    "type": "ws",
+    "type": "vless",
     "server": "www.ipget.net",
     "server_port": 8880,
     "tag": "其他地区 102 @SCHPD",
     "uuid": "472e0fb5-3a6b-48be-8060-cfffc6335624",
-    "path": "/pyip=ProxyIP.KR.CMLiussss.net",
-    "headers": {
-      "Host": "broken-grass-24c4.288-005.workers.dev"
+    "transport": {
+      "type": "ws",
+      "path": "/pyip=ProxyIP.KR.CMLiussss.net",
+      "headers": {
+        "Host": "broken-grass-24c4.288-005.workers.dev"
+      }
     }
   },
   {
-    "type": "ws",
+    "type": "vless",
     "server": "soskeynets.yunzhongzhuan.com",
     "server_port": 8880,
     "tag": "其他地区 103 @SCHPD",
     "uuid": "23187ddc-16a5-432d-bf4e-dd42a7ae39f7",
-    "path": "/pyip=ProxyIP.JP.CMLiussss.net",
-    "headers": {
-      "Host": "steep-thunder-97fa.108-d10.workers.dev"
+    "transport": {
+      "type": "ws",
+      "path": "/pyip=ProxyIP.JP.CMLiussss.net",
+      "headers": {
+        "Host": "steep-thunder-97fa.108-d10.workers.dev"
+      }
     }
   },
   {
-    "type": "ws",
+    "type": "vless",
     "server": "www.shopify.com",
     "server_port": 2087,
     "tag": "其他地区 105 @SCHPD",
@@ -58,13 +70,16 @@
         "fingerprint": "chrome"
       }
     },
-    "path": "/",
-    "headers": {
-      "Host": "fx3h2kf8xn.fx6hsv0.ccwu.cc"
+    "transport": {
+      "type": "ws",
+      "path": "/",
+      "headers": {
+        "Host": "fx3h2kf8xn.fx6hsv0.ccwu.cc"
+      }
     }
   },
   {
-    "type": "ws",
+    "type": "vless",
     "server": "172.67.78.139",
     "server_port": 8443,
     "tag": "其他地区 106 @SCHPD",
@@ -78,79 +93,100 @@
         "fingerprint": "chrome"
       }
     },
-    "path": "/",
-    "headers": {
-      "Host": "node-726721114-1b5aef.infinityconfig7-3b9f.workers.dev"
+    "transport": {
+      "type": "ws",
+      "path": "/",
+      "headers": {
+        "Host": "node-726721114-1b5aef.infinityconfig7-3b9f.workers.dev"
+      }
     }
   },
   {
-    "type": "ws",
+    "type": "vless",
     "server": "162.159.48.193",
     "server_port": 8880,
     "tag": "其他地区 111 @SCHPD",
     "uuid": "1bc8fb2a-3bee-4ae0-aa12-957885e63e18",
-    "path": "/pyip=ProxyIP.SG.CMLiussss.net",
-    "headers": {
-      "Host": "super-mud-8b38.114-a90.workers.dev"
+    "transport": {
+      "type": "ws",
+      "path": "/pyip=ProxyIP.SG.CMLiussss.net",
+      "headers": {
+        "Host": "super-mud-8b38.114-a90.workers.dev"
+      }
     }
   },
   {
-    "type": "ws",
+    "type": "vless",
     "server": "172.66.200.130",
     "server_port": 8880,
     "tag": "其他地区 112 @SCHPD",
     "uuid": "20d0a81f-da70-44dc-b9bf-5a5ddab644db",
-    "path": "/pyip=ProxyIP.SG.CMLiussss.net",
-    "headers": {
-      "Host": "crimson-lab-6cab.402-311.workers.dev"
+    "transport": {
+      "type": "ws",
+      "path": "/pyip=ProxyIP.SG.CMLiussss.net",
+      "headers": {
+        "Host": "crimson-lab-6cab.402-311.workers.dev"
+      }
     }
   },
   {
-    "type": "ws",
+    "type": "vless",
     "server": "104.27.82.154",
     "server_port": 8880,
     "tag": "其他地区 120 @SCHPD",
     "uuid": "94ed4a58-dcf4-43cb-afc1-f158e14ec42d",
-    "path": "/pyip=ProxyIP.SG.CMLiussss.net",
-    "headers": {
-      "Host": "gentle-surf-cc74.345-604.workers.dev"
+    "transport": {
+      "type": "ws",
+      "path": "/pyip=ProxyIP.SG.CMLiussss.net",
+      "headers": {
+        "Host": "gentle-surf-cc74.345-604.workers.dev"
+      }
     }
   },
   {
-    "type": "ws",
+    "type": "vless",
     "server": "wangcai.yunzhongzhuan.com",
     "server_port": 8880,
     "tag": "其他地区 124 @SCHPD",
     "uuid": "f7ed4770-81f4-47a1-9490-8b8cd684c97e",
-    "path": "/pyip=Telegram🇨🇳 @WangCai2",
-    "headers": {
-      "Host": "silent-cloud-aa63.324-7d8.workers.dev"
+    "transport": {
+      "type": "ws",
+      "path": "/pyip=Telegram🇨🇳 @WangCai2",
+      "headers": {
+        "Host": "silent-cloud-aa63.324-7d8.workers.dev"
+      }
     }
   },
   {
-    "type": "ws",
+    "type": "vless",
     "server": "WangCai.yunzhongzhuan.com",
     "server_port": 8880,
     "tag": "其他地区 128 @SCHPD",
     "uuid": "8d36dcef-c008-47f1-b8a0-4f63193697f8",
-    "path": "/pyip=Telegram🇨🇳 @WangCai2",
-    "headers": {
-      "Host": "tiny-union-8d4d.32-c76.workers.dev"
+    "transport": {
+      "type": "ws",
+      "path": "/pyip=Telegram🇨🇳 @WangCai2",
+      "headers": {
+        "Host": "tiny-union-8d4d.32-c76.workers.dev"
+      }
     }
   },
   {
-    "type": "ws",
+    "type": "vless",
     "server": "www.baipiao.eu.org",
     "server_port": 8880,
     "tag": "其他地区 131 @SCHPD",
     "uuid": "fe467f51-b2cc-4b16-b50b-a78865ed3dd9",
-    "path": "/pyip=ProxyIP.JP.CMLiussss.net",
-    "headers": {
-      "Host": "crimson-wind-71bc.19-5fd.workers.dev"
+    "transport": {
+      "type": "ws",
+      "path": "/pyip=ProxyIP.JP.CMLiussss.net",
+      "headers": {
+        "Host": "crimson-wind-71bc.19-5fd.workers.dev"
+      }
     }
   },
   {
-    "type": "ws",
+    "type": "vless",
     "server": "104.17.149.233",
     "server_port": 443,
     "tag": "其他地区 134 @SCHPD",
@@ -164,24 +200,30 @@
         "fingerprint": "chrome"
       }
     },
-    "path": "/sg-melbi",
-    "headers": {
-      "Host": "support.zoom.us.yxls.eu.cc"
+    "transport": {
+      "type": "ws",
+      "path": "/sg-melbi",
+      "headers": {
+        "Host": "support.zoom.us.yxls.eu.cc"
+      }
     }
   },
   {
-    "type": "ws",
+    "type": "vless",
     "server": "104.17.21.32",
     "server_port": 8880,
     "tag": "其他地区 138 @SCHPD",
     "uuid": "4070e7c9-a412-4ed0-a5fa-fdb455451d2c",
-    "path": "/pyip=ProxyIP.SG.CMLiussss.net",
-    "headers": {
-      "Host": "icy-sky-53f2.9-e8e.workers.dev"
+    "transport": {
+      "type": "ws",
+      "path": "/pyip=ProxyIP.SG.CMLiussss.net",
+      "headers": {
+        "Host": "icy-sky-53f2.9-e8e.workers.dev"
+      }
     }
   },
   {
-    "type": "ws",
+    "type": "vless",
     "server": "172.67.75.55",
     "server_port": 8443,
     "tag": "其他地区 142 @SCHPD",
@@ -195,24 +237,30 @@
         "fingerprint": "chrome"
       }
     },
-    "path": "/proxyip=31.77.161.247,31.57.190.85,208.85.17.114",
-    "headers": {
-      "Host": "damp-voice-0cd5.qplm2770.workers.dev"
+    "transport": {
+      "type": "ws",
+      "path": "/proxyip=31.77.161.247,31.57.190.85,208.85.17.114",
+      "headers": {
+        "Host": "damp-voice-0cd5.qplm2770.workers.dev"
+      }
     }
   },
   {
-    "type": "ws",
+    "type": "vless",
     "server": "log.bpminecraft.com",
     "server_port": 8880,
     "tag": "其他地区 143 @SCHPD",
     "uuid": "1cefdbfd-6032-43d5-ac13-f58b4498e2f7",
-    "path": "/pyip=ProxyIP.US.CMLiussss.net",
-    "headers": {
-      "Host": "royal-salad-175d.306.workers.dev"
+    "transport": {
+      "type": "ws",
+      "path": "/pyip=ProxyIP.US.CMLiussss.net",
+      "headers": {
+        "Host": "royal-salad-175d.306.workers.dev"
+      }
     }
   },
   {
-    "type": "ws",
+    "type": "vless",
     "server": "104.17.147.118",
     "server_port": 443,
     "tag": "其他地区 144 @SCHPD",
@@ -226,24 +274,30 @@
         "fingerprint": "chrome"
       }
     },
-    "path": "/sg-melbi",
-    "headers": {
-      "Host": "support.zoom.us.yxls.eu.cc"
+    "transport": {
+      "type": "ws",
+      "path": "/sg-melbi",
+      "headers": {
+        "Host": "support.zoom.us.yxls.eu.cc"
+      }
     }
   },
   {
-    "type": "ws",
+    "type": "vless",
     "server": "support.cloudflare.com",
     "server_port": 2095,
     "tag": "其他地区 148 @SCHPD",
     "uuid": "86c50e3a-5b87-49dd-bd20-03c7f2735e40",
-    "path": "/",
-    "headers": {
-      "Host": "cnmfangbinxingnmsl.cnmfangbinxing-h.workers.dev"
+    "transport": {
+      "type": "ws",
+      "path": "/",
+      "headers": {
+        "Host": "cnmfangbinxingnmsl.cnmfangbinxing-h.workers.dev"
+      }
     }
   },
   {
-    "type": "ws",
+    "type": "vless",
     "server": "104.24.212.83",
     "server_port": 443,
     "tag": "其他地区 152 @SCHPD",
@@ -257,13 +311,16 @@
         "fingerprint": "chrome"
       }
     },
-    "path": "/sync",
-    "headers": {
-      "Host": "broad-wind-e1ca.salmanmahigir9508.workers.dev"
+    "transport": {
+      "type": "ws",
+      "path": "/sync",
+      "headers": {
+        "Host": "broad-wind-e1ca.salmanmahigir9508.workers.dev"
+      }
     }
   },
   {
-    "type": "ws",
+    "type": "vless",
     "server": "198.41.209.80",
     "server_port": 443,
     "tag": "其他地区 154 @SCHPD",
@@ -277,13 +334,16 @@
         "fingerprint": "chrome"
       }
     },
-    "path": "/sg-melbi",
-    "headers": {
-      "Host": "support.zoom.us.yxls.eu.cc"
+    "transport": {
+      "type": "ws",
+      "path": "/sg-melbi",
+      "headers": {
+        "Host": "support.zoom.us.yxls.eu.cc"
+      }
     }
   },
   {
-    "type": "ws",
+    "type": "vless",
     "server": "icy-morning-df86.alisooltaniiii2024ali.workers.dev",
     "server_port": 443,
     "tag": "其他地区 155 @SCHPD",
@@ -297,35 +357,44 @@
         "fingerprint": "chrome"
       }
     },
-    "path": "/",
-    "headers": {
-      "Host": "icy-morning-df86.alisooltaniiii2024ali.workers.dev"
+    "transport": {
+      "type": "ws",
+      "path": "/",
+      "headers": {
+        "Host": "icy-morning-df86.alisooltaniiii2024ali.workers.dev"
+      }
     }
   },
   {
-    "type": "ws",
+    "type": "vless",
     "server": "anydesk.com",
     "server_port": 8880,
     "tag": "其他地区 156 @SCHPD",
     "uuid": "e9f44bc0-72c5-435b-9ab0-b1525823ad02",
-    "path": "/pyip=ProxyIP.US.CMLiussss.net",
-    "headers": {
-      "Host": "gentle-rice-a9b4.460-a3e.workers.dev"
+    "transport": {
+      "type": "ws",
+      "path": "/pyip=ProxyIP.US.CMLiussss.net",
+      "headers": {
+        "Host": "gentle-rice-a9b4.460-a3e.workers.dev"
+      }
     }
   },
   {
-    "type": "ws",
+    "type": "vless",
     "server": "172.67.179.98",
     "server_port": 8880,
     "tag": "其他地区 158 @SCHPD",
     "uuid": "8c56b4af-4762-4299-a1f8-799790dbaac7",
-    "path": "/pyip=ProxyIP.SG.CMLiussss.net",
-    "headers": {
-      "Host": "lively-lab-4fd2.150-6f7.workers.dev"
+    "transport": {
+      "type": "ws",
+      "path": "/pyip=ProxyIP.SG.CMLiussss.net",
+      "headers": {
+        "Host": "lively-lab-4fd2.150-6f7.workers.dev"
+      }
     }
   },
   {
-    "type": "ws",
+    "type": "vless",
     "server": "162.159.38.105",
     "server_port": 443,
     "tag": "其他地区 159 @SCHPD",
@@ -339,13 +408,16 @@
         "fingerprint": "chrome"
       }
     },
-    "path": "/sg-melbi",
-    "headers": {
-      "Host": "support.zoom.us.yxls.eu.cc"
+    "transport": {
+      "type": "ws",
+      "path": "/sg-melbi",
+      "headers": {
+        "Host": "support.zoom.us.yxls.eu.cc"
+      }
     }
   },
   {
-    "type": "ws",
+    "type": "vless",
     "server": "104.20.32.53",
     "server_port": 2083,
     "tag": "其他地区 160 @SCHPD",
@@ -359,13 +431,16 @@
         "fingerprint": "chrome"
       }
     },
-    "path": "/",
-    "headers": {
-      "Host": "gentle-dream-6aa3.soh8khan13.workers.dev"
+    "transport": {
+      "type": "ws",
+      "path": "/",
+      "headers": {
+        "Host": "gentle-dream-6aa3.soh8khan13.workers.dev"
+      }
     }
   },
   {
-    "type": "ws",
+    "type": "vless",
     "server": "104.16.241.173",
     "server_port": 2096,
     "tag": "其他地区 163 @SCHPD",
@@ -379,13 +454,16 @@
         "fingerprint": "chrome"
       }
     },
-    "path": "/",
-    "headers": {
-      "Host": "odd-wildflower-db1b.yasinmohammad.workers.dev"
+    "transport": {
+      "type": "ws",
+      "path": "/",
+      "headers": {
+        "Host": "odd-wildflower-db1b.yasinmohammad.workers.dev"
+      }
     }
   },
   {
-    "type": "ws",
+    "type": "vless",
     "server": "104.21.117.9",
     "server_port": 443,
     "tag": "其他地区 171 @SCHPD",
@@ -399,13 +477,16 @@
         "fingerprint": "chrome"
       }
     },
-    "path": "/NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN",
-    "headers": {
-      "Host": "netlivpn2950.bbxff.workers.dev"
+    "transport": {
+      "type": "ws",
+      "path": "/NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN",
+      "headers": {
+        "Host": "netlivpn2950.bbxff.workers.dev"
+      }
     }
   },
   {
-    "type": "ws",
+    "type": "vless",
     "server": "104.21.53.160",
     "server_port": 443,
     "tag": "其他地区 180 @SCHPD",
@@ -419,13 +500,16 @@
         "fingerprint": "chrome"
       }
     },
-    "path": "/js/cHlpcC55Z2tray5kcGRucy5vcmc=/",
-    "headers": {
-      "Host": "muddy-math-c1fc.tmpnriqueau89.workers.dev"
+    "transport": {
+      "type": "ws",
+      "path": "/js/cHlpcC55Z2tray5kcGRucy5vcmc=/",
+      "headers": {
+        "Host": "muddy-math-c1fc.tmpnriqueau89.workers.dev"
+      }
     }
   },
   {
-    "type": "ws",
+    "type": "vless",
     "server": "bpb-panel-4e2c.sakwra939.workers.dev",
     "server_port": 443,
     "tag": "其他地区 181 @SCHPD",
@@ -439,13 +523,16 @@
         "fingerprint": "chrome"
       }
     },
-    "path": "/eyJqdW5rIjoiVndBTWp2RGsyc0g4TlgiLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByZWZpeCIsInBhbmVsSVBzIjoiWzJhMDI6ODk4OjE0Njo2NDo6XSJ9",
-    "headers": {
-      "Host": "bpb-panel-4e2c.sakwra939.workers.dev"
+    "transport": {
+      "type": "ws",
+      "path": "/eyJqdW5rIjoiVndBTWp2RGsyc0g4TlgiLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByZWZpeCIsInBhbmVsSVBzIjoiWzJhMDI6ODk4OjE0Njo2NDo6XSJ9",
+      "headers": {
+        "Host": "bpb-panel-4e2c.sakwra939.workers.dev"
+      }
     }
   },
   {
-    "type": "ws",
+    "type": "vless",
     "server": "peekconfig.hamrahfree2.workers.dev",
     "server_port": 2096,
     "tag": "其他地区 182 @SCHPD",
@@ -459,79 +546,100 @@
         "fingerprint": "chrome"
       }
     },
-    "path": "/eyJqdW5rIjoibTBZdXp5cm93NSIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJlZml4IiwicGFuZWxJUHMiOlsiWzJhMDI6ODk4OjE0Njo2NDo6XSIsIlsyNjAyOmZjNTk6MTE6NjQ6Ol0iLCJbMjYwMjpmYzU5OmIwOjY0OjpdIl19",
-    "headers": {
-      "Host": "peekconfig.hamrahfree2.workers.dev"
+    "transport": {
+      "type": "ws",
+      "path": "/eyJqdW5rIjoibTBZdXp5cm93NSIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJlZml4IiwicGFuZWxJUHMiOlsiWzJhMDI6ODk4OjE0Njo2NDo6XSIsIlsyNjAyOmZjNTk6MTE6NjQ6Ol0iLCJbMjYwMjpmYzU5OmIwOjY0OjpdIl19",
+      "headers": {
+        "Host": "peekconfig.hamrahfree2.workers.dev"
+      }
     }
   },
   {
-    "type": "ws",
+    "type": "vless",
     "server": "104.17.123.204",
     "server_port": 8880,
     "tag": "其他地区 184 @SCHPD",
     "uuid": "06bfb14e-66cc-48ca-a429-b9301dba2f81",
-    "path": "/pyip=ProxyIP.SG.CMLiussss.net",
-    "headers": {
-      "Host": "long-firefly-a226.216-ce0.workers.dev"
+    "transport": {
+      "type": "ws",
+      "path": "/pyip=ProxyIP.SG.CMLiussss.net",
+      "headers": {
+        "Host": "long-firefly-a226.216-ce0.workers.dev"
+      }
     }
   },
   {
-    "type": "ws",
+    "type": "vless",
     "server": "172.67.131.114",
     "server_port": 2086,
     "tag": "其他地区 185 @SCHPD",
     "uuid": "9ef1d60d-9e38-49c5-9405-131e11be1f9c",
-    "path": "/eyJqdW5rIjoiVGtvRGR4TXdHSzdseGpZWCIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJlZml4IiwicGFuZWxJUHMiOlsiWzI2MDI6ZmM1OTpiMDo2NDo6XSJdfQ==",
-    "headers": {
-      "Host": "muddy-shadow-8905.qara-atayi-1.workers.dev"
+    "transport": {
+      "type": "ws",
+      "path": "/eyJqdW5rIjoiVGtvRGR4TXdHSzdseGpZWCIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJlZml4IiwicGFuZWxJUHMiOlsiWzI2MDI6ZmM1OTpiMDo2NDo6XSJdfQ==",
+      "headers": {
+        "Host": "muddy-shadow-8905.qara-atayi-1.workers.dev"
+      }
     }
   },
   {
-    "type": "ws",
+    "type": "vless",
     "server": "104.17.21.137",
     "server_port": 8880,
     "tag": "其他地区 186 @SCHPD",
     "uuid": "580af126-448f-407b-a4c2-785e702cd8ea",
-    "path": "/pyip=ProxyIP.JP.CMLiussss.net",
-    "headers": {
-      "Host": "misty-wood-62b4.263-93e.workers.dev"
+    "transport": {
+      "type": "ws",
+      "path": "/pyip=ProxyIP.JP.CMLiussss.net",
+      "headers": {
+        "Host": "misty-wood-62b4.263-93e.workers.dev"
+      }
     }
   },
   {
-    "type": "ws",
+    "type": "vless",
     "server": "cf10.466688.xyz",
     "server_port": 8880,
     "tag": "其他地区 189 @SCHPD",
     "uuid": "7111212b-6bc3-459a-85b4-3b13038a19f8",
-    "path": "/pyip=ProxyIP.KR.CMLiussss.net@https://t.me/QiangLieTuiJian",
-    "headers": {
-      "Host": "shrill-fog-67af.235-e6a.workers.dev"
+    "transport": {
+      "type": "ws",
+      "path": "/pyip=ProxyIP.KR.CMLiussss.net@https://t.me/QiangLieTuiJian",
+      "headers": {
+        "Host": "shrill-fog-67af.235-e6a.workers.dev"
+      }
     }
   },
   {
-    "type": "ws",
+    "type": "vless",
     "server": "104.21.55.229",
     "server_port": 8880,
     "tag": "其他地区 195 @SCHPD",
     "uuid": "f769b7ea-9cd1-4d61-b578-7644b7c8eb3d",
-    "path": "/pyip=ProxyIP.US.CMLiussss.net",
-    "headers": {
-      "Host": "quiet-waterfall-e914.180-ac4.workers.dev"
+    "transport": {
+      "type": "ws",
+      "path": "/pyip=ProxyIP.US.CMLiussss.net",
+      "headers": {
+        "Host": "quiet-waterfall-e914.180-ac4.workers.dev"
+      }
     }
   },
   {
-    "type": "ws",
+    "type": "vless",
     "server": "cf2.466688.xyz",
     "server_port": 8880,
     "tag": "其他地区 199 @SCHPD",
     "uuid": "7111212b-6bc3-459a-85b4-3b13038a19f8",
-    "path": "/pyip=ProxyIP.KR.CMLiussss.net@https://t.me/QiangLieTuiJian",
-    "headers": {
-      "Host": "shrill-fog-67af.235-e6a.workers.dev"
+    "transport": {
+      "type": "ws",
+      "path": "/pyip=ProxyIP.KR.CMLiussss.net@https://t.me/QiangLieTuiJian",
+      "headers": {
+        "Host": "shrill-fog-67af.235-e6a.workers.dev"
+      }
     }
   },
   {
-    "type": "ws",
+    "type": "vless",
     "server": "162.159.38.206",
     "server_port": 8443,
     "tag": "其他地区 202 @SCHPD",
@@ -545,13 +653,16 @@
         "fingerprint": "chrome"
       }
     },
-    "path": "/fdip=tw.william.us.ci!txtfp=random",
-    "headers": {
-      "Host": "learn00.evany.de5.net"
+    "transport": {
+      "type": "ws",
+      "path": "/fdip=tw.william.us.ci!txtfp=random",
+      "headers": {
+        "Host": "learn00.evany.de5.net"
+      }
     }
   },
   {
-    "type": "ws",
+    "type": "vless",
     "server": "162.159.0.70",
     "server_port": 2087,
     "tag": "其他地区 203 @SCHPD",
@@ -565,13 +676,16 @@
         "fingerprint": "chrome"
       }
     },
-    "path": "/fdip=tw.william.us.ci!txtfp=random",
-    "headers": {
-      "Host": "learn00.evany.de5.net"
+    "transport": {
+      "type": "ws",
+      "path": "/fdip=tw.william.us.ci!txtfp=random",
+      "headers": {
+        "Host": "learn00.evany.de5.net"
+      }
     }
   },
   {
-    "type": "ws",
+    "type": "vless",
     "server": "172.64.35.32",
     "server_port": 8443,
     "tag": "其他地区 204 @SCHPD",
@@ -585,13 +699,16 @@
         "fingerprint": "chrome"
       }
     },
-    "path": "/fdip=tw.william.us.ci!txt?ed=2560fp=random",
-    "headers": {
-      "Host": "learn00.evany.de5.net"
+    "transport": {
+      "type": "ws",
+      "path": "/fdip=tw.william.us.ci!txt?ed=2560fp=random",
+      "headers": {
+        "Host": "learn00.evany.de5.net"
+      }
     }
   },
   {
-    "type": "ws",
+    "type": "vless",
     "server": "162.159.2.40",
     "server_port": 443,
     "tag": "其他地区 205 @SCHPD",
@@ -605,13 +722,16 @@
         "fingerprint": "chrome"
       }
     },
-    "path": "/fdip=tw.william.us.ci!txt?ed=2560fp=random",
-    "headers": {
-      "Host": "learn00.evany.de5.net"
+    "transport": {
+      "type": "ws",
+      "path": "/fdip=tw.william.us.ci!txt?ed=2560fp=random",
+      "headers": {
+        "Host": "learn00.evany.de5.net"
+      }
     }
   },
   {
-    "type": "ws",
+    "type": "vless",
     "server": "162.159.33.118",
     "server_port": 443,
     "tag": "其他地区 206 @SCHPD",
@@ -625,13 +745,16 @@
         "fingerprint": "chrome"
       }
     },
-    "path": "/fdip=tw.william.us.ci!txtfp=random",
-    "headers": {
-      "Host": "learn00.evany.de5.net"
+    "transport": {
+      "type": "ws",
+      "path": "/fdip=tw.william.us.ci!txtfp=random",
+      "headers": {
+        "Host": "learn00.evany.de5.net"
+      }
     }
   },
   {
-    "type": "ws",
+    "type": "vless",
     "server": "162.159.44.191",
     "server_port": 443,
     "tag": "其他地区 207 @SCHPD",
@@ -645,13 +768,16 @@
         "fingerprint": "random"
       }
     },
-    "path": "/fdip=tw.william.us.ci!txt",
-    "headers": {
-      "Host": "learn00.evany.de5.net"
+    "transport": {
+      "type": "ws",
+      "path": "/fdip=tw.william.us.ci!txt",
+      "headers": {
+        "Host": "learn00.evany.de5.net"
+      }
     }
   },
   {
-    "type": "ws",
+    "type": "vless",
     "server": "172.64.52.97",
     "server_port": 443,
     "tag": "其他地区 208 @SCHPD",
@@ -665,13 +791,16 @@
         "fingerprint": "random"
       }
     },
-    "path": "/fdip=tw.william.us.ci!txt",
-    "headers": {
-      "Host": "learn00.evany.de5.net"
+    "transport": {
+      "type": "ws",
+      "path": "/fdip=tw.william.us.ci!txt",
+      "headers": {
+        "Host": "learn00.evany.de5.net"
+      }
     }
   },
   {
-    "type": "ws",
+    "type": "vless",
     "server": "162.159.38.129",
     "server_port": 443,
     "tag": "其他地区 209 @SCHPD",
@@ -685,13 +814,16 @@
         "fingerprint": "random"
       }
     },
-    "path": "/fdip=tw.william.us.ci!txt",
-    "headers": {
-      "Host": "learn00.evany.de5.net"
+    "transport": {
+      "type": "ws",
+      "path": "/fdip=tw.william.us.ci!txt",
+      "headers": {
+        "Host": "learn00.evany.de5.net"
+      }
     }
   },
   {
-    "type": "ws",
+    "type": "vless",
     "server": "162.159.6.235",
     "server_port": 443,
     "tag": "其他地区 210 @SCHPD",
@@ -705,13 +837,16 @@
         "fingerprint": "random"
       }
     },
-    "path": "/fdip=tw.william.us.ci!txt",
-    "headers": {
-      "Host": "learn00.evany.de5.net"
+    "transport": {
+      "type": "ws",
+      "path": "/fdip=tw.william.us.ci!txt",
+      "headers": {
+        "Host": "learn00.evany.de5.net"
+      }
     }
   },
   {
-    "type": "ws",
+    "type": "vless",
     "server": "162.159.43.28",
     "server_port": 443,
     "tag": "其他地区 211 @SCHPD",
@@ -725,13 +860,16 @@
         "fingerprint": "random"
       }
     },
-    "path": "/fdip=tw.william.us.ci!txt",
-    "headers": {
-      "Host": "learn00.evany.de5.net"
+    "transport": {
+      "type": "ws",
+      "path": "/fdip=tw.william.us.ci!txt",
+      "headers": {
+        "Host": "learn00.evany.de5.net"
+      }
     }
   },
   {
-    "type": "ws",
+    "type": "vless",
     "server": "162.159.39.247",
     "server_port": 8443,
     "tag": "其他地区 212 @SCHPD",
@@ -745,13 +883,16 @@
         "fingerprint": "random"
       }
     },
-    "path": "/fdip=tw.william.us.ci!txt",
-    "headers": {
-      "Host": "learn00.evany.de5.net"
+    "transport": {
+      "type": "ws",
+      "path": "/fdip=tw.william.us.ci!txt",
+      "headers": {
+        "Host": "learn00.evany.de5.net"
+      }
     }
   },
   {
-    "type": "ws",
+    "type": "vless",
     "server": "172.64.146.142",
     "server_port": 8443,
     "tag": "其他地区 213 @SCHPD",
@@ -765,13 +906,16 @@
         "fingerprint": "random"
       }
     },
-    "path": "/fdip=tw.william.us.ci!txt",
-    "headers": {
-      "Host": "learn00.evany.de5.net"
+    "transport": {
+      "type": "ws",
+      "path": "/fdip=tw.william.us.ci!txt",
+      "headers": {
+        "Host": "learn00.evany.de5.net"
+      }
     }
   },
   {
-    "type": "ws",
+    "type": "vless",
     "server": "162.159.44.66",
     "server_port": 2053,
     "tag": "其他地区 214 @SCHPD",
@@ -785,13 +929,16 @@
         "fingerprint": "random"
       }
     },
-    "path": "/fdip=tw.william.us.ci!txt",
-    "headers": {
-      "Host": "learn00.evany.de5.net"
+    "transport": {
+      "type": "ws",
+      "path": "/fdip=tw.william.us.ci!txt",
+      "headers": {
+        "Host": "learn00.evany.de5.net"
+      }
     }
   },
   {
-    "type": "ws",
+    "type": "vless",
     "server": "alist.sm.uy",
     "server_port": 443,
     "tag": "其他地区 215 @SCHPD",
@@ -805,13 +952,16 @@
         "fingerprint": "random"
       }
     },
-    "path": "/fdip=tw.william.us.ci!txt",
-    "headers": {
-      "Host": "learn00.evany.de5.net"
+    "transport": {
+      "type": "ws",
+      "path": "/fdip=tw.william.us.ci!txt",
+      "headers": {
+        "Host": "learn00.evany.de5.net"
+      }
     }
   },
   {
-    "type": "ws",
+    "type": "vless",
     "server": "172.64.154.5",
     "server_port": 8443,
     "tag": "其他地区 216 @SCHPD",
@@ -825,13 +975,16 @@
         "fingerprint": "random"
       }
     },
-    "path": "/fdip=tw.william.us.ci!txt",
-    "headers": {
-      "Host": "learn00.evany.de5.net"
+    "transport": {
+      "type": "ws",
+      "path": "/fdip=tw.william.us.ci!txt",
+      "headers": {
+        "Host": "learn00.evany.de5.net"
+      }
     }
   },
   {
-    "type": "ws",
+    "type": "vless",
     "server": "108.162.192.161",
     "server_port": 443,
     "tag": "其他地区 217 @SCHPD",
@@ -845,13 +998,16 @@
         "fingerprint": "random"
       }
     },
-    "path": "/fdip=tw.william.us.ci!txt",
-    "headers": {
-      "Host": "learn00.evany.de5.net"
+    "transport": {
+      "type": "ws",
+      "path": "/fdip=tw.william.us.ci!txt",
+      "headers": {
+        "Host": "learn00.evany.de5.net"
+      }
     }
   },
   {
-    "type": "ws",
+    "type": "vless",
     "server": "162.159.44.58",
     "server_port": 8443,
     "tag": "其他地区 218 @SCHPD",
@@ -865,13 +1021,16 @@
         "fingerprint": "random"
       }
     },
-    "path": "/fdip=tw.william.us.ci!txt",
-    "headers": {
-      "Host": "learn00.evany.de5.net"
+    "transport": {
+      "type": "ws",
+      "path": "/fdip=tw.william.us.ci!txt",
+      "headers": {
+        "Host": "learn00.evany.de5.net"
+      }
     }
   },
   {
-    "type": "ws",
+    "type": "vless",
     "server": "cu.877774.xyz",
     "server_port": 443,
     "tag": "其他地区 219 @SCHPD",
@@ -885,13 +1044,16 @@
         "fingerprint": "random"
       }
     },
-    "path": "/fdip=tw.william.us.ci!txt",
-    "headers": {
-      "Host": "learn00.evany.de5.net"
+    "transport": {
+      "type": "ws",
+      "path": "/fdip=tw.william.us.ci!txt",
+      "headers": {
+        "Host": "learn00.evany.de5.net"
+      }
     }
   },
   {
-    "type": "ws",
+    "type": "vless",
     "server": "icook.hk",
     "server_port": 443,
     "tag": "其他地区 220 @SCHPD",
@@ -905,13 +1067,16 @@
         "fingerprint": "random"
       }
     },
-    "path": "/fdip=tw.william.us.ci!txt",
-    "headers": {
-      "Host": "learn00.evany.de5.net"
+    "transport": {
+      "type": "ws",
+      "path": "/fdip=tw.william.us.ci!txt",
+      "headers": {
+        "Host": "learn00.evany.de5.net"
+      }
     }
   },
   {
-    "type": "ws",
+    "type": "vless",
     "server": "162.159.45.24",
     "server_port": 8443,
     "tag": "其他地区 221 @SCHPD",
@@ -925,13 +1090,16 @@
         "fingerprint": "random"
       }
     },
-    "path": "/fdip=tw.william.us.ci!txt",
-    "headers": {
-      "Host": "learn00.evany.de5.net"
+    "transport": {
+      "type": "ws",
+      "path": "/fdip=tw.william.us.ci!txt",
+      "headers": {
+        "Host": "learn00.evany.de5.net"
+      }
     }
   },
   {
-    "type": "ws",
+    "type": "vless",
     "server": "162.159.17.128",
     "server_port": 443,
     "tag": "其他地区 223 @SCHPD",
@@ -945,13 +1113,16 @@
         "fingerprint": "random"
       }
     },
-    "path": "/fdip=tw.william.us.ci!txt",
-    "headers": {
-      "Host": "learn00.evany.de5.net"
+    "transport": {
+      "type": "ws",
+      "path": "/fdip=tw.william.us.ci!txt",
+      "headers": {
+        "Host": "learn00.evany.de5.net"
+      }
     }
   },
   {
-    "type": "ws",
+    "type": "vless",
     "server": "172.67.186.192",
     "server_port": 2083,
     "tag": "其他地区 224 @SCHPD",
@@ -965,13 +1136,16 @@
         "fingerprint": "chrome"
       }
     },
-    "path": "/eyJqdW5rIjoiZm5INktPV0lGcHI1NjNSOSIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0=",
-    "headers": {
-      "Host": "square-salad-ebde.zdfgvccfguuyggg.workers.dev"
+    "transport": {
+      "type": "ws",
+      "path": "/eyJqdW5rIjoiZm5INktPV0lGcHI1NjNSOSIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0=",
+      "headers": {
+        "Host": "square-salad-ebde.zdfgvccfguuyggg.workers.dev"
+      }
     }
   },
   {
-    "type": "ws",
+    "type": "vless",
     "server": "ip.sb",
     "server_port": 443,
     "tag": "其他地区 226 @SCHPD",
@@ -985,13 +1159,16 @@
         "fingerprint": "chrome"
       }
     },
-    "path": "/fdip=tw.william.us.ci!txt",
-    "headers": {
-      "Host": "learn00.evany.de5.net"
+    "transport": {
+      "type": "ws",
+      "path": "/fdip=tw.william.us.ci!txt",
+      "headers": {
+        "Host": "learn00.evany.de5.net"
+      }
     }
   },
   {
-    "type": "ws",
+    "type": "vless",
     "server": "104.17.144.235",
     "server_port": 443,
     "tag": "其他地区 233 @SCHPD",
@@ -1005,13 +1182,16 @@
         "fingerprint": "random"
       }
     },
-    "path": "/",
-    "headers": {
-      "Host": "hhlfy.twiladaphne.ndjp.net"
+    "transport": {
+      "type": "ws",
+      "path": "/",
+      "headers": {
+        "Host": "hhlfy.twiladaphne.ndjp.net"
+      }
     }
   },
   {
-    "type": "ws",
+    "type": "vless",
     "server": "dx.mmhh.eu.cc",
     "server_port": 443,
     "tag": "其他地区 234 @SCHPD",
@@ -1025,13 +1205,16 @@
         "fingerprint": "chrome"
       }
     },
-    "path": "/fp=chrome",
-    "headers": {
-      "Host": "hhlfy.twiladaphne.ndjp.net"
+    "transport": {
+      "type": "ws",
+      "path": "/fp=chrome",
+      "headers": {
+        "Host": "hhlfy.twiladaphne.ndjp.net"
+      }
     }
   },
   {
-    "type": "ws",
+    "type": "vless",
     "server": "yd.mmhh.eu.cc",
     "server_port": 443,
     "tag": "其他地区 235 @SCHPD",
@@ -1045,13 +1228,16 @@
         "fingerprint": "chrome"
       }
     },
-    "path": "/",
-    "headers": {
-      "Host": "hhlfy.twiladaphne.ndjp.net"
+    "transport": {
+      "type": "ws",
+      "path": "/",
+      "headers": {
+        "Host": "hhlfy.twiladaphne.ndjp.net"
+      }
     }
   },
   {
-    "type": "ws",
+    "type": "vless",
     "server": "172.67.185.178",
     "server_port": 443,
     "tag": "其他地区 242 @SCHPD",
@@ -1065,13 +1251,16 @@
         "fingerprint": "chrome"
       }
     },
-    "path": "/",
-    "headers": {
-      "Host": "hhlfy.twiladaphne.ndjp.net"
+    "transport": {
+      "type": "ws",
+      "path": "/",
+      "headers": {
+        "Host": "hhlfy.twiladaphne.ndjp.net"
+      }
     }
   },
   {
-    "type": "ws",
+    "type": "vless",
     "server": "104.18.95.26",
     "server_port": 443,
     "tag": "其他地区 244 @SCHPD",
@@ -1085,13 +1274,16 @@
         "fingerprint": "chrome"
       }
     },
-    "path": "/",
-    "headers": {
-      "Host": "hhlfy.twiladaphne.ndjp.net"
+    "transport": {
+      "type": "ws",
+      "path": "/",
+      "headers": {
+        "Host": "hhlfy.twiladaphne.ndjp.net"
+      }
     }
   },
   {
-    "type": "ws",
+    "type": "vless",
     "server": "172.64.189.5",
     "server_port": 2083,
     "tag": "其他地区 246 @SCHPD",
@@ -1105,13 +1297,16 @@
         "fingerprint": "random"
       }
     },
-    "path": "/",
-    "headers": {
-      "Host": "calm-smoke-1a21.alvlirm6262.workers.dev"
+    "transport": {
+      "type": "ws",
+      "path": "/",
+      "headers": {
+        "Host": "calm-smoke-1a21.alvlirm6262.workers.dev"
+      }
     }
   },
   {
-    "type": "ws",
+    "type": "vless",
     "server": "104.21.75.46",
     "server_port": 443,
     "tag": "其他地区 247 @SCHPD",
@@ -1125,57 +1320,72 @@
         "fingerprint": "chrome"
       }
     },
-    "path": "/",
-    "headers": {
-      "Host": "bold-term-2b48.stary3989.workers.dev"
+    "transport": {
+      "type": "ws",
+      "path": "/",
+      "headers": {
+        "Host": "bold-term-2b48.stary3989.workers.dev"
+      }
     }
   },
   {
-    "type": "ws",
+    "type": "vless",
     "server": "104.18.11.118",
     "server_port": 8880,
     "tag": "其他地区 250 @SCHPD",
     "uuid": "17b2ed22-5fd0-47ad-b5f0-658379379ced",
-    "path": "/pyip=ProxyIP.KR.CMLiussss.net",
-    "headers": {
-      "Host": "black-wildflower-dd92.72-1e8.workers.dev"
+    "transport": {
+      "type": "ws",
+      "path": "/pyip=ProxyIP.KR.CMLiussss.net",
+      "headers": {
+        "Host": "black-wildflower-dd92.72-1e8.workers.dev"
+      }
     }
   },
   {
-    "type": "ws",
+    "type": "vless",
     "server": "104.21.23.72",
     "server_port": 8880,
     "tag": "其他地区 252 @SCHPD",
     "uuid": "0b17eb47-587b-4e46-86a7-e1681cbbe76c",
-    "path": "/pyip=ProxyIP.JP.CMLiussss.net",
-    "headers": {
-      "Host": "orange-math-9c83.371.workers.dev"
+    "transport": {
+      "type": "ws",
+      "path": "/pyip=ProxyIP.JP.CMLiussss.net",
+      "headers": {
+        "Host": "orange-math-9c83.371.workers.dev"
+      }
     }
   },
   {
-    "type": "ws",
+    "type": "vless",
     "server": "104.16.100.215",
     "server_port": 8880,
     "tag": "其他地区 253 @SCHPD",
     "uuid": "c6d29888-78d5-446a-b2f0-f3968e6d1634",
-    "path": "/",
-    "headers": {
-      "Host": "lingering-cherry-5f41.42-08a.workers.dev"
+    "transport": {
+      "type": "ws",
+      "path": "/",
+      "headers": {
+        "Host": "lingering-cherry-5f41.42-08a.workers.dev"
+      }
     }
   },
   {
-    "type": "ws",
+    "type": "vless",
     "server": "172.67.219.238",
     "server_port": 8080,
     "tag": "其他地区 254 @SCHPD",
     "uuid": "d98c1be3-7837-4d8a-a9fc-05e7a807ccb0",
-    "path": "/eyJqdW5rIjoiSWZqSHF3Q2RLIiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcmVmaXgiLCJwYW5lbElQcyI6WyJbMmEwMjo4OTg6MTQ2OjY0OjpdIl19",
-    "headers": {
-      "Host": "server1.poludiro.workers.dev"
+    "transport": {
+      "type": "ws",
+      "path": "/eyJqdW5rIjoiSWZqSHF3Q2RLIiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcmVmaXgiLCJwYW5lbElQcyI6WyJbMmEwMjo4OTg6MTQ2OjY0OjpdIl19",
+      "headers": {
+        "Host": "server1.poludiro.workers.dev"
+      }
     }
   },
   {
-    "type": "ws",
+    "type": "vless",
     "server": "mfa.gov.ua",
     "server_port": 2087,
     "tag": "其他地区 255 @SCHPD",
@@ -1189,13 +1399,16 @@
         "fingerprint": "chrome"
       }
     },
-    "path": "/",
-    "headers": {
-      "Host": "fx3l5i2wdfxln0.fx6hsv0.ccwu.cc"
+    "transport": {
+      "type": "ws",
+      "path": "/",
+      "headers": {
+        "Host": "fx3l5i2wdfxln0.fx6hsv0.ccwu.cc"
+      }
     }
   },
   {
-    "type": "ws",
+    "type": "vless",
     "server": "162.159.2.228",
     "server_port": 443,
     "tag": "其他地区 258 @SCHPD",
@@ -1209,24 +1422,30 @@
         "fingerprint": "chrome"
       }
     },
-    "path": "/sg-melbi",
-    "headers": {
-      "Host": "support.zoom.us.yxls.eu.cc"
+    "transport": {
+      "type": "ws",
+      "path": "/sg-melbi",
+      "headers": {
+        "Host": "support.zoom.us.yxls.eu.cc"
+      }
     }
   },
   {
-    "type": "ws",
+    "type": "vless",
     "server": "104.18.10.118",
     "server_port": 8880,
     "tag": "其他地区 264 @SCHPD",
     "uuid": "8b9986f7-889c-4213-bc64-fafe012fabd6",
-    "path": "/pyip=ProxyIP.US.CMLiussss.net",
-    "headers": {
-      "Host": "morning-cell-adfc.99-c38.workers.dev"
+    "transport": {
+      "type": "ws",
+      "path": "/pyip=ProxyIP.US.CMLiussss.net",
+      "headers": {
+        "Host": "morning-cell-adfc.99-c38.workers.dev"
+      }
     }
   },
   {
-    "type": "ws",
+    "type": "vless",
     "server": "108.162.198.5",
     "server_port": 443,
     "tag": "其他地区 265 @SCHPD",
@@ -1240,13 +1459,16 @@
         "fingerprint": "chrome"
       }
     },
-    "path": "/sg-melbi",
-    "headers": {
-      "Host": "support.zoom.us.yxls.eu.cc"
+    "transport": {
+      "type": "ws",
+      "path": "/sg-melbi",
+      "headers": {
+        "Host": "support.zoom.us.yxls.eu.cc"
+      }
     }
   },
   {
-    "type": "ws",
+    "type": "vless",
     "server": "104.20.39.109",
     "server_port": 443,
     "tag": "其他地区 266 @SCHPD",
@@ -1260,13 +1482,16 @@
         "fingerprint": "chrome"
       }
     },
-    "path": "/sg-melbi",
-    "headers": {
-      "Host": "support.zoom.us.yxls.eu.cc"
+    "transport": {
+      "type": "ws",
+      "path": "/sg-melbi",
+      "headers": {
+        "Host": "support.zoom.us.yxls.eu.cc"
+      }
     }
   },
   {
-    "type": "ws",
+    "type": "vless",
     "server": "104.18.32.47",
     "server_port": 2087,
     "tag": "其他地区 269 @SCHPD",
@@ -1280,13 +1505,16 @@
         "fingerprint": "chrome"
       }
     },
-    "path": "/game",
-    "headers": {
-      "Host": "green-credit-7e7b.vpnfreev2rayconfig-sale1.workers.dev"
+    "transport": {
+      "type": "ws",
+      "path": "/game",
+      "headers": {
+        "Host": "green-credit-7e7b.vpnfreev2rayconfig-sale1.workers.dev"
+      }
     }
   },
   {
-    "type": "ws",
+    "type": "vless",
     "server": "172.64.52.81",
     "server_port": 443,
     "tag": "其他地区 271 @SCHPD",
@@ -1300,13 +1528,16 @@
         "fingerprint": "random"
       }
     },
-    "path": "/fdip=tw.william.us.ci!txt",
-    "headers": {
-      "Host": "learn00.evany.de5.net"
+    "transport": {
+      "type": "ws",
+      "path": "/fdip=tw.william.us.ci!txt",
+      "headers": {
+        "Host": "learn00.evany.de5.net"
+      }
     }
   },
   {
-    "type": "ws",
+    "type": "vless",
     "server": "162.159.45.193",
     "server_port": 443,
     "tag": "其他地区 272 @SCHPD",
@@ -1320,13 +1551,16 @@
         "fingerprint": "random"
       }
     },
-    "path": "/fdip=tw.william.us.ci!txt",
-    "headers": {
-      "Host": "learn00.evany.de5.net"
+    "transport": {
+      "type": "ws",
+      "path": "/fdip=tw.william.us.ci!txt",
+      "headers": {
+        "Host": "learn00.evany.de5.net"
+      }
     }
   },
   {
-    "type": "ws",
+    "type": "vless",
     "server": "104.18.38.78",
     "server_port": 2087,
     "tag": "其他地区 273 @SCHPD",
@@ -1340,13 +1574,16 @@
         "fingerprint": "random"
       }
     },
-    "path": "/fdip=tw.william.us.ci!txt",
-    "headers": {
-      "Host": "learn00.evany.de5.net"
+    "transport": {
+      "type": "ws",
+      "path": "/fdip=tw.william.us.ci!txt",
+      "headers": {
+        "Host": "learn00.evany.de5.net"
+      }
     }
   },
   {
-    "type": "ws",
+    "type": "vless",
     "server": "162.159.24.111",
     "server_port": 443,
     "tag": "其他地区 274 @SCHPD",
@@ -1360,13 +1597,16 @@
         "fingerprint": "random"
       }
     },
-    "path": "/fdip=tw.william.us.ci!txt",
-    "headers": {
-      "Host": "learn00.evany.de5.net"
+    "transport": {
+      "type": "ws",
+      "path": "/fdip=tw.william.us.ci!txt",
+      "headers": {
+        "Host": "learn00.evany.de5.net"
+      }
     }
   },
   {
-    "type": "ws",
+    "type": "vless",
     "server": "108.162.198.165",
     "server_port": 8443,
     "tag": "其他地区 276 @SCHPD",
@@ -1380,13 +1620,16 @@
         "fingerprint": "random"
       }
     },
-    "path": "/fdip=tw.william.us.ci!txt",
-    "headers": {
-      "Host": "learn00.evany.de5.net"
+    "transport": {
+      "type": "ws",
+      "path": "/fdip=tw.william.us.ci!txt",
+      "headers": {
+        "Host": "learn00.evany.de5.net"
+      }
     }
   },
   {
-    "type": "ws",
+    "type": "vless",
     "server": "172.64.33.117",
     "server_port": 8443,
     "tag": "其他地区 278 @SCHPD",
@@ -1400,35 +1643,44 @@
         "fingerprint": "random"
       }
     },
-    "path": "/fdip=tw.william.us.ci!txt",
-    "headers": {
-      "Host": "learn00.evany.de5.net"
+    "transport": {
+      "type": "ws",
+      "path": "/fdip=tw.william.us.ci!txt",
+      "headers": {
+        "Host": "learn00.evany.de5.net"
+      }
     }
   },
   {
-    "type": "ws",
+    "type": "vless",
     "server": "upwork.com",
     "server_port": 8880,
     "tag": "其他地区 281 @SCHPD",
     "uuid": "8e7ce77a-d889-4dbf-b095-1d0eca88f6dc",
-    "path": "/pyip=ProxyIP.JP.CMLiussss.net",
-    "headers": {
-      "Host": "broad-bread-2a6d.433-b9b.workers.dev"
+    "transport": {
+      "type": "ws",
+      "path": "/pyip=ProxyIP.JP.CMLiussss.net",
+      "headers": {
+        "Host": "broad-bread-2a6d.433-b9b.workers.dev"
+      }
     }
   },
   {
-    "type": "ws",
+    "type": "vless",
     "server": "172.64.94.251",
     "server_port": 8880,
     "tag": "其他地区 282 @SCHPD",
     "uuid": "f3a30870-eb2e-4ad7-85cb-c0e65d061d5b",
-    "path": "/pyip=ProxyIP.US.CMLiussss.net",
-    "headers": {
-      "Host": "shrill-mouse-dacd.391.workers.dev"
+    "transport": {
+      "type": "ws",
+      "path": "/pyip=ProxyIP.US.CMLiussss.net",
+      "headers": {
+        "Host": "shrill-mouse-dacd.391.workers.dev"
+      }
     }
   },
   {
-    "type": "ws",
+    "type": "vless",
     "server": "162.159.23.117",
     "server_port": 443,
     "tag": "其他地区 283 @SCHPD",
@@ -1442,13 +1694,16 @@
         "fingerprint": "chrome"
       }
     },
-    "path": "/sg-melbi",
-    "headers": {
-      "Host": "support.zoom.us.yxls.eu.cc"
+    "transport": {
+      "type": "ws",
+      "path": "/sg-melbi",
+      "headers": {
+        "Host": "support.zoom.us.yxls.eu.cc"
+      }
     }
   },
   {
-    "type": "ws",
+    "type": "vless",
     "server": "162.159.44.195",
     "server_port": 443,
     "tag": "其他地区 285 @SCHPD",
@@ -1462,13 +1717,16 @@
         "fingerprint": "chrome"
       }
     },
-    "path": "/fp=random",
-    "headers": {
-      "Host": "hhlfy.twiladaphne.ndjp.net"
+    "transport": {
+      "type": "ws",
+      "path": "/fp=random",
+      "headers": {
+        "Host": "hhlfy.twiladaphne.ndjp.net"
+      }
     }
   },
   {
-    "type": "ws",
+    "type": "vless",
     "server": "chat.openai.com",
     "server_port": 443,
     "tag": "其他地区 286 @SCHPD",
@@ -1482,13 +1740,16 @@
         "fingerprint": "chrome"
       }
     },
-    "path": "/fp",
-    "headers": {
-      "Host": "hhlfy.twiladaphne.ndjp.net"
+    "transport": {
+      "type": "ws",
+      "path": "/fp",
+      "headers": {
+        "Host": "hhlfy.twiladaphne.ndjp.net"
+      }
     }
   },
   {
-    "type": "ws",
+    "type": "vless",
     "server": "volexproxy.karjadidd.workers.dev",
     "server_port": 2083,
     "tag": "其他地区 287 @SCHPD",
@@ -1502,35 +1763,44 @@
         "fingerprint": "chrome"
       }
     },
-    "path": "/volexprosy",
-    "headers": {
-      "Host": "volexproxy.karjadidd.workers.dev"
+    "transport": {
+      "type": "ws",
+      "path": "/volexprosy",
+      "headers": {
+        "Host": "volexproxy.karjadidd.workers.dev"
+      }
     }
   },
   {
-    "type": "ws",
+    "type": "vless",
     "server": "104.17.144.29",
     "server_port": 8880,
     "tag": "其他地区 289 @SCHPD",
     "uuid": "85e14d59-02ea-4642-a317-50f1e1691660",
-    "path": "/pyip=ProxyIP.KR.CMLiussss.net",
-    "headers": {
-      "Host": "icy-hat-20f3.328-99f.workers.dev"
+    "transport": {
+      "type": "ws",
+      "path": "/pyip=ProxyIP.KR.CMLiussss.net",
+      "headers": {
+        "Host": "icy-hat-20f3.328-99f.workers.dev"
+      }
     }
   },
   {
-    "type": "ws",
+    "type": "vless",
     "server": "104.26.13.40",
     "server_port": 8880,
     "tag": "其他地区 291 @SCHPD",
     "uuid": "b9ea760d-3200-4d6d-8000-30514ebbce5a",
-    "path": "/pyip=ProxyIP.JP.CMLiussss.net",
-    "headers": {
-      "Host": "aged-pine-d8c4.379.workers.dev"
+    "transport": {
+      "type": "ws",
+      "path": "/pyip=ProxyIP.JP.CMLiussss.net",
+      "headers": {
+        "Host": "aged-pine-d8c4.379.workers.dev"
+      }
     }
   },
   {
-    "type": "ws",
+    "type": "vless",
     "server": "172.64.32.6",
     "server_port": 443,
     "tag": "其他地区 293 @SCHPD",
@@ -1544,24 +1814,30 @@
         "fingerprint": "chrome"
       }
     },
-    "path": "/pyip=proxyip.cmliussss.net",
-    "headers": {
-      "Host": "soucuovls.pages.dev"
+    "transport": {
+      "type": "ws",
+      "path": "/pyip=proxyip.cmliussss.net",
+      "headers": {
+        "Host": "soucuovls.pages.dev"
+      }
     }
   },
   {
-    "type": "ws",
+    "type": "vless",
     "server": "104.24.152.211",
     "server_port": 8880,
     "tag": "其他地区 294 @SCHPD",
     "uuid": "7b8ff2bf-29c0-4a4f-8925-9f9ef6e486f5",
-    "path": "/pyip=ProxyIP.US.CMLiussss.net",
-    "headers": {
-      "Host": "long-math-be5a.233-98b.workers.dev"
+    "transport": {
+      "type": "ws",
+      "path": "/pyip=ProxyIP.US.CMLiussss.net",
+      "headers": {
+        "Host": "long-math-be5a.233-98b.workers.dev"
+      }
     }
   },
   {
-    "type": "ws",
+    "type": "vless",
     "server": "104.16.253.69",
     "server_port": 443,
     "tag": "其他地区 295 @SCHPD",
@@ -1575,13 +1851,16 @@
         "fingerprint": "chrome"
       }
     },
-    "path": "/sg-melbi",
-    "headers": {
-      "Host": "support.zoom.us.yxls.eu.cc"
+    "transport": {
+      "type": "ws",
+      "path": "/sg-melbi",
+      "headers": {
+        "Host": "support.zoom.us.yxls.eu.cc"
+      }
     }
   },
   {
-    "type": "ws",
+    "type": "vless",
     "server": "soskeynets.hamrahfree1.workers.dev",
     "server_port": 2096,
     "tag": "其他地区 296 @SCHPD",
@@ -1595,35 +1874,44 @@
         "fingerprint": "chrome"
       }
     },
-    "path": "/eyJqdW5rIjoiZHlCcVpqeEYiLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByZWZpeCIsInBhbmVsSVBzIjpbIlsyYTAyOjg5ODoxNDY6NjQ6Ol0iLCJbMjYwMjpmYzU5OjExOjY0OjpdIiwiWzI2MDI6ZmM1OTpiMDo2NDo6XSJdfQ==",
-    "headers": {
-      "Host": "peekconfig.hamrahfree1.workers.dev"
+    "transport": {
+      "type": "ws",
+      "path": "/eyJqdW5rIjoiZHlCcVpqeEYiLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByZWZpeCIsInBhbmVsSVBzIjpbIlsyYTAyOjg5ODoxNDY6NjQ6Ol0iLCJbMjYwMjpmYzU5OjExOjY0OjpdIiwiWzI2MDI6ZmM1OTpiMDo2NDo6XSJdfQ==",
+      "headers": {
+        "Host": "peekconfig.hamrahfree1.workers.dev"
+      }
     }
   },
   {
-    "type": "ws",
+    "type": "vless",
     "server": "104.17.181.19",
     "server_port": 8880,
     "tag": "其他地区 297 @SCHPD",
     "uuid": "fe3b26ec-4bc0-464d-a7b9-2db72a89846e",
-    "path": "/pyip=ProxyIP.JP.CMLiussss.net",
-    "headers": {
-      "Host": "orange-base-2e09.87-c52.workers.dev"
+    "transport": {
+      "type": "ws",
+      "path": "/pyip=ProxyIP.JP.CMLiussss.net",
+      "headers": {
+        "Host": "orange-base-2e09.87-c52.workers.dev"
+      }
     }
   },
   {
-    "type": "ws",
+    "type": "vless",
     "server": "162.159.46.0",
     "server_port": 8880,
     "tag": "其他地区 298 @SCHPD",
     "uuid": "7b8ff2bf-29c0-4a4f-8925-9f9ef6e486f5",
-    "path": "/pyip=ProxyIP.US.CMLiussss.net",
-    "headers": {
-      "Host": "long-math-be5a.233-98b.workers.dev"
+    "transport": {
+      "type": "ws",
+      "path": "/pyip=ProxyIP.US.CMLiussss.net",
+      "headers": {
+        "Host": "long-math-be5a.233-98b.workers.dev"
+      }
     }
   },
   {
-    "type": "ws",
+    "type": "vless",
     "server": "108.162.198.240",
     "server_port": 2053,
     "tag": "其他地区 299 @SCHPD",
@@ -1637,13 +1925,16 @@
         "fingerprint": "chrome"
       }
     },
-    "path": "/fdip=tw.william.us.ci!txt",
-    "headers": {
-      "Host": "learn00.evany.de5.net"
+    "transport": {
+      "type": "ws",
+      "path": "/fdip=tw.william.us.ci!txt",
+      "headers": {
+        "Host": "learn00.evany.de5.net"
+      }
     }
   },
   {
-    "type": "ws",
+    "type": "vless",
     "server": "172.64.146.59",
     "server_port": 2087,
     "tag": "其他地区 300 @SCHPD",
@@ -1657,13 +1948,16 @@
         "fingerprint": "random"
       }
     },
-    "path": "/fdip=tw.william.us.ci!txt",
-    "headers": {
-      "Host": "learn00.evany.de5.net"
+    "transport": {
+      "type": "ws",
+      "path": "/fdip=tw.william.us.ci!txt",
+      "headers": {
+        "Host": "learn00.evany.de5.net"
+      }
     }
   },
   {
-    "type": "ws",
+    "type": "vless",
     "server": "free77-sg1.node2.top",
     "server_port": 443,
     "tag": "其他地区 302 @SCHPD",
@@ -1677,35 +1971,44 @@
         "fingerprint": "chrome"
       }
     },
-    "path": "/XFJVPNfp=chrome",
-    "headers": {
-      "Host": "sie704.pages.dev"
+    "transport": {
+      "type": "ws",
+      "path": "/XFJVPNfp=chrome",
+      "headers": {
+        "Host": "sie704.pages.dev"
+      }
     }
   },
   {
-    "type": "ws",
+    "type": "vless",
     "server": "172.65.90.53",
     "server_port": 8880,
     "tag": "其他地区 304 @SCHPD",
     "uuid": "30e4c878-15ca-4f53-ab32-04c60ecd3f31",
-    "path": "/pyip=ProxyIP.US.CMLiussss.net",
-    "headers": {
-      "Host": "blue-rice-7142.30-346.workers.dev"
+    "transport": {
+      "type": "ws",
+      "path": "/pyip=ProxyIP.US.CMLiussss.net",
+      "headers": {
+        "Host": "blue-rice-7142.30-346.workers.dev"
+      }
     }
   },
   {
-    "type": "ws",
+    "type": "vless",
     "server": "104.17.170.132",
     "server_port": 8880,
     "tag": "其他地区 306 @SCHPD",
     "uuid": "49a9aa25-443b-4fab-9a85-066dd5396c57",
-    "path": "/pyip=ProxyIP.KR.CMLiussss.net",
-    "headers": {
-      "Host": "mute-river-6aee.421-bd7.workers.dev"
+    "transport": {
+      "type": "ws",
+      "path": "/pyip=ProxyIP.KR.CMLiussss.net",
+      "headers": {
+        "Host": "mute-river-6aee.421-bd7.workers.dev"
+      }
     }
   },
   {
-    "type": "ws",
+    "type": "vless",
     "server": "free77-sg3.node2.top",
     "server_port": 443,
     "tag": "其他地区 307 @SCHPD",
@@ -1719,13 +2022,16 @@
         "fingerprint": "chrome"
       }
     },
-    "path": "/XFJVPNfp=chrome",
-    "headers": {
-      "Host": "sie704.pages.dev"
+    "transport": {
+      "type": "ws",
+      "path": "/XFJVPNfp=chrome",
+      "headers": {
+        "Host": "sie704.pages.dev"
+      }
     }
   },
   {
-    "type": "ws",
+    "type": "vless",
     "server": "104.16.251.148",
     "server_port": 443,
     "tag": "其他地区 310 @SCHPD",
@@ -1739,24 +2045,30 @@
         "fingerprint": "random"
       }
     },
-    "path": "/",
-    "headers": {
-      "Host": "hhlfy.twiladaphne.ndjp.net"
+    "transport": {
+      "type": "ws",
+      "path": "/",
+      "headers": {
+        "Host": "hhlfy.twiladaphne.ndjp.net"
+      }
     }
   },
   {
-    "type": "ws",
+    "type": "vless",
     "server": "cf7.466688.xyz",
     "server_port": 8880,
     "tag": "其他地区 311 @SCHPD",
     "uuid": "7111212b-6bc3-459a-85b4-3b13038a19f8",
-    "path": "/pyip=ProxyIP.KR.CMLiussss.net@https://t.me/QiangLieTuiJian",
-    "headers": {
-      "Host": "shrill-fog-67af.235-e6a.workers.dev"
+    "transport": {
+      "type": "ws",
+      "path": "/pyip=ProxyIP.KR.CMLiussss.net@https://t.me/QiangLieTuiJian",
+      "headers": {
+        "Host": "shrill-fog-67af.235-e6a.workers.dev"
+      }
     }
   },
   {
-    "type": "ws",
+    "type": "vless",
     "server": "free.server14peekconfig.workers.dev",
     "server_port": 443,
     "tag": "其他地区 312 @SCHPD",
@@ -1770,35 +2082,44 @@
         "fingerprint": "chrome"
       }
     },
-    "path": "/eyJqdW5rIjoiQmFCblN3SmhXYTB3RzVoIiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcmVmaXgiLCJwYW5lbElQcyI6WyJbMjYwMjpmYzU5OjExOjY0OjpdIiwiWzJhMDI6ODk4OjE0Njo2NDo6XSIsIlsyNjAyOmZjNTk6YjA6NjQ6Ol0iXX0=",
-    "headers": {
-      "Host": "free.server14peekconfig.workers.dev"
+    "transport": {
+      "type": "ws",
+      "path": "/eyJqdW5rIjoiQmFCblN3SmhXYTB3RzVoIiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcmVmaXgiLCJwYW5lbElQcyI6WyJbMjYwMjpmYzU5OjExOjY0OjpdIiwiWzJhMDI6ODk4OjE0Njo2NDo6XSIsIlsyNjAyOmZjNTk6YjA6NjQ6Ol0iXX0=",
+      "headers": {
+        "Host": "free.server14peekconfig.workers.dev"
+      }
     }
   },
   {
-    "type": "ws",
+    "type": "vless",
     "server": "www.zsu.gov.ua",
     "server_port": 8880,
     "tag": "其他地区 313 @SCHPD",
     "uuid": "30a2a9a6-6a03-4353-a7fb-63831d64f718",
-    "path": "/pyip=ProxyIP.SG.CMLiussss.net",
-    "headers": {
-      "Host": "orange-lab-896e.365-80b.workers.dev"
+    "transport": {
+      "type": "ws",
+      "path": "/pyip=ProxyIP.SG.CMLiussss.net",
+      "headers": {
+        "Host": "orange-lab-896e.365-80b.workers.dev"
+      }
     }
   },
   {
-    "type": "ws",
+    "type": "vless",
     "server": "premium-us-ca-01-gthost.efgwf.online",
     "server_port": 8080,
     "tag": "其他地区 316 @SCHPD",
     "uuid": "4e0f4e59-3613-4f0c-b824-7348413d20e6",
-    "path": "/ws-6Tta3kYF",
-    "headers": {
-      "Host": "premium-us-ca-01-gthost.efgwf.online"
+    "transport": {
+      "type": "ws",
+      "path": "/ws-6Tta3kYF",
+      "headers": {
+        "Host": "premium-us-ca-01-gthost.efgwf.online"
+      }
     }
   },
   {
-    "type": "ws",
+    "type": "vless",
     "server": "104.17.20.214",
     "server_port": 443,
     "tag": "其他地区 321 @SCHPD",
@@ -1812,24 +2133,30 @@
         "fingerprint": "chrome"
       }
     },
-    "path": "/",
-    "headers": {
-      "Host": "refighehosein.salamdadash123.workers.dev"
+    "transport": {
+      "type": "ws",
+      "path": "/",
+      "headers": {
+        "Host": "refighehosein.salamdadash123.workers.dev"
+      }
     }
   },
   {
-    "type": "ws",
+    "type": "vless",
     "server": "104.21.56.202",
     "server_port": 8880,
     "tag": "其他地区 322 @SCHPD",
     "uuid": "f769b7ea-9cd1-4d61-b578-7644b7c8eb3d",
-    "path": "/pyip=ProxyIP.US.CMLiussss.net",
-    "headers": {
-      "Host": "quiet-waterfall-e914.180-ac4.workers.dev"
+    "transport": {
+      "type": "ws",
+      "path": "/pyip=ProxyIP.US.CMLiussss.net",
+      "headers": {
+        "Host": "quiet-waterfall-e914.180-ac4.workers.dev"
+      }
     }
   },
   {
-    "type": "ws",
+    "type": "vless",
     "server": "o.server3peekconfig.workers.dev",
     "server_port": 443,
     "tag": "其他地区 323 @SCHPD",
@@ -1843,24 +2170,30 @@
         "fingerprint": "chrome"
       }
     },
-    "path": "/eyJqdW5rIjoiZ3VVMHdacGtDIiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcmVmaXgiLCJwYW5lbElQcyI6WyJbMmEwMjo4OTg6MTQ2OjY0OjpdIl19",
-    "headers": {
-      "Host": "o.server3peekconfig.workers.dev"
+    "transport": {
+      "type": "ws",
+      "path": "/eyJqdW5rIjoiZ3VVMHdacGtDIiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcmVmaXgiLCJwYW5lbElQcyI6WyJbMmEwMjo4OTg6MTQ2OjY0OjpdIl19",
+      "headers": {
+        "Host": "o.server3peekconfig.workers.dev"
+      }
     }
   },
   {
-    "type": "ws",
+    "type": "vless",
     "server": "172.67.187.219",
     "server_port": 8880,
     "tag": "其他地区 326 @SCHPD",
     "uuid": "a8985e6a-f338-4b44-9a41-f94495603a96",
-    "path": "/pyip=ProxyIP.JP.CMLiussss.net",
-    "headers": {
-      "Host": "dawn-cell-346f.238-df6.workers.dev"
+    "transport": {
+      "type": "ws",
+      "path": "/pyip=ProxyIP.JP.CMLiussss.net",
+      "headers": {
+        "Host": "dawn-cell-346f.238-df6.workers.dev"
+      }
     }
   },
   {
-    "type": "ws",
+    "type": "vless",
     "server": "188.114.96.2",
     "server_port": 2096,
     "tag": "其他地区 328 @SCHPD",
@@ -1874,24 +2207,30 @@
         "fingerprint": "chrome"
       }
     },
-    "path": "/eyJqdW5rIjoidnlSRWhQQ3ZCNGZRNHVYMyIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJlZml4IiwicGFuZWxJUHMiOlsiWzJhMDI6ODk4OjE0Njo2NDo6XSJdfQ==",
-    "headers": {
-      "Host": "peekconfig.peekconf1.workers.dev"
+    "transport": {
+      "type": "ws",
+      "path": "/eyJqdW5rIjoidnlSRWhQQ3ZCNGZRNHVYMyIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJlZml4IiwicGFuZWxJUHMiOlsiWzJhMDI6ODk4OjE0Njo2NDo6XSJdfQ==",
+      "headers": {
+        "Host": "peekconfig.peekconf1.workers.dev"
+      }
     }
   },
   {
-    "type": "ws",
+    "type": "vless",
     "server": "172.64.88.168",
     "server_port": 8880,
     "tag": "其他地区 330 @SCHPD",
     "uuid": "645ea5d2-7d0a-4d66-940d-eefc2b84f4e9",
-    "path": "/pyip=ProxyIP.US.CMLiussss.net",
-    "headers": {
-      "Host": "fragrant-surf-4797.496-345.workers.dev"
+    "transport": {
+      "type": "ws",
+      "path": "/pyip=ProxyIP.US.CMLiussss.net",
+      "headers": {
+        "Host": "fragrant-surf-4797.496-345.workers.dev"
+      }
     }
   },
   {
-    "type": "ws",
+    "type": "vless",
     "server": "162.159.0.3",
     "server_port": 443,
     "tag": "其他地区 331 @SCHPD",
@@ -1905,13 +2244,16 @@
         "fingerprint": "chrome"
       }
     },
-    "path": "/pyip=proxyip.cmliussss.netfp=random",
-    "headers": {
-      "Host": "soucuovls.pages.dev"
+    "transport": {
+      "type": "ws",
+      "path": "/pyip=proxyip.cmliussss.netfp=random",
+      "headers": {
+        "Host": "soucuovls.pages.dev"
+      }
     }
   },
   {
-    "type": "ws",
+    "type": "vless",
     "server": "162.159.0.8",
     "server_port": 443,
     "tag": "其他地区 334 @SCHPD",
@@ -1925,35 +2267,44 @@
         "fingerprint": "random"
       }
     },
-    "path": "/pyip=proxyip.cmliussss.net",
-    "headers": {
-      "Host": "soucuovls.pages.dev"
+    "transport": {
+      "type": "ws",
+      "path": "/pyip=proxyip.cmliussss.net",
+      "headers": {
+        "Host": "soucuovls.pages.dev"
+      }
     }
   },
   {
-    "type": "ws",
+    "type": "vless",
     "server": "104.17.26.45",
     "server_port": 8880,
     "tag": "其他地区 335 @SCHPD",
     "uuid": "2e9012a2-7f8c-4233-b78b-5228a9a4951b",
-    "path": "/pyip=ProxyIP.KR.CMLiussss.net",
-    "headers": {
-      "Host": "icy-breeze-126c.211-eb3.workers.dev"
+    "transport": {
+      "type": "ws",
+      "path": "/pyip=ProxyIP.KR.CMLiussss.net",
+      "headers": {
+        "Host": "icy-breeze-126c.211-eb3.workers.dev"
+      }
     }
   },
   {
-    "type": "ws",
+    "type": "vless",
     "server": "e33xr.qzz.io",
     "server_port": 80,
     "tag": "其他地区 337 @SCHPD",
     "uuid": "e081da45-9fae-4687-9376-f9a6a0dbbe83",
-    "path": "/id-amz",
-    "headers": {
-      "Host": "e33xr.qzz.io"
+    "transport": {
+      "type": "ws",
+      "path": "/id-amz",
+      "headers": {
+        "Host": "e33xr.qzz.io"
+      }
     }
   },
   {
-    "type": "ws",
+    "type": "vless",
     "server": "104.17.172.114",
     "server_port": 2053,
     "tag": "其他地区 341 @SCHPD",
@@ -1967,24 +2318,30 @@
         "fingerprint": "chrome"
       }
     },
-    "path": "/",
-    "headers": {
-      "Host": "node-726721114-1b5aef.infinityconfig7-3b9f.workers.dev"
+    "transport": {
+      "type": "ws",
+      "path": "/",
+      "headers": {
+        "Host": "node-726721114-1b5aef.infinityconfig7-3b9f.workers.dev"
+      }
     }
   },
   {
-    "type": "ws",
+    "type": "vless",
     "server": "162.159.21.178",
     "server_port": 8880,
     "tag": "其他地区 345 @SCHPD",
     "uuid": "4f54572a-b852-4da3-8823-0ddccc60b5d8",
-    "path": "/pyip=ProxyIP.US.CMLiussss.net",
-    "headers": {
-      "Host": "icy-snowflake-1f56.147-1ea.workers.dev"
+    "transport": {
+      "type": "ws",
+      "path": "/pyip=ProxyIP.US.CMLiussss.net",
+      "headers": {
+        "Host": "icy-snowflake-1f56.147-1ea.workers.dev"
+      }
     }
   },
   {
-    "type": "ws",
+    "type": "vless",
     "server": "104.17.136.118",
     "server_port": 443,
     "tag": "其他地区 347 @SCHPD",
@@ -1998,24 +2355,30 @@
         "fingerprint": "chrome"
       }
     },
-    "path": "/sg-melbi",
-    "headers": {
-      "Host": "support.zoom.us.yxls.eu.cc"
+    "transport": {
+      "type": "ws",
+      "path": "/sg-melbi",
+      "headers": {
+        "Host": "support.zoom.us.yxls.eu.cc"
+      }
     }
   },
   {
-    "type": "ws",
+    "type": "vless",
     "server": "themeforest.net",
     "server_port": 8880,
     "tag": "其他地区 348 @SCHPD",
     "uuid": "c2569d72-0ba1-44e8-986f-be445edb5f3d",
-    "path": "/pyip=ProxyIP.JP.CMLiussss.net",
-    "headers": {
-      "Host": "silent-union-ac36.315-33d.workers.dev"
+    "transport": {
+      "type": "ws",
+      "path": "/pyip=ProxyIP.JP.CMLiussss.net",
+      "headers": {
+        "Host": "silent-union-ac36.315-33d.workers.dev"
+      }
     }
   },
   {
-    "type": "ws",
+    "type": "vless",
     "server": "104.19.35.8",
     "server_port": 443,
     "tag": "其他地区 349 @SCHPD",
@@ -2029,13 +2392,16 @@
         "fingerprint": "chrome"
       }
     },
-    "path": "/sg-melbi",
-    "headers": {
-      "Host": "support.zoom.us.yxls.eu.cc"
+    "transport": {
+      "type": "ws",
+      "path": "/sg-melbi",
+      "headers": {
+        "Host": "support.zoom.us.yxls.eu.cc"
+      }
     }
   },
   {
-    "type": "ws",
+    "type": "vless",
     "server": "108.162.198.201",
     "server_port": 443,
     "tag": "其他地区 350 @SCHPD",
@@ -2049,13 +2415,16 @@
         "fingerprint": "chrome"
       }
     },
-    "path": "/sg-melbi",
-    "headers": {
-      "Host": "support.zoom.us.yxls.eu.cc"
+    "transport": {
+      "type": "ws",
+      "path": "/sg-melbi",
+      "headers": {
+        "Host": "support.zoom.us.yxls.eu.cc"
+      }
     }
   },
   {
-    "type": "ws",
+    "type": "vless",
     "server": "free.server6peekconfig.workers.dev",
     "server_port": 443,
     "tag": "其他地区 351 @SCHPD",
@@ -2069,13 +2438,16 @@
         "fingerprint": "chrome"
       }
     },
-    "path": "/eyJqdW5rIjoieUhYMWhoZEVEIiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcmVmaXgiLCJwYW5lbElQcyI6WyJbMmEwMjo4OTg6MTQ2OjY0OjpdIl19",
-    "headers": {
-      "Host": "free.server6peekconfig.workers.dev"
+    "transport": {
+      "type": "ws",
+      "path": "/eyJqdW5rIjoieUhYMWhoZEVEIiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcmVmaXgiLCJwYW5lbElQcyI6WyJbMmEwMjo4OTg6MTQ2OjY0OjpdIl19",
+      "headers": {
+        "Host": "free.server6peekconfig.workers.dev"
+      }
     }
   },
   {
-    "type": "ws",
+    "type": "vless",
     "server": "173.245.59.159",
     "server_port": 2053,
     "tag": "其他地区 352 @SCHPD",
@@ -2089,13 +2461,16 @@
         "fingerprint": "chrome"
       }
     },
-    "path": "/",
-    "headers": {
-      "Host": "old-cloud-a96a.rohamsahh90.workers.dev"
+    "transport": {
+      "type": "ws",
+      "path": "/",
+      "headers": {
+        "Host": "old-cloud-a96a.rohamsahh90.workers.dev"
+      }
     }
   },
   {
-    "type": "ws",
+    "type": "vless",
     "server": "peekconfig.hamrahfree1.workers.dev",
     "server_port": 2096,
     "tag": "其他地区 353 @SCHPD",
@@ -2109,13 +2484,16 @@
         "fingerprint": "chrome"
       }
     },
-    "path": "/eyJqdW5rIjoiZHlCcVpqeEYiLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByZWZpeCIsInBhbmVsSVBzIjpbIlsyYTAyOjg5ODoxNDY6NjQ6Ol0iLCJbMjYwMjpmYzU5OjExOjY0OjpdIiwiWzI2MDI6ZmM1OTpiMDo2NDo6XSJdfQ==",
-    "headers": {
-      "Host": "peekconfig.hamrahfree1.workers.dev"
+    "transport": {
+      "type": "ws",
+      "path": "/eyJqdW5rIjoiZHlCcVpqeEYiLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByZWZpeCIsInBhbmVsSVBzIjpbIlsyYTAyOjg5ODoxNDY6NjQ6Ol0iLCJbMjYwMjpmYzU5OjExOjY0OjpdIiwiWzI2MDI6ZmM1OTpiMDo2NDo6XSJdfQ==",
+      "headers": {
+        "Host": "peekconfig.hamrahfree1.workers.dev"
+      }
     }
   },
   {
-    "type": "ws",
+    "type": "vless",
     "server": "108.162.192.5",
     "server_port": 443,
     "tag": "其他地区 354 @SCHPD",
@@ -2129,46 +2507,58 @@
         "fingerprint": "chrome"
       }
     },
-    "path": "/pyip=proxyip.cmliussss.netfp=random",
-    "headers": {
-      "Host": "soucuovls.pages.dev"
+    "transport": {
+      "type": "ws",
+      "path": "/pyip=proxyip.cmliussss.netfp=random",
+      "headers": {
+        "Host": "soucuovls.pages.dev"
+      }
     }
   },
   {
-    "type": "ws",
+    "type": "vless",
     "server": "162.159.40.49",
     "server_port": 80,
     "tag": "其他地区 356 @SCHPD",
     "uuid": "57bd62cf-5550-4075-8fa3-d4519aae8df0",
-    "path": "/eyJqdW5rIjoiRURaNEp6YUhMbVlqdzQiLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByZWZpeCIsInBhbmVsSVBzIjpbIlsyNjAyOmZjNTk6YjA6NjQ6Ol0iXX0=",
-    "headers": {
-      "Host": "silent-feather-8539.sddadad2233122eew.workers.dev"
+    "transport": {
+      "type": "ws",
+      "path": "/eyJqdW5rIjoiRURaNEp6YUhMbVlqdzQiLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByZWZpeCIsInBhbmVsSVBzIjpbIlsyNjAyOmZjNTk6YjA6NjQ6Ol0iXX0=",
+      "headers": {
+        "Host": "silent-feather-8539.sddadad2233122eew.workers.dev"
+      }
     }
   },
   {
-    "type": "ws",
+    "type": "vless",
     "server": "www.iplocation.net",
     "server_port": 8880,
     "tag": "其他地区 357 @SCHPD",
     "uuid": "df5dc160-3764-4e6b-805d-1286ea701310",
-    "path": "/pyip=ProxyIP.US.CMLiussss.net",
-    "headers": {
-      "Host": "dawn-mode-a061.444-a0e.workers.dev"
+    "transport": {
+      "type": "ws",
+      "path": "/pyip=ProxyIP.US.CMLiussss.net",
+      "headers": {
+        "Host": "dawn-mode-a061.444-a0e.workers.dev"
+      }
     }
   },
   {
-    "type": "ws",
+    "type": "vless",
     "server": "cloudflare-ech.com",
     "server_port": 8880,
     "tag": "其他地区 358 @SCHPD",
     "uuid": "2d212f81-7ea2-4d0b-884c-a6497ab41143",
-    "path": "/pyip=ProxyIP.US.CMLiussss.net",
-    "headers": {
-      "Host": "hidden-union-a4b2.436.workers.dev"
+    "transport": {
+      "type": "ws",
+      "path": "/pyip=ProxyIP.US.CMLiussss.net",
+      "headers": {
+        "Host": "hidden-union-a4b2.436.workers.dev"
+      }
     }
   },
   {
-    "type": "ws",
+    "type": "vless",
     "server": "104.25.244.217",
     "server_port": 443,
     "tag": "其他地区 359 @SCHPD",
@@ -2182,13 +2572,16 @@
         "fingerprint": "chrome"
       }
     },
-    "path": "/sg-melbi",
-    "headers": {
-      "Host": "support.zoom.us.yxls.eu.cc"
+    "transport": {
+      "type": "ws",
+      "path": "/sg-melbi",
+      "headers": {
+        "Host": "support.zoom.us.yxls.eu.cc"
+      }
     }
   },
   {
-    "type": "ws",
+    "type": "vless",
     "server": "104.17.112.113",
     "server_port": 443,
     "tag": "其他地区 360 @SCHPD",
@@ -2202,13 +2595,16 @@
         "fingerprint": "chrome"
       }
     },
-    "path": "/sg-melbi",
-    "headers": {
-      "Host": "support.zoom.us.yxls.eu.cc"
+    "transport": {
+      "type": "ws",
+      "path": "/sg-melbi",
+      "headers": {
+        "Host": "support.zoom.us.yxls.eu.cc"
+      }
     }
   },
   {
-    "type": "ws",
+    "type": "vless",
     "server": "104.24.68.193",
     "server_port": 443,
     "tag": "其他地区 361 @SCHPD",
@@ -2222,13 +2618,16 @@
         "fingerprint": "chrome"
       }
     },
-    "path": "/ws",
-    "headers": {
-      "Host": "wild-grass-1917.tmpduardoolfsonerluke15.workers.dev"
+    "transport": {
+      "type": "ws",
+      "path": "/ws",
+      "headers": {
+        "Host": "wild-grass-1917.tmpduardoolfsonerluke15.workers.dev"
+      }
     }
   },
   {
-    "type": "ws",
+    "type": "vless",
     "server": "108.162.198.253",
     "server_port": 8443,
     "tag": "其他地区 362 @SCHPD",
@@ -2242,13 +2641,16 @@
         "fingerprint": "chrome"
       }
     },
-    "path": "/proxyip=167.71.48.187",
-    "headers": {
-      "Host": "lively-resonance-4e12.electrocellco-cf-059.workers.dev"
+    "transport": {
+      "type": "ws",
+      "path": "/proxyip=167.71.48.187",
+      "headers": {
+        "Host": "lively-resonance-4e12.electrocellco-cf-059.workers.dev"
+      }
     }
   },
   {
-    "type": "ws",
+    "type": "vless",
     "server": "104.17.223.103",
     "server_port": 443,
     "tag": "其他地区 363 @SCHPD",
@@ -2262,24 +2664,30 @@
         "fingerprint": "chrome"
       }
     },
-    "path": "/sg-melbi",
-    "headers": {
-      "Host": "support.zoom.us.yxls.eu.cc"
+    "transport": {
+      "type": "ws",
+      "path": "/sg-melbi",
+      "headers": {
+        "Host": "support.zoom.us.yxls.eu.cc"
+      }
     }
   },
   {
-    "type": "ws",
+    "type": "vless",
     "server": "www.shopify.com",
     "server_port": 8880,
     "tag": "其他地区 365 @SCHPD",
     "uuid": "ce977d82-824b-4209-87f1-0719f78d6a2e",
-    "path": "/pyip=ProxyIP.JP.CMLiussss.net",
-    "headers": {
-      "Host": "royal-mode-cf74.210-62d.workers.dev"
+    "transport": {
+      "type": "ws",
+      "path": "/pyip=ProxyIP.JP.CMLiussss.net",
+      "headers": {
+        "Host": "royal-mode-cf74.210-62d.workers.dev"
+      }
     }
   },
   {
-    "type": "ws",
+    "type": "vless",
     "server": "104.25.245.126",
     "server_port": 443,
     "tag": "其他地区 366 @SCHPD",
@@ -2293,13 +2701,16 @@
         "fingerprint": "chrome"
       }
     },
-    "path": "/sg-melbi",
-    "headers": {
-      "Host": "support.zoom.us.yxls.eu.cc"
+    "transport": {
+      "type": "ws",
+      "path": "/sg-melbi",
+      "headers": {
+        "Host": "support.zoom.us.yxls.eu.cc"
+      }
     }
   },
   {
-    "type": "ws",
+    "type": "vless",
     "server": "cf.9999669.xyz",
     "server_port": 2087,
     "tag": "其他地区 367 @SCHPD",
@@ -2313,13 +2724,16 @@
         "fingerprint": "chrome"
       }
     },
-    "path": "/",
-    "headers": {
-      "Host": "faxf32gkfzoxqv.fx6hsv0.ccwu.cc"
+    "transport": {
+      "type": "ws",
+      "path": "/",
+      "headers": {
+        "Host": "faxf32gkfzoxqv.fx6hsv0.ccwu.cc"
+      }
     }
   },
   {
-    "type": "ws",
+    "type": "vless",
     "server": "162.159.43.121",
     "server_port": 443,
     "tag": "其他地区 369 @SCHPD",
@@ -2333,13 +2747,16 @@
         "fingerprint": "chrome"
       }
     },
-    "path": "/sg-melbi",
-    "headers": {
-      "Host": "support.zoom.us.yxls.eu.cc"
+    "transport": {
+      "type": "ws",
+      "path": "/sg-melbi",
+      "headers": {
+        "Host": "support.zoom.us.yxls.eu.cc"
+      }
     }
   },
   {
-    "type": "ws",
+    "type": "vless",
     "server": "172.67.213.218",
     "server_port": 2096,
     "tag": "其他地区 370 @SCHPD",
@@ -2353,13 +2770,16 @@
         "fingerprint": "chrome"
       }
     },
-    "path": "/eyJqdW5rIjoiYWNoMkxHaUVYIiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcmVmaXgiLCJwYW5lbElQcyI6WyJbMmEwMjo4OTg6MTQ2OjY0OjpdIl19",
-    "headers": {
-      "Host": "red-surf-2007.matriska.workers.dev"
+    "transport": {
+      "type": "ws",
+      "path": "/eyJqdW5rIjoiYWNoMkxHaUVYIiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcmVmaXgiLCJwYW5lbElQcyI6WyJbMmEwMjo4OTg6MTQ2OjY0OjpdIl19",
+      "headers": {
+        "Host": "red-surf-2007.matriska.workers.dev"
+      }
     }
   },
   {
-    "type": "ws",
+    "type": "vless",
     "server": "104.21.2.192",
     "server_port": 443,
     "tag": "其他地区 373 @SCHPD",
@@ -2373,13 +2793,16 @@
         "fingerprint": "chrome"
       }
     },
-    "path": "/sg-melbi",
-    "headers": {
-      "Host": "support.zoom.us.yxls.eu.cc"
+    "transport": {
+      "type": "ws",
+      "path": "/sg-melbi",
+      "headers": {
+        "Host": "support.zoom.us.yxls.eu.cc"
+      }
     }
   },
   {
-    "type": "ws",
+    "type": "vless",
     "server": "104.26.2.173",
     "server_port": 443,
     "tag": "其他地区 374 @SCHPD",
@@ -2393,13 +2816,16 @@
         "fingerprint": "chrome"
       }
     },
-    "path": "/sg-melbi",
-    "headers": {
-      "Host": "support.zoom.us.yxls.eu.cc"
+    "transport": {
+      "type": "ws",
+      "path": "/sg-melbi",
+      "headers": {
+        "Host": "support.zoom.us.yxls.eu.cc"
+      }
     }
   },
   {
-    "type": "ws",
+    "type": "vless",
     "server": "172.64.146.86",
     "server_port": 443,
     "tag": "其他地区 375 @SCHPD",
@@ -2413,13 +2839,16 @@
         "fingerprint": "chrome"
       }
     },
-    "path": "/sg-melbi",
-    "headers": {
-      "Host": "support.zoom.us.yxls.eu.cc"
+    "transport": {
+      "type": "ws",
+      "path": "/sg-melbi",
+      "headers": {
+        "Host": "support.zoom.us.yxls.eu.cc"
+      }
     }
   },
   {
-    "type": "ws",
+    "type": "vless",
     "server": "biyapain.biyapainbache.workers.dev",
     "server_port": 443,
     "tag": "其他地区 376 @SCHPD",
@@ -2433,13 +2862,16 @@
         "fingerprint": "chrome"
       }
     },
-    "path": "/eyJqdW5rIjoiV0lISkpXU0trWFI4OGdUIiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcmVmaXgiLCJwYW5lbElQcyI6WyJbMjYwMjpmYzU5OjExOjY0OjpdIl19",
-    "headers": {
-      "Host": "biyapain.biyapainbache.workers.dev"
+    "transport": {
+      "type": "ws",
+      "path": "/eyJqdW5rIjoiV0lISkpXU0trWFI4OGdUIiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcmVmaXgiLCJwYW5lbElQcyI6WyJbMjYwMjpmYzU5OjExOjY0OjpdIl19",
+      "headers": {
+        "Host": "biyapain.biyapainbache.workers.dev"
+      }
     }
   },
   {
-    "type": "ws",
+    "type": "vless",
     "server": "104.26.12.41",
     "server_port": 443,
     "tag": "其他地区 378 @SCHPD",
@@ -2453,13 +2885,16 @@
         "fingerprint": "chrome"
       }
     },
-    "path": "/sg-melbi",
-    "headers": {
-      "Host": "support.zoom.us.yxls.eu.cc"
+    "transport": {
+      "type": "ws",
+      "path": "/sg-melbi",
+      "headers": {
+        "Host": "support.zoom.us.yxls.eu.cc"
+      }
     }
   },
   {
-    "type": "ws",
+    "type": "vless",
     "server": "o.server2peekconfig.workers.dev",
     "server_port": 443,
     "tag": "其他地区 379 @SCHPD",
@@ -2473,13 +2908,16 @@
         "fingerprint": "chrome"
       }
     },
-    "path": "/eyJqdW5rIjoieWhJcW05SUZlaktsc2oiLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByZWZpeCIsInBhbmVsSVBzIjpbIlsyYTAyOjg5ODoxNDY6NjQ6Ol0iXX0=",
-    "headers": {
-      "Host": "o.server2peekconfig.workers.dev"
+    "transport": {
+      "type": "ws",
+      "path": "/eyJqdW5rIjoieWhJcW05SUZlaktsc2oiLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByZWZpeCIsInBhbmVsSVBzIjpbIlsyYTAyOjg5ODoxNDY6NjQ6Ol0iXX0=",
+      "headers": {
+        "Host": "o.server2peekconfig.workers.dev"
+      }
     }
   },
   {
-    "type": "ws",
+    "type": "vless",
     "server": "104.19.35.206",
     "server_port": 443,
     "tag": "其他地区 380 @SCHPD",
@@ -2493,13 +2931,16 @@
         "fingerprint": "chrome"
       }
     },
-    "path": "/sg-melbi",
-    "headers": {
-      "Host": "support.zoom.us.yxls.eu.cc"
+    "transport": {
+      "type": "ws",
+      "path": "/sg-melbi",
+      "headers": {
+        "Host": "support.zoom.us.yxls.eu.cc"
+      }
     }
   },
   {
-    "type": "ws",
+    "type": "vless",
     "server": "198.41.208.112",
     "server_port": 443,
     "tag": "其他地区 381 @SCHPD",
@@ -2513,13 +2954,16 @@
         "fingerprint": "chrome"
       }
     },
-    "path": "/sg-melbi",
-    "headers": {
-      "Host": "support.zoom.us.yxls.eu.cc"
+    "transport": {
+      "type": "ws",
+      "path": "/sg-melbi",
+      "headers": {
+        "Host": "support.zoom.us.yxls.eu.cc"
+      }
     }
   },
   {
-    "type": "ws",
+    "type": "vless",
     "server": "104.24.212.81",
     "server_port": 443,
     "tag": "其他地区 382 @SCHPD",
@@ -2533,13 +2977,16 @@
         "fingerprint": "chrome"
       }
     },
-    "path": "/sync",
-    "headers": {
-      "Host": "broad-wind-e1ca.salmanmahigir9508.workers.dev"
+    "transport": {
+      "type": "ws",
+      "path": "/sync",
+      "headers": {
+        "Host": "broad-wind-e1ca.salmanmahigir9508.workers.dev"
+      }
     }
   },
   {
-    "type": "ws",
+    "type": "vless",
     "server": "104.17.22.232",
     "server_port": 8443,
     "tag": "其他地区 383 @SCHPD",
@@ -2553,13 +3000,16 @@
         "fingerprint": "chrome"
       }
     },
-    "path": "/",
-    "headers": {
-      "Host": "node-726721114-1b5aef.infinityconfig7-3b9f.workers.dev"
+    "transport": {
+      "type": "ws",
+      "path": "/",
+      "headers": {
+        "Host": "node-726721114-1b5aef.infinityconfig7-3b9f.workers.dev"
+      }
     }
   },
   {
-    "type": "ws",
+    "type": "vless",
     "server": "104.17.158.173",
     "server_port": 443,
     "tag": "其他地区 384 @SCHPD",
@@ -2573,13 +3023,16 @@
         "fingerprint": "chrome"
       }
     },
-    "path": "/sg-melbi",
-    "headers": {
-      "Host": "support.zoom.us.yxls.eu.cc"
+    "transport": {
+      "type": "ws",
+      "path": "/sg-melbi",
+      "headers": {
+        "Host": "support.zoom.us.yxls.eu.cc"
+      }
     }
   },
   {
-    "type": "ws",
+    "type": "vless",
     "server": "104.21.200.243",
     "server_port": 2053,
     "tag": "其他地区 386 @SCHPD",
@@ -2593,35 +3046,44 @@
         "fingerprint": "chrome"
       }
     },
-    "path": "/NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN",
-    "headers": {
-      "Host": "netlivpn2584.vjvdgbc.workers.dev"
+    "transport": {
+      "type": "ws",
+      "path": "/NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN",
+      "headers": {
+        "Host": "netlivpn2584.vjvdgbc.workers.dev"
+      }
     }
   },
   {
-    "type": "ws",
+    "type": "vless",
     "server": "172.67.209.127",
     "server_port": 8880,
     "tag": "其他地区 387 @SCHPD",
     "uuid": "24c2a873-4584-4c53-8679-61029682d0bb",
-    "path": "/pyip=ProxyIP.US.CMLiussss.net",
-    "headers": {
-      "Host": "soft-thunder-bc22.111-f59.workers.dev"
+    "transport": {
+      "type": "ws",
+      "path": "/pyip=ProxyIP.US.CMLiussss.net",
+      "headers": {
+        "Host": "soft-thunder-bc22.111-f59.workers.dev"
+      }
     }
   },
   {
-    "type": "ws",
+    "type": "vless",
     "server": "104.18.12.149",
     "server_port": 80,
     "tag": "其他地区 389 @SCHPD",
     "uuid": "5f4845b4-11dc-41d6-9508-4ff6a02e36c1",
-    "path": "/ @ProxyVPN11",
-    "headers": {
-      "Host": "silent-paper-fa57.fipiyag989.workers.dev"
+    "transport": {
+      "type": "ws",
+      "path": "/ @ProxyVPN11",
+      "headers": {
+        "Host": "silent-paper-fa57.fipiyag989.workers.dev"
+      }
     }
   },
   {
-    "type": "ws",
+    "type": "vless",
     "server": "104.16.158.255",
     "server_port": 443,
     "tag": "其他地区 392 @SCHPD",
@@ -2635,13 +3097,16 @@
         "fingerprint": "chrome"
       }
     },
-    "path": "/",
-    "headers": {
-      "Host": "nova-atlas-core-5a95.rajabyshokofeh3-bcc.workers.dev"
+    "transport": {
+      "type": "ws",
+      "path": "/",
+      "headers": {
+        "Host": "nova-atlas-core-5a95.rajabyshokofeh3-bcc.workers.dev"
+      }
     }
   },
   {
-    "type": "ws",
+    "type": "vless",
     "server": "104.21.8.176",
     "server_port": 443,
     "tag": "其他地区 393 @SCHPD",
@@ -2655,24 +3120,30 @@
         "fingerprint": "chrome"
       }
     },
-    "path": "/sync",
-    "headers": {
-      "Host": "ez-1bc8ab.sekiro-c18.workers.dev"
+    "transport": {
+      "type": "ws",
+      "path": "/sync",
+      "headers": {
+        "Host": "ez-1bc8ab.sekiro-c18.workers.dev"
+      }
     }
   },
   {
-    "type": "ws",
+    "type": "vless",
     "server": "172.65.90.52",
     "server_port": 8880,
     "tag": "其他地区 397 @SCHPD",
     "uuid": "30e4c878-15ca-4f53-ab32-04c60ecd3f31",
-    "path": "/pyip=ProxyIP.US.CMLiussss.net",
-    "headers": {
-      "Host": "blue-rice-7142.30-346.workers.dev"
+    "transport": {
+      "type": "ws",
+      "path": "/pyip=ProxyIP.US.CMLiussss.net",
+      "headers": {
+        "Host": "blue-rice-7142.30-346.workers.dev"
+      }
     }
   },
   {
-    "type": "ws",
+    "type": "vless",
     "server": "162.159.16.63",
     "server_port": 443,
     "tag": "其他地区 398 @SCHPD",
@@ -2686,13 +3157,16 @@
         "fingerprint": "chrome"
       }
     },
-    "path": "/fdip=tw.william.us.ci!txt?ed=2560fp=random",
-    "headers": {
-      "Host": "learn00.evany.de5.net"
+    "transport": {
+      "type": "ws",
+      "path": "/fdip=tw.william.us.ci!txt?ed=2560fp=random",
+      "headers": {
+        "Host": "learn00.evany.de5.net"
+      }
     }
   },
   {
-    "type": "ws",
+    "type": "vless",
     "server": "104.18.36.192",
     "server_port": 2087,
     "tag": "其他地区 399 @SCHPD",
@@ -2706,13 +3180,16 @@
         "fingerprint": "chrome"
       }
     },
-    "path": "/fdip=tw.william.us.ci!txtfp=random",
-    "headers": {
-      "Host": "learn00.evany.de5.net"
+    "transport": {
+      "type": "ws",
+      "path": "/fdip=tw.william.us.ci!txtfp=random",
+      "headers": {
+        "Host": "learn00.evany.de5.net"
+      }
     }
   },
   {
-    "type": "ws",
+    "type": "vless",
     "server": "172.64.38.215",
     "server_port": 443,
     "tag": "其他地区 400 @SCHPD",
@@ -2726,13 +3203,16 @@
         "fingerprint": "chrome"
       }
     },
-    "path": "/fdip=tw.william.us.ci!txtfp=random",
-    "headers": {
-      "Host": "learn00.evany.de5.net"
+    "transport": {
+      "type": "ws",
+      "path": "/fdip=tw.william.us.ci!txtfp=random",
+      "headers": {
+        "Host": "learn00.evany.de5.net"
+      }
     }
   },
   {
-    "type": "ws",
+    "type": "vless",
     "server": "162.159.8.155",
     "server_port": 443,
     "tag": "其他地区 401 @SCHPD",
@@ -2746,13 +3226,16 @@
         "fingerprint": "chrome"
       }
     },
-    "path": "/fdip=tw.william.us.ci!txt?ed=2560fp=random",
-    "headers": {
-      "Host": "learn00.evany.de5.net"
+    "transport": {
+      "type": "ws",
+      "path": "/fdip=tw.william.us.ci!txt?ed=2560fp=random",
+      "headers": {
+        "Host": "learn00.evany.de5.net"
+      }
     }
   },
   {
-    "type": "ws",
+    "type": "vless",
     "server": "162.159.3.186",
     "server_port": 8443,
     "tag": "其他地区 402 @SCHPD",
@@ -2766,13 +3249,16 @@
         "fingerprint": "chrome"
       }
     },
-    "path": "/fdip=tw.william.us.ci!txt?ed=2560fp=random",
-    "headers": {
-      "Host": "learn00.evany.de5.net"
+    "transport": {
+      "type": "ws",
+      "path": "/fdip=tw.william.us.ci!txt?ed=2560fp=random",
+      "headers": {
+        "Host": "learn00.evany.de5.net"
+      }
     }
   },
   {
-    "type": "ws",
+    "type": "vless",
     "server": "162.159.38.78",
     "server_port": 443,
     "tag": "其他地区 403 @SCHPD",
@@ -2786,13 +3272,16 @@
         "fingerprint": "chrome"
       }
     },
-    "path": "/fdip=tw.william.us.ci!txtfp=random",
-    "headers": {
-      "Host": "learn00.evany.de5.net"
+    "transport": {
+      "type": "ws",
+      "path": "/fdip=tw.william.us.ci!txtfp=random",
+      "headers": {
+        "Host": "learn00.evany.de5.net"
+      }
     }
   },
   {
-    "type": "ws",
+    "type": "vless",
     "server": "162.159.6.103",
     "server_port": 2053,
     "tag": "其他地区 404 @SCHPD",
@@ -2806,13 +3295,16 @@
         "fingerprint": "random"
       }
     },
-    "path": "/fdip=tw.william.us.ci!txt",
-    "headers": {
-      "Host": "learn00.evany.de5.net"
+    "transport": {
+      "type": "ws",
+      "path": "/fdip=tw.william.us.ci!txt",
+      "headers": {
+        "Host": "learn00.evany.de5.net"
+      }
     }
   },
   {
-    "type": "ws",
+    "type": "vless",
     "server": "104.18.37.191",
     "server_port": 2087,
     "tag": "其他地区 405 @SCHPD",
@@ -2826,13 +3318,16 @@
         "fingerprint": "random"
       }
     },
-    "path": "/fdip=tw.william.us.ci!txt",
-    "headers": {
-      "Host": "learn00.evany.de5.net"
+    "transport": {
+      "type": "ws",
+      "path": "/fdip=tw.william.us.ci!txt",
+      "headers": {
+        "Host": "learn00.evany.de5.net"
+      }
     }
   },
   {
-    "type": "ws",
+    "type": "vless",
     "server": "162.159.7.178",
     "server_port": 443,
     "tag": "其他地区 406 @SCHPD",
@@ -2846,13 +3341,16 @@
         "fingerprint": "random"
       }
     },
-    "path": "/fdip=tw.william.us.ci!txt",
-    "headers": {
-      "Host": "learn00.evany.de5.net"
+    "transport": {
+      "type": "ws",
+      "path": "/fdip=tw.william.us.ci!txt",
+      "headers": {
+        "Host": "learn00.evany.de5.net"
+      }
     }
   },
   {
-    "type": "ws",
+    "type": "vless",
     "server": "172.64.145.0",
     "server_port": 443,
     "tag": "其他地区 407 @SCHPD",
@@ -2866,13 +3364,16 @@
         "fingerprint": "random"
       }
     },
-    "path": "/fdip=tw.william.us.ci!txt",
-    "headers": {
-      "Host": "learn00.evany.de5.net"
+    "transport": {
+      "type": "ws",
+      "path": "/fdip=tw.william.us.ci!txt",
+      "headers": {
+        "Host": "learn00.evany.de5.net"
+      }
     }
   },
   {
-    "type": "ws",
+    "type": "vless",
     "server": "104.18.40.56",
     "server_port": 443,
     "tag": "其他地区 408 @SCHPD",
@@ -2886,13 +3387,16 @@
         "fingerprint": "random"
       }
     },
-    "path": "/fdip=tw.william.us.ci!txt",
-    "headers": {
-      "Host": "learn00.evany.de5.net"
+    "transport": {
+      "type": "ws",
+      "path": "/fdip=tw.william.us.ci!txt",
+      "headers": {
+        "Host": "learn00.evany.de5.net"
+      }
     }
   },
   {
-    "type": "ws",
+    "type": "vless",
     "server": "172.64.53.238",
     "server_port": 443,
     "tag": "其他地区 409 @SCHPD",
@@ -2906,13 +3410,16 @@
         "fingerprint": "random"
       }
     },
-    "path": "/fdip=tw.william.us.ci!txt",
-    "headers": {
-      "Host": "learn00.evany.de5.net"
+    "transport": {
+      "type": "ws",
+      "path": "/fdip=tw.william.us.ci!txt",
+      "headers": {
+        "Host": "learn00.evany.de5.net"
+      }
     }
   },
   {
-    "type": "ws",
+    "type": "vless",
     "server": "172.64.52.196",
     "server_port": 8443,
     "tag": "其他地区 410 @SCHPD",
@@ -2926,13 +3433,16 @@
         "fingerprint": "random"
       }
     },
-    "path": "/fdip=tw.william.us.ci!txt",
-    "headers": {
-      "Host": "learn00.evany.de5.net"
+    "transport": {
+      "type": "ws",
+      "path": "/fdip=tw.william.us.ci!txt",
+      "headers": {
+        "Host": "learn00.evany.de5.net"
+      }
     }
   },
   {
-    "type": "ws",
+    "type": "vless",
     "server": "108.162.195.244",
     "server_port": 8443,
     "tag": "其他地区 411 @SCHPD",
@@ -2946,13 +3456,16 @@
         "fingerprint": "random"
       }
     },
-    "path": "/fdip=tw.william.us.ci!txt",
-    "headers": {
-      "Host": "learn00.evany.de5.net"
+    "transport": {
+      "type": "ws",
+      "path": "/fdip=tw.william.us.ci!txt",
+      "headers": {
+        "Host": "learn00.evany.de5.net"
+      }
     }
   },
   {
-    "type": "ws",
+    "type": "vless",
     "server": "162.159.11.220",
     "server_port": 8443,
     "tag": "其他地区 412 @SCHPD",
@@ -2966,13 +3479,16 @@
         "fingerprint": "random"
       }
     },
-    "path": "/fdip=tw.william.us.ci!txt",
-    "headers": {
-      "Host": "learn00.evany.de5.net"
+    "transport": {
+      "type": "ws",
+      "path": "/fdip=tw.william.us.ci!txt",
+      "headers": {
+        "Host": "learn00.evany.de5.net"
+      }
     }
   },
   {
-    "type": "ws",
+    "type": "vless",
     "server": "developers.cloudflare.com",
     "server_port": 443,
     "tag": "其他地区 413 @SCHPD",
@@ -2986,13 +3502,16 @@
         "fingerprint": "random"
       }
     },
-    "path": "/fdip=tw.william.us.ci!txt",
-    "headers": {
-      "Host": "learn00.evany.de5.net"
+    "transport": {
+      "type": "ws",
+      "path": "/fdip=tw.william.us.ci!txt",
+      "headers": {
+        "Host": "learn00.evany.de5.net"
+      }
     }
   },
   {
-    "type": "ws",
+    "type": "vless",
     "server": "162.159.38.165",
     "server_port": 2087,
     "tag": "其他地区 414 @SCHPD",
@@ -3006,13 +3525,16 @@
         "fingerprint": "random"
       }
     },
-    "path": "/fdip=tw.william.us.ci!txt",
-    "headers": {
-      "Host": "learn00.evany.de5.net"
+    "transport": {
+      "type": "ws",
+      "path": "/fdip=tw.william.us.ci!txt",
+      "headers": {
+        "Host": "learn00.evany.de5.net"
+      }
     }
   },
   {
-    "type": "ws",
+    "type": "vless",
     "server": "108.162.198.87",
     "server_port": 2087,
     "tag": "其他地区 415 @SCHPD",
@@ -3026,13 +3548,16 @@
         "fingerprint": "random"
       }
     },
-    "path": "/fdip=tw.william.us.ci!txt",
-    "headers": {
-      "Host": "learn00.evany.de5.net"
+    "transport": {
+      "type": "ws",
+      "path": "/fdip=tw.william.us.ci!txt",
+      "headers": {
+        "Host": "learn00.evany.de5.net"
+      }
     }
   },
   {
-    "type": "ws",
+    "type": "vless",
     "server": "108.162.198.58",
     "server_port": 443,
     "tag": "其他地区 416 @SCHPD",
@@ -3046,13 +3571,16 @@
         "fingerprint": "random"
       }
     },
-    "path": "/fdip=tw.william.us.ci!txt",
-    "headers": {
-      "Host": "learn00.evany.de5.net"
+    "transport": {
+      "type": "ws",
+      "path": "/fdip=tw.william.us.ci!txt",
+      "headers": {
+        "Host": "learn00.evany.de5.net"
+      }
     }
   },
   {
-    "type": "ws",
+    "type": "vless",
     "server": "162.159.36.117",
     "server_port": 2087,
     "tag": "其他地区 417 @SCHPD",
@@ -3066,24 +3594,30 @@
         "fingerprint": "random"
       }
     },
-    "path": "/fdip=tw.william.us.ci!txt",
-    "headers": {
-      "Host": "learn00.evany.de5.net"
+    "transport": {
+      "type": "ws",
+      "path": "/fdip=tw.william.us.ci!txt",
+      "headers": {
+        "Host": "learn00.evany.de5.net"
+      }
     }
   },
   {
-    "type": "ws",
+    "type": "vless",
     "server": "104.21.88.129",
     "server_port": 8880,
     "tag": "其他地区 418 @SCHPD",
     "uuid": "8546bcef-8456-41a2-82bc-d2231b42b769",
-    "path": "/pyip=ProxyIP.KR.CMLiussss.net",
-    "headers": {
-      "Host": "small-tree-9ec0.84-971.workers.dev"
+    "transport": {
+      "type": "ws",
+      "path": "/pyip=ProxyIP.KR.CMLiussss.net",
+      "headers": {
+        "Host": "small-tree-9ec0.84-971.workers.dev"
+      }
     }
   },
   {
-    "type": "ws",
+    "type": "vless",
     "server": "108.162.195.58",
     "server_port": 443,
     "tag": "其他地区 419 @SCHPD",
@@ -3097,13 +3631,16 @@
         "fingerprint": "chrome"
       }
     },
-    "path": "/fdip=tw.william.us.ci!txt",
-    "headers": {
-      "Host": "learn00.evany.de5.net"
+    "transport": {
+      "type": "ws",
+      "path": "/fdip=tw.william.us.ci!txt",
+      "headers": {
+        "Host": "learn00.evany.de5.net"
+      }
     }
   },
   {
-    "type": "ws",
+    "type": "vless",
     "server": "198.41.209.43",
     "server_port": 443,
     "tag": "其他地区 42 @SCHPD",
@@ -3117,13 +3654,16 @@
         "fingerprint": "chrome"
       }
     },
-    "path": "/sg-melbi",
-    "headers": {
-      "Host": "support.zoom.us.yxls.eu.cc"
+    "transport": {
+      "type": "ws",
+      "path": "/sg-melbi",
+      "headers": {
+        "Host": "support.zoom.us.yxls.eu.cc"
+      }
     }
   },
   {
-    "type": "ws",
+    "type": "vless",
     "server": "orange.seeck.cn",
     "server_port": 443,
     "tag": "其他地区 420 @SCHPD",
@@ -3137,13 +3677,16 @@
         "fingerprint": "random"
       }
     },
-    "path": "/fdip=tw.william.us.ci!txt",
-    "headers": {
-      "Host": "learn00.evany.de5.net"
+    "transport": {
+      "type": "ws",
+      "path": "/fdip=tw.william.us.ci!txt",
+      "headers": {
+        "Host": "learn00.evany.de5.net"
+      }
     }
   },
   {
-    "type": "ws",
+    "type": "vless",
     "server": "time.is",
     "server_port": 443,
     "tag": "其他地区 422 @SCHPD",
@@ -3157,13 +3700,16 @@
         "fingerprint": "chrome"
       }
     },
-    "path": "/",
-    "headers": {
-      "Host": "azadnet-826.pages.Dev"
+    "transport": {
+      "type": "ws",
+      "path": "/",
+      "headers": {
+        "Host": "azadnet-826.pages.Dev"
+      }
     }
   },
   {
-    "type": "ws",
+    "type": "vless",
     "server": "162.159.60.231",
     "server_port": 443,
     "tag": "其他地区 428 @SCHPD",
@@ -3177,13 +3723,16 @@
         "fingerprint": "chrome"
       }
     },
-    "path": "/fp=chrome",
-    "headers": {
-      "Host": "hhlfy.twiladaphne.ndjp.net"
+    "transport": {
+      "type": "ws",
+      "path": "/fp=chrome",
+      "headers": {
+        "Host": "hhlfy.twiladaphne.ndjp.net"
+      }
     }
   },
   {
-    "type": "ws",
+    "type": "vless",
     "server": "173.245.58.217",
     "server_port": 8443,
     "tag": "其他地区 431 @SCHPD",
@@ -3197,13 +3746,16 @@
         "fingerprint": "random"
       }
     },
-    "path": "/fdip=tw.william.us.ci!txt",
-    "headers": {
-      "Host": "learn00.evany.de5.net"
+    "transport": {
+      "type": "ws",
+      "path": "/fdip=tw.william.us.ci!txt",
+      "headers": {
+        "Host": "learn00.evany.de5.net"
+      }
     }
   },
   {
-    "type": "ws",
+    "type": "vless",
     "server": "104.16.158.249",
     "server_port": 443,
     "tag": "其他地区 432 @SCHPD",
@@ -3217,13 +3769,16 @@
         "fingerprint": "random"
       }
     },
-    "path": "/",
-    "headers": {
-      "Host": "hhlfy.twiladaphne.ndjp.net"
+    "transport": {
+      "type": "ws",
+      "path": "/",
+      "headers": {
+        "Host": "hhlfy.twiladaphne.ndjp.net"
+      }
     }
   },
   {
-    "type": "ws",
+    "type": "vless",
     "server": "104.18.34.124",
     "server_port": 443,
     "tag": "其他地区 435 @SCHPD",
@@ -3237,13 +3792,16 @@
         "fingerprint": "chrome"
       }
     },
-    "path": "/",
-    "headers": {
-      "Host": "hhlfy.twiladaphne.ndjp.net"
+    "transport": {
+      "type": "ws",
+      "path": "/",
+      "headers": {
+        "Host": "hhlfy.twiladaphne.ndjp.net"
+      }
     }
   },
   {
-    "type": "ws",
+    "type": "vless",
     "server": "104.16.72.70",
     "server_port": 443,
     "tag": "其他地区 436 @SCHPD",
@@ -3257,13 +3815,16 @@
         "fingerprint": "chrome"
       }
     },
-    "path": "/?TELEGRAM-MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI?ed=2560",
-    "headers": {
-      "Host": "hhlfy.twiladaphne.ndjp.net"
+    "transport": {
+      "type": "ws",
+      "path": "/?TELEGRAM-MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI?ed=2560",
+      "headers": {
+        "Host": "hhlfy.twiladaphne.ndjp.net"
+      }
     }
   },
   {
-    "type": "ws",
+    "type": "vless",
     "server": "172.64.52.73",
     "server_port": 443,
     "tag": "其他地区 437 @SCHPD",
@@ -3277,13 +3838,16 @@
         "fingerprint": "chrome"
       }
     },
-    "path": "/fdip=tw.william.us.ci!txtfp=chrome",
-    "headers": {
-      "Host": "learn00.evany.de5.net"
+    "transport": {
+      "type": "ws",
+      "path": "/fdip=tw.william.us.ci!txtfp=chrome",
+      "headers": {
+        "Host": "learn00.evany.de5.net"
+      }
     }
   },
   {
-    "type": "ws",
+    "type": "vless",
     "server": "1.rmgyvpn.rest",
     "server_port": 443,
     "tag": "其他地区 443 @SCHPD",
@@ -3297,24 +3861,30 @@
         "fingerprint": "chrome"
       }
     },
-    "path": "/ws-cdn",
-    "headers": {
-      "Host": "1.rmgyvpn.rest"
+    "transport": {
+      "type": "ws",
+      "path": "/ws-cdn",
+      "headers": {
+        "Host": "1.rmgyvpn.rest"
+      }
     }
   },
   {
-    "type": "ws",
+    "type": "vless",
     "server": "104.26.1.195",
     "server_port": 8080,
     "tag": "其他地区 445 @SCHPD",
     "uuid": "4e0f4e59-3613-4f0c-b824-7348413d20e6",
-    "path": "/ws-6Tta3kYF",
-    "headers": {
-      "Host": "premium-us-ca-01-gthost.efgwf.online"
+    "transport": {
+      "type": "ws",
+      "path": "/ws-6Tta3kYF",
+      "headers": {
+        "Host": "premium-us-ca-01-gthost.efgwf.online"
+      }
     }
   },
   {
-    "type": "ws",
+    "type": "vless",
     "server": "108.162.192.9",
     "server_port": 443,
     "tag": "其他地区 446 @SCHPD",
@@ -3328,13 +3898,16 @@
         "fingerprint": "random"
       }
     },
-    "path": "/pyip=proxyip.cmliussss.net",
-    "headers": {
-      "Host": "soucuovls.pages.dev"
+    "transport": {
+      "type": "ws",
+      "path": "/pyip=proxyip.cmliussss.net",
+      "headers": {
+        "Host": "soucuovls.pages.dev"
+      }
     }
   },
   {
-    "type": "ws",
+    "type": "vless",
     "server": "162.159.12.41",
     "server_port": 443,
     "tag": "其他地区 449 @SCHPD",
@@ -3348,13 +3921,16 @@
         "fingerprint": "chrome"
       }
     },
-    "path": "/fp=chrome",
-    "headers": {
-      "Host": "hhlfy.twiladaphne.ndjp.net"
+    "transport": {
+      "type": "ws",
+      "path": "/fp=chrome",
+      "headers": {
+        "Host": "hhlfy.twiladaphne.ndjp.net"
+      }
     }
   },
   {
-    "type": "ws",
+    "type": "vless",
     "server": "104.16.72.251",
     "server_port": 443,
     "tag": "其他地区 450 @SCHPD",
@@ -3368,13 +3944,16 @@
         "fingerprint": "chrome"
       }
     },
-    "path": "/",
-    "headers": {
-      "Host": "hhlfy.twiladaphne.ndjp.net"
+    "transport": {
+      "type": "ws",
+      "path": "/",
+      "headers": {
+        "Host": "hhlfy.twiladaphne.ndjp.net"
+      }
     }
   },
   {
-    "type": "ws",
+    "type": "vless",
     "server": "104.17.22.240",
     "server_port": 443,
     "tag": "其他地区 451 @SCHPD",
@@ -3388,13 +3967,16 @@
         "fingerprint": "random"
       }
     },
-    "path": "/",
-    "headers": {
-      "Host": "hhlfy.twiladaphne.ndjp.net"
+    "transport": {
+      "type": "ws",
+      "path": "/",
+      "headers": {
+        "Host": "hhlfy.twiladaphne.ndjp.net"
+      }
     }
   },
   {
-    "type": "ws",
+    "type": "vless",
     "server": "104.18.42.68",
     "server_port": 8443,
     "tag": "其他地区 46 @SCHPD",
@@ -3408,13 +3990,16 @@
         "fingerprint": "random"
       }
     },
-    "path": "/",
-    "headers": {
-      "Host": "learn00.evany.de5.net"
+    "transport": {
+      "type": "ws",
+      "path": "/",
+      "headers": {
+        "Host": "learn00.evany.de5.net"
+      }
     }
   },
   {
-    "type": "ws",
+    "type": "vless",
     "server": "104.18.37.228",
     "server_port": 443,
     "tag": "其他地区 47 @SCHPD",
@@ -3424,13 +4009,16 @@
       "server_name": "hhlfy.twiladaphne.ndjp.net",
       "insecure": false
     },
-    "path": "/fp",
-    "headers": {
-      "Host": "hhlfy.twiladaphne.ndjp.net"
+    "transport": {
+      "type": "ws",
+      "path": "/fp",
+      "headers": {
+        "Host": "hhlfy.twiladaphne.ndjp.net"
+      }
     }
   },
   {
-    "type": "ws",
+    "type": "vless",
     "server": "172.67.75.172",
     "server_port": 443,
     "tag": "其他地区 482 @SCHPD",
@@ -3444,13 +4032,16 @@
         "fingerprint": "chrome"
       }
     },
-    "path": "/fdip=tw.william.us.ci!txt",
-    "headers": {
-      "Host": "learn00.evany.de5.net"
+    "transport": {
+      "type": "ws",
+      "path": "/fdip=tw.william.us.ci!txt",
+      "headers": {
+        "Host": "learn00.evany.de5.net"
+      }
     }
   },
   {
-    "type": "ws",
+    "type": "vless",
     "server": "162.159.39.2",
     "server_port": 2096,
     "tag": "其他地区 486 @SCHPD",
@@ -3464,24 +4055,30 @@
         "fingerprint": "chrome"
       }
     },
-    "path": "/",
-    "headers": {
-      "Host": "icy-cloud-71e3.misnaargh.workers.dev"
+    "transport": {
+      "type": "ws",
+      "path": "/",
+      "headers": {
+        "Host": "icy-cloud-71e3.misnaargh.workers.dev"
+      }
     }
   },
   {
-    "type": "ws",
+    "type": "vless",
     "server": "172.66.214.247",
     "server_port": 8880,
     "tag": "其他地区 488 @SCHPD",
     "uuid": "e7f6f783-6754-4228-a5d0-aeed84b9949a",
-    "path": "/pyip=ProxyIP.SG.CMLiussss.net",
-    "headers": {
-      "Host": "sweet-sun-c70f.317-ba5.workers.dev"
+    "transport": {
+      "type": "ws",
+      "path": "/pyip=ProxyIP.SG.CMLiussss.net",
+      "headers": {
+        "Host": "sweet-sun-c70f.317-ba5.workers.dev"
+      }
     }
   },
   {
-    "type": "ws",
+    "type": "vless",
     "server": "cf-vless-4cf55824.aimall.fr",
     "server_port": 443,
     "tag": "其他地区 489 @SCHPD",
@@ -3495,13 +4092,16 @@
         "fingerprint": "chrome"
       }
     },
-    "path": "/connect",
-    "headers": {
-      "Host": "cf-vless-4cf55824.aimall.fr"
+    "transport": {
+      "type": "ws",
+      "path": "/connect",
+      "headers": {
+        "Host": "cf-vless-4cf55824.aimall.fr"
+      }
     }
   },
   {
-    "type": "ws",
+    "type": "vless",
     "server": "188.114.96.3",
     "server_port": 443,
     "tag": "其他地区 492 @SCHPD",
@@ -3515,46 +4115,58 @@
         "fingerprint": "chrome"
       }
     },
-    "path": "/eyJqdW5rIjoieE1zSFhYR2hkcHZGUHI3cSIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0=",
-    "headers": {
-      "Host": "maSterserVeR1-VSH.KaLlEH.WORkERs.DEV"
+    "transport": {
+      "type": "ws",
+      "path": "/eyJqdW5rIjoieE1zSFhYR2hkcHZGUHI3cSIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0=",
+      "headers": {
+        "Host": "maSterserVeR1-VSH.KaLlEH.WORkERs.DEV"
+      }
     }
   },
   {
-    "type": "ws",
+    "type": "vless",
     "server": "104.25.118.238",
     "server_port": 80,
     "tag": "其他地区 495 @SCHPD",
     "uuid": "6cd78ec7-b715-471c-92b4-0c3842caea4b",
-    "path": "/eyJqdW5rIjoiOFRwTjlPWHgiLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByZWZpeCIsInBhbmVsSVBzIjpbIlsyNjAyOmZjNTk6YjA6NjQ6Ol0iXX0=",
-    "headers": {
-      "Host": "billowing-cloud-d339.sospanel.workers.dev"
+    "transport": {
+      "type": "ws",
+      "path": "/eyJqdW5rIjoiOFRwTjlPWHgiLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByZWZpeCIsInBhbmVsSVBzIjpbIlsyNjAyOmZjNTk6YjA6NjQ6Ol0iXX0=",
+      "headers": {
+        "Host": "billowing-cloud-d339.sospanel.workers.dev"
+      }
     }
   },
   {
-    "type": "ws",
+    "type": "vless",
     "server": "104.16.72.41",
     "server_port": 8880,
     "tag": "其他地区 496 @SCHPD",
     "uuid": "1bc8fb2a-3bee-4ae0-aa12-957885e63e18",
-    "path": "/pyip",
-    "headers": {
-      "Host": "super-mud-8b38.114-a90.workers.dev"
+    "transport": {
+      "type": "ws",
+      "path": "/pyip",
+      "headers": {
+        "Host": "super-mud-8b38.114-a90.workers.dev"
+      }
     }
   },
   {
-    "type": "ws",
+    "type": "vless",
     "server": "104.18.42.163",
     "server_port": 8880,
     "tag": "其他地区 499 @SCHPD",
     "uuid": "ce977d82-824b-4209-87f1-0719f78d6a2e",
-    "path": "/",
-    "headers": {
-      "Host": "royal-mode-cf74.210-62d.workers.dev"
+    "transport": {
+      "type": "ws",
+      "path": "/",
+      "headers": {
+        "Host": "royal-mode-cf74.210-62d.workers.dev"
+      }
     }
   },
   {
-    "type": "ws",
+    "type": "vless",
     "server": "104.16.43.192",
     "server_port": 2083,
     "tag": "其他地区 500 @SCHPD",
@@ -3568,13 +4180,16 @@
         "fingerprint": "chrome"
       }
     },
-    "path": "/eyJqdW5rIjoiOWc3WUROOHZXemEiLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6W119",
-    "headers": {
-      "Host": "ez-2cb1f5.sabzipolobamahi9.workers.dev"
+    "transport": {
+      "type": "ws",
+      "path": "/eyJqdW5rIjoiOWc3WUROOHZXemEiLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6W119",
+      "headers": {
+        "Host": "ez-2cb1f5.sabzipolobamahi9.workers.dev"
+      }
     }
   },
   {
-    "type": "ws",
+    "type": "vless",
     "server": "104.18.0.1",
     "server_port": 443,
     "tag": "其他地区 505 @SCHPD",
@@ -3588,13 +4203,16 @@
         "fingerprint": "chrome"
       }
     },
-    "path": "/",
-    "headers": {
-      "Host": "all.speedtest03.ccwu.cc"
+    "transport": {
+      "type": "ws",
+      "path": "/",
+      "headers": {
+        "Host": "all.speedtest03.ccwu.cc"
+      }
     }
   },
   {
-    "type": "ws",
+    "type": "vless",
     "server": "fast.nanniang.top",
     "server_port": 8443,
     "tag": "其他地区 51 @SCHPD",
@@ -3608,13 +4226,16 @@
         "fingerprint": "chrome"
       }
     },
-    "path": "/",
-    "headers": {
-      "Host": "us-akile.nanniang.top"
+    "transport": {
+      "type": "ws",
+      "path": "/",
+      "headers": {
+        "Host": "us-akile.nanniang.top"
+      }
     }
   },
   {
-    "type": "ws",
+    "type": "vless",
     "server": "104.20.32.49",
     "server_port": 2083,
     "tag": "其他地区 510 @SCHPD",
@@ -3628,13 +4249,16 @@
         "fingerprint": "chrome"
       }
     },
-    "path": "/",
-    "headers": {
-      "Host": "gentle-dream-6aa3.soh8khan13.workers.dev"
+    "transport": {
+      "type": "ws",
+      "path": "/",
+      "headers": {
+        "Host": "gentle-dream-6aa3.soh8khan13.workers.dev"
+      }
     }
   },
   {
-    "type": "ws",
+    "type": "vless",
     "server": "172.67.215.39",
     "server_port": 443,
     "tag": "其他地区 511 @SCHPD",
@@ -3648,35 +4272,44 @@
         "fingerprint": "chrome"
       }
     },
-    "path": "/js/cHlpcC55Z2tray5kcGRucy5vcmc=/",
-    "headers": {
-      "Host": "muddy-math-c1fc.tmpnriqueau89.workers.dev"
+    "transport": {
+      "type": "ws",
+      "path": "/js/cHlpcC55Z2tray5kcGRucy5vcmc=/",
+      "headers": {
+        "Host": "muddy-math-c1fc.tmpnriqueau89.workers.dev"
+      }
     }
   },
   {
-    "type": "ws",
+    "type": "vless",
     "server": "muddy-shadow-8905.qara-atayi-1.workers.dev",
     "server_port": 2086,
     "tag": "其他地区 512 @SCHPD",
     "uuid": "9ef1d60d-9e38-49c5-9405-131e11be1f9c",
-    "path": "/eyJqdW5rIjoiVGtvRGR4TXdHSzdseGpZWCIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJlZml4IiwicGFuZWxJUHMiOlsiWzI2MDI6ZmM1OTpiMDo2NDo6XSJdfQ==",
-    "headers": {
-      "Host": "muddy-shadow-8905.qara-atayi-1.workers.dev"
+    "transport": {
+      "type": "ws",
+      "path": "/eyJqdW5rIjoiVGtvRGR4TXdHSzdseGpZWCIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJlZml4IiwicGFuZWxJUHMiOlsiWzI2MDI6ZmM1OTpiMDo2NDo6XSJdfQ==",
+      "headers": {
+        "Host": "muddy-shadow-8905.qara-atayi-1.workers.dev"
+      }
     }
   },
   {
-    "type": "ws",
+    "type": "vless",
     "server": "ns.cloudflare.com",
     "server_port": 2095,
     "tag": "其他地区 515 @SCHPD",
     "uuid": "86c50e3a-5b87-49dd-bd20-03c7f2735e40",
-    "path": "/",
-    "headers": {
-      "Host": "cnmfangbinxingnmsl.cnmfangbinxing-h.workers.dev"
+    "transport": {
+      "type": "ws",
+      "path": "/",
+      "headers": {
+        "Host": "cnmfangbinxingnmsl.cnmfangbinxing-h.workers.dev"
+      }
     }
   },
   {
-    "type": "ws",
+    "type": "vless",
     "server": "ezaccess-project-4c7950.ez-dc9bbb.workers.dev",
     "server_port": 443,
     "tag": "其他地区 517 @SCHPD",
@@ -3690,13 +4323,16 @@
         "fingerprint": "chrome"
       }
     },
-    "path": "/eyJqdW5rIjoiN2w4dDlRNVV5NkZ5NU1aeSIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0=",
-    "headers": {
-      "Host": "ezaccess-project-4c7950.ez-dc9bbb.workers.dev"
+    "transport": {
+      "type": "ws",
+      "path": "/eyJqdW5rIjoiN2w4dDlRNVV5NkZ5NU1aeSIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0=",
+      "headers": {
+        "Host": "ezaccess-project-4c7950.ez-dc9bbb.workers.dev"
+      }
     }
   },
   {
-    "type": "ws",
+    "type": "vless",
     "server": "104.25.123.12",
     "server_port": 443,
     "tag": "其他地区 522 @SCHPD",
@@ -3710,24 +4346,30 @@
         "fingerprint": "chrome"
       }
     },
-    "path": "/",
-    "headers": {
-      "Host": "alireza10.karamzade546alireza.workers.dev"
+    "transport": {
+      "type": "ws",
+      "path": "/",
+      "headers": {
+        "Host": "alireza10.karamzade546alireza.workers.dev"
+      }
     }
   },
   {
-    "type": "ws",
+    "type": "vless",
     "server": "104.18.13.229",
     "server_port": 8880,
     "tag": "其他地区 526 @SCHPD",
     "uuid": "b85c8be2-3109-4b8a-aa82-f0d8fe06f5ae",
-    "path": "/pyip=ProxyIP.JP.CMLiussss.net",
-    "headers": {
-      "Host": "young-dust-b8d9.31-8ba.workers.dev"
+    "transport": {
+      "type": "ws",
+      "path": "/pyip=ProxyIP.JP.CMLiussss.net",
+      "headers": {
+        "Host": "young-dust-b8d9.31-8ba.workers.dev"
+      }
     }
   },
   {
-    "type": "ws",
+    "type": "vless",
     "server": "mohamad.fantomgavi.workers.dev",
     "server_port": 443,
     "tag": "其他地区 527 @SCHPD",
@@ -3741,13 +4383,16 @@
         "fingerprint": "chrome"
       }
     },
-    "path": "/",
-    "headers": {
-      "Host": "mohamad.fantomgavi.workers.dev"
+    "transport": {
+      "type": "ws",
+      "path": "/",
+      "headers": {
+        "Host": "mohamad.fantomgavi.workers.dev"
+      }
     }
   },
   {
-    "type": "ws",
+    "type": "vless",
     "server": "courses.mftplus.qzz.io",
     "server_port": 2096,
     "tag": "其他地区 528 @SCHPD",
@@ -3761,13 +4406,16 @@
         "fingerprint": "chrome"
       }
     },
-    "path": "/eyJqdW5rIjoidVkzQm1ROUg4dyIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0=",
-    "headers": {
-      "Host": "courses.mftplus.qzz.io"
+    "transport": {
+      "type": "ws",
+      "path": "/eyJqdW5rIjoidVkzQm1ROUg4dyIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0=",
+      "headers": {
+        "Host": "courses.mftplus.qzz.io"
+      }
     }
   },
   {
-    "type": "ws",
+    "type": "vless",
     "server": "162.159.44.100",
     "server_port": 2087,
     "tag": "其他地区 53 @SCHPD",
@@ -3781,13 +4429,16 @@
         "fingerprint": "random"
       }
     },
-    "path": "/",
-    "headers": {
-      "Host": "learn00.evany.de5.net"
+    "transport": {
+      "type": "ws",
+      "path": "/",
+      "headers": {
+        "Host": "learn00.evany.de5.net"
+      }
     }
   },
   {
-    "type": "ws",
+    "type": "vless",
     "server": "172.64.146.116",
     "server_port": 443,
     "tag": "其他地区 530 @SCHPD",
@@ -3801,13 +4452,16 @@
         "fingerprint": "chrome"
       }
     },
-    "path": "/44.209.52.7-443",
-    "headers": {
-      "Host": "support.zoom.us.blackshadow.dpdns.org"
+    "transport": {
+      "type": "ws",
+      "path": "/44.209.52.7-443",
+      "headers": {
+        "Host": "support.zoom.us.blackshadow.dpdns.org"
+      }
     }
   },
   {
-    "type": "ws",
+    "type": "vless",
     "server": "188.114.97.6",
     "server_port": 2096,
     "tag": "其他地区 531 @SCHPD",
@@ -3821,13 +4475,16 @@
         "fingerprint": "chrome"
       }
     },
-    "path": "/eyJqdW5rIjoibTBZdXp5cm93NSIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJlZml4IiwicGFuZWxJUHMiOlsiWzJhMDI6ODk4OjE0Njo2NDo6XSIsIlsyNjAyOmZjNTk6MTE6NjQ6Ol0iLCJbMjYwMjpmYzU5OmIwOjY0OjpdIl19",
-    "headers": {
-      "Host": "peekconfig.hamrahfree2.workers.dev"
+    "transport": {
+      "type": "ws",
+      "path": "/eyJqdW5rIjoibTBZdXp5cm93NSIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJlZml4IiwicGFuZWxJUHMiOlsiWzJhMDI6ODk4OjE0Njo2NDo6XSIsIlsyNjAyOmZjNTk6MTE6NjQ6Ol0iLCJbMjYwMjpmYzU5OmIwOjY0OjpdIl19",
+      "headers": {
+        "Host": "peekconfig.hamrahfree2.workers.dev"
+      }
     }
   },
   {
-    "type": "ws",
+    "type": "vless",
     "server": "server16.peekconfig.workers.dev",
     "server_port": 443,
     "tag": "其他地区 533 @SCHPD",
@@ -3841,13 +4498,16 @@
         "fingerprint": "chrome"
       }
     },
-    "path": "/eyJqdW5rIjoiYXdUWFpSYnZubU5hIiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcmVmaXgiLCJwYW5lbElQcyI6WyJbMmEwMjo4OTg6MTQ2OjY0OjpdIiwiWzI2MDI6ZmM1OToxMTo2NDo6XSIsIlsyNjAyOmZjNTk6YjA6NjQ6Ol0iXX0=",
-    "headers": {
-      "Host": "server16.peekconfig.workers.dev"
+    "transport": {
+      "type": "ws",
+      "path": "/eyJqdW5rIjoiYXdUWFpSYnZubU5hIiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcmVmaXgiLCJwYW5lbElQcyI6WyJbMmEwMjo4OTg6MTQ2OjY0OjpdIiwiWzI2MDI6ZmM1OToxMTo2NDo6XSIsIlsyNjAyOmZjNTk6YjA6NjQ6Ol0iXX0=",
+      "headers": {
+        "Host": "server16.peekconfig.workers.dev"
+      }
     }
   },
   {
-    "type": "ws",
+    "type": "vless",
     "server": "172.64.53.218",
     "server_port": 2087,
     "tag": "其他地区 55 @SCHPD",
@@ -3861,46 +4521,58 @@
         "fingerprint": "chrome"
       }
     },
-    "path": "/",
-    "headers": {
-      "Host": "learn00.evany.de5.net"
+    "transport": {
+      "type": "ws",
+      "path": "/",
+      "headers": {
+        "Host": "learn00.evany.de5.net"
+      }
     }
   },
   {
-    "type": "ws",
+    "type": "vless",
     "server": "172.64.146.66",
     "server_port": 2095,
     "tag": "其他地区 551 @SCHPD",
     "uuid": "86c50e3a-5b87-49dd-bd20-03c7f2735e40",
-    "path": "/",
-    "headers": {
-      "Host": "cnmfangbinxing.cnmfangbinxing-f.workers.dev"
+    "transport": {
+      "type": "ws",
+      "path": "/",
+      "headers": {
+        "Host": "cnmfangbinxing.cnmfangbinxing-f.workers.dev"
+      }
     }
   },
   {
-    "type": "ws",
+    "type": "vless",
     "server": "envato.com",
     "server_port": 8880,
     "tag": "其他地区 554 @SCHPD",
     "uuid": "7a2df38b-2d8b-486b-9b43-641c81e11f40",
-    "path": "/pyip=ProxyIP.KR.CMLiussss.net",
-    "headers": {
-      "Host": "shiny-mud-d9fa.466.workers.dev"
+    "transport": {
+      "type": "ws",
+      "path": "/pyip=ProxyIP.KR.CMLiussss.net",
+      "headers": {
+        "Host": "shiny-mud-d9fa.466.workers.dev"
+      }
     }
   },
   {
-    "type": "ws",
+    "type": "vless",
     "server": "172.67.152.71",
     "server_port": 8880,
     "tag": "其他地区 559 @SCHPD",
     "uuid": "21b93e91-5bb1-4d6d-9093-1fd09ae06903",
-    "path": "/pyip=ProxyIP.JP.CMLiussss.net",
-    "headers": {
-      "Host": "morning-silence-7b1b.222-46c.workers.dev"
+    "transport": {
+      "type": "ws",
+      "path": "/pyip=ProxyIP.JP.CMLiussss.net",
+      "headers": {
+        "Host": "morning-silence-7b1b.222-46c.workers.dev"
+      }
     }
   },
   {
-    "type": "ws",
+    "type": "vless",
     "server": "108.162.193.0",
     "server_port": 443,
     "tag": "其他地区 56 @SCHPD",
@@ -3914,24 +4586,30 @@
         "fingerprint": "random"
       }
     },
-    "path": "/",
-    "headers": {
-      "Host": "learn00.evany.de5.net"
+    "transport": {
+      "type": "ws",
+      "path": "/",
+      "headers": {
+        "Host": "learn00.evany.de5.net"
+      }
     }
   },
   {
-    "type": "ws",
+    "type": "vless",
     "server": "172.67.215.44",
     "server_port": 2052,
     "tag": "其他地区 566 @SCHPD",
     "uuid": "86442a2b-417d-426d-9b42-955573b5c6e4",
-    "path": "/eyJqdW5rIjoiaUhoWE5FbWloZWY1MGxobSIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbIjg5LjE2OS4zNC45OSJdfQ==",
-    "headers": {
-      "Host": "ez-bfa272.ezaccess1d90628.workers.dev"
+    "transport": {
+      "type": "ws",
+      "path": "/eyJqdW5rIjoiaUhoWE5FbWloZWY1MGxobSIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbIjg5LjE2OS4zNC45OSJdfQ==",
+      "headers": {
+        "Host": "ez-bfa272.ezaccess1d90628.workers.dev"
+      }
     }
   },
   {
-    "type": "ws",
+    "type": "vless",
     "server": "channel.t-me-sh4dow-vpn.workers.dev",
     "server_port": 443,
     "tag": "其他地区 567 @SCHPD",
@@ -3945,13 +4623,16 @@
         "fingerprint": "chrome"
       }
     },
-    "path": "/eyJqdW5rIjoiWlNHcnk5RHUiLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByZWZpeCIsInBhbmVsSVBzIjpbIlsyNjAyOmZjNTk6MTE6NjQ6Ol0iXX0=",
-    "headers": {
-      "Host": "channel.t-me-sh4dow-vpn.workers.dev"
+    "transport": {
+      "type": "ws",
+      "path": "/eyJqdW5rIjoiWlNHcnk5RHUiLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByZWZpeCIsInBhbmVsSVBzIjpbIlsyNjAyOmZjNTk6MTE6NjQ6Ol0iXX0=",
+      "headers": {
+        "Host": "channel.t-me-sh4dow-vpn.workers.dev"
+      }
     }
   },
   {
-    "type": "ws",
+    "type": "vless",
     "server": "188.114.97.8",
     "server_port": 8443,
     "tag": "其他地区 568 @SCHPD",
@@ -3965,13 +4646,16 @@
         "fingerprint": "chrome"
       }
     },
-    "path": "/eyJqdW5rIjoiVVhGU1pOZ1oxaTFUUldyVCIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0=",
-    "headers": {
-      "Host": "dry-glitter-ef10.gfryubcdryujvrth.workers.dev"
+    "transport": {
+      "type": "ws",
+      "path": "/eyJqdW5rIjoiVVhGU1pOZ1oxaTFUUldyVCIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0=",
+      "headers": {
+        "Host": "dry-glitter-ef10.gfryubcdryujvrth.workers.dev"
+      }
     }
   },
   {
-    "type": "ws",
+    "type": "vless",
     "server": "muddy-math-c1fc.tmpnriqueau89.workers.dev",
     "server_port": 443,
     "tag": "其他地区 575 @SCHPD",
@@ -3985,35 +4669,44 @@
         "fingerprint": "chrome"
       }
     },
-    "path": "/js/cHlpcC55Z2tray5kcGRucy5vcmc=/",
-    "headers": {
-      "Host": "muddy-math-c1fc.tmpnriqueau89.workers.dev"
+    "transport": {
+      "type": "ws",
+      "path": "/js/cHlpcC55Z2tray5kcGRucy5vcmc=/",
+      "headers": {
+        "Host": "muddy-math-c1fc.tmpnriqueau89.workers.dev"
+      }
     }
   },
   {
-    "type": "ws",
+    "type": "vless",
     "server": "172.67.185.65",
     "server_port": 8080,
     "tag": "其他地区 576 @SCHPD",
     "uuid": "d682c8f4-e719-577e-cbe9-2e5b00000003",
-    "path": "/sync",
-    "headers": {
-      "Host": "0406.infinityconfig7.workers.dev"
+    "transport": {
+      "type": "ws",
+      "path": "/sync",
+      "headers": {
+        "Host": "0406.infinityconfig7.workers.dev"
+      }
     }
   },
   {
-    "type": "ws",
+    "type": "vless",
     "server": "104.21.4.10",
     "server_port": 2086,
     "tag": "其他地区 578 @SCHPD",
     "uuid": "9ef1d60d-9e38-49c5-9405-131e11be1f9c",
-    "path": "/eyJqdW5rIjoiVGtvRGR4TXdHSzdseGpZWCIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJlZml4IiwicGFuZWxJUHMiOlsiWzI2MDI6ZmM1OTpiMDo2NDo6XSJdfQ==",
-    "headers": {
-      "Host": "muddy-shadow-8905.qara-atayi-1.workers.dev"
+    "transport": {
+      "type": "ws",
+      "path": "/eyJqdW5rIjoiVGtvRGR4TXdHSzdseGpZWCIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJlZml4IiwicGFuZWxJUHMiOlsiWzI2MDI6ZmM1OTpiMDo2NDo6XSJdfQ==",
+      "headers": {
+        "Host": "muddy-shadow-8905.qara-atayi-1.workers.dev"
+      }
     }
   },
   {
-    "type": "ws",
+    "type": "vless",
     "server": "104.17.147.22",
     "server_port": 443,
     "tag": "其他地区 582 @SCHPD",
@@ -4027,13 +4720,16 @@
         "fingerprint": "chrome"
       }
     },
-    "path": "/eyJqdW5rIjoiWlFRWlMwRDdLakVqMyIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0=",
-    "headers": {
-      "Host": "bpb-01c11365.hjdbcvdbkv.workers.dev"
+    "transport": {
+      "type": "ws",
+      "path": "/eyJqdW5rIjoiWlFRWlMwRDdLakVqMyIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0=",
+      "headers": {
+        "Host": "bpb-01c11365.hjdbcvdbkv.workers.dev"
+      }
     }
   },
   {
-    "type": "ws",
+    "type": "vless",
     "server": "172.67.78.254",
     "server_port": 2083,
     "tag": "其他地区 584 @SCHPD",
@@ -4047,24 +4743,30 @@
         "fingerprint": "chrome"
       }
     },
-    "path": "/",
-    "headers": {
-      "Host": "crimson-king-301d.nexoxnet.workers.dev"
+    "transport": {
+      "type": "ws",
+      "path": "/",
+      "headers": {
+        "Host": "crimson-king-301d.nexoxnet.workers.dev"
+      }
     }
   },
   {
-    "type": "ws",
+    "type": "vless",
     "server": "server1.poludiro.workers.dev",
     "server_port": 8080,
     "tag": "其他地区 588 @SCHPD",
     "uuid": "d98c1be3-7837-4d8a-a9fc-05e7a807ccb0",
-    "path": "/eyJqdW5rIjoiSWZqSHF3Q2RLIiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcmVmaXgiLCJwYW5lbElQcyI6WyJbMmEwMjo4OTg6MTQ2OjY0OjpdIl19",
-    "headers": {
-      "Host": "server1.poludiro.workers.dev"
+    "transport": {
+      "type": "ws",
+      "path": "/eyJqdW5rIjoiSWZqSHF3Q2RLIiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcmVmaXgiLCJwYW5lbElQcyI6WyJbMmEwMjo4OTg6MTQ2OjY0OjpdIl19",
+      "headers": {
+        "Host": "server1.poludiro.workers.dev"
+      }
     }
   },
   {
-    "type": "ws",
+    "type": "vless",
     "server": "173.245.58.92",
     "server_port": 2087,
     "tag": "其他地区 597 @SCHPD",
@@ -4078,35 +4780,44 @@
         "fingerprint": "firefox"
       }
     },
-    "path": "/",
-    "headers": {
-      "Host": "edgetunnel.kalmevebto.workers.dev"
+    "transport": {
+      "type": "ws",
+      "path": "/",
+      "headers": {
+        "Host": "edgetunnel.kalmevebto.workers.dev"
+      }
     }
   },
   {
-    "type": "ws",
+    "type": "vless",
     "server": "173.245.58.115",
     "server_port": 8080,
     "tag": "其他地区 601 @SCHPD",
     "uuid": "8e32697d-c23c-4b6b-9790-f46a7b94958d",
-    "path": "/eyJqdW5rIjoidmlraUhybDdxT0siLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByZWZpeCIsInBhbmVsSVBzIjpbIlsyYTAyOjg5ODoxNDY6NjQ6Ol0iXX0=",
-    "headers": {
-      "Host": "oxinpanel.cloudfaler90.workers.dev"
+    "transport": {
+      "type": "ws",
+      "path": "/eyJqdW5rIjoidmlraUhybDdxT0siLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByZWZpeCIsInBhbmVsSVBzIjpbIlsyYTAyOjg5ODoxNDY6NjQ6Ol0iXX0=",
+      "headers": {
+        "Host": "oxinpanel.cloudfaler90.workers.dev"
+      }
     }
   },
   {
-    "type": "ws",
+    "type": "vless",
     "server": "openai.com",
     "server_port": 2095,
     "tag": "其他地区 613 @SCHPD",
     "uuid": "86c50e3a-5b87-49dd-bd20-03c7f2735e40",
-    "path": "/",
-    "headers": {
-      "Host": "cnmfangbinxingnmsl.cnmfangbinxing-h.workers.dev"
+    "transport": {
+      "type": "ws",
+      "path": "/",
+      "headers": {
+        "Host": "cnmfangbinxingnmsl.cnmfangbinxing-h.workers.dev"
+      }
     }
   },
   {
-    "type": "ws",
+    "type": "vless",
     "server": "172.67.219.176",
     "server_port": 2087,
     "tag": "其他地区 619 @SCHPD",
@@ -4120,13 +4831,16 @@
         "fingerprint": "chrome"
       }
     },
-    "path": "/eyJqdW5rIjoid2JBOTRVclNMOVdBSVQiLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6W119",
-    "headers": {
-      "Host": "steep-bonus-8e6a.amirhon1376.workers.dev"
+    "transport": {
+      "type": "ws",
+      "path": "/eyJqdW5rIjoid2JBOTRVclNMOVdBSVQiLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6W119",
+      "headers": {
+        "Host": "steep-bonus-8e6a.amirhon1376.workers.dev"
+      }
     }
   },
   {
-    "type": "ws",
+    "type": "vless",
     "server": "flat-night-edd0.hosein9saleazhuongooyeh87.workers.dev",
     "server_port": 443,
     "tag": "其他地区 62 @SCHPD",
@@ -4140,24 +4854,30 @@
         "fingerprint": "chrome"
       }
     },
-    "path": "/eyJqdW5rIjoiZU1pQlVqNTBYVmpTeDlCIiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcmVmaXgiLCJwYW5lbElQcyI6WyJbMjYwMjpmYzU5OmIwOjY0OjpdIl19",
-    "headers": {
-      "Host": "flat-night-edd0.hosein9saleazhuongooyeh87.workers.dev"
+    "transport": {
+      "type": "ws",
+      "path": "/eyJqdW5rIjoiZU1pQlVqNTBYVmpTeDlCIiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcmVmaXgiLCJwYW5lbElQcyI6WyJbMjYwMjpmYzU5OmIwOjY0OjpdIl19",
+      "headers": {
+        "Host": "flat-night-edd0.hosein9saleazhuongooyeh87.workers.dev"
+      }
     }
   },
   {
-    "type": "ws",
+    "type": "vless",
     "server": "104.21.25.168",
     "server_port": 8880,
     "tag": "其他地区 631 @SCHPD",
     "uuid": "abd3678b-f654-404c-adc7-1355865197e1",
-    "path": "/eyJqdW5rIjoiNUZVWmdPNWNpTW5LOCIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJlZml4IiwicGFuZWxJUHMiOlsiWzI2MDI6ZmM1OTpiMDo2NDo6XSJdfQ",
-    "headers": {
-      "Host": "vless.a-amr79.workers.dev"
+    "transport": {
+      "type": "ws",
+      "path": "/eyJqdW5rIjoiNUZVWmdPNWNpTW5LOCIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJlZml4IiwicGFuZWxJUHMiOlsiWzI2MDI6ZmM1OTpiMDo2NDo6XSJdfQ",
+      "headers": {
+        "Host": "vless.a-amr79.workers.dev"
+      }
     }
   },
   {
-    "type": "ws",
+    "type": "vless",
     "server": "188.114.98.0",
     "server_port": 2083,
     "tag": "其他地区 636 @SCHPD",
@@ -4171,35 +4891,44 @@
         "fingerprint": "chrome"
       }
     },
-    "path": "/",
-    "headers": {
-      "Host": "old-sky-2b90.seyowkclient.workers.dev"
+    "transport": {
+      "type": "ws",
+      "path": "/",
+      "headers": {
+        "Host": "old-sky-2b90.seyowkclient.workers.dev"
+      }
     }
   },
   {
-    "type": "ws",
+    "type": "vless",
     "server": "172.67.134.102",
     "server_port": 8880,
     "tag": "其他地区 638 @SCHPD",
     "uuid": "abd3678b-f654-404c-adc7-1355865197e1",
-    "path": "/eyJqdW5rIjoiNUZVWmdPNWNpTW5LOCIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJlZml4IiwicGFuZWxJUHMiOlsiWzI2MDI6ZmM1OTpiMDo2NDo6XSJdfQ",
-    "headers": {
-      "Host": "vless.a-amr79.workers.dev"
+    "transport": {
+      "type": "ws",
+      "path": "/eyJqdW5rIjoiNUZVWmdPNWNpTW5LOCIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJlZml4IiwicGFuZWxJUHMiOlsiWzI2MDI6ZmM1OTpiMDo2NDo6XSJdfQ",
+      "headers": {
+        "Host": "vless.a-amr79.workers.dev"
+      }
     }
   },
   {
-    "type": "ws",
+    "type": "vless",
     "server": "172.67.133.44",
     "server_port": 2086,
     "tag": "其他地区 640 @SCHPD",
     "uuid": "af19ce98-b58b-43ef-9f0d-2ae6343e28fe",
-    "path": "/eyJqdW5rIjoiQTdKUTVZeVVoQWpjamhqIiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcmVmaXgiLCJwYW5lbElQcyI6WyJbMjYwMjpmYzU5OjExOjY0OjpdIl19",
-    "headers": {
-      "Host": "blue-disk-1124.sawmansafi.workers.dev"
+    "transport": {
+      "type": "ws",
+      "path": "/eyJqdW5rIjoiQTdKUTVZeVVoQWpjamhqIiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcmVmaXgiLCJwYW5lbElQcyI6WyJbMjYwMjpmYzU5OjExOjY0OjpdIl19",
+      "headers": {
+        "Host": "blue-disk-1124.sawmansafi.workers.dev"
+      }
     }
   },
   {
-    "type": "ws",
+    "type": "vless",
     "server": "172.67.134.82",
     "server_port": 443,
     "tag": "其他地区 644 @SCHPD",
@@ -4213,46 +4942,58 @@
         "fingerprint": "chrome"
       }
     },
-    "path": "/",
-    "headers": {
-      "Host": "labeller.neonime83.workers.dev"
+    "transport": {
+      "type": "ws",
+      "path": "/",
+      "headers": {
+        "Host": "labeller.neonime83.workers.dev"
+      }
     }
   },
   {
-    "type": "ws",
+    "type": "vless",
     "server": "vmess.a-amr79.workers.dev",
     "server_port": 8880,
     "tag": "其他地区 646 @SCHPD",
     "uuid": "abd3678b-f654-404c-adc7-1355865197e1",
-    "path": "/eyJqdW5rIjoiNUZVWmdPNWNpTW5LOCIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJlZml4IiwicGFuZWxJUHMiOlsiWzI2MDI6ZmM1OTpiMDo2NDo6XSJdfQ",
-    "headers": {
-      "Host": "vless.a-amr79.workers.dev"
+    "transport": {
+      "type": "ws",
+      "path": "/eyJqdW5rIjoiNUZVWmdPNWNpTW5LOCIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJlZml4IiwicGFuZWxJUHMiOlsiWzI2MDI6ZmM1OTpiMDo2NDo6XSJdfQ",
+      "headers": {
+        "Host": "vless.a-amr79.workers.dev"
+      }
     }
   },
   {
-    "type": "ws",
+    "type": "vless",
     "server": "104.25.122.72",
     "server_port": 80,
     "tag": "其他地区 647 @SCHPD",
     "uuid": "6cd78ec7-b715-471c-92b4-0c3842caea4b",
-    "path": "/eyJqdW5rIjoiVXRIT2UwaDUiLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByZWZpeCIsInBhbmVsSVBzIjpbIlsyNjAyOmZjNTk6YjA6NjQ6Ol0iXX0=",
-    "headers": {
-      "Host": "billowing-cloud-d339.sospanel.workers.dev"
+    "transport": {
+      "type": "ws",
+      "path": "/eyJqdW5rIjoiVXRIT2UwaDUiLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByZWZpeCIsInBhbmVsSVBzIjpbIlsyNjAyOmZjNTk6YjA6NjQ6Ol0iXX0=",
+      "headers": {
+        "Host": "billowing-cloud-d339.sospanel.workers.dev"
+      }
     }
   },
   {
-    "type": "ws",
+    "type": "vless",
     "server": "172.66.140.62",
     "server_port": 8880,
     "tag": "其他地区 651 @SCHPD",
     "uuid": "5a4d9f40-56db-402a-9fbc-31c9229bdcf6",
-    "path": "/pyip=ProxyIP.US.CMLiussss.net",
-    "headers": {
-      "Host": "floral-resonance-4baf.468.workers.dev"
+    "transport": {
+      "type": "ws",
+      "path": "/pyip=ProxyIP.US.CMLiussss.net",
+      "headers": {
+        "Host": "floral-resonance-4baf.468.workers.dev"
+      }
     }
   },
   {
-    "type": "ws",
+    "type": "vless",
     "server": "0406.infinityconfig7.workers.dev",
     "server_port": 443,
     "tag": "其他地区 659 @SCHPD",
@@ -4266,24 +5007,30 @@
         "fingerprint": "chrome"
       }
     },
-    "path": "/sync",
-    "headers": {
-      "Host": "0406.infinityconfig7.workers.dev"
+    "transport": {
+      "type": "ws",
+      "path": "/sync",
+      "headers": {
+        "Host": "0406.infinityconfig7.workers.dev"
+      }
     }
   },
   {
-    "type": "ws",
+    "type": "vless",
     "server": "104.16.107.139",
     "server_port": 8880,
     "tag": "其他地区 66 @SCHPD",
     "uuid": "2fb22d40-598f-4890-85a6-d69928b1fd55",
-    "path": "/pyip=ProxyIP.SG.CMLiussss.net",
-    "headers": {
-      "Host": "odd-cloud-f2a1.73-12e.workers.dev"
+    "transport": {
+      "type": "ws",
+      "path": "/pyip=ProxyIP.SG.CMLiussss.net",
+      "headers": {
+        "Host": "odd-cloud-f2a1.73-12e.workers.dev"
+      }
     }
   },
   {
-    "type": "ws",
+    "type": "vless",
     "server": "172.67.160.192",
     "server_port": 443,
     "tag": "其他地区 660 @SCHPD",
@@ -4297,24 +5044,30 @@
         "fingerprint": "chrome"
       }
     },
-    "path": "/free/103.101.153.32:443",
-    "headers": {
-      "Host": "nuclear.us.kg"
+    "transport": {
+      "type": "ws",
+      "path": "/free/103.101.153.32:443",
+      "headers": {
+        "Host": "nuclear.us.kg"
+      }
     }
   },
   {
-    "type": "ws",
+    "type": "vless",
     "server": "104.21.19.53",
     "server_port": 8080,
     "tag": "其他地区 662 @SCHPD",
     "uuid": "d682c8f4-e719-577e-cbe9-2e5b00000003",
-    "path": "/sync",
-    "headers": {
-      "Host": "0406.infinityconfig7.workers.dev"
+    "transport": {
+      "type": "ws",
+      "path": "/sync",
+      "headers": {
+        "Host": "0406.infinityconfig7.workers.dev"
+      }
     }
   },
   {
-    "type": "ws",
+    "type": "vless",
     "server": "fancy-wind-799d.cloudneryacc.workers.dev",
     "server_port": 443,
     "tag": "其他地区 668 @SCHPD",
@@ -4328,13 +5081,16 @@
         "fingerprint": "chrome"
       }
     },
-    "path": "/sync",
-    "headers": {
-      "Host": "fancy-wind-799d.cloudneryacc.workers.dev"
+    "transport": {
+      "type": "ws",
+      "path": "/sync",
+      "headers": {
+        "Host": "fancy-wind-799d.cloudneryacc.workers.dev"
+      }
     }
   },
   {
-    "type": "ws",
+    "type": "vless",
     "server": "104.21.96.1",
     "server_port": 443,
     "tag": "其他地区 669 @SCHPD",
@@ -4348,13 +5104,16 @@
         "fingerprint": "chrome"
       }
     },
-    "path": "/Pl67KhTLWmJqQ2lY",
-    "headers": {
-      "Host": "D2127A49-Flat-WOoD-c4b5.Milia-AKbaRpOor.workers.Dev"
+    "transport": {
+      "type": "ws",
+      "path": "/Pl67KhTLWmJqQ2lY",
+      "headers": {
+        "Host": "D2127A49-Flat-WOoD-c4b5.Milia-AKbaRpOor.workers.Dev"
+      }
     }
   },
   {
-    "type": "ws",
+    "type": "vless",
     "server": "8.39.125.152",
     "server_port": 8443,
     "tag": "其他地区 674 @SCHPD",
@@ -4368,24 +5127,30 @@
         "fingerprint": "chrome"
       }
     },
-    "path": "/",
-    "headers": {
-      "Host": "bitter-shadow-4fc5.alvlirm852.workers.dev"
+    "transport": {
+      "type": "ws",
+      "path": "/",
+      "headers": {
+        "Host": "bitter-shadow-4fc5.alvlirm852.workers.dev"
+      }
     }
   },
   {
-    "type": "ws",
+    "type": "vless",
     "server": "198.41.208.252",
     "server_port": 8880,
     "tag": "其他地区 68 @SCHPD",
     "uuid": "b92380e2-e03f-4861-856e-7c2373b04728",
-    "path": "/pyip=ProxyIP.SG.CMLiussss.net",
-    "headers": {
-      "Host": "dry-thunder-7f57.57-1a3.workers.dev"
+    "transport": {
+      "type": "ws",
+      "path": "/pyip=ProxyIP.SG.CMLiussss.net",
+      "headers": {
+        "Host": "dry-thunder-7f57.57-1a3.workers.dev"
+      }
     }
   },
   {
-    "type": "ws",
+    "type": "vless",
     "server": "104.17.182.11",
     "server_port": 443,
     "tag": "其他地区 689 @SCHPD",
@@ -4399,13 +5164,16 @@
         "fingerprint": "chrome"
       }
     },
-    "path": "/",
-    "headers": {
-      "Host": "hhlfy.twiladaphne.ndjp.net"
+    "transport": {
+      "type": "ws",
+      "path": "/",
+      "headers": {
+        "Host": "hhlfy.twiladaphne.ndjp.net"
+      }
     }
   },
   {
-    "type": "ws",
+    "type": "vless",
     "server": "104.16.2.189",
     "server_port": 443,
     "tag": "其他地区 691 @SCHPD",
@@ -4419,13 +5187,16 @@
         "fingerprint": "random"
       }
     },
-    "path": "/",
-    "headers": {
-      "Host": "learn00.evany.de5.net"
+    "transport": {
+      "type": "ws",
+      "path": "/",
+      "headers": {
+        "Host": "learn00.evany.de5.net"
+      }
     }
   },
   {
-    "type": "ws",
+    "type": "vless",
     "server": "104.16.4.189",
     "server_port": 443,
     "tag": "其他地区 699 @SCHPD",
@@ -4439,24 +5210,30 @@
         "fingerprint": "random"
       }
     },
-    "path": "/",
-    "headers": {
-      "Host": "learn00.evany.de5.net"
+    "transport": {
+      "type": "ws",
+      "path": "/",
+      "headers": {
+        "Host": "learn00.evany.de5.net"
+      }
     }
   },
   {
-    "type": "ws",
+    "type": "vless",
     "server": "104.21.6.82",
     "server_port": 8080,
     "tag": "其他地区 700 @SCHPD",
     "uuid": "03a8d415-1d9c-470d-9e2d-ea0fd6aef9c0",
-    "path": "/eyJqdW5rIjoiSWdvVk5ETHBhRnNQamIiLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByZWZpeCIsInBhbmVsSVBzIjpbIlsyYTAyOjg5ODoxNDY6NjQ6Ol0iXX0=",
-    "headers": {
-      "Host": "server7.wimig16819.workers.dev"
+    "transport": {
+      "type": "ws",
+      "path": "/eyJqdW5rIjoiSWdvVk5ETHBhRnNQamIiLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByZWZpeCIsInBhbmVsSVBzIjpbIlsyYTAyOjg5ODoxNDY6NjQ6Ol0iXX0=",
+      "headers": {
+        "Host": "server7.wimig16819.workers.dev"
+      }
     }
   },
   {
-    "type": "ws",
+    "type": "vless",
     "server": "img.yust.eu.org",
     "server_port": 443,
     "tag": "其他地区 709 @SCHPD",
@@ -4470,13 +5247,16 @@
         "fingerprint": "chrome"
       }
     },
-    "path": "/fdip=tw.william.us.ci!txt",
-    "headers": {
-      "Host": "learn00.evany.de5.net"
+    "transport": {
+      "type": "ws",
+      "path": "/fdip=tw.william.us.ci!txt",
+      "headers": {
+        "Host": "learn00.evany.de5.net"
+      }
     }
   },
   {
-    "type": "ws",
+    "type": "vless",
     "server": "one-for-all.levikogjgfdd.ir",
     "server_port": 443,
     "tag": "其他地区 713 @SCHPD",
@@ -4490,13 +5270,16 @@
         "fingerprint": "chrome"
       }
     },
-    "path": "/fdip",
-    "headers": {
-      "Host": "learn00.evany.de5.net"
+    "transport": {
+      "type": "ws",
+      "path": "/fdip",
+      "headers": {
+        "Host": "learn00.evany.de5.net"
+      }
     }
   },
   {
-    "type": "ws",
+    "type": "vless",
     "server": "cmcc.877774.xyz",
     "server_port": 443,
     "tag": "其他地区 715 @SCHPD",
@@ -4510,24 +5293,30 @@
         "fingerprint": "random"
       }
     },
-    "path": "/fdip=tw.william.us.ci!txt",
-    "headers": {
-      "Host": "learn00.evany.de5.net"
+    "transport": {
+      "type": "ws",
+      "path": "/fdip=tw.william.us.ci!txt",
+      "headers": {
+        "Host": "learn00.evany.de5.net"
+      }
     }
   },
   {
-    "type": "ws",
+    "type": "vless",
     "server": "172.67.185.65",
     "server_port": 80,
     "tag": "其他地区 726 @SCHPD",
     "uuid": "d682c8f4-e719-577e-cbe9-2e5b00000002",
-    "path": "/sync",
-    "headers": {
-      "Host": "0406.infinityconfig7.workers.dev"
+    "transport": {
+      "type": "ws",
+      "path": "/sync",
+      "headers": {
+        "Host": "0406.infinityconfig7.workers.dev"
+      }
     }
   },
   {
-    "type": "ws",
+    "type": "trojan",
     "server": "vless.herogoing.top",
     "server_port": 443,
     "tag": "其他地区 73 @SCHPD",
@@ -4541,13 +5330,16 @@
         "fingerprint": "chrome"
       }
     },
-    "path": "/tr",
-    "headers": {
-      "Host": "vless.herogoing.top"
+    "transport": {
+      "type": "ws",
+      "path": "/tr",
+      "headers": {
+        "Host": "vless.herogoing.top"
+      }
     }
   },
   {
-    "type": "ws",
+    "type": "vless",
     "server": "172.64.153.57",
     "server_port": 8443,
     "tag": "其他地区 730 @SCHPD",
@@ -4561,13 +5353,16 @@
         "fingerprint": "random"
       }
     },
-    "path": "/fdip=tw.william.us.ci!txt",
-    "headers": {
-      "Host": "learn00.evany.de5.net"
+    "transport": {
+      "type": "ws",
+      "path": "/fdip=tw.william.us.ci!txt",
+      "headers": {
+        "Host": "learn00.evany.de5.net"
+      }
     }
   },
   {
-    "type": "ws",
+    "type": "vless",
     "server": "104.21.23.79",
     "server_port": 8443,
     "tag": "其他地区 736 @SCHPD",
@@ -4581,13 +5376,16 @@
         "fingerprint": "ios"
       }
     },
-    "path": "/stream/PANEL_ZEUS/50414e45",
-    "headers": {
-      "Host": "zeus-panel-0t341h.seyedmahdim4.workers.dev"
+    "transport": {
+      "type": "ws",
+      "path": "/stream/PANEL_ZEUS/50414e45",
+      "headers": {
+        "Host": "zeus-panel-0t341h.seyedmahdim4.workers.dev"
+      }
     }
   },
   {
-    "type": "ws",
+    "type": "vless",
     "server": "162.159.18.228",
     "server_port": 2087,
     "tag": "其他地区 738 @SCHPD",
@@ -4601,13 +5399,16 @@
         "fingerprint": "random"
       }
     },
-    "path": "/fdip=tw.william.us.ci!txt",
-    "headers": {
-      "Host": "learn00.evany.de5.net"
+    "transport": {
+      "type": "ws",
+      "path": "/fdip=tw.william.us.ci!txt",
+      "headers": {
+        "Host": "learn00.evany.de5.net"
+      }
     }
   },
   {
-    "type": "ws",
+    "type": "vless",
     "server": "172.67.138.17",
     "server_port": 443,
     "tag": "其他地区 739 @SCHPD",
@@ -4621,13 +5422,16 @@
         "fingerprint": "random"
       }
     },
-    "path": "/fdip=tw.william.us.ci!txt",
-    "headers": {
-      "Host": "learn00.evany.de5.net"
+    "transport": {
+      "type": "ws",
+      "path": "/fdip=tw.william.us.ci!txt",
+      "headers": {
+        "Host": "learn00.evany.de5.net"
+      }
     }
   },
   {
-    "type": "ws",
+    "type": "vless",
     "server": "france.io-com-de-dev.org",
     "server_port": 8443,
     "tag": "其他地区 742 @SCHPD",
@@ -4641,13 +5445,16 @@
         "fingerprint": "chrome"
       }
     },
-    "path": "/api/voip/updates/static/x9i2",
-    "headers": {
-      "Host": "france.io-com-de-dev.org"
+    "transport": {
+      "type": "ws",
+      "path": "/api/voip/updates/static/x9i2",
+      "headers": {
+        "Host": "france.io-com-de-dev.org"
+      }
     }
   },
   {
-    "type": "ws",
+    "type": "vless",
     "server": "millionaire.levikogjgfdd.ir",
     "server_port": 443,
     "tag": "其他地区 744 @SCHPD",
@@ -4661,24 +5468,30 @@
         "fingerprint": "chrome"
       }
     },
-    "path": "/fdip",
-    "headers": {
-      "Host": "learn00.evany.de5.net"
+    "transport": {
+      "type": "ws",
+      "path": "/fdip",
+      "headers": {
+        "Host": "learn00.evany.de5.net"
+      }
     }
   },
   {
-    "type": "ws",
+    "type": "vless",
     "server": "172.67.69.63",
     "server_port": 8080,
     "tag": "其他地区 746 @SCHPD",
     "uuid": "4e0f4e59-3613-4f0c-b824-7348413d20e6",
-    "path": "/ws-6Tta3kYF",
-    "headers": {
-      "Host": "premium-us-ca-01-gthost.efgwf.online"
+    "transport": {
+      "type": "ws",
+      "path": "/ws-6Tta3kYF",
+      "headers": {
+        "Host": "premium-us-ca-01-gthost.efgwf.online"
+      }
     }
   },
   {
-    "type": "ws",
+    "type": "vless",
     "server": "104.16.6.189",
     "server_port": 443,
     "tag": "其他地区 747 @SCHPD",
@@ -4692,24 +5505,30 @@
         "fingerprint": "random"
       }
     },
-    "path": "/",
-    "headers": {
-      "Host": "learn00.evany.de5.net"
+    "transport": {
+      "type": "ws",
+      "path": "/",
+      "headers": {
+        "Host": "learn00.evany.de5.net"
+      }
     }
   },
   {
-    "type": "ws",
+    "type": "vless",
     "server": "104.18.109.147",
     "server_port": 80,
     "tag": "其他地区 75 @SCHPD",
     "uuid": "c29d39bd-92a4-45db-bb61-56013998617c",
-    "path": "/Telegram-XV2ry2",
-    "headers": {
-      "Host": "www.speedtest.net.www.1google.com.bing.com.visa.com.tls.xv98.ip-ddns.com"
+    "transport": {
+      "type": "ws",
+      "path": "/Telegram-XV2ry2",
+      "headers": {
+        "Host": "www.speedtest.net.www.1google.com.bing.com.visa.com.tls.xv98.ip-ddns.com"
+      }
     }
   },
   {
-    "type": "ws",
+    "type": "vless",
     "server": "104.26.15.4",
     "server_port": 2053,
     "tag": "其他地区 757 @SCHPD",
@@ -4723,13 +5542,16 @@
         "fingerprint": "chrome"
       }
     },
-    "path": "/",
-    "headers": {
-      "Host": "dark-tree-c05e.armanhashmin629.workers.dev"
+    "transport": {
+      "type": "ws",
+      "path": "/",
+      "headers": {
+        "Host": "dark-tree-c05e.armanhashmin629.workers.dev"
+      }
     }
   },
   {
-    "type": "ws",
+    "type": "vless",
     "server": "104.17.163.129",
     "server_port": 443,
     "tag": "其他地区 758 @SCHPD",
@@ -4743,24 +5565,30 @@
         "fingerprint": "chrome"
       }
     },
-    "path": "/",
-    "headers": {
-      "Host": "damp-math-0a33.amirmuhamad.workers.dev"
+    "transport": {
+      "type": "ws",
+      "path": "/",
+      "headers": {
+        "Host": "damp-math-0a33.amirmuhamad.workers.dev"
+      }
     }
   },
   {
-    "type": "ws",
+    "type": "vless",
     "server": "104.16.106.213",
     "server_port": 8880,
     "tag": "其他地区 76 @SCHPD",
     "uuid": "75323b6f-184f-4d00-839d-323b8fc70221",
-    "path": "/pyip=ProxyIP.US.CMLiussss.net",
-    "headers": {
-      "Host": "dry-sunset-f3c4.282.workers.dev"
+    "transport": {
+      "type": "ws",
+      "path": "/pyip=ProxyIP.US.CMLiussss.net",
+      "headers": {
+        "Host": "dry-sunset-f3c4.282.workers.dev"
+      }
     }
   },
   {
-    "type": "ws",
+    "type": "vless",
     "server": "104.16.239.120",
     "server_port": 443,
     "tag": "其他地区 760 @SCHPD",
@@ -4774,13 +5602,16 @@
         "fingerprint": "chrome"
       }
     },
-    "path": "/sg-melbi",
-    "headers": {
-      "Host": "support.zoom.us.yxls.eu.cc"
+    "transport": {
+      "type": "ws",
+      "path": "/sg-melbi",
+      "headers": {
+        "Host": "support.zoom.us.yxls.eu.cc"
+      }
     }
   },
   {
-    "type": "ws",
+    "type": "vless",
     "server": "104.21.77.94",
     "server_port": 443,
     "tag": "其他地区 761 @SCHPD",
@@ -4794,13 +5625,16 @@
         "fingerprint": "chrome"
       }
     },
-    "path": "/sg-melbi",
-    "headers": {
-      "Host": "support.zoom.us.yxls.eu.cc"
+    "transport": {
+      "type": "ws",
+      "path": "/sg-melbi",
+      "headers": {
+        "Host": "support.zoom.us.yxls.eu.cc"
+      }
     }
   },
   {
-    "type": "ws",
+    "type": "vless",
     "server": "188.114.98.66",
     "server_port": 443,
     "tag": "其他地区 762 @SCHPD",
@@ -4814,13 +5648,16 @@
         "fingerprint": "chrome"
       }
     },
-    "path": "/sg-melbi",
-    "headers": {
-      "Host": "support.zoom.us.yxls.eu.cc"
+    "transport": {
+      "type": "ws",
+      "path": "/sg-melbi",
+      "headers": {
+        "Host": "support.zoom.us.yxls.eu.cc"
+      }
     }
   },
   {
-    "type": "ws",
+    "type": "vless",
     "server": "190.93.246.202",
     "server_port": 443,
     "tag": "其他地区 763 @SCHPD",
@@ -4834,13 +5671,16 @@
         "fingerprint": "chrome"
       }
     },
-    "path": "/sg-melbi",
-    "headers": {
-      "Host": "support.zoom.us.yxls.eu.cc"
+    "transport": {
+      "type": "ws",
+      "path": "/sg-melbi",
+      "headers": {
+        "Host": "support.zoom.us.yxls.eu.cc"
+      }
     }
   },
   {
-    "type": "ws",
+    "type": "vless",
     "server": "172.64.156.0",
     "server_port": 443,
     "tag": "其他地区 767 @SCHPD",
@@ -4854,13 +5694,16 @@
         "fingerprint": "random"
       }
     },
-    "path": "/fdip=tw.william.us.ci!txt",
-    "headers": {
-      "Host": "learn00.evany.de5.net"
+    "transport": {
+      "type": "ws",
+      "path": "/fdip=tw.william.us.ci!txt",
+      "headers": {
+        "Host": "learn00.evany.de5.net"
+      }
     }
   },
   {
-    "type": "ws",
+    "type": "vless",
     "server": "104.19.35.164",
     "server_port": 443,
     "tag": "其他地区 773 @SCHPD",
@@ -4874,13 +5717,16 @@
         "fingerprint": "chrome"
       }
     },
-    "path": "/",
-    "headers": {
-      "Host": "withered-field-0ed4.a99850940.workers.dev"
+    "transport": {
+      "type": "ws",
+      "path": "/",
+      "headers": {
+        "Host": "withered-field-0ed4.a99850940.workers.dev"
+      }
     }
   },
   {
-    "type": "ws",
+    "type": "vless",
     "server": "108.162.194.34",
     "server_port": 2096,
     "tag": "其他地区 775 @SCHPD",
@@ -4894,24 +5740,30 @@
         "fingerprint": "chrome"
       }
     },
-    "path": "/eyJqdW5rIjoieHc3MmJYdFVYbUhMIiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOltdfQ==",
-    "headers": {
-      "Host": "telegram8.freepersianland10.workers.dev"
+    "transport": {
+      "type": "ws",
+      "path": "/eyJqdW5rIjoieHc3MmJYdFVYbUhMIiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOltdfQ==",
+      "headers": {
+        "Host": "telegram8.freepersianland10.workers.dev"
+      }
     }
   },
   {
-    "type": "ws",
+    "type": "vless",
     "server": "104.16.100.66",
     "server_port": 8880,
     "tag": "其他地区 78 @SCHPD",
     "uuid": "cfb74ef3-f868-43c5-b05a-56509e2c948f",
-    "path": "/pyip=ProxyIP.US.CMLiussss.net",
-    "headers": {
-      "Host": "flat-limit-5b5e.472-cf5.workers.dev"
+    "transport": {
+      "type": "ws",
+      "path": "/pyip=ProxyIP.US.CMLiussss.net",
+      "headers": {
+        "Host": "flat-limit-5b5e.472-cf5.workers.dev"
+      }
     }
   },
   {
-    "type": "ws",
+    "type": "vless",
     "server": "172.64.32.7",
     "server_port": 443,
     "tag": "其他地区 785 @SCHPD",
@@ -4925,24 +5777,30 @@
         "fingerprint": "random"
       }
     },
-    "path": "/pyip=proxyip.cmliussss.net",
-    "headers": {
-      "Host": "soucuovls.pages.dev"
+    "transport": {
+      "type": "ws",
+      "path": "/pyip=proxyip.cmliussss.net",
+      "headers": {
+        "Host": "soucuovls.pages.dev"
+      }
     }
   },
   {
-    "type": "ws",
+    "type": "vless",
     "server": "104.21.12.116",
     "server_port": 8880,
     "tag": "其他地区 79 @SCHPD",
     "uuid": "d6d0ba7b-fa88-4b2c-9915-530ae4a81035",
-    "path": "/pyip=ProxyIP.JP.CMLiussss.net",
-    "headers": {
-      "Host": "aged-mud-9b4c.202-2dc.workers.dev"
+    "transport": {
+      "type": "ws",
+      "path": "/pyip=ProxyIP.JP.CMLiussss.net",
+      "headers": {
+        "Host": "aged-mud-9b4c.202-2dc.workers.dev"
+      }
     }
   },
   {
-    "type": "ws",
+    "type": "vless",
     "server": "104.24.67.15",
     "server_port": 443,
     "tag": "其他地区 790 @SCHPD",
@@ -4956,13 +5814,16 @@
         "fingerprint": "chrome"
       }
     },
-    "path": "/sg-melbi",
-    "headers": {
-      "Host": "support.zoom.us.yxls.eu.cc"
+    "transport": {
+      "type": "ws",
+      "path": "/sg-melbi",
+      "headers": {
+        "Host": "support.zoom.us.yxls.eu.cc"
+      }
     }
   },
   {
-    "type": "ws",
+    "type": "vless",
     "server": "josni.hoyes.cloudns.ch",
     "server_port": 2053,
     "tag": "其他地区 792 @SCHPD",
@@ -4976,13 +5837,16 @@
         "fingerprint": "chrome"
       }
     },
-    "path": "/",
-    "headers": {
-      "Host": "josni.hoyes.cloudns.ch"
+    "transport": {
+      "type": "ws",
+      "path": "/",
+      "headers": {
+        "Host": "josni.hoyes.cloudns.ch"
+      }
     }
   },
   {
-    "type": "ws",
+    "type": "vless",
     "server": "104.17.28.89",
     "server_port": 443,
     "tag": "其他地区 794 @SCHPD",
@@ -4996,13 +5860,16 @@
         "fingerprint": "chrome"
       }
     },
-    "path": "/",
-    "headers": {
-      "Host": "workspace.evan00.dpdns.org"
+    "transport": {
+      "type": "ws",
+      "path": "/",
+      "headers": {
+        "Host": "workspace.evan00.dpdns.org"
+      }
     }
   },
   {
-    "type": "ws",
+    "type": "vless",
     "server": "162.159.44.113",
     "server_port": 8443,
     "tag": "其他地区 795 @SCHPD",
@@ -5016,13 +5883,16 @@
         "fingerprint": "chrome"
       }
     },
-    "path": "/fdip=tw.william.us.ci!txt",
-    "headers": {
-      "Host": "learn00.evany.de5.net"
+    "transport": {
+      "type": "ws",
+      "path": "/fdip=tw.william.us.ci!txt",
+      "headers": {
+        "Host": "learn00.evany.de5.net"
+      }
     }
   },
   {
-    "type": "ws",
+    "type": "vless",
     "server": "104.26.13.31",
     "server_port": 443,
     "tag": "其他地区 798 @SCHPD",
@@ -5036,13 +5906,16 @@
         "fingerprint": "chrome"
       }
     },
-    "path": "/fdip",
-    "headers": {
-      "Host": "learn00.evany.de5.net"
+    "transport": {
+      "type": "ws",
+      "path": "/fdip",
+      "headers": {
+        "Host": "learn00.evany.de5.net"
+      }
     }
   },
   {
-    "type": "ws",
+    "type": "vless",
     "server": "nuclear.us.kg",
     "server_port": 443,
     "tag": "其他地区 799 @SCHPD",
@@ -5056,35 +5929,44 @@
         "fingerprint": "chrome"
       }
     },
-    "path": "/free/1.226.227.169:50001",
-    "headers": {
-      "Host": "nuclear.us.kg"
+    "transport": {
+      "type": "ws",
+      "path": "/free/1.226.227.169:50001",
+      "headers": {
+        "Host": "nuclear.us.kg"
+      }
     }
   },
   {
-    "type": "ws",
+    "type": "vless",
     "server": "www.wto.org",
     "server_port": 2095,
     "tag": "其他地区 80 @SCHPD",
     "uuid": "86c50e3a-5b87-49dd-bd20-03c7f2735e40",
-    "path": "/",
-    "headers": {
-      "Host": "cnmfangbinxing.cnmfangbinxing-f.workers.dev"
+    "transport": {
+      "type": "ws",
+      "path": "/",
+      "headers": {
+        "Host": "cnmfangbinxing.cnmfangbinxing-f.workers.dev"
+      }
     }
   },
   {
-    "type": "ws",
+    "type": "vless",
     "server": "172.67.170.118",
     "server_port": 8080,
     "tag": "其他地区 801 @SCHPD",
     "uuid": "e3eff0b8-7276-3179-e538-a53000000002",
-    "path": "/sync",
-    "headers": {
-      "Host": "tiny-hat-f95e.ilia-1000-a.workers.dev"
+    "transport": {
+      "type": "ws",
+      "path": "/sync",
+      "headers": {
+        "Host": "tiny-hat-f95e.ilia-1000-a.workers.dev"
+      }
     }
   },
   {
-    "type": "ws",
+    "type": "vless",
     "server": "104.16.5.189",
     "server_port": 443,
     "tag": "其他地区 803 @SCHPD",
@@ -5098,13 +5980,16 @@
         "fingerprint": "random"
       }
     },
-    "path": "/",
-    "headers": {
-      "Host": "learn00.evany.de5.net"
+    "transport": {
+      "type": "ws",
+      "path": "/",
+      "headers": {
+        "Host": "learn00.evany.de5.net"
+      }
     }
   },
   {
-    "type": "ws",
+    "type": "vless",
     "server": "172.64.159.76",
     "server_port": 8443,
     "tag": "其他地区 818 @SCHPD",
@@ -5118,13 +6003,16 @@
         "fingerprint": "random"
       }
     },
-    "path": "/fdip=tw.william.us.ci!txt",
-    "headers": {
-      "Host": "learn00.evany.de5.net"
+    "transport": {
+      "type": "ws",
+      "path": "/fdip=tw.william.us.ci!txt",
+      "headers": {
+        "Host": "learn00.evany.de5.net"
+      }
     }
   },
   {
-    "type": "ws",
+    "type": "vless",
     "server": "104.21.94.161",
     "server_port": 443,
     "tag": "其他地区 819 @SCHPD",
@@ -5138,13 +6026,16 @@
         "fingerprint": "random"
       }
     },
-    "path": "/fdip=tw.william.us.ci!txt",
-    "headers": {
-      "Host": "learn00.evany.de5.net"
+    "transport": {
+      "type": "ws",
+      "path": "/fdip=tw.william.us.ci!txt",
+      "headers": {
+        "Host": "learn00.evany.de5.net"
+      }
     }
   },
   {
-    "type": "ws",
+    "type": "vless",
     "server": "188.114.98.0",
     "server_port": 2053,
     "tag": "其他地区 820 @SCHPD",
@@ -5158,13 +6049,16 @@
         "fingerprint": "chrome"
       }
     },
-    "path": "/fdip",
-    "headers": {
-      "Host": "learn00.evany.de5.net"
+    "transport": {
+      "type": "ws",
+      "path": "/fdip",
+      "headers": {
+        "Host": "learn00.evany.de5.net"
+      }
     }
   },
   {
-    "type": "ws",
+    "type": "vless",
     "server": "188.114.98.0",
     "server_port": 2087,
     "tag": "其他地区 821 @SCHPD",
@@ -5178,13 +6072,16 @@
         "fingerprint": "chrome"
       }
     },
-    "path": "/fdip",
-    "headers": {
-      "Host": "learn00.evany.de5.net"
+    "transport": {
+      "type": "ws",
+      "path": "/fdip",
+      "headers": {
+        "Host": "learn00.evany.de5.net"
+      }
     }
   },
   {
-    "type": "ws",
+    "type": "vless",
     "server": "188.114.98.0",
     "server_port": 8443,
     "tag": "其他地区 822 @SCHPD",
@@ -5198,13 +6095,16 @@
         "fingerprint": "chrome"
       }
     },
-    "path": "/fdip",
-    "headers": {
-      "Host": "learn00.evany.de5.net"
+    "transport": {
+      "type": "ws",
+      "path": "/fdip",
+      "headers": {
+        "Host": "learn00.evany.de5.net"
+      }
     }
   },
   {
-    "type": "ws",
+    "type": "vless",
     "server": "jush.sukario.ir",
     "server_port": 443,
     "tag": "其他地区 825 @SCHPD",
@@ -5218,13 +6118,16 @@
         "fingerprint": "firefox"
       }
     },
-    "path": "/mashdi",
-    "headers": {
-      "Host": "KxUkNaDj13.mUlTiCuT.BoNd"
+    "transport": {
+      "type": "ws",
+      "path": "/mashdi",
+      "headers": {
+        "Host": "KxUkNaDj13.mUlTiCuT.BoNd"
+      }
     }
   },
   {
-    "type": "ws",
+    "type": "vless",
     "server": "104.26.12.31",
     "server_port": 443,
     "tag": "其他地区 827 @SCHPD",
@@ -5238,13 +6141,16 @@
         "fingerprint": "chrome"
       }
     },
-    "path": "/fdip",
-    "headers": {
-      "Host": "learn00.evany.de5.net"
+    "transport": {
+      "type": "ws",
+      "path": "/fdip",
+      "headers": {
+        "Host": "learn00.evany.de5.net"
+      }
     }
   },
   {
-    "type": "ws",
+    "type": "vless",
     "server": "104.16.3.189",
     "server_port": 443,
     "tag": "其他地区 828 @SCHPD",
@@ -5258,13 +6164,16 @@
         "fingerprint": "random"
       }
     },
-    "path": "/",
-    "headers": {
-      "Host": "learn00.evany.de5.net"
+    "transport": {
+      "type": "ws",
+      "path": "/",
+      "headers": {
+        "Host": "learn00.evany.de5.net"
+      }
     }
   },
   {
-    "type": "ws",
+    "type": "vless",
     "server": "104.21.26.97",
     "server_port": 8443,
     "tag": "其他地区 830 @SCHPD",
@@ -5278,13 +6187,16 @@
         "fingerprint": "chrome"
       }
     },
-    "path": "/fdip",
-    "headers": {
-      "Host": "learn00.evany.de5.net"
+    "transport": {
+      "type": "ws",
+      "path": "/fdip",
+      "headers": {
+        "Host": "learn00.evany.de5.net"
+      }
     }
   },
   {
-    "type": "ws",
+    "type": "vless",
     "server": "188.114.98.0",
     "server_port": 443,
     "tag": "其他地区 831 @SCHPD",
@@ -5298,13 +6210,16 @@
         "fingerprint": "chrome"
       }
     },
-    "path": "/fdip",
-    "headers": {
-      "Host": "learn00.evany.de5.net"
+    "transport": {
+      "type": "ws",
+      "path": "/fdip",
+      "headers": {
+        "Host": "learn00.evany.de5.net"
+      }
     }
   },
   {
-    "type": "ws",
+    "type": "vless",
     "server": "190.93.246.79",
     "server_port": 8443,
     "tag": "其他地区 832 @SCHPD",
@@ -5318,13 +6233,16 @@
         "fingerprint": "chrome"
       }
     },
-    "path": "/fdip",
-    "headers": {
-      "Host": "learn00.evany.de5.net"
+    "transport": {
+      "type": "ws",
+      "path": "/fdip",
+      "headers": {
+        "Host": "learn00.evany.de5.net"
+      }
     }
   },
   {
-    "type": "ws",
+    "type": "vless",
     "server": "104.19.54.116",
     "server_port": 443,
     "tag": "其他地区 833 @SCHPD",
@@ -5338,13 +6256,16 @@
         "fingerprint": "chrome"
       }
     },
-    "path": "/sg-melbi",
-    "headers": {
-      "Host": "support.zoom.us.yxls.eu.cc"
+    "transport": {
+      "type": "ws",
+      "path": "/sg-melbi",
+      "headers": {
+        "Host": "support.zoom.us.yxls.eu.cc"
+      }
     }
   },
   {
-    "type": "ws",
+    "type": "vless",
     "server": "104.26.9.48",
     "server_port": 443,
     "tag": "其他地区 834 @SCHPD",
@@ -5358,13 +6279,16 @@
         "fingerprint": "chrome"
       }
     },
-    "path": "/sg-melbi",
-    "headers": {
-      "Host": "support.zoom.us.yxls.eu.cc"
+    "transport": {
+      "type": "ws",
+      "path": "/sg-melbi",
+      "headers": {
+        "Host": "support.zoom.us.yxls.eu.cc"
+      }
     }
   },
   {
-    "type": "ws",
+    "type": "vless",
     "server": "162.159.39.241",
     "server_port": 443,
     "tag": "其他地区 835 @SCHPD",
@@ -5378,13 +6302,16 @@
         "fingerprint": "random"
       }
     },
-    "path": "/fdip=tw.william.us.ci!txt",
-    "headers": {
-      "Host": "learn00.evany.de5.net"
+    "transport": {
+      "type": "ws",
+      "path": "/fdip=tw.william.us.ci!txt",
+      "headers": {
+        "Host": "learn00.evany.de5.net"
+      }
     }
   },
   {
-    "type": "ws",
+    "type": "vless",
     "server": "162.159.38.127",
     "server_port": 2053,
     "tag": "其他地区 836 @SCHPD",
@@ -5398,13 +6325,16 @@
         "fingerprint": "chrome"
       }
     },
-    "path": "/fdip=tw.william.us.ci!txt",
-    "headers": {
-      "Host": "learn00.evany.de5.net"
+    "transport": {
+      "type": "ws",
+      "path": "/fdip=tw.william.us.ci!txt",
+      "headers": {
+        "Host": "learn00.evany.de5.net"
+      }
     }
   },
   {
-    "type": "ws",
+    "type": "vless",
     "server": "108.162.195.7",
     "server_port": 2053,
     "tag": "其他地区 837 @SCHPD",
@@ -5418,13 +6348,16 @@
         "fingerprint": "chrome"
       }
     },
-    "path": "/",
-    "headers": {
-      "Host": "josni.hoyes.cloudns.ch"
+    "transport": {
+      "type": "ws",
+      "path": "/",
+      "headers": {
+        "Host": "josni.hoyes.cloudns.ch"
+      }
     }
   },
   {
-    "type": "ws",
+    "type": "vless",
     "server": "172.66.44.97",
     "server_port": 443,
     "tag": "其他地区 840 @SCHPD",
@@ -5438,13 +6371,16 @@
         "fingerprint": "chrome"
       }
     },
-    "path": "/sg-melbi",
-    "headers": {
-      "Host": "support.zoom.us.yxls.eu.cc"
+    "transport": {
+      "type": "ws",
+      "path": "/sg-melbi",
+      "headers": {
+        "Host": "support.zoom.us.yxls.eu.cc"
+      }
     }
   },
   {
-    "type": "ws",
+    "type": "vless",
     "server": "104.26.7.214",
     "server_port": 443,
     "tag": "其他地区 844 @SCHPD",
@@ -5458,13 +6394,16 @@
         "fingerprint": "chrome"
       }
     },
-    "path": "/fdip",
-    "headers": {
-      "Host": "learn00.evany.de5.net"
+    "transport": {
+      "type": "ws",
+      "path": "/fdip",
+      "headers": {
+        "Host": "learn00.evany.de5.net"
+      }
     }
   },
   {
-    "type": "ws",
+    "type": "vless",
     "server": "172.64.147.104",
     "server_port": 2087,
     "tag": "其他地区 845 @SCHPD",
@@ -5478,13 +6417,16 @@
         "fingerprint": "chrome"
       }
     },
-    "path": "/",
-    "headers": {
-      "Host": "faxf32gkfzoxqv.fx6hsv0.ccwu.cc"
+    "transport": {
+      "type": "ws",
+      "path": "/",
+      "headers": {
+        "Host": "faxf32gkfzoxqv.fx6hsv0.ccwu.cc"
+      }
     }
   },
   {
-    "type": "ws",
+    "type": "vless",
     "server": "104.18.42.163",
     "server_port": 2087,
     "tag": "其他地区 847 @SCHPD",
@@ -5498,13 +6440,16 @@
         "fingerprint": "chrome"
       }
     },
-    "path": "/",
-    "headers": {
-      "Host": "faxf32gkfzoxqv.fx6hsv0.ccwu.cc"
+    "transport": {
+      "type": "ws",
+      "path": "/",
+      "headers": {
+        "Host": "faxf32gkfzoxqv.fx6hsv0.ccwu.cc"
+      }
     }
   },
   {
-    "type": "ws",
+    "type": "vless",
     "server": "104.16.174.164",
     "server_port": 443,
     "tag": "其他地区 849 @SCHPD",
@@ -5518,13 +6463,16 @@
         "fingerprint": "chrome"
       }
     },
-    "path": "/sync",
-    "headers": {
-      "Host": "wireguard.ahmad-kh5716.workers.dev"
+    "transport": {
+      "type": "ws",
+      "path": "/sync",
+      "headers": {
+        "Host": "wireguard.ahmad-kh5716.workers.dev"
+      }
     }
   },
   {
-    "type": "ws",
+    "type": "vless",
     "server": "172.64.144.66",
     "server_port": 2087,
     "tag": "其他地区 851 @SCHPD",
@@ -5538,13 +6486,16 @@
         "fingerprint": "chrome"
       }
     },
-    "path": "/",
-    "headers": {
-      "Host": "faxf32gkfzoxqv.fx6hsv0.ccwu.cc"
+    "transport": {
+      "type": "ws",
+      "path": "/",
+      "headers": {
+        "Host": "faxf32gkfzoxqv.fx6hsv0.ccwu.cc"
+      }
     }
   },
   {
-    "type": "ws",
+    "type": "vless",
     "server": "172.67.150.239",
     "server_port": 443,
     "tag": "其他地区 853 @SCHPD",
@@ -5558,13 +6509,16 @@
         "fingerprint": "chrome"
       }
     },
-    "path": "/ws-cdn",
-    "headers": {
-      "Host": "1.rmgyvpn.rest"
+    "transport": {
+      "type": "ws",
+      "path": "/ws-cdn",
+      "headers": {
+        "Host": "1.rmgyvpn.rest"
+      }
     }
   },
   {
-    "type": "ws",
+    "type": "vless",
     "server": "104.21.0.119",
     "server_port": 443,
     "tag": "其他地区 854 @SCHPD",
@@ -5578,13 +6532,16 @@
         "fingerprint": "chrome"
       }
     },
-    "path": "/ws-cdn",
-    "headers": {
-      "Host": "1.rmgyvpn.rest"
+    "transport": {
+      "type": "ws",
+      "path": "/ws-cdn",
+      "headers": {
+        "Host": "1.rmgyvpn.rest"
+      }
     }
   },
   {
-    "type": "ws",
+    "type": "vless",
     "server": "162.159.44.7",
     "server_port": 2053,
     "tag": "其他地区 855 @SCHPD",
@@ -5598,13 +6555,16 @@
         "fingerprint": "chrome"
       }
     },
-    "path": "/",
-    "headers": {
-      "Host": "josni.hoyes.cloudns.ch"
+    "transport": {
+      "type": "ws",
+      "path": "/",
+      "headers": {
+        "Host": "josni.hoyes.cloudns.ch"
+      }
     }
   },
   {
-    "type": "ws",
+    "type": "vless",
     "server": "162.159.36.5",
     "server_port": 443,
     "tag": "其他地区 856 @SCHPD",
@@ -5618,13 +6578,16 @@
         "fingerprint": "random"
       }
     },
-    "path": "/fdip",
-    "headers": {
-      "Host": "learn00.evany.de5.net"
+    "transport": {
+      "type": "ws",
+      "path": "/fdip",
+      "headers": {
+        "Host": "learn00.evany.de5.net"
+      }
     }
   },
   {
-    "type": "ws",
+    "type": "vless",
     "server": "104.16.248.48",
     "server_port": 443,
     "tag": "其他地区 857 @SCHPD",
@@ -5638,13 +6601,16 @@
         "fingerprint": "random"
       }
     },
-    "path": "/",
-    "headers": {
-      "Host": "hhlfy.twiladaphne.ndjp.net"
+    "transport": {
+      "type": "ws",
+      "path": "/",
+      "headers": {
+        "Host": "hhlfy.twiladaphne.ndjp.net"
+      }
     }
   },
   {
-    "type": "ws",
+    "type": "vless",
     "server": "172.64.150.28",
     "server_port": 443,
     "tag": "其他地区 862 @SCHPD",
@@ -5658,13 +6624,16 @@
         "fingerprint": "chrome"
       }
     },
-    "path": "/fp",
-    "headers": {
-      "Host": "hhlfy.twiladaphne.ndjp.net"
+    "transport": {
+      "type": "ws",
+      "path": "/fp",
+      "headers": {
+        "Host": "hhlfy.twiladaphne.ndjp.net"
+      }
     }
   },
   {
-    "type": "ws",
+    "type": "vless",
     "server": "162.159.36.20",
     "server_port": 443,
     "tag": "其他地区 868 @SCHPD",
@@ -5678,13 +6647,16 @@
         "fingerprint": "random"
       }
     },
-    "path": "/fdip",
-    "headers": {
-      "Host": "learn00.evany.de5.net"
+    "transport": {
+      "type": "ws",
+      "path": "/fdip",
+      "headers": {
+        "Host": "learn00.evany.de5.net"
+      }
     }
   },
   {
-    "type": "ws",
+    "type": "vless",
     "server": "hi.n2foriran.workers.dev",
     "server_port": 443,
     "tag": "其他地区 869 @SCHPD",
@@ -5698,13 +6670,16 @@
         "fingerprint": "chrome"
       }
     },
-    "path": "/ws",
-    "headers": {
-      "Host": "hi.n2foriran.workers.dev"
+    "transport": {
+      "type": "ws",
+      "path": "/ws",
+      "headers": {
+        "Host": "hi.n2foriran.workers.dev"
+      }
     }
   },
   {
-    "type": "ws",
+    "type": "vless",
     "server": "172.67.64.127",
     "server_port": 2096,
     "tag": "其他地区 873 @SCHPD",
@@ -5718,97 +6693,124 @@
         "fingerprint": "chrome"
       }
     },
-    "path": "/",
-    "headers": {
-      "Host": "ez-e26f43.ezaccess1827117.workers.dev"
+    "transport": {
+      "type": "ws",
+      "path": "/",
+      "headers": {
+        "Host": "ez-e26f43.ezaccess1827117.workers.dev"
+      }
     }
   },
   {
-    "type": "ws",
+    "type": "vless",
     "server": "104.18.41.190",
     "server_port": 2095,
     "tag": "其他地区 88 @SCHPD",
     "uuid": "86c50e3a-5b87-49dd-bd20-03c7f2735e40",
-    "path": "/",
-    "headers": {
-      "Host": "cnmfangbinxing.cnmfangbinxing-f.workers.dev"
+    "transport": {
+      "type": "ws",
+      "path": "/",
+      "headers": {
+        "Host": "cnmfangbinxing.cnmfangbinxing-f.workers.dev"
+      }
     }
   },
   {
-    "type": "ws",
+    "type": "vless",
     "server": "104.17.58.113",
     "server_port": 8880,
     "tag": "其他地区 89 @SCHPD",
     "uuid": "14e0ab2e-fb3e-4fd1-a6d9-62eeae62976b",
-    "path": "/pyip=ProxyIP.JP.CMLiussss.net",
-    "headers": {
-      "Host": "jolly-shape-3ce6.392.workers.dev"
+    "transport": {
+      "type": "ws",
+      "path": "/pyip=ProxyIP.JP.CMLiussss.net",
+      "headers": {
+        "Host": "jolly-shape-3ce6.392.workers.dev"
+      }
     }
   },
   {
-    "type": "ws",
+    "type": "vless",
     "server": "104.18.34.245",
     "server_port": 8880,
     "tag": "其他地区 92 @SCHPD",
     "uuid": "0b01d4d8-656d-4d55-8ad5-ed2a362788b5",
-    "path": "/pyip=ProxyIP.SG.CMLiussss.net",
-    "headers": {
-      "Host": "square-tree-3dbf.285.workers.dev"
+    "transport": {
+      "type": "ws",
+      "path": "/pyip=ProxyIP.SG.CMLiussss.net",
+      "headers": {
+        "Host": "square-tree-3dbf.285.workers.dev"
+      }
     }
   },
   {
-    "type": "ws",
+    "type": "vless",
     "server": "172.64.88.251",
     "server_port": 8880,
     "tag": "其他地区 94 @SCHPD",
     "uuid": "efb0a3fe-af52-45c5-b397-1a6866d88d67",
-    "path": "/pyip=ProxyIP.KR.CMLiussss.net",
-    "headers": {
-      "Host": "tight-recipe-11ad.252-068.workers.dev"
+    "transport": {
+      "type": "ws",
+      "path": "/pyip=ProxyIP.KR.CMLiussss.net",
+      "headers": {
+        "Host": "tight-recipe-11ad.252-068.workers.dev"
+      }
     }
   },
   {
-    "type": "ws",
+    "type": "vless",
     "server": "172.66.170.53",
     "server_port": 8880,
     "tag": "其他地区 95 @SCHPD",
     "uuid": "38ede46b-d237-4c76-9de1-a10738642adc",
-    "path": "/pyip=ProxyIP.KR.CMLiussss.net",
-    "headers": {
-      "Host": "summer-hat-ba5c.430.workers.dev"
+    "transport": {
+      "type": "ws",
+      "path": "/pyip=ProxyIP.KR.CMLiussss.net",
+      "headers": {
+        "Host": "summer-hat-ba5c.430.workers.dev"
+      }
     }
   },
   {
-    "type": "ws",
+    "type": "vless",
     "server": "172.67.66.177",
     "server_port": 2095,
     "tag": "其他地区 96 @SCHPD",
     "uuid": "86c50e3a-5b87-49dd-bd20-03c7f2735e40",
-    "path": "/",
-    "headers": {
-      "Host": "cnmfangbinxingnmsl.cnm-fangbinxingnmsl-250.workers.dev"
+    "transport": {
+      "type": "ws",
+      "path": "/",
+      "headers": {
+        "Host": "cnmfangbinxingnmsl.cnm-fangbinxingnmsl-250.workers.dev"
+      }
     }
   },
   {
-    "type": "ws",
+    "type": "vless",
     "server": "download.yunzhongzhuan.com",
     "server_port": 8880,
     "tag": "其他地区 97 @SCHPD",
     "uuid": "23187ddc-16a5-432d-bf4e-dd42a7ae39f7",
-    "path": "/pyip=ProxyIP.JP.CMLiussss.net",
-    "headers": {
-      "Host": "steep-thunder-97fa.108-d10.workers.dev"
+    "transport": {
+      "type": "ws",
+      "path": "/pyip=ProxyIP.JP.CMLiussss.net",
+      "headers": {
+        "Host": "steep-thunder-97fa.108-d10.workers.dev"
+      }
     }
   },
   {
-    "type": "ws",
+    "type": "vless",
     "server": "skk.moe",
     "server_port": 8880,
     "tag": "其他地区 98 @SCHPD",
     "uuid": "4212034d-c18b-4060-b218-4f8372e5473a",
-    "path": "/pyip=ProxyIP.JP.CMLiussss.net",
-    "headers": {
-      "Host": "summer-hill-7f65.275-521.workers.dev"
+    "transport": {
+      "type": "ws",
+      "path": "/pyip=ProxyIP.JP.CMLiussss.net",
+      "headers": {
+        "Host": "summer-hill-7f65.275-521.workers.dev"
+      }
     }
   },
   {
@@ -5878,18 +6880,21 @@
     "uuid": "431fe973-a43a-4fac-bf83-2a772e0d0625"
   },
   {
-    "type": "ws",
+    "type": "vless",
     "server": "185.176.26.50",
     "server_port": 8880,
     "tag": "哈萨克斯坦 01 @SCHPD",
     "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
-    "path": "/",
-    "headers": {
-      "Host": "vms.lifetime06.workers.dev"
+    "transport": {
+      "type": "ws",
+      "path": "/",
+      "headers": {
+        "Host": "vms.lifetime06.workers.dev"
+      }
     }
   },
   {
-    "type": "ws",
+    "type": "vless",
     "server": "194.59.5.46",
     "server_port": 2096,
     "tag": "哈萨克斯坦 03 @SCHPD",
@@ -5903,24 +6908,30 @@
         "fingerprint": "random"
       }
     },
-    "path": "/proxyip=172.86.93.55,194.99.20.245,46.101.165.85,46.101.181.132,209.38.201.199,165.22.89.207,207.154.242.240,64.188.83.202",
-    "headers": {
-      "Host": "wild-sky-f384.alvlirm3737.workers.dev"
+    "transport": {
+      "type": "ws",
+      "path": "/proxyip=172.86.93.55,194.99.20.245,46.101.165.85,46.101.181.132,209.38.201.199,165.22.89.207,207.154.242.240,64.188.83.202",
+      "headers": {
+        "Host": "wild-sky-f384.alvlirm3737.workers.dev"
+      }
     }
   },
   {
-    "type": "http",
+    "type": "vless",
     "server": "155.103.69.195",
     "server_port": 48711,
     "tag": "土耳其 08 @SCHPD",
     "uuid": "23a9b46e-9443-4268-81c5-399929919ab0",
-    "host": [
-      "155.103.69.195"
-    ],
-    "path": "/"
+    "transport": {
+      "type": "http",
+      "host": [
+        "155.103.69.195"
+      ],
+      "path": "/"
+    }
   },
   {
-    "type": "ws",
+    "type": "vless",
     "server": "45.130.125.207",
     "server_port": 8443,
     "tag": "塞舌尔 13 @SCHPD",
@@ -5934,13 +6945,16 @@
         "fingerprint": "chrome"
       }
     },
-    "path": "/eyJqdW5rIjoiZm5INktPV0lGcHI1NjNSOSIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0",
-    "headers": {
-      "Host": "square-salad-ebde.zdfgvccfguuyggg.workers.dev"
+    "transport": {
+      "type": "ws",
+      "path": "/eyJqdW5rIjoiZm5INktPV0lGcHI1NjNSOSIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0",
+      "headers": {
+        "Host": "square-salad-ebde.zdfgvccfguuyggg.workers.dev"
+      }
     }
   },
   {
-    "type": "ws",
+    "type": "vless",
     "server": "45.130.125.126",
     "server_port": 443,
     "tag": "塞舌尔 21 @SCHPD",
@@ -5954,9 +6968,12 @@
         "fingerprint": "chrome"
       }
     },
-    "path": "/eyJqdW5rIjoiY0U2T212Y21yeEhUZHRKYSIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0",
-    "headers": {
-      "Host": "BItter-CreDIT-61b8.b76EbA0aBb.wORkerS.dEv"
+    "transport": {
+      "type": "ws",
+      "path": "/eyJqdW5rIjoiY0U2T212Y21yeEhUZHRKYSIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0",
+      "headers": {
+        "Host": "BItter-CreDIT-61b8.b76EbA0aBb.wORkerS.dEv"
+      }
     }
   },
   {
@@ -5996,7 +7013,7 @@
     "alter_id": 0
   },
   {
-    "type": "ws",
+    "type": "vless",
     "server": "49.13.64.206",
     "server_port": 443,
     "tag": "德国 16 @SCHPD",
@@ -6010,24 +7027,30 @@
         "fingerprint": "chrome"
       }
     },
-    "path": "/sg-melbi",
-    "headers": {
-      "Host": "support.zoom.us.yxls.eu.cc"
+    "transport": {
+      "type": "ws",
+      "path": "/sg-melbi",
+      "headers": {
+        "Host": "support.zoom.us.yxls.eu.cc"
+      }
     }
   },
   {
-    "type": "http",
+    "type": "vless",
     "server": "94.143.231.53",
     "server_port": 39200,
     "tag": "德国 18 @SCHPD",
     "uuid": "9e1b3859-634f-4dc9-8f59-848a1216f47c",
-    "host": [
-      "94.143.231.53"
-    ],
-    "path": "/"
+    "transport": {
+      "type": "http",
+      "host": [
+        "94.143.231.53"
+      ],
+      "path": "/"
+    }
   },
   {
-    "type": "ws",
+    "type": "vless",
     "server": "95.181.160.240",
     "server_port": 8433,
     "tag": "德国 25 @SCHPD",
@@ -6041,13 +7064,16 @@
         "fingerprint": "chrome"
       }
     },
-    "path": "/@Marisa_kristi",
-    "headers": {
-      "Host": "wjwkhoaftdgrt8qus.mp8pmwdgwf3sdapasouszjobjr57nrxxgtx9n.workers.dev"
+    "transport": {
+      "type": "ws",
+      "path": "/@Marisa_kristi",
+      "headers": {
+        "Host": "wjwkhoaftdgrt8qus.mp8pmwdgwf3sdapasouszjobjr57nrxxgtx9n.workers.dev"
+      }
     }
   },
   {
-    "type": "ws",
+    "type": "vless",
     "server": "164.90.217.130",
     "server_port": 443,
     "tag": "德国 37 @SCHPD",
@@ -6061,21 +7087,27 @@
         "fingerprint": "chrome"
       }
     },
-    "path": "/",
-    "headers": {
-      "Host": "white-forest-2c01.alvlirm222.workers.dev"
+    "transport": {
+      "type": "ws",
+      "path": "/",
+      "headers": {
+        "Host": "white-forest-2c01.alvlirm222.workers.dev"
+      }
     }
   },
   {
-    "type": "http",
+    "type": "vless",
     "server": "168.119.169.184",
     "server_port": 8443,
     "tag": "德国 49 @SCHPD",
     "uuid": "d43b45a6-9f69-44d9-8872-862c885e27c9",
-    "host": [
-      "168.119.169.184"
-    ],
-    "path": "/"
+    "transport": {
+      "type": "http",
+      "host": [
+        "168.119.169.184"
+      ],
+      "path": "/"
+    }
   },
   {
     "type": "vless",
@@ -6144,14 +7176,17 @@
     }
   },
   {
-    "type": "ws",
+    "type": "vless",
     "server": "ov-italy1.09vpn.com",
     "server_port": 80,
     "tag": "意大利 04 @SCHPD",
     "uuid": "b3051b10-716d-455b-9811-aefcce3d633e",
-    "path": "/vless/",
-    "headers": {
-      "Host": "ov-italy1.09vpn.com"
+    "transport": {
+      "type": "ws",
+      "path": "/vless/",
+      "headers": {
+        "Host": "ov-italy1.09vpn.com"
+      }
     }
   },
   {
@@ -6228,7 +7263,7 @@
     }
   },
   {
-    "type": "ws",
+    "type": "vless",
     "server": "104.155.124.198",
     "server_port": 443,
     "tag": "比利时 03 @SCHPD",
@@ -6242,13 +7277,16 @@
         "fingerprint": "random"
       }
     },
-    "path": "/fdip=tw.william.us.ci!txt",
-    "headers": {
-      "Host": "learn00.evany.de5.net"
+    "transport": {
+      "type": "ws",
+      "path": "/fdip=tw.william.us.ci!txt",
+      "headers": {
+        "Host": "learn00.evany.de5.net"
+      }
     }
   },
   {
-    "type": "ws",
+    "type": "vless",
     "server": "35.241.172.224",
     "server_port": 443,
     "tag": "比利时 04 @SCHPD",
@@ -6262,13 +7300,16 @@
         "fingerprint": "random"
       }
     },
-    "path": "/fdip=tw.william.us.ci!txt",
-    "headers": {
-      "Host": "learn00.evany.de5.net"
+    "transport": {
+      "type": "ws",
+      "path": "/fdip=tw.william.us.ci!txt",
+      "headers": {
+        "Host": "learn00.evany.de5.net"
+      }
     }
   },
   {
-    "type": "ws",
+    "type": "vless",
     "server": "149.202.58.99",
     "server_port": 443,
     "tag": "法国 04 @SCHPD",
@@ -6282,13 +7323,16 @@
         "fingerprint": "chrome"
       }
     },
-    "path": "/vws/",
-    "headers": {
-      "Host": "bab-6.site"
+    "transport": {
+      "type": "ws",
+      "path": "/vws/",
+      "headers": {
+        "Host": "bab-6.site"
+      }
     }
   },
   {
-    "type": "ws",
+    "type": "vless",
     "server": "bab-6.site",
     "server_port": 443,
     "tag": "法国 05 @SCHPD",
@@ -6302,9 +7346,12 @@
         "fingerprint": "chrome"
       }
     },
-    "path": "/vws/",
-    "headers": {
-      "Host": "bab-6.site"
+    "transport": {
+      "type": "ws",
+      "path": "/vws/",
+      "headers": {
+        "Host": "bab-6.site"
+      }
     }
   },
   {
@@ -6353,7 +7400,7 @@
     }
   },
   {
-    "type": "ws",
+    "type": "vless",
     "server": "52.19.138.237",
     "server_port": 2053,
     "tag": "爱尔兰 01 @SCHPD",
@@ -6367,13 +7414,16 @@
         "fingerprint": "chrome"
       }
     },
-    "path": "/",
-    "headers": {
-      "Host": "forfreeuse.sub-flow.online"
+    "transport": {
+      "type": "ws",
+      "path": "/",
+      "headers": {
+        "Host": "forfreeuse.sub-flow.online"
+      }
     }
   },
   {
-    "type": "ws",
+    "type": "vless",
     "server": "45.80.108.236",
     "server_port": 443,
     "tag": "爱沙尼亚 02 @SCHPD",
@@ -6387,9 +7437,12 @@
         "fingerprint": "chrome"
       }
     },
-    "path": "/proxyip=167.71.48.187",
-    "headers": {
-      "Host": "lively-resonance-4e12.electrocellco-cf-059.workers.dev"
+    "transport": {
+      "type": "ws",
+      "path": "/proxyip=167.71.48.187",
+      "headers": {
+        "Host": "lively-resonance-4e12.electrocellco-cf-059.workers.dev"
+      }
     }
   },
   {
@@ -6409,25 +7462,31 @@
     }
   },
   {
-    "type": "ws",
+    "type": "vless",
     "server": "89.117.112.4",
     "server_port": 80,
     "tag": "立陶宛 11 @SCHPD",
     "uuid": "424fa201-3f94-479e-b533-d5257cf9a207",
-    "path": "/pyip=Telegram🇨🇳 @VPNine1",
-    "headers": {
-      "Host": "floral-thunder-10d3.82-67d.workers.dev"
+    "transport": {
+      "type": "ws",
+      "path": "/pyip=Telegram🇨🇳 @VPNine1",
+      "headers": {
+        "Host": "floral-thunder-10d3.82-67d.workers.dev"
+      }
     }
   },
   {
-    "type": "ws",
+    "type": "vless",
     "server": "88.216.69.30",
     "server_port": 8880,
     "tag": "立陶宛 13 @SCHPD",
     "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
-    "path": "/",
-    "headers": {
-      "Host": "vms.lifetime06.workers.dev"
+    "transport": {
+      "type": "ws",
+      "path": "/",
+      "headers": {
+        "Host": "vms.lifetime06.workers.dev"
+      }
     }
   },
   {
@@ -6470,40 +7529,49 @@
     }
   },
   {
-    "type": "ws",
+    "type": "vless",
     "server": "141.193.27.4",
     "server_port": 80,
     "tag": "美国 102 @SCHPD",
     "uuid": "e403856e-4e50-49e6-9edc-d9536a803a6a",
-    "path": "/pyip=Telegram🇨🇳+@WangCai2",
-    "headers": {
-      "Host": "proud-cloud-5c50.113-8dc.workers.dev"
+    "transport": {
+      "type": "ws",
+      "path": "/pyip=Telegram🇨🇳+@WangCai2",
+      "headers": {
+        "Host": "proud-cloud-5c50.113-8dc.workers.dev"
+      }
     }
   },
   {
-    "type": "ws",
+    "type": "vless",
     "server": "184.168.47.50",
     "server_port": 8880,
     "tag": "美国 105 @SCHPD",
     "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
-    "path": "/",
-    "headers": {
-      "Host": "vms.lifetime40.workers.dev"
+    "transport": {
+      "type": "ws",
+      "path": "/",
+      "headers": {
+        "Host": "vms.lifetime40.workers.dev"
+      }
     }
   },
   {
-    "type": "ws",
+    "type": "vless",
     "server": "192.169.222.30",
     "server_port": 8880,
     "tag": "美国 116 @SCHPD",
     "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
-    "path": "/",
-    "headers": {
-      "Host": "vms.lifetime40.workers.dev"
+    "transport": {
+      "type": "ws",
+      "path": "/",
+      "headers": {
+        "Host": "vms.lifetime40.workers.dev"
+      }
     }
   },
   {
-    "type": "ws",
+    "type": "vless",
     "server": "172.66.3.90",
     "server_port": 8443,
     "tag": "美国 118 @SCHPD",
@@ -6517,13 +7585,16 @@
         "fingerprint": "chrome"
       }
     },
-    "path": "/",
-    "headers": {
-      "Host": "shin-ra.ccwu.cc"
+    "transport": {
+      "type": "ws",
+      "path": "/",
+      "headers": {
+        "Host": "shin-ra.ccwu.cc"
+      }
     }
   },
   {
-    "type": "ws",
+    "type": "vless",
     "server": "149.5.53.213",
     "server_port": 56234,
     "tag": "美国 139 @SCHPD",
@@ -6537,13 +7608,16 @@
         "fingerprint": "chrome"
       }
     },
-    "path": "/@Marisa_kristi",
-    "headers": {
-      "Host": "3tmj2egtm-fno.49bnithzk8vphybv36d1z1xkzfvogt2m6.workers.dev"
+    "transport": {
+      "type": "ws",
+      "path": "/@Marisa_kristi",
+      "headers": {
+        "Host": "3tmj2egtm-fno.49bnithzk8vphybv36d1z1xkzfvogt2m6.workers.dev"
+      }
     }
   },
   {
-    "type": "grpc",
+    "type": "vless",
     "server": "45.138.100.226",
     "server_port": 2083,
     "tag": "美国 157 @SCHPD",
@@ -6557,10 +7631,13 @@
         "fingerprint": "chrome"
       }
     },
-    "service_name": "/"
+    "transport": {
+      "type": "grpc",
+      "service_name": "/"
+    }
   },
   {
-    "type": "ws",
+    "type": "vless",
     "server": "162.159.137.54",
     "server_port": 443,
     "tag": "美国 158 @SCHPD",
@@ -6574,13 +7651,16 @@
         "fingerprint": "chrome"
       }
     },
-    "path": "/sg-melbi",
-    "headers": {
-      "Host": "support.zoom.us.yxls.eu.cc"
+    "transport": {
+      "type": "ws",
+      "path": "/sg-melbi",
+      "headers": {
+        "Host": "support.zoom.us.yxls.eu.cc"
+      }
     }
   },
   {
-    "type": "ws",
+    "type": "vless",
     "server": "162.159.141.83",
     "server_port": 443,
     "tag": "美国 159 @SCHPD",
@@ -6594,13 +7674,16 @@
         "fingerprint": "chrome"
       }
     },
-    "path": "/sg-melbi",
-    "headers": {
-      "Host": "support.zoom.us.yxls.eu.cc"
+    "transport": {
+      "type": "ws",
+      "path": "/sg-melbi",
+      "headers": {
+        "Host": "support.zoom.us.yxls.eu.cc"
+      }
     }
   },
   {
-    "type": "ws",
+    "type": "vless",
     "server": "199.181.197.1",
     "server_port": 443,
     "tag": "美国 178 @SCHPD",
@@ -6614,13 +7697,16 @@
         "fingerprint": "chrome"
       }
     },
-    "path": "/",
-    "headers": {
-      "Host": "kakoolnews.hellowhatnow.workers.dev"
+    "transport": {
+      "type": "ws",
+      "path": "/",
+      "headers": {
+        "Host": "kakoolnews.hellowhatnow.workers.dev"
+      }
     }
   },
   {
-    "type": "ws",
+    "type": "vless",
     "server": "170.114.46.6",
     "server_port": 443,
     "tag": "美国 179 @SCHPD",
@@ -6634,13 +7720,16 @@
         "fingerprint": "chrome"
       }
     },
-    "path": "/sg-melbi",
-    "headers": {
-      "Host": "support.zoom.us.yxls.eu.cc"
+    "transport": {
+      "type": "ws",
+      "path": "/sg-melbi",
+      "headers": {
+        "Host": "support.zoom.us.yxls.eu.cc"
+      }
     }
   },
   {
-    "type": "ws",
+    "type": "vless",
     "server": "208.103.161.206",
     "server_port": 443,
     "tag": "美国 193 @SCHPD",
@@ -6654,9 +7743,12 @@
         "fingerprint": "chrome"
       }
     },
-    "path": "/",
-    "headers": {
-      "Host": "forfreeuse.sub-flow.online"
+    "transport": {
+      "type": "ws",
+      "path": "/",
+      "headers": {
+        "Host": "forfreeuse.sub-flow.online"
+      }
     }
   },
   {
@@ -6667,7 +7759,7 @@
     "uuid": "413a66e9-b05b-4ae6-a9eb-6d28204a28f4"
   },
   {
-    "type": "ws",
+    "type": "vless",
     "server": "141.193.213.21",
     "server_port": 2096,
     "tag": "美国 204 @SCHPD",
@@ -6681,13 +7773,16 @@
         "fingerprint": "chrome"
       }
     },
-    "path": "/xprolk-primeline",
-    "headers": {
-      "Host": "primelinelk.me"
+    "transport": {
+      "type": "ws",
+      "path": "/xprolk-primeline",
+      "headers": {
+        "Host": "primelinelk.me"
+      }
     }
   },
   {
-    "type": "ws",
+    "type": "vless",
     "server": "170.114.46.6",
     "server_port": 8443,
     "tag": "美国 205 @SCHPD",
@@ -6701,13 +7796,16 @@
         "fingerprint": "chrome"
       }
     },
-    "path": "/xprolk-primeline",
-    "headers": {
-      "Host": "primelinelk.me"
+    "transport": {
+      "type": "ws",
+      "path": "/xprolk-primeline",
+      "headers": {
+        "Host": "primelinelk.me"
+      }
     }
   },
   {
-    "type": "ws",
+    "type": "vless",
     "server": "170.114.45.6",
     "server_port": 8443,
     "tag": "美国 206 @SCHPD",
@@ -6721,9 +7819,12 @@
         "fingerprint": "chrome"
       }
     },
-    "path": "/xprolk-primeline",
-    "headers": {
-      "Host": "primelinelk.me"
+    "transport": {
+      "type": "ws",
+      "path": "/xprolk-primeline",
+      "headers": {
+        "Host": "primelinelk.me"
+      }
     }
   },
   {
@@ -6742,47 +7843,59 @@
     }
   },
   {
-    "type": "ws",
+    "type": "vless",
     "server": "162.159.140.78",
     "server_port": 8880,
     "tag": "美国 42 @SCHPD",
     "uuid": "363202dd-0521-46b4-b4e2-443dfbaa2ce1",
-    "path": "/pyip=ProxyIP.KR.CMLiussss.net",
-    "headers": {
-      "Host": "flat-heart-b60a.401-306.workers.dev"
+    "transport": {
+      "type": "ws",
+      "path": "/pyip=ProxyIP.KR.CMLiussss.net",
+      "headers": {
+        "Host": "flat-heart-b60a.401-306.workers.dev"
+      }
     }
   },
   {
-    "type": "ws",
+    "type": "vless",
     "server": "45.40.155.4",
     "server_port": 80,
     "tag": "美国 44 @SCHPD",
     "uuid": "e403856e-4e50-49e6-9edc-d9536a803a6a",
-    "path": "/pyip=Telegram🇨🇳+@WangCai2",
-    "headers": {
-      "Host": "proud-cloud-5c50.113-8dc.workers.dev"
+    "transport": {
+      "type": "ws",
+      "path": "/pyip=Telegram🇨🇳+@WangCai2",
+      "headers": {
+        "Host": "proud-cloud-5c50.113-8dc.workers.dev"
+      }
     }
   },
   {
-    "type": "ws",
+    "type": "vless",
     "server": "199.181.197.40",
     "server_port": 8880,
     "tag": "美国 46 @SCHPD",
     "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
-    "path": "/",
-    "headers": {
-      "Host": "vms.lifetime19.workers.dev"
+    "transport": {
+      "type": "ws",
+      "path": "/",
+      "headers": {
+        "Host": "vms.lifetime19.workers.dev"
+      }
     }
   },
   {
-    "type": "ws",
+    "type": "vless",
     "server": "104.129.164.30",
     "server_port": 8880,
     "tag": "美国 47 @SCHPD",
     "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
-    "path": "/",
-    "headers": {
-      "Host": "vms.lifetime40.workers.dev"
+    "transport": {
+      "type": "ws",
+      "path": "/",
+      "headers": {
+        "Host": "vms.lifetime40.workers.dev"
+      }
     }
   },
   {
@@ -6795,7 +7908,7 @@
     "alter_id": 0
   },
   {
-    "type": "ws",
+    "type": "vless",
     "server": "172.66.3.133",
     "server_port": 443,
     "tag": "美国 49 @SCHPD",
@@ -6809,13 +7922,16 @@
         "fingerprint": "chrome"
       }
     },
-    "path": "/sg-melbi",
-    "headers": {
-      "Host": "support.zoom.us.yxls.eu.cc"
+    "transport": {
+      "type": "ws",
+      "path": "/sg-melbi",
+      "headers": {
+        "Host": "support.zoom.us.yxls.eu.cc"
+      }
     }
   },
   {
-    "type": "ws",
+    "type": "vless",
     "server": "104.168.146.122",
     "server_port": 443,
     "tag": "美国 53 @SCHPD",
@@ -6829,9 +7945,12 @@
         "fingerprint": "chrome"
       }
     },
-    "path": "/sg-melbi",
-    "headers": {
-      "Host": "support.zoom.us.yxls.eu.cc"
+    "transport": {
+      "type": "ws",
+      "path": "/sg-melbi",
+      "headers": {
+        "Host": "support.zoom.us.yxls.eu.cc"
+      }
     }
   },
   {
@@ -6878,7 +7997,7 @@
     "alter_id": 0
   },
   {
-    "type": "ws",
+    "type": "vless",
     "server": "170.114.45.6",
     "server_port": 443,
     "tag": "美国 64 @SCHPD",
@@ -6892,9 +8011,12 @@
         "fingerprint": "chrome"
       }
     },
-    "path": "/sg-melbi",
-    "headers": {
-      "Host": "support.zoom.us.yxls.eu.cc"
+    "transport": {
+      "type": "ws",
+      "path": "/sg-melbi",
+      "headers": {
+        "Host": "support.zoom.us.yxls.eu.cc"
+      }
     }
   },
   {
@@ -6907,7 +8029,7 @@
     "alter_id": 0
   },
   {
-    "type": "ws",
+    "type": "vless",
     "server": "208.103.161.5",
     "server_port": 443,
     "tag": "美国 66 @SCHPD",
@@ -6921,13 +8043,16 @@
         "fingerprint": "chrome"
       }
     },
-    "path": "/",
-    "headers": {
-      "Host": "dry-butterfly-8eb9.tmpgnacio83.workers.dev"
+    "transport": {
+      "type": "ws",
+      "path": "/",
+      "headers": {
+        "Host": "dry-butterfly-8eb9.tmpgnacio83.workers.dev"
+      }
     }
   },
   {
-    "type": "grpc",
+    "type": "vless",
     "server": "using.neobo-tooth.ru",
     "server_port": 2083,
     "tag": "美国 67 @SCHPD",
@@ -6941,7 +8066,10 @@
         "fingerprint": "chrome"
       }
     },
-    "service_name": "/"
+    "transport": {
+      "type": "grpc",
+      "service_name": "/"
+    }
   },
   {
     "type": "trojan",
@@ -6992,14 +8120,17 @@
     }
   },
   {
-    "type": "ws",
+    "type": "vless",
     "server": "69.48.201.136",
     "server_port": 30016,
     "tag": "美国 73 @SCHPD",
     "uuid": "03dc60cb-a8d4-4226-93fe-0e6cbf77fe5a",
-    "path": "/usserver",
-    "headers": {
-      "Host": "uspanel.unixzone.us"
+    "transport": {
+      "type": "ws",
+      "path": "/usserver",
+      "headers": {
+        "Host": "uspanel.unixzone.us"
+      }
     }
   },
   {
@@ -7096,18 +8227,21 @@
     }
   },
   {
-    "type": "ws",
+    "type": "vless",
     "server": "uspanel.unixzone.us",
     "server_port": 30016,
     "tag": "美国 98 @SCHPD",
     "uuid": "03dc60cb-a8d4-4226-93fe-0e6cbf77fe5a",
-    "path": "/usserver",
-    "headers": {
-      "Host": "uspanel.unixzone.us"
+    "transport": {
+      "type": "ws",
+      "path": "/usserver",
+      "headers": {
+        "Host": "uspanel.unixzone.us"
+      }
     }
   },
   {
-    "type": "ws",
+    "type": "vless",
     "server": "185.105.118.126",
     "server_port": 2053,
     "tag": "芬兰 06 @SCHPD",
@@ -7121,13 +8255,16 @@
         "fingerprint": "chrome"
       }
     },
-    "path": "/",
-    "headers": {
-      "Host": "forfreeuse.sub-flow.online"
+    "transport": {
+      "type": "ws",
+      "path": "/",
+      "headers": {
+        "Host": "forfreeuse.sub-flow.online"
+      }
     }
   },
   {
-    "type": "ws",
+    "type": "vless",
     "server": "91.193.58.93",
     "server_port": 443,
     "tag": "英国 01 @SCHPD",
@@ -7137,13 +8274,16 @@
       "server_name": "jamph131-1228.pages.dev",
       "insecure": false
     },
-    "path": "Telegram-WangCai2🇨🇳",
-    "headers": {
-      "Host": "jamph131-1228.pages.dev"
+    "transport": {
+      "type": "ws",
+      "path": "Telegram-WangCai2🇨🇳",
+      "headers": {
+        "Host": "jamph131-1228.pages.dev"
+      }
     }
   },
   {
-    "type": "ws",
+    "type": "vless",
     "server": "91.193.58.195",
     "server_port": 443,
     "tag": "英国 02 @SCHPD",
@@ -7153,13 +8293,16 @@
       "server_name": "jamph131-1228.pages.dev",
       "insecure": false
     },
-    "path": "Telegram-WangCai2🇨🇳",
-    "headers": {
-      "Host": "jamph131-1228.pages.dev"
+    "transport": {
+      "type": "ws",
+      "path": "Telegram-WangCai2🇨🇳",
+      "headers": {
+        "Host": "jamph131-1228.pages.dev"
+      }
     }
   },
   {
-    "type": "ws",
+    "type": "vless",
     "server": "91.193.58.141",
     "server_port": 443,
     "tag": "英国 12 @SCHPD",
@@ -7169,13 +8312,16 @@
       "server_name": "jamph131-1228.pages.dev",
       "insecure": false
     },
-    "path": "Telegram-WangCai2🇨🇳",
-    "headers": {
-      "Host": "jamph131-1228.pages.dev"
+    "transport": {
+      "type": "ws",
+      "path": "Telegram-WangCai2🇨🇳",
+      "headers": {
+        "Host": "jamph131-1228.pages.dev"
+      }
     }
   },
   {
-    "type": "ws",
+    "type": "vless",
     "server": "91.193.58.117",
     "server_port": 443,
     "tag": "英国 13 @SCHPD",
@@ -7185,13 +8331,16 @@
       "server_name": "jamph131-1228.pages.dev",
       "insecure": false
     },
-    "path": "Telegram-WangCai2🇨🇳",
-    "headers": {
-      "Host": "jamph131-1228.pages.dev"
+    "transport": {
+      "type": "ws",
+      "path": "Telegram-WangCai2🇨🇳",
+      "headers": {
+        "Host": "jamph131-1228.pages.dev"
+      }
     }
   },
   {
-    "type": "ws",
+    "type": "vless",
     "server": "91.193.58.17",
     "server_port": 2083,
     "tag": "英国 18 @SCHPD",
@@ -7205,9 +8354,12 @@
         "fingerprint": "chrome"
       }
     },
-    "path": "/fp=chrome",
-    "headers": {
-      "Host": "edgetunnel-cmliu.lyqnihao.dpdns.org"
+    "transport": {
+      "type": "ws",
+      "path": "/fp=chrome",
+      "headers": {
+        "Host": "edgetunnel-cmliu.lyqnihao.dpdns.org"
+      }
     }
   },
   {
@@ -7220,7 +8372,7 @@
     "alter_id": 0
   },
   {
-    "type": "ws",
+    "type": "vless",
     "server": "57.129.130.200",
     "server_port": 52014,
     "tag": "英国 22 @SCHPD",
@@ -7234,13 +8386,16 @@
         "fingerprint": "chrome"
       }
     },
-    "path": "/@Marisa_kristi",
-    "headers": {
-      "Host": "3tmj2egtm-fno.49bnithzk8vphybv36d1z1xkzfvogt2m6.workers.dev"
+    "transport": {
+      "type": "ws",
+      "path": "/@Marisa_kristi",
+      "headers": {
+        "Host": "3tmj2egtm-fno.49bnithzk8vphybv36d1z1xkzfvogt2m6.workers.dev"
+      }
     }
   },
   {
-    "type": "ws",
+    "type": "vless",
     "server": "165.232.108.151",
     "server_port": 443,
     "tag": "英国 39 @SCHPD",
@@ -7254,20 +8409,26 @@
         "fingerprint": "chrome"
       }
     },
-    "path": "/",
-    "headers": {
-      "Host": "rzwsyya1.ujstc4eymicyxtacnf7r.workers.dev"
+    "transport": {
+      "type": "ws",
+      "path": "/",
+      "headers": {
+        "Host": "rzwsyya1.ujstc4eymicyxtacnf7r.workers.dev"
+      }
     }
   },
   {
-    "type": "ws",
+    "type": "vless",
     "server": "91.193.58.25",
     "server_port": 8880,
     "tag": "英国 40 @SCHPD",
     "uuid": "12cebf33-2f96-48a3-af37-c2231e5cef75",
-    "path": "/pyip=Telegram @VPNine1",
-    "headers": {
-      "Host": "throbbing-moon-a07c.90-ec4.workers.dev"
+    "transport": {
+      "type": "ws",
+      "path": "/pyip=Telegram @VPNine1",
+      "headers": {
+        "Host": "throbbing-moon-a07c.90-ec4.workers.dev"
+      }
     }
   },
   {
@@ -7293,18 +8454,21 @@
     }
   },
   {
-    "type": "ws",
+    "type": "vless",
     "server": "45.131.4.192",
     "server_port": 80,
     "tag": "荷兰 15 @SCHPD",
     "uuid": "5f4845b4-11dc-41d6-9508-4ff6a02e36c1",
-    "path": "/",
-    "headers": {
-      "Host": "silent-paper-fa57.fipiyag989.workers.dev"
+    "transport": {
+      "type": "ws",
+      "path": "/",
+      "headers": {
+        "Host": "silent-paper-fa57.fipiyag989.workers.dev"
+      }
     }
   },
   {
-    "type": "ws",
+    "type": "vless",
     "server": "86.107.197.239",
     "server_port": 443,
     "tag": "荷兰 20 @SCHPD",
@@ -7318,24 +8482,30 @@
         "fingerprint": "chrome"
       }
     },
-    "path": "/sg-melbi",
-    "headers": {
-      "Host": "support.zoom.us.yxls.eu.cc"
+    "transport": {
+      "type": "ws",
+      "path": "/sg-melbi",
+      "headers": {
+        "Host": "support.zoom.us.yxls.eu.cc"
+      }
     }
   },
   {
-    "type": "ws",
+    "type": "vless",
     "server": "45.131.211.30",
     "server_port": 8880,
     "tag": "荷兰 22 @SCHPD",
     "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
-    "path": "/",
-    "headers": {
-      "Host": "vms.lifetime06.workers.dev"
+    "transport": {
+      "type": "ws",
+      "path": "/",
+      "headers": {
+        "Host": "vms.lifetime06.workers.dev"
+      }
     }
   },
   {
-    "type": "ws",
+    "type": "vless",
     "server": "109.120.150.17",
     "server_port": 7443,
     "tag": "荷兰 33 @SCHPD",
@@ -7349,13 +8519,16 @@
         "fingerprint": "chrome"
       }
     },
-    "path": "/@Marisa_kristi",
-    "headers": {
-      "Host": "wkytah9k8oggj60.qzfi0skkopy875xhtc0l9pwds.workers.dev"
+    "transport": {
+      "type": "ws",
+      "path": "/@Marisa_kristi",
+      "headers": {
+        "Host": "wkytah9k8oggj60.qzfi0skkopy875xhtc0l9pwds.workers.dev"
+      }
     }
   },
   {
-    "type": "ws",
+    "type": "vless",
     "server": "89.110.120.140",
     "server_port": 2053,
     "tag": "荷兰 39 @SCHPD",
@@ -7369,13 +8542,16 @@
         "fingerprint": "chrome"
       }
     },
-    "path": "/",
-    "headers": {
-      "Host": "forfreeuse.sub-flow.online"
+    "transport": {
+      "type": "ws",
+      "path": "/",
+      "headers": {
+        "Host": "forfreeuse.sub-flow.online"
+      }
     }
   },
   {
-    "type": "ws",
+    "type": "vless",
     "server": "89.110.112.225",
     "server_port": 2053,
     "tag": "荷兰 40 @SCHPD",
@@ -7389,13 +8565,16 @@
         "fingerprint": "chrome"
       }
     },
-    "path": "/",
-    "headers": {
-      "Host": "forfreeuse.sub-flow.online"
+    "transport": {
+      "type": "ws",
+      "path": "/",
+      "headers": {
+        "Host": "forfreeuse.sub-flow.online"
+      }
     }
   },
   {
-    "type": "ws",
+    "type": "vless",
     "server": "45.134.21.8",
     "server_port": 2053,
     "tag": "荷兰 41 @SCHPD",
@@ -7409,13 +8588,16 @@
         "fingerprint": "chrome"
       }
     },
-    "path": "/",
-    "headers": {
-      "Host": "forfreeuse.sub-flow.online"
+    "transport": {
+      "type": "ws",
+      "path": "/",
+      "headers": {
+        "Host": "forfreeuse.sub-flow.online"
+      }
     }
   },
   {
-    "type": "ws",
+    "type": "vless",
     "server": "212.192.215.229",
     "server_port": 2053,
     "tag": "荷兰 46 @SCHPD",
@@ -7429,13 +8611,16 @@
         "fingerprint": "chrome"
       }
     },
-    "path": "/",
-    "headers": {
-      "Host": "forfreeuse.sub-flow.online"
+    "transport": {
+      "type": "ws",
+      "path": "/",
+      "headers": {
+        "Host": "forfreeuse.sub-flow.online"
+      }
     }
   },
   {
-    "type": "ws",
+    "type": "vless",
     "server": "194.147.115.37",
     "server_port": 2053,
     "tag": "荷兰 53 @SCHPD",
@@ -7449,13 +8634,16 @@
         "fingerprint": "chrome"
       }
     },
-    "path": "/",
-    "headers": {
-      "Host": "forfreeuse.sub-flow.online"
+    "transport": {
+      "type": "ws",
+      "path": "/",
+      "headers": {
+        "Host": "forfreeuse.sub-flow.online"
+      }
     }
   },
   {
-    "type": "ws",
+    "type": "vless",
     "server": "212.34.152.202",
     "server_port": 2053,
     "tag": "荷兰 54 @SCHPD",
@@ -7469,13 +8657,16 @@
         "fingerprint": "chrome"
       }
     },
-    "path": "/",
-    "headers": {
-      "Host": "forfreeuse.sub-flow.online"
+    "transport": {
+      "type": "ws",
+      "path": "/",
+      "headers": {
+        "Host": "forfreeuse.sub-flow.online"
+      }
     }
   },
   {
-    "type": "ws",
+    "type": "vless",
     "server": "77.238.236.134",
     "server_port": 2053,
     "tag": "荷兰 55 @SCHPD",
@@ -7489,13 +8680,16 @@
         "fingerprint": "chrome"
       }
     },
-    "path": "/",
-    "headers": {
-      "Host": "forfreeuse.sub-flow.online"
+    "transport": {
+      "type": "ws",
+      "path": "/",
+      "headers": {
+        "Host": "forfreeuse.sub-flow.online"
+      }
     }
   },
   {
-    "type": "ws",
+    "type": "vless",
     "server": "77.238.255.142",
     "server_port": 2053,
     "tag": "荷兰 56 @SCHPD",
@@ -7509,9 +8703,12 @@
         "fingerprint": "chrome"
       }
     },
-    "path": "/",
-    "headers": {
-      "Host": "forfreeuse.sub-flow.online"
+    "transport": {
+      "type": "ws",
+      "path": "/",
+      "headers": {
+        "Host": "forfreeuse.sub-flow.online"
+      }
     }
   },
   {
@@ -7522,7 +8719,7 @@
     "uuid": "5bb7df8d-ad02-41fa-a8e6-8a8a4650d2c4"
   },
   {
-    "type": "ws",
+    "type": "vless",
     "server": "213.183.61.100",
     "server_port": 2053,
     "tag": "荷兰 60 @SCHPD",
@@ -7536,13 +8733,16 @@
         "fingerprint": "chrome"
       }
     },
-    "path": "/",
-    "headers": {
-      "Host": "forfreeuse.sub-flow.online"
+    "transport": {
+      "type": "ws",
+      "path": "/",
+      "headers": {
+        "Host": "forfreeuse.sub-flow.online"
+      }
     }
   },
   {
-    "type": "ws",
+    "type": "vless",
     "server": "titandarkness.mooo.com",
     "server_port": 443,
     "tag": "荷兰 63 @SCHPD",
@@ -7556,9 +8756,12 @@
         "fingerprint": "chrome"
       }
     },
-    "path": "/21381/0kO2id8FMQ",
-    "headers": {
-      "Host": "titandarkness.mooo.com"
+    "transport": {
+      "type": "ws",
+      "path": "/21381/0kO2id8FMQ",
+      "headers": {
+        "Host": "titandarkness.mooo.com"
+      }
     }
   },
   {
@@ -7689,14 +8892,17 @@
     "alter_id": 0
   },
   {
-    "type": "ws",
+    "type": "vless",
     "server": "185.207.196.30",
     "server_port": 8880,
     "tag": "马绍尔群岛 02 @SCHPD",
     "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
-    "path": "/",
-    "headers": {
-      "Host": "vms.lifetime11.workers.dev"
+    "transport": {
+      "type": "ws",
+      "path": "/",
+      "headers": {
+        "Host": "vms.lifetime11.workers.dev"
+      }
     }
   }
 ]
