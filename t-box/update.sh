@@ -310,16 +310,16 @@ _detect_and_parse() {
     local first_line; first_line=$(_first_line <<< "$raw")
 
     # HTML detection
-    if echo "$first_line" | grep -qiE '^\s*(<!DOCTYPE|<html|<head|<meta|<script|HTTP/)' 2>/dev/null; then
+    if [[ "$first_line" =~ ^[[:space:]]*(<\!DOCTYPE|<html|<head|<meta|<script|HTTP/) ]]; then
         echo "_status:HTML"; return
     fi
 
     # Try base64 decode first
-    if [[ ! "$first_line" =~ ^(vmess|vless|trojan|hysteria2|anytls|ss|tuic|socks):// ]] && echo "$raw" | grep -qE '://' 2>/dev/null; then
+    if [[ ! "$first_line" =~ ^(vmess|vless|trojan|hysteria2|anytls|ss|tuic|socks):// ]] && grep -qE '://' <<< "$raw"; then
         local decoded; decoded=$(echo "$raw" | base64 -d 2>/dev/null || true)
         if [ -n "$decoded" ]; then
             local dfirst; dfirst=$(_first_line <<< "$decoded")
-            if [[ "$dfirst" =~ ^(vmess|vless|trojan|hysteria2|ss|tuic|socks):// ]] || echo "$decoded" | grep -qE '^[[:space:]]*(proxies|mixed-port|port):' 2>/dev/null; then
+            if [[ "$dfirst" =~ ^(vmess|vless|trojan|hysteria2|ss|tuic|socks):// ]] || grep -qE '^[[:space:]]*(proxies|mixed-port|port):' <<< "$decoded"; then
                 raw="$decoded"
                 first_line=$(_first_line <<< "$raw")
             fi
@@ -327,7 +327,7 @@ _detect_and_parse() {
     fi
 
     # Clash YAML
-    if echo "$raw" | grep -qE '^[[:space:]]*(proxies|mixed-port|port):' 2>/dev/null; then
+    if grep -qE '^[[:space:]]*(proxies|mixed-port|port):' <<< "$raw"; then
         if command -v yq >/dev/null 2>&1; then
             local proxies; proxies=$(echo "$raw" | yq -o=json '.proxies' 2>/dev/null || echo "[]")
             if [ -n "$proxies" ] && [ "$proxies" != "null" ] && [ "$(echo "$proxies" | jq 'length' 2>/dev/null)" != "0" ]; then
@@ -411,7 +411,7 @@ else
         echo "$raw" > "raw/${short}_$(date +%Y%m%d_%H%M%S).yaml"
 
         # Parse with all stages collected
-        parse_output=$(_detect_and_parse "$raw" 2>&1 | tee /tmp/update-parse-err.log; true)
+        parse_output=$(_detect_and_parse "$raw" 2>/dev/null || true)
         status_line=$(echo "$parse_output" | grep '^_status:' | tail -1)
         nodes_str=$(echo "$parse_output" | grep -v '^_status:')
 
