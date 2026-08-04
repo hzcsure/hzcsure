@@ -1,2 +1,1 @@
-trojan://ND91608427@moved-meerkat.rooster465.autos:443?security=tls&type=tcp&sni=moved-meerkat.rooster465.autos&allowInsecure=1#%F0%9F%87%B0%F0%9F%87%B7%20%E9%9F%A9%E5%9B%BD%2001%20%40SCHPD
-trojan://ND91608427@definite-malamute.rooster465.autos:443?security=tls&type=tcp&sni=definite-malamute.rooster465.autos&allowInsecure=1#%F0%9F%87%B0%F0%9F%87%B7%20%E9%9F%A9%E5%9B%BD%2002%20%40SCHPD
+trojan://ND91608427@discrete-basilisk.rooster465.autos:443?security=tls&type=tcp&sni=discrete-basilisk.rooster465.autos&allowInsecure=1#%F0%9F%87%B5%F0%9F%87%B1%20%E6%B3%A2%E5%85%B0%2001%20%40SCHPD
