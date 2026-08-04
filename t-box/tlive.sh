@@ -218,8 +218,8 @@ jq --argjson tags "$tag_json" \
 _export_uris "$tmp_filtered" > "$ALIVE_TMP"
 
 if [ -s "$ALIVE_TMP" ]; then
-    lines=$(wc -l < "$ALIVE_TMP")
-    echo "exported $lines alive nodes to $ALIVE_TMP"
+    exported_count=$(wc -l < "$ALIVE_TMP")
+    echo "exported $exported_count alive nodes to $ALIVE_TMP"
 
     # Replace alive_nodes.txt
     mv "$ALIVE_TMP" "$ALIVE_FILE"
@@ -236,11 +236,12 @@ else
     rm -f "$ALIVE_TMP"
     # Clear stale file to avoid misleading old data
     cat /dev/null > "$ALIVE_FILE"
-    alive_count=0
+    exported_count=0
 fi
 
 # ── 6. Summary ──
 echo ""
 echo "=== Done ==="
-echo "alive_nodes.txt: $alive_count nodes"
-echo "::notice::tlive: $alive_count/$TOTAL alive, $alive_count nodes exported"
+[ "${alive_count:-0}" -gt "${exported_count:-0}" ] && skip_note=" ($((alive_count - exported_count)) unsupported types skipped)" || skip_note=""
+echo "alive_nodes.txt: $exported_count nodes${skip_note} (${alive_count:-0} alive out of $TOTAL)"
+echo "::notice::tlive: $exported_count nodes exported (${alive_count:-0}/$TOTAL alive)"
