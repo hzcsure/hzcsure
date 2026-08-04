@@ -428,33 +428,47 @@ FETCH_DIR=$(mktemp -d)
 mkdir -p raw
 echo "$raw" > "raw/${short}_$(date +%Y%m%d_%H%M%S).yaml"
 
-# Parse with all stages collected (avoid rm: sandbox safe-delete shim hangs)
-stderr_file=$(mktemp)
-{ parse_output=$(_detect_and_parse "$raw" 2>"$stderr_file") ; } || true
-parse_rc=$?
-parse_output=${parse_output:-}
-err_msg=$(head -3 "$stderr_file" 2>/dev/null)
-err_msg=${err_msg//$'\n'/ }
-[ -e "$stderr_file" ] && cat /dev/null > "$stderr_file"  # truncate instead of rm
-status_line=$(awk '/^_status:/{s=$0} END{print s}' <<< "$parse_output")
-nodes_str=$(awk '!/^_status:/{print}' <<< "$parse_output")
+        # Parse: auto-detect format
+        first_line=$(awk '!/^[[:space:]]*$/{print; exit}' <<< "$raw")
+        
+        # HTML check
+        if [[ "$first_line" =~ ^[[:space:]]*(<\!DOCTYPE|<html|<head|<meta|<script|HTTP/) ]]; then
+            echo "SKIP (HTML)"; FAIL_COUNT=$((FAIL_COUNT+1)); continue
+        fi
 
-        case "$status_line" in
-            _status:HTML)    echo "SKIP (HTML)"; FAIL_COUNT=$((FAIL_COUNT+1)); continue ;;
-            _status:UNKNOWN) echo "UNKNOWN format"; FAIL_COUNT=$((FAIL_COUNT+1)); continue ;;
-            _status:NoYQ)    echo "WARN (no yq)"; FAIL_COUNT=$((FAIL_COUNT+1)); continue ;;
-            _status:Clash*)
-                cnt=$(echo "$nodes_str" | jq -s 'length' 2>/dev/null)
-                nodes_json=$(echo "$nodes_str" | jq -s '.' 2>/dev/null || echo "[]")
-                echo "OK (Clash, $cnt nodes)" ;;
-            _status:URI*)
-                cnt=$(echo "$nodes_str" | jq -s 'length' 2>/dev/null || echo 0)
-                nodes_json=$(echo "$nodes_str" | jq -s '.' 2>/dev/null || echo "[]")
-                echo "OK (URI, $cnt nodes)" ;;
-        esac
+        # Clash YAML check
+        if grep -qE '^[[:space:]]*(proxies|mixed-port|port):' <<< "$raw"; then
+            if command -v yq >/dev/null 2>&1; then
+                proxies=$(echo "$raw" | yq -j '.proxies' 2>/dev/null || echo "$raw" | yq -o=json '.proxies' 2>/dev/null || echo "[]")
+                echo "DBG yq_len=$(echo "$proxies" | jq 'length' 2>/dev/null) valid=$(echo "$proxies" | jq . >/dev/null 2>&1 && echo YES || echo NO)"
+                if [ -n "$proxies" ] && [ "$proxies" != "null" ] && [ "$(echo "$proxies" | jq 'length' 2>/dev/null)" != "0" ]; then
+                    parsed=$(echo "$proxies" | _clash_to_singbox)
+                    echo "DBG parsed_len=$(echo "$parsed" | jq 'length' 2>/dev/null)"
+                    nodes_json="$parsed"
+                    cnt=$(echo "$parsed" | jq -s 'length' 2>/dev/null)
+                    echo "OK (Clash, $cnt nodes)"
+                    ALL_NODES=$(echo "$ALL_NODES" | jq -c --argjson n "$nodes_json" '. + $n')
+                    OK_COUNT=$((OK_COUNT + 1))
+                    continue
+                fi
+            fi
+        fi
 
-        ALL_NODES=$(echo "$ALL_NODES" | jq -c --argjson n "$nodes_json" '. + $n')
-        OK_COUNT=$((OK_COUNT + 1))
+        # URI format
+        if [[ "$first_line" =~ ^(vmess|vless|trojan|hysteria2|anytls|ss|tuic|socks):// ]]; then
+            cnt=0; nodes_json="[]"
+            while IFS= read -r uri_line; do
+                [ -z "$uri_line" ] && continue
+                parsed=$(_parse_uri "$uri_line" 2>/dev/null || true)
+                [ -n "$parsed" ] && { nodes_json=$(echo "$nodes_json" | jq -c --argjson p "$parsed" '. + [$p]' 2>/dev/null); cnt=$((cnt+1)); }
+            done <<< "$raw"
+            echo "OK (URI, $cnt nodes)"
+            ALL_NODES=$(echo "$ALL_NODES" | jq -c --argjson n "$nodes_json" '. + $n')
+            OK_COUNT=$((OK_COUNT + 1))
+            continue
+        fi
+
+        echo "UNKNOWN format"; FAIL_COUNT=$((FAIL_COUNT + 1)); continue
     done
 
     echo ""
