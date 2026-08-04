@@ -7,6 +7,7 @@ from telethon import TelegramClient, events, sync
 from telethon import functions, types
 from telethon.sessions import StringSession
 from telethon.tl.types import MessageMediaDocument
+from telethon.tl.types import InputMessagesFilterDocument
 import asyncio
 import time
 
@@ -27,7 +28,7 @@ async def download_last_yaml():
     unread_yaml_files = []
 
     # 遍历最新消息，只取未读
-    async for msg in client.iter_messages(channel, limit=5000):
+    async for msg in client.iter_messages(channel, limit=100,filter=InputMessagesFilterDocument):
 #        if msg.read:
 #            break  # 遇到已读就停止
 
