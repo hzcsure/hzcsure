@@ -232,12 +232,15 @@ if [ -s "$ALIVE_TMP" ]; then
         echo "  ${uri:0:80}..."
     done
 else
-    echo "export produced empty file"
+    echo "export produced empty file (unsupported node types: http/socks)"
     rm -f "$ALIVE_TMP"
+    # Clear stale file to avoid misleading old data
+    cat /dev/null > "$ALIVE_FILE"
+    alive_count=0
 fi
 
 # ── 6. Summary ──
 echo ""
 echo "=== Done ==="
 echo "alive_nodes.txt: $alive_count nodes"
-echo "::notice::tlive: $alive_count/$TOTAL alive, exported to $ALIVE_FILE"
+echo "::notice::tlive: $alive_count/$TOTAL alive, $alive_count nodes exported"
