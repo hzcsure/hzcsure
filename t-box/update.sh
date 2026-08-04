@@ -412,12 +412,13 @@ else
 
         # Parse with all stages collected (capture stderr for debug)
         stderr_file=$(mktemp)
-        parse_output=$(_detect_and_parse "$raw" 2>"$stderr_file") || true
+        parse_output=$(_detect_and_parse "$raw" 2>"$stderr_file"); parse_rc=$?
+        parse_output=${parse_output:-}
         err_msg=$(cat "$stderr_file" 2>/dev/null | head -3 | tr '\n' ' ')
-        echo "DEBUG: stdout_len=$(echo -n "$parse_output" | wc -c) status='$status_line' stderr='$err_msg'"
         rm -f "$stderr_file"
         status_line=$(echo "$parse_output" | grep '^_status:' | tail -1)
         nodes_str=$(echo "$parse_output" | grep -v '^_status:')
+        echo "DEBUG rc=$parse_rc raw_len=$(echo -n "$raw" | wc -c) parse_out_len=$(echo -n "$parse_output" | wc -c) status='$status_line'"
 
         case "$status_line" in
             _status:HTML)    echo "SKIP (HTML)"; FAIL_COUNT=$((FAIL_COUNT+1)); continue ;;
