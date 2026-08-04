@@ -407,19 +407,18 @@ else
             continue
         fi
 
-        mkdir -p raw
-        echo "$raw" > "raw/${short}_$(date +%Y%m%d_%H%M%S).yaml"
+mkdir -p raw
+echo "$raw" > "raw/${short}_$(date +%Y%m%d_%H%M%S).yaml"
+echo "DEBUG: before detect, raw_len=$(echo -n "$raw" | wc -c)"
 
         # Parse with all stages collected (capture stderr for debug)
 stderr_file=$(mktemp)
-set +e
 parse_output=$(_detect_and_parse "$raw" 2>"$stderr_file")
-parse_rc=$?
-set -e
+if [ $? -ne 0 ]; then parse_rc=$?; else parse_rc=0; fi
 parse_output=${parse_output:-}
-err_msg=$(cat "$stderr_file" 2>/dev/null | head -3 | tr '\n' ' ')
+err_msg=$(head -3 "$stderr_file" 2>/dev/null | tr '\n' ' ')
 rm -f "$stderr_file"
-status_line=$(echo "$parse_output" | grep '^_status:' | tail -1)
+status_line=$(grep '^_status:' <<< "$parse_output" | tail -1)
 nodes_str=$(echo "$parse_output" | grep -v '^_status:')
 echo "DEBUG rc=$parse_rc raw_len=$(echo -n "$raw" | wc -c) parse_out_len=$(echo -n "$parse_output" | wc -c) status='$status_line' stderr='$err_msg'"
 
