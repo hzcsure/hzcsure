@@ -445,15 +445,16 @@ echo "$raw" > "raw/${short}_$(date +%Y%m%d_%H%M%S).yaml"
         if grep -qE '^[[:space:]]*(proxies|mixed-port|port):' <<< "$raw"; then
             if command -v yq >/dev/null 2>&1; then
                 proxies=$(echo "$raw" | yq -j '.proxies' 2>/dev/null || echo "$raw" | yq -o=json '.proxies' 2>/dev/null || echo "[]")
-                echo "DBG yq_len=$(echo "$proxies" | jq 'length' 2>/dev/null) valid=$(echo "$proxies" | jq . >/dev/null 2>&1 && echo YES || echo NO)"
-                if [ -n "$proxies" ] && [ "$proxies" != "null" ] && [ "$(echo "$proxies" | jq 'length' 2>/dev/null)" != "0" ]; then
-                    parsed=$(echo "$proxies" | _clash_to_singbox 2>/tmp/clash_err; true)
+                echo "$proxies" > /tmp/proxies.json
+                    parsed=$(_clash_to_singbox < /tmp/proxies.json 2>/tmp/clash_err; true)
+                    echo "$parsed" > /tmp/parsed.json
                     echo "DBG clash_stderr=$(head -3 /tmp/clash_err 2>/dev/null | tr '\n' ' ')"
-                    echo "DBG parsed_len=$(echo "$parsed" | jq 'length' 2>/dev/null)"
-                    nodes_json="${parsed:-[]}"
-                    cnt=$(echo "$nodes_json" | jq -s 'length' 2>/dev/null || echo 0)
+                    echo "DBG parsed_len=$(jq 'length' /tmp/parsed.json 2>/dev/null)"
+                    cnt=$(jq 'length' /tmp/parsed.json 2>/dev/null || echo 0)
                     echo "OK (Clash, $cnt nodes)"
-                    ALL_NODES=$(echo "$ALL_NODES" | jq -c --argjson n "$nodes_json" '. + $n')
+                    # Merge into ALL_NODES (avoid --argjson for large data)
+                    echo "$ALL_NODES" > /tmp/all_tmp.json
+                    ALL_NODES=$(jq -c --slurpfile a /tmp/all_tmp.json --slurpfile b /tmp/parsed.json '$a[0] + $b[0]' <<< '' 2>/dev/null)
                     OK_COUNT=$((OK_COUNT + 1))
                     continue
                 fi
