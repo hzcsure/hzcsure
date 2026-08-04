@@ -447,10 +447,8 @@ echo "$raw" > "raw/${short}_$(date +%Y%m%d_%H%M%S).yaml"
                 proxies=$(echo "$raw" | yq -j '.proxies' 2>/dev/null || echo "$raw" | yq -o=json '.proxies' 2>/dev/null || echo "[]")
                 if [ -n "$proxies" ] && [ "$proxies" != "null" ] && [ "$(echo "$proxies" | jq 'length' 2>/dev/null)" != "0" ]; then
                     echo "$proxies" > /tmp/proxies.json
-                    parsed=$(_clash_to_singbox < /tmp/proxies.json 2>/tmp/clash_err; true)
+                    parsed=$(_clash_to_singbox < /tmp/proxies.json 2>/dev/null; true)
                     echo "$parsed" > /tmp/parsed.json
-                    echo "DBG clash_stderr=$(head -3 /tmp/clash_err 2>/dev/null | tr '\n' ' ')"
-                    echo "DBG parsed_len=$(jq 'length' /tmp/parsed.json 2>/dev/null)"
                     cnt=$(jq 'length' /tmp/parsed.json 2>/dev/null || echo 0)
                     echo "OK (Clash, $cnt nodes)"
                     # Merge into ALL_NODES (avoid --argjson for large data)
