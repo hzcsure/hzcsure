@@ -255,16 +255,17 @@ _clash_to_singbox() {
     # --- TLS ---
     + (if (.type != "shadowsocks" and .type != "ss" and .type != "vmess") and
          (.tls or .["skip-cert-verify"] or .servername or .sni or .["reality-opts"]) then
-        { tls: { enabled: true, server_name: (.servername // .sni // .server // ""),
-          insecure: (.["skip-cert-verify"] // false)
-        }
-        + (if .["client-fingerprint"] then
-            { utls: { enabled: true, fingerprint: .["client-fingerprint"] } }
-          else {} end)
-        + (if .["reality-opts"] then
-            { reality: { enabled: true, public_key: (.["reality-opts"]["public-key"] // ""),
-              short_id: (.["reality-opts"]["short-id"] // "") } }
-          else {} end)
+        { tls: (
+          { enabled: true, server_name: (.servername // .sni // .server // ""),
+            insecure: (.["skip-cert-verify"] // false) }
+          + (if .["client-fingerprint"] then
+              { utls: { enabled: true, fingerprint: .["client-fingerprint"] } }
+            else {} end)
+          + (if .["reality-opts"] then
+              { reality: { enabled: true, public_key: (.["reality-opts"]["public-key"] // ""),
+                short_id: (.["reality-opts"]["short-id"] // "") } }
+            else {} end)
+        )
         } else {} end)
     # --- protocol-specific ---
     + if .type == "vless" then

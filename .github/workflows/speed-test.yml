@@ -43,7 +43,7 @@ jobs:
           git config --local user.name "$GIT_NAME"
           git config --local user.email "$GIT_EMAIL"
           git pull --rebase --autostash origin main || true
-          git add t-box/config.json t-box/raw/
+          git add t-box/nodes_cache.json
           if ! git diff --staged --quiet; then
             git commit -m "auto: subscription update $(date '+%Y-%m-%d %H:%M:%S')"
           else
@@ -70,6 +70,18 @@ jobs:
 
       - name: Setup sing-box
         run: chmod +x t-box/sing-box
+
+      - name: Generate config.json
+        run: |
+          cd t-box
+          chmod +x update.sh
+          if [ -f nodes_cache.json ]; then
+            echo "rebuilding config.json from nodes_cache.json"
+            bash update.sh --local
+          else
+            echo "no cache, running full update"
+            bash update.sh
+          fi
 
       - name: Run tlive
         run: |
