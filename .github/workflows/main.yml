@@ -75,10 +75,10 @@ jobs:
           fi
           git commit -m "Github action update at `date '+%Y-%m-%d %H:%M:%S'`."
       - name: Push
-          id:push
         uses: ad-m/github-push-action@master
         with:
           github_token: ${{ secrets.PUSH_TOKEN }}
           branch: main
+          force: true
         
           
