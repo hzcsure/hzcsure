@@ -2,11 +2,7 @@
 # update.sh — fetch subscriptions + generate sing-box config
 # Supports: Clash YAML, URI format (vmess/vless/trojan/hysteria2/ss/tuic/socks), base64, file://
 # Usage: ./update.sh [--local]  # --local = rebuild from cached nodes only
-set -euo pipefail
-
-# Workaround: sandbox exports rm as a function wrapping a safe-delete shim
-# that fails on Windows backslash paths. Use `command rm` to bypass the wrapper.
-unset -f rm 2>/dev/null || true
+set -uo pipefail  # no -e: sandbox's rm shim can fail; we handle errors explicitly
 
 SCRIPT_DIR="$(cd "$(dirname "$0")" && pwd)"
 cd "$SCRIPT_DIR"
