@@ -253,7 +253,7 @@ _clash_to_singbox() {
           path: (.["httpupgrade-opts"].path // "/") } }
       else {} end)
     # --- TLS ---
-    + (if (.type != "shadowsocks" and .type != "ss" and .type != "vmess") and
+    + (if (.type | IN("vless","trojan","hysteria","hysteria2","tuic","anytls")) and
          (.tls or .["skip-cert-verify"] or .servername or .sni or .["reality-opts"]) then
         { tls: ({
             enabled: true,
