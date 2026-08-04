@@ -442,10 +442,11 @@ echo "$raw" > "raw/${short}_$(date +%Y%m%d_%H%M%S).yaml"
                 proxies=$(echo "$raw" | yq -j '.proxies' 2>/dev/null || echo "$raw" | yq -o=json '.proxies' 2>/dev/null || echo "[]")
                 echo "DBG yq_len=$(echo "$proxies" | jq 'length' 2>/dev/null) valid=$(echo "$proxies" | jq . >/dev/null 2>&1 && echo YES || echo NO)"
                 if [ -n "$proxies" ] && [ "$proxies" != "null" ] && [ "$(echo "$proxies" | jq 'length' 2>/dev/null)" != "0" ]; then
-                    parsed=$(echo "$proxies" | _clash_to_singbox)
+                    parsed=$(echo "$proxies" | _clash_to_singbox 2>/tmp/clash_err; true)
+                    echo "DBG clash_stderr=$(head -3 /tmp/clash_err 2>/dev/null | tr '\n' ' ')"
                     echo "DBG parsed_len=$(echo "$parsed" | jq 'length' 2>/dev/null)"
-                    nodes_json="$parsed"
-                    cnt=$(echo "$parsed" | jq -s 'length' 2>/dev/null)
+                    nodes_json="${parsed:-[]}"
+                    cnt=$(echo "$nodes_json" | jq -s 'length' 2>/dev/null || echo 0)
                     echo "OK (Clash, $cnt nodes)"
                     ALL_NODES=$(echo "$ALL_NODES" | jq -c --argjson n "$nodes_json" '. + $n')
                     OK_COUNT=$((OK_COUNT + 1))
