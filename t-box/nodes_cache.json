@@ -1,5 +1,51 @@
 [
   {
+    "server": "152.32.181.246",
+    "server_port": 44070,
+    "tag": "🇦🇪阿联酋 01",
+    "transport": {
+      "type": "ws",
+      "path": "/proxyip=ProxyIP.CMLiussss.net",
+      "headers": {
+        "Host": "cf3.schzyc.cc.cd"
+      }
+    },
+    "tls": {
+      "enabled": true,
+      "server_name": "cf3.schzyc.cc.cd",
+      "insecure": false,
+      "utls": {
+        "enabled": true,
+        "fingerprint": "chrome"
+      }
+    },
+    "type": "vless",
+    "uuid": "51a0af77-a60c-4d9b-81a4-f50e1b38d90b"
+  },
+  {
+    "server": "150.230.27.23",
+    "server_port": 16504,
+    "tag": "🇨🇦加拿大 01",
+    "transport": {
+      "type": "ws",
+      "path": "/proxyip=ProxyIP.CMLiussss.net",
+      "headers": {
+        "Host": "cf3.schzyc.cc.cd"
+      }
+    },
+    "tls": {
+      "enabled": true,
+      "server_name": "cf3.schzyc.cc.cd",
+      "insecure": false,
+      "utls": {
+        "enabled": true,
+        "fingerprint": "chrome"
+      }
+    },
+    "type": "vless",
+    "uuid": "51a0af77-a60c-4d9b-81a4-f50e1b38d90b"
+  },
+  {
     "server": "speed-01.aliyun-web-tracker.cn",
     "server_port": 39221,
     "tag": "🇨🇳台湾 01",
@@ -10,6 +56,29 @@
     },
     "type": "trojan",
     "password": "55354c2b8ee339571bd657a9bb9858cc"
+  },
+  {
+    "server": "sub.danfeng.eu.org",
+    "server_port": 443,
+    "tag": "🇨🇳台湾 02",
+    "transport": {
+      "type": "ws",
+      "path": "/?ed=2560",
+      "headers": {
+        "Host": "cf1-1mh.pages.dev"
+      }
+    },
+    "tls": {
+      "enabled": true,
+      "server_name": "cf1-1mh.pages.dev",
+      "insecure": false,
+      "utls": {
+        "enabled": true,
+        "fingerprint": "firefox"
+      }
+    },
+    "type": "trojan",
+    "password": "5dc15e15-f285-4a9d-959b-0e4fbdd77b63"
   },
   {
     "server": "91.107.182.197",
@@ -242,6 +311,22 @@
     "password": "ND91608427"
   },
   {
+    "server": "rapid-firefly.rooster465.autos",
+    "server_port": 443,
+    "tag": "🇩🇪德国 14",
+    "tls": {
+      "enabled": true,
+      "server_name": "rapid-firefly.rooster465.autos",
+      "insecure": true,
+      "utls": {
+        "enabled": true,
+        "fingerprint": "chrome"
+      }
+    },
+    "type": "trojan",
+    "password": "ND91608427"
+  },
+  {
     "server": "185.215.184.31",
     "server_port": 8443,
     "tag": "🇪🇪爱沙尼亚 01",
@@ -433,20 +518,27 @@
     "alter_id": 2
   },
   {
-    "server": "upright-hamster.rooster465.autos",
+    "server": "104.17.179.7",
     "server_port": 443,
     "tag": "🇭🇰香港 03",
-    "tls": {
-      "enabled": true,
-      "server_name": "upright-hamster.rooster465.autos",
-      "insecure": true,
-      "utls": {
-        "enabled": true,
-        "fingerprint": "chrome"
+    "transport": {
+      "type": "ws",
+      "path": "/?ed=2048",
+      "headers": {
+        "Host": "cfnew.schzyc.cc.cd"
       }
     },
-    "type": "trojan",
-    "password": "ND91608427"
+    "tls": {
+      "enabled": true,
+      "server_name": "cfnew.schzyc.cc.cd",
+      "insecure": false,
+      "utls": {
+        "enabled": true,
+        "fingerprint": "randomized"
+      }
+    },
+    "type": "vless",
+    "uuid": "b4f25b41-cc8e-49eb-bdb8-83dd8c7e542d"
   },
   {
     "server": "upright-hamster.rooster465.autos",
@@ -481,9 +573,46 @@
     "password": "ND91608427"
   },
   {
-    "server": "dynamic-grubworm.rooster465.autos",
+    "server": "104.17.178.215",
+    "server_port": 80,
+    "tag": "🇭🇰香港 06",
+    "transport": {
+      "type": "ws",
+      "path": "/?ed=2048",
+      "headers": {
+        "Host": "cfnew.schzyc.cc.cd"
+      }
+    },
+    "type": "vless",
+    "uuid": "b4f25b41-cc8e-49eb-bdb8-83dd8c7e542d"
+  },
+  {
+    "server": "104.17.156.210",
     "server_port": 443,
     "tag": "🇭🇰香港 07",
+    "transport": {
+      "type": "ws",
+      "path": "/?ed=2048",
+      "headers": {
+        "Host": "cfnew.schzyc.cc.cd"
+      }
+    },
+    "tls": {
+      "enabled": true,
+      "server_name": "cfnew.schzyc.cc.cd",
+      "insecure": false,
+      "utls": {
+        "enabled": true,
+        "fingerprint": "randomized"
+      }
+    },
+    "type": "vless",
+    "uuid": "b4f25b41-cc8e-49eb-bdb8-83dd8c7e542d"
+  },
+  {
+    "server": "dynamic-grubworm.rooster465.autos",
+    "server_port": 443,
+    "tag": "🇭🇰香港 08",
     "tls": {
       "enabled": true,
       "server_name": "dynamic-grubworm.rooster465.autos",
@@ -497,9 +626,271 @@
     "password": "ND91608427"
   },
   {
+    "server": "104.17.148.103",
+    "server_port": 443,
+    "tag": "🇭🇰香港 09",
+    "transport": {
+      "type": "ws",
+      "path": "/?ed=2048",
+      "headers": {
+        "Host": "cfnew.schzyc.cc.cd"
+      }
+    },
+    "tls": {
+      "enabled": true,
+      "server_name": "cfnew.schzyc.cc.cd",
+      "insecure": false,
+      "utls": {
+        "enabled": true,
+        "fingerprint": "randomized"
+      }
+    },
+    "type": "vless",
+    "uuid": "b4f25b41-cc8e-49eb-bdb8-83dd8c7e542d"
+  },
+  {
+    "server": "104.17.148.103",
+    "server_port": 80,
+    "tag": "🇭🇰香港 10",
+    "transport": {
+      "type": "ws",
+      "path": "/?ed=2048",
+      "headers": {
+        "Host": "cfnew.schzyc.cc.cd"
+      }
+    },
+    "type": "vless",
+    "uuid": "b4f25b41-cc8e-49eb-bdb8-83dd8c7e542d"
+  },
+  {
+    "server": "saas.sin.fan",
+    "server_port": 443,
+    "tag": "🇭🇰香港 11",
+    "transport": {
+      "type": "ws",
+      "path": "/?ed=2560",
+      "headers": {
+        "Host": "cf1-1mh.pages.dev"
+      }
+    },
+    "tls": {
+      "enabled": true,
+      "server_name": "cf1-1mh.pages.dev",
+      "insecure": false,
+      "utls": {
+        "enabled": true,
+        "fingerprint": "firefox"
+      }
+    },
+    "type": "vless",
+    "uuid": "5dc15e15-f285-4a9d-959b-0e4fbdd77b63"
+  },
+  {
+    "server": "cf.008500.xyz",
+    "server_port": 443,
+    "tag": "🇭🇰香港 12",
+    "transport": {
+      "type": "ws",
+      "path": "/?ed=2560",
+      "headers": {
+        "Host": "cf1-1mh.pages.dev"
+      }
+    },
+    "tls": {
+      "enabled": true,
+      "server_name": "cf1-1mh.pages.dev",
+      "insecure": false,
+      "utls": {
+        "enabled": true,
+        "fingerprint": "firefox"
+      }
+    },
+    "type": "vless",
+    "uuid": "5dc15e15-f285-4a9d-959b-0e4fbdd77b63"
+  },
+  {
+    "server": "cf.877774.xyz",
+    "server_port": 443,
+    "tag": "🇭🇰香港 13",
+    "transport": {
+      "type": "ws",
+      "path": "/?ed=2560",
+      "headers": {
+        "Host": "cf1-1mh.pages.dev"
+      }
+    },
+    "tls": {
+      "enabled": true,
+      "server_name": "cf1-1mh.pages.dev",
+      "insecure": false,
+      "utls": {
+        "enabled": true,
+        "fingerprint": "firefox"
+      }
+    },
+    "type": "vless",
+    "uuid": "5dc15e15-f285-4a9d-959b-0e4fbdd77b63"
+  },
+  {
+    "server": "cf.zhetengsha.eu.org",
+    "server_port": 443,
+    "tag": "🇭🇰香港 14",
+    "transport": {
+      "type": "ws",
+      "path": "/?ed=2560",
+      "headers": {
+        "Host": "cf1-1mh.pages.dev"
+      }
+    },
+    "tls": {
+      "enabled": true,
+      "server_name": "cf1-1mh.pages.dev",
+      "insecure": false,
+      "utls": {
+        "enabled": true,
+        "fingerprint": "firefox"
+      }
+    },
+    "type": "vless",
+    "uuid": "5dc15e15-f285-4a9d-959b-0e4fbdd77b63"
+  },
+  {
+    "server": "saas.sin.fan",
+    "server_port": 443,
+    "tag": "🇭🇰香港 15",
+    "transport": {
+      "type": "ws",
+      "path": "/?ed=2560",
+      "headers": {
+        "Host": "cf1-1mh.pages.dev"
+      }
+    },
+    "tls": {
+      "enabled": true,
+      "server_name": "cf1-1mh.pages.dev",
+      "insecure": false,
+      "utls": {
+        "enabled": true,
+        "fingerprint": "firefox"
+      }
+    },
+    "type": "trojan",
+    "password": "5dc15e15-f285-4a9d-959b-0e4fbdd77b63"
+  },
+  {
+    "server": "cf.008500.xyz",
+    "server_port": 443,
+    "tag": "🇭🇰香港 16",
+    "transport": {
+      "type": "ws",
+      "path": "/?ed=2560",
+      "headers": {
+        "Host": "cf1-1mh.pages.dev"
+      }
+    },
+    "tls": {
+      "enabled": true,
+      "server_name": "cf1-1mh.pages.dev",
+      "insecure": false,
+      "utls": {
+        "enabled": true,
+        "fingerprint": "firefox"
+      }
+    },
+    "type": "trojan",
+    "password": "5dc15e15-f285-4a9d-959b-0e4fbdd77b63"
+  },
+  {
+    "server": "cf.877774.xyz",
+    "server_port": 443,
+    "tag": "🇭🇰香港 17",
+    "transport": {
+      "type": "ws",
+      "path": "/?ed=2560",
+      "headers": {
+        "Host": "cf1-1mh.pages.dev"
+      }
+    },
+    "tls": {
+      "enabled": true,
+      "server_name": "cf1-1mh.pages.dev",
+      "insecure": false,
+      "utls": {
+        "enabled": true,
+        "fingerprint": "firefox"
+      }
+    },
+    "type": "trojan",
+    "password": "5dc15e15-f285-4a9d-959b-0e4fbdd77b63"
+  },
+  {
+    "server": "cf.zhetengsha.eu.org",
+    "server_port": 443,
+    "tag": "🇭🇰香港 18",
+    "transport": {
+      "type": "ws",
+      "path": "/?ed=2560",
+      "headers": {
+        "Host": "cf1-1mh.pages.dev"
+      }
+    },
+    "tls": {
+      "enabled": true,
+      "server_name": "cf1-1mh.pages.dev",
+      "insecure": false,
+      "utls": {
+        "enabled": true,
+        "fingerprint": "firefox"
+      }
+    },
+    "type": "trojan",
+    "password": "5dc15e15-f285-4a9d-959b-0e4fbdd77b63"
+  },
+  {
+    "server": "v9.hdacd.com",
+    "server_port": 30809,
+    "tag": "🇭🇰香港 19",
+    "type": "vmess",
+    "uuid": "cbb3f877-d1fb-344c-87a9-d153bffd5484",
+    "security": "auto",
+    "alter_id": 2
+  },
+  {
+    "server": "upright-hamster.rooster465.autos",
+    "server_port": 443,
+    "tag": "🇭🇰香港 21",
+    "tls": {
+      "enabled": true,
+      "server_name": "upright-hamster.rooster465.autos",
+      "insecure": true,
+      "utls": {
+        "enabled": true,
+        "fingerprint": "chrome"
+      }
+    },
+    "type": "trojan",
+    "password": "ND91608427"
+  },
+  {
+    "server": "ace-starling.rooster465.autos",
+    "server_port": 443,
+    "tag": "🇭🇰香港 22",
+    "tls": {
+      "enabled": true,
+      "server_name": "ace-starling.rooster465.autos",
+      "insecure": true,
+      "utls": {
+        "enabled": true,
+        "fingerprint": "chrome"
+      }
+    },
+    "type": "trojan",
+    "password": "ND91608427"
+  },
+  {
     "server": "dynamic-grubworm.rooster465.autos",
     "server_port": 443,
-    "tag": "🇭🇰香港 08",
+    "tag": "🇭🇰香港 25",
     "tls": {
       "enabled": true,
       "server_name": "dynamic-grubworm.rooster465.autos",
@@ -921,6 +1312,22 @@
     "password": "ND91608427"
   },
   {
+    "server": "picked-guinea.rooster465.autos",
+    "server_port": 443,
+    "tag": "🇯🇵日本 23",
+    "tls": {
+      "enabled": true,
+      "server_name": "picked-guinea.rooster465.autos",
+      "insecure": true,
+      "utls": {
+        "enabled": true,
+        "fingerprint": "chrome"
+      }
+    },
+    "type": "trojan",
+    "password": "ND91608427"
+  },
+  {
     "server": "sure-humpback.rooster465.autos",
     "server_port": 443,
     "tag": "🇯🇵日本 24",
@@ -1068,6 +1475,86 @@
     "server": "clear-snail.rooster465.autos",
     "server_port": 443,
     "tag": "🇯🇵日本 33",
+    "tls": {
+      "enabled": true,
+      "server_name": "clear-snail.rooster465.autos",
+      "insecure": true,
+      "utls": {
+        "enabled": true,
+        "fingerprint": "chrome"
+      }
+    },
+    "type": "trojan",
+    "password": "ND91608427"
+  },
+  {
+    "server": "prompt-duckling.rooster465.autos",
+    "server_port": 443,
+    "tag": "🇯🇵日本 34",
+    "tls": {
+      "enabled": true,
+      "server_name": "prompt-duckling.rooster465.autos",
+      "insecure": true,
+      "utls": {
+        "enabled": true,
+        "fingerprint": "chrome"
+      }
+    },
+    "type": "trojan",
+    "password": "ND91608427"
+  },
+  {
+    "server": "right-seahorse.rooster465.autos",
+    "server_port": 443,
+    "tag": "🇯🇵日本 35",
+    "tls": {
+      "enabled": true,
+      "server_name": "right-seahorse.rooster465.autos",
+      "insecure": true,
+      "utls": {
+        "enabled": true,
+        "fingerprint": "chrome"
+      }
+    },
+    "type": "trojan",
+    "password": "ND91608427"
+  },
+  {
+    "server": "united-molly.rooster465.autos",
+    "server_port": 443,
+    "tag": "🇯🇵日本 36",
+    "tls": {
+      "enabled": true,
+      "server_name": "united-molly.rooster465.autos",
+      "insecure": true,
+      "utls": {
+        "enabled": true,
+        "fingerprint": "chrome"
+      }
+    },
+    "type": "trojan",
+    "password": "ND91608427"
+  },
+  {
+    "server": "learning-leopard.rooster465.autos",
+    "server_port": 443,
+    "tag": "🇯🇵日本 37",
+    "tls": {
+      "enabled": true,
+      "server_name": "learning-leopard.rooster465.autos",
+      "insecure": true,
+      "utls": {
+        "enabled": true,
+        "fingerprint": "chrome"
+      }
+    },
+    "type": "trojan",
+    "password": "ND91608427"
+  },
+  {
+    "server": "clear-snail.rooster465.autos",
+    "server_port": 443,
+    "tag": "🇯🇵日本 38",
     "tls": {
       "enabled": true,
       "server_name": "clear-snail.rooster465.autos",
@@ -1361,6 +1848,84 @@
     "password": "ND91608427"
   },
   {
+    "server": "moved-meerkat.rooster465.autos",
+    "server_port": 443,
+    "tag": "🇰🇷韩国 19",
+    "tls": {
+      "enabled": true,
+      "server_name": "moved-meerkat.rooster465.autos",
+      "insecure": true,
+      "utls": {
+        "enabled": true,
+        "fingerprint": "chrome"
+      }
+    },
+    "type": "trojan",
+    "password": "ND91608427"
+  },
+  {
+    "server": "striking-maggot.rooster465.autos",
+    "server_port": 443,
+    "tag": "🇰🇷韩国 20",
+    "tls": {
+      "enabled": true,
+      "server_name": "striking-maggot.rooster465.autos",
+      "insecure": true,
+      "utls": {
+        "enabled": true,
+        "fingerprint": "chrome"
+      }
+    },
+    "type": "trojan",
+    "password": "ND91608427"
+  },
+  {
+    "server": "95.156.205.244",
+    "server_port": 443,
+    "tag": "🇱🇻拉脱维亚 01",
+    "transport": {
+      "type": "ws",
+      "path": "/proxyip=ProxyIP.CMLiussss.net",
+      "headers": {
+        "Host": "cf3.schzyc.cc.cd"
+      }
+    },
+    "tls": {
+      "enabled": true,
+      "server_name": "cf3.schzyc.cc.cd",
+      "insecure": false,
+      "utls": {
+        "enabled": true,
+        "fingerprint": "chrome"
+      }
+    },
+    "type": "vless",
+    "uuid": "51a0af77-a60c-4d9b-81a4-f50e1b38d90b"
+  },
+  {
+    "server": "188.215.31.110",
+    "server_port": 8443,
+    "tag": "🇱🇻拉脱维亚 02",
+    "transport": {
+      "type": "ws",
+      "path": "/proxyip=ProxyIP.CMLiussss.net",
+      "headers": {
+        "Host": "cf3.schzyc.cc.cd"
+      }
+    },
+    "tls": {
+      "enabled": true,
+      "server_name": "cf3.schzyc.cc.cd",
+      "insecure": false,
+      "utls": {
+        "enabled": true,
+        "fingerprint": "chrome"
+      }
+    },
+    "type": "vless",
+    "uuid": "51a0af77-a60c-4d9b-81a4-f50e1b38d90b"
+  },
+  {
     "server": "84.235.173.150",
     "server_port": 62145,
     "tag": "🇳🇱荷兰 01",
@@ -1420,20 +1985,50 @@
     "down_mbps": 100
   },
   {
-    "server": "eager-louse.rooster465.autos",
+    "server": "161.35.154.135",
     "server_port": 443,
     "tag": "🇳🇱荷兰 05",
+    "transport": {
+      "type": "ws",
+      "path": "/proxyip=ProxyIP.CMLiussss.net",
+      "headers": {
+        "Host": "cf3.schzyc.cc.cd"
+      }
+    },
     "tls": {
       "enabled": true,
-      "server_name": "eager-louse.rooster465.autos",
-      "insecure": true,
+      "server_name": "cf3.schzyc.cc.cd",
+      "insecure": false,
       "utls": {
         "enabled": true,
         "fingerprint": "chrome"
       }
     },
-    "type": "trojan",
-    "password": "ND91608427"
+    "type": "vless",
+    "uuid": "51a0af77-a60c-4d9b-81a4-f50e1b38d90b"
+  },
+  {
+    "server": "95.85.25.127",
+    "server_port": 8443,
+    "tag": "🇳🇱荷兰 06",
+    "transport": {
+      "type": "ws",
+      "path": "/proxyip=ProxyIP.CMLiussss.net",
+      "headers": {
+        "Host": "cf3.schzyc.cc.cd"
+      }
+    },
+    "tls": {
+      "enabled": true,
+      "server_name": "cf3.schzyc.cc.cd",
+      "insecure": false,
+      "utls": {
+        "enabled": true,
+        "fingerprint": "chrome"
+      }
+    },
+    "type": "vless",
+    "uuid": "51a0af77-a60c-4d9b-81a4-f50e1b38d90b"
   },
   {
     "server": "195.58.49.114",
@@ -1510,6 +2105,22 @@
     },
     "type": "trojan",
     "password": "RJbtIstwtcU5buDY3r"
+  },
+  {
+    "server": "eager-louse.rooster465.autos",
+    "server_port": 443,
+    "tag": "🇳🇱荷兰 12",
+    "tls": {
+      "enabled": true,
+      "server_name": "eager-louse.rooster465.autos",
+      "insecure": true,
+      "utls": {
+        "enabled": true,
+        "fingerprint": "chrome"
+      }
+    },
+    "type": "trojan",
+    "password": "ND91608427"
   },
   {
     "server": "eager-louse.rooster465.autos",
@@ -1689,6 +2300,267 @@
     "password": "ND91608427"
   },
   {
+    "server": "162.159.24.153",
+    "server_port": 80,
+    "tag": "🇸🇬新加坡 06",
+    "transport": {
+      "type": "ws",
+      "path": "/?ed=2048",
+      "headers": {
+        "Host": "cfnew.schzyc.cc.cd"
+      }
+    },
+    "type": "vless",
+    "uuid": "b4f25b41-cc8e-49eb-bdb8-83dd8c7e542d"
+  },
+  {
+    "server": "162.159.5.92",
+    "server_port": 443,
+    "tag": "🇸🇬新加坡 07",
+    "transport": {
+      "type": "ws",
+      "path": "/?ed=2048",
+      "headers": {
+        "Host": "cfnew.schzyc.cc.cd"
+      }
+    },
+    "tls": {
+      "enabled": true,
+      "server_name": "cfnew.schzyc.cc.cd",
+      "insecure": false,
+      "utls": {
+        "enabled": true,
+        "fingerprint": "randomized"
+      }
+    },
+    "type": "vless",
+    "uuid": "b4f25b41-cc8e-49eb-bdb8-83dd8c7e542d"
+  },
+  {
+    "server": "162.159.5.92",
+    "server_port": 80,
+    "tag": "🇸🇬新加坡 08",
+    "transport": {
+      "type": "ws",
+      "path": "/?ed=2048",
+      "headers": {
+        "Host": "cfnew.schzyc.cc.cd"
+      }
+    },
+    "type": "vless",
+    "uuid": "b4f25b41-cc8e-49eb-bdb8-83dd8c7e542d"
+  },
+  {
+    "server": "172.64.41.240",
+    "server_port": 443,
+    "tag": "🇸🇬新加坡 09",
+    "transport": {
+      "type": "ws",
+      "path": "/?ed=2048",
+      "headers": {
+        "Host": "cfnew.schzyc.cc.cd"
+      }
+    },
+    "tls": {
+      "enabled": true,
+      "server_name": "cfnew.schzyc.cc.cd",
+      "insecure": false,
+      "utls": {
+        "enabled": true,
+        "fingerprint": "randomized"
+      }
+    },
+    "type": "vless",
+    "uuid": "b4f25b41-cc8e-49eb-bdb8-83dd8c7e542d"
+  },
+  {
+    "server": "172.64.41.240",
+    "server_port": 80,
+    "tag": "🇸🇬新加坡 10",
+    "transport": {
+      "type": "ws",
+      "path": "/?ed=2048",
+      "headers": {
+        "Host": "cfnew.schzyc.cc.cd"
+      }
+    },
+    "type": "vless",
+    "uuid": "b4f25b41-cc8e-49eb-bdb8-83dd8c7e542d"
+  },
+  {
+    "server": "108.162.194.88",
+    "server_port": 443,
+    "tag": "🇸🇬新加坡 11",
+    "transport": {
+      "type": "ws",
+      "path": "/?ed=2048",
+      "headers": {
+        "Host": "cfnew.schzyc.cc.cd"
+      }
+    },
+    "tls": {
+      "enabled": true,
+      "server_name": "cfnew.schzyc.cc.cd",
+      "insecure": false,
+      "utls": {
+        "enabled": true,
+        "fingerprint": "randomized"
+      }
+    },
+    "type": "vless",
+    "uuid": "b4f25b41-cc8e-49eb-bdb8-83dd8c7e542d"
+  },
+  {
+    "server": "108.162.194.88",
+    "server_port": 80,
+    "tag": "🇸🇬新加坡 12",
+    "transport": {
+      "type": "ws",
+      "path": "/?ed=2048",
+      "headers": {
+        "Host": "cfnew.schzyc.cc.cd"
+      }
+    },
+    "type": "vless",
+    "uuid": "b4f25b41-cc8e-49eb-bdb8-83dd8c7e542d"
+  },
+  {
+    "server": "mfa.gov.ua",
+    "server_port": 443,
+    "tag": "🇸🇬新加坡 13",
+    "transport": {
+      "type": "ws",
+      "path": "/?ed=2560",
+      "headers": {
+        "Host": "cf1-1mh.pages.dev"
+      }
+    },
+    "tls": {
+      "enabled": true,
+      "server_name": "cf1-1mh.pages.dev",
+      "insecure": false,
+      "utls": {
+        "enabled": true,
+        "fingerprint": "firefox"
+      }
+    },
+    "type": "vless",
+    "uuid": "5dc15e15-f285-4a9d-959b-0e4fbdd77b63"
+  },
+  {
+    "server": "cf.090227.xyz",
+    "server_port": 443,
+    "tag": "🇸🇬新加坡 14",
+    "transport": {
+      "type": "ws",
+      "path": "/?ed=2560",
+      "headers": {
+        "Host": "cf1-1mh.pages.dev"
+      }
+    },
+    "tls": {
+      "enabled": true,
+      "server_name": "cf1-1mh.pages.dev",
+      "insecure": false,
+      "utls": {
+        "enabled": true,
+        "fingerprint": "firefox"
+      }
+    },
+    "type": "vless",
+    "uuid": "5dc15e15-f285-4a9d-959b-0e4fbdd77b63"
+  },
+  {
+    "server": "mfa.gov.ua",
+    "server_port": 443,
+    "tag": "🇸🇬新加坡 15",
+    "transport": {
+      "type": "ws",
+      "path": "/?ed=2560",
+      "headers": {
+        "Host": "cf1-1mh.pages.dev"
+      }
+    },
+    "tls": {
+      "enabled": true,
+      "server_name": "cf1-1mh.pages.dev",
+      "insecure": false,
+      "utls": {
+        "enabled": true,
+        "fingerprint": "firefox"
+      }
+    },
+    "type": "trojan",
+    "password": "5dc15e15-f285-4a9d-959b-0e4fbdd77b63"
+  },
+  {
+    "server": "cf.090227.xyz",
+    "server_port": 443,
+    "tag": "🇸🇬新加坡 16",
+    "transport": {
+      "type": "ws",
+      "path": "/?ed=2560",
+      "headers": {
+        "Host": "cf1-1mh.pages.dev"
+      }
+    },
+    "tls": {
+      "enabled": true,
+      "server_name": "cf1-1mh.pages.dev",
+      "insecure": false,
+      "utls": {
+        "enabled": true,
+        "fingerprint": "firefox"
+      }
+    },
+    "type": "trojan",
+    "password": "5dc15e15-f285-4a9d-959b-0e4fbdd77b63"
+  },
+  {
+    "server": "16.162.22.218",
+    "server_port": 9149,
+    "tag": "🇸🇬新加坡 17",
+    "tls": {
+      "enabled": true,
+      "server_name": "t.me%252Fripaojiedian",
+      "insecure": true
+    },
+    "type": "trojan",
+    "password": "BxceQaOe"
+  },
+  {
+    "server": "tidy-gelding.rooster465.autos",
+    "server_port": 443,
+    "tag": "🇸🇬新加坡 18",
+    "tls": {
+      "enabled": true,
+      "server_name": "tidy-gelding.rooster465.autos",
+      "insecure": true,
+      "utls": {
+        "enabled": true,
+        "fingerprint": "chrome"
+      }
+    },
+    "type": "trojan",
+    "password": "ND91608427"
+  },
+  {
+    "server": "sacred-treefrog.rooster465.autos",
+    "server_port": 443,
+    "tag": "🇸🇬新加坡 19",
+    "tls": {
+      "enabled": true,
+      "server_name": "sacred-treefrog.rooster465.autos",
+      "insecure": true,
+      "utls": {
+        "enabled": true,
+        "fingerprint": "chrome"
+      }
+    },
+    "type": "trojan",
+    "password": "ND91608427"
+  },
+  {
     "server": "hkdcrtc-e.catcat321.com",
     "server_port": 20066,
     "tag": "🇺🇦乌克兰 01",
@@ -1720,109 +2592,19 @@
     "password": "MiTiVPN"
   },
   {
-    "server": "natural-collie.rooster465.autos",
-    "server_port": 443,
-    "tag": "🇺🇸美国 04",
-    "tls": {
-      "enabled": true,
-      "server_name": "natural-collie.rooster465.autos",
-      "insecure": true,
-      "utls": {
-        "enabled": true,
-        "fingerprint": "chrome"
-      }
-    },
-    "type": "trojan",
-    "password": "ND91608427"
-  },
-  {
-    "server": "devoted-tapir.rooster465.autos",
-    "server_port": 443,
-    "tag": "🇺🇸美国 05",
-    "tls": {
-      "enabled": true,
-      "server_name": "devoted-tapir.rooster465.autos",
-      "insecure": true,
-      "utls": {
-        "enabled": true,
-        "fingerprint": "chrome"
-      }
-    },
-    "type": "trojan",
-    "password": "ND91608427"
-  },
-  {
-    "server": "sincere-gelding.rooster465.autos",
-    "server_port": 443,
-    "tag": "🇺🇸美国 06",
-    "tls": {
-      "enabled": true,
-      "server_name": "sincere-gelding.rooster465.autos",
-      "insecure": true,
-      "utls": {
-        "enabled": true,
-        "fingerprint": "chrome"
-      }
-    },
-    "type": "trojan",
-    "password": "ND91608427"
-  },
-  {
-    "server": "fleet-bonefish.rooster465.autos",
-    "server_port": 443,
-    "tag": "🇺🇸美国 07",
-    "tls": {
-      "enabled": true,
-      "server_name": "fleet-bonefish.rooster465.autos",
-      "insecure": true,
-      "utls": {
-        "enabled": true,
-        "fingerprint": "chrome"
-      }
-    },
-    "type": "trojan",
-    "password": "ND91608427"
-  },
-  {
-    "server": "pet-ghost.rooster465.autos",
-    "server_port": 443,
-    "tag": "🇺🇸美国 08",
-    "tls": {
-      "enabled": true,
-      "server_name": "pet-ghost.rooster465.autos",
-      "insecure": true,
-      "utls": {
-        "enabled": true,
-        "fingerprint": "chrome"
-      }
-    },
-    "type": "trojan",
-    "password": "ND91608427"
-  },
-  {
-    "server": "172.96.161.152",
-    "server_port": 20090,
-    "tag": "🇺🇸美国 09",
-    "type": "shadowsocks",
-    "method": "2022-blake3-aes-128-gcm",
-    "password": "YTE1ZWU4ZTEyZjc3YmEzZA==:ZjQ4NzExMzUtMGYzNy00NA==",
-    "plugin": "gost-plugin",
-    "plugin_opts": "mode=websocket;host=one.local"
-  },
-  {
-    "server": "cf-cdn.nekohub.xyz",
+    "server": "142.248.218.131",
     "server_port": 2053,
-    "tag": "🇺🇸美国 10",
+    "tag": "🇺🇸美国 02",
     "transport": {
       "type": "ws",
-      "path": "/vless_ws?ed=4096",
+      "path": "/proxyip=ProxyIP.CMLiussss.net",
       "headers": {
-        "Host": "ccsus11.nekohub.xyz"
+        "Host": "cf3.schzyc.cc.cd"
       }
     },
     "tls": {
       "enabled": true,
-      "server_name": "ccsus11-cdn.nekohub.xyz",
+      "server_name": "cf3.schzyc.cc.cd",
       "insecure": false,
       "utls": {
         "enabled": true,
@@ -1830,7 +2612,164 @@
       }
     },
     "type": "vless",
-    "uuid": "03884015-fe72-455e-b869-b50d709145bb"
+    "uuid": "51a0af77-a60c-4d9b-81a4-f50e1b38d90b"
+  },
+  {
+    "server": "142.248.219.159",
+    "server_port": 2053,
+    "tag": "🇺🇸美国 03",
+    "transport": {
+      "type": "ws",
+      "path": "/proxyip=ProxyIP.CMLiussss.net",
+      "headers": {
+        "Host": "cf3.schzyc.cc.cd"
+      }
+    },
+    "tls": {
+      "enabled": true,
+      "server_name": "cf3.schzyc.cc.cd",
+      "insecure": false,
+      "utls": {
+        "enabled": true,
+        "fingerprint": "chrome"
+      }
+    },
+    "type": "vless",
+    "uuid": "51a0af77-a60c-4d9b-81a4-f50e1b38d90b"
+  },
+  {
+    "server": "162.243.215.140",
+    "server_port": 443,
+    "tag": "🇺🇸美国 04",
+    "transport": {
+      "type": "ws",
+      "path": "/proxyip=ProxyIP.CMLiussss.net",
+      "headers": {
+        "Host": "cf3.schzyc.cc.cd"
+      }
+    },
+    "tls": {
+      "enabled": true,
+      "server_name": "cf3.schzyc.cc.cd",
+      "insecure": false,
+      "utls": {
+        "enabled": true,
+        "fingerprint": "chrome"
+      }
+    },
+    "type": "vless",
+    "uuid": "51a0af77-a60c-4d9b-81a4-f50e1b38d90b"
+  },
+  {
+    "server": "104.17.187.155",
+    "server_port": 443,
+    "tag": "🇺🇸美国 05",
+    "transport": {
+      "type": "ws",
+      "path": "/?ed=2048",
+      "headers": {
+        "Host": "cfnew.schzyc.cc.cd"
+      }
+    },
+    "tls": {
+      "enabled": true,
+      "server_name": "cfnew.schzyc.cc.cd",
+      "insecure": false,
+      "utls": {
+        "enabled": true,
+        "fingerprint": "randomized"
+      }
+    },
+    "type": "vless",
+    "uuid": "b4f25b41-cc8e-49eb-bdb8-83dd8c7e542d"
+  },
+  {
+    "server": "104.17.187.155",
+    "server_port": 80,
+    "tag": "🇺🇸美国 06",
+    "transport": {
+      "type": "ws",
+      "path": "/?ed=2048",
+      "headers": {
+        "Host": "cfnew.schzyc.cc.cd"
+      }
+    },
+    "type": "vless",
+    "uuid": "b4f25b41-cc8e-49eb-bdb8-83dd8c7e542d"
+  },
+  {
+    "server": "104.17.119.246",
+    "server_port": 443,
+    "tag": "🇺🇸美国 07",
+    "transport": {
+      "type": "ws",
+      "path": "/?ed=2048",
+      "headers": {
+        "Host": "cfnew.schzyc.cc.cd"
+      }
+    },
+    "tls": {
+      "enabled": true,
+      "server_name": "cfnew.schzyc.cc.cd",
+      "insecure": false,
+      "utls": {
+        "enabled": true,
+        "fingerprint": "randomized"
+      }
+    },
+    "type": "vless",
+    "uuid": "b4f25b41-cc8e-49eb-bdb8-83dd8c7e542d"
+  },
+  {
+    "server": "104.17.119.246",
+    "server_port": 80,
+    "tag": "🇺🇸美国 08",
+    "transport": {
+      "type": "ws",
+      "path": "/?ed=2048",
+      "headers": {
+        "Host": "cfnew.schzyc.cc.cd"
+      }
+    },
+    "type": "vless",
+    "uuid": "b4f25b41-cc8e-49eb-bdb8-83dd8c7e542d"
+  },
+  {
+    "server": "104.19.49.50",
+    "server_port": 443,
+    "tag": "🇺🇸美国 09",
+    "transport": {
+      "type": "ws",
+      "path": "/?ed=2048",
+      "headers": {
+        "Host": "cfnew.schzyc.cc.cd"
+      }
+    },
+    "tls": {
+      "enabled": true,
+      "server_name": "cfnew.schzyc.cc.cd",
+      "insecure": false,
+      "utls": {
+        "enabled": true,
+        "fingerprint": "randomized"
+      }
+    },
+    "type": "vless",
+    "uuid": "b4f25b41-cc8e-49eb-bdb8-83dd8c7e542d"
+  },
+  {
+    "server": "104.19.49.50",
+    "server_port": 80,
+    "tag": "🇺🇸美国 10",
+    "transport": {
+      "type": "ws",
+      "path": "/?ed=2048",
+      "headers": {
+        "Host": "cfnew.schzyc.cc.cd"
+      }
+    },
+    "type": "vless",
+    "uuid": "b4f25b41-cc8e-49eb-bdb8-83dd8c7e542d"
   },
   {
     "server": "uswx3.wxgqlfx.vip",
