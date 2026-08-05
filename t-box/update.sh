@@ -286,7 +286,7 @@ _clash_to_singbox() {
       elif .type == "shadowsocks" or .type == "ss" then
         { type: "shadowsocks", method: (.cipher // "aes-256-gcm"), password: (.password // ""),
           plugin: (if .plugin then .plugin else empty end),
-          plugin_opts: (if .["plugin-opts"] then .["plugin-opts"] else empty end)
+          plugin_opts: (if .["plugin-opts"] then (.["plugin-opts"] | to_entries | map("\(.key)=\(.value)") | join(";")) else empty end)
         }
       elif .type == "vmess" then
         { type: "vmess", uuid, security: (.cipher // "auto"),
