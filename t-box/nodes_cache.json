@@ -1807,10 +1807,7 @@
     "method": "2022-blake3-aes-128-gcm",
     "password": "YTE1ZWU4ZTEyZjc3YmEzZA==:ZjQ4NzExMzUtMGYzNy00NA==",
     "plugin": "gost-plugin",
-    "plugin_opts": {
-      "mode": "websocket",
-      "host": "one.local"
-    }
+    "plugin_opts": "mode=websocket;host=one.local"
   },
   {
     "server": "cf-cdn.nekohub.xyz",
