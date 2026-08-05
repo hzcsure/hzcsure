@@ -31,13 +31,13 @@ _transport_jq() {
     local type="$1" host="$2" path="$3"
     case "$type" in
         ws) jq -n -c --arg host "$host" --arg path "${path:-/}" \
-              '{type:"ws",path:$path,headers:{Host:$host}}' ;;
+              '{transport:{type:"ws",path:$path,headers:{Host:$host}}}' ;;
         grpc) jq -n -c --arg svc "${path:-gRPC}" \
-              '{type:"grpc",service_name:$svc}' ;;
+              '{transport:{type:"grpc",service_name:$svc}}' ;;
         http|h2) jq -n -c --arg host "$host" --arg path "${path:-/}" \
-              '{type:"http",host:[$host],path:$path}' ;;
+              '{transport:{type:"http",host:[$host],path:$path}}' ;;
         httpupgrade) jq -n -c --arg host "$host" --arg path "${path:-/}" \
-              '{type:"httpupgrade",host:$host,path:$path}' ;;
+              '{transport:{type:"httpupgrade",host:$host,path:$path}}' ;;
         *) echo '{}' ;;
     esac
 }
