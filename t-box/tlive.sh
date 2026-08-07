@@ -222,15 +222,17 @@ if [ -s "$ALIVE_TMP" ]; then
     echo "exported $exported_count alive nodes to $ALIVE_TMP"
 
     # Replace alive_nodes.txt
-    mv "$ALIVE_TMP" "$ALIVE_FILE"
+    base64 "$ALIVE_TMP" >  "$ALIVE_FILE"
+    rm -f  "$ALIVE_TMP"
+    
     echo "updated $ALIVE_FILE"
 
     # Show top 5
-    echo ""
-    echo "Top 5:"
-    head -5 "$ALIVE_FILE" | while IFS= read -r uri; do
-        echo "  ${uri:0:80}..."
-    done
+    #echo ""
+    #echo "Top 5:"
+    #head -5 "$ALIVE_FILE" | while IFS= read -r uri; do
+    #    echo "  ${uri:0:80}..."
+    #done
 else
     echo "export produced empty file (unsupported node types: http/socks)"
     rm -f "$ALIVE_TMP"
