@@ -4022,6 +4022,21 @@ proxies:
     path: /?ed=2560&pyip=proxyip.cmliussss.net
     headers:
       Host: cf.cloudip.ggff.net
+- name: 🌐 未知 65 @SCHPD
+  type: vless
+  server: 172.64.159.31
+  port: 443
+  uuid: 04c808e2-0b59-47b0-a54b-32fc7ef1c902
+  tls: true
+  udp: false
+  sni: cf.cloudip.ggff.net
+  client-fingerprint: chrome
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /?ed=2560&pyip=proxyip.cmliussss.net
+    headers:
+      Host: cf.cloudip.ggff.net
 - name: 🇺🇸 美国 25 @SCHPD
   type: vless
   server: 172.64.176.131
@@ -4052,9 +4067,9 @@ proxies:
     path: /?ed=2560&pyip=proxyip.cmliussss.net
     headers:
       Host: cf.cloudip.ggff.net
-- name: 🌐 未知 65 @SCHPD
+- name: 🌐 未知 66 @SCHPD
   type: vless
-  server: 172.64.229.23
+  server: 172.64.229.165
   port: 443
   uuid: 04c808e2-0b59-47b0-a54b-32fc7ef1c902
   tls: true
@@ -4082,7 +4097,7 @@ proxies:
     path: /?ed=2560&pyip=proxyip.cmliussss.net
     headers:
       Host: cf.cloudip.ggff.net
-- name: 🌐 未知 66 @SCHPD
+- name: 🌐 未知 67 @SCHPD
   type: vless
   server: 172.64.229.7
   port: 443
@@ -4247,7 +4262,7 @@ proxies:
     path: /?ed=2560&pyip=proxyip.cmliussss.net
     headers:
       Host: cf.cloudip.ggff.net
-- name: 🌐 未知 67 @SCHPD
+- name: 🌐 未知 68 @SCHPD
   type: vless
   server: 172.64.48.226
   port: 443
@@ -4262,7 +4277,7 @@ proxies:
     path: /?ed=2560&pyip=proxyip.cmliussss.net
     headers:
       Host: cf.cloudip.ggff.net
-- name: 🌐 未知 68 @SCHPD
+- name: 🌐 未知 69 @SCHPD
   type: vless
   server: 172.64.52.127
   port: 443
@@ -4277,7 +4292,7 @@ proxies:
     path: /?ed=2560&pyip=proxyip.cmliussss.net
     headers:
       Host: cf.cloudip.ggff.net
-- name: 🌐 未知 69 @SCHPD
+- name: 🌐 未知 70 @SCHPD
   type: vless
   server: 172.64.52.147
   port: 443
@@ -4292,7 +4307,7 @@ proxies:
     path: /?ed=2560&pyip=proxyip.cmliussss.net
     headers:
       Host: cf.cloudip.ggff.net
-- name: 🌐 未知 70 @SCHPD
+- name: 🌐 未知 71 @SCHPD
   type: vless
   server: 172.64.52.237
   port: 443
@@ -4307,7 +4322,7 @@ proxies:
     path: /?ed=2560&pyip=proxyip.cmliussss.net
     headers:
       Host: cf.cloudip.ggff.net
-- name: 🌐 未知 71 @SCHPD
+- name: 🌐 未知 72 @SCHPD
   type: vless
   server: 172.64.53.210
   port: 443
@@ -4322,7 +4337,7 @@ proxies:
     path: /?ed=2560&pyip=proxyip.cmliussss.net
     headers:
       Host: cf.cloudip.ggff.net
-- name: 🌐 未知 72 @SCHPD
+- name: 🌐 未知 73 @SCHPD
   type: vless
   server: 172.64.53.41
   port: 443
@@ -4337,7 +4352,7 @@ proxies:
     path: /?ed=2560&pyip=proxyip.cmliussss.net
     headers:
       Host: cf.cloudip.ggff.net
-- name: 🌐 未知 73 @SCHPD
+- name: 🌐 未知 74 @SCHPD
   type: vless
   server: 172.64.82.114
   port: 443
@@ -4352,7 +4367,7 @@ proxies:
     path: /?ed=2560&pyip=proxyip.cmliussss.net
     headers:
       Host: cf.cloudip.ggff.net
-- name: 🌐 未知 74 @SCHPD
+- name: 🌐 未知 75 @SCHPD
   type: vless
   server: 172.64.91.69
   port: 443
@@ -4442,7 +4457,7 @@ proxies:
     path: /?ed=2560&pyip=proxyip.cmliussss.net
     headers:
       Host: cf.cloudip.ggff.net
-- name: 🌐 未知 75 @SCHPD
+- name: 🌐 未知 76 @SCHPD
   type: vless
   server: 172.67.75.107
   port: 443
@@ -4457,7 +4472,7 @@ proxies:
     path: /?ed=2560&pyip=proxyip.cmliussss.net
     headers:
       Host: cf.cloudip.ggff.net
-- name: 🌐 未知 76 @SCHPD
+- name: 🌐 未知 77 @SCHPD
   type: vless
   server: 172.67.76.135
   port: 443
@@ -4517,7 +4532,7 @@ proxies:
     path: /?ed=2560&pyip=proxyip.cmliussss.net
     headers:
       Host: cf.cloudip.ggff.net
-- name: 🌐 未知 77 @SCHPD
+- name: 🌐 未知 78 @SCHPD
   type: vless
   server: 173.245.49.194
   port: 443
@@ -4742,7 +4757,7 @@ proxies:
     path: /?ed=2560&pyip=proxyip.cmliussss.net
     headers:
       Host: cf.cloudip.ggff.net
-- name: 🌐 未知 78 @SCHPD
+- name: 🌐 未知 79 @SCHPD
   type: vless
   server: 198.41.194.162
   port: 443
@@ -4787,7 +4802,7 @@ proxies:
     path: /?ed=2560&pyip=proxyip.cmliussss.net
     headers:
       Host: cf.cloudip.ggff.net
-- name: 🌐 未知 79 @SCHPD
+- name: 🌐 未知 80 @SCHPD
   type: vless
   server: 198.41.208.15
   port: 443
@@ -4802,7 +4817,7 @@ proxies:
     path: /?ed=2560&pyip=proxyip.cmliussss.net
     headers:
       Host: cf.cloudip.ggff.net
-- name: 🌐 未知 80 @SCHPD
+- name: 🌐 未知 81 @SCHPD
   type: vless
   server: 198.41.208.224
   port: 443
@@ -4832,7 +4847,7 @@ proxies:
     path: /?ed=2560&pyip=proxyip.cmliussss.net
     headers:
       Host: cf.cloudip.ggff.net
-- name: 🌐 未知 81 @SCHPD
+- name: 🌐 未知 82 @SCHPD
   type: vless
   server: 198.41.223.87
   port: 443
@@ -5121,11 +5136,12 @@ proxy-groups:
   - 🇸🇬 新加坡 20 @SCHPD
   - 🌐 未知 64 @SCHPD
   - 🌐 洛杉矶 17 @SCHPD
+  - 🌐 未知 65 @SCHPD
   - 🇺🇸 美国 25 @SCHPD
   - 🇯🇵 日本 23 @SCHPD
-  - 🌐 未知 65 @SCHPD
-  - 🌐 Bd 08 @SCHPD
   - 🌐 未知 66 @SCHPD
+  - 🌐 Bd 08 @SCHPD
+  - 🌐 未知 67 @SCHPD
   - 🇯🇵 日本 24 @SCHPD
   - 🇯🇵 日本 25 @SCHPD
   - 🇸🇬 新加坡 21 @SCHPD
@@ -5136,7 +5152,6 @@ proxy-groups:
   - 🇸🇬 新加坡 25 @SCHPD
   - 🇸🇬 新加坡 26 @SCHPD
   - 🇸🇬 新加坡 27 @SCHPD
-  - 🌐 未知 67 @SCHPD
   - 🌐 未知 68 @SCHPD
   - 🌐 未知 69 @SCHPD
   - 🌐 未知 70 @SCHPD
@@ -5144,17 +5159,18 @@ proxy-groups:
   - 🌐 未知 72 @SCHPD
   - 🌐 未知 73 @SCHPD
   - 🌐 未知 74 @SCHPD
+  - 🌐 未知 75 @SCHPD
   - 🌐 洛杉矶 18 @SCHPD
   - 🌐 洛杉矶 19 @SCHPD
   - 🌐 香港 15 @SCHPD
   - 🌐 香港 16 @SCHPD
   - 🌐 香港 17 @SCHPD
-  - 🌐 未知 75 @SCHPD
   - 🌐 未知 76 @SCHPD
+  - 🌐 未知 77 @SCHPD
   - 🌐 香港 18 @SCHPD
   - 🌐 香港 19 @SCHPD
   - 🌐 香港 20 @SCHPD
-  - 🌐 未知 77 @SCHPD
+  - 🌐 未知 78 @SCHPD
   - 🇸🇬 新加坡 28 @SCHPD
   - 🇳🇱 荷兰 14 @SCHPD
   - 🇳🇱 荷兰 15 @SCHPD
@@ -5169,13 +5185,13 @@ proxy-groups:
   - 🇳🇱 荷兰 24 @SCHPD
   - 🇳🇱 荷兰 25 @SCHPD
   - 🇳🇱 荷兰 26 @SCHPD
-  - 🌐 未知 78 @SCHPD
+  - 🌐 未知 79 @SCHPD
   - 🌐 洛杉矶 20 @SCHPD
   - 🇺🇸 美国 26 @SCHPD
-  - 🌐 未知 79 @SCHPD
   - 🌐 未知 80 @SCHPD
-  - 🇸🇬 新加坡 29 @SCHPD
   - 🌐 未知 81 @SCHPD
+  - 🇸🇬 新加坡 29 @SCHPD
+  - 🌐 未知 82 @SCHPD
 - name: 🔰 手动切换
   type: select
   proxies:
@@ -5448,11 +5464,12 @@ proxy-groups:
   - 🇸🇬 新加坡 20 @SCHPD
   - 🌐 未知 64 @SCHPD
   - 🌐 洛杉矶 17 @SCHPD
+  - 🌐 未知 65 @SCHPD
   - 🇺🇸 美国 25 @SCHPD
   - 🇯🇵 日本 23 @SCHPD
-  - 🌐 未知 65 @SCHPD
-  - 🌐 Bd 08 @SCHPD
   - 🌐 未知 66 @SCHPD
+  - 🌐 Bd 08 @SCHPD
+  - 🌐 未知 67 @SCHPD
   - 🇯🇵 日本 24 @SCHPD
   - 🇯🇵 日本 25 @SCHPD
   - 🇸🇬 新加坡 21 @SCHPD
@@ -5463,7 +5480,6 @@ proxy-groups:
   - 🇸🇬 新加坡 25 @SCHPD
   - 🇸🇬 新加坡 26 @SCHPD
   - 🇸🇬 新加坡 27 @SCHPD
-  - 🌐 未知 67 @SCHPD
   - 🌐 未知 68 @SCHPD
   - 🌐 未知 69 @SCHPD
   - 🌐 未知 70 @SCHPD
@@ -5471,17 +5487,18 @@ proxy-groups:
   - 🌐 未知 72 @SCHPD
   - 🌐 未知 73 @SCHPD
   - 🌐 未知 74 @SCHPD
+  - 🌐 未知 75 @SCHPD
   - 🌐 洛杉矶 18 @SCHPD
   - 🌐 洛杉矶 19 @SCHPD
   - 🌐 香港 15 @SCHPD
   - 🌐 香港 16 @SCHPD
   - 🌐 香港 17 @SCHPD
-  - 🌐 未知 75 @SCHPD
   - 🌐 未知 76 @SCHPD
+  - 🌐 未知 77 @SCHPD
   - 🌐 香港 18 @SCHPD
   - 🌐 香港 19 @SCHPD
   - 🌐 香港 20 @SCHPD
-  - 🌐 未知 77 @SCHPD
+  - 🌐 未知 78 @SCHPD
   - 🇸🇬 新加坡 28 @SCHPD
   - 🇳🇱 荷兰 14 @SCHPD
   - 🇳🇱 荷兰 15 @SCHPD
@@ -5496,12 +5513,12 @@ proxy-groups:
   - 🇳🇱 荷兰 24 @SCHPD
   - 🇳🇱 荷兰 25 @SCHPD
   - 🇳🇱 荷兰 26 @SCHPD
-  - 🌐 未知 78 @SCHPD
+  - 🌐 未知 79 @SCHPD
   - 🌐 洛杉矶 20 @SCHPD
   - 🇺🇸 美国 26 @SCHPD
-  - 🌐 未知 79 @SCHPD
   - 🌐 未知 80 @SCHPD
-  - 🇸🇬 新加坡 29 @SCHPD
   - 🌐 未知 81 @SCHPD
+  - 🇸🇬 新加坡 29 @SCHPD
+  - 🌐 未知 82 @SCHPD
 rules:
 - MATCH,⚡ 自动优选

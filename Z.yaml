@@ -37,7 +37,7 @@ proxy-groups:
   - 🇺🇸 美国 01 @SCHPD
   - 🇺🇸 美国 02 @SCHPD
   - 🇺🇸 美国 03 @SCHPD
-  - ☁️ Cloudflare 01 @SCHPD
+  - 🌐 未知 01 @SCHPD
 - name: 自动选择
   type: url-test
   url: http://connectivitycheck.gstatic.com/generate_204
@@ -68,7 +68,7 @@ proxies:
   skip-cert-verify: true
   delay: 760
   udp: true
-- name: ☁️ Cloudflare 01 @SCHPD
+- name: 🌐 未知 01 @SCHPD
   server: cf.levikogjgfdd.ir
   type: vmess
   country: 🏁ZZ
