@@ -1,4 +1,4 @@
-name: 抓取订阅链接
+name: get_sub
 
 on:
   # 手动触发
