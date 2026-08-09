@@ -1,32 +1,3 @@
-{
-  "crawlTime": "2026-08-09T06:52:59.259Z",
-  "site": "https://misub.schzyc.de5.net/",
-  "profileToken": "profiles",
-  "count": 3,
-  "profiles": [
-    {
-      "name": "E组",
-      "description": "",
-      "customId": "6888344a-5008-4c02-bbc3-926120598322",
-      "subscriptionUrl": "https://misub.schzyc.de5.net/sub/profiles/6888344a-5008-4c02-bbc3-926120598322",
-      "subscriptionCount": 4,
-      "manualNodeCount": 0
-    },
-    {
-      "name": "C组",
-      "description": "",
-      "customId": "ff5d90e4-9b5e-4033-8341-b1feb2370c51",
-      "subscriptionUrl": "https://misub.schzyc.de5.net/sub/profiles/ff5d90e4-9b5e-4033-8341-b1feb2370c51",
-      "subscriptionCount": 3,
-      "manualNodeCount": 0
-    },
-    {
-      "name": "TG@schpd",
-      "description": "山茶花频道防私联订阅",
-      "customId": "b539b302-4c77-4f34-b5d4-7dcc002e6cd8",
-      "subscriptionUrl": "https://misub.schzyc.de5.net/sub/profiles/b539b302-4c77-4f34-b5d4-7dcc002e6cd8",
-      "subscriptionCount": 8,
-      "manualNodeCount": 11
-    }
-  ]
-}
+https://misub.schzyc.de5.net/sub/profiles/6888344a-5008-4c02-bbc3-926120598322
+https://misub.schzyc.de5.net/sub/profiles/ff5d90e4-9b5e-4033-8341-b1feb2370c51
+https://misub.schzyc.de5.net/sub/profiles/b539b302-4c77-4f34-b5d4-7dcc002e6cd8
