@@ -52,6 +52,9 @@ jobs:
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
-          git add sub/result.json
+          mkdir -p main
+          cat sub/result.json >> main/oo
+          sort -u main/oo -o main/oo
+          git add main/oo
           git commit -m "更新加密订阅链接 $(date +'%Y-%m-%d %H:%M')" || echo "无变化，不提交"
           git push
