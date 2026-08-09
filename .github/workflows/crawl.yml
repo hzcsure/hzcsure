@@ -29,7 +29,7 @@ jobs:
       - name: 运行抓取脚本
         uses: mujo-code/puppeteer-headful@master
         with:
-          args: node crawl.js
+          args: node ./sub/crawl.js
 
       - name: 上传结果文件
         uses: actions/upload-artifact@v4
