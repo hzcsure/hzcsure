@@ -3,7 +3,7 @@ name: get_sub
 on:
   workflow_dispatch:
   schedule:
-    - cron: '0 0 * * *'
+    - cron: '50 19 * * *'
 
 jobs:
   crawl:
