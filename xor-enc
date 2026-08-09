@@ -1,0 +1,48 @@
+#!/data/data/com.termux/files/usr/bin/bash
+# xor-enc - lightweight XOR + base64 encrypt/decrypt
+# Usage: xor-enc <text>          encrypt
+#        xor-enc -d <encoded>    decrypt
+# Depends: bash, base64, xxd
+
+KEY="${XOR_KEY:-tvproxy2024}"
+
+# Fall back to busybox xxd if standard xxd not available (Termux)
+command -v xxd >/dev/null 2>&1 && XXD="xxd" || XXD="busybox xxd"
+
+xor_enc() {
+    local plain="$1" key="$KEY" hex="" i=0 c x y h
+    while IFS= read -r -n1 c; do
+        [ -z "$c" ] && continue
+        printf -v x '%d' "'$c"
+        local ki=$((i % ${#key}))
+        printf -v y '%d' "'${key:$ki:1}"
+        printf -v h '%02x' $((x ^ y))
+        hex+="$h"
+        i=$((i + 1))
+    done <<< "$plain"
+    echo -n "$hex" | $XXD -r -p | base64 -w0
+    echo
+}
+
+xor_dec() {
+    local encoded="$1" key="$KEY"
+    local hex; hex=$(echo -n "$encoded" | base64 -d 2>/dev/null | $XXD -p -c0 | tr -d '\n')
+    [ -z "$hex" ] && { echo "ERROR: invalid base64 input" >&2; exit 1; }
+    local out_hex="" i=0
+    local len=$(( ${#hex} / 2 ))
+    for ((i=0; i<len; i++)); do
+        local bytestr="${hex:$((i*2)):2}"
+        printf -v bv '%d' "0x$bytestr"
+        local ki=$((i % ${#key}))
+        printf -v y '%d' "'${key:$ki:1}"
+        printf -v h '%02x' $((bv ^ y))
+        out_hex+="$h"
+    done
+    echo -n "$out_hex" | $XXD -r -p
+    echo
+}
+
+case "${1:-}" in
+    -d) xor_dec "${2:-}";;
+    *)  xor_enc "${1:-}";;
+esac
