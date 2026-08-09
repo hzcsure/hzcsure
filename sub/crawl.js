@@ -39,10 +39,10 @@ const fs = require('fs');
     });
   } catch (e) {
     console.log('⚠️ 页面加载超时，继续尝试...');
-    await page.waitForTimeout(5000);
+    await new Promise(r => setTimeout(r, 5000));
   }
 
-  await page.waitForTimeout(3000);
+  await new Promise(r => setTimeout(r, 3000));
 
   // 方法：从 Pinia Store 获取数据（最可靠）
   console.log('🔍 正在从前端 Store 获取订阅组数据...');
