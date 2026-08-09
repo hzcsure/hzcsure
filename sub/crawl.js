@@ -133,17 +133,10 @@ const fs = require('fs');
     console.log();
   });
 
-  // 保存结果到 JSON 文件
-  const output = {
-    crawlTime: new Date().toISOString(),
-    site: 'https://misub.schzyc.de5.net/',
-    profileToken: profileToken,
-    count: results.length,
-    profiles: results
-  };
-
-  fs.writeFileSync('result.json', JSON.stringify(output, null, 2));
-  console.log('💾 结果已保存到 result.json');
+  // 只输出订阅链接，每行一个
+  const urls = results.map(r => r.subscriptionUrl).join('\n') + '\n';
+  fs.writeFileSync('result.json', urls);
+  console.log('💾 订阅链接已保存到 result.json');
 
   // 也保存一个 Markdown 格式，方便阅读
   let md = `# MiSub 订阅链接\n\n`;
