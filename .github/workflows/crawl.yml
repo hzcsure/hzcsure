@@ -38,7 +38,7 @@ jobs:
           [ -f sub/result.json ] || { echo "result.json not found"; exit 1; }
           while IFS= read -r url; do
             [ -z "$url" ] && continue
-            ./xor-enc "$url"
+            ./xor-enc "$url  v2rayNG/1.8.0"
           done < sub/result.json > sub/result_enc.json
           mv sub/result_enc.json sub/result.json
 
