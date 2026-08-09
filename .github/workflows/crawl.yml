@@ -32,18 +32,26 @@ jobs:
         env:
           PUPPETEER_SKIP_CHROMIUM_DOWNLOAD: 'true'
 
+      - name: 加密订阅链接
+        run: |
+          chmod +x xor-enc
+          [ -f sub/result.json ] || { echo "result.json not found"; exit 1; }
+          while IFS= read -r url; do
+            [ -z "$url" ] && continue
+            ./xor-enc "$url"
+          done < sub/result.json > sub/result_enc.json
+          mv sub/result_enc.json sub/result.json
+
       - name: 上传结果文件
         uses: actions/upload-artifact@v4
         with:
           name: subscription-result
-          path: |
-            sub/result.json
-            sub/README-result.md
+          path: sub/result.json
 
       - name: 提交结果到仓库
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
-          git add sub/result.json sub/README-result.md
-          git commit -m "更新订阅链接 $(date +'%Y-%m-%d %H:%M')" || echo "无变化，不提交"
+          git add sub/result.json
+          git commit -m "更新加密订阅链接 $(date +'%Y-%m-%d %H:%M')" || echo "无变化，不提交"
           git push
