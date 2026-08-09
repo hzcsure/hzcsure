@@ -24,12 +24,12 @@ jobs:
           cache: 'npm'
 
       - name: 安装依赖
-        run: npm install
+        run: cd sub && npm install
 
       - name: 运行抓取脚本
         uses: mujo-code/puppeteer-headful@master
         with:
-          args: node ./sub/crawl.js
+          args: cd sub && node crawl.js
 
       - name: 上传结果文件
         uses: actions/upload-artifact@v4
