@@ -1,0 +1,8 @@
+{
+  "name": "misub-crawler",
+  "version": "1.0.0",
+  "description": "MiSub 订阅链接抓取工具",
+  "dependencies": {
+    "puppeteer": "^22.10.0"
+  }
+}
