@@ -1,13 +1,20 @@
-#!/data/data/com.termux/files/usr/bin/bash
+#!/usr/bin/env bash
 # xor-enc - lightweight XOR + base64 encrypt/decrypt
 # Usage: xor-enc <text>          encrypt
 #        xor-enc -d <encoded>    decrypt
-# Depends: bash, base64, xxd
+# Depends: bash, base64, xxd (apt install xxd / vim-common)
 
 KEY="${XOR_KEY:-tvproxy2024}"
 
-# Fall back to busybox xxd if standard xxd not available (Termux)
-command -v xxd >/dev/null 2>&1 && XXD="xxd" || XXD="busybox xxd"
+# On Ubuntu, xxd is in vim-common. Termux falls back to busybox.
+if command -v xxd >/dev/null 2>&1; then
+    XXD="xxd"
+elif command -v busybox >/dev/null 2>&1; then
+    XXD="busybox xxd"
+else
+    echo "ERROR: xxd not found. Install vim-common: sudo apt install vim-common" >&2
+    exit 1
+fi
 
 xor_enc() {
     local plain="$1" key="$KEY" hex="" i=0 c x y h
