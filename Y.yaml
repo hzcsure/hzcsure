@@ -16,36 +16,60 @@ proxy-groups:
 - name: 手动选择
   type: select
   proxies: &id001
-  - 中国 01 @SCHPD
+  - 俄罗斯联邦 01 @SCHPD
+  - 俄罗斯联邦 02 @SCHPD
+  - 俄罗斯联邦 03 @SCHPD
+  - 俄罗斯联邦 04 @SCHPD
+  - 俄罗斯联邦 05 @SCHPD
   - 其他地区 01 @SCHPD
   - 其他地区 02 @SCHPD
   - 其他地区 03 @SCHPD
-  - 前南马其顿 01 @SCHPD
+  - 其他地区 04 @SCHPD
+  - 其他地区 05 @SCHPD
+  - 其他地区 06 @SCHPD
+  - 其他地区 07 @SCHPD
+  - 其他地区 08 @SCHPD
+  - 其他地区 09 @SCHPD
+  - 其他地区 10 @SCHPD
+  - 其他地区 11 @SCHPD
+  - 其他地区 12 @SCHPD
+  - 其他地区 13 @SCHPD
+  - 其他地区 14 @SCHPD
+  - 其他地区 15 @SCHPD
+  - 哈萨克斯坦 01 @SCHPD
   - 德国 01 @SCHPD
   - 德国 02 @SCHPD
   - 德国 03 @SCHPD
-  - 德国 04 @SCHPD
-  - 德国 05 @SCHPD
-  - 德国 06 @SCHPD
-  - 捷克 01 @SCHPD
-  - 摩尔多瓦 01 @SCHPD
-  - 摩尔多瓦 02 @SCHPD
+  - 日本 01 @SCHPD
+  - 日本 02 @SCHPD
   - 法国 01 @SCHPD
+  - 法国 02 @SCHPD
   - 波兰 01 @SCHPD
-  - 瑞士 01 @SCHPD
+  - 波兰 02 @SCHPD
+  - 爱沙尼亚 01 @SCHPD
+  - 爱沙尼亚 02 @SCHPD
+  - 爱沙尼亚 03 @SCHPD
+  - 罗马尼亚 01 @SCHPD
   - 美国 01 @SCHPD
   - 美国 02 @SCHPD
   - 美国 03 @SCHPD
   - 美国 04 @SCHPD
   - 美国 05 @SCHPD
   - 美国 06 @SCHPD
+  - 美国 07 @SCHPD
+  - 美国 08 @SCHPD
+  - 美国 09 @SCHPD
+  - 美国 10 @SCHPD
+  - 美国 11 @SCHPD
+  - 美国 12 @SCHPD
   - 荷兰 01 @SCHPD
+  - 荷兰 02 @SCHPD
+  - 荷兰 03 @SCHPD
   - 西班牙 01 @SCHPD
   - 阿联酋 01 @SCHPD
   - 阿联酋 02 @SCHPD
   - 香港 01 @SCHPD
   - 香港 02 @SCHPD
-  - 香港 03 @SCHPD
 - name: 自动选择
   type: url-test
   url: http://connectivitycheck.gstatic.com/generate_204
@@ -61,195 +85,135 @@ proxy-groups:
 rules:
 - MATCH,Proxy
 proxies:
-- name: 摩尔多瓦 01 @SCHPD
-  type: vless
-  server: rezerv23.yunus.guru
-  port: 443
-  uuid: a5ea9247-79f3-4655-aece-3fb51e1e669e
-  servername: rezerv23.yunus.guru
-  tls: true
-  flow: xtls-rprx-vision
-  client-fingerprint: firefox
-  reality-opts:
-    public-key: zT7a-PnmIWP4c-G1EDUT3KZ7URi1kc8EppAWPr3h5lk
-    short-id: afeed89ae23b36ed
-  skip-cert-verify: true
-  udp: true
-- name: 香港 01 @SCHPD
-  type: vmess
-  server: 47.86.167.194
-  port: 800
-  uuid: f2c67cae-c09d-4739-947d-f5302d87a3c0
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: http
-  http-opts:
-    path:
-    - /x
-    headers:
-      Host:
-      - sjskendn.dingtalk.com
-  udp: true
-- name: 香港 02 @SCHPD
-  type: vmess
-  server: drbkg16egf3fzlm3.v.3dns.vip
-  port: 443
-  uuid: f23bb427c1f94373876c2f43e9f790f3
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /ws-vmess
-  udp: true
-- name: 德国 01 @SCHPD
-  type: vless
-  server: 94.156.122.215
-  port: 8443
-  uuid: ce5b6383-60f2-4aa3-9099-eacb6b01cf2b
-  servername: www.github.com
-  tls: true
-  flow: xtls-rprx-vision
-  client-fingerprint: firefox
-  reality-opts:
-    public-key: m8NlVgma3zCfxdXIzMreVvi_O4c2-lZqPh_9UHOsM1I
-    short-id: 99defbf4759b
-  skip-cert-verify: true
-  udp: true
-- name: 阿联酋 01 @SCHPD
-  type: vless
-  server: 217.60.193.1
-  port: 443
-  uuid: 5c192fd7-ef98-4112-a20c-129108fcd7e9
-  servername: ddc-akn.astralweb.tech
-  tls: true
-  client-fingerprint: firefox
-  skip-cert-verify: true
-  udp: true
-- name: 法国 01 @SCHPD
-  type: vless
-  server: 15.237.177.139
-  port: 43248
-  uuid: f9d8ca28-2fff-45de-9b25-3bf29186018e
-  servername: yahoo.com
-  tls: true
-  flow: xtls-rprx-vision
-  client-fingerprint: firefox
-  reality-opts:
-    public-key: LPLKpq5_G1WB6BqJhrCKQp1oQly3akbsVjvYPZrbGgg
-    short-id: 3355cf9734b0150e
-  skip-cert-verify: true
-  udp: true
 - name: 美国 01 @SCHPD
   type: vless
-  server: 199.232.78.159
+  server: 88.218.44.4
   port: 443
-  uuid: 6e2e03e2-4f66-479a-a186-a34d66ca8c91
-  network: ws
-  servername: ssl.fastly.com
+  uuid: 7c74b0e4-f132-5583-4692-622a7d6b71a4
+  network: http
+  servername: download.nvidia.com
   tls: true
   client-fingerprint: chrome
-  ws-opts:
-    path: /TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER?ed=2053
-    headers:
-      Host: pan11.global.ssl.fastly.net
+  http-opts:
+    path:
+    - /
+  reality-opts:
+    public-key: EG3y7UktGRlzSZZ2oXT_YaO2gVP4ca3Xe6AQ0u9A5DQ
   skip-cert-verify: true
   udp: true
-- name: 德国 02 @SCHPD
+- name: 爱沙尼亚 01 @SCHPD
   type: vless
-  server: 45.80.111.7
+  server: 91.235.234.186
   port: 443
-  uuid: 926bc4cd-709e-4e90-8aa7-78db75fbe86b
-  network: ws
-  servername: 2--ldej--MiTiVPN---MiTiVPN-o.KingNetwork.ir
+  uuid: 4593aa27-a2a1-412f-935f-3829495c0970
+  servername: us7fs3.proxen.pdevinfra.com
   tls: true
-  client-fingerprint: chrome
-  ws-opts:
-    path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/de2---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
-    headers:
-      Host: De2-MiTiVPN--MiTiVPN--MiTiVPN---MiTiVPN--MiTiVPN--MiTiVPN.KinGNetWork.iR
+  flow: xtls-rprx-vision
+  client-fingerprint: qq
+  reality-opts:
+    public-key: g-WqfHKjac71MMtkmq5bIvTFavzXTCAnEI_17KoTNSQ
+  skip-cert-verify: true
+  udp: true
+- name: 荷兰 01 @SCHPD
+  type: vless
+  server: 84.32.101.222
+  port: 443
+  uuid: 5dc56757-458e-4df2-9e71-2a14ce47e8af
+  servername: ddc-chr.astralweb.tech
+  tls: true
+  client-fingerprint: firefox
   skip-cert-verify: true
   udp: true
 - name: 美国 02 @SCHPD
-  type: trojan
-  server: hkdcrtc-e.catcat321.com
-  port: 20041
-  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
-  sni: de.catxstar.com
-  skip-cert-verify: true
-  tls: true
-  udp: true
-- name: 香港 03 @SCHPD
-  type: vmess
-  server: m01c7b2z26dtqgee.v.3dns.vip
-  port: 443
-  uuid: f23bb427c1f94373876c2f43e9f790f3
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /ws-vmess
-  udp: true
-- name: 瑞士 01 @SCHPD
   type: vless
-  server: 199.68.196.79
+  server: www.true.th
+  port: 80
+  uuid: 63ae5b68-f6f8-432e-b440-d975053cfbc2
+  network: ws
+  tls: false
+  ws-opts:
+    path: /than
+    headers:
+      Host: d16l6nb4do0zu4.cloudfront.net
+  skip-cert-verify: true
+  udp: true
+- name: 美国 03 @SCHPD
+  type: vless
+  server: www.true.th
   port: 443
-  uuid: ab7d5ea9-6eca-47c3-b14b-67378fc2d7c2
-  servername: ch.tunnelx.space
+  uuid: 7ce54bb3-d612-4aa7-be08-089d3c461d53
+  network: ws
+  servername: d1yxsk0zprgivr.cloudfront.net
   tls: true
-  flow: xtls-rprx-vision
-  client-fingerprint: firefox
-  reality-opts:
-    public-key: q_lfutznS1iTS7bGphTIGMYVeht-8clcf_IfzIf4mBQ
-    short-id: 10a5c8e2f4b7d936
+  client-fingerprint: chrome
+  ws-opts:
+    path: /
+    headers:
+      Host: d1yxsk0zprgivr.cloudfront.net
   skip-cert-verify: true
   udp: true
 - name: 其他地区 01 @SCHPD
   type: vless
-  server: ch.tunnelx.space
-  port: 443
-  uuid: ab7d5ea9-6eca-47c3-b14b-67378fc2d7c2
-  servername: ch.tunnelx.space
-  tls: true
-  flow: xtls-rprx-vision
-  client-fingerprint: firefox
-  reality-opts:
-    public-key: q_lfutznS1iTS7bGphTIGMYVeht-8clcf_IfzIf4mBQ
-    short-id: 10a5c8e2f4b7d936
+  server: 172.64.146.153
+  port: 2095
+  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
+  network: ws
+  tls: false
+  ws-opts:
+    path: /
+    headers:
+      Host: fangbinxingnmsl.pusytroller.gq
   skip-cert-verify: true
   udp: true
-- name: 德国 03 @SCHPD
+- name: 其他地区 02 @SCHPD
   type: vless
-  server: 159.195.139.217
-  port: 8443
-  uuid: 48267e65-8bf0-4046-923f-4ee967009344
-  servername: sellflow.org
-  tls: true
-  flow: xtls-rprx-vision
-  client-fingerprint: firefox
-  reality-opts:
-    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
+  server: fuckfangbinxing.pusytroller.gq
+  port: 2095
+  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
+  network: ws
+  tls: false
+  ws-opts:
+    path: /
+    headers:
+      Host: fuckfangbinxing.pusytroller.gq
   skip-cert-verify: true
   udp: true
-- name: 西班牙 01 @SCHPD
+- name: 其他地区 03 @SCHPD
   type: vless
-  server: 46.28.71.104
-  port: 2053
-  uuid: 504d0b6e-400d-45ec-b2d0-1c79006ebc16
-  servername: web.abubibabu.ru
-  tls: true
-  client-fingerprint: firefox
-  reality-opts:
-    public-key: aFsY-EZjSNTomlAFShKwQIQMJ5pHiZQXXJpWvcz8WkQ
-    short-id: 0858af97f4e7324d
+  server: nmslfangbinxing.pusytroller.gq
+  port: 2095
+  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
+  network: ws
+  tls: false
+  ws-opts:
+    path: /
+    headers:
+      Host: nmslfangbinxing.pusytroller.gq
   skip-cert-verify: true
   udp: true
-- name: 美国 03 @SCHPD
+- name: 美国 04 @SCHPD
+  type: trojan
+  server: oplosgru-c.catcat321.com
+  port: 20088
+  password: 41c406e2-12b5-41f2-a329-d0621052d675
+  sni: hk.catxstar.com
+  skip-cert-verify: true
+  tls: true
+  udp: true
+- name: 其他地区 04 @SCHPD
+  type: vless
+  server: download.yunzhongzhuan.com
+  port: 8880
+  uuid: efc13f4d-141c-444c-8fbc-ffbcf2be4252
+  network: ws
+  tls: false
+  ws-opts:
+    path: /pyip=ProxyIP.JP.CMLiussss.net
+    headers:
+      Host: bitter-morning-b4e3.283.workers.dev
+  skip-cert-verify: true
+  udp: true
+- name: 美国 05 @SCHPD
   type: vless
   server: 88.218.44.4
   port: 993
@@ -262,147 +226,226 @@ proxies:
     public-key: EG3y7UktGRlzSZZ2oXT_YaO2gVP4ca3Xe6AQ0u9A5DQ
   skip-cert-verify: true
   udp: true
-- name: 美国 04 @SCHPD
+- name: 西班牙 01 @SCHPD
   type: vless
-  server: 217.177.75.7
-  port: 443
-  uuid: ab7d5ea9-6eca-47c3-b14b-67378fc2d7c2
-  servername: usa.tunnelx.space
+  server: 170.168.97.5
+  port: 8443
+  uuid: c6f220ed-41f2-21ba-438c-80f05ebbf92a
+  network: grpc
+  servername: download.nvidia.com
   tls: true
-  flow: xtls-rprx-vision
   client-fingerprint: firefox
+  grpc-opts:
+    grpc-service-name: TunService
   reality-opts:
-    public-key: 6INA8Jxa9oQT3XrW4uXd0leo2upMdUn8s_XbSP0qB3I
-    short-id: f0a9d2b1c7e4f648
+    public-key: D2SXHZRRYM0WcFChGWd57XB-U73aIsGfMpe2-Gq5XSs
   skip-cert-verify: true
   udp: true
-- name: 德国 04 @SCHPD
+- name: 法国 01 @SCHPD
   type: vless
-  server: 31.76.11.46.cdn-one.org
-  port: 443
-  uuid: 4f375fb4-3c95-425f-bc7b-8085487a6f3c
+  server: 217.163.76.118
+  port: 2086
+  uuid: b7977b65-cfd8-4db9-a029-6ef014a4ae4a
+  network: http
+  tls: false
+  http-opts:
+    path:
+    - /
+    headers:
+      Host:
+      - xvh.andishehparenting.com
+  skip-cert-verify: true
+  udp: true
+- name: 日本 01 @SCHPD
+  type: vless
+  server: 45.192.200.66
+  port: 8443
+  uuid: cf39fab0-bb85-42cb-9945-2ad69d78e575
   network: ws
-  servername: 31.76.11.46.cdn-one.org
+  servername: rubifen.adaspoloandco.com
   tls: true
   client-fingerprint: chrome
   ws-opts:
-    path: /52872/BNzG4FvIAr
+    path: /GOrbEh
     headers:
-      Host: 31.76.11.46.cdn-one.org
+      Host: rubifen.adaspoloandco.com
   skip-cert-verify: true
   udp: true
-- name: 德国 05 @SCHPD
+- name: 爱沙尼亚 02 @SCHPD
   type: vless
-  server: 185.126.67.76
+  server: 64.188.82.57
   port: 443
-  uuid: b6f3b292-00c9-430e-bc4c-b1294bd895c0
-  servername: cdn-de-4.ai-apiroute.cc
+  uuid: 76713d07-5a6b-49c2-abd8-bc450a2fa7fc
+  servername: ee-download.spectrum.vu
   tls: true
   flow: xtls-rprx-vision
   client-fingerprint: firefox
   reality-opts:
-    public-key: kaw2U8L2ZTcgo56qUBONfylYJpHprI_CgZfv1I4q2Sc
-    short-id: b512d49930874a31
+    public-key: P2MV0I11JvKg-G3wfg64YVGUEh0Wvy6C4MTVsMPWdyQ
+    short-id: 7b1c7d9a3f2a
   skip-cert-verify: true
   udp: true
-- name: 荷兰 01 @SCHPD
-  type: vless
-  server: 31.76.79.118
-  port: 2444
-  uuid: fc1ee51e-72ec-4af0-ab0f-540c9e22427b
-  servername: www.cloudflare.com
-  tls: true
-  flow: xtls-rprx-vision
-  client-fingerprint: firefox
-  reality-opts:
-    public-key: JsSTmS0VKNaHF-_QKYS-_utnS-LJuPOBrWcMbVE2RDA
-    short-id: 0809f782a29a2030
-  skip-cert-verify: true
-  udp: true
-- name: 其他地区 02 @SCHPD
-  type: vless
-  server: pl01.auragg.org
-  port: 25224
-  uuid: 6af3672b-8994-4cf1-aa15-23ce6574ebf0
-  network: grpc
-  servername: cloudflare.com
-  tls: true
-  client-fingerprint: qq
-  grpc-opts:
-    grpc-service-name: auragrpc
-  reality-opts:
-    public-key: uXV7VKWM7wlzSVCp1MxVMQHJJ3GvjJmVCMPqw_vIZUs
-    short-id: e7c3f9a2b6d4f8e1
-  skip-cert-verify: true
-  udp: true
-- name: 捷克 01 @SCHPD
-  type: vless
-  server: 141.133.172.222
-  port: 20342
-  uuid: 5eecb34f-c905-4c77-b7fb-d830b451cd11
-  tls: false
-  skip-cert-verify: true
-  udp: true
-- name: 德国 06 @SCHPD
-  type: vless
-  server: 159.195.201.235
-  port: 25310
-  uuid: 6af3672b-8994-4cf1-aa15-23ce6574ebf0
-  network: grpc
-  servername: cloudflare.com
-  tls: true
-  client-fingerprint: firefox
-  grpc-opts:
-    grpc-service-name: auragrpc
-  reality-opts:
-    public-key: 3Ow1WhWHN1nUEkOR4kThVpzEuvlcB5ZrqoBcHtJGyiY
-    short-id: a3d8f1e9b2c7d4e6
-  skip-cert-verify: true
-  udp: true
-- name: 阿联酋 02 @SCHPD
-  type: vless
-  server: ddc-akn.astralweb.tech
-  port: 443
-  uuid: 04b9e828-43ed-4faf-8952-41069ec08355
-  tls: true
-  skip-cert-verify: true
-  udp: true
-- name: 中国 01 @SCHPD
+- name: 荷兰 02 @SCHPD
   type: vmess
-  server: v9.hdacd.com
-  port: 30809
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-  alterId: 2
+  server: 185.246.152.159
+  port: 443
+  uuid: 5f72f180-b21b-4b7a-8484-240759012604
+  alterId: 0
   cipher: auto
-  tls: false
+  tls: true
+  skip-cert-verify: true
+  servername: apjhdggyx.com
+  network: ws
+  ws-opts:
+    path: /5f72f180-b21b-4b7a-8484-240759096785
+    headers:
+      Host: apjhdggyx.com
+  udp: true
+- name: 美国 06 @SCHPD
+  type: vless
+  server: 88.218.44.4
+  port: 8443
+  uuid: 7c74b0e4-f132-5583-4692-622a7d6b71a4
+  network: grpc
+  servername: download.nvidia.com
+  tls: true
+  client-fingerprint: chrome
+  grpc-opts:
+    grpc-service-name: TunService
+  reality-opts:
+    public-key: EG3y7UktGRlzSZZ2oXT_YaO2gVP4ca3Xe6AQ0u9A5DQ
   skip-cert-verify: true
   udp: true
-- name: 美国 05 @SCHPD
+- name: 阿联酋 01 @SCHPD
   type: vless
-  server: www.true.th
-  port: 80
-  uuid: 89c3b66f-c849-4602-a5a8-84b6f06af478
+  server: 217.60.193.4
+  port: 443
+  uuid: 5dc56757-458e-4df2-9e71-2a14ce47e8af
+  servername: ddc-akn.astralweb.tech
+  tls: true
+  client-fingerprint: chrome
+  skip-cert-verify: true
+  udp: true
+- name: 爱沙尼亚 03 @SCHPD
+  type: vless
+  server: 185.123.53.221
+  port: 49001
+  uuid: 41784775-8846-4579-9d9d-9ad6ea802e2e
+  servername: de-7.techprovide.icu
+  tls: true
+  flow: xtls-rprx-vision
+  client-fingerprint: firefox
+  reality-opts:
+    public-key: _LbLyj6OynSREglFpkhdrxVmh_bf9p60uTEWfQbtUWo
+    short-id: 1a6b1f9d0e
+  skip-cert-verify: true
+  udp: true
+- name: 其他地区 05 @SCHPD
+  type: vless
+  server: 162.159.12.41
+  port: 443
+  uuid: e5cc16a6-ea42-46b2-82ae-ad2157e1641b
   network: ws
-  servername: d2pwbkmfr5lxa4.cloudfront.net
+  servername: hhlfy.twiladaphne.ndjp.net
+  tls: true
+  client-fingerprint: chrome
+  ws-opts:
+    path: /
+  skip-cert-verify: true
+  udp: true
+- name: 其他地区 06 @SCHPD
+  type: trojan
+  server: 104.18.152.108
+  port: 443
+  password: humanity
+  sni: www.ignitelimit.com
+  skip-cert-verify: true
+  tls: true
+  ws-opts:
+    path: /assignment
+  udp: true
+- name: 其他地区 07 @SCHPD
+  type: trojan
+  server: 104.18.152.246
+  port: 443
+  password: humanity
+  sni: www.ignitelimit.com
+  skip-cert-verify: true
+  tls: true
+  ws-opts:
+    path: /assignment
+  udp: true
+- name: 香港 01 @SCHPD
+  type: anytls
+  server: 99bfa3b9-tiw740-u1a7t2-1qwla.hk3.hyhuawei.com
+  port: 443
+  password: 101865c6-e4e5-11ee-b1cc-f23c9164ca5d
+  sni: 127.0.0.1
+  skip-cert-verify: true
+  tls: true
+  udp: true
+- name: 哈萨克斯坦 01 @SCHPD
+  type: vless
+  server: 185.136.12.190
+  port: 443
+  uuid: 2cca8201-c93e-40eb-bd8a-fea4170c169e
+  network: http
+  servername: deu683.lackerdeu.org
+  tls: true
+  client-fingerprint: chrome
+  http-opts:
+    path:
+    - /api/v1/
+    headers:
+      Host:
+      - deu683.lackerdeu.org
+  skip-cert-verify: true
+  udp: true
+- name: 美国 07 @SCHPD
+  type: vless
+  server: 18.239.134.69
+  port: 80
+  uuid: de27291c-15a9-4256-9ba7-ad517569877e
+  network: ws
   tls: false
   ws-opts:
     path: /
     headers:
-      Host: d2pwbkmfr5lxa4.cloudfront.net
+      Host: d2e1v87ko56lyw.cloudfront.net:assets.opensignal.com
   skip-cert-verify: true
   udp: true
-- name: 前南马其顿 01 @SCHPD
-  type: vless
-  server: 195.144.24.84
+- name: 德国 01 @SCHPD
+  type: hysteria2
+  server: de-two.quiet-rogue.site
   port: 443
-  uuid: b6f3b292-00c9-430e-bc4c-b1294bd895c0
-  servername: cdn-mk.ai-apiroute.cc
+  password: 71cada65-d23e-418c-88e4-a06188d14689
+  sni: de-two.quiet-rogue.site
+  skip-cert-verify: true
+  udp: true
+- name: 美国 08 @SCHPD
+  type: vless
+  server: 45.39.230.145
+  port: 28759
+  uuid: 476be63b-4537-4b05-91b8-066c5e5833e4
+  servername: www.amazonaws-china.com
   tls: true
-  flow: xtls-rprx-vision
-  client-fingerprint: firefox
+  client-fingerprint: chrome
   reality-opts:
-    public-key: PCF6GYA_TCdb28mM6zsxJ38MAtmnSrJJEygkXvrt1AE
-    short-id: b512d49930874a31
+    public-key: IenQk4fZZepVAEZpqXO-RHOyXH9JrsAEm-fRsBgOFQk
+    short-id: 2194495d
+  skip-cert-verify: true
+  udp: true
+- name: 美国 09 @SCHPD
+  type: vless
+  server: 45.39.230.145
+  port: 57500
+  uuid: 476be63b-4537-4b05-91b8-066c5e5833e4
+  servername: aws.amazon.com
+  tls: true
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: IenQk4fZZepVAEZpqXO-RHOyXH9JrsAEm-fRsBgOFQk
+    short-id: 2194495d
   skip-cert-verify: true
   udp: true
 - name: 波兰 01 @SCHPD
@@ -420,40 +463,324 @@ proxies:
       Host: 31.76.251.127.cdn-one.org
   skip-cert-verify: true
   udp: true
-- name: 其他地区 03 @SCHPD
+- name: 美国 10 @SCHPD
+  type: trojan
+  server: oplosgru-c.catcat321.com
+  port: 20004
+  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
+  sni: hk.catxstar.com
+  skip-cert-verify: true
+  tls: true
+  udp: true
+- name: 香港 02 @SCHPD
+  type: hysteria2
+  server: nas.aizhzo.com
+  port: 5010
+  password: eBTe6Ax2pUts8oMEWoYVDfnSlHfkLffQ
+  skip-cert-verify: true
+  obfs: salamander
+  obfs-password: 7M4RXPFcQyQEGbkxBPfXo4bilMhCW2U9
+  udp: true
+- name: 德国 02 @SCHPD
   type: vless
-  server: 104.17.21.32
+  server: 109.163.239.4
+  port: 443
+  uuid: e9824072-c700-4aa2-bcbb-7e6cc2d895aa
+  servername: cdn9-40.yahoo.com
+  tls: true
+  flow: xtls-rprx-vision
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: CMkW1axrhEXoiJ6anMz9XEjlfqlAtEZya7L0b5ZPMyw
+    short-id: 2f3e735aedc55aaf
+  skip-cert-verify: true
+  udp: true
+- name: 荷兰 03 @SCHPD
+  type: vless
+  server: ddc-chr.astralweb.tech
+  port: 443
+  uuid: 5dc56757-458e-4df2-9e71-2a14ce47e8af
+  servername: ddc-chr.astralweb.tech
+  tls: true
+  client-fingerprint: chrome
+  skip-cert-verify: true
+  udp: true
+- name: 法国 02 @SCHPD
+  type: vmess
+  server: 2001:bc8:32d7:1a9::2
+  port: 23388
+  uuid: 3a966d20-7b9d-48cc-ba2c-8d38161b6d3a
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /github.com/Alvin9999-newpac/fanqiang
+  udp: true
+- name: 俄罗斯联邦 01 @SCHPD
+  type: vless
+  server: 45.151.101.103
+  port: 8443
+  uuid: 95e8532b-cc69-42d4-9553-e3c23292b15b
+  network: grpc
+  servername: maps.apple.com
+  tls: true
+  client-fingerprint: chrome
+  grpc-opts:
+    grpc-service-name: your-custom-path
+  reality-opts:
+    public-key: OMlQAFrCMZ3DX0xlnbEZiByLBFzpUE8XJHJsrBzLdlY
+    short-id: 2da4299da566b7
+  skip-cert-verify: true
+  udp: true
+- name: 俄罗斯联邦 02 @SCHPD
+  type: vless
+  server: 135.106.140.23
+  port: 443
+  uuid: 60ba3369-9a78-40fe-98c3-233a6f107043
+  network: http
+  servername: qwesd.rutendingaltos.top
+  tls: true
+  client-fingerprint: chrome
+  http-opts:
+    path:
+    - /assets/build/_app/immutable/chunks/stream-one/
+    headers:
+      Host:
+      - qwesd.rutendingaltos.top
+  skip-cert-verify: true
+  udp: true
+- name: 俄罗斯联邦 03 @SCHPD
+  type: vless
+  server: qwesd.rutendingaltos.top
+  port: 443
+  uuid: 60ba3369-9a78-40fe-98c3-233a6f107043
+  network: http
+  servername: qwesd.rutendingaltos.top
+  tls: true
+  client-fingerprint: edge
+  http-opts:
+    path:
+    - /assets/build/_app/immutable/chunks/stream-one/
+    headers:
+      Host:
+      - qwesd.rutendingaltos.top
+  skip-cert-verify: true
+  udp: true
+- name: 俄罗斯联邦 04 @SCHPD
+  type: vless
+  server: 45.151.101.103
+  port: 6443
+  uuid: 95e8532b-cc69-42d4-9553-e3c23292b15b
+  network: grpc
+  servername: maps.apple.com
+  tls: true
+  client-fingerprint: chrome
+  grpc-opts:
+    grpc-service-name: your-custom-path
+  reality-opts:
+    public-key: OMlQAFrCMZ3DX0xlnbEZiByLBFzpUE8XJHJsrBzLdlY
+    short-id: 2da4299da566b7
+  skip-cert-verify: true
+  udp: true
+- name: 阿联酋 02 @SCHPD
+  type: vless
+  server: ddc-akn.astralweb.tech
+  port: 443
+  uuid: 5dc56757-458e-4df2-9e71-2a14ce47e8af
+  servername: ddc-akn.astralweb.tech
+  tls: true
+  client-fingerprint: chrome
+  skip-cert-verify: true
+  udp: true
+- name: 日本 02 @SCHPD
+  type: vless
+  server: 82.40.42.204
+  port: 8443
+  uuid: cf39fab0-bb85-42cb-9945-2ad69d78e575
+  network: ws
+  servername: rubifen.adaspoloandco.com
+  tls: true
+  client-fingerprint: chrome
+  ws-opts:
+    path: /GOrbEh
+    headers:
+      Host: rubifen.adaspoloandco.com
+  skip-cert-verify: true
+  udp: true
+- name: 德国 03 @SCHPD
+  type: hysteria2
+  server: 144.31.166.91
+  port: 443
+  password: 71cada65-d23e-418c-88e4-a06188d14689
+  sni: de-two.quiet-rogue.site
+  skip-cert-verify: true
+  udp: true
+- name: 波兰 02 @SCHPD
+  type: vless
+  server: 31.76.251.127
+  port: 443
+  uuid: 2a6b708e-6799-473e-85e9-d4b116c5eedc
+  network: ws
+  servername: 31.76.251.127.cdn-one.org
+  tls: true
+  client-fingerprint: chrome
+  ws-opts:
+    path: /10336/2GCOqG7bvA
+    headers:
+      Host: 31.76.251.127.cdn-one.org
+  skip-cert-verify: true
+  udp: true
+- name: 俄罗斯联邦 05 @SCHPD
+  type: vless
+  server: 178.72.162.73
+  port: 443
+  uuid: 60ba3369-9a78-40fe-98c3-233a6f107043
+  network: http
+  servername: ru6.ethicsdinnerpave.online
+  tls: true
+  client-fingerprint: qq
+  http-opts:
+    path:
+    - /assets/build/_app/immutable/chunks/stream-one/
+    headers:
+      Host:
+      - ru6.ethicsdinnerpave.online
+  skip-cert-verify: true
+  udp: true
+- name: 其他地区 08 @SCHPD
+  type: trojan
+  server: 172.66.173.172
+  port: 443
+  password: 87961f9d-bee1-4377-826b-e169e7891c4f
+  sni: yks-dd9.pages.dev
+  skip-cert-verify: true
+  tls: true
+  ws-opts:
+    path: /
+  udp: true
+- name: 其他地区 09 @SCHPD
+  type: trojan
+  server: 104.21.84.3
+  port: 443
+  password: 87961f9d-bee1-4377-826b-e169e7891c4f
+  sni: yks-dd9.pages.dev
+  skip-cert-verify: true
+  tls: true
+  ws-opts:
+    path: /
+  udp: true
+- name: 美国 11 @SCHPD
+  type: vless
+  server: 192.0.54.30
   port: 8880
-  uuid: 300f44af-adb8-42b7-b869-bef70b205d7e
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
   network: ws
   tls: false
   ws-opts:
-    path: /pyip=ProxyIP.KR.CMLiussss.net
+    path: /
     headers:
-      Host: icy-rice-3c1c.340-680.workers.dev
+      Host: vms.lifetime35.workers.dev
   skip-cert-verify: true
   udp: true
-- name: 摩尔多瓦 02 @SCHPD
+- name: 其他地区 10 @SCHPD
   type: vless
-  server: 176.123.2.210
-  port: 443
-  uuid: a5ea9247-79f3-4655-aece-3fb51e1e669e
-  servername: rezerv23.yunus.guru
-  tls: true
-  flow: xtls-rprx-vision
-  client-fingerprint: firefox
-  reality-opts:
-    public-key: zT7a-PnmIWP4c-G1EDUT3KZ7URi1kc8EppAWPr3h5lk
-    short-id: afeed89ae23b36ed
+  server: 104.16.107.139
+  port: 8880
+  uuid: 9b7d9618-29a6-45e9-9eca-dcc7ad42f974
+  network: ws
+  tls: false
+  ws-opts:
+    path: /
+    headers:
+      Host: shrill-frost-6da5.155-dec.workers.dev
   skip-cert-verify: true
   udp: true
-- name: 美国 06 @SCHPD
-  type: vmess
-  server: guanwang.awsno.com
+- name: 其他地区 11 @SCHPD
+  type: vless
+  server: icook.tw
+  port: 8880
+  uuid: 80cead8e-0d28-4b0a-bacd-8005471a5c39
+  network: ws
+  tls: false
+  ws-opts:
+    path: /
+    headers:
+      Host: flat-fire-40ed.96-042.workers.dev
+  skip-cert-verify: true
+  udp: true
+- name: 罗马尼亚 01 @SCHPD
+  type: vless
+  server: 45.85.118.50
+  port: 8880
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  network: ws
+  tls: false
+  ws-opts:
+    path: /
+    headers:
+      Host: vms.lifetime55.workers.dev
+  skip-cert-verify: true
+  udp: true
+- name: 其他地区 12 @SCHPD
+  type: vless
+  server: www.iplocation.net
+  port: 8880
+  uuid: 4bf6fee9-d3c4-4a98-b83b-170bf37c669c
+  network: ws
+  tls: false
+  ws-opts:
+    path: /
+    headers:
+      Host: cold-water-945c.43-bc5.workers.dev
+  skip-cert-verify: true
+  udp: true
+- name: 其他地区 13 @SCHPD
+  type: vless
+  server: 104.18.12.149
+  port: 80
+  uuid: 5f4845b4-11dc-41d6-9508-4ff6a02e36c1
+  network: ws
+  tls: false
+  ws-opts:
+    path: / @ProxyVPN11
+    headers:
+      Host: silent-paper-fa57.fipiyag989.workers.dev
+  skip-cert-verify: true
+  udp: true
+- name: 其他地区 14 @SCHPD
+  type: trojan
+  server: 104.18.152.219
   port: 443
-  uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a
-  alterId: 0
-  cipher: auto
+  password: humanity
+  sni: www.ignitelimit.com
+  skip-cert-verify: true
   tls: true
+  ws-opts:
+    path: /assignment
+  udp: true
+- name: 其他地区 15 @SCHPD
+  type: trojan
+  server: 104.18.12.149
+  port: 443
+  password: humanity
+  sni: www.ignitelimit.com
+  skip-cert-verify: true
+  tls: true
+  ws-opts:
+    path: /assignment
+  udp: true
+- name: 美国 12 @SCHPD
+  type: vless
+  server: 72.167.243.30
+  port: 8880
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  network: ws
+  tls: false
+  ws-opts:
+    path: /
+    headers:
+      Host: vms.lifetime55.workers.dev
   skip-cert-verify: true
   udp: true
