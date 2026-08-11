@@ -1,0 +1,48 @@
+name: xor-enc
+
+on:
+  push:
+    paths:
+      - '1.txt'
+  workflow_dispatch:
+
+env:
+  XOR_KEY: ${{ secrets.XOR_KEY }}
+
+jobs:
+  encrypt:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Check and encrypt 1.txt
+        run: |
+          chmod +x xor-enc
+
+          # No plain URL → nothing to do
+          if ! grep -q '://' 1.txt; then
+            echo "no plain URL found in 1.txt, nothing to encrypt"
+            exit 0
+          fi
+
+          echo "found plain URL(s), encrypting..."
+
+          # Encrypt entire file: 1.txt → base64 → xor-enc → 1.txt
+          ENCODED=$(cat 1.txt | base64 -w0)
+          ./xor-enc "$ENCODED" > 1.txt
+
+          echo "encryption complete"
+
+      - name: Commit and push
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add 1.txt
+          if ! git diff --staged --quiet; then
+            git commit -m "auto: encrypt 1.txt [skip ci]"
+            git push
+          else
+            echo "no changes to commit"
+          fi
