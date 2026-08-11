@@ -1,12 +1,6 @@
-trojan://41c406e2-12b5-41f2-a329-d0621052d675@oplosgru-c.catcat321.com:20088?security=tls&type=tcp&sni=hk.catxstar.com#美国%2004%20@SCHPD
-trojan://87961f9d-bee1-4377-826b-e169e7891c4f@104.21.84.3:443?security=tls&type=tcp&sni=yks-dd9.pages.dev#其他地区%2009%20@SCHPD
-trojan://87961f9d-bee1-4377-826b-e169e7891c4f@172.66.173.172:443?security=tls&type=tcp&sni=yks-dd9.pages.dev#其他地区%2008%20@SCHPD
 trojan://MITIVPN@104.21.5.155:443?security=tls&type=ws&sni=de1-MiTiVPN--MiTiVPN--MiTiVPN---MiTiVPN--MiTiVPN--MiTiVPN.mitiVpN.lIfeStyLe#☁️%20Cloudflare%2001%20@SCHPD
-trojan://ba07a8af-5544-48ac-ab62-3b6c00a44fa6@oplosgru-c.catcat321.com:20004?security=tls&type=tcp&sni=hk.catxstar.com#美国%2010%20@SCHPD
-trojan://humanity@104.18.12.149:443?security=tls&type=tcp&sni=www.ignitelimit.com#其他地区%2015%20@SCHPD
-trojan://humanity@104.18.152.108:443?security=tls&type=tcp&sni=www.ignitelimit.com#其他地区%2006%20@SCHPD
-trojan://humanity@104.18.152.219:443?security=tls&type=tcp&sni=www.ignitelimit.com#其他地区%2014%20@SCHPD
-trojan://humanity@104.18.152.246:443?security=tls&type=tcp&sni=www.ignitelimit.com#其他地区%2007%20@SCHPD
+trojan://ND91608427@52.78.13.238:443?security=tls&type=tcp&sni=upward-puma.rooster465.autos#🇰🇷%20韩国%2001%20@SCHPD
+trojan://ND91608427@upward-puma.rooster465.autos:443?security=tls&type=tcp&sni=upward-puma.rooster465.autos#🇰🇷%20韩国%2002%20@SCHPD
 vless://04c808e2-0b59-47b0-a54b-32fc7ef1c902@103.31.4.1:443?security=tls&type=ws&sni=cf.cloudip.ggff.net&path=/?ed=2560&pyip=proxyip.cmliussss.net&host=#🇺🇸%20美国%2001%20@SCHPD
 vless://04c808e2-0b59-47b0-a54b-32fc7ef1c902@103.31.4.2:443?security=tls&type=ws&sni=cf.cloudip.ggff.net&path=/?ed=2560&pyip=proxyip.cmliussss.net&host=#🇺🇸%20美国%2002%20@SCHPD
 vless://04c808e2-0b59-47b0-a54b-32fc7ef1c902@103.31.4.3:443?security=tls&type=ws&sni=cf.cloudip.ggff.net&path=/?ed=2560&pyip=proxyip.cmliussss.net&host=#🇺🇸%20美国%2003%20@SCHPD
@@ -394,6 +388,7 @@ vmess://eyJ2IjoiMiIsInBzIjoi6ams5p2l6KW/5LqaIDAxIEBTQ0hQRCIsImFkZCI6ImNpbmR5NTIu
 vmess://eyJ2IjoiMiIsInBzIjoi8J+HqPCfh7Mg5Lit5Zu9IDA0IEBTQ0hQRCIsImFkZCI6InY2LmhkYWNkLmNvbSIsInBvcnQiOiIzMDgwNiIsImlkIjoiY2JiM2Y4NzctZDFmYi0zNDRjLTg3YTktZDE1M2JmZmQ1NDg0IiwiYWlkIjoiMiIsInNjeSI6ImF1dG8iLCJuZXQiOiJ0Y3AiLCJ0eXBlIjoibm9uZSIsImhvc3QiOiIiLCJwYXRoIjoiIiwidGxzIjoiIn0K
 vmess://eyJ2IjoiMiIsInBzIjoi8J+HqPCfh7Mg5Lit5Zu9IDA1IEBTQ0hQRCIsImFkZCI6InY5LmhkYWNkLmNvbSIsInBvcnQiOiIzMDgwOSIsImlkIjoiY2JiM2Y4NzctZDFmYi0zNDRjLTg3YTktZDE1M2JmZmQ1NDg0IiwiYWlkIjoiMiIsInNjeSI6ImF1dG8iLCJuZXQiOiJ0Y3AiLCJ0eXBlIjoibm9uZSIsImhvc3QiOiIiLCJwYXRoIjoiIiwidGxzIjoiIn0K
 vmess://eyJ2IjoiMiIsInBzIjoi8J+HqPCfh7Mg5Lit5Zu9IDAxIEBTQ0hQRCIsImFkZCI6InY0LmhkYWNkLmNvbSIsInBvcnQiOiIzMDgwNCIsImlkIjoiY2JiM2Y4NzctZDFmYi0zNDRjLTg3YTktZDE1M2JmZmQ1NDg0IiwiYWlkIjoiMiIsInNjeSI6ImF1dG8iLCJuZXQiOiJ0Y3AiLCJ0eXBlIjoibm9uZSIsImhvc3QiOiIiLCJwYXRoIjoiIiwidGxzIjoiIn0K
+vmess://eyJ2IjoiMiIsInBzIjoi8J+HqPCfh7Mg5Lit5Zu9IDAxIEBTQ0hQRCIsImFkZCI6InY5LmhkYWNkLmNvbSIsInBvcnQiOiIzMDgwOSIsImlkIjoiY2JiM2Y4NzctZDFmYi0zNDRjLTg3YTktZDE1M2JmZmQ1NDg0IiwiYWlkIjoiMiIsInNjeSI6ImF1dG8iLCJuZXQiOiJ0Y3AiLCJ0eXBlIjoibm9uZSIsImhvc3QiOiIiLCJwYXRoIjoiIiwidGxzIjoiIn0K
 vmess://eyJ2IjoiMiIsInBzIjoi8J+HqPCfh7Mg5Lit5Zu9IDAyIEBTQ0hQRCIsImFkZCI6InYzMy5oZGFjZC5jb20iLCJwb3J0IjoiMzA4MzMiLCJpZCI6ImNiYjNmODc3LWQxZmItMzQ0Yy04N2E5LWQxNTNiZmZkNTQ4NCIsImFpZCI6IjIiLCJzY3kiOiJhdXRvIiwibmV0IjoidGNwIiwidHlwZSI6Im5vbmUiLCJob3N0IjoiIiwicGF0aCI6IiIsInRscyI6IiJ9Cg==
 vmess://eyJ2IjoiMiIsInBzIjoi8J+HqPCfh7Mg5Lit5Zu9IDAzIEBTQ0hQRCIsImFkZCI6InYzNS5oZGFjZC5jb20iLCJwb3J0IjoiMzA4MzUiLCJpZCI6ImNiYjNmODc3LWQxZmItMzQ0Yy04N2E5LWQxNTNiZmZkNTQ4NCIsImFpZCI6IjIiLCJzY3kiOiJhdXRvIiwibmV0IjoidGNwIiwidHlwZSI6Im5vbmUiLCJob3N0IjoiIiwicGF0aCI6IiIsInRscyI6IiJ9Cg==
 vmess://eyJ2IjoiMiIsInBzIjoi8J+HrfCfh7Ag6aaZ5rivIDAxIEBTQ0hQRCIsImFkZCI6IjQzLjE5OC4yMDQuMzUiLCJwb3J0IjoiNDQzIiwiaWQiOiJmMjNiYjQyN2MxZjk0MzczODc2YzJmNDNlOWY3OTBmMyIsImFpZCI6IjAiLCJzY3kiOiJhdXRvIiwibmV0Ijoid3MiLCJ0eXBlIjoibm9uZSIsImhvc3QiOiIiLCJwYXRoIjoiL3dzLXZtZXNzIiwidGxzIjoiIn0K
