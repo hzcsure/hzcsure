@@ -4,7 +4,7 @@
 #        xor-enc -d <encoded>    decrypt
 # Depends: bash, base64, xxd (apt install xxd / vim-common)
 
-KEY="${XOR_KEY:-tvproxy2024}"
+KEY=$XOR_KEY
 
 # On Ubuntu, xxd is in vim-common. Termux falls back to busybox.
 if command -v xxd >/dev/null 2>&1; then
