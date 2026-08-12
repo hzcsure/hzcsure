@@ -4,7 +4,9 @@ on:
   workflow_dispatch:
   schedule:
     - cron: '50 19 * * *'
-
+env:
+  XOR_KEY: ${{ secrets.XOR_KEY }}
+  
 jobs:
   crawl:
     runs-on: ubuntu-latest
