@@ -1,4 +1,4 @@
-name: TVProxy CI
+name: sd-test
 
 on:
   schedule:
