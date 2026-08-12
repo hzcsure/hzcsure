@@ -127,8 +127,8 @@ const fs = require('fs');
   // 打印结果
   results.forEach((r, i) => {
     console.log(`${i + 1}. ${r.name}`);
-    console.log(`   链接: ${r.subscriptionUrl}`);
-    console.log(`   描述: ${r.description || '无'}`);
+ //   console.log(`   链接: ${r.subscriptionUrl}`);
+ //   console.log(`   描述: ${r.description || '无'}`);
     console.log(`   订阅数: ${r.subscriptionCount}，手动节点: ${r.manualNodeCount}`);
     console.log();
   });
