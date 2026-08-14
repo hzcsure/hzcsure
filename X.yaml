@@ -4054,7 +4054,7 @@ proxies:
       Host: cf.cloudip.ggff.net
 - name: 🌐 未知 65 @SCHPD
   type: vless
-  server: 172.64.229.229
+  server: 172.64.229.208
   port: 443
   uuid: 04c808e2-0b59-47b0-a54b-32fc7ef1c902
   tls: true

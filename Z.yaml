@@ -17,15 +17,18 @@ proxy-groups:
   type: select
   proxies: &id001
   - 🇨🇳 中国 01 @SCHPD
-  - 🇰🇷 韩国 01 @SCHPD
-  - 🇰🇷 韩国 02 @SCHPD
+  - 🇩🇪 德国 01 @SCHPD
+  - 🇩🇪 德国 02 @SCHPD
+  - 🇫🇷 法国 01 @SCHPD
+  - 🇫🇷 法国 02 @SCHPD
+  - 🇫🇷 法国 03 @SCHPD
+  - 🇫🇷 法国 04 @SCHPD
+  - 🇭🇰 香港 01 @SCHPD
+  - 🇭🇰 香港 02 @SCHPD
+  - 🇯🇵 日本 01 @SCHPD
   - 🇳🇱 荷兰 01 @SCHPD
-  - 🇳🇱 荷兰 02 @SCHPD
-  - 🇳🇱 荷兰 03 @SCHPD
-  - 🇷🇴 罗马尼亚 01 @SCHPD
-  - 🇷🇴 罗马尼亚 02 @SCHPD
-  - 🇺🇸 美国 01 @SCHPD
-  - 🇺🇸 美国 02 @SCHPD
+  - 🇵🇱 波兰 01 @SCHPD
+  - 🇵🇱 波兰 02 @SCHPD
 - name: 自动选择
   type: url-test
   url: http://connectivitycheck.gstatic.com/generate_204
@@ -41,81 +44,116 @@ proxy-groups:
 rules:
 - MATCH,Proxy
 proxies:
-- name: 🇰🇷 韩国 01 @SCHPD
-  server: 52.78.13.238
-  port: 443
+- name: 🇵🇱 波兰 01 @SCHPD
+  server: relative-locust.rooster465.autos
   type: trojan
-  password: ND91608427
-  sni: upward-puma.rooster465.autos
+  country: 🇮🇳IN
+  port: 443
+  password: AE62539071
   skip-cert-verify: true
   udp: true
-  delay: 775
-- name: 🇰🇷 韩国 02 @SCHPD
-  server: upward-puma.rooster465.autos
+  delay: 2037
+- name: 🇵🇱 波兰 02 @SCHPD
+  server: enough-basilisk.rooster465.autos
   type: trojan
-  country: 🇰🇷KR
+  country: 🇮🇳IN
   port: 443
-  password: ND91608427
-  sni: upward-puma.rooster465.autos
+  password: AE62539071
   skip-cert-verify: true
   udp: true
-  delay: 1696
+  delay: 978
+- name: 🇩🇪 德国 01 @SCHPD
+  server: dashing-bedbug.rooster465.autos
+  type: trojan
+  country: 🇩🇪DE
+  port: 443
+  password: AE62539071
+  skip-cert-verify: true
+  udp: true
+  delay: 1106
+- name: 🇩🇪 德国 02 @SCHPD
+  server: 3.79.7.150
+  type: trojan
+  country: 🇩🇪DE
+  port: 443
+  password: AE62539071
+  sni: moved-bluegill.rooster465.autos
+  skip-cert-verify: true
+  udp: true
+  delay: 1359
+- name: 🇫🇷 法国 01 @SCHPD
+  server: chief-cricket.rooster465.autos
+  type: trojan
+  country: 🇫🇷FR
+  port: 443
+  password: AE62539071
+  skip-cert-verify: true
+  udp: true
+  delay: 2972
+- name: 🇫🇷 法国 02 @SCHPD
+  server: one-quail.rooster465.autos
+  type: trojan
+  country: 🇫🇷FR
+  port: 443
+  password: AE62539071
+  skip-cert-verify: true
+  udp: true
+  delay: 1004
+- name: 🇫🇷 法国 03 @SCHPD
+  server: tough-hermit.rooster465.autos
+  type: trojan
+  country: 🇫🇷FR
+  port: 443
+  password: AE62539071
+  skip-cert-verify: true
+  udp: true
+  delay: 1134
+- name: 🇫🇷 法国 04 @SCHPD
+  server: distinct-quail.rooster465.autos
+  type: trojan
+  country: 🇺🇸US
+  port: 443
+  password: AE62539071
+  skip-cert-verify: true
+  udp: true
+  delay: 1783
 - name: 🇳🇱 荷兰 01 @SCHPD
-  server: 84.17.47.125
-  port: 9002
-  type: http
-  tls: true
+  server: whole-woodcock.rooster465.autos
+  type: trojan
+  country: 🇷🇴RO
+  port: 443
+  password: AE62539071
   skip-cert-verify: true
   udp: true
-  delay: 1107
-- name: 🇳🇱 荷兰 02 @SCHPD
-  server: 84.17.47.146
-  port: 9002
-  type: http
-  tls: true
+  delay: 1463
+- name: 🇯🇵 日本 01 @SCHPD
+  server: improved-anteater.rooster465.autos
+  type: trojan
+  country: 🇯🇵JP
+  port: 443
+  udp: true
+  password: AE62539071
+  sni: improved-anteater.rooster465.autos
+  skip-cert-verify: true
+  delay: 1610
+- name: 🇭🇰 香港 01 @SCHPD
+  server: magical-kodiak.rooster465.autos
+  type: trojan
+  country: 🇭🇰HK
+  port: 443
+  password: AE62539071
   skip-cert-verify: true
   udp: true
-  delay: 2441
-- name: 🇳🇱 荷兰 03 @SCHPD
-  server: 84.17.47.150
-  port: 9002
-  type: http
-  tls: true
+  delay: 1887
+- name: 🇭🇰 香港 02 @SCHPD
+  server: upright-bedbug.rooster465.autos
+  type: trojan
+  country: 🇷🇴RO
+  port: 443
+  password: AE62539071
   skip-cert-verify: true
   udp: true
-  delay: 2924
-- name: 🇷🇴 罗马尼亚 01 @SCHPD
-  server: 84.239.49.49
-  port: 9002
-  type: http
-  tls: true
-  skip-cert-verify: true
-  udp: true
-  delay: 1840
-- name: 🇷🇴 罗马尼亚 02 @SCHPD
-  server: 84.239.49.180
-  port: 9002
-  type: http
-  tls: true
-  skip-cert-verify: true
-  udp: true
-  delay: 1300
-- name: 🇺🇸 美国 01 @SCHPD
-  server: 138.199.35.214
-  port: 9002
-  type: http
-  tls: true
-  skip-cert-verify: true
-  udp: true
-  delay: 1455
-- name: 🇺🇸 美国 02 @SCHPD
-  server: 138.199.35.207
-  port: 9002
-  type: http
-  tls: true
-  skip-cert-verify: true
-  udp: true
-  delay: 1860
+  delay: 884
 - name: 🇨🇳 中国 01 @SCHPD
   server: v9.hdacd.com
   type: vmess
@@ -127,5 +165,5 @@ proxies:
   http-opts: {}
   h2-opts: {}
   skip-cert-verify: true
-  delay: 1199
+  delay: 854
   udp: true
