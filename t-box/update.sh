@@ -42,15 +42,25 @@ _transport_jq() {
     esac
 }
 
+# uTLS fingerprints sing-box 1.12 accepts; anything else (e.g. Clash's "unsafe") → "chrome"
+_sanitize_fp() {
+    case "${1:-}" in
+        chrome|firefox|safari|ios|android|edge|360|qq|random|randomized) echo "$1" ;;
+        *) echo "chrome" ;;
+    esac
+}
+
 _tls_singbox() {
     local sec="$1" sni="$2" fp="$3" pbk="$4" sid="$5" insecure="$6"
     [ "$sec" != "tls" ] && [ "$sec" != "reality" ] && { echo '{}'; return; }
-    local utls="" reality=""
+    local utls="" reality="" sfp=""
     if [ "$sec" = "reality" ]; then
-        utls=",utls:{enabled:true,fingerprint:\"${fp:-chrome}\"}"
+        sfp=$(_sanitize_fp "${fp:-chrome}")
+        utls=",utls:{enabled:true,fingerprint:\"$sfp\"}"
         [ -n "$pbk" ] && reality=",reality:{enabled:true,public_key:\"$pbk\",short_id:\"${sid:-}\"}"
     elif [ -n "$fp" ]; then
-        utls=",utls:{enabled:true,fingerprint:\"$fp\"}"
+        sfp=$(_sanitize_fp "$fp")
+        utls=",utls:{enabled:true,fingerprint:\"$sfp\"}"
     fi
     jq -n -c --arg sni "$sni" --argjson insec "${insecure:-0}" \
       "{tls:{enabled:true,server_name:\$sni,insecure:(\$insec==1)${utls}${reality}}}"
@@ -69,7 +79,7 @@ _parse_vmess() {
         if .tls == "tls" then {
           enabled:true, server_name:(.sni//.host//.add//""),
           insecure:(.["allowInsecure"]//false),
-          utls:(if (.fp//"")!="" then {enabled:true,fingerprint:.fp} else {} end)
+          utls:(if (.fp//"")!="" then {enabled:true,fingerprint:(if (.fp|test("^(chrome|firefox|safari|ios|android|edge|360|qq|random|randomized)$")) then .fp else "chrome" end)} else {} end)
         } else {} end;
       {
         type:"vmess", tag:(.ps//"unknown"),
@@ -261,7 +271,7 @@ _clash_to_singbox() {
             insecure: (.["skip-cert-verify"] // false)
           }
           + (if .["client-fingerprint"] then
-              { utls: { enabled: true, fingerprint: .["client-fingerprint"] } }
+              { utls: { enabled: true, fingerprint: (if (.["client-fingerprint"] | test("^(chrome|firefox|safari|ios|android|edge|360|qq|random|randomized)$")) then .["client-fingerprint"] else "chrome" end) } }
             else {} end)
           + (if .["reality-opts"] then
               { reality: { enabled: true, public_key: (.["reality-opts"]["public-key"] // ""),
