@@ -10014,7 +10014,7 @@
       "insecure": false,
       "utls": {
         "enabled": true,
-        "fingerprint": "unsafe"
+        "fingerprint": "chrome"
       }
     },
     "type": "vless",
@@ -16090,7 +16090,7 @@
       "insecure": false,
       "utls": {
         "enabled": true,
-        "fingerprint": "unsafe"
+        "fingerprint": "chrome"
       }
     },
     "type": "vless",
@@ -16310,7 +16310,7 @@
       "insecure": false,
       "utls": {
         "enabled": true,
-        "fingerprint": "unsafe"
+        "fingerprint": "chrome"
       }
     },
     "type": "vless",
