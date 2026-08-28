@@ -17,6 +17,22 @@ proxy-groups:
   type: select
   proxies: &id001
   - 🇨🇳 中国 01 @SCHPD
+  - 🇳🇱 荷兰 01 @SCHPD
+  - 🇳🇱 荷兰 02 @SCHPD
+  - 🇳🇱 荷兰 03 @SCHPD
+  - 🇳🇱 荷兰 04 @SCHPD
+  - 🇳🇱 荷兰 05 @SCHPD
+  - 🇷🇴 罗马尼亚 01 @SCHPD
+  - 🇷🇴 罗马尼亚 02 @SCHPD
+  - 🇷🇴 罗马尼亚 03 @SCHPD
+  - 🇷🇴 罗马尼亚 04 @SCHPD
+  - 🇷🇴 罗马尼亚 05 @SCHPD
+  - 🇷🇴 罗马尼亚 06 @SCHPD
+  - 🇺🇸 美国 01 @SCHPD
+  - 🇺🇸 美国 02 @SCHPD
+  - 🇺🇸 美国 03 @SCHPD
+  - 🇺🇸 美国 04 @SCHPD
+  - ☁️ Cloudflare 01 @SCHPD
 - name: 自动选择
   type: url-test
   url: http://connectivitycheck.gstatic.com/generate_204
@@ -32,6 +48,137 @@ proxy-groups:
 rules:
 - MATCH,Proxy
 proxies:
+- name: 🇳🇱 荷兰 01 @SCHPD
+  server: 84.17.47.125
+  port: 9002
+  type: http
+  tls: true
+  skip-cert-verify: true
+  udp: true
+  delay: 1792
+- name: 🇳🇱 荷兰 02 @SCHPD
+  server: 84.17.47.150
+  port: 9002
+  type: http
+  tls: true
+  skip-cert-verify: true
+  udp: true
+  delay: 1452
+- name: 🇳🇱 荷兰 03 @SCHPD
+  server: 84.17.47.148
+  port: 9002
+  type: http
+  tls: true
+  skip-cert-verify: true
+  udp: true
+  delay: 2615
+- name: 🇳🇱 荷兰 04 @SCHPD
+  server: 84.17.47.146
+  port: 9002
+  type: http
+  tls: true
+  skip-cert-verify: true
+  udp: true
+  delay: 1657
+- name: 🇳🇱 荷兰 05 @SCHPD
+  server: 84.17.47.149
+  port: 9002
+  type: http
+  tls: true
+  skip-cert-verify: true
+  udp: true
+  delay: 1345
+- name: 🇷🇴 罗马尼亚 01 @SCHPD
+  server: 193.176.84.30
+  port: 9002
+  type: http
+  tls: true
+  skip-cert-verify: true
+  udp: true
+  delay: 1242
+- name: 🇷🇴 罗马尼亚 02 @SCHPD
+  server: 193.176.84.35
+  port: 9002
+  type: http
+  tls: true
+  skip-cert-verify: true
+  udp: true
+  delay: 1046
+- name: 🇷🇴 罗马尼亚 03 @SCHPD
+  server: 193.176.84.24
+  port: 9002
+  type: http
+  tls: true
+  skip-cert-verify: true
+  udp: true
+  delay: 2968
+- name: 🇷🇴 罗马尼亚 04 @SCHPD
+  server: 193.176.84.23
+  port: 9002
+  type: http
+  password: None
+  tls: true
+  skip-cert-verify: true
+  udp: true
+  delay: 2574
+- name: 🇷🇴 罗马尼亚 05 @SCHPD
+  server: 193.176.84.27
+  port: 9002
+  type: http
+  tls: true
+  skip-cert-verify: true
+  udp: true
+  delay: 1695
+- name: 🇷🇴 罗马尼亚 06 @SCHPD
+  server: 193.176.84.32
+  port: 9002
+  type: http
+  tls: true
+  skip-cert-verify: true
+  udp: true
+  delay: 1337
+- name: 🇺🇸 美国 01 @SCHPD
+  server: 138.199.35.216
+  port: 9002
+  type: http
+  username: 'null'
+  password: 'null'
+  tls: true
+  skip-cert-verify: true
+  udp: true
+  delay: 2242
+- name: 🇺🇸 美国 02 @SCHPD
+  server: 38.28.193.188
+  port: 443
+  type: http
+  tls: true
+  skip-cert-verify: true
+  udp: true
+  delay: 922
+- name: 🇺🇸 美国 03 @SCHPD
+  server: 138.199.35.198
+  port: 9002
+  type: http
+  tls: true
+  skip-cert-verify: true
+  udp: true
+  delay: 1006
+- name: 🇺🇸 美国 04 @SCHPD
+  server: 103.179.142.158
+  port: 50269
+  type: vmess
+  uuid: 84f238f6-28eb-48df-a7bc-a9bd9cf4abba
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: http
+  http-opts:
+    method: GET
+    path:
+    - /
+  udp: true
+  delay: 469
 - name: 🇨🇳 中国 01 @SCHPD
   server: 112.132.215.108
   port: 50002
@@ -42,4 +189,24 @@ proxies:
   tls: false
   skip-cert-verify: true
   udp: true
-  delay: 2176
+  delay: 623
+- name: ☁️ Cloudflare 01 @SCHPD
+  server: www.shopify.com
+  type: vmess
+  country: 🏁ZZ
+  port: 443
+  uuid: a7fba54d-1031-4b23-b8b6-dbf8ce6ad3b3
+  alterId: 0
+  cipher: auto
+  network: ws
+  servername: included-shaw-lean-believe.trycloudflare.com
+  http-opts: {}
+  h2-opts: {}
+  tls: true
+  skip-cert-verify: true
+  ws-opts:
+    path: /a7fba54d-1031-4b23-b8b6-dbf8ce6ad3b3-vm
+    headers:
+      HOST: included-shaw-lean-believe.trycloudflare.com
+  delay: 1785
+  udp: true
