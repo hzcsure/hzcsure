@@ -34,7 +34,7 @@ proxy-groups:
   - 🇺🇸 美国 03 @SCHPD
   - 🇺🇸 美国 04 @SCHPD
   - 🇺🇸 美国 05 @SCHPD
-  - ☁️ Cloudflare 01 @SCHPD
+  - 🇺🇸 美国 06 @SCHPD
 - name: 自动选择
   type: url-test
   url: http://connectivitycheck.gstatic.com/generate_204
@@ -206,7 +206,7 @@ proxies:
   skip-cert-verify: true
   udp: true
   delay: 1549
-- name: ☁️ Cloudflare 01 @SCHPD
+- name: 🇺🇸 美国 06 @SCHPD
   server: fan.365747.xyz
   port: 443
   type: http
