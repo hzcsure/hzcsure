@@ -22,12 +22,12 @@ proxy-groups:
   - 中国 04 @SCHPD
   - 中国 05 @SCHPD
   - 中国 06 @SCHPD
-  - 丹麦 01 @SCHPD
   - 亚美尼亚 01 @SCHPD
   - 伊朗 01 @SCHPD
   - 伊朗 02 @SCHPD
   - 伊朗 03 @SCHPD
   - 伊朗 04 @SCHPD
+  - 伊朗 05 @SCHPD
   - 俄罗斯联邦 01 @SCHPD
   - 俄罗斯联邦 02 @SCHPD
   - 俄罗斯联邦 03 @SCHPD
@@ -45,6 +45,8 @@ proxy-groups:
   - 俄罗斯联邦 15 @SCHPD
   - 俄罗斯联邦 16 @SCHPD
   - 俄罗斯联邦 17 @SCHPD
+  - 俄罗斯联邦 18 @SCHPD
+  - 俄罗斯联邦 19 @SCHPD
   - 其他地区 01 @SCHPD
   - 其他地区 02 @SCHPD
   - 其他地区 03 @SCHPD
@@ -59,10 +61,6 @@ proxy-groups:
   - 其他地区 101 @SCHPD
   - 其他地区 102 @SCHPD
   - 其他地区 103 @SCHPD
-  - 其他地区 104 @SCHPD
-  - 其他地区 105 @SCHPD
-  - 其他地区 106 @SCHPD
-  - 其他地区 107 @SCHPD
   - 其他地区 11 @SCHPD
   - 其他地区 12 @SCHPD
   - 其他地区 13 @SCHPD
@@ -168,6 +166,7 @@ proxy-groups:
   - 塞舌尔 10 @SCHPD
   - 塞舌尔 11 @SCHPD
   - 塞舌尔 12 @SCHPD
+  - 塞舌尔 13 @SCHPD
   - 巴西 01 @SCHPD
   - 巴西 02 @SCHPD
   - 巴西 03 @SCHPD
@@ -181,20 +180,12 @@ proxy-groups:
   - 德国 08 @SCHPD
   - 德国 09 @SCHPD
   - 德国 10 @SCHPD
-  - 德国 11 @SCHPD
-  - 德国 12 @SCHPD
   - 拉脱维亚 01 @SCHPD
-  - 拉脱维亚 02 @SCHPD
-  - 拉脱维亚 03 @SCHPD
-  - 拉脱维亚 04 @SCHPD
   - 捷克 01 @SCHPD
   - 捷克 02 @SCHPD
   - 新加坡 01 @SCHPD
   - 新加坡 02 @SCHPD
   - 新加坡 03 @SCHPD
-  - 新加坡 04 @SCHPD
-  - 新加坡 05 @SCHPD
-  - 新加坡 06 @SCHPD
   - 日本 01 @SCHPD
   - 日本 02 @SCHPD
   - 日本 03 @SCHPD
@@ -214,13 +205,10 @@ proxy-groups:
   - 波兰 03 @SCHPD
   - 波兰 04 @SCHPD
   - 波兰 05 @SCHPD
-  - 波兰 06 @SCHPD
-  - 澳大利亚 01 @SCHPD
   - 爱沙尼亚 01 @SCHPD
   - 爱沙尼亚 02 @SCHPD
   - 爱沙尼亚 03 @SCHPD
   - 瑞典 01 @SCHPD
-  - 瑞典 02 @SCHPD
   - 立陶宛 01 @SCHPD
   - 立陶宛 02 @SCHPD
   - 立陶宛 03 @SCHPD
@@ -263,6 +251,7 @@ proxy-groups:
   - 美国 35 @SCHPD
   - 芬兰 01 @SCHPD
   - 芬兰 02 @SCHPD
+  - 芬兰 03 @SCHPD
   - 英国 01 @SCHPD
   - 英国 02 @SCHPD
   - 英国 03 @SCHPD
@@ -279,7 +268,6 @@ proxy-groups:
   - 英国 14 @SCHPD
   - 英国 15 @SCHPD
   - 英国 16 @SCHPD
-  - 英国 17 @SCHPD
   - 荷兰 01 @SCHPD
   - 荷兰 02 @SCHPD
   - 荷兰 03 @SCHPD
@@ -289,7 +277,6 @@ proxy-groups:
   - 荷兰 07 @SCHPD
   - 荷兰 08 @SCHPD
   - 荷兰 09 @SCHPD
-  - 荷兰 10 @SCHPD
   - 西班牙 01 @SCHPD
   - 西班牙 02 @SCHPD
   - 西班牙 03 @SCHPD
@@ -297,12 +284,14 @@ proxy-groups:
   - 阿联酋 02 @SCHPD
   - 阿联酋 03 @SCHPD
   - 韩国 01 @SCHPD
+  - 韩国 02 @SCHPD
   - 香港 01 @SCHPD
   - 香港 02 @SCHPD
   - 香港 03 @SCHPD
   - 香港 04 @SCHPD
   - 香港 05 @SCHPD
   - 香港 06 @SCHPD
+  - 香港 07 @SCHPD
   - 马来西亚 01 @SCHPD
 - name: 自动选择
   type: url-test
@@ -319,31 +308,37 @@ proxy-groups:
 rules:
 - MATCH,Proxy
 proxies:
-- name: 其他地区 01 @SCHPD
-  type: trojan
-  server: 104.16.174.44
-  port: 443
-  password: humanity
-  sni: www.ignitelimit.com
-  skip-cert-verify: false
-  ws-opts:
-    path: /assignment
-    headers:
-      Host: www.ignitelimit.com
-  udp: true
-- name: 其他地区 02 @SCHPD
-  type: trojan
-  server: 104.18.152.204
-  port: 443
-  password: humanity
-  sni: www.ignitelimit.com
-  skip-cert-verify: false
-  ws-opts:
-    path: /assignment
-  udp: true
-- name: 俄罗斯联邦 01 @SCHPD
+- name: 美国 01 @SCHPD
   type: vless
-  server: 185.148.107.40
+  server: 45.40.150.4
+  port: 80
+  uuid: 72c2b7cc-fcd9-494f-8a2e-21dcd062ff11
+  network: ws
+  tls: false
+  ws-opts:
+    path: /pyip=Telegram🇨🇳++
+    headers:
+      Host: holy-breeze-0bac.47-dec.workers.dev
+  skip-cert-verify: false
+  udp: true
+- name: 其他地区 01 @SCHPD
+  type: vless
+  server: 104.24.9.6
+  port: 443
+  uuid: 407ecce0-dc85-465f-89f5-e520e9378baf
+  network: ws
+  servername: ld.223350.xyz
+  tls: true
+  client-fingerprint: chrome
+  ws-opts:
+    path: /
+    headers:
+      Host: ld.223350.xyz
+  skip-cert-verify: false
+  udp: true
+- name: 美国 02 @SCHPD
+  type: vless
+  server: 50.62.194.30
   port: 8880
   uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
   network: ws
@@ -351,7 +346,7 @@ proxies:
   ws-opts:
     path: /
     headers:
-      Host: vms.lifetime55.workers.dev
+      Host: vms.lifetime37.workers.dev
   skip-cert-verify: false
   udp: true
 - name: 荷兰 01 @SCHPD
@@ -371,47 +366,17 @@ proxies:
       - dey.lnmarketplace.net
   skip-cert-verify: false
   udp: true
-- name: 法国 01 @SCHPD
-  type: vmess
-  server: 2001:bc8:32d7:1a9::2
-  port: 23388
-  uuid: 3a966d20-7b9d-48cc-ba2c-8d38161b6d3a
-  alterId: 0
-  cipher: auto
-  tls: false
+- name: 其他地区 02 @SCHPD
+  type: trojan
+  server: 104.26.14.137
+  port: 443
+  password: humanity
+  sni: www.ignitelimit.com
   skip-cert-verify: false
-  network: ws
   ws-opts:
-    path: /github.com/Alvin9999-newpac/fanqiang
+    path: /assignment
   udp: true
 - name: 其他地区 03 @SCHPD
-  type: trojan
-  server: blackshadow.dpdns.org
-  port: 443
-  password: 2bcfbfba-b446-4ad5-93ad-72af9e008f61
-  sni: blackshadow.dpdns.org
-  skip-cert-verify: false
-  ws-opts:
-    path: /195.123.218.174-443
-    headers:
-      Host: blackshadow.dpdns.org
-  udp: true
-- name: 其他地区 04 @SCHPD
-  type: vless
-  server: 104.24.9.6
-  port: 443
-  uuid: 407ecce0-dc85-465f-89f5-e520e9378baf
-  network: ws
-  servername: ld.223350.xyz
-  tls: true
-  client-fingerprint: chrome
-  ws-opts:
-    path: /
-    headers:
-      Host: ld.223350.xyz
-  skip-cert-verify: false
-  udp: true
-- name: 其他地区 05 @SCHPD
   type: trojan
   server: 104.26.15.137
   port: 443
@@ -421,7 +386,7 @@ proxies:
   ws-opts:
     path: /assignment
   udp: true
-- name: 其他地区 06 @SCHPD
+- name: 其他地区 04 @SCHPD
   type: trojan
   server: www.speedtest.org
   port: 443
@@ -431,9 +396,29 @@ proxies:
   ws-opts:
     path: /assignment
   udp: true
+- name: 其他地区 05 @SCHPD
+  type: trojan
+  server: 104.16.73.213
+  port: 443
+  password: humanity
+  sni: www.ignitelimit.com
+  skip-cert-verify: false
+  ws-opts:
+    path: /assignment
+  udp: true
+- name: 其他地区 06 @SCHPD
+  type: trojan
+  server: 104.18.152.204
+  port: 443
+  password: humanity
+  sni: www.ignitelimit.com
+  skip-cert-verify: false
+  ws-opts:
+    path: /assignment
+  udp: true
 - name: 其他地区 07 @SCHPD
   type: trojan
-  server: 104.18.152.143
+  server: 104.16.174.44
   port: 443
   password: humanity
   sni: www.ignitelimit.com
@@ -453,82 +438,9 @@ proxies:
   ws-opts:
     path: //assignment
   udp: true
-- name: 立陶宛 01 @SCHPD
-  type: trojan
-  server: 86.38.214.205
-  port: 443
-  password: humanity
-  sni: www.ignitelimit.com
-  skip-cert-verify: false
-  ws-opts:
-    path: /assignment
-  udp: true
 - name: 其他地区 09 @SCHPD
   type: trojan
-  server: 104.26.14.137
-  port: 443
-  password: humanity
-  sni: www.ignitelimit.com
-  skip-cert-verify: false
-  ws-opts:
-    path: /assignment
-  udp: true
-- name: 其他地区 10 @SCHPD
-  type: trojan
-  server: www.ignitelimit.com
-  port: 443
-  password: humanity
-  skip-cert-verify: false
-  ws-opts:
-    path: /assignment
-  udp: true
-- name: 其他地区 11 @SCHPD
-  type: trojan
-  server: 104.16.73.213
-  port: 443
-  password: humanity
-  sni: www.ignitelimit.com
-  skip-cert-verify: false
-  ws-opts:
-    path: /assignment
-  udp: true
-- name: 美国 01 @SCHPD
-  type: vless
-  server: 18.239.134.69
-  port: 80
-  uuid: de27291c-15a9-4256-9ba7-ad517569877e
-  network: ws
-  tls: false
-  client-fingerprint: safari
-  ws-opts:
-    path: /
-    headers:
-      Host: d2e1v87ko56lyw.cloudfront.net:assets.opensignal.com
-  skip-cert-verify: false
-  udp: true
-- name: 其他地区 12 @SCHPD
-  type: trojan
-  server: 104.18.152.219
-  port: 443
-  password: humanity
-  sni: www.ignitelimit.com
-  skip-cert-verify: false
-  ws-opts:
-    path: /assignment
-  udp: true
-- name: 其他地区 13 @SCHPD
-  type: trojan
-  server: 104.18.152.152
-  port: 443
-  password: humanity
-  sni: www.ignitelimit.com
-  skip-cert-verify: false
-  ws-opts:
-    path: /assignment
-  udp: true
-- name: 其他地区 14 @SCHPD
-  type: trojan
-  server: 104.18.152.140
+  server: 104.18.152.143
   port: 443
   password: humanity
   sni: www.ignitelimit.com
@@ -538,9 +450,9 @@ proxies:
     headers:
       Host: www.ignitelimit.com
   udp: true
-- name: 其他地区 15 @SCHPD
+- name: 其他地区 10 @SCHPD
   type: trojan
-  server: 104.18.152.108
+  server: 104.18.152.207
   port: 443
   password: humanity
   sni: www.ignitelimit.com
@@ -548,7 +460,7 @@ proxies:
   ws-opts:
     path: /assignment
   udp: true
-- name: 美国 02 @SCHPD
+- name: 美国 03 @SCHPD
   type: trojan
   server: 216.24.57.7
   port: 443
@@ -560,9 +472,38 @@ proxies:
   ws-opts:
     path: /assignment
   udp: true
-- name: 其他地区 16 @SCHPD
+- name: 立陶宛 01 @SCHPD
   type: trojan
-  server: 104.18.152.207
+  server: 86.38.214.205
+  port: 443
+  password: humanity
+  sni: www.ignitelimit.com
+  skip-cert-verify: false
+  ws-opts:
+    path: /assignment
+  udp: true
+- name: 其他地区 11 @SCHPD
+  type: trojan
+  server: 104.18.12.149
+  port: 443
+  password: humanity
+  sni: www.ignitelimit.com
+  skip-cert-verify: false
+  ws-opts:
+    path: /assignment
+  udp: true
+- name: 其他地区 12 @SCHPD
+  type: trojan
+  server: www.ignitelimit.com
+  port: 443
+  password: humanity
+  skip-cert-verify: false
+  ws-opts:
+    path: /assignment
+  udp: true
+- name: 其他地区 13 @SCHPD
+  type: trojan
+  server: 104.18.152.108
   port: 443
   password: humanity
   sni: www.ignitelimit.com
@@ -582,7 +523,7 @@ proxies:
     headers:
       Host: www.ignitelimit.com
   udp: true
-- name: 其他地区 17 @SCHPD
+- name: 其他地区 14 @SCHPD
   type: trojan
   server: 104.18.22.63
   port: 443
@@ -591,6 +532,52 @@ proxies:
   skip-cert-verify: false
   ws-opts:
     path: /assignment
+  udp: true
+- name: 其他地区 15 @SCHPD
+  type: trojan
+  server: 104.18.152.140
+  port: 443
+  password: humanity
+  sni: www.ignitelimit.com
+  skip-cert-verify: false
+  ws-opts:
+    path: /assignment
+    headers:
+      Host: www.ignitelimit.com
+  udp: true
+- name: 其他地区 16 @SCHPD
+  type: trojan
+  server: 104.18.152.152
+  port: 443
+  password: humanity
+  sni: www.ignitelimit.com
+  skip-cert-verify: false
+  ws-opts:
+    path: /assignment
+  udp: true
+- name: 其他地区 17 @SCHPD
+  type: trojan
+  server: 104.18.152.219
+  port: 443
+  password: humanity
+  sni: www.ignitelimit.com
+  skip-cert-verify: false
+  ws-opts:
+    path: /assignment
+  udp: true
+- name: 美国 04 @SCHPD
+  type: vless
+  server: 18.239.134.69
+  port: 80
+  uuid: de27291c-15a9-4256-9ba7-ad517569877e
+  network: ws
+  tls: false
+  client-fingerprint: qq
+  ws-opts:
+    path: /
+    headers:
+      Host: d2e1v87ko56lyw.cloudfront.net:assets.opensignal.com
+  skip-cert-verify: false
   udp: true
 - name: 其他地区 18 @SCHPD
   type: vless
@@ -634,7 +621,7 @@ proxies:
     short-id: 2cfb5a0ae8ab0cb0
   skip-cert-verify: false
   udp: true
-- name: 美国 03 @SCHPD
+- name: 美国 05 @SCHPD
   type: vless
   server: 167.82.101.251
   port: 443
@@ -676,7 +663,7 @@ proxies:
     short-id: e3d38cee79d4f94c
   skip-cert-verify: false
   udp: true
-- name: 美国 04 @SCHPD
+- name: 美国 06 @SCHPD
   type: vless
   server: support.zoom.us
   port: 443
@@ -955,7 +942,7 @@ proxies:
       Host: t1s1.rittbo.kdns.fr
   skip-cert-verify: false
   udp: true
-- name: 法国 02 @SCHPD
+- name: 法国 01 @SCHPD
   type: vmess
   server: 2001:bc8:32d7:225::3
   port: 55009
@@ -1075,19 +1062,6 @@ proxies:
       Host: twilight-poetry-2bfe.218-699.workers.dev
   skip-cert-verify: false
   udp: true
-- name: 英国 07 @SCHPD
-  type: vless
-  server: 91.193.58.42
-  port: 80
-  uuid: 26beb784-a664-4c3e-becf-0f0c12568b62
-  network: ws
-  tls: false
-  ws-opts:
-    path: /pyip=Telegram-WangCai2🇨🇳
-    headers:
-      Host: twilight-poetry-2bfe.218-699.workers.dev
-  skip-cert-verify: false
-  udp: true
 - name: 捷克 01 @SCHPD
   type: vless
   server: 141.133.172.222
@@ -1124,7 +1098,7 @@ proxies:
       Host: notls.lukongtou.eu.org
   skip-cert-verify: false
   udp: true
-- name: 英国 08 @SCHPD
+- name: 英国 07 @SCHPD
   type: vless
   server: 91.193.58.93
   port: 443
@@ -1138,7 +1112,7 @@ proxies:
       Host: jamph131-1228.pages.dev
   skip-cert-verify: false
   udp: true
-- name: 英国 09 @SCHPD
+- name: 英国 08 @SCHPD
   type: vless
   server: 91.193.58.195
   port: 443
@@ -1152,7 +1126,7 @@ proxies:
       Host: jamph131-1228.pages.dev
   skip-cert-verify: false
   udp: true
-- name: 英国 10 @SCHPD
+- name: 英国 09 @SCHPD
   type: vless
   server: 91.193.58.141
   port: 443
@@ -1166,7 +1140,7 @@ proxies:
       Host: jamph131-1228.pages.dev
   skip-cert-verify: false
   udp: true
-- name: 英国 11 @SCHPD
+- name: 英国 10 @SCHPD
   type: vless
   server: 91.193.58.117
   port: 443
@@ -1210,7 +1184,19 @@ proxies:
     headers:
       Host: ajax.microsoft.com
   udp: true
-- name: 美国 05 @SCHPD
+- name: 其他地区 31 @SCHPD
+  type: trojan
+  server: blackshadow.dpdns.org
+  port: 443
+  password: 2bcfbfba-b446-4ad5-93ad-72af9e008f61
+  sni: blackshadow.dpdns.org
+  skip-cert-verify: false
+  ws-opts:
+    path: /195.123.218.174-443
+    headers:
+      Host: blackshadow.dpdns.org
+  udp: true
+- name: 美国 07 @SCHPD
   type: vless
   server: www.true.th
   port: 80
@@ -1224,7 +1210,7 @@ proxies:
       Host: d2pwbkmfr5lxa4.cloudfront.net
   skip-cert-verify: false
   udp: true
-- name: 英国 12 @SCHPD
+- name: 英国 11 @SCHPD
   type: vless
   server: 45.155.52.231
   port: 443
@@ -1237,7 +1223,7 @@ proxies:
     short-id: 0b
   skip-cert-verify: false
   udp: true
-- name: 美国 06 @SCHPD
+- name: 美国 08 @SCHPD
   type: vless
   server: 154.193.55.183
   port: 443
@@ -1251,7 +1237,7 @@ proxies:
     short-id: dbbe8dca27a92c35
   skip-cert-verify: false
   udp: true
-- name: 英国 13 @SCHPD
+- name: 英国 12 @SCHPD
   type: vless
   server: 91.193.58.92
   port: 80
@@ -1264,7 +1250,7 @@ proxies:
       Host: plain-darkness-90ea.259.workers.dev
   skip-cert-verify: false
   udp: true
-- name: 英国 14 @SCHPD
+- name: 英国 13 @SCHPD
   type: vless
   server: 91.193.58.93
   port: 80
@@ -1291,7 +1277,7 @@ proxies:
     short-id: f34818a561dfd1fe
   skip-cert-verify: false
   udp: true
-- name: 美国 07 @SCHPD
+- name: 美国 09 @SCHPD
   type: vless
   server: 104.245.242.7
   port: 443
@@ -1348,7 +1334,7 @@ proxies:
   tls: false
   skip-cert-verify: false
   udp: true
-- name: 美国 08 @SCHPD
+- name: 美国 10 @SCHPD
   type: vless
   server: 199.232.78.159
   port: 443
@@ -1363,7 +1349,7 @@ proxies:
       Host: pan11.global.ssl.fastly.net
   skip-cert-verify: false
   udp: true
-- name: 美国 09 @SCHPD
+- name: 美国 11 @SCHPD
   type: vless
   server: 88.218.44.4
   port: 993
@@ -1386,7 +1372,7 @@ proxies:
   client-fingerprint: firefox
   skip-cert-verify: false
   udp: true
-- name: 美国 10 @SCHPD
+- name: 美国 12 @SCHPD
   type: vless
   server: 3.170.185.91
   port: 80
@@ -1399,7 +1385,7 @@ proxies:
       Host: d2pwbkmfr5lxa4.cloudfront.net
   skip-cert-verify: false
   udp: true
-- name: 其他地区 31 @SCHPD
+- name: 其他地区 32 @SCHPD
   type: vless
   server: ad-013.pixel9xdmq.info
   port: 8443
@@ -1414,7 +1400,7 @@ proxies:
       Host: ad-013.pixel9xdmq.info
   skip-cert-verify: false
   udp: true
-- name: 其他地区 32 @SCHPD
+- name: 其他地区 33 @SCHPD
   type: vless
   server: ad-010.pixel9xdmq.info
   port: 8443
@@ -1452,7 +1438,7 @@ proxies:
   client-fingerprint: chrome
   skip-cert-verify: false
   udp: true
-- name: 美国 11 @SCHPD
+- name: 美国 13 @SCHPD
   type: vless
   server: 88.218.44.4
   port: 8443
@@ -1480,7 +1466,7 @@ proxies:
     public-key: SHDdd617KLHHb0qlQFOHepeHFl_Ch2i-K7o891uyo2M
   skip-cert-verify: false
   udp: true
-- name: 美国 12 @SCHPD
+- name: 美国 14 @SCHPD
   type: vless
   server: 88.218.44.4
   port: 443
@@ -1496,7 +1482,7 @@ proxies:
     public-key: Rt2wltCWOxIroFggNWMudZDBJXls8DsF4icaWqxKDk8
   skip-cert-verify: false
   udp: true
-- name: 其他地区 33 @SCHPD
+- name: 其他地区 34 @SCHPD
   type: vless
   server: 104.26.2.173
   port: 443
@@ -1511,7 +1497,7 @@ proxies:
       Host: support.zoom.us.yxls.eu.cc
   skip-cert-verify: false
   udp: true
-- name: 其他地区 34 @SCHPD
+- name: 其他地区 35 @SCHPD
   type: vless
   server: www.speedtest.net
   port: 8080
@@ -1526,7 +1512,7 @@ proxies:
       - konkortur.sanjeshvipspeed.ir
   skip-cert-verify: false
   udp: true
-- name: 其他地区 35 @SCHPD
+- name: 其他地区 36 @SCHPD
   type: vless
   server: 104.17.121.110
   port: 8880
@@ -1541,7 +1527,7 @@ proxies:
       - svn-panel-team.lorqino.ir
   skip-cert-verify: false
   udp: true
-- name: 其他地区 36 @SCHPD
+- name: 其他地区 37 @SCHPD
   type: vless
   server: 104.21.88.174
   port: 2052
@@ -1577,7 +1563,7 @@ proxies:
   tls: false
   skip-cert-verify: false
   udp: true
-- name: 美国 13 @SCHPD
+- name: 美国 15 @SCHPD
   type: vless
   server: www.true.th
   port: 443
@@ -1590,7 +1576,7 @@ proxies:
     path: /
   skip-cert-verify: false
   udp: true
-- name: 美国 14 @SCHPD
+- name: 美国 16 @SCHPD
   type: vless
   server: 162.159.156.214
   port: 8880
@@ -1603,7 +1589,7 @@ proxies:
       Host: throbbing-moon-a07c.90-ec4.workers.dev
   skip-cert-verify: false
   udp: true
-- name: 俄罗斯联邦 02 @SCHPD
+- name: 俄罗斯联邦 01 @SCHPD
   type: vless
   server: 178.72.162.73
   port: 443
@@ -1620,7 +1606,7 @@ proxies:
       - ru6.ethicsdinnerpave.online
   skip-cert-verify: false
   udp: true
-- name: 美国 15 @SCHPD
+- name: 美国 17 @SCHPD
   type: vless
   server: 94.124.119.187
   port: 16565
@@ -1634,7 +1620,7 @@ proxies:
     short-id: 373e14d458
   skip-cert-verify: false
   udp: true
-- name: 俄罗斯联邦 03 @SCHPD
+- name: 俄罗斯联邦 02 @SCHPD
   type: vless
   server: 104.171.136.112
   port: 2200
@@ -1714,7 +1700,7 @@ proxies:
       Host: ov186.ochmaybrooooo.online
   skip-cert-verify: false
   udp: true
-- name: 俄罗斯联邦 04 @SCHPD
+- name: 俄罗斯联邦 03 @SCHPD
   type: vless
   server: 157.22.193.73
   port: 443
@@ -1728,7 +1714,7 @@ proxies:
     short-id: 9698d67e63bc8ee0
   skip-cert-verify: false
   udp: true
-- name: 俄罗斯联邦 05 @SCHPD
+- name: 俄罗斯联邦 04 @SCHPD
   type: vless
   server: 161.104.32.106
   port: 8443
@@ -1797,7 +1783,7 @@ proxies:
       Host: edge.yzkvm.top
   skip-cert-verify: false
   udp: true
-- name: 俄罗斯联邦 06 @SCHPD
+- name: 俄罗斯联邦 05 @SCHPD
   type: vless
   server: 213.226.112.19
   port: 443
@@ -1826,23 +1812,6 @@ proxies:
       Host: rubifen.adaspoloandco.com
   skip-cert-verify: false
   udp: true
-- name: 其他地区 37 @SCHPD
-  type: vless
-  server: 104.18.12.149
-  port: 443
-  uuid: afcc2147-1350-4155-9ec0-95c4ba4be847
-  network: http
-  servername: fran.sarzamiiinahang.ir
-  tls: true
-  client-fingerprint: chrome
-  http-opts:
-    path:
-    - /Meh?di=443
-    headers:
-      Host:
-      - fran.sarzamiiinahang.ir
-  skip-cert-verify: false
-  udp: true
 - name: 日本 09 @SCHPD
   type: vless
   server: 45.192.200.66
@@ -1858,7 +1827,7 @@ proxies:
       Host: rubifen.adaspoloandco.com
   skip-cert-verify: false
   udp: true
-- name: 俄罗斯联邦 07 @SCHPD
+- name: 俄罗斯联邦 06 @SCHPD
   type: vless
   server: 104.171.137.176
   port: 2200
@@ -1883,7 +1852,7 @@ proxies:
     - /
   skip-cert-verify: false
   udp: true
-- name: 俄罗斯联邦 08 @SCHPD
+- name: 俄罗斯联邦 07 @SCHPD
   type: vless
   server: 176.98.178.17
   port: 4100
@@ -1896,7 +1865,7 @@ proxies:
       Host: live.ok.ru
   skip-cert-verify: false
   udp: true
-- name: 俄罗斯联邦 09 @SCHPD
+- name: 俄罗斯联邦 08 @SCHPD
   type: vless
   server: 217.177.74.229
   port: 443
@@ -1910,7 +1879,7 @@ proxies:
     short-id: d4331052
   skip-cert-verify: false
   udp: true
-- name: 美国 16 @SCHPD
+- name: 美国 18 @SCHPD
   type: vless
   server: 3.170.185.91
   port: 443
@@ -1925,7 +1894,7 @@ proxies:
       Host: d1yxsk0zprgivr.cloudfront.net
   skip-cert-verify: false
   udp: true
-- name: 英国 15 @SCHPD
+- name: 英国 14 @SCHPD
   type: vless
   server: 138.124.181.52
   port: 13868
@@ -1939,7 +1908,7 @@ proxies:
     short-id: e852dc
   skip-cert-verify: false
   udp: true
-- name: 美国 17 @SCHPD
+- name: 美国 19 @SCHPD
   type: vless
   server: 155.46.167.30
   port: 8880
@@ -1964,7 +1933,7 @@ proxies:
       Host: calm-haze-d105.21-7cd.workers.dev
   skip-cert-verify: false
   udp: true
-- name: 美国 18 @SCHPD
+- name: 美国 20 @SCHPD
   type: vless
   server: 2.27.56.216
   port: 443
@@ -1995,7 +1964,7 @@ proxies:
     short-id: e3db542f549f5504
   skip-cert-verify: false
   udp: true
-- name: 美国 19 @SCHPD
+- name: 美国 21 @SCHPD
   type: vless
   server: 199.232.239.2
   port: 443
@@ -2064,32 +2033,6 @@ proxies:
     short-id: e852dc
   skip-cert-verify: false
   udp: true
-- name: 美国 20 @SCHPD
-  type: vless
-  server: 45.40.150.4
-  port: 80
-  uuid: 72c2b7cc-fcd9-494f-8a2e-21dcd062ff11
-  network: ws
-  tls: false
-  ws-opts:
-    path: /pyip=Telegram🇨🇳++
-    headers:
-      Host: holy-breeze-0bac.47-dec.workers.dev
-  skip-cert-verify: false
-  udp: true
-- name: 美国 21 @SCHPD
-  type: vless
-  server: 50.62.194.30
-  port: 8880
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  network: ws
-  tls: false
-  ws-opts:
-    path: /
-    headers:
-      Host: vms.lifetime37.workers.dev
-  skip-cert-verify: false
-  udp: true
 - name: 土耳其 01 @SCHPD
   type: vless
   server: 91.206.71.8
@@ -2142,7 +2085,20 @@ proxies:
       Host: vms.lifetime39.workers.dev
   skip-cert-verify: false
   udp: true
-- name: 英国 16 @SCHPD
+- name: 俄罗斯联邦 09 @SCHPD
+  type: vless
+  server: 185.148.107.40
+  port: 8880
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  network: ws
+  tls: false
+  ws-opts:
+    path: /
+    headers:
+      Host: vms.lifetime55.workers.dev
+  skip-cert-verify: false
+  udp: true
+- name: 英国 15 @SCHPD
   type: vless
   server: 217.163.76.118
   port: 2086
@@ -2423,7 +2379,7 @@ proxies:
     short-id: 2186a755ed67b034
   skip-cert-verify: false
   udp: true
-- name: 英国 17 @SCHPD
+- name: 英国 16 @SCHPD
   type: vless
   server: 31.76.39.217
   port: 2053
@@ -2670,6 +2626,19 @@ proxies:
       Host: forfreeuse.rtqa.ru
   skip-cert-verify: false
   udp: true
+- name: 法国 02 @SCHPD
+  type: vmess
+  server: 2001:bc8:32d7:1a9::2
+  port: 23388
+  uuid: 3a966d20-7b9d-48cc-ba2c-8d38161b6d3a
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /github.com/Alvin9999-newpac/fanqiang
+  udp: true
 - name: 巴西 03 @SCHPD
   type: vless
   server: 200.165.225.174
@@ -2698,48 +2667,30 @@ proxies:
     short-id: c0d1d1776fed0f6d
   skip-cert-verify: false
   udp: true
-- name: 其他地区 43 @SCHPD
-  type: trojan
-  server: 104.16.174.148
-  port: 443
-  password: humanity
-  sni: www.ignitelimit.com
-  skip-cert-verify: true
-  ws-opts:
-    path: /assignment
+- name: 香港 03 @SCHPD
+  type: vmess
+  server: 47.83.247.150
+  port: 800
+  uuid: 59c06976-3009-48d5-89f3-bd94d4a120a0
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
   udp: true
-- name: 其他地区 44 @SCHPD
-  type: trojan
-  server: 104.21.46.3
+- name: 香港 04 @SCHPD
+  type: vmess
+  server: u2frxj0g13vdi0wo.v.3dns.vip
   port: 443
-  password: humanity
-  sni: www.ignitelimit.com
-  skip-cert-verify: true
-  ws-opts:
-    path: /assignment
-  udp: true
-- name: 其他地区 45 @SCHPD
-  type: trojan
-  server: 104.18.152.179
-  port: 443
-  password: humanity
-  sni: www.ignitelimit.com
-  skip-cert-verify: true
-  ws-opts:
-    path: /assignment
-  udp: true
-- name: 其他地区 46 @SCHPD
-  type: vless
-  server: mybb.com
-  port: 443
-  uuid: aebe5a70-0ca3-46ce-8208-8b5bab1346ce
-  network: ws
-  servername: rayan-007.nastaran.dpdns.org
+  uuid: f23bb427c1f94373876c2f43e9f790f3
+  alterId: 0
+  cipher: auto
   tls: true
-  client-fingerprint: chrome
+  skip-cert-verify: false
+  network: ws
   ws-opts:
-    path: /
-  skip-cert-verify: true
+    path: /ws-vmess
+    headers:
+      Host: U2FRxj0G13vDI0Wo.v.3dns.vip
   udp: true
 - name: 新加坡 02 @SCHPD
   type: vless
@@ -2754,31 +2705,9 @@ proxies:
     path: /
   skip-cert-verify: true
   udp: true
-- name: 德国 09 @SCHPD
+- name: 其他地区 43 @SCHPD
   type: trojan
-  server: 45.80.111.7
-  port: 443
-  password: humanity
-  sni: www.calmlunch.com
-  skip-cert-verify: true
-  ws-opts:
-    path: /assignment
-  udp: true
-- name: 其他地区 47 @SCHPD
-  type: trojan
-  server: www.calmlunch.com
-  port: 443
-  password: humanity
-  sni: www.calmlunch.com
-  skip-cert-verify: true
-  ws-opts:
-    path: /assignment
-    headers:
-      Host: www.calmlunch.com
-  udp: true
-- name: 其他地区 48 @SCHPD
-  type: trojan
-  server: 104.16.174.12
+  server: join-telegram-channel.tirexnet.kdns.fr
   port: 443
   password: humanity
   sni: www.ignitelimit.com
@@ -2788,9 +2717,9 @@ proxies:
     headers:
       Host: www.ignitelimit.com
   udp: true
-- name: 其他地区 49 @SCHPD
+- name: 其他地区 44 @SCHPD
   type: trojan
-  server: 104.16.174.185
+  server: 104.17.111.1
   port: 443
   password: humanity
   sni: www.ignitelimit.com
@@ -2798,33 +2727,9 @@ proxies:
   ws-opts:
     path: /assignment
   udp: true
-- name: 其他地区 50 @SCHPD
+- name: 其他地区 45 @SCHPD
   type: trojan
-  server: 104.16.174.121
-  port: 443
-  password: humanity
-  sni: www.ignitelimit.com
-  skip-cert-verify: true
-  ws-opts:
-    path: /assignment
-  udp: true
-- name: 其他地区 51 @SCHPD
-  type: trojan
-  server: 198.41.223.96
-  port: 443
-  password: humanity
-  sni: www.ignitelimit.com
-  alpn:
-  - http/1.1
-  - h2
-  - h3
-  skip-cert-verify: true
-  ws-opts:
-    path: /assignment
-  udp: true
-- name: 其他地区 52 @SCHPD
-  type: trojan
-  server: 104.16.174.14
+  server: 104.18.152.246
   port: 443
   password: humanity
   sni: www.ignitelimit.com
@@ -2834,224 +2739,7 @@ proxies:
     headers:
       Host: www.ignitelimit.com
   udp: true
-- name: 其他地区 53 @SCHPD
-  type: trojan
-  server: 104.18.152.230
-  port: 443
-  password: humanity
-  sni: www.ignitelimit.com
-  skip-cert-verify: true
-  ws-opts:
-    path: /assignment
-  udp: true
-- name: 其他地区 54 @SCHPD
-  type: trojan
-  server: 172.67.74.2
-  port: 443
-  password: humanity
-  sni: www.ignitelimit.com
-  skip-cert-verify: true
-  ws-opts:
-    path: /assignment
-  udp: true
-- name: 美国 28 @SCHPD
-  type: trojan
-  server: 165.215.250.14
-  port: 443
-  password: humanity
-  sni: www.ignitelimit.com
-  skip-cert-verify: true
-  ws-opts:
-    path: /assignment
-  udp: true
-- name: 其他地区 55 @SCHPD
-  type: trojan
-  server: 104.16.174.36
-  port: 443
-  password: humanity
-  sni: www.ignitelimit.com
-  skip-cert-verify: true
-  ws-opts:
-    path: /assignment
-  udp: true
-- name: 其他地区 56 @SCHPD
-  type: trojan
-  server: 104.18.152.149
-  port: 443
-  password: humanity
-  sni: www.ignitelimit.com
-  skip-cert-verify: true
-  ws-opts:
-    path: /assignment
-  udp: true
-- name: 其他地区 57 @SCHPD
-  type: trojan
-  server: 104.17.111.3
-  port: 443
-  password: humanity
-  sni: www.ignitelimit.com
-  skip-cert-verify: true
-  ws-opts:
-    path: /assignment
-  udp: true
-- name: 其他地区 58 @SCHPD
-  type: trojan
-  server: 104.18.152.233
-  port: 443
-  password: humanity
-  sni: www.ignitelimit.com
-  skip-cert-verify: true
-  ws-opts:
-    path: /assignment
-  udp: true
-- name: 其他地区 59 @SCHPD
-  type: trojan
-  server: 104.16.174.46
-  port: 443
-  password: humanity
-  sni: www.ignitelimit.com
-  skip-cert-verify: true
-  ws-opts:
-    path: /assignment
-  udp: true
-- name: 其他地区 60 @SCHPD
-  type: trojan
-  server: 104.18.152.155
-  port: 443
-  password: humanity
-  sni: www.ignitelimit.com
-  skip-cert-verify: true
-  ws-opts:
-    path: /assignment
-    headers:
-      Host: www.ignitelimit.com
-  udp: true
-- name: 其他地区 61 @SCHPD
-  type: trojan
-  server: 104.18.152.159
-  port: 443
-  password: humanity
-  sni: www.ignitelimit.com
-  skip-cert-verify: true
-  ws-opts:
-    path: /assignment
-  udp: true
-- name: 其他地区 62 @SCHPD
-  type: trojan
-  server: 104.18.152.50
-  port: 443
-  password: humanity
-  sni: www.ignitelimit.com
-  skip-cert-verify: true
-  ws-opts:
-    path: /assignment
-    headers:
-      Host: www.ignitelimit.com
-  udp: true
-- name: 其他地区 63 @SCHPD
-  type: trojan
-  server: 104.16.174.34
-  port: 443
-  password: humanity
-  sni: www.ignitelimit.com
-  skip-cert-verify: true
-  ws-opts:
-    path: /assignment
-  udp: true
-- name: 其他地区 64 @SCHPD
-  type: trojan
-  server: 104.18.152.161
-  port: 443
-  password: humanity
-  sni: www.ignitelimit.com
-  skip-cert-verify: true
-  ws-opts:
-    path: /assignment
-    headers:
-      Host: www.ignitelimit.com
-  udp: true
-- name: 瑞典 02 @SCHPD
-  type: vless
-  server: 62.182.193.108
-  port: 2087
-  uuid: e911c552-3a98-41e0-b5fb-0dd3879887b7
-  network: ws
-  servername: vod.ensf.top
-  tls: true
-  client-fingerprint: chrome
-  ws-opts:
-    path: /api/v1/irc
-    headers:
-      Host: vod.ensf.top
-  skip-cert-verify: true
-  udp: true
-- name: 其他地区 65 @SCHPD
-  type: trojan
-  server: 104.16.174.37
-  port: 443
-  password: humanity
-  sni: www.ignitelimit.com
-  skip-cert-verify: true
-  ws-opts:
-    path: /assignment
-  udp: true
-- name: 香港 03 @SCHPD
-  type: vless
-  server: hkayydswnnds.cfooov.xyz
-  port: 38218
-  uuid: 0234cdd9-35ee-40a5-b698-9820f09a04f5
-  servername: www.apple.com
-  tls: true
-  flow: xtls-rprx-vision
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: 03hWBp-xwElEmilVxbhasf1Al0MZnvARUr4zclCV6S0
-    short-id: 30752ffd01a85649
-  skip-cert-verify: true
-  udp: true
-- name: 澳大利亚 01 @SCHPD
-  type: hysteria2
-  server: 152.69.173.189
-  port: 20000
-  password: a34f3990b69f44bfa0d32385
-  sni: rmgyvpn.rest
-  skip-cert-verify: true
-  obfs: salamander
-  obfs-password: a34f3990b69f44bfa0d32385
-  udp: true
-- name: 其他地区 66 @SCHPD
-  type: trojan
-  server: 104.18.152.244
-  port: 443
-  password: humanity
-  sni: www.ignitelimit.com
-  skip-cert-verify: true
-  ws-opts:
-    path: /assignment
-  udp: true
-- name: 其他地区 67 @SCHPD
-  type: trojan
-  server: 104.18.152.73
-  port: 443
-  password: humanity
-  sni: www.ignitelimit.com
-  skip-cert-verify: true
-  ws-opts:
-    path: /assignment
-  udp: true
-- name: 其他地区 68 @SCHPD
-  type: trojan
-  server: 104.16.174.72
-  port: 443
-  password: humanity
-  sni: www.ignitelimit.com
-  skip-cert-verify: true
-  ws-opts:
-    path: /assignment
-    headers:
-      Host: www.ignitelimit.com
-  udp: true
-- name: 其他地区 69 @SCHPD
+- name: 其他地区 46 @SCHPD
   type: trojan
   server: 104.16.174.117
   port: 443
@@ -3063,9 +2751,52 @@ proxies:
     headers:
       Host: www.ignitelimit.com
   udp: true
-- name: 其他地区 70 @SCHPD
+- name: 其他地区 47 @SCHPD
   type: trojan
-  server: 104.16.174.71
+  server: 104.18.152.229
+  port: 443
+  password: humanity
+  sni: www.ignitelimit.com
+  skip-cert-verify: true
+  ws-opts:
+    path: /assignment
+  udp: true
+- name: 其他地区 48 @SCHPD
+  type: trojan
+  server: 104.16.174.36
+  port: 443
+  password: humanity
+  sni: www.ignitelimit.com
+  skip-cert-verify: true
+  ws-opts:
+    path: /assignment
+  udp: true
+- name: 其他地区 49 @SCHPD
+  type: trojan
+  server: 104.18.152.244
+  port: 443
+  password: humanity
+  sni: www.ignitelimit.com
+  skip-cert-verify: true
+  ws-opts:
+    path: /assignment
+  udp: true
+- name: 伊朗 04 @SCHPD
+  type: vless
+  server: 185.143.233.5
+  port: 80
+  uuid: 38dd06a1-e1cb-492b-bb87-218ce05d0d67
+  network: ws
+  tls: false
+  ws-opts:
+    path: /
+    headers:
+      Host: fox-a9e04bb07a-test.apps.ir-central1.arvancaas.ir
+  skip-cert-verify: true
+  udp: true
+- name: 其他地区 50 @SCHPD
+  type: trojan
+  server: 104.17.177.143
   port: 443
   password: humanity
   sni: www.ignitelimit.com
@@ -3075,7 +2806,37 @@ proxies:
     headers:
       Host: www.ignitelimit.com
   udp: true
-- name: 其他地区 71 @SCHPD
+- name: 其他地区 51 @SCHPD
+  type: trojan
+  server: 104.21.46.3
+  port: 443
+  password: humanity
+  sni: www.ignitelimit.com
+  alpn:
+  - h3
+  - h2
+  - http/1.1
+  skip-cert-verify: true
+  ws-opts:
+    path: /assignment
+  udp: true
+- name: 其他地区 52 @SCHPD
+  type: trojan
+  server: join-telegram-channel-tirexnet.trex.kdns.fr
+  port: 443
+  password: humanity
+  sni: www.ignitelimit.com
+  alpn:
+  - h3
+  - h2
+  - http/1.1
+  skip-cert-verify: true
+  ws-opts:
+    path: /assignment
+    headers:
+      Host: www.ignitelimit.com
+  udp: true
+- name: 其他地区 53 @SCHPD
   type: trojan
   server: 104.17.111.8
   port: 443
@@ -3084,68 +2845,30 @@ proxies:
   skip-cert-verify: true
   ws-opts:
     path: /assignment
-  udp: true
-- name: 拉脱维亚 02 @SCHPD
-  type: vless
-  server: 195.135.254.15
-  port: 443
-  uuid: e911c552-3a98-41e0-b5fb-0dd3879887b7
-  network: ws
-  servername: vod.ensf.top
-  tls: true
-  client-fingerprint: chrome
-  ws-opts:
-    path: /api/v1/irc
     headers:
-      Host: vod.ensf.top
-  skip-cert-verify: true
+      Host: www.ignitelimit.com
   udp: true
-- name: 德国 10 @SCHPD
-  type: vless
-  server: 5.61.46.9
+- name: 芬兰 03 @SCHPD
+  type: hysteria2
+  server: fin14qr.wwwinternetvideo.click
   port: 443
-  uuid: e911c552-3a98-41e0-b5fb-0dd3879887b7
-  network: ws
-  servername: vod.ensf.top
-  tls: true
-  client-fingerprint: chrome
-  ws-opts:
-    path: /api/v1/irc
-    headers:
-      Host: vod.ensf.top
+  password: BPvdjudCGodsF67hRP3xgBYvcKp48coTsh6ANydLhQs=
+  sni: fin14qr.wwwinternetvideo.click
   skip-cert-verify: true
   udp: true
-- name: 德国 11 @SCHPD
-  type: vless
-  server: 85.234.100.221
-  port: 443
-  uuid: e911c552-3a98-41e0-b5fb-0dd3879887b7
-  network: ws
-  servername: vod.ensf.top
-  tls: true
-  ws-opts:
-    path: /api/v1/irc
-    headers:
-      Host: vod.ensf.top
-  skip-cert-verify: true
-  udp: true
-- name: 拉脱维亚 03 @SCHPD
-  type: vless
-  server: 195.123.210.168
-  port: 443
-  uuid: 423b1d79-08c4-403f-9d5e-c541f791b55f
-  servername: eu-west.cendora.ru
-  tls: true
-  flow: xtls-rprx-vision
-  client-fingerprint: qq
-  reality-opts:
-    public-key: m6RDw1b8R4lCaRUIzhHpy6TtX2Dhk6nyby8dWzeQqA0
-    short-id: dd3ff38418d29d22
-  skip-cert-verify: true
-  udp: true
-- name: 其他地区 72 @SCHPD
+- name: 其他地区 54 @SCHPD
   type: trojan
-  server: 104.20.6.134
+  server: 172.67.221.242
+  port: 443
+  password: humanity
+  sni: www.ignitelimit.com
+  skip-cert-verify: true
+  ws-opts:
+    path: /assignment
+  udp: true
+- name: 其他地区 55 @SCHPD
+  type: trojan
+  server: 104.17.111.4
   port: 443
   password: humanity
   sni: www.ignitelimit.com
@@ -3155,7 +2878,235 @@ proxies:
     headers:
       Host: www.ignitelimit.com
   udp: true
+- name: 其他地区 56 @SCHPD
+  type: trojan
+  server: 104.18.152.50
+  port: 443
+  password: humanity
+  sni: www.ignitelimit.com
+  skip-cert-verify: true
+  ws-opts:
+    path: /assignment
+  udp: true
+- name: 其他地区 57 @SCHPD
+  type: trojan
+  server: 188.114.97.7
+  port: 443
+  password: humanity
+  sni: www.ignitelimit.com
+  skip-cert-verify: true
+  ws-opts:
+    path: /assignment
+    headers:
+      Host: www.ignitelimit.com
+  udp: true
+- name: 其他地区 58 @SCHPD
+  type: trojan
+  server: 104.16.174.14
+  port: 443
+  password: humanity
+  sni: www.ignitelimit.com
+  skip-cert-verify: true
+  ws-opts:
+    path: /assignment
+  udp: true
+- name: 其他地区 59 @SCHPD
+  type: trojan
+  server: 104.16.174.101
+  port: 443
+  password: humanity
+  sni: www.ignitelimit.com
+  skip-cert-verify: true
+  ws-opts:
+    path: /assignment
+    headers:
+      Host: www.ignitelimit.com
+  udp: true
+- name: 其他地区 60 @SCHPD
+  type: trojan
+  server: 104.20.6.134
+  port: 443
+  password: humanity
+  sni: www.ignitelimit.com
+  skip-cert-verify: true
+  ws-opts:
+    path: /assignment
+  udp: true
+- name: 其他地区 61 @SCHPD
+  type: trojan
+  server: 104.16.174.12
+  port: 443
+  password: humanity
+  sni: www.ignitelimit.com
+  skip-cert-verify: true
+  ws-opts:
+    path: /assignment
+  udp: true
+- name: 其他地区 62 @SCHPD
+  type: trojan
+  server: 104.16.174.34
+  port: 443
+  password: humanity
+  sni: www.ignitelimit.com
+  skip-cert-verify: true
+  ws-opts:
+    path: /assignment
+  udp: true
+- name: 其他地区 63 @SCHPD
+  type: trojan
+  server: 104.16.174.185
+  port: 443
+  password: humanity
+  sni: www.ignitelimit.com
+  skip-cert-verify: true
+  ws-opts:
+    path: /assignment
+  udp: true
+- name: 其他地区 64 @SCHPD
+  type: trojan
+  server: 104.18.152.77
+  port: 443
+  password: humanity
+  sni: www.ignitelimit.com
+  skip-cert-verify: true
+  ws-opts:
+    path: /assignment
+    headers:
+      Host: www.ignitelimit.com
+  udp: true
+- name: 其他地区 65 @SCHPD
+  type: trojan
+  server: 104.18.152.103
+  port: 443
+  password: humanity
+  sni: www.ignitelimit.com
+  skip-cert-verify: true
+  ws-opts:
+    path: /assignment
+    headers:
+      Host: www.ignitelimit.com
+  udp: true
+- name: 其他地区 66 @SCHPD
+  type: trojan
+  server: 104.18.152.210
+  port: 443
+  password: humanity
+  sni: www.ignitelimit.com
+  skip-cert-verify: true
+  ws-opts:
+    path: /assignment
+  udp: true
+- name: 其他地区 67 @SCHPD
+  type: trojan
+  server: 104.16.174.37
+  port: 443
+  password: humanity
+  sni: www.ignitelimit.com
+  skip-cert-verify: true
+  ws-opts:
+    path: /assignment
+    headers:
+      Host: www.ignitelimit.com
+  udp: true
+- name: 其他地区 68 @SCHPD
+  type: trojan
+  server: 104.16.174.121
+  port: 443
+  password: humanity
+  sni: www.ignitelimit.com
+  skip-cert-verify: true
+  ws-opts:
+    path: /assignment
+    headers:
+      Host: www.ignitelimit.com
+  udp: true
+- name: 其他地区 69 @SCHPD
+  type: trojan
+  server: 104.18.152.133
+  port: 443
+  password: humanity
+  sni: www.ignitelimit.com
+  skip-cert-verify: true
+  ws-opts:
+    path: /assignment
+    headers:
+      Host: www.ignitelimit.com
+  udp: true
+- name: 其他地区 70 @SCHPD
+  type: trojan
+  server: 104.18.152.155
+  port: 443
+  password: humanity
+  sni: www.ignitelimit.com
+  skip-cert-verify: true
+  ws-opts:
+    path: /assignment
+  udp: true
+- name: 其他地区 71 @SCHPD
+  type: trojan
+  server: 104.17.111.3
+  port: 443
+  password: humanity
+  sni: www.ignitelimit.com
+  skip-cert-verify: true
+  ws-opts:
+    path: /assignment
+    headers:
+      Host: www.ignitelimit.com
+  udp: true
+- name: 其他地区 72 @SCHPD
+  type: trojan
+  server: 104.16.7.70
+  port: 443
+  password: humanity
+  sni: www.ignitelimit.com
+  skip-cert-verify: true
+  ws-opts:
+    path: /assignment
+  udp: true
 - name: 其他地区 73 @SCHPD
+  type: trojan
+  server: 104.16.174.46
+  port: 443
+  password: humanity
+  sni: www.ignitelimit.com
+  skip-cert-verify: true
+  ws-opts:
+    path: /assignment
+  udp: true
+- name: 其他地区 74 @SCHPD
+  type: trojan
+  server: 104.18.152.161
+  port: 443
+  password: humanity
+  sni: www.ignitelimit.com
+  skip-cert-verify: true
+  ws-opts:
+    path: /assignment
+    headers:
+      Host: www.ignitelimit.com
+  udp: true
+- name: 其他地区 75 @SCHPD
+  type: trojan
+  server: 104.19.229.21
+  port: 443
+  password: humanity
+  sni: www.ignitelimit.com
+  skip-cert-verify: true
+  ws-opts:
+    path: /assignment
+  udp: true
+- name: 其他地区 76 @SCHPD
+  type: trojan
+  server: 198.41.223.96
+  port: 443
+  password: humanity
+  sni: www.ignitelimit.com
+  skip-cert-verify: true
+  ws-opts:
+    path: /assignment
+  udp: true
+- name: 其他地区 77 @SCHPD
   type: trojan
   server: 104.16.174.124
   port: 443
@@ -3164,6 +3115,72 @@ proxies:
   skip-cert-verify: true
   ws-opts:
     path: /assignment
+  udp: true
+- name: 其他地区 78 @SCHPD
+  type: trojan
+  server: 104.18.152.73
+  port: 443
+  password: humanity
+  sni: www.ignitelimit.com
+  skip-cert-verify: true
+  ws-opts:
+    path: /assignment
+    headers:
+      Host: www.ignitelimit.com
+  udp: true
+- name: 其他地区 79 @SCHPD
+  type: trojan
+  server: 104.16.174.71
+  port: 443
+  password: humanity
+  sni: www.ignitelimit.com
+  skip-cert-verify: true
+  ws-opts:
+    path: /assignment
+  udp: true
+- name: 其他地区 80 @SCHPD
+  type: trojan
+  server: 104.16.174.6
+  port: 443
+  password: humanity
+  sni: www.ignitelimit.com
+  skip-cert-verify: true
+  ws-opts:
+    path: /assignment
+  udp: true
+- name: 其他地区 81 @SCHPD
+  type: trojan
+  server: 141.101.90.101
+  port: 443
+  password: humanity
+  sni: www.ignitelimit.com
+  skip-cert-verify: true
+  ws-opts:
+    path: /assignment
+  udp: true
+- name: 其他地区 82 @SCHPD
+  type: trojan
+  server: 104.18.152.179
+  port: 443
+  password: humanity
+  sni: www.ignitelimit.com
+  skip-cert-verify: true
+  ws-opts:
+    path: /assignment
+    headers:
+      Host: www.ignitelimit.com
+  udp: true
+- name: 其他地区 83 @SCHPD
+  type: trojan
+  server: 104.16.174.143
+  port: 443
+  password: humanity
+  sni: www.ignitelimit.com
+  skip-cert-verify: true
+  ws-opts:
+    path: /assignment
+    headers:
+      Host: www.ignitelimit.com
   udp: true
 - name: 塞舌尔 06 @SCHPD
   type: trojan
@@ -3175,195 +3192,9 @@ proxies:
   ws-opts:
     path: /assignment
   udp: true
-- name: 其他地区 74 @SCHPD
-  type: trojan
-  server: 104.16.174.109
-  port: 443
-  password: humanity
-  sni: www.ignitelimit.com
-  skip-cert-verify: true
-  ws-opts:
-    path: /assignment
-  udp: true
-- name: 其他地区 75 @SCHPD
-  type: trojan
-  server: join-telegram-channel-tirexnet.trex.kdns.fr
-  port: 443
-  password: humanity
-  sni: www.ignitelimit.com
-  skip-cert-verify: true
-  ws-opts:
-    path: /assignment
-  udp: true
-- name: 其他地区 76 @SCHPD
-  type: trojan
-  server: 104.19.229.21
-  port: 443
-  password: humanity
-  sni: www.ignitelimit.com
-  skip-cert-verify: true
-  ws-opts:
-    path: /assignment
-  udp: true
-- name: 其他地区 77 @SCHPD
-  type: trojan
-  server: 104.17.111.4
-  port: 443
-  password: humanity
-  sni: www.ignitelimit.com
-  skip-cert-verify: true
-  ws-opts:
-    path: /assignment
-  udp: true
-- name: 美国 29 @SCHPD
-  type: trojan
-  server: 216.24.57.1
-  port: 443
-  password: humanity
-  sni: www.ignitelimit.com
-  skip-cert-verify: true
-  ws-opts:
-    path: /assignment
-  udp: true
-- name: 其他地区 78 @SCHPD
-  type: trojan
-  server: 104.18.23.63
-  port: 443
-  password: humanity
-  sni: www.ignitelimit.com
-  skip-cert-verify: true
-  ws-opts:
-    path: /assignment
-  udp: true
-- name: 其他地区 79 @SCHPD
-  type: trojan
-  server: 104.16.174.101
-  port: 443
-  password: humanity
-  sni: www.ignitelimit.com
-  skip-cert-verify: true
-  ws-opts:
-    path: /assignment
-  udp: true
-- name: 其他地区 80 @SCHPD
-  type: vless
-  server: mfa.gov.ua
-  port: 443
-  uuid: 30610baf-4645-4c7b-9a22-0d0a0a79eab5
-  network: ws
-  servername: mao.kipfel.kdns.fr
-  tls: true
-  client-fingerprint: chrome
-  ws-opts:
-    path: /glasspanel/guest000_0_5de14443985f/
-    headers:
-      Host: mao.kipfel.kdns.fr
-  skip-cert-verify: true
-  udp: true
-- name: 荷兰 10 @SCHPD
-  type: vless
-  server: 91.232.114.148
-  port: 443
-  uuid: e911c552-3a98-41e0-b5fb-0dd3879887b7
-  network: ws
-  servername: vod.ensf.top
-  tls: true
-  ws-opts:
-    path: /api/v1/irc
-  skip-cert-verify: true
-  udp: true
-- name: 波兰 06 @SCHPD
-  type: vless
-  server: 31.59.125.49
-  port: 443
-  uuid: 423b1d79-08c4-403f-9d5e-c541f791b55f
-  servername: eu-central.cendora.ru
-  tls: true
-  flow: xtls-rprx-vision
-  client-fingerprint: firefox
-  reality-opts:
-    public-key: b-Cm9hX-3UHsS1L_lnUB6AMjuKhlN1IDdBbZ506itjI
-    short-id: 00bca5982f82d083
-  skip-cert-verify: true
-  udp: true
-- name: 新加坡 03 @SCHPD
-  type: vless
-  server: 47.130.35.116
-  port: 8888
-  uuid: e911c552-3a98-41e0-b5fb-0dd3879887b7
-  network: ws
-  servername: vod.ensf.top
-  tls: true
-  client-fingerprint: chrome
-  ws-opts:
-    path: /api/v1/irc
-    headers:
-      Host: vod.ensf.top
-  skip-cert-verify: true
-  udp: true
-- name: 新加坡 04 @SCHPD
-  type: vless
-  server: 213.35.100.31
-  port: 47112
-  uuid: e911c552-3a98-41e0-b5fb-0dd3879887b7
-  network: ws
-  servername: vod.ensf.top
-  tls: true
-  client-fingerprint: chrome
-  ws-opts:
-    path: /api/v1/irc
-    headers:
-      Host: vod.ensf.top
-  skip-cert-verify: true
-  udp: true
-- name: 新加坡 05 @SCHPD
-  type: vless
-  server: 27.50.48.59
-  port: 2096
-  uuid: e911c552-3a98-41e0-b5fb-0dd3879887b7
-  network: ws
-  servername: vod.ensf.top
-  tls: true
-  client-fingerprint: chrome
-  ws-opts:
-    path: /api/v1/irc
-    headers:
-      Host: vod.ensf.top
-  skip-cert-verify: true
-  udp: true
-- name: 其他地区 81 @SCHPD
-  type: trojan
-  server: join-telegram-channel.tirexnet.kdns.fr
-  port: 443
-  password: humanity
-  sni: www.ignitelimit.com
-  skip-cert-verify: true
-  ws-opts:
-    path: /assignment
-  udp: true
-- name: 其他地区 82 @SCHPD
-  type: trojan
-  server: ip.myip2.qzz.io
-  port: 443
-  password: humanity
-  sni: www.ignitelimit.com
-  skip-cert-verify: true
-  ws-opts:
-    path: /assignment
-  udp: true
-- name: 其他地区 83 @SCHPD
-  type: trojan
-  server: 172.67.221.242
-  port: 443
-  password: humanity
-  sni: www.ignitelimit.com
-  skip-cert-verify: true
-  ws-opts:
-    path: /assignment
-  udp: true
 - name: 其他地区 84 @SCHPD
   type: trojan
-  server: 188.114.97.7
+  server: 104.18.152.97
   port: 443
   password: humanity
   sni: www.ignitelimit.com
@@ -3380,10 +3211,12 @@ proxies:
   skip-cert-verify: true
   ws-opts:
     path: /assignment
+    headers:
+      Host: www.ignitelimit.com
   udp: true
 - name: 其他地区 86 @SCHPD
   type: trojan
-  server: 104.16.174.6
+  server: 104.18.152.159
   port: 443
   password: humanity
   sni: www.ignitelimit.com
@@ -3393,7 +3226,7 @@ proxies:
   udp: true
 - name: 其他地区 87 @SCHPD
   type: trojan
-  server: 104.18.152.113
+  server: 104.18.152.230
   port: 443
   password: humanity
   sni: www.ignitelimit.com
@@ -3403,31 +3236,27 @@ proxies:
   udp: true
 - name: 其他地区 88 @SCHPD
   type: trojan
-  server: 104.16.174.143
+  server: ip.myip2.qzz.io
   port: 443
   password: humanity
   sni: www.ignitelimit.com
   skip-cert-verify: true
   ws-opts:
     path: /assignment
-    headers:
-      Host: www.ignitelimit.com
   udp: true
 - name: 其他地区 89 @SCHPD
   type: trojan
-  server: 141.101.90.101
+  server: 104.16.174.72
   port: 443
   password: humanity
   sni: www.ignitelimit.com
   skip-cert-verify: true
   ws-opts:
     path: /assignment
-    headers:
-      Host: www.ignitelimit.com
   udp: true
 - name: 其他地区 90 @SCHPD
   type: trojan
-  server: 104.17.177.143
+  server: 104.18.152.144
   port: 443
   password: humanity
   sni: www.ignitelimit.com
@@ -3439,7 +3268,7 @@ proxies:
   udp: true
 - name: 其他地区 91 @SCHPD
   type: trojan
-  server: 104.18.152.246
+  server: 104.16.174.148
   port: 443
   password: humanity
   sni: www.ignitelimit.com
@@ -3449,7 +3278,7 @@ proxies:
   udp: true
 - name: 其他地区 92 @SCHPD
   type: trojan
-  server: 104.18.152.77
+  server: 8.6.112.0
   port: 443
   password: humanity
   sni: www.ignitelimit.com
@@ -3459,15 +3288,13 @@ proxies:
   udp: true
 - name: 其他地区 93 @SCHPD
   type: trojan
-  server: 172.67.149.60
+  server: 104.18.152.225
   port: 443
   password: humanity
   sni: www.ignitelimit.com
   skip-cert-verify: true
   ws-opts:
     path: /assignment
-    headers:
-      Host: www.ignitelimit.com
   udp: true
 - name: 其他地区 94 @SCHPD
   type: trojan
@@ -3481,7 +3308,7 @@ proxies:
   udp: true
 - name: 其他地区 95 @SCHPD
   type: trojan
-  server: 104.18.152.210
+  server: 172.67.149.60
   port: 443
   password: humanity
   sni: www.ignitelimit.com
@@ -3491,7 +3318,7 @@ proxies:
   udp: true
 - name: 其他地区 96 @SCHPD
   type: trojan
-  server: 104.18.152.187
+  server: 172.67.74.2
   port: 443
   password: humanity
   sni: www.ignitelimit.com
@@ -3501,7 +3328,7 @@ proxies:
   udp: true
 - name: 其他地区 97 @SCHPD
   type: trojan
-  server: 104.16.7.70
+  server: 104.18.152.113
   port: 443
   password: humanity
   sni: www.ignitelimit.com
@@ -3511,7 +3338,7 @@ proxies:
   udp: true
 - name: 其他地区 98 @SCHPD
   type: trojan
-  server: 104.18.152.144
+  server: 104.18.152.233
   port: 443
   password: humanity
   sni: www.ignitelimit.com
@@ -3521,7 +3348,7 @@ proxies:
   udp: true
 - name: 其他地区 99 @SCHPD
   type: trojan
-  server: 104.18.152.97
+  server: 104.18.152.187
   port: 443
   password: humanity
   sni: www.ignitelimit.com
@@ -3531,17 +3358,19 @@ proxies:
   udp: true
 - name: 其他地区 100 @SCHPD
   type: trojan
-  server: 104.18.152.229
+  server: 104.18.152.149
   port: 443
   password: humanity
   sni: www.ignitelimit.com
   skip-cert-verify: true
   ws-opts:
     path: /assignment
+    headers:
+      Host: www.ignitelimit.com
   udp: true
 - name: 其他地区 101 @SCHPD
   type: trojan
-  server: 104.18.152.103
+  server: 104.16.174.109
   port: 443
   password: humanity
   sni: www.ignitelimit.com
@@ -3550,61 +3379,6 @@ proxies:
     path: /assignment
     headers:
       Host: www.ignitelimit.com
-  udp: true
-- name: 其他地区 102 @SCHPD
-  type: trojan
-  server: 104.18.152.133
-  port: 443
-  password: humanity
-  sni: www.ignitelimit.com
-  skip-cert-verify: true
-  ws-opts:
-    path: /assignment
-    headers:
-      Host: www.ignitelimit.com
-  udp: true
-- name: 其他地区 103 @SCHPD
-  type: trojan
-  server: 8.6.112.0
-  port: 443
-  password: humanity
-  sni: www.ignitelimit.com
-  skip-cert-verify: true
-  ws-opts:
-    path: /assignment
-  udp: true
-- name: 其他地区 104 @SCHPD
-  type: trojan
-  server: 104.18.152.225
-  port: 443
-  password: humanity
-  sni: www.ignitelimit.com
-  skip-cert-verify: true
-  ws-opts:
-    path: /assignment
-  udp: true
-- name: 美国 30 @SCHPD
-  type: vless
-  server: 199.19.111.56
-  port: 443
-  uuid: e911c552-3a98-41e0-b5fb-0dd3879887b7
-  network: ws
-  servername: vod.ensf.top
-  tls: true
-  client-fingerprint: chrome
-  ws-opts:
-    path: /api/v1/irc
-    headers:
-      Host: vod.ensf.top
-  skip-cert-verify: true
-  udp: true
-- name: 美国 31 @SCHPD
-  type: hysteria2
-  server: 31.76.70.107
-  port: 8443
-  password: 523486c6-c0b5-4e5b-8896-4af2375b41cc
-  sni: quic.tyr-agentstvo.tech
-  skip-cert-verify: true
   udp: true
 - name: 阿联酋 03 @SCHPD
   type: trojan
@@ -3615,64 +3389,117 @@ proxies:
   skip-cert-verify: true
   ws-opts:
     path: /assignment
+    headers:
+      Host: www.ignitelimit.com
   udp: true
-- name: 丹麦 01 @SCHPD
+- name: 美国 28 @SCHPD
+  type: hysteria2
+  server: 31.76.70.107
+  port: 8443
+  password: 523486c6-c0b5-4e5b-8896-4af2375b41cc
+  sni: quic.tyr-agentstvo.tech
+  skip-cert-verify: true
+  udp: true
+- name: 美国 29 @SCHPD
   type: vless
-  server: 46.29.235.9
+  server: 31.76.71.133
   port: 443
-  uuid: d67af820-f54c-48ab-862c-19086357f276
-  servername: telegraf.lv
+  uuid: 80d02a71-54a5-4c5b-976d-5ee573c502af
+  servername: max.ru
   tls: true
   flow: xtls-rprx-vision
   client-fingerprint: firefox
   reality-opts:
-    public-key: dhLgVSqPBDrdbhyTS2j60LWZDGEZh-smkcjUNSic-WI
-    short-id: a1b2c3d4
+    public-key: NzaCxfbgTDajw93CJs3uFkFJzp7DWhzJIqcnzoZwGQ4
+    short-id: d68d40aba9c0394a
   skip-cert-verify: true
   udp: true
-- name: 美国 32 @SCHPD
+- name: 俄罗斯联邦 17 @SCHPD
   type: vless
-  server: 31.76.61.232
-  port: 443
-  uuid: 4829c2f5-f45a-4330-9b3c-d381b9efdbec
-  servername: policies.google.com
+  server: 168.222.194.138
+  port: 9880
+  uuid: 76186f1e-3062-4a2b-98c2-fab3c61a9511
+  network: grpc
+  servername: dl.google.com
   tls: true
-  flow: xtls-rprx-vision
   client-fingerprint: chrome
+  grpc-opts:
+    grpc-service-name: grpc-tunnel
   reality-opts:
-    public-key: CMTA5uuaIVIeqHslZMT3CbFwP8F5ysMLii72ybsTlyY
-    short-id: e2a4c6b8
+    public-key: bnRIb3Er1i-K6NGGByCO9UbGfOvu43ZoiK7ulPd1SzU
+    short-id: aabbccdd
   skip-cert-verify: true
   udp: true
-- name: 其他地区 105 @SCHPD
+- name: 美国 30 @SCHPD
   type: vless
-  server: 104.18.32.47
-  port: 80
-  uuid: bea3807d-4080-4078-a08d-747107a3426b
+  server: us.mkdir.kdns.fr
+  port: 443
+  uuid: 2cf94f4d-9d5b-49ca-81a3-ddc0529a2dac
   network: ws
-  servername: worker3.tacajop464.workers.dev
+  servername: web-jornttsa.pages.dev
+  tls: true
+  client-fingerprint: chrome
+  ws-opts:
+    path: /
+    headers:
+      Host: web-jornttsa.pages.dev
+  skip-cert-verify: true
+  udp: true
+- name: 俄罗斯联邦 18 @SCHPD
+  type: vless
+  server: 201.24.49.237
+  port: 2200
+  uuid: af412668-578c-4296-bc8c-8fac6a8d9003
+  network: ws
+  servername: rzd.ru
   tls: false
   ws-opts:
-    path: /rF4GstgkEkNbLD2B
-    headers:
-      Host: worker3.tacajop464.workers.dev
+    path: /v1
   skip-cert-verify: true
   udp: true
-- name: 拉脱维亚 04 @SCHPD
-  type: vless
-  server: 195.123.210.168
-  port: 13443
-  uuid: 423b1d79-08c4-403f-9d5e-c541f791b55f
-  servername: auto.cendora.ru
-  tls: true
-  flow: xtls-rprx-vision
-  client-fingerprint: qq
-  reality-opts:
-    public-key: gc9oXe37KCCm3J1dJ03wdGsnxPBdeEkRPOvl_t-vfVM
-    short-id: a7f3c91b2e6d84c0
+- name: 美国 31 @SCHPD
+  type: trojan
+  server: 130.250.137.171
+  port: 443
+  password: humanity
+  sni: www.ignitelimit.com
   skip-cert-verify: true
+  ws-opts:
+    path: /assignment
+  udp: true
+- name: 美国 32 @SCHPD
+  type: trojan
+  server: 165.215.250.14
+  port: 443
+  password: humanity
+  sni: www.ignitelimit.com
+  skip-cert-verify: true
+  ws-opts:
+    path: /assignment
   udp: true
 - name: 美国 33 @SCHPD
+  type: trojan
+  server: 216.24.57.1
+  port: 443
+  password: humanity
+  sni: www.ignitelimit.com
+  skip-cert-verify: true
+  ws-opts:
+    path: /assignment
+  udp: true
+- name: 其他地区 102 @SCHPD
+  type: trojan
+  server: 104.18.23.63
+  port: 443
+  password: humanity
+  sni: www.ignitelimit.com
+  skip-cert-verify: true
+  ws-opts:
+    path: /assignment
+    headers:
+      Host: www.ignitelimit.com
+  udp: true
+- name: 美国 34 @SCHPD
   type: trojan
   server: render.com
   port: 443
@@ -3682,33 +3509,41 @@ proxies:
   ws-opts:
     path: /assignment
   udp: true
-- name: 其他地区 106 @SCHPD
-  type: vless
-  server: 104.19.87.194
-  port: 443
-  uuid: 407ecce0-dc85-465f-89f5-e520e9378baf
-  network: ws
-  servername: ld.223350.xyz
-  tls: true
-  client-fingerprint: chrome
-  ws-opts:
-    path: /
-    headers:
-      Host: ld.223350.xyz
+- name: 韩国 02 @SCHPD
+  type: hysteria2
+  server: 150-230-252-217.liao.kdns.fr
+  port: 50160
+  password: 9cfc9458e48c028ec03ff86ebc71c744
+  sni: 150-230-252-217.liao.kdns.fr
   skip-cert-verify: true
   udp: true
-- name: 美国 34 @SCHPD
-  server: 130.250.137.171
+- name: 塞舌尔 07 @SCHPD
+  type: vless
+  server: germany.superbuba.top
   port: 443
-  type: trojan
-  password: humanity
-  sni: www.ignitelimit.com
+  uuid: d4cae7df-50a1-428c-bd62-881c8f3bbd90
+  servername: germany.superbuba.top
+  tls: true
+  flow: xtls-rprx-vision
+  client-fingerprint: firefox
+  reality-opts:
+    public-key: rCkSHJ7goy7ZvSlau4LfXF-QLloOJMNeMxpeeQtwtVs
+    short-id: 4fa44664f6a566d3
   skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /assignment
-    headers:
-      Host: www.ignitelimit.com
+  udp: true
+- name: 德国 09 @SCHPD
+  type: vless
+  server: 159.69.28.178
+  port: 20995
+  uuid: 20bcb7a8-c51b-4771-9686-6b4509dc9cd2
+  servername: itunes.apple.com
+  tls: true
+  flow: xtls-rprx-vision
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: GqIZ3PiZBcvHMfXhk7BDZMWhF2Q4FrGVW9sgkllXkA4
+    short-id: 6ba85179e30d4fc2
+  skip-cert-verify: true
   udp: true
 - name: 中国 01 @SCHPD
   type: vmess
@@ -3720,7 +3555,7 @@ proxies:
   tls: false
   skip-cert-verify: true
   udp: true
-- name: 新加坡 06 @SCHPD
+- name: 新加坡 03 @SCHPD
   type: vless
   server: sgp3xui.jzy88.top
   port: 54324
@@ -3741,7 +3576,7 @@ proxies:
   tls: false
   skip-cert-verify: true
   udp: true
-- name: 香港 04 @SCHPD
+- name: 香港 05 @SCHPD
   type: vmess
   server: n1747624260.4u9ma.icu
   port: 443
@@ -3772,7 +3607,7 @@ proxies:
   tls: false
   skip-cert-verify: true
   udp: true
-- name: 塞舌尔 07 @SCHPD
+- name: 塞舌尔 08 @SCHPD
   type: vless
   server: 45.196.201.55
   port: 443
@@ -3786,7 +3621,7 @@ proxies:
     short-id: c6ef72e4635d15a5
   skip-cert-verify: true
   udp: true
-- name: 香港 05 @SCHPD
+- name: 香港 06 @SCHPD
   type: vmess
   server: 47.244.120.197
   port: 44867
@@ -3807,7 +3642,7 @@ proxies:
   tls: false
   skip-cert-verify: true
   udp: true
-- name: 伊朗 04 @SCHPD
+- name: 伊朗 05 @SCHPD
   type: vless
   server: babi.amojimi.ir
   port: 33485
@@ -3825,7 +3660,7 @@ proxies:
   tls: false
   skip-cert-verify: true
   udp: true
-- name: 德国 12 @SCHPD
+- name: 德国 10 @SCHPD
   type: vless
   server: 52.57.117.158
   port: 22223
@@ -3843,7 +3678,7 @@ proxies:
   tls: false
   skip-cert-verify: true
   udp: true
-- name: 塞舌尔 08 @SCHPD
+- name: 塞舌尔 09 @SCHPD
   type: vless
   server: 45.196.201.14
   port: 443
@@ -3875,7 +3710,7 @@ proxies:
   tls: false
   skip-cert-verify: true
   udp: true
-- name: 其他地区 107 @SCHPD
+- name: 其他地区 103 @SCHPD
   type: trojan
   server: resolved-gelding.rooster465.autos
   port: 443
@@ -3894,7 +3729,7 @@ proxies:
   tls: false
   skip-cert-verify: true
   udp: true
-- name: 俄罗斯联邦 17 @SCHPD
+- name: 俄罗斯联邦 19 @SCHPD
   type: vless
   server: 46.29.163.32
   port: 29311
@@ -3902,7 +3737,7 @@ proxies:
   tls: false
   skip-cert-verify: true
   udp: true
-- name: 塞舌尔 09 @SCHPD
+- name: 塞舌尔 10 @SCHPD
   type: vless
   server: 45.196.201.105
   port: 443
@@ -3916,7 +3751,7 @@ proxies:
     short-id: c6ef72e4635d15a5
   skip-cert-verify: true
   udp: true
-- name: 塞舌尔 10 @SCHPD
+- name: 塞舌尔 11 @SCHPD
   type: vless
   server: 45.196.201.170
   port: 443
@@ -3930,7 +3765,7 @@ proxies:
     short-id: c6ef72e4635d15a5
   skip-cert-verify: true
   udp: true
-- name: 香港 06 @SCHPD
+- name: 香港 07 @SCHPD
   type: vmess
   server: 47.76.127.88
   port: 5566
@@ -3940,7 +3775,7 @@ proxies:
   tls: false
   skip-cert-verify: true
   udp: true
-- name: 塞舌尔 11 @SCHPD
+- name: 塞舌尔 12 @SCHPD
   type: vless
   server: 45.196.201.92
   port: 443
@@ -3954,7 +3789,7 @@ proxies:
     short-id: c6ef72e4635d15a5
   skip-cert-verify: true
   udp: true
-- name: 塞舌尔 12 @SCHPD
+- name: 塞舌尔 13 @SCHPD
   type: vless
   server: 45.196.201.37
   port: 443
