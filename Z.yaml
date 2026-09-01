@@ -17,22 +17,32 @@ proxy-groups:
   type: select
   proxies: &id001
   - 🇨🇳 中国 01 @SCHPD
+  - 🇩🇪 德国 01 @SCHPD
+  - 🇬🇧 英国 01 @SCHPD
   - 🇳🇱 荷兰 01 @SCHPD
   - 🇳🇱 荷兰 02 @SCHPD
   - 🇳🇱 荷兰 03 @SCHPD
   - 🇳🇱 荷兰 04 @SCHPD
+  - 🇳🇱 荷兰 05 @SCHPD
+  - 🇳🇱 荷兰 06 @SCHPD
   - 🇷🇴 罗马尼亚 01 @SCHPD
   - 🇷🇴 罗马尼亚 02 @SCHPD
   - 🇷🇴 罗马尼亚 03 @SCHPD
   - 🇷🇴 罗马尼亚 04 @SCHPD
   - 🇷🇴 罗马尼亚 05 @SCHPD
   - 🇷🇴 罗马尼亚 06 @SCHPD
+  - 🇷🇴 罗马尼亚 07 @SCHPD
+  - 🇷🇴 罗马尼亚 08 @SCHPD
+  - 🇷🇴 罗马尼亚 09 @SCHPD
+  - 🇷🇴 罗马尼亚 10 @SCHPD
+  - 🇷🇴 罗马尼亚 11 @SCHPD
   - 🇺🇸 美国 01 @SCHPD
   - 🇺🇸 美国 02 @SCHPD
   - 🇺🇸 美国 03 @SCHPD
   - 🇺🇸 美国 04 @SCHPD
   - 🇺🇸 美国 05 @SCHPD
   - 🇺🇸 美国 06 @SCHPD
+  - 🇺🇸 美国 07 @SCHPD
 - name: 自动选择
   type: url-test
   url: http://connectivitycheck.gstatic.com/generate_204
@@ -48,6 +58,14 @@ proxy-groups:
 rules:
 - MATCH,Proxy
 proxies:
+- name: 🇩🇪 德国 01 @SCHPD
+  server: 141.17.83.73
+  port: 443
+  type: http
+  tls: true
+  skip-cert-verify: true
+  udp: true
+  delay: 2222
 - name: 🇳🇱 荷兰 01 @SCHPD
   server: 84.17.47.125
   port: 9002
@@ -55,7 +73,7 @@ proxies:
   tls: true
   skip-cert-verify: true
   udp: true
-  delay: 1127
+  delay: 937
 - name: 🇳🇱 荷兰 02 @SCHPD
   server: 84.17.47.148
   port: 9002
@@ -63,7 +81,7 @@ proxies:
   tls: true
   skip-cert-verify: true
   udp: true
-  delay: 2273
+  delay: 1079
 - name: 🇳🇱 荷兰 03 @SCHPD
   server: 84.17.47.146
   port: 9002
@@ -71,7 +89,7 @@ proxies:
   tls: true
   skip-cert-verify: true
   udp: true
-  delay: 987
+  delay: 2544
 - name: 🇳🇱 荷兰 04 @SCHPD
   server: 84.17.47.149
   port: 9002
@@ -79,7 +97,24 @@ proxies:
   tls: true
   skip-cert-verify: true
   udp: true
-  delay: 1285
+  delay: 2695
+- name: 🇳🇱 荷兰 05 @SCHPD
+  server: 84.17.47.150
+  port: 9002
+  type: http
+  tls: true
+  skip-cert-verify: true
+  udp: true
+  delay: 1057
+- name: 🇳🇱 荷兰 06 @SCHPD
+  server: 82.115.6.209
+  port: 16668
+  type: http
+  password: None
+  tls: false
+  skip-cert-verify: true
+  udp: true
+  delay: 815
 - name: 🇷🇴 罗马尼亚 01 @SCHPD
   server: 193.176.84.24
   port: 9002
@@ -87,57 +122,106 @@ proxies:
   tls: true
   skip-cert-verify: true
   udp: true
-  delay: 2129
+  delay: 1252
 - name: 🇷🇴 罗马尼亚 02 @SCHPD
-  server: 193.176.84.25
+  server: 193.176.84.40
   port: 9002
   type: http
   tls: true
   skip-cert-verify: true
   udp: true
-  delay: 1103
+  delay: 1933
 - name: 🇷🇴 罗马尼亚 03 @SCHPD
+  server: 193.176.84.23
+  port: 9002
+  type: http
+  tls: true
+  skip-cert-verify: true
+  udp: true
+  delay: 1080
+- name: 🇷🇴 罗马尼亚 04 @SCHPD
   server: 193.176.84.20
   port: 9002
   type: http
   tls: true
   skip-cert-verify: true
   udp: true
-  delay: 1718
-- name: 🇷🇴 罗马尼亚 04 @SCHPD
+  delay: 1132
+- name: 🇷🇴 罗马尼亚 05 @SCHPD
   server: 193.176.84.35
   port: 9002
   type: http
   tls: true
   skip-cert-verify: true
   udp: true
-  delay: 1820
-- name: 🇷🇴 罗马尼亚 05 @SCHPD
+  delay: 1275
+- name: 🇷🇴 罗马尼亚 06 @SCHPD
   server: 193.176.84.27
   port: 9002
   type: http
   tls: true
   skip-cert-verify: true
   udp: true
-  delay: 2231
-- name: 🇷🇴 罗马尼亚 06 @SCHPD
+  delay: 1482
+- name: 🇷🇴 罗马尼亚 07 @SCHPD
   server: 193.176.84.32
   port: 9002
   type: http
   tls: true
   skip-cert-verify: true
   udp: true
-  delay: 1875
+  delay: 1314
+- name: 🇷🇴 罗马尼亚 08 @SCHPD
+  server: 193.176.84.33
+  port: 9002
+  type: http
+  tls: true
+  skip-cert-verify: true
+  udp: true
+  delay: 1107
+- name: 🇷🇴 罗马尼亚 09 @SCHPD
+  server: 193.176.84.31
+  port: 9002
+  type: http
+  password: None
+  tls: true
+  skip-cert-verify: true
+  udp: true
+  delay: 1355
+- name: 🇷🇴 罗马尼亚 10 @SCHPD
+  server: 193.176.84.21
+  port: 9002
+  type: http
+  tls: true
+  skip-cert-verify: true
+  udp: true
+  delay: 1394
+- name: 🇷🇴 罗马尼亚 11 @SCHPD
+  server: 193.176.84.22
+  port: 9002
+  type: http
+  tls: true
+  skip-cert-verify: true
+  udp: true
+  delay: 1109
 - name: 🇺🇸 美国 01 @SCHPD
-  server: goedkoopgeluid.icu
+  server: 52.55.81.168
   port: 443
   type: http
   password: None
   tls: true
   skip-cert-verify: true
   udp: true
-  delay: 1600
+  delay: 1003
 - name: 🇺🇸 美国 02 @SCHPD
+  server: fullmanfirm.icu
+  port: 443
+  type: http
+  tls: true
+  skip-cert-verify: true
+  udp: true
+  delay: 999
+- name: 🇺🇸 美国 03 @SCHPD
   server: 138.199.35.216
   port: 9002
   type: http
@@ -146,24 +230,24 @@ proxies:
   tls: true
   skip-cert-verify: true
   udp: true
-  delay: 800
-- name: 🇺🇸 美国 03 @SCHPD
+  delay: 791
+- name: 🇺🇸 美国 04 @SCHPD
   server: 38.28.193.188
   port: 443
   type: http
   tls: true
   skip-cert-verify: true
   udp: true
-  delay: 845
-- name: 🇺🇸 美国 04 @SCHPD
+  delay: 833
+- name: 🇺🇸 美国 05 @SCHPD
   server: 138.199.35.198
   port: 9002
   type: http
   tls: true
   skip-cert-verify: true
   udp: true
-  delay: 1608
-- name: 🇺🇸 美国 05 @SCHPD
+  delay: 768
+- name: 🇺🇸 美国 06 @SCHPD
   server: 138.199.35.217
   port: 9002
   type: http
@@ -172,15 +256,24 @@ proxies:
   tls: true
   skip-cert-verify: true
   udp: true
-  delay: 933
-- name: 🇺🇸 美国 06 @SCHPD
+  delay: 2042
+- name: 🇺🇸 美国 07 @SCHPD
   server: fan.365747.xyz
   port: 443
   type: http
   tls: true
   skip-cert-verify: true
   udp: true
-  delay: 982
+  delay: 811
+- name: 🇬🇧 英国 01 @SCHPD
+  server: 154.61.56.215
+  port: 3118
+  type: http
+  password: None
+  tls: false
+  skip-cert-verify: true
+  udp: true
+  delay: 2554
 - name: 🇨🇳 中国 01 @SCHPD
   server: 112.132.215.108
   type: vmess
@@ -194,5 +287,5 @@ proxies:
   http-opts: {}
   h2-opts: {}
   skip-cert-verify: true
-  delay: 228
+  delay: 195
   udp: true
