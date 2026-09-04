@@ -17,7 +17,7 @@ proxy-groups:
   type: select
   proxies: &id001
   - 🇨🇳 中国 01 @SCHPD
-  - 🇨🇳 中国 02 @SCHPD
+  - 🇯🇵 日本 01 @SCHPD
   - 🇳🇱 荷兰 01 @SCHPD
   - 🇳🇱 荷兰 02 @SCHPD
   - 🇳🇱 荷兰 03 @SCHPD
@@ -174,7 +174,7 @@ proxies:
   skip-cert-verify: true
   udp: true
   delay: 1234
-- name: 🇨🇳 中国 01 @SCHPD
+- name: 🇯🇵 日本 01 @SCHPD
   server: v4.hdacd.com
   type: vmess
   country: 🇨🇳CN
@@ -235,7 +235,7 @@ proxies:
   skip-cert-verify: true
   udp: true
   delay: 857
-- name: 🇨🇳 中国 02 @SCHPD
+- name: 🇨🇳 中国 01 @SCHPD
   server: 112.132.215.108
   type: vmess
   country: 🇨🇳CN
