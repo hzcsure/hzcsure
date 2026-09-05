@@ -17,7 +17,6 @@ proxy-groups:
   type: select
   proxies: &id001
   - 🇨🇳 中国 01 @SCHPD
-  - 🇯🇵 日本 01 @SCHPD
   - 🇳🇱 荷兰 01 @SCHPD
   - 🇳🇱 荷兰 02 @SCHPD
   - 🇳🇱 荷兰 03 @SCHPD
@@ -37,6 +36,7 @@ proxy-groups:
   - 🇺🇸 美国 02 @SCHPD
   - 🇺🇸 美国 03 @SCHPD
   - 🇺🇸 美国 04 @SCHPD
+  - 🇺🇸 美国 05 @SCHPD
 - name: 自动选择
   type: url-test
   url: http://connectivitycheck.gstatic.com/generate_204
@@ -174,7 +174,7 @@ proxies:
   skip-cert-verify: true
   udp: true
   delay: 1234
-- name: 🇯🇵 日本 01 @SCHPD
+- name: 🇺🇸 美国 01 @SCHPD
   server: v4.hdacd.com
   type: vmess
   country: 🇨🇳CN
@@ -189,7 +189,7 @@ proxies:
   skip-cert-verify: true
   delay: 1031
   udp: true
-- name: 🇺🇸 美国 01 @SCHPD
+- name: 🇺🇸 美国 02 @SCHPD
   server: voteshirleysew.club
   port: 443
   type: http
@@ -197,7 +197,7 @@ proxies:
   skip-cert-verify: true
   udp: true
   delay: 900
-- name: 🇺🇸 美国 02 @SCHPD
+- name: 🇺🇸 美国 03 @SCHPD
   server: www.361371.xyz
   type: vmess
   country: 🇺🇸US
@@ -217,7 +217,7 @@ proxies:
       HOST: www.361371.xyz
   delay: 1797
   udp: true
-- name: 🇺🇸 美国 03 @SCHPD
+- name: 🇺🇸 美国 04 @SCHPD
   server: 138.199.35.216
   port: 9002
   type: http
@@ -227,7 +227,7 @@ proxies:
   skip-cert-verify: true
   udp: true
   delay: 1699
-- name: 🇺🇸 美国 04 @SCHPD
+- name: 🇺🇸 美国 05 @SCHPD
   server: 38.28.193.188
   port: 443
   type: http
