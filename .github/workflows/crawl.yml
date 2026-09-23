@@ -30,7 +30,7 @@ jobs:
 
       - name: 过滤result.json
         run: |
-            [ -f sub/result.json ] && grep -vxF -f oo sub/result.json > oo
+            [ -f sub/result.json ] && grep -vxF -f oo sub/result.json
 
       - name: 运行抓取脚本
         working-directory: sub
