@@ -34,14 +34,16 @@ jobs:
 
       - name: 运行抓取脚本
         working-directory: sub
-        run: node crawl.js
+        run: |
+            mv result.json result.json.tmp
+            node crawl.js
         env:
           PUPPETEER_SKIP_CHROMIUM_DOWNLOAD: 'true'
 
       - name: 加密订阅链接
         run: |
           chmod +x xor-enc
-          [ -f sub/result.json ] || { echo "result.json not found"; exit 1; }
+          [ -f sub/result.json ] || { echo "result.json not found";mv result.json.tmp result.json  exit 1; }
           while IFS= read -r url; do
             [ -z "$url" ] && continue
             ./xor-enc "$url v2rayNG/1.8.0"
