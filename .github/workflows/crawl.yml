@@ -30,7 +30,8 @@ jobs:
 
       - name: 过滤result.json
         run: |
-            [ -f sub/result.json ] && grep -vxF -f sub/result.json oo > oo.tmp && mv oo.tmp oo
+            [ -f sub/result.json ] && grep -vxF -f sub/result.json oo
+            grep -vxF -f sub/result.json oo > oo.tmp && mv oo.tmp oo
 
       - name: 运行抓取脚本
         working-directory: sub
@@ -49,6 +50,7 @@ jobs:
             ./xor-enc "$url v2rayNG/1.8.0"
           done < sub/result.json > sub/result_enc.json
           mv sub/result_enc.json sub/result.json
+          cat sub/result.json
 
       - name: 上传结果文件
         uses: actions/upload-artifact@v4
