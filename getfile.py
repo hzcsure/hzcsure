@@ -74,7 +74,7 @@ DOWNLOAD_RULES = [
     {
         "channel": "wxgqlfx",
         #"filter": "video",             # 视频消息必须用 video 过滤器，document 会漏
-        "types": [".txt"],
+        "types": ["节点.txt"],
         "count": 1,
         "save_names": ["Z.txt","Y.txt","X.txt"],  # 最新->Z，次新->Y，第三->X
     },
