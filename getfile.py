@@ -71,11 +71,11 @@ def msg_display_name(msg):
 # ========================= 配置区：按需增删规则 =========================
 DOWNLOAD_RULES = [
     {
-        "channel": "1002327238192",
+        "channel": "wxgqlfx",
         #"filter": "video",             # 视频消息必须用 video 过滤器，document 会漏
-        "types": [".yaml"],
-        "count": 1,
-        "save_names": ["Z.mp4"],  # 最新->Z，次新->Y，第三->X
+        "types": [".txt"],
+        "count": 3,
+        "save_names": ["Z.txt","Y.txt","X.txt"],  # 最新->Z，次新->Y，第三->X
     },
     # {
     #     "channel": "@some_channel",        # 或 t.me 链接或数字 ID
