@@ -42,13 +42,13 @@ jobs:
            fi
            
            if [ -f ./Z.txt ]; then
-             cat ./Z.txt | grep -E ".://" *.log |grep -v http >> tmp_t.txt
+             cat ./Z.txt | grep -E ".://" |grep -v http >> tmp_t.txt
            fi
            if [ -f ./Y.txt ]; then
-             cat ./Y.txt | grep -E ".://" *.log |grep -v http >> tmp_t.txt
+             cat ./Y.txt | grep -E ".://" |grep -v http >> tmp_t.txt
            fi
            if [ -f ./X.txt ]; then
-             cat ./X.txt | grep -E ".://" *.log |grep -v http >> tmp_t.txt
+             cat ./X.txt | grep -E ".://" |grep -v http >> tmp_t.txt
            fi
            if [ -f ./tmp_t.txt ]; then
              cat ./tmp_t.txt |tail -n 200 |sort |uniq >> example.txt
