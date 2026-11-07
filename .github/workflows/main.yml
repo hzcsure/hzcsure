@@ -37,17 +37,18 @@ jobs:
            if [ -f ./Z.yaml ]; then
              ./yaml2proxy.sh Z.yaml |grep "." >> tmp.txt
            fi
-           if [ -f ./Z.txt ]; then
-             cat ./Z.txt >> tmp_t.txt
-           fi
            if [ -f ./tmp.txt ]; then
              cat ./tmp.txt |tail -n 200 |sort |uniq >> example.txt
            fi
+           
+           if [ -f ./Z.txt ]; then
+             cat ./Z.txt | grep -E ".://" *.log |grep -v http >> tmp_t.txt
+           fi
            if [ -f ./Y.txt ]; then
-             cat ./Y.txt >> tmp_t.txt
+             cat ./Y.txt | grep -E ".://" *.log |grep -v http >> tmp_t.txt
            fi
            if [ -f ./X.txt ]; then
-             cat ./X.txt >> tmp_t.txt
+             cat ./X.txt | grep -E ".://" *.log |grep -v http >> tmp_t.txt
            fi
            if [ -f ./tmp_t.txt ]; then
              cat ./tmp_t.txt |tail -n 200 |sort |uniq >> example.txt
