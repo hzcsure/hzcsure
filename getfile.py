@@ -17,6 +17,7 @@ session_string = os.environ.get("SESSION_STRING", "")
 #client = TelegramClient(StringSession(session_string), api_id, api_hash)
 chan_name_e = "c2NocGRfY2hhdAo="
 chan_name_d = base64.b64decode(chan_name_e).decode()
+print(chan_name_d)
 CHANNEL = "https://t.me/" + chan_name_d
 async def download_last_yaml():
     client = TelegramClient(StringSession(session_string), api_id, api_hash)
