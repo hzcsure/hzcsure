@@ -40,7 +40,7 @@ jobs:
            
            if [ -f ./tmp.txt ]; then
              cat ./tmp.txt > example.txt
-           if
+           fi
            cat example.txt |tail -n 400 |sort |uniq
            cat example.txt |tail -n 400 |sort |uniq > tmp.txt
            mv -f tmp.txt example.txt
