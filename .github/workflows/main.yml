@@ -38,6 +38,15 @@ jobs:
              ./yaml2proxy.sh Z.yaml |grep "." >> tmp.txt
            fi
            
+           if [ -f ./Z.txt ]; then
+             cat ./Z.txt >> tmp.txt
+           fi
+           if [ -f ./Y.txt ]; then
+             cat ./Y.txt >> tmp.txt
+           fi
+           if [ -f ./X.txt ]; then
+             cat ./X.txt >> tmp.txt
+           fi
            if [ -f ./tmp.txt ]; then
              cat ./tmp.txt > example.txt
            fi
