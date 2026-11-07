@@ -6,6 +6,7 @@ import base64
 import asyncio
 
 from telethon import TelegramClient, utils
+from telethon.sessions import StringSession
 from telethon.tl.types import (
     MessageMediaDocument, InputMessagesFilterDocument, InputMessagesFilterVideo,
     InputMessagesFilterRoundVideo, InputMessagesFilterGif, InputMessagesFilterMusic,
