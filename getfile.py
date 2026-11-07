@@ -14,8 +14,8 @@ from telethon.tl.types import (
 
 api_id = os.environ.get("API_ID", "")
 api_hash = os.environ.get("API_HASH", "")
-session_string = os.environ.get("SESSION_STRING", "")
-#client = TelegramClient(StringSession(session_string), api_id, api_hash)
+SESSION = os.path.join(BASE_DIR, "tg_cli") = os.environ.get("SESSION_STRING", "")
+#client = TelegramClient(StringSession(SESSION), api_id, api_hash)
 # 服务器端消息过滤器（rule["filter"] 字段可选值，默认 "document"）
 # 说明：InputMessagesFilterVideo 含视频与 GIF；圆形视频留言归 RoundVideo
 # （新版 TL 没有 VideoNote，勿再找）；贴纸/自定义表情不属于任何这些过滤器的文件类。
